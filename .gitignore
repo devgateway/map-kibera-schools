@@ -1,0 +1,14 @@
+# PROJECT-SPECIFIC
+
+## dev output folder
+output/
+
+
+# DEV STUFF
+
+## python bytecode
+*.py[co]
+__pycache__/
+
+## editor backup files
+*~
