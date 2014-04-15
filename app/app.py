@@ -17,7 +17,9 @@ import requests
 from cssmin import cssmin
 from flask import Flask, render_template, Markup
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
+app.config['BUILD_OUTPUT'] = 'output'
+app.config['FREEZER_DESTINATION'] = app.config['BUILD_OUTPUT']
 
 
 @app.route('/')
@@ -44,7 +46,7 @@ def blog(slug):
 @app.errorhandler(404)
 def not_found(err=None):
     """GitHub Pages not-found template."""
-    return render_template('404.html'), 404
+    return render_template('404.html'), 404 if err else 200
 
 
 def closure_compile(source):
@@ -63,7 +65,7 @@ def closure_compile(source):
 
 
 @app.context_processor
-def inject_static():
+def inject_static(_cache={}):
     tag_templates = {
         'css': '<link rel="stylesheet" href="/static/{}" />',
         'js': '<script src="/static/{}"></script>',
@@ -80,20 +82,26 @@ def inject_static():
                 source += f.read()
         return source
 
-    def save_compiled(contents, media_type):
-        contents_hash = md5.md5(contents).hexdigest()
-        filepath = 'static/{t}/{h}.{t}'.format(h=contents_hash, t=media_type)
+    def save_compiled(source_hash, source, media_type):
+        filepath = '{}/static/{}.{}'.format(app.config['BUILD_OUTPUT'], contents_hash, media_type)
         with open(filepath, 'w') as f:
-            f.write(contents)
+            f.write(source_hash)
         return filepath[len('static/'):]
+
+    def cache_compile(media_type, file_paths):
+        cache_key = frozenset([media_type] + file_paths)
+        if cache_key not in _cache:
+            source_hash, source = concatenated(file_paths)
+            contents = production_filters[media_type](source)
+            out_path = save_compiled(contents, media_type)
+            _cache[cache_key] = out_path
+        return _cache[cache_key]
 
     def static(media_type, file_paths):
         if app.debug:
             tags = '\n'.join(map(tag_templates[media_type].format, file_paths))
         else:
-            source = concatenated(file_paths)
-            contents = production_filters[media_type](source)
-            out_path = save_compiled(contents, media_type)
+            out_path = cache_compile(media_type, file_paths)
             tags = tag_templates[media_type].format(out_path)
         return Markup(tags)
 

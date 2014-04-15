@@ -13,8 +13,20 @@
 
 from flask.ext.script import Manager
 from app import app
+from flask_frozen import Freezer
 
 manager = Manager(app)
+freezer = Freezer(app, with_static_files=False)
+
+
+@manager.command
+def build():
+    freezer.freeze()
+
+
+@manager.command
+def preview():
+    freezer.run()
 
 
 @manager.command
