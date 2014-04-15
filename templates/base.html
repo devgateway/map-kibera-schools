@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ lang or 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Kibera Schools Project</title>
+    <meta name="description" content="{{ description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="author" href="/humans.txt" />
+
+    {{ static('css', [
+      'css/normalize.css',
+      'css/main.css',
+    ]) }}
+  </head>
+  <body>
+
+    {% block content %}
+    {% endblock %}
+
+    {{ static('js', [
+      'js/main.js',
+    ]) }}
+  </body>
+</html>
