@@ -150,6 +150,7 @@ def load_blog(blogs):
     }
     markdowner = Markdown(extensions=['meta'], output_format='html5')
     posts = []
+
     for blog_file, filename in blogs:
         post = {}
         html = markdowner.convert(blog_file.read())  # also loads metadata
@@ -167,7 +168,9 @@ def load_blog(blogs):
 
         posts.append(post)
         markdowner.reset()
-    # todo: sort posts by date
+
+    posts.sort(key=lambda post: post['date'], reverse=True)
+
     return posts
 
 
