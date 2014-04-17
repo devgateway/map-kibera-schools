@@ -7,7 +7,7 @@
 
     :author: Philip Schleihauf
     :copyright: © 2014 by Feedback Labs
-    :license: BSD, see LICENSE for more details.
+    :license: 
 """
 
 
