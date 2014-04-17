@@ -43,10 +43,10 @@
         <div class="footer-blogs">
           <h2>Blog Feed</h2>
           <ol>
-            {% for post in blog_posts %}
+            {% for post in content.blog %}
               <li>
-                <h3>{{ post.meta.title.0 }}</h3>
-                {{ post.content | safe }}
+                <h3>{{ post.title }}</h3>
+                {{ post.body }}
               </li>
             {% else %}
               <li>no posts :(</li>

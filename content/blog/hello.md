@@ -1,7 +1,6 @@
 Title: Hello World
-Summary: The very first post ever on this blog
 Authors: Philip Schleihauf
-Date: April 14, 2014
+Date: 2014-04-14
 
 Sunt kale chips bicycle rights post-ironic, vero messenger bag deserunt. Seitan ex tote bag, DIY 90's bicycle rights actually aliqua Banksy. Laboris keytar cornhole, fingerstache fashion axe Tumblr assumenda irure retro Bushwick seitan artisan meggings mustache. Non vero cliche, deep v chia master cleanse qui occupy nisi aesthetic nihil. Letterpress tempor polaroid, pug disrupt leggings fashion axe Bushwick vero iPhone. Chia organic pariatur, put a bird on it literally cillum occaecat. Sartorial photo booth Neutra gastropub aliqua, Blue Bottle ex banjo farm-to-table ethical duis Brooklyn.
 
