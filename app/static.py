@@ -27,7 +27,10 @@ ASSETS = {
         'sources': [
             # static/ is implied at the beginning
             'css/normalize.css',
-            'css/main.css',
+            'css/base.css',
+            'css/helpers.css',
+            'css/layout.css',
+            'css/style.css',
         ],
         'build_filters': [
             'concatenate',

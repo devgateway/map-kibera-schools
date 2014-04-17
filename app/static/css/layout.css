@@ -1,0 +1,55 @@
+/*! Kibera School Project Styles | ??? license */
+
+/*
+ * Container
+ *
+ * Wraps the whole page in a centred, 980px box.
+ */
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*
+ * Header Element
+ *
+ * A sticky header at the top of every page
+ */
+
+header {
+  background: #222;
+  color: #ccc;
+}
+
+/*
+ * Section Elements
+ *
+ * Individual pages are organized in vertical sections, marked up as sections.
+ */
+
+section {
+}
+
+/*
+ * Footer Element
+ *
+ * Big footer at the bottom of every page.
+ */
+
+footer {
+  background: #444;
+  color: #ddd;
+}
+
+
+/* =========== Padding =========== */
+
+header {
+  padding: 0.5em;
+}
+
+section,
+footer {
+  padding: 1em;
+}

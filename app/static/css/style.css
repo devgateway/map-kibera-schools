@@ -1,0 +1,26 @@
+/*! Kibera School Project Styles | ??? license */
+
+/*
+ * Colours
+ */
+header {
+  background: #222;
+  color: #ccc;
+}
+
+footer {
+  background: #444;
+  color: #ddd;
+}
+
+/*
+ * Borders
+ */
+section {
+  border: 1px solid #ccc;
+  border-width: 0 1px 1px;  /* no top border */
+}
+section:last-of-type {
+  border-bottom-width: 0;  /* no border before the footer */
+}
+
