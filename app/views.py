@@ -10,7 +10,7 @@
     :license: 
 """
 
-from flask import render_template, Markup
+from flask import render_template, Markup, abort
 from . import app
 from .content import content
 
@@ -36,10 +36,14 @@ def school(school_id):
 
 @app.route('/blog/<slug>')
 def blog(slug):
-    # open file or abort 404
-    # run it through markdown
-    # build the templating context
-    return render_template('blog-post.html')
+    post = None
+    for some_post in content['blog']:
+        if some_post['slug'] == slug:
+            post = some_post
+            break
+    if post is None:
+        abort(404)
+    return render_template('blog-post.html', post=post)
 
 
 @app.route('/404.html')
