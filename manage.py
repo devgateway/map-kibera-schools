@@ -12,21 +12,32 @@
 """
 
 from flask.ext.script import Manager
-from app import app
 from flask_frozen import Freezer
+from flask import render_template
+from app import app
 
 manager = Manager(app)
-freezer = Freezer(app, with_static_files=False)
+freezer = Freezer(app) #, with_static_files=False)  # manually do static assets
+
+
+@manager.command
+def build_static():
+    """Export the static assets to 'output'."""
 
 
 @manager.command
 def build():
+    """Export the static site to 'output'."""
+    app.config.update(FREEZING=True)  # que for static stuff to build
     freezer.freeze()
+    build_static()
 
 
 @manager.command
 def preview():
-    freezer.run()
+    """Run a local dev server to check out the exported static site."""
+    build()
+    freezer.serve()
 
 
 @manager.command
