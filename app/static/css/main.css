@@ -1,3 +1,30 @@
-body {
-  background: green;
+
+.container {
+  width: 980px;
+  margin: 0 auto;
 }
+
+
+header {
+  background: #222;
+  color: #ccc;
+}
+
+section {
+  padding: 1em;
+}
+
+footer {
+  background: #444;
+  color: #ddd;
+}
+
+.text-reset * {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+  color: inherit;
+}
+
