@@ -40,6 +40,7 @@ ASSETS = {
     'js': {
         'tag_template': '<script src="/static/{}"></script>',
         'sources': [
+            'js/plugins/log-safety.js',
             'js/main.js',
         ],
         'build_filters': [
