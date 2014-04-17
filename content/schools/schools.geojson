@@ -1,0 +1,346 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "official_name": "MBAGATHI ROAD PRIMARY SCHOOL", "lat": "-1.305458", "lon": " 36.801164" }, "geometry": { "type": "Point", "coordinates": [ 36.801164, -1.305458 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "PEACE JUNIOR SCH PRI", "lat": "-1.309139", "lon": " 36.800238" }, "geometry": { "type": "Point", "coordinates": [ 36.800238, -1.309139 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SHADRACK KIMALEL PRI SCH", "lat": "-1.30731", "lon": " 36.798052" }, "geometry": { "type": "Point", "coordinates": [ 36.798052, -1.30731 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GOLF COURSE ACADEMY", "lat": "-1.308049", "lon": " 36.796241" }, "geometry": { "type": "Point", "coordinates": [ 36.796241, -1.308049 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JOSEPH KANGETHE  PRIMARY SCH", "lat": "-1.300632", "lon": " 36.783725" }, "geometry": { "type": "Point", "coordinates": [ 36.783725, -1.300632 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "TOI PRI SCH", "lat": "-1.303054", "lon": " 36.779632" }, "geometry": { "type": "Point", "coordinates": [ 36.779632, -1.303054 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NAIROBI PENTECOSTAL CHURCH WOODLEY PRI SCH", "lat": "-1.300671", "lon": " 36.772869" }, "geometry": { "type": "Point", "coordinates": [ 36.772869, -1.300671 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST LAZARUS COMMUNITY SCH", "lat": "-1.313031", "lon": " 36.798351" }, "geometry": { "type": "Point", "coordinates": [ 36.798351, -1.313031 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CHEPOR PRI SCH", "lat": "-1.31357", "lon": " 36.794979" }, "geometry": { "type": "Point", "coordinates": [ 36.794979, -1.31357 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LIMIGOSHEP CHILDREN CENTER PRI SCH", "lat": "-1.327655", "lon": " 36.82383" }, "geometry": { "type": "Point", "coordinates": [ 36.82383, -1.327655 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CHRISCO ED CENTER PRI", "lat": "-1.30409", "lon": " 36.77617" }, "geometry": { "type": "Point", "coordinates": [ 36.77617, -1.30409 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "L, AZIZI KINDERGATEN PRI", "lat": "-1.30363", "lon": " 36.77078" }, "geometry": { "type": "Point", "coordinates": [ 36.77078, -1.30363 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MAGOSO PRIMARY", "lat": "-1.30789", "lon": " 36.79242" }, "geometry": { "type": "Point", "coordinates": [ 36.79242, -1.30789 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST. JULIETS EDUCATION CENTRE PRI SCH.", "lat": "-1.309825", "lon": " 36.78378" }, "geometry": { "type": "Point", "coordinates": [ 36.78378, -1.309825 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ANTIOCH ACADEMY PRI SCH.", "lat": "-1.305284", "lon": " 36.779213" }, "geometry": { "type": "Point", "coordinates": [ 36.779213, -1.305284 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "AL MAURAJA TUS SAIPIYAH TUS BURHANIYAH (MSB) PRI SCH.", "lat": "-1.36194", "lon": " 36.75525" }, "geometry": { "type": "Point", "coordinates": [ 36.75525, -1.36194 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GALILAYA C. O. MISSION ACADEMY PRI SCH.", "lat": "-1.30964", "lon": " 36.77521" }, "geometry": { "type": "Point", "coordinates": [ 36.77521, -1.30964 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "EUNIVERS CHILDREN PRI SCH.", "lat": "-1.31373", "lon": " 36.7903" }, "geometry": { "type": "Point", "coordinates": [ 36.7903, -1.31373 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NGONG FOREST PRIMARY SCHOOL", "lat": "-1.303246", "lon": " 36.723752" }, "geometry": { "type": "Point", "coordinates": [ 36.723752, -1.303246 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST. HANNAHS' PRI SCH.", "lat": "-1.304322", "lon": " 36.686819" }, "geometry": { "type": "Point", "coordinates": [ 36.686819, -1.304322 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "FOREST VIEW ACADEMY PRI", "lat": "-1.29856", "lon": " 36.680334" }, "geometry": { "type": "Point", "coordinates": [ 36.680334, -1.29856 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST. ELIZABETH ACADEMY PRI", "lat": "-1.323838", "lon": " 36.705324" }, "geometry": { "type": "Point", "coordinates": [ 36.705324, -1.323838 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST. MARYS KAREN PRI", "lat": "-1.322661", "lon": " 36.710275" }, "geometry": { "type": "Point", "coordinates": [ 36.710275, -1.322661 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "OUR LADY OF PEACE PRI", "lat": "-1.322535", "lon": " 36.709386" }, "geometry": { "type": "Point", "coordinates": [ 36.709386, -1.322535 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HILLCREST PRI", "lat": "-1.33816", "lon": " 36.733392" }, "geometry": { "type": "Point", "coordinates": [ 36.733392, -1.33816 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BUNKA AND BIDDLES PRI", "lat": "-1.330615", "lon": " 36.734534" }, "geometry": { "type": "Point", "coordinates": [ 36.734534, -1.330615 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GLORY PRI SCH KAREN", "lat": "-1.337229", "lon": " 36.736263" }, "geometry": { "type": "Point", "coordinates": [ 36.736263, -1.337229 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "DON BOSCO PRI", "lat": "-1.324824", "lon": " 36.740961" }, "geometry": { "type": "Point", "coordinates": [ 36.740961, -1.324824 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KAREN C PRI SCH", "lat": "-1.335687", "lon": " 36.741317" }, "geometry": { "type": "Point", "coordinates": [ 36.741317, -1.335687 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HERITAGE SCH OF KENYA NUR", "lat": "-1.338473", "lon": " 36.747973" }, "geometry": { "type": "Point", "coordinates": [ 36.747973, -1.338473 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NAIROBI ACADEMY PRI", "lat": "-1.337542", "lon": " 36.750791" }, "geometry": { "type": "Point", "coordinates": [ 36.750791, -1.337542 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "AL MADRASA PRI", "lat": "-1.361877", "lon": " 36.75703" }, "geometry": { "type": "Point", "coordinates": [ 36.75703, -1.361877 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CHURCH OF THE ROCK ACADEMY- PRI", "lat": "-1.357973", "lon": " 36.725311" }, "geometry": { "type": "Point", "coordinates": [ 36.725311, -1.357973 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST FRANCIS INTEGRATED PRI SCH", "lat": "-1.371604", "lon": " 36.744242" }, "geometry": { "type": "Point", "coordinates": [ 36.744242, -1.371604 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KILIMANI JUNIOR ACADEMY", "lat": "-1.362155", "lon": " 36.744474" }, "geometry": { "type": "Point", "coordinates": [ 36.744474, -1.362155 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "THE NAIROBI JAPANESE SCH-ELEMENTARY", "lat": "-1.33313", "lon": " 36.750881" }, "geometry": { "type": "Point", "coordinates": [ 36.750881, -1.33313 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SHILIDA ACADEMY-PRI", "lat": "-1.334885", "lon": " 36.755387" }, "geometry": { "type": "Point", "coordinates": [ 36.755387, -1.334885 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BOMA PARK PRI SCH", "lat": "-1.337619", "lon": " 36.765773" }, "geometry": { "type": "Point", "coordinates": [ 36.765773, -1.337619 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BROOKHOUSE SCHOOLS-PRI", "lat": "-1.342063", "lon": " 36.764667" }, "geometry": { "type": "Point", "coordinates": [ 36.764667, -1.342063 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BANDA SCHOOL-PRI", "lat": "-1.363317", "lon": " 36.765239" }, "geometry": { "type": "Point", "coordinates": [ 36.765239, -1.363317 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LANGATA BARRACKS PRI SCH", "lat": "-1.327767", "lon": " 36.787317" }, "geometry": { "type": "Point", "coordinates": [ 36.787317, -1.327767 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LANGATA WEST PRI  SCH", "lat": "-1.320422", "lon": " 36.779689" }, "geometry": { "type": "Point", "coordinates": [ 36.779689, -1.320422 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LANGATA JUNIOR ACADEMY", "lat": "-1.326415", "lon": " 36.781469" }, "geometry": { "type": "Point", "coordinates": [ 36.781469, -1.326415 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "PCEA LANGATA PRI SCH", "lat": "-1.327425", "lon": " 36.781245" }, "geometry": { "type": "Point", "coordinates": [ 36.781245, -1.327425 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "TALENT ACADEMY PRI.", "lat": "-1.321777", "lon": " 36.784832" }, "geometry": { "type": "Point", "coordinates": [ 36.784832, -1.321777 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NGEI PRI SCH", "lat": "-1.320915", "lon": " 36.784993" }, "geometry": { "type": "Point", "coordinates": [ 36.784993, -1.320915 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MALEZI SCHOOL PRI", "lat": "-1.318627", "lon": " 36.787432" }, "geometry": { "type": "Point", "coordinates": [ 36.787432, -1.318627 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "UHURU GARDENS PRI SCH", "lat": "-1.325352", "lon": " 36.787831" }, "geometry": { "type": "Point", "coordinates": [ 36.787831, -1.325352 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LANGATA ROAD PRI SCH", "lat": "-1.314933", "lon": " 36.811195" }, "geometry": { "type": "Point", "coordinates": [ 36.811195, -1.314933 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MADARAKA PRI SCH", "lat": "-1.305902", "lon": " 36.815477" }, "geometry": { "type": "Point", "coordinates": [ 36.815477, -1.305902 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JONATHAN GLOAG ACADEMY", "lat": "-1.305902", "lon": " 36.815477" }, "geometry": { "type": "Point", "coordinates": [ 36.815477, -1.305902 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "FUNGUO PRI SCH", "lat": "-1.309911", "lon": " 36.809504" }, "geometry": { "type": "Point", "coordinates": [ 36.809504, -1.309911 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ALL SAINTS CATHEDRAL PRI SCH", "lat": "-1.308008", "lon": " 36.809906" }, "geometry": { "type": "Point", "coordinates": [ 36.809906, -1.308008 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NEW HOPE OUTREACH MINISTRIES PRI SCH.", "lat": "-1.307451", "lon": " 36.811087" }, "geometry": { "type": "Point", "coordinates": [ 36.811087, -1.307451 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SHREE CUTCHI LEVA PATEL PRI", "lat": "-1.306154", "lon": " 36.822622" }, "geometry": { "type": "Point", "coordinates": [ 36.822622, -1.306154 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MOI EDUCATIONAL CENTER- PRI", "lat": "-1.310965", "lon": " 36.81853" }, "geometry": { "type": "Point", "coordinates": [ 36.81853, -1.310965 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NAIROBI MUSLIM ACADEMY- PRI", "lat": "-1.309647", "lon": " 36.822695" }, "geometry": { "type": "Point", "coordinates": [ 36.822695, -1.309647 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NAIROBI SOUTH PRI", "lat": "-1.3113", "lon": " 36.822745" }, "geometry": { "type": "Point", "coordinates": [ 36.822745, -1.3113 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "FAULU ACADEMY PRI SCH", "lat": "-1.309842", "lon": " 36.825405" }, "geometry": { "type": "Point", "coordinates": [ 36.825405, -1.309842 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "WINKA ACADEMY", "lat": "-1.309622", "lon": " 36.825694" }, "geometry": { "type": "Point", "coordinates": [ 36.825694, -1.309622 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KONGONI PRI SCH", "lat": "-1.309662", "lon": " 36.827137" }, "geometry": { "type": "Point", "coordinates": [ 36.827137, -1.309662 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KHALSA PRI SCH", "lat": "-1.312845", "lon": " 36.830039" }, "geometry": { "type": "Point", "coordinates": [ 36.830039, -1.312845 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST ANNAH'S PRIMARY", "lat": "-1.31351", "lon": " 36.827713" }, "geometry": { "type": "Point", "coordinates": [ 36.827713, -1.31351 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HAPPY HOUSE ACADEMY PRI", "lat": "-1.324844", "lon": " 36.836495" }, "geometry": { "type": "Point", "coordinates": [ 36.836495, -1.324844 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BELLEVUE PRIMARY", "lat": "-1.320852", "lon": " 36.825927" }, "geometry": { "type": "Point", "coordinates": [ 36.825927, -1.320852 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "THREE BELLS ACADEMY", "lat": "-1.303987", "lon": " 36.769628" }, "geometry": { "type": "Point", "coordinates": [ 36.769628, -1.303987 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CLIQUE NINE ACADEMY PRI SCH.", "lat": "-1.304333", "lon": " 36.770027" }, "geometry": { "type": "Point", "coordinates": [ 36.770027, -1.304333 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JOY ACADEMY PRIMARY", "lat": "-1.305782", "lon": " 36.771049" }, "geometry": { "type": "Point", "coordinates": [ 36.771049, -1.305782 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CECILIA ACADEMY", "lat": "-1.307671", "lon": " 36.771095" }, "geometry": { "type": "Point", "coordinates": [ 36.771095, -1.307671 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST MICHAELS HOLY UNITY  PRIMARY SCH", "lat": "-1.308223", "lon": " 36.771274" }, "geometry": { "type": "Point", "coordinates": [ 36.771274, -1.308223 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "AYANI ESTATE PRI SCH", "lat": "-1.310756", "lon": " 36.775934" }, "geometry": { "type": "Point", "coordinates": [ 36.775934, -1.310756 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "OLYMPIC PRI SCH", "lat": "-1.310756", "lon": " 36.779531" }, "geometry": { "type": "Point", "coordinates": [ 36.779531, -1.310756 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "PALM OLIVE ACADEMY", "lat": "-1.311195", "lon": " 36.778697" }, "geometry": { "type": "Point", "coordinates": [ 36.778697, -1.311195 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "RAILA EDUCATIONAL CENTER-PRIMARY", "lat": "-1.30988", "lon": " 36.782858" }, "geometry": { "type": "Point", "coordinates": [ 36.782858, -1.30988 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "DANA ACADEMY PE PRIMARY", "lat": "-1.306234", "lon": " 36.774189" }, "geometry": { "type": "Point", "coordinates": [ 36.774189, -1.306234 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SWEET VALLEY PRI SCH", "lat": "-1.30495", "lon": " 36.775597" }, "geometry": { "type": "Point", "coordinates": [ 36.775597, -1.30495 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "TENDERLINGS PRI SCH", "lat": "-1.306151", "lon": " 36.775464" }, "geometry": { "type": "Point", "coordinates": [ 36.775464, -1.306151 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HAPPY KIDS PRI SCH", "lat": "-1.30766", "lon": " 36.775208" }, "geometry": { "type": "Point", "coordinates": [ 36.775208, -1.30766 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SKYVIEW PRI. SCH", "lat": "-1.307092", "lon": " 36.77647" }, "geometry": { "type": "Point", "coordinates": [ 36.77647, -1.307092 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JOYSPRING ED CENTER- PRI. SCH", "lat": "-1.30949", "lon": " 36.774028" }, "geometry": { "type": "Point", "coordinates": [ 36.774028, -1.30949 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CHRISTIAN HOPE NET ST CATHERINE PRI.", "lat": "-1.312752", "lon": " 36.77438" }, "geometry": { "type": "Point", "coordinates": [ 36.77438, -1.312752 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SOWETO ACADEMY  - PRI", "lat": "-1.313557", "lon": " 36.77483" }, "geometry": { "type": "Point", "coordinates": [ 36.77483, -1.313557 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SODA ACADEMY- PRI SCH", "lat": "-1.310409", "lon": " 36.75456" }, "geometry": { "type": "Point", "coordinates": [ 36.75456, -1.310409 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NEW DIRECTION PRI SCH", "lat": "-1.308774", "lon": " 36.776788" }, "geometry": { "type": "Point", "coordinates": [ 36.776788, -1.308774 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "FLORENCE ACADEMY- PRI", "lat": "-1.309573", "lon": " 36.776351" }, "geometry": { "type": "Point", "coordinates": [ 36.776351, -1.309573 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "REDROSE ACADEMY", "lat": "-1.309801", "lon": " 36.776493" }, "geometry": { "type": "Point", "coordinates": [ 36.776493, -1.309801 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KENYA ADONAIMASTERS & SERVANTS OF CHILDREN- PRI", "lat": "-1.310104", "lon": " 36.776538" }, "geometry": { "type": "Point", "coordinates": [ 36.776538, -1.310104 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "TUNZA CHILDREN CENTRE-PRI SCH", "lat": "-1.309925", "lon": " 36.776112" }, "geometry": { "type": "Point", "coordinates": [ 36.776112, -1.309925 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "RFC CENTER PRI SCH", "lat": "-1.310389", "lon": " 36.776681" }, "geometry": { "type": "Point", "coordinates": [ 36.776681, -1.310389 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "OLYMPIC ACADEMY- PRI SCH", "lat": "-1.312149", "lon": " 36.776944" }, "geometry": { "type": "Point", "coordinates": [ 36.776944, -1.312149 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SPURGEONS ACADEMY", "lat": "-1.311901", "lon": " 36.779476" }, "geometry": { "type": "Point", "coordinates": [ 36.779476, -1.311901 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JEREMIC ADVENTIST PRI. SCH.", "lat": "-1.309527", "lon": " 36.779913" }, "geometry": { "type": "Point", "coordinates": [ 36.779913, -1.309527 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KISCE PRI SCH", "lat": "-1.311616", "lon": " 36.780039" }, "geometry": { "type": "Point", "coordinates": [ 36.780039, -1.311616 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HIS IMPERIAL MAJESTY PRIMARY SCH", "lat": "-1.311989", "lon": " 36.780632" }, "geometry": { "type": "Point", "coordinates": [ 36.780632, -1.311989 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NAZARENE SELF HELP PRI SCH", "lat": "-1.31311", "lon": " 36.777336" }, "geometry": { "type": "Point", "coordinates": [ 36.777336, -1.31311 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HOLY TRINITY CHURCH PRI. SCH", "lat": "-1.304373", "lon": " 36.782482" }, "geometry": { "type": "Point", "coordinates": [ 36.782482, -1.304373 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "OPTIMISTIC ED CENTER PRI SCH.", "lat": "-1.305788", "lon": " 36.783918" }, "geometry": { "type": "Point", "coordinates": [ 36.783918, -1.305788 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "RESTORATION ACADEMY- PRI.", "lat": "-1.304776", "lon": " 36.780399" }, "geometry": { "type": "Point", "coordinates": [ 36.780399, -1.304776 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "RIZIKI DAY CARE- PRI", "lat": "-1.304776", "lon": " 36.780399" }, "geometry": { "type": "Point", "coordinates": [ 36.780399, -1.304776 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LITTLE PRINCE PRI SCH.", "lat": "-1.305221", "lon": " 36.778719" }, "geometry": { "type": "Point", "coordinates": [ 36.778719, -1.305221 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GREEN PASTURES PRI. SCH", "lat": "-1.308223", "lon": " 36.78302" }, "geometry": { "type": "Point", "coordinates": [ 36.78302, -1.308223 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KIBERA PRI. SCH.", "lat": "-1.307792", "lon": " 36.783362" }, "geometry": { "type": "Point", "coordinates": [ 36.783362, -1.307792 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST JULIUS PRIMARY SCH", "lat": "-1.309856", "lon": " 36.783821" }, "geometry": { "type": "Point", "coordinates": [ 36.783821, -1.309856 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "STARA KICAK RESCUE CENTER & PRI SCH", "lat": "-1.309227", "lon": " 36.785128" }, "geometry": { "type": "Point", "coordinates": [ 36.785128, -1.309227 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "AKILI COMPLEX PRI SCH", "lat": "-1.307718", "lon": " 36.788155" }, "geometry": { "type": "Point", "coordinates": [ 36.788155, -1.307718 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "RISA CHILDRENS CENTER PRI", "lat": "-1.307718", "lon": " 36.788657" }, "geometry": { "type": "Point", "coordinates": [ 36.788657, -1.307718 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HURUMA KIBERA PRI. SCH", "lat": "-1.30724", "lon": " 36.788968" }, "geometry": { "type": "Point", "coordinates": [ 36.788968, -1.30724 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CAVALRY PRI. SCH.", "lat": "-1.306231", "lon": " 36.789141" }, "geometry": { "type": "Point", "coordinates": [ 36.789141, -1.306231 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MAKINA BAPTIST PRI. SCH", "lat": "-1.305835", "lon": " 36.789196" }, "geometry": { "type": "Point", "coordinates": [ 36.789196, -1.305835 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MAKINA SELF HELP PRI. SCH.", "lat": "-1.305073", "lon": " 36.78914" }, "geometry": { "type": "Point", "coordinates": [ 36.78914, -1.305073 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NEW ADVENTURE PRI. SCH", "lat": "-1.305218", "lon": " 36.78946" }, "geometry": { "type": "Point", "coordinates": [ 36.78946, -1.305218 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KICOSHEP PRI. SCH", "lat": "-1.306744", "lon": " 36.79114" }, "geometry": { "type": "Point", "coordinates": [ 36.79114, -1.306744 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MASHIMONI FRIENDS PRI. SCH", "lat": "-1.307029", "lon": " 36.790792" }, "geometry": { "type": "Point", "coordinates": [ 36.790792, -1.307029 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MASHIMONI PRI SCH.", "lat": "-1.307391", "lon": " 36.790351" }, "geometry": { "type": "Point", "coordinates": [ 36.790351, -1.307391 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GOODNEWS ACADEMY- PRI", "lat": "-1.307009", "lon": " 36.7931221" }, "geometry": { "type": "Point", "coordinates": [ 36.7931221, -1.307009 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JAKES CENTER- PRI. SCH", "lat": "-1.307206", "lon": " 36.793986" }, "geometry": { "type": "Point", "coordinates": [ 36.793986, -1.307206 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "FRANK EDUCATIONAL CENTER - PRIMARY SCH.", "lat": "-1.30793", "lon": " 36.795594" }, "geometry": { "type": "Point", "coordinates": [ 36.795594, -1.30793 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GLORY PRI. SCH", "lat": "-1.308486", "lon": " 36.795544" }, "geometry": { "type": "Point", "coordinates": [ 36.795544, -1.308486 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KIBERA CHURCH OF GOD PRI SCH", "lat": "-1.308289", "lon": " 36.794175" }, "geometry": { "type": "Point", "coordinates": [ 36.794175, -1.308289 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LAINI SABA PRI. SCH", "lat": "-1.307685", "lon": " 36.793546" }, "geometry": { "type": "Point", "coordinates": [ 36.793546, -1.307685 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MASHIMONI SQUATTERS PRI. SCH", "lat": "-1.309757", "lon": " 36.789668" }, "geometry": { "type": "Point", "coordinates": [ 36.789668, -1.309757 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KISUMU NDOGO PRI SCH", "lat": "-1.310996", "lon": " 36.788292" }, "geometry": { "type": "Point", "coordinates": [ 36.788292, -1.310996 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LINDI PRI. SCH", "lat": "-1.312024", "lon": " 36.790161" }, "geometry": { "type": "Point", "coordinates": [ 36.790161, -1.312024 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ANWARJUNOIR ACADEMY", "lat": "-1.311783", "lon": " 36.792589" }, "geometry": { "type": "Point", "coordinates": [ 36.792589, -1.311783 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SILOAM FRIENDS MINISTRIES ACADEMY- PRI", "lat": "-1.314477", "lon": " 36.796953" }, "geometry": { "type": "Point", "coordinates": [ 36.796953, -1.314477 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "DRUG FIGHTERS PRI SCH", "lat": "-1.310584", "lon": " 36.792426" }, "geometry": { "type": "Point", "coordinates": [ 36.792426, -1.310584 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MARANATHA LAINI SABA PRI SCH", "lat": "-1.310351", "lon": " 36.792681" }, "geometry": { "type": "Point", "coordinates": [ 36.792681, -1.310351 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HOPE RESTORATION PRI SCH", "lat": "-1.309019", "lon": " 36.792088" }, "geometry": { "type": "Point", "coordinates": [ 36.792088, -1.309019 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "PATMOS PRI SCH", "lat": "-1.308374", "lon": " 36.791867" }, "geometry": { "type": "Point", "coordinates": [ 36.791867, -1.308374 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST JOHNS ESCAPE PRI SCH", "lat": "-1.307446", "lon": " 36.791408" }, "geometry": { "type": "Point", "coordinates": [ 36.791408, -1.307446 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KIBERA FREE METHODIST ACADEMY", "lat": "-1.310417", "lon": " 36.793867" }, "geometry": { "type": "Point", "coordinates": [ 36.793867, -1.310417 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SOWETO BAPTIST PRI SCH", "lat": "-1.312875", "lon": " 36.802638" }, "geometry": { "type": "Point", "coordinates": [ 36.802638, -1.312875 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "VICTORIA HOPE CHILDREN CENTRE PRI SCH", "lat": "-1.313157", "lon": " 36.802069" }, "geometry": { "type": "Point", "coordinates": [ 36.802069, -1.313157 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KIBERA BLESSED ACADEMY - PRI", "lat": "-1.313058", "lon": " 36.801083" }, "geometry": { "type": "Point", "coordinates": [ 36.801083, -1.313058 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST GABRIEL PRI SCH", "lat": "-1.314088", "lon": " 36.799257" }, "geometry": { "type": "Point", "coordinates": [ 36.799257, -1.314088 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "UNDUGU BASIC ED PROGRAMME KIBERA", "lat": "-1.314793", "lon": " 36.799025" }, "geometry": { "type": "Point", "coordinates": [ 36.799025, -1.314793 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KIBERA SILANGA USHIRIKA GROUP PRI SCH", "lat": "-1.315975", "lon": " 36.797908" }, "geometry": { "type": "Point", "coordinates": [ 36.797908, -1.315975 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BEMACA ACADEMY - PRI", "lat": "-1.314811", "lon": " 36.794189" }, "geometry": { "type": "Point", "coordinates": [ 36.794189, -1.314811 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST JOHN SCH KIBREA PRI", "lat": "-1.316038", "lon": " 36.795264" }, "geometry": { "type": "Point", "coordinates": [ 36.795264, -1.316038 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST PHILIPE PRI SCH", "lat": "-1.316379", "lon": " 36.793574" }, "geometry": { "type": "Point", "coordinates": [ 36.793574, -1.316379 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "KIBERA SILANGA BIBLE BAPTIST PRI SCH", "lat": "-1.315809", "lon": " 36.793682" }, "geometry": { "type": "Point", "coordinates": [ 36.793682, -1.315809 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MOC PRI SCH", "lat": "-1.313182", "lon": " 36.794365" }, "geometry": { "type": "Point", "coordinates": [ 36.794365, -1.313182 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LINDI USHIRIKA WA USAFI NA MAENDELEO-PRI SCH", "lat": "-1.312411", "lon": " 36.789482" }, "geometry": { "type": "Point", "coordinates": [ 36.789482, -1.312411 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST JUDY ACADEMY PRI SCH.", "lat": "-1.311957", "lon": " 36.7811161" }, "geometry": { "type": "Point", "coordinates": [ 36.7811161, -1.311957 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BETHEL CHILDREN CENTRE PRI SCH", "lat": "-1.311743", "lon": " 36.783035" }, "geometry": { "type": "Point", "coordinates": [ 36.783035, -1.311743 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BARAKA ZA IBRAHIM CHLDREN CENTER-PRI SCH", "lat": "-1.312401", "lon": " 36.783829" }, "geometry": { "type": "Point", "coordinates": [ 36.783829, -1.312401 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CANA JUNOIR ACADEMY PRI", "lat": "-1.312382", "lon": " 36.784524" }, "geometry": { "type": "Point", "coordinates": [ 36.784524, -1.312382 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "NEEMA PRI SCH", "lat": "-1.312373", "lon": " 36.78547" }, "geometry": { "type": "Point", "coordinates": [ 36.78547, -1.312373 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GATWEKERA MISSIONARIES OF CHARITY PRI SCH", "lat": "-1.312258", "lon": " 36.78161" }, "geometry": { "type": "Point", "coordinates": [ 36.78161, -1.312258 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "GUUM PRI SCH", "lat": "-1.313273", "lon": " 36.781421" }, "geometry": { "type": "Point", "coordinates": [ 36.781421, -1.313273 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST CHARLES LWANGA PRI SCH", "lat": "-1.31615", "lon": " 36.780411" }, "geometry": { "type": "Point", "coordinates": [ 36.780411, -1.31615 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ANAJALI PRI SCH", "lat": "-1.316309", "lon": " 36.778494" }, "geometry": { "type": "Point", "coordinates": [ 36.778494, -1.316309 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST CATHERINE COMM CENTER PRI SCH", "lat": "-1.316309", "lon": " 36.778494" }, "geometry": { "type": "Point", "coordinates": [ 36.778494, -1.316309 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MISSIONARIES OF CHARITY BROTHERS PRI SCH", "lat": "-1.307214", "lon": " 36.77183" }, "geometry": { "type": "Point", "coordinates": [ 36.77183, -1.307214 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "JAMII ACADEMY PRI", "lat": "-1.311287", "lon": " 36.78057" }, "geometry": { "type": "Point", "coordinates": [ 36.78057, -1.311287 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "DALUZA PRI SCH", "lat": "-1.311754", "lon": " 36.779994" }, "geometry": { "type": "Point", "coordinates": [ 36.779994, -1.311754 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SEED JUNIOR ACADEMY PRI", "lat": "-1.316141", "lon": " 36.779135" }, "geometry": { "type": "Point", "coordinates": [ 36.779135, -1.316141 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HOYWICK ACADEMY PRI", "lat": "-1.316341", "lon": " 36.778698" }, "geometry": { "type": "Point", "coordinates": [ 36.778698, -1.316341 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "BETHSAIDA ACADEMY PRI", "lat": "-1.316668", "lon": " 36.777584" }, "geometry": { "type": "Point", "coordinates": [ 36.777584, -1.316668 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "LIFESPRING CHRISTIAN ACADMY PRI", "lat": "-1.314553", "lon": " 36.786538" }, "geometry": { "type": "Point", "coordinates": [ 36.786538, -1.314553 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "WHITE STAR ACADEMY PRI", "lat": "-1.318465", "lon": " 36.798216" }, "geometry": { "type": "Point", "coordinates": [ 36.798216, -1.318465 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MITUMBA PRI SCH", "lat": "-1.324708", "lon": " 36.821601" }, "geometry": { "type": "Point", "coordinates": [ 36.821601, -1.324708 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "REM SCH PRI", "lat": "-1.325198", "lon": " 36.822693" }, "geometry": { "type": "Point", "coordinates": [ 36.822693, -1.325198 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "SAOMI ACADEMY PRI", "lat": "-1.327867", "lon": " 36.824287" }, "geometry": { "type": "Point", "coordinates": [ 36.824287, -1.327867 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "MERCIFUL REDEEMER HOME ACADEMY PRI", "lat": "-1.327872", "lon": " 36.823678" }, "geometry": { "type": "Point", "coordinates": [ 36.823678, -1.327872 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "CHAMREC CHILDRENS CENTER PRI", "lat": "-1.327872", "lon": " 36.823678" }, "geometry": { "type": "Point", "coordinates": [ 36.823678, -1.327872 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "WHITE STAR ACADEMY- HIGHRISE PRI", "lat": "-1.313587", "lon": " 36.802924" }, "geometry": { "type": "Point", "coordinates": [ 36.802924, -1.313587 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "ST AUGUSTUS PRI SCH", "lat": "-1.312037", "lon": " 36.789535" }, "geometry": { "type": "Point", "coordinates": [ 36.789535, -1.312037 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HOUSE OF HOPE PRI SCH", "lat": "-1.347783", "lon": " 36.902044" }, "geometry": { "type": "Point", "coordinates": [ 36.902044, -1.347783 ] } }
+,
+{ "type": "Feature", "properties": { "official_name": "HOUSE OF HOPE PRI SCH", "lat": "-1.347783", "lon": " 36.902044" }, "geometry": { "type": "Point", "coordinates": [ 36.902044, -1.347783 ] } }
+
+]
+}
