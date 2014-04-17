@@ -43,7 +43,14 @@
         <div class="footer-blogs">
           <h2>Blog Feed</h2>
           <ol>
-            <li>This week in open data and citizen engagement: adfasd fasdf</li>
+            {% for post in blog_posts %}
+              <li>
+                <h3>{{ post.meta.title.0 }}</h3>
+                {{ post.content | safe }}
+              </li>
+            {% else %}
+              <li>no posts :(</li>
+            {% endfor %}
           </ol>
           <h2 class="something">Lorem opsum dolor sit amet, consectetur elit.</h2>
         </div>

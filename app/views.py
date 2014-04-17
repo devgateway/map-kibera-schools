@@ -12,7 +12,13 @@
 
 from flask import render_template, Markup
 from . import app
-from .content import blog, data, stories
+from .content import blog_posts, data, stories
+
+
+@app.context_processor
+def inject_static():
+    """Inject blog posts for the footer into all templates"""
+    return {'blog_posts': blog_posts}
 
 
 @app.route('/')
