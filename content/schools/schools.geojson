@@ -339,8 +339,6 @@
 { "type": "Feature", "properties": { "official_name": "ST AUGUSTUS PRI SCH", "lat": "-1.312037", "lon": " 36.789535" }, "geometry": { "type": "Point", "coordinates": [ 36.789535, -1.312037 ] } }
 ,
 { "type": "Feature", "properties": { "official_name": "HOUSE OF HOPE PRI SCH", "lat": "-1.347783", "lon": " 36.902044" }, "geometry": { "type": "Point", "coordinates": [ 36.902044, -1.347783 ] } }
-,
-{ "type": "Feature", "properties": { "official_name": "HOUSE OF HOPE PRI SCH", "lat": "-1.347783", "lon": " 36.902044" }, "geometry": { "type": "Point", "coordinates": [ 36.902044, -1.347783 ] } }
 
 ]
 }
