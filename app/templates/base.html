@@ -11,11 +11,69 @@
     {{ css() }}{# see app/static.py #}
   </head>
   <body>
+    <div class="container">
 
-    {% block content %}
-      {# other pages override this block to provide content here #}
-    {% endblock %}
+      <header>
+        <h1>Feedback Labs <strong>Kibera School Project</strong></h1>
+        <ul class="header-random-links">
+          <li><a href="#">icon</a></li>
+          <li><a href="#">icon</a></li>
+        </ul>
 
+        <h2>Select Stories</h2>
+        <ol>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ol>
+
+        <ul class="header-social-links">
+            <li><a href="#">f</a></li>
+            <li><a href="#">t</a></li>
+            <li><a href="#">v</a></li>
+        </ul>
+      </header>
+
+      {% block content %}
+        {# other pages override this block to provide content here #}
+      {% endblock %}
+
+      <footer>
+
+        <div class="footer-blogs">
+          <h2>Blog Feed</h2>
+          <ol>
+            <li>This week in open data and citizen engagement: adfasd fasdf</li>
+          </ol>
+          <h2 class="something">Lorem opsum dolor sit amet, consectetur elit.</h2>
+        </div>
+
+        <div class="footer-contact">
+          <h2>Contact Us</h2>
+          <address>
+            <strong>Open Gov Hub</strong><br/>
+            1110 Vermont Av NW 5th floor,<br/>
+            Washington, DC 20006 USA<br/>
+            Tel: <a href="tel:+12025729200">+1.202.572.9200</a>
+          </address>
+
+          <h2>Share Your Story</h2>
+          <form>
+            <input/>
+            <button>&raquo;</button>
+          </form>
+
+          <h2>Follow Us</h2>
+          <ul class="footer-social-links">
+            <li><a href="#">f</a></li>
+            <li><a href="#">t</a></li>
+          </ul>
+
+        </div>
+
+      </footer>
+
+    </div>
     {{ js() }}{# see app/static.py #}
   </body>
 </html>
