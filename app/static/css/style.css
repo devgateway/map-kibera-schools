@@ -3,11 +3,14 @@
 /*
  * Colours
  */
+header a,
+footer a {
+  color: inherit;
+}
 header {
   background: #222;
   color: #ccc;
 }
-
 footer {
   background: #444;
   color: #ddd;
