@@ -27,11 +27,15 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/schools/<school_id>')
-def school(school_id):
-    # get data about this school or 404
-    # build the templating context
-    return render_template('school-profile.html')
+@app.route('/schools')
+def list_schools():
+    return str(content['schools'])
+
+
+@app.route('/schools/<school_slug>')
+def school(school_slug):
+    this_school = content['schools'].get(school_slug) or abort(404)
+    return render_template('school-profile.html', school=this_school)
 
 
 @app.route('/blog/<slug>')

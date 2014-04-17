@@ -24,6 +24,9 @@
 """
 
 import os
+import re
+import json
+import unicodedata
 from datetime import date
 from markdown import markdown, Markdown  # quick-use, extensions-able
 from flask import Markup
@@ -34,11 +37,26 @@ content = {}
 content_path = os.path.join(app.root_path, app.config['CONTENT_FOLDER'])
 
 
-converters = {
+meta_converters = {
     'noop': lambda x: x,
     'iso-date': lambda x: [date(*map(int, t.split('-'))) for t in x],
+    'float': lambda x: map(float, x),
+    'slugify': lambda x: [s.lowercase().replace(' ', '-') for s in x],
     'one': lambda x: x[0],
 }
+
+
+def slugify(value):
+    """Converts to lowerase, removes non-word characters, spaces to hyphens
+
+    Borrowed from django -- http://djangoproject.org -- BSD? licensed
+    """
+    value = unicodedata.normalize('NFKD', value).\
+                        encode('ascii', 'ignore').\
+                        decode('ascii')
+    value = re.sub('[^\w\s-]', '', value).strip().lower()
+    value = re.sub('[-\s]+', '-', value)
+    return value
 
 
 class MetaError(ValueError):
@@ -57,7 +75,7 @@ def apply_field_constraints(field_val, required, filters):
         filtered = field_val
         for filter_name in reversed(filters):
             try:
-                filtered = converters[filter_name](filtered)
+                filtered = meta_converters[filter_name](filtered)
             except Exception as e:
                 raise MetaError('Metadata {{field}} for blog post {{filename}}'
                                 ' has issues:\n{}'.format(e))
@@ -74,8 +92,8 @@ def get_file_pairs(folder_path):
         try:
             with open(file_path) as file_object:
                 yield file_object, filename
-        except IOError:
-            raise  # todo: handle these nicely and make nice error messages
+        except IOError as e:
+            raise e  # todo: handle these nicely and make nice error messages
 
 
 def load(type_name):
@@ -175,10 +193,38 @@ def load_blog(blogs):
 
 
 
-# @load('data')
-# def load_data(data):
-#     """Load many schools' data from each file"""
-#     pass
+@load('schools')
+def load_schools(school_stuff):
+    """Load many schools' data from each (and likely only one) geojson file.
+
+    Transforms the data to a dict of these:
+
+        {
+            'name': '<string>',
+            'lat': '<float>',
+            'lon': '<float',
+        }
+
+    keyed by slug
+    """
+    schools = {}
+    for school_file, filename in school_stuff:
+        school_data = json.load(school_file)
+        for school_geojson in school_data['features']:
+            assert school_geojson['geometry']['type'] == 'Point',\
+                'Expected point geometry for schools in {}'.format(filename)
+
+            school = {}
+            school['name'] = school_geojson['properties']['official_name']
+            school['lat'] = float(school_geojson['geometry']['coordinates'][1])
+            school['lon'] = float(school_geojson['geometry']['coordinates'][0])
+
+            slug = slugify(school['name'])
+            assert slug not in schools, 'duplicate school slug {} from {}'\
+                                        .format(slug, filename)
+            schools[slug] = school
+
+    return schools
 
 
 # @load('stories')
