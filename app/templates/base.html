@@ -7,8 +7,13 @@
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="author" href="/humans.txt" />
-
-    {{ css() }}{# see app/static.py #}
+    {{ static('css', [
+        'normalize.css',
+        'helpers.css',
+        'base.css',
+        'layout.css',
+        'style.css',
+        'print.css']) }}
   </head>
   <body>
     <div class="container">
@@ -53,7 +58,6 @@
       {% endblock %}
 
       <footer>
-
         <div class="footer-blogs">
           <h2>Blog Feed</h2>
           <ol>
@@ -89,12 +93,12 @@
             <li><a href="#">f</a></li>
             <li><a href="#">t</a></li>
           </ul>
-
         </div>
-
       </footer>
 
     </div>
-    {{ js() }}{# see app/static.py #}
+    {{ static('js', [
+        'plugins/log-safety.js',
+        'main.js']) }}
   </body>
 </html>

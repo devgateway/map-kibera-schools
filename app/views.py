@@ -12,11 +12,17 @@
 
 from flask import render_template, abort
 from . import app
+from .static import static
 from .content import content
 
 
 @app.context_processor
 def inject_static():
+    return {'static': static}
+
+
+@app.context_processor
+def inject_content():
     """Inject content for templates"""
     return {'content': content}
 

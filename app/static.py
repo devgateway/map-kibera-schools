@@ -16,58 +16,89 @@ import os
 import urllib
 import requests
 from hashlib import sha1
-from cssmin import cssmin
+from cssmin import cssmin as cssmin_func
 from flask import Markup
 from . import app
 
 
-ASSETS = {
-    'css': {
-        'tag_template': '<link rel="stylesheet" href="/static/{}" />',
-        'sources': [
-            # static/ is implied at the beginning
-            'css/normalize.css',
-            'css/helpers.css',
-            'css/base.css',
-            'css/layout.css',
-            'css/style.css',
-            'css/print.css',  # h5bp recommends inlining it
-        ],
-        'build_filters': [
-            'concatenate',
-            # cssmin,
-        ],
-    },
-    'js': {
-        'tag_template': '<script src="/static/{}"></script>',
-        'sources': [
-            'js/plugins/log-safety.js',
-            'js/main.js',
-        ],
-        'build_filters': [
-            'concatenate',
-        ],
-    },
-}
+def static_config():
+    return {
+        'tag_templates': {
+            'css': '<link rel="stylesheet" href="{}" />',
+            'js':'<script src="{}"></script>',
+        },
+        'build_filters': {
+            'css': (concatenate, cssmin),
+            'js': (concatenate, closure),
+        }
+    }
 
 
-def link(media_type, config):
-    paths = config['sources']
-    if not app.config.get('FREEZING') is True:
-        if config.get('built_paths') is None:
-            for build_filter in config['build_filters']:
-                pass  # apply filters here
-            config['built_paths'] = paths
-        else:
-            # we have already compiled them, get the cached version
-            paths = config['built_paths']
-
-    tag_template = config['tag_template']
-    links = map(tag_template.format, paths)
-    html = Markup('\n'.join(links))
-    return html
+def concatenate(sources):
+    combined = '\n'.join(sources)
+    return [combined]
 
 
-@app.context_processor
-def inject_static():
-    return {media: lambda m=media: link(m, ASSETS[m]) for media in ASSETS}
+def cssmin(sources):
+    return map(cssmin_func, sources)
+
+
+def closure(sources):
+    return [sources[0]]
+
+
+def load_static_files(type_name, filenames):
+    sources = []
+    folder_path = os.path.join(app.root_path, 'static', type_name)
+    for filename in filenames:
+        file_path = os.path.join(folder_path, filename)
+        with open(file_path) as file_object:
+            source = file_object.read()
+            sources.append(source)
+    return sources
+
+
+def apply_filters(type_name, sources):
+    filters = static_config()['build_filters'][type_name]
+    for filter_func in filters:
+        sources = filter_func(sources)
+    return sources
+
+
+def save_sources(type_name, sources):
+    build_folder = os.path.join(app.root_path, 'static', 'compiled', type_name)
+    try:
+        os.makedirs(build_folder)
+    except IOError:
+        pass
+    filenames = []
+    for source in sources:
+        hashed = sha1(bytes(source, 'utf-8')).hexdigest()
+        filename = '{}.{}'.format(hashed, type_name)
+        file_path = os.path.join(build_folder, filename)
+        with open(file_path, 'w') as file_obj:
+            file_obj.write(source)
+        filenames.append(filename)
+    return filenames
+
+
+def render_tags(type_name, filenames):
+    template = static_config()['tag_templates'][type_name]
+    tags = []
+    for filename in filenames:
+        url = '/static/'
+        if True:  #app.config.get('FREEZING') is True:
+            url += 'compiled/'
+        url += '{}/{}'.format(type_name, filename)
+        tag = template.format(url)
+        tags.append(tag)
+    return Markup('\n'.join(tags))
+
+
+def static(type_name, filenames):
+    sources = load_static_files(type_name, filenames)
+    if True:  #app.config.get('FREEZING') is True:
+        sources = apply_filters(type_name, sources)
+        filenames = save_sources(type_name, sources)
+    return render_tags(type_name, filenames)
+

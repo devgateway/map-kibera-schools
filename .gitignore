@@ -3,6 +3,9 @@
 ## temporary output folder
 output/
 
+## compiled static stuff
+compiled/
+
 
 # DEV STUFF
 
