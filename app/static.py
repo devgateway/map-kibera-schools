@@ -13,9 +13,9 @@
 """
 
 import os
-import md5
 import urllib
 import requests
+from hashlib import sha1
 from cssmin import cssmin
 from flask import Markup
 from . import app

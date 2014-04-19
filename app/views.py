@@ -10,7 +10,7 @@
     :license: 
 """
 
-from flask import render_template, Markup, abort
+from flask import render_template, abort
 from . import app
 from .content import content
 
