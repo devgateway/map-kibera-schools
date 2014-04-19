@@ -8,6 +8,11 @@
 
   <section id="home-map">
     the map!
+    <br/>here are some schools:
+    <ul>
+      {% for school in content.schools[:7] %}
+        <li><a href="{{ url_for('school', slug=school.slug) }}">{{ school.name }}</a></li>
+      {% endfor %}
   </section>
 
   <section id="home-charts">

@@ -21,9 +21,23 @@ def inject_static():
     return {'content': content}
 
 
+def indexed(list_of_stuff, key):
+    """Create a mapping to elements of a list of dicts by a property.
+
+    The dict is not copied, so while it does have to iterate the whole list,
+    the resulting structure should be very small.
+    """
+    indexed = {}
+    for thing in list_of_stuff:
+        assert key in thing, 'key {} not found in thing {}'.format(key, thing)
+        assert thing[key] not in indexed,\
+            'duplicate index key {}: {}'.format(key, thing[key])
+        indexed[thing[key]] = thing
+    return indexed
+
+
 @app.route('/')
 def home():
-    # get all the pieces
     return render_template('home.html')
 
 
@@ -32,21 +46,15 @@ def list_schools():
     return str(content['schools'])
 
 
-@app.route('/schools/<school_slug>')
-def school(school_slug):
-    this_school = content['schools'].get(school_slug) or abort(404)
+@app.route('/schools/<slug>')
+def school(slug):
+    this_school = indexed(content['schools'], 'slug').get(slug) or abort(404)
     return render_template('school-profile.html', school=this_school)
 
 
 @app.route('/blog/<slug>')
 def blog(slug):
-    post = None
-    for some_post in content['blog']:
-        if some_post['slug'] == slug:
-            post = some_post
-            break
-    if post is None:
-        abort(404)
+    post = indexed(content['blog'], 'slug').get(slug) or abort(404)
     return render_template('blog-post.html', post=post)
 
 

@@ -207,7 +207,8 @@ def load_schools(school_stuff):
 
     keyed by slug
     """
-    schools = {}
+    schools = []
+    seen_slugs = set()
     for school_file, filename in school_stuff:
         school_data = json.load(school_file)
         for school_geojson in school_data['features']:
@@ -218,11 +219,12 @@ def load_schools(school_stuff):
             school['name'] = school_geojson['properties']['official_name']
             school['lat'] = float(school_geojson['geometry']['coordinates'][1])
             school['lon'] = float(school_geojson['geometry']['coordinates'][0])
-
             slug = slugify(school['name'])
-            assert slug not in schools, 'duplicate school slug {} from {}'\
-                                        .format(slug, filename)
-            schools[slug] = school
+            assert slug not in seen_slugs, 'duplicate school slug {} from {}'\
+                                           .format(slug, filename)
+            seen_slugs.add(slug)
+            school['slug'] = slug
+            schools.append(school)
 
     return schools
 

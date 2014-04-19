@@ -27,10 +27,11 @@ ASSETS = {
         'sources': [
             # static/ is implied at the beginning
             'css/normalize.css',
-            'css/base.css',
             'css/helpers.css',
+            'css/base.css',
             'css/layout.css',
             'css/style.css',
+            'css/print.css',  # h5bp recommends inlining it
         ],
         'build_filters': [
             'concatenate',

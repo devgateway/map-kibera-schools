@@ -1,6 +1,16 @@
 /*! Kibera School Project Styles | ??? license */
 
 /*
+ * Type
+ */
+header {
+  font-size: 0.8em;
+}
+header.text-reset strong {  /* the class is required to win specificity */
+  font-weight: bold;
+}
+
+/*
  * Colours
  */
 header a,
@@ -10,6 +20,9 @@ footer a {
 header {
   background: #222;
   color: #ccc;
+}
+header.text-reset strong {
+  color: white;
 }
 footer {
   background: #444;
