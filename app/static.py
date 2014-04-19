@@ -86,9 +86,10 @@ def render_tags(type_name, filenames):
     template = static_config()['tag_templates'][type_name]
     tags = []
     for filename in filenames:
-        url = '/static/'
-        if True:  #app.config.get('FREEZING') is True:
-            url += 'compiled/'
+        if app.config.get('FREEZING') is True:
+            url = '/compiled/'
+        else:
+            url = '/static/'
         url += '{}/{}'.format(type_name, filename)
         tag = template.format(url)
         tags.append(tag)
@@ -97,7 +98,7 @@ def render_tags(type_name, filenames):
 
 def static(type_name, filenames):
     sources = load_static_files(type_name, filenames)
-    if True:  #app.config.get('FREEZING') is True:
+    if app.config.get('FREEZING') is True:
         sources = apply_filters(type_name, sources)
         filenames = save_sources(type_name, sources)
     return render_tags(type_name, filenames)

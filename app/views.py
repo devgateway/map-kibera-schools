@@ -47,18 +47,13 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/schools')
-def list_schools():
-    return str(content['schools'])
-
-
-@app.route('/schools/<slug>')
+@app.route('/schools/<slug>/')
 def school(slug):
     this_school = indexed(content['schools'], 'slug').get(slug) or abort(404)
     return render_template('school-profile.html', school=this_school)
 
 
-@app.route('/blog/<slug>')
+@app.route('/blog/<slug>/')
 def blog(slug):
     post = indexed(content['blog'], 'slug').get(slug) or abort(404)
     return render_template('blog-post.html', post=post)
