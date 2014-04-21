@@ -5,9 +5,6 @@
 
     The endpoints and stuff
 
-    :author: Philip Schleihauf
-    :copyright: © 2014 by Feedback Labs
-    :license: 
 """
 
 from flask import render_template, abort

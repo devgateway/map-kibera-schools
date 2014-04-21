@@ -8,11 +8,7 @@
     This file initializes the app and manages configuration before importing
     the other modules to do all the work.
 
-    :author: Philip Schleihauf
-    :copyright: © 2014 by Feedback Labs
-    :license: 
 """
-
 
 from flask import Flask
 

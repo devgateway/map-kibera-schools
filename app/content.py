@@ -18,9 +18,6 @@
 
     At present, all content is loaded at import time.
 
-    :author: Philip Schleihauf
-    :copyright: © 2014 by Feedback Labs
-    :license: 
 """
 
 import os

@@ -7,9 +7,6 @@
 
     This module injects the right css and javascript for templates.
 
-    :author: Philip Schleihauf
-    :copyright: © 2014 by Feedback Labs
-    :license: 
 """
 
 import os

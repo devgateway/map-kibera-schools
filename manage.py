@@ -6,9 +6,6 @@
 
     Command-line utilities for the Kibera School Project static site.
 
-    :author: Philip Schleihauf
-    :copyright: © 2014 by Feedback Labs
-    :license: 
 """
 
 import os
