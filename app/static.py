@@ -10,7 +10,10 @@
 """
 
 import os
-import urllib
+try:
+    from urllib.parse import urlencode
+except ImportError:  # python2
+    from urllib import urlencode
 import requests
 from hashlib import sha1
 from cssmin import cssmin as cssmin_func
@@ -40,8 +43,30 @@ def cssmin(sources):
     return map(cssmin_func, sources)
 
 
+def closure_func(source):
+    """Compile javascript with google's closure compiler.
+
+    This function uses the google closure http api to do the work, so you need
+    an active internet connection to use it. If that app cannot be accessed for
+    whatever reason, this filter can be disabled by removing it from
+    `build_filters` in `static_config()`, above.
+    """
+    closure_api_url = 'https://closure-compiler.appspot.com/compile'
+    params = urlencode([
+        ('js_code', source),
+        ('compilation_level', 'ADVANCED_OPTIMIZATIONS'),
+        ('output_format', 'json'),
+        ('output_info', 'compiled_code'),
+    ])
+    headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+    print('compiling {} bytes of javascript....'.format(len(source)))
+    resp = requests.post(closure_api_url, params, headers=headers)
+    assert resp.ok, 'closure compilation failed :('
+    return resp.json()['compiledCode']
+
+
 def closure(sources):
-    return [sources[0]]
+    return map(closure_func, sources)
 
 
 def load_static_files(type_name, filenames):
