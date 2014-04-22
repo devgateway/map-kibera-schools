@@ -48,6 +48,14 @@
 }
 
 /*
+ * Hide text visually but maintain backgrounds and such
+ */
+
+.invisible-text {
+    color: transparent;
+}
+
+/*
  * Clearfix: contain floats
  *
  * For modern browsers

@@ -1,5 +1,22 @@
 /*! Kibera School Project Styles | BSD license */
 
+
+/*
+ * Box-size everything
+ *
+ * for sanity's sake
+ */
+.container,
+header,
+section,
+footer,
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 /*
  * Container
  *
