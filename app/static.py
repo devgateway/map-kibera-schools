@@ -93,10 +93,17 @@ def render_tags(type_name, filenames):
     return Markup('\n'.join(tags))
 
 
-def static(type_name, filenames):
-    sources = load_static_files(type_name, filenames)
-    if app.config.get('FREEZING') is True:
+def build_static(type_name, filenames, _cache={}):
+    key = tuple(filenames)
+    if key not in _cache:
+        sources = load_static_files(type_name, filenames)
         sources = apply_filters(type_name, sources)
-        filenames = save_sources(type_name, sources)
+        _cache[key] = save_sources(type_name, sources)
+    return _cache[key]
+
+
+def static(type_name, filenames, _cache={}):
+    if app.config.get('FREEZING') is True:
+        filenames = build_static(type_name, filenames)
     return render_tags(type_name, filenames)
 
