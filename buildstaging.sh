@@ -6,7 +6,7 @@ set e
 python manage.py build
 
 git stash
-git checkout staging
+git checkout gh-pages
 
 ls -a | egrep -v '(\.\.?|output|\.git)' | xargs rm -r
 mv output/* .
