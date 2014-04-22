@@ -49,6 +49,48 @@ section {
 }
 
 /*
+ * Video slider
+ *
+ * The video is 16x9, filling the 980px width container, so it must be
+ * 551px tall.
+ */
+
+section#home-video {
+  position: relative;  /* establish positioning context */
+  height: 551px;
+  margin: 0;
+  border: 0;
+}
+section#home-video .video-screenshot {
+  display: block;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+section#home-video h2 {
+  margin: 2em 3em;
+}
+section#home-video .video-load-play {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 64px;
+  width: 64px;
+  margin-top: -32px;  /* height / 2 */
+  margin-left: -32px;  /* width / 2 */
+}
+section#home-video .video-copy {
+  position: absolute;
+  top: 75%;
+  width: 50%;
+  left: 25%;  /* (100% - width) / 2 */
+}
+
+/*
  * Footer Element
  *
  * Big footer at the bottom of every page.
@@ -70,3 +112,4 @@ section,
 footer {
   padding: 1em;
 }
+

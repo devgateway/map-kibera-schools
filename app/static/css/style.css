@@ -9,6 +9,17 @@ header {
 header.text-reset strong {  /* the class is required to win specificity */
   font-weight: bold;
 }
+section#home-video {
+  text-align: center;
+}
+section#home-video h2 {
+  font-size: 2em;
+  text-shadow: 0 0 0.3em rgba(255, 255, 255, 0.4);
+}
+section#home-video .video-copy {
+  font-size: 1.25em;
+  font-weight: bold;
+}
 
 /*
  * Colours
@@ -23,6 +34,16 @@ header {
 }
 header.text-reset strong {
   color: white;
+}
+section#home-video {
+  color: #444;
+}
+section#home-video .video-load-play {
+  background: url('../img/button-play.png');
+  opacity: 0.8;
+}
+section#home-video .video-load-play:hover {
+  opacity: 1;
 }
 footer {
   background: #444;

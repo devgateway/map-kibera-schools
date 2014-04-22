@@ -3,7 +3,14 @@
 {% block content %}
 
   <section id="home-video">
-    video carousel
+    <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
+    <h2>Nulla dictum massa quis adipiscing vivera.</h2>
+    <a class="video-load-play invisible-text"
+       title="Play Video"
+       href="#play-video">play</a>
+    <div class="video-copy">
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla dictum massa quis adipiscing viverra.</p>
+    </div>
   </section>
 
   <section id="home-map">
