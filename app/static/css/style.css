@@ -3,10 +3,10 @@
 /*
  * Type
  */
-header {
+.container > header {
   font-size: 0.8em;
 }
-header.text-reset strong {  /* the class is required to win specificity */
+.container > header.text-reset strong {  /* the class is required to win specificity */
   font-weight: bold;
 }
 section#home-video {
@@ -24,15 +24,15 @@ section#home-video .video-copy {
 /*
  * Colours
  */
-header a,
+.container > header a,
 footer a {
   color: inherit;
 }
-header {
+.container > header {
   background: #222;
   color: #ccc;
 }
-header.text-reset strong {
+.container > header.text-reset strong {
   color: white;
 }
 section#home-video {
@@ -53,11 +53,71 @@ footer {
 /*
  * Borders
  */
-section {
+section,
+section#home-map .map-controls,
+section#home-map a {
   border: 1px solid #ccc;
+}
+.container > section {
   border-width: 0 1px 1px;  /* no top border */
 }
-section:last-of-type {
+section#home-map .map-controls {
+  border-width: 0 1px 0 0;  /* right border only */
+}
+section#home-map a {
+  border-width: 0 0 1px;  /* bottom only */
+}
+.container > section:last-of-type,
+section#home-map li:last-of-type a {
   border-bottom-width: 0;  /* no border before the footer */
 }
+
+/*
+ * Map with controls
+ */
+section#home-map .map-controls {
+  background: #ddd;
+  color: #555;
+  text-transform: uppercase;
+}
+section#home-map .map-controls header {
+  padding: 1.5em 1.5em 1.5em 4em;
+}
+section#home-map header h2,
+section#home-map header p {
+  margin: 0;
+}
+section#home-map header h2 {
+  font-size: 1.5em;
+}
+section#home-map header p {
+  font-size: 0.7em;
+}
+section#home-map h3,
+section#home-map li a {
+  display: block;
+  margin: 0;
+  padding: 0.5em 0.5em 0.5em 4em;
+  font-size: 1em;
+}
+section#home-map ul,
+section#home-map ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+section#home-map h3 {
+  background: #999;
+  color: white;
+}
+section#home-map a {
+  color: inherit;
+  text-decoration: none;
+  background: url('../img/icon-circle.png') 2em 50% no-repeat;
+}
+section#home-map a:hover {
+  color: #fff;
+  background-color: #777;
+}
+
 

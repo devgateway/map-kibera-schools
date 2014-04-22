@@ -34,7 +34,7 @@ div {
  * A sticky header at the top of every page
  */
 
-header {
+.container > header {
   background: #222;
   color: #ccc;
 }
@@ -88,6 +88,24 @@ section#home-video .video-copy {
   top: 75%;
   width: 50%;
   left: 25%;  /* (100% - width) / 2 */
+}
+
+/*
+ * Map
+ *
+ * blah blah bla
+ */
+section#home-map {
+  position: relative;  /* establish positioning context */
+  height: 551px;  /* arbitrarily matched to video height */
+  padding: 0;
+}
+section#home-map .map-controls {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 25%;
 }
 
 /*

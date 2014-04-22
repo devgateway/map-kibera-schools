@@ -14,12 +14,22 @@
   </section>
 
   <section id="home-map">
-    the map!
-    <br/>here are some schools:
-    <ul>
-      {% for school in content.schools[:7] %}
-        <li><a href="{{ url_for('school', slug=school.slug) }}">{{ school.name }}</a></li>
-      {% endfor %}
+    <div class="map-controls">
+      <header>
+        <h2>My School</h2>
+        <p>Kibera School Project</p>
+      </header>
+      <h3>Search By</h3>
+      <ul>
+        <li><a href="#">School Name</a></li>
+        <li><a href="#">Street</a></li>
+        <li><a href="#">Administrator</a></li>
+        <li><a href="#">Keyword</a></li>
+      </ul>
+      <h3>Share</h3>
+    </div>
+    <div class="map">
+    </div>
   </section>
 
   <section id="home-charts">
