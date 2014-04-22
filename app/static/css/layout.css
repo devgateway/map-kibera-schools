@@ -107,6 +107,13 @@ section#home-map .map-controls {
   bottom: 0;
   width: 25%;
 }
+section#home-map #map {
+  position: absolute;
+  left: 25%;  /* width of .map-controls */
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
 
 /*
  * Footer Element
