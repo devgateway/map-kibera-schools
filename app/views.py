@@ -50,6 +50,12 @@ def school(slug):
     return render_template('school-profile.html', school=this_school)
 
 
+def school_url_generator():
+    """Generate all the urls for schools for freezing"""
+    for school in content['schools']:
+        yield 'school', {'slug': school['slug']}
+
+
 @app.route('/blog/<slug>/')
 def blog(slug):
     post = indexed(content['blog'], 'slug').get(slug) or abort(404)

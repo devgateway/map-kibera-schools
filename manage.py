@@ -15,6 +15,7 @@ from flask.ext.script import Manager
 from flask_frozen import Freezer
 from flask import render_template
 from app import app
+from app import views
 
 
 manager = Manager(app)
@@ -43,6 +44,7 @@ def build():
     """Export the static site to 'output'."""
     app.config.update(FREEZING=True)  # cue for static stuff to build
     app.testing = True
+    freezer.register_generator(views.school_url_generator)
     freezer.freeze()
     copy_static()
 
