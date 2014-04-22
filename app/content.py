@@ -23,6 +23,7 @@
 import os
 import re
 import json
+import codecs
 import unicodedata
 from datetime import date
 from markdown import markdown, Markdown  # quick-use, extensions-able
@@ -87,7 +88,7 @@ def get_file_pairs(folder_path):
     for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         try:
-            with open(file_path) as file_object:
+            with codecs.open(file_path, 'r', encoding='utf-8') as file_object:
                 yield file_object, filename
         except IOError as e:
             raise e  # todo: handle these nicely and make nice error messages
