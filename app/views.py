@@ -46,8 +46,6 @@ def home():
 
 @app.route('/schools.geojson')
 def schools_geojson():
-    import os
-    print os.getcwd()
     with open('content/schools/schools.geojson') as f:
         return f.read()
 

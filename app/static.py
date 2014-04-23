@@ -91,7 +91,7 @@ def save_sources(type_name, sources):
     build_folder = os.path.join(app.root_path, 'static', 'compiled', type_name)
     try:
         os.makedirs(build_folder)
-    except OSError, IOError:  # python2, 3
+    except (OSError, IOError):  # python(2, 3)
         pass
     filenames = []
     for source in sources:
