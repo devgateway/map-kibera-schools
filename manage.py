@@ -46,6 +46,9 @@ def copy_static():
                 shutil.copy2(src_path, dest_path)
             else:
                 raise
+    # cname file for github
+    with open(os.path.join(app.config['BUILD_OUTPUT'], 'CNAME'), 'w') as f:
+        f.write(app.config['SERVER_NAME'])
 
 
 @manager.command
