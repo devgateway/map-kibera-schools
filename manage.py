@@ -25,7 +25,7 @@ freezer = Freezer(app, with_static_files=False)  # manually do static assets
 def copy_static():
     ignore_folders = {'css', 'js'}  # unfiltered sources
     src_folder = os.path.join(app.root_path, 'static')
-    dest_folder = os.path.join(app.root_path, app.config['BUILD_OUTPUT'])
+    dest_folder = os.path.join(app.root_path, app.config['BUILD_OUTPUT'], 'static')
     stuff = set(os.listdir(src_folder))
     compiled_names = os.listdir(os.path.join(src_folder, 'compiled'))
     stuff.remove('compiled')
@@ -35,6 +35,10 @@ def copy_static():
         if thing.startswith('compiled/'):
             thing = thing[len('compiled/'):]
         dest_path = os.path.join(dest_folder, thing)
+        try:
+            shutil.rmtree(dest_path)
+        except FileNotFoundError:
+            pass
         try:
             shutil.copytree(src_path, dest_path)
         except OSError as e:

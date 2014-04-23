@@ -4,10 +4,13 @@
   if (!mapEl) {
     return;
   }
+
+  L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
+
   var mapOptions = {
     center: [-1.315, 36.785],
     zoom: 13,
-    scrollWheelZoom: false,
+    scrollWheelZoom: false
   };
   var map = L.map(mapEl, mapOptions);
 

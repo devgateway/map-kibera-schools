@@ -12,7 +12,7 @@
 
 from flask import Flask
 
-app = Flask('app', static_url_path='/static')
+app = Flask('app')
 
 app.config['FREEZER_DESTINATION'] = app.config['BUILD_OUTPUT'] = '../output'
 app.config['CONTENT_FOLDER'] = '../content'

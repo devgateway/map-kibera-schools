@@ -111,11 +111,7 @@ def render_tags(type_name, filenames):
     template = static_config()['tag_templates'][type_name]
     tags = []
     for filename in filenames:
-        if app.config.get('FREEZING') is True:
-            url = '/'
-        else:
-            url = '/static/'
-        url += '{}/{}'.format(type_name, filename)
+        url = '/static/{}/{}'.format(type_name, filename)
         tag = template.format(url)
         tags.append(tag)
     return Markup('\n'.join(tags))
