@@ -63,7 +63,7 @@
         <div class="footer-blogs">
           <h2>Blog Feed</h2>
           <ol>
-            {% for post in content.blog %}
+            {% for post in content.blog[:3] %}
               <li>
                 <h3><a href="{{ url_for('blog', slug=post.slug) }}">{{ post.title }}</a></h3>
                 {{ post.body }}

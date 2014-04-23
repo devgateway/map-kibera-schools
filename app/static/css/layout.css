@@ -133,8 +133,25 @@ header {
   padding: 0.5em;
 }
 
-section,
-footer {
+section {
   padding: 1em;
+}
+
+
+.footer-blogs,
+.footer-contact {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em 1em 3em;
+}
+.footer-blogs {
+  width: 75%;
+}
+.footer-blogs > ol > li {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  max-height: 12em;
+  overflow: hidden;
 }
 

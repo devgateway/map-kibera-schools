@@ -46,7 +46,7 @@ section#home-video .video-load-play:hover {
   opacity: 1;
 }
 footer {
-  background: #444;
+  background: #333;
   color: #ddd;
 }
 
@@ -120,4 +120,39 @@ section#home-map .map-controls a:hover {
   background-color: #777;
 }
 
+/*
+ * Footer
+ *
+ * Recent blogs, contact, etc.
+ */
+footer {
+  font-size: 0.8em;
+}
+footer h2 {
+  color: #999;
+  text-transform: lowercase;
+}
+.footer-blogs > ol,
+.footer-blogs > ol > li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-blogs h3,
+.footer-blogs p {
+  font: inherit;
+  display: inline;
+}
+.footer-blogs h3 a {
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer-blogs h3 a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+.footer-contact address {
+  font-style: normal;
+}
 

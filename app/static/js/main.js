@@ -8,8 +8,8 @@
   L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
 
   var mapOptions = {
-    center: [-1.315, 36.785],
-    zoom: 13,
+    center: [-1.313, 36.788],
+    zoom: 15,
     scrollWheelZoom: false
   };
   var map = L.map(mapEl, mapOptions);
