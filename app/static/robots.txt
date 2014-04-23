@@ -1,8 +1,0 @@
-#
-#   Dear Robots,
-#
-#   Welcome.
-#
-
-User-agent: *
-Disallow:

@@ -68,6 +68,12 @@ def blog(slug):
     return render_template('blog-post.html', post=post)
 
 
+@app.route('/robots.txt')
+def robots():
+    return ('Ueser-agent: *\n'
+            'Disallow:')
+
+
 @app.route('/404.html')
 @app.errorhandler(404)
 def not_found(err=None):
