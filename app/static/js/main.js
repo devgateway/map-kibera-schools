@@ -33,8 +33,13 @@
     request.send()
   }
 
+  var geoData;
   getData(function(data) {
-    L.geoJson(data).addTo(map);
+    geoData = L.geoJson(data, {
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup(feature.properties.official_name);
+      }
+    }).addTo(map);
   })
 
 })(document.getElementById('map'));
