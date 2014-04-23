@@ -109,7 +109,7 @@ def render_tags(type_name, filenames):
     tags = []
     for filename in filenames:
         if app.config.get('FREEZING') is True:
-            url = '/compiled/'
+            url = '/'
         else:
             url = '/static/'
         url += '{}/{}'.format(type_name, filename)

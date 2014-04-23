@@ -27,8 +27,13 @@ def copy_static():
     src_folder = os.path.join(app.root_path, 'static')
     dest_folder = os.path.join(app.root_path, app.config['BUILD_OUTPUT'])
     stuff = set(os.listdir(src_folder))
+    compiled_names = os.listdir(os.path.join(src_folder, 'compiled'))
+    stuff.remove('compiled')
+    stuff.update([os.path.join('compiled', n) for n in compiled_names])
     for thing in stuff - ignore_folders:
         src_path = os.path.join(src_folder, thing)
+        if thing.startswith('compiled/'):
+            thing = thing[len('compiled/'):]
         dest_path = os.path.join(dest_folder, thing)
         try:
             shutil.copytree(src_path, dest_path)
