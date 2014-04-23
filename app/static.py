@@ -54,7 +54,7 @@ def closure_func(source):
     closure_api_url = 'https://closure-compiler.appspot.com/compile'
     params = urlencode([
         ('js_code', source),
-        ('compilation_level', 'ADVANCED_OPTIMIZATIONS'),
+        ('compilation_level', 'SIMPLE_OPTIMIZATIONS'),
         ('output_format', 'json'),
         ('output_info', 'compiled_code'),
     ])
