@@ -91,11 +91,14 @@ def save_sources(type_name, sources):
     build_folder = os.path.join(app.root_path, 'static', 'compiled', type_name)
     try:
         os.makedirs(build_folder)
-    except IOError:
+    except OSError, IOError:  # python2, 3
         pass
     filenames = []
     for source in sources:
-        hashed = sha1(bytes(source, 'utf-8')).hexdigest()
+        try:
+            hashed = sha1(bytes(source, 'utf-8')).hexdigest()
+        except TypeError:
+            hashed = sha1(source).hexdigest()  # python2
         filename = '{}.{}'.format(hashed, type_name)
         file_path = os.path.join(build_folder, filename)
         with open(file_path, 'w') as file_obj:
