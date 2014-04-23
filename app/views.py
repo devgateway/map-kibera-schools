@@ -44,6 +44,12 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/schools.geojson')
+def schools_geojson():
+    with open('content/schools/schools.geojson') as f:
+        return f.read()
+
+
 @app.route('/schools/<slug>/')
 def school(slug):
     this_school = indexed(content['schools'], 'slug').get(slug) or abort(404)
