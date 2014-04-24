@@ -16,7 +16,7 @@ app = Flask('app')
 
 app.config['FREEZER_DESTINATION'] = app.config['BUILD_OUTPUT'] = '../output'
 app.config['CONTENT_FOLDER'] = '../content'
-app.config['SERVER_NAME'] = 'kibera-staging.precomp.ca'
+app.config['CNAME'] = 'kibera-staging.precomp.ca'
 
 from . import content
 from . import views
