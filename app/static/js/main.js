@@ -14,7 +14,7 @@
   };
   var map = L.map(mapEl, mapOptions);
 
-  L.tileLayer('//{s}.tiles.mapbox.com/v3/pschleihauf.i2b0hdac/{z}/{x}/{y}.png')
+  L.tileLayer(STATIC_ROOT + 'tiles/{z}/{x}/{y}.png')
     .addTo(map);
 
   function getData(callback) {
