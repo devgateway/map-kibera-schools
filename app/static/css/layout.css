@@ -95,10 +95,16 @@ section#home-video .video-copy {
  *
  * blah blah bla
  */
-section#home-map {
+section#home-map,
+section#school-banner {
   position: relative;  /* establish positioning context */
-  height: 551px;  /* arbitrarily matched to video height */
   padding: 0;
+}
+section#home-map {
+  height: 551px;  /* arbitrarily matched to video height */
+}
+section#school-banner {
+  height: 251px;  /* arbitrary for now */
 }
 section#home-map .map-controls {
   position: absolute;
@@ -107,13 +113,23 @@ section#home-map .map-controls {
   bottom: 0;
   width: 25%;
 }
-section#home-map #map {
+.map {
   position: absolute;
-  left: 25%;  /* width of .map-controls */
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
 }
+section#home-map .map {
+  left: 25%;  /* width of .map-controls */
+}
+
+.school-overlay {
+  position: absolute;
+  top: 0;
+  left: 4em;
+}
+
 
 /*
  * Footer Element

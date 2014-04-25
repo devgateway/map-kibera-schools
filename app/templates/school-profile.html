@@ -2,9 +2,14 @@
 
 {% block content %}
 
-  <section id="school-map">
-    contextualized map around lat: {{ school.lat }}, lon: {{ school.lon }}
-    <h1>{{ school.name }}</h1>
+  <section id="school-banner">
+    <div id="school-map" class="map"></div>
+    <div class='school-overlay'>
+      <h1>{{ school.properties.name }}</h1>
+    </div>
+    <script>
+      var school = {{ school | tojson }};
+    </script>
   </section>
 
   <section id="school-brief">

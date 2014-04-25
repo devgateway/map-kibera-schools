@@ -99,8 +99,9 @@
       </footer>
 
     </div>
-    <script>
-      var STATIC_ROOT = "/static/";
+    <script>{# these values should actually come from python #}
+      var WEB_ROOT = ''
+      var STATIC_ROOT = "/static";
     </script>
     {{ static('js', [
         'leaflet.js',
