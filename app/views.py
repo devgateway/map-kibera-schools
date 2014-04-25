@@ -7,7 +7,7 @@
 
 """
 
-from flask import render_template, abort
+from flask import render_template, jsonify, abort
 from . import app
 from .static import static
 from .content import content
@@ -46,11 +46,14 @@ def home():
 
 @app.route('/schools.geojson')
 def schools_geojson():
-    with open('content/schools/schools.geojson') as f:
-        return f.read()
+    geojson = {
+        'type': 'FeatureCollection',
+        'features': content['schools'],
+    }
+    return jsonify(geojson)
 
 
-@app.route('/schools/<slug>/')
+@app.route('/schools/<path:slug>/')
 def school(slug):
     this_school = indexed(content['schools'], 'slug').get(slug) or abort(404)
     return render_template('school-profile.html', school=this_school)

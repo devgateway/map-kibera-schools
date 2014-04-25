@@ -190,46 +190,29 @@ def load_blog(blogs):
     return posts
 
 
+def validate_school_geo(school_geo, _seen=set()):
+    """Validate the geojson data as it comes in."""
+    assert school_geo['type'] == 'Feature'
+    assert school_geo['geometry']['type'] == 'MultiPoint'
+    assert 'properties' in school_geo
+    properties = school_geo['properties']
+    assert 'id' in properties
+    _id = properties['id'].rsplit('/', 1)[1]
+    assert _id not in _seen
+    _seen.add(_id)
+    assert 'name' in properties
+    school_text_slug = slugify(properties['name'])
+    school_geo['slug'] = '{}/{}'.format(_id, school_text_slug)
+
 
 @load('schools')
 def load_schools(school_stuff):
-    """Load many schools' data from each (and likely only one) geojson file.
-
-    Transforms the data to a dict of these:
-
-        {
-            'name': '<string>',
-            'lat': '<float>',
-            'lon': '<float',
-        }
-
-    keyed by slug
-    """
+    """Load many schools' data from each (and likely only one) geojson file."""
     schools = []
     seen_slugs = set()
     for school_file, filename in school_stuff:
         school_data = json.load(school_file)
         for school_geojson in school_data['features']:
-            assert school_geojson['geometry']['type'] == 'Point',\
-                'Expected point geometry for schools in {}'.format(filename)
-
-            school = {}
-            school['name'] = school_geojson['properties']['official_name']
-            school['lat'] = float(school_geojson['geometry']['coordinates'][1])
-            school['lon'] = float(school_geojson['geometry']['coordinates'][0])
-            slug = slugify(school['name'])
-            assert slug not in seen_slugs, 'duplicate school slug {} from {}'\
-                                           .format(slug, filename)
-            seen_slugs.add(slug)
-            school['slug'] = slug
-            schools.append(school)
-
+            validate_school_geo(school_geojson)
+            schools.append(school_geojson)
     return schools
-
-
-# @load('stories')
-# def load_stories(stories):
-#     pass
-
-
-
