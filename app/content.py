@@ -25,7 +25,7 @@ import re
 import json
 import codecs
 import unicodedata
-from datetime import date
+import datetime
 from markdown import markdown, Markdown  # quick-use, extensions-able
 from flask import Markup
 from app import app
@@ -37,7 +37,7 @@ content_path = os.path.join(app.root_path, app.config['CONTENT_FOLDER'])
 
 meta_converters = {
     'noop': lambda x: x,
-    'iso-date': lambda x: [date(*map(int, t.split('-'))) for t in x],
+    'iso-date': lambda x: [datetime.date(*map(int, t.split('-'))) for t in x],
     'float': lambda x: map(float, x),
     'slugify': lambda x: [s.lowercase().replace(' ', '-') for s in x],
     'one': lambda x: x[0],
