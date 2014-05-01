@@ -6,15 +6,13 @@
     <title>Kibera Schools Project</title>
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CANONICAL("{{ request.path }}"){ -->
+      <!-- this should be replaced with the production canonical link by the bash templater -->
+    <!-- } -->
     <link rel="author" href="/humans.txt" />
-    {{ static('css', [
-        'leaflet.css',
-        'normalize.css',
-        'helpers.css',
-        'base.css',
-        'layout.css',
-        'style.css',
-        'print.css']) }}
+    <!-- CSS{ -->
+      <!-- this should be replaced with css links by the bash templater -->
+    <!-- } -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700" />
   </head>
   <body>
@@ -99,13 +97,8 @@
       </footer>
 
     </div>
-    <script>{# these values should actually come from python #}
-      var WEB_ROOT = ''
-      var STATIC_ROOT = "/static";
-    </script>
-    {{ static('js', [
-        'leaflet.js',
-        'plugins/log-safety.js',
-        'main.js']) }}
+    <!-- JS{ -->
+      <!-- this should be replaced by js script tags by the bash templater -->
+    <!-- } -->
   </body>
 </html>

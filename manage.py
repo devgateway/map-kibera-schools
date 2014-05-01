@@ -4,83 +4,72 @@
     manage
     ~~~~~~
 
-    Command-line utilities for the Kibera School Project static site.
+    Map Kibera Schools management script
 
+    Usage:
+       build everything:      ./manage.py build
+                              ./manage.py build all
+       build templates:       ./manage.py build html
+       build statics:         ./manage.py build static [type] [--no-filters]
+                                  where type is one of css or js
+       build map tile images: ./manage.py build tiles
+       build for a target:    ./manage.py build2 target
+                                  where target is one of staging or production
+
+       run a local preview:   ./manage.py preview
+
+    :licence: BSD, see LICENSE
 """
 
-import os
-import errno
-import shutil
-from flask.ext.script import Manager
-from flask_frozen import Freezer
-from flask import render_template
-from app import app
-from app import views
+from __future__ import print_function
+import sys
 
 
-manager = Manager(app)
-freezer = Freezer(app, with_static_files=False)  # manually do static assets
+def command(func, _func_cache={}):
+    """Decorate functions to register them as commands."""
+
+    # register the command
+    func_name = func.__name__.lower()
+    if func_name in _func_cache:
+        raise Exception('Duplicate definition of command {}'.format(func_name))
+    _func_cache[func_name] = func
+
+    return func  # leave the functions so they are still importable and stuff
 
 
-def copy_static():
-    ignore_folders = {'css', 'js'}  # unfiltered sources
-    src_folder = os.path.join(app.root_path, 'static')
-    dest_folder = os.path.join(app.root_path, app.config['BUILD_OUTPUT'], 'static')
-    stuff = set(os.listdir(src_folder))
-    compiled_names = os.listdir(os.path.join(src_folder, 'compiled'))
-    stuff.remove('compiled')
-    stuff.update([os.path.join('compiled', n) for n in compiled_names])
-    for thing in stuff - ignore_folders:
-        src_path = os.path.join(src_folder, thing)
-        if thing.startswith('compiled/'):
-            thing = thing[len('compiled/'):]
-        dest_path = os.path.join(dest_folder, thing)
-        try:
-            shutil.rmtree(dest_path)
-        except FileNotFoundError:
-            pass
-        try:
-            shutil.copytree(src_path, dest_path)
-        except OSError as e:
-            if e.errno == errno.ENOTDIR:
-                shutil.copy2(src_path, dest_path)
-            else:
-                raise
-    # cname file for github
-    with open(os.path.join(app.root_path, app.config['BUILD_OUTPUT'], 'CNAME'), 'w') as f:
-        f.write(app.config['CNAME'])
+@command
+def help():
+    """Get usage information about this script"""
+    print('\nUsage: {} [command]'.format(sys.argv[0]), end='\n\n')
+    print('Available commands:')    
+    for name, func in command.__defaults__[0].items():  # from _func_cache
+        print(' * {:16s} {}'.format(name, func.__doc__ or ''))
+    raise SystemExit()
 
 
-@manager.command
-def build():
-    """Export the static site to 'output'."""
-    app.config.update(FREEZING=True)  # cue for static stuff to build
-    app.testing = True
-    freezer.register_generator(views.school_url_generator)
-    freezer.freeze()
-    copy_static()
+@command
+def build(what='all'):
+    # 1. ensure the build folder exists
+    # figure out what target we want
+    #
+    print('hello world')
 
 
-@manager.command
-def preview():
-    """Run a local dev server to check out the exported static site."""
-    build()
-    freezer.serve()
-
-
-@manager.command
-def commit(confirm=True):
-    """Build the site and commit it to the gh-pages branch."""
-    # build
-    # branch ? pass : create
-    # checkout
-    # apply new version
-    # anything changed ? continue : abort
-    # confirm ? prompt with change summary : pass
-    # commit changes
-    # go back to original branch
-    print('hello')
-
+@command
+def build2(target):
+    print('buildit yo')
 
 if __name__ == '__main__':
-    manager.run()
+    # get the command or else help
+    if len(sys.argv) < 2:
+        cmd, args = 'help', []
+    else:
+        cmd, args = sys.argv[1].lower(), sys.argv[2:]
+
+    # run the command
+    funcs = command.__defaults__[0]  # from _func_cache
+    try:
+        funcs[cmd](*args)
+    except KeyError:
+        print('Command "{}" not found :('.format(cmd))
+        help()
