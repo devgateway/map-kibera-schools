@@ -10,14 +10,14 @@
 
 """
 
-from flask import Flask
+# from flask import Flask
 
-app = Flask('app')
+# app = Flask('app')
 
-app.config['FREEZER_DESTINATION'] = app.config['BUILD_OUTPUT'] = '../output'
-app.config['CONTENT_FOLDER'] = '../content'
-app.config['CNAME'] = 'kibera-staging.precomp.ca'
+# app.config['FREEZER_DESTINATION'] = app.config['BUILD_OUTPUT'] = '../output'
+# app.config['CONTENT_FOLDER'] = '../content'
+# app.config['CNAME'] = 'kibera-staging.precomp.ca'
 
-from . import content
-from . import views
-from . import static
+# from . import content
+# from . import views
+# from . import static

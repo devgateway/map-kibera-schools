@@ -1,0 +1,26 @@
+{
+  "static": {
+    "js": {
+      "prefix": "static/js",
+      "files": [
+        "plugins/log-safety.js",
+        "leaflet.js",
+        "main.js"
+      ],
+      "filters": ["concat", "closure"]
+    },
+    "css": {
+      "prefix": "static/css",
+      "files": [
+        "leaflet.css",
+        "normalize.css",
+        "helpers.css",
+        "base.css",
+        "layout.css",
+        "style.css",
+        "print.css"
+      ],
+      "filters": ["concat", "cssmin"]
+    }
+  }
+}
