@@ -27,12 +27,10 @@ import codecs
 import unicodedata
 import datetime
 from markdown import markdown, Markdown  # quick-use, extensions-able
-from flask import Markup
-from app import app
 
 
 content = {}
-content_path = os.path.join(app.root_path, app.config['CONTENT_FOLDER'])
+content_path = 'content'
 
 
 meta_converters = {
@@ -42,6 +40,11 @@ meta_converters = {
     'slugify': lambda x: [s.lowercase().replace(' ', '-') for s in x],
     'one': lambda x: x[0],
 }
+
+
+class Markup(str):
+    def __html__(self):
+        return self
 
 
 def slugify(value):

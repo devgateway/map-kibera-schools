@@ -65,6 +65,16 @@ def help():
     raise SystemExit()
 
 
+def build_html():
+    from flask_frozen import Freezer
+    from app import views
+    views.app.config['FREEZER_DESTINATION'] = '../build'
+    views.app.testing = True
+    freezer = Freezer(views.app, with_static_files=False)
+    freezer.register_generator(views.school_url_generator)
+    freezer.freeze()
+
+
 def get_file_contents(dir, filenames):
     """Iterateable file contents by file"""
     for filename in filenames:
@@ -168,7 +178,8 @@ def build(what, *args):
         os.makedirs('build')
 
     if what in ('all', 'html'):
-        build_html(args)
+        build_html()
+
     if what in ('all', 'static'):
         static_args = list(args)
         no_filter = '--no-filters' in static_args
@@ -183,9 +194,6 @@ def build(what, *args):
         elif len(static_args) > 1:
             raise SystemExit('too many arguments to static: {}'.format(args))
         build_static(static, no_filter)
-    if what in ('all', 'tiles'):
-        print('what?')
-        build_tiles(args)
 
     print('built {}.'.format(what))
 

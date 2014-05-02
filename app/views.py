@@ -7,15 +7,11 @@
 
 """
 
-from flask import render_template, jsonify, abort
-from . import app
-from .static import static
+from flask import Flask, render_template, jsonify, abort
 from .content import content
 
 
-@app.context_processor
-def inject_static():
-    return {'static': static}
+app = Flask(__name__, static_folder='../static')
 
 
 @app.context_processor
