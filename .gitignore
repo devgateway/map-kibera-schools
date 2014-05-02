@@ -3,6 +3,9 @@
 ## temporary output folder
 build/
 
+## temporary folders for staging and production
+staging/
+production/
 
 # DEV STUFF
 
