@@ -13,6 +13,7 @@ try:
 except ImportError:  # python2
     from urllib import urlencode
     import httplib as client
+from scss import Scss as ScssFactory
 from cssmin import cssmin as cssmin_func
 
 
@@ -23,6 +24,11 @@ CSS_TAG = '<link rel="stylesheet" href="{}" />'
 def concat(sources):
     combined = '\n'.join(sources)
     return [combined]
+
+
+def scss(sources):
+    css = ScssFactory()
+    return map(css.compile, sources)
 
 
 def cssmin(sources):

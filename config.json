@@ -14,13 +14,14 @@
       "files": [
         "leaflet.css",
         "normalize.css",
+        "variables.scss",
         "helpers.css",
         "base.css",
         "layout.css",
         "style.css",
         "print.css"
       ],
-      "filters": ["concat", "cssmin"]
+      "filters": ["concat", "scss", "cssmin"]
     }
   }
 }
