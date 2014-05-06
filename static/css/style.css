@@ -3,12 +3,6 @@
 /*
  * Type
  */
-.container > header {
-  font-size: 0.8em;
-}
-.container > header.text-reset strong {  /* the class is required to win specificity */
-  font-weight: bold;
-}
 section#home-video {
   text-align: center;
 }
@@ -24,16 +18,8 @@ section#home-video .video-copy {
 /*
  * Colours
  */
-.container > header a,
 footer a {
   color: inherit;
-}
-.container > header {
-  background: #222;
-  color: #ccc;
-}
-.container > header.text-reset strong {
-  color: white;
 }
 section#home-video {
   color: #444;

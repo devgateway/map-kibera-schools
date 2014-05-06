@@ -17,7 +17,7 @@
         "variables.scss",
         "helpers.css",
         "base.css",
-        "layout.css",
+        "layout.scss",
         "style.css",
         "print.css"
       ],

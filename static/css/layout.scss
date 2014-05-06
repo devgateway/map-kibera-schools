@@ -1,20 +1,6 @@
 /*! Kibera School Project Styles | BSD license */
 
 
-/*
- * Box-size everything
- *
- * for sanity's sake
- */
-.container,
-header,
-section,
-footer,
-div {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
 
 /*
@@ -24,7 +10,7 @@ div {
  */
 
 .container {
-  width: 980px;
+  width: $width-page;
   margin: 0 auto;
 }
 
@@ -35,8 +21,47 @@ div {
  */
 
 .container > header {
-  background: #222;
-  color: #ccc;
+  position: fixed;
+  z-index: $layer-top;
+  top: 0;
+  left: 50%;
+  width: $width-page;
+  margin-left: -$width-page / 2;
+  padding: $pad-h-thin $pad-v;
+
+  font-size: $t-small;
+  color: $c-header-med;
+  background: $c-header-bg;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
+  &.text-reset strong,
+  h3 {
+    font-weight: bold;
+    color: $c-header-bright;
+  }
+
+  h1 {
+    margin-right: $pad-h;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .drop-down {
+    position: absolute;
+    top: 0;
+    left: 58%;   ////// todo: variable me
+    padding: 0 $pad-h-thin;
+    border: 1px solid $c-header-med;
+    border-width: 0 1px;
+    background: fade($c-header-bg, 10%);
+
+    ol {
+
+    }
+  }
+
 }
 
 /*
@@ -51,8 +76,6 @@ section {
 /*
  * Video slider
  *
- * The video is 16x9, filling the 980px width container, so it must be
- * 551px tall.
  */
 
 section#home-video {
@@ -144,10 +167,6 @@ footer {
 
 
 /* =========== Padding =========== */
-
-header {
-  padding: 0.5em;
-}
 
 section {
   padding: 1em;

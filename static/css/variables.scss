@@ -1,1 +1,32 @@
-$red: red;
+/*! Kibera Schools variables | BSD License, see LICENSE */
+
+/////// LAYOUT ///////
+
+$width-page: 980px;
+
+$pad-h: 20px;
+$pad-v: 20px;
+$pad-h-thin: $pad-h / 2;
+
+
+/////// STACKING ///////
+
+$layer-top: 1000;  // basically just for the sticky header
+$layer-high: 100;
+$layer-low: -100;
+$layer-bottom: -1000;  // make things really go away
+
+
+/////// TEXT ///////
+
+$t-small: 12px;
+
+
+/////// COLOURS ///////
+
+$c-copy: #111;
+
+$c-header-bg: #000;
+$c-header-med: #999;
+$c-header-bright: #fff;
+$c-header-menu: rgba(0, 0, 0, 0.8);
