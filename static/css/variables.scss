@@ -2,6 +2,7 @@
 
 /////// TEXT ///////
 
+$t-base: 16px;
 $t-small: 12px;
 $t-heavy: 900;
 
@@ -14,8 +15,13 @@ $pad-h: 20px;
 $pad-v: 14px;
 $pad-h-thin: $pad-h / 2;
 $pad-v-thin: $pad-v / 1.618;
+$pad-v-big: $pad-v * 2;
+$pad-border: 6px;
 
 $height-stickyhead: $pad-v * 2 + $t-small;
+
+$height-vid: 288px;
+$width-vid: 512px;
 
 
 /////// STACKING ///////
@@ -28,9 +34,13 @@ $layer-bottom: -1000;  // make things really go away
 
 /////// COLOURS ///////
 
-$c-copy: #111;
+$c-copy: #444;
 
 $c-header-bg: #000;
 $c-header-med: #999;
 $c-header-bright: #fff;
 $c-header-menu: rgba(24, 24, 24, 0.85);
+
+
+/////// BORDERs ///////
+$b-outline: 1px solid #ccc;

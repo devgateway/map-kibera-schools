@@ -14,15 +14,14 @@
       "files": [
         "leaflet.css",
 
-        "normalize.css",
-        "helpers.css",
-
         "variables.scss",
         "mixins.scss",
+        "normalize.css",
+        "helpers.css",
         "base.scss",
 
         "layout.scss",
-        "style.css",
+        "style.scss",
         "print.css"
       ],
       "filters": ["concat", "scss", "cssmin"]

@@ -1,40 +1,5 @@
 /*! Kibera School Project Styles | BSD license */
 
-/*
- * Type
- */
-section#home-video {
-  text-align: center;
-}
-section#home-video h2 {
-  font-size: 2em;
-  text-shadow: 0 0 0.3em rgba(255, 255, 255, 0.4);
-}
-section#home-video .video-copy {
-  font-size: 1.25em;
-  font-weight: bold;
-}
-
-/*
- * Colours
- */
-footer a {
-  color: inherit;
-}
-section#home-video {
-  color: #444;
-}
-section#home-video .video-load-play {
-  background: url('../img/button-play.png');
-  opacity: 0.8;
-}
-section#home-video .video-load-play:hover {
-  opacity: 1;
-}
-footer {
-  background: #333;
-  color: #ddd;
-}
 
 /*
  * Borders
@@ -86,11 +51,8 @@ section#home-map .map-controls li a {
   padding: 0.5em 0.5em 0.5em 4em;
   font-size: 1em;
 }
-section#home-map .map-controls ul,
-section#home-map .map-controls li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+section#home-map .map-controls ul {
+  @include list-reset;
 }
 section#home-map .map-controls h3 {
   background: #999;
@@ -119,10 +81,7 @@ footer h2 {
   text-transform: lowercase;
 }
 .footer-blogs > ol,
-.footer-blogs > ol > li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  @include list-reset;
 }
 .footer-blogs h3,
 .footer-blogs p {

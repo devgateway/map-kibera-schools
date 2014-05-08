@@ -7,7 +7,7 @@
           box-sizing: $mode;
 }
 
-@mixin caret() {
+@mixin caret {
   content: "";
   display: block;
   position: absolute;
@@ -19,4 +19,15 @@
   border-style: solid;
   border-color: white black black black;
   border-width: 0.5em 0.4em 0 0.4em;
+}
+
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  & > li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 }

@@ -3,14 +3,30 @@
 {% block content %}
 
   <section id="home-video">
-    <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
-    <h2>Nulla dictum massa quis adipiscing vivera.</h2>
-    <a class="video-load-play invisible-text"
-       title="Play Video"
-       href="#play-video">play</a>
-    <div class="video-copy">
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla dictum massa quis adipiscing viverra.</p>
-    </div>
+    <ul class="videos-slider clear-fix">
+      <li id="video-1">
+        <div class="video">
+          <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
+        </div>
+        <div class="video-meta">
+          <h2>Nulla dictum massa quis adipiscing vivera.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla dictum massa quis adipiscing viverra.</p>
+        </div>
+      </li>
+      <li id="video-2" class="visually-hidden">
+        <div class="video">
+          <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
+        </div>
+        <div class="video-meta">
+          <h2>Nulla dictum massa quis adipiscing vivera.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nulla dictum massa quis adipiscing viverra.</p>
+        </div>
+      </li>
+    </ul>
+    <nav class="videos-pager">
+      <li><a href="#video-1">video 1</a></li>
+      <li><a href="#video-2">video 2</a></li>
+    </nav>
   </section>
 
   <section id="home-map">

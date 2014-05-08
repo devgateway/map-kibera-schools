@@ -54,7 +54,7 @@
     display: block;
     position: absolute;
     top: 0;
-    left: 58%;   ////// todo: variable me
+    left: 57.3%;   ////// todo: variable me
 
     h2 {
       position: relative;
@@ -76,7 +76,7 @@
       }
 
       &:after {
-        @include caret();
+        @include caret;
       }
     }
 
@@ -114,14 +114,6 @@
 
 }
 
-/*
- * Section Elements
- *
- * Individual pages are organized in vertical sections, marked up as sections.
- */
-
-section {
-}
 
 /*
  * Video slider
@@ -129,38 +121,47 @@ section {
  */
 
 section#home-video {
-  position: relative;  /* establish positioning context */
-  height: 551px;
-  margin: 0;
-  border: 0;
+  margin-top: $height-stickyhead;
+  padding-top: $pad-v-big;
 }
-section#home-video .video-screenshot {
-  display: block;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+
+.videos-slider {
+  @include list-reset;
+
+  .video {
+    @include box-sizing(content-box);
+    display: block;
+    float: left;
+    margin-right: $pad-h;
+    padding: $pad-border;
+    border: $b-outline;
+
+    &,
+    & .video-screenshot {
+      height: $height-vid;
+      width: $width-vid;
+    }
+  }
+
+  .video-meta {
+    margin-top: -1px;  // respect contents' top margin
+    padding-top: 1px;
+  }
 }
-section#home-video h2 {
-  margin: 2em 3em;
-}
-section#home-video .video-load-play {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 64px;
-  width: 64px;
-  margin-top: -32px;  /* height / 2 */
-  margin-left: -32px;  /* width / 2 */
-}
-section#home-video .video-copy {
-  position: absolute;
-  top: 75%;
-  width: 50%;
-  left: 25%;  /* (100% - width) / 2 */
+.videos-pager {
+  @include list-reset;
+  margin: $pad-v 0;
+  font-size: 0;  // hide text; TODO: make this more accessible
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: $pad-v-thin $pad-h-thin / 2;
+    height: $t-base;
+    width: $t-base;
+    border: $b-outline;
+    border-radius: $t-base / 2;
+  }
 }
 
 /*
@@ -213,6 +214,10 @@ section#home-map .map {
 footer {
   background: #444;
   color: #ddd;
+
+  a {
+    color: inherit;
+  }
 }
 
 
