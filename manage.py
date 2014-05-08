@@ -23,6 +23,10 @@
 
 from __future__ import print_function  # python2 compat
 
+if 'FileNotFoundError' not in dir(__builtins__):
+    # python2
+    FileNotFoundError = OSError
+
 import os
 import shutil
 import json
@@ -37,7 +41,7 @@ def get_config(_cached={}):
                 except ValueError as e:
                     err_msg = e.args[0]
                     raise SystemExit('Error (config.json): {}'.format(err_msg))
-        except FileNotFoundError:  # todo: support python2
+        except FileNotFoundError:
             raise SystemExit('Error: config file (config.json) not found.')
         _cached['config'] = config
     return _cached['config']
