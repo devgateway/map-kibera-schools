@@ -11,8 +11,11 @@ $t-heavy: 900;
 $width-page: 980px;
 
 $pad-h: 20px;
-$pad-v: 20px;
+$pad-v: 14px;
 $pad-h-thin: $pad-h / 2;
+$pad-v-thin: $pad-v / 1.618;
+
+$height-stickyhead: $pad-v * 2 + $t-small;
 
 
 /////// STACKING ///////
@@ -30,4 +33,4 @@ $c-copy: #111;
 $c-header-bg: #000;
 $c-header-med: #999;
 $c-header-bright: #fff;
-$c-header-menu: rgba(0, 0, 0, 0.8);
+$c-header-menu: rgba(24, 24, 24, 0.85);

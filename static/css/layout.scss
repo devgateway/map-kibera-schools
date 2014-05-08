@@ -25,11 +25,13 @@
   z-index: $layer-top;
   top: 0;
   left: 50%;
+  height: $height-stickyhead;
   width: $width-page;
   margin-left: -$width-page / 2;
-  padding: $pad-h-thin $pad-v;
+  padding: $pad-v $pad-h-thin ;
 
   font-size: $t-small;
+  line-height: 1em;
   color: $c-header-med;
   background: $c-header-bg;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
@@ -49,17 +51,65 @@
   }
 
   .drop-down {
+    display: block;
     position: absolute;
     top: 0;
     left: 58%;   ////// todo: variable me
-    padding: 0 $pad-h-thin;
-    border: 1px solid $c-header-med;
-    border-width: 0 1px;
-    background: fade($c-header-bg, 10%);
+
+    h2 {
+      position: relative;
+      display: block;
+      height: $height-stickyhead;
+      padding: 0 $pad-h-thin;
+      line-height: $height-stickyhead;
+
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: $pad-v;
+        bottom: $pad-v;
+        left: 0;
+        right: 0;
+        border: 1px solid $c-header-med;
+        border-width: 0 1px;
+      }
+
+      &:after {
+        @include caret();
+      }
+    }
 
     ol {
+      display: block;
+      height: 0;
+      overflow: hidden;
+      padding: 0;  // zeroed so it collapses. see :hover rules for padding
+      background: $c-header-menu;
 
+      li {
+        display: block;
+        padding: $pad-v-thin $pad-h-thin;
+
+        &:hover {
+          background: rgba(127, 127, 127, 0.2);
+        }
+
+        h3 {
+          display: block;
+        }
+      }
     }
+
+    h2:hover + ol,
+    ol:hover {
+      height: auto;
+      padding: $pad-v-thin 0 $pad-v 0;
+    }
+  }
+
+  .header-social-links {
+    float: right;
   }
 
 }

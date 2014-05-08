@@ -51,12 +51,12 @@ textarea {
  *
  * for sanity's sake
  */
-.container,
 header,
 section,
 footer,
+ul,
+ol,
+li,
 div {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 }

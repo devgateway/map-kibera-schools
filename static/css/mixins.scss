@@ -1,0 +1,22 @@
+/* Kibera School Project Styles | BSD license */
+
+@mixin box-sizing($mode) {
+  -webkit-box-sizing: $mode;
+     -moz-box-sizing: $mode;
+       -o-box-sizing: $mode;
+          box-sizing: $mode;
+}
+
+@mixin caret() {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: $pad-h-thin;
+  width: 0;
+  height: 0;
+  margin-top: -0.25em;
+  border-style: solid;
+  border-color: white black black black;
+  border-width: 0.5em 0.4em 0 0.4em;
+}

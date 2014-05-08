@@ -13,10 +13,14 @@
       "prefix": "static/css",
       "files": [
         "leaflet.css",
+
         "normalize.css",
-        "variables.scss",
         "helpers.css",
-        "base.css",
+
+        "variables.scss",
+        "mixins.scss",
+        "base.scss",
+
         "layout.scss",
         "style.css",
         "print.css"
