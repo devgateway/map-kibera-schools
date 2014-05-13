@@ -4,10 +4,11 @@
  * hello
  */
 html {
-    color: $c-copy;
-    font-family: 'Lato';
-    font-size: $t-base;
-    line-height: 1.4;
+  font-size: $t-base;
+  line-height: 1.4;
+  font-family: 'Lato';
+  color: $c-copy;
+  background: $c-bg;
 }
 
 /*
@@ -17,13 +18,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -36,7 +37,7 @@ canvas,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -44,7 +45,7 @@ video {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /*
@@ -71,4 +72,8 @@ h2 {
   line-height: 1.1em;
   font-weight: $t-heavy;
   color: $c-heavy;
+}
+
+a {
+  text-decoration: none;
 }

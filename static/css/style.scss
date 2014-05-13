@@ -53,37 +53,3 @@ section#home-map .map-controls a:hover {
   color: #fff;
   background-color: #777;
 }
-
-/*
- * Footer
- *
- * Recent blogs, contact, etc.
- */
-footer {
-  font-size: 0.8em;
-}
-footer h2 {
-  color: #999;
-  text-transform: lowercase;
-}
-.footer-blogs > ol,
-  @include list-reset;
-}
-.footer-blogs h3,
-.footer-blogs p {
-  font: inherit;
-  display: inline;
-}
-.footer-blogs h3 a {
-  color: #999;
-  font-weight: bold;
-  text-decoration: none;
-}
-.footer-blogs h3 a:hover {
-  color: #ddd;
-  text-decoration: underline;
-}
-.footer-contact address {
-  font-style: normal;
-}
-

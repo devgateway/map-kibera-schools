@@ -1,24 +1,10 @@
-/* Kibera School Project Styles | BSD license */
+/* Kibera School Project sass mixins | Some based on h5bp | BSD license */
 
 @mixin box-sizing($mode) {
   -webkit-box-sizing: $mode;
      -moz-box-sizing: $mode;
        -o-box-sizing: $mode;
           box-sizing: $mode;
-}
-
-@mixin caret {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: $pad-h-thin;
-  width: 0;
-  height: 0;
-  margin-top: -0.25em;
-  border-style: solid;
-  border-color: white black black black;
-  border-width: 0.5em 0.4em 0 0.4em;
 }
 
 @mixin list-reset {
@@ -30,4 +16,53 @@
     padding: 0;
     list-style: none;
   }
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+@mixin visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@mixin border-radius($rad) {
+  -webkit-border-radius: $rad;
+     -moz-border-radius: $rad;
+       -o-border-radius: $rad;
+          border-radius: $rad;
+}
+
+@mixin _form-common {
+  @include box-sizing(border-box);
+  @include border-radius($radius-rounded);
+  display: inline-block;
+  height: $form-line;
+  line-height: $form-line;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@mixin text-input {
+  @include _form-common;
+  padding-left: $pad-h-thin;
+  padding-right: $pad-h-thin;
+  color: $c-med;
+  background: $c-bright;
+  border: 2px solid #ddd;
+}
+
+@mixin button($bg) {
+  @include _form-common;
+  padding-left: $pad-h;
+  padding-right: $pad-h;
+  color: $c-bright;
+  background: $bg;
+  border: none;
 }

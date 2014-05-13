@@ -7,7 +7,7 @@
 
 """
 
-from flask import Flask, render_template, jsonify, abort
+from flask import Flask, render_template, json, Response, abort
 from .content import content
 
 
@@ -46,7 +46,7 @@ def schools_geojson():
         'type': 'FeatureCollection',
         'features': content['schools'],
     }
-    return jsonify(geojson)
+    return Response(json.dumps(geojson), mimetype='application/octet-stream')
 
 
 @app.route('/schools/<path:slug>/')
@@ -61,16 +61,10 @@ def school_url_generator():
         yield 'school', {'slug': school['slug']}
 
 
-@app.route('/blog/<slug>/')
-def blog(slug):
-    post = indexed(content['blog'], 'slug').get(slug) or abort(404)
-    return render_template('blog-post.html', post=post)
-
-
 @app.route('/robots.txt')
 def robots():
-    return ('Ueser-agent: *\n'
-            'Disallow:')
+    """Allow everything"""
+    return Response('User-agent: *\nDisallow:', mimetype='text/plain')
 
 
 @app.route('/404.html')

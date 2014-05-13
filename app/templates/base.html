@@ -18,98 +18,109 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,900" />
   </head>
   <body>
-    <div class="container">
 
-      <header class="text-reset">
-        <h1>
-          Feedback Labs
-          <a href="{{ url_for('home') }}"
-             title="Kibera School Project Home"><strong>Kibera School Project</strong></a>
-        </h1>
-        <ul class="header-random-links">
-          <li><a href="#">icon</a></li>
-          <li><a href="#">icon</a></li>
-          <li><a href="#">icon</a></li>
-          <li><a href="#">icon</a></li>
-          <li><a href="#">icon</a></li>
-        </ul>
+    <header class="text-reset">
+      <h1>
+        Feedback Labs
+        <a href="{{ url_for('home') }}"
+           title="Kibera School Project Home"><strong>Kibera School Project</strong></a>
+      </h1>
+      <ul class="header-random-links">
+        <li><a href="#">icon</a></li>
+        <li><a href="#">icon</a></li>
+        <li><a href="#">icon</a></li>
+        <li><a href="#">icon</a></li>
+        <li><a href="#">icon</a></li>
+      </ul>
 
-        <div class="drop-down">
-          <h2>Select Stories</h2>
-          <ol>
-            {% for story in content.stories %}
-              <li>
-                <h3>{{ story.title }}</h3>
-                <p>{{ story.description }}</p>
-              </li>
-            {% endfor %}
-          </ol>
+      <ul class="header-social-links">
+        <li>
+          <a href="#"
+             title="Facebook" target="_top">f</a>
+        </li>
+        <li>
+          <a href="#"
+             title="Twitter" target="_top">t</a>
+        </li>
+        <li>
+          <a href="#"
+             title="YouTube" target="_top">y</a>
+        </li>
+        <li>
+          <a href="#"
+             title="Google Plus" target="_top">g+</a>
+        </li>
+      </ul>
+    </header>
+
+    {% block content %}
+      other pages override this block to provide content here
+    {% endblock %}
+
+    <footer>
+      <div class="footer-meta">
+
+        <div id="about">
+          <h2>About</h2>
+          <p>Donec consectetur diam ac nibh auctor ultricies. IOnteger mauris lacus, consequat in luctus id, semper sed felis. Cum sociis natoque penatibus et magnis.</p>
         </div>
 
-        <ul class="header-social-links">
-          <li>
-            <a href="#"
-               title="Facebook" target="_top">f</a>
-          </li>
-          <li>
-            <a href="#"
-               title="Twitter" target="_top">t</a>
-          </li>
-          <li>
-            <a href="#"
-               title="YouTube" target="_top">y</a>
-          </li>
-          <li>
-            <a href="#"
-               title="Google Plus" target="_top">g+</a>
-          </li>
-        </ul>
-      </header>
-
-      {% block content %}
-        other pages override this block to provide content here
-      {% endblock %}
-
-      <footer>
-        <div class="footer-blogs">
-          <h2>Blog Feed</h2>
-          <ol>
-            {% for post in content.blog[:3] %}
-              <li>
-                <h3><a href="{{ url_for('blog', slug=post.slug) }}">{{ post.title }}</a></h3>
-                {{ post.body }}
-              </li>
-            {% else %}
-              <li>no posts :(</li>
-            {% endfor %}
-          </ol>
-          <h2 class="something">Lorem opsum dolor sit amet, consectetur elit.</h2>
-        </div>
-
-        <div class="footer-contact">
-          <h2>Contact Us</h2>
-          <address>
-            <strong>Open Gov Hub</strong><br/>
-            1110 Vermont Av NW 5th floor,<br/>
-            Washington, DC 20006 USA<br/>
-            Tel: <a href="tel:+12025729200">+1.202.572.9200</a>
-          </address>
-
-          <h2>Share Your Story</h2>
-          <form>
-            <input/>
-            <button>&raquo;</button>
-          </form>
-
-          <h2>Follow Us</h2>
-          <ul class="footer-social-links">
-            <li><a href="#">f</a></li>
-            <li><a href="#">t</a></li>
+        <div id="tweets">
+          <h2>Latest Tweets</h2>
+          <ul class="tweetlist">
+            <li>
+              Donec consectetur diam ac nibh auctor ultricies. Integer mauris lacus, consequat <a href="">http://t.co/Oce7F8</a>
+              <small><a href="">9 days ago</a></small>
+            </li>
           </ul>
         </div>
-      </footer>
 
-    </div>
+        <div id="contact">
+          <h2>Get In Touch</h2>
+          <address>
+            <dl>
+              <dt class="address-location">Address</dt>
+              <dd>1110 Vermont Av NW 5th floor,<br/>
+                  Washington, DC 20006 USA</dd>
+              <dt class="address-phone">Phone</dt>
+              <dd><a href="tel:+12025729200">+1.202.572.9200</a></dd>
+              <dt class="address-email">Email</dt>
+              <dd><a href="mailto:someone@example.com">someone@example.com</a></dd>
+            </dl>
+          </address>
+        </div>
+
+        <div id="newsletter">
+          <h2>Newsletter</h2>
+          <p>Stay informed on our latest news!</p>
+          <form method="post" action="mailchimp-maybe">
+            <label for="newsletter-email">Your Email address</label>
+            <input name="newsletter-email"
+                   id="newsletter-email"
+                   type="email"
+                   placeholder="Email *" {# end tag below to avoid space before button #}
+            /><button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="footer-copyright">
+
+        <div id="copyright">
+          &copy; Copyright 2014 Feedback Labs All Rights Reserved.
+        </div>
+
+        <ul class="footer-social-links">
+          <li><a href="#">t</a></li>
+          <li><a href="#">f</a></li>
+          <li><a href="#">d</a></li>
+          <li><a href="#">i</a></li>
+          <li><a href="#">r</a></li>
+        </ul>
+
+      </div>
+    </footer>
+
     <!-- tag js
          template=<script src="{path}"></script>
          -->

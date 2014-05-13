@@ -8,10 +8,13 @@ $t-mbig: 24px;
 $t-small: 13px;
 $t-heavy: 900;
 
+$form-line: 2.4em;
+
+$footer-copyline: 3.6em;
 
 /////// LAYOUT ///////
 
-$width-page: 980px;
+$width-full: 1200px;
 
 $pad-h: 18px;
 $pad-v: 18px;
@@ -26,6 +29,8 @@ $height-stickyhead: $pad-v * 2 + $lineheight-stickyhead;
 $height-vid: 315px;
 $width-vid: 560px;
 
+$height-footercopy: $footer-copyline;
+
 
 /////// STACKING ///////
 
@@ -37,17 +42,32 @@ $layer-bottom: -1000;  // make things really go away
 
 /////// COLOURS ///////
 
-$c-copy: #444;
+$c-bg: #000;
+$c-copy: #ccc;
+$c-med: #999;
+$c-bright: #fff;
 
-$c-outline: #ccc;  // borders and such
+$c-outline: #999;  // borders and such
 
-$c-header-bg: #000;
-$c-header-med: #999;
-$c-header-bright: #fff;
+$c-heavy: $c-bright;  // probably for big bold headers
+
+$c-accent: #ca0000;   // red
+$c-accent2: #ffd357;  // yellow
+$c-accent3: #75b81b;  // green
+$c-female: #fda1ca;   // pink
+$c-male: #92cef2;     // purple
+
+$c-header-bg: $c-bg;
+$c-header-med: $c-med;
+$c-header-bright: $c-bright;
 $c-header-menu: rgba(24, 24, 24, 0.85);
 
-$c-heavy: #666;  // probably for big bold
+$c-footer-light: #f8f8f8;
+$c-footer-med: #a0a0a0;
+$c-footer-dark: #212121;
 
 
 /////// BORDERs ///////
 $b-outline: 1px solid $c-outline;
+
+$radius-rounded: 3px;

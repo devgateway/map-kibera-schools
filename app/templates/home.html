@@ -52,4 +52,18 @@
     lots of words
   </section>
 
+
+
+  <section id="stories">
+    <h2>Stories</h2>
+    <ul>
+      {% for story in content.stories %}
+        <li>
+          <h3>{{ story.title }}</h3>
+          <p>{{ story.description }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
 {% endblock %}

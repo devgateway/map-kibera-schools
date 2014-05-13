@@ -1,33 +1,10 @@
 /*! Kibera School Project Styles | BSD license */
 
 /*
- * Container
- *
- * Wraps the whole page in a centred, 980px box.
- */
-
-.container {
-  width: $width-page;
-  margin: 0 auto;
-}
-
-
-/*
  * General Section styles
  */
 section {
   padding: $pad-v $pad-h;
-}
-section,
-section#home-map .map-controls,
-section#home-map a {
-  border: $b-outline;
-}
-.container > section {
-  border-width: 0 1px 1px;  /* no top border */
-}
-.container > section:last-of-type {
-  border-bottom-width: 0;  /* no border before the footer */
 }
 
 /*
@@ -42,8 +19,6 @@ section#home-map a {
   top: 0;
   left: 50%;
   height: $height-stickyhead;
-  width: $width-page;
-  margin-left: -$width-page / 2;
   padding: $pad-v $pad-h-thin ;
 
   font-size: $t-small;
@@ -64,66 +39,6 @@ section#home-map a {
 
   a {
     color: inherit;
-  }
-
-  .drop-down {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 57.3%;   ////// todo: variable me
-
-    h2 {
-      position: relative;
-      display: block;
-      height: $height-stickyhead;
-      padding: 0 $pad-h-thin;
-      line-height: $height-stickyhead;
-
-      &:before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: $pad-v * 0.8;
-        bottom: $pad-v * 0.8;
-        left: 0;
-        right: 0;
-        border: 1px solid $c-header-med;
-        border-width: 0 1px;
-      }
-
-      &:after {
-        @include caret;
-      }
-    }
-
-    ol {
-      display: block;
-      height: 0;
-      overflow: hidden;
-      padding: 0;  // zeroed so it collapses. see :hover rules for padding
-
-      line-height: 1.2em;
-      background: $c-header-menu;
-
-      li {
-        display: block;
-        padding: $pad-v-thin $pad-h-thin;
-
-        &:hover {
-          background: rgba(127, 127, 127, 0.2);
-        }
-
-        h3 {
-          display: block;
-        }
-      }
-    }
-
-    h2:hover + ol,
-    ol:hover {
-      height: auto;
-      padding: $pad-v-thin 0 $pad-v 0;
-    }
   }
 
   .header-social-links {
@@ -243,32 +158,72 @@ section#home-map .map {
  */
 
 footer {
-  background: #444;
-  color: #ddd;
+  /* stretch the full page-width to provide a background */
+  position: relative;  // establish context for pseudo before element
+  background: $c-footer-light;
 
+  &:before {
+    content: "";
+    // z-index: $layer-bottom;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: $height-footercopy;
+    background: $c-footer-med;
+  }
+}
+
+.footer-meta,
+.footer-copyright {
+  width: $width-full;
+  margin: 0 auto;
+}
+
+.footer-meta {
+  color: $c-footer-med;
+  background: $c-footer-light;
+  h2 {
+    color: $c-footer-dark;
+  }
+  address {
+    font-style: normal;
+  }
+  a {
+    color: $c-accent3;
+  }
+
+  & > div {
+    width: 25%;
+  }
+
+  #newsletter {
+    label {
+      @include visually-hidden;
+    }
+    input {
+      @include text-input;
+    }
+    button {
+      @include button($c-accent3);
+      margin-left: -3px;
+    }
+  }
+}
+
+.footer-copyright {
+  color: $c-footer-light;
+  background: $c-footer-med;
   a {
     color: inherit;
   }
 }
 
-
-/* =========== Padding =========== */
-
-
-.footer-blogs,
-.footer-contact {
-  display: inline-block;
-  vertical-align: top;
-  padding: 1em 1em 3em;
+footer {
+  .footer-contact {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em 1em 3em;
+  }
 }
-.footer-blogs {
-  width: 75%;
-}
-.footer-blogs > ol > li {
-  vertical-align: top;
-  display: inline-block;
-  width: 32%;
-  max-height: 12em;
-  overflow: hidden;
-}
-
