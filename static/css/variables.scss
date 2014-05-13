@@ -39,6 +39,8 @@ $layer-bottom: -1000;  // make things really go away
 
 $c-copy: #444;
 
+$c-outline: #ccc;  // borders and such
+
 $c-header-bg: #000;
 $c-header-med: #999;
 $c-header-bright: #fff;
@@ -48,4 +50,4 @@ $c-heavy: #666;  // probably for big bold
 
 
 /////// BORDERs ///////
-$b-outline: 1px solid #ccc;
+$b-outline: 1px solid $c-outline;

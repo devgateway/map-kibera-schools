@@ -219,3 +219,42 @@ def load_schools(school_stuff):
             validate_school_geo(school_geojson)
             schools.append(school_geojson)
     return schools
+
+
+@load('videos')
+def load_videos(video_stuff):
+    videos = []
+    for vid_file, _ in video_stuff:
+        vid_data = json.load(vid_file)
+        videos.extend(vid_data)
+    return videos
+
+
+@load('stories')
+def load_stories(story_stuff):
+    meta = {
+        'title':       (True, ('one',)),
+        'description': (True, ('one',))
+    }
+    markdowner = Markdown(extensions=['meta'], output_format='html5')
+    stories = []
+    for story_file, filename in story_stuff:
+        story = {}
+        html = markdowner.convert(story_file.read())  # also loads metadata
+        story['body'] = Markup(html)
+        story['slug'] = os.path.splitext(filename)[0]
+
+        for field, (required, filters) in meta.items():
+            field_val = markdowner.Meta.get(field)
+            try:
+                val = apply_field_constraints(field_val, required, filters)
+            except MetaError as e:
+                e.apply_context(filename, field)
+                raise e
+            story[field] = val
+
+        stories.append(story)
+        markdowner.reset()
+
+    return stories
+

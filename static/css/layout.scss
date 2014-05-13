@@ -141,6 +141,7 @@ section#home-map a {
 section#home-video {
   margin-top: $height-stickyhead;
   padding-top: $pad-v-big;  // bit extra for the shadow
+  padding-bottom: 0;  // pager margin takes care of it
 }
 
 .videos-slider {
@@ -174,11 +175,23 @@ section#home-video {
 
   li {
     display: inline-block;
-    margin: $pad-v-thin $pad-h-thin / 2;
-    height: $t-base;
-    width: $t-base;
-    border: $b-outline;
-    border-radius: $t-base / 2;
+    a {
+      @include box-sizing(border-box);
+      display: block;
+      margin: $pad-v-thin $pad-h-thin / 2;
+      height: $t-base;
+      width: $t-base;
+      border: $b-outline;
+      border-color: darken($c-outline, 10%);
+      border-radius: $t-base / 2;
+      &:hover {
+        background: $c-outline;
+      }
+      &.selected {
+        border-color: $c-heavy;
+        background: $c-heavy;
+      }
+    }
   }
 }
 

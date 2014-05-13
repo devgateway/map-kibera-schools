@@ -37,26 +37,12 @@
         <div class="drop-down">
           <h2>Select Stories</h2>
           <ol>
-            <li>
-              <h3>Story One</h3>
-              <p>Description for Parents</p>
-            </li>
-            <li>
-              <h3>Story Two</h3>
-              <p>Description for Educators</p>
-            </li>
-            <li>
-              <h3>Story Three</h3>
-              <p>Description for Active Parents</p>
-            </li>
-            <li>
-              <h3>Story Four</h3>
-              <p>Description for Officials</p>
-            </li>
-            <li>
-              <h3>Story Five</h3>
-              <p>Description for NGO Community</p>
-            </li>
+            {% for story in content.stories %}
+              <li>
+                <h3>{{ story.title }}</h3>
+                <p>{{ story.description }}</p>
+              </li>
+            {% endfor %}
           </ol>
         </div>
 
