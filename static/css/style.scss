@@ -1,26 +1,12 @@
 /*! Kibera School Project Styles | BSD license */
 
 
-/*
- * Borders
- */
-section,
-section#home-map .map-controls,
-section#home-map a {
-  border: 1px solid #ccc;
-}
-.container > section {
-  border-width: 0 1px 1px;  /* no top border */
-}
+
 section#home-map .map-controls {
   border-width: 0 1px 0 0;  /* right border only */
 }
 section#home-map a {
   border-width: 0 0 1px;  /* bottom only */
-}
-.container > section:last-of-type,
-section#home-map li:last-of-type a {
-  border-bottom-width: 0;  /* no border before the footer */
 }
 
 /*

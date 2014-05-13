@@ -3,7 +3,9 @@
 /////// TEXT ///////
 
 $t-base: 16px;
-$t-small: 12px;
+$t-big: 32px;
+$t-mbig: 24px;
+$t-small: 13px;
 $t-heavy: 900;
 
 
@@ -11,17 +13,18 @@ $t-heavy: 900;
 
 $width-page: 980px;
 
-$pad-h: 20px;
-$pad-v: 14px;
+$pad-h: 18px;
+$pad-v: 18px;
 $pad-h-thin: $pad-h / 2;
 $pad-v-thin: $pad-v / 1.618;
 $pad-v-big: $pad-v * 2;
-$pad-border: 6px;
+$pad-border: 8px;
 
-$height-stickyhead: $pad-v * 2 + $t-small;
+$lineheight-stickyhead: $t-small * 0.8;
+$height-stickyhead: $pad-v * 2 + $lineheight-stickyhead;
 
-$height-vid: 288px;
-$width-vid: 512px;
+$height-vid: 315px;
+$width-vid: 560px;
 
 
 /////// STACKING ///////
@@ -40,6 +43,8 @@ $c-header-bg: #000;
 $c-header-med: #999;
 $c-header-bright: #fff;
 $c-header-menu: rgba(24, 24, 24, 0.85);
+
+$c-heavy: #666;  // probably for big bold
 
 
 /////// BORDERs ///////

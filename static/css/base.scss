@@ -61,3 +61,14 @@ li,
 div {
   @include box-sizing(border-box);
 }
+
+
+/*
+ * Type
+ */
+h2 {
+  font-size: $t-big;
+  line-height: 1.1em;
+  font-weight: $t-heavy;
+  color: $c-heavy;
+}

@@ -1,8 +1,5 @@
 /*! Kibera School Project Styles | BSD license */
 
-
-
-
 /*
  * Container
  *
@@ -12,6 +9,25 @@
 .container {
   width: $width-page;
   margin: 0 auto;
+}
+
+
+/*
+ * General Section styles
+ */
+section {
+  padding: $pad-v $pad-h;
+}
+section,
+section#home-map .map-controls,
+section#home-map a {
+  border: $b-outline;
+}
+.container > section {
+  border-width: 0 1px 1px;  /* no top border */
+}
+.container > section:last-of-type {
+  border-bottom-width: 0;  /* no border before the footer */
 }
 
 /*
@@ -31,7 +47,7 @@
   padding: $pad-v $pad-h-thin ;
 
   font-size: $t-small;
-  line-height: 1em;
+  line-height: $lineheight-stickyhead;
   color: $c-header-med;
   background: $c-header-bg;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
@@ -67,8 +83,8 @@
         content: "";
         display: block;
         position: absolute;
-        top: $pad-v;
-        bottom: $pad-v;
+        top: $pad-v * 0.8;
+        bottom: $pad-v * 0.8;
         left: 0;
         right: 0;
         border: 1px solid $c-header-med;
@@ -85,6 +101,8 @@
       height: 0;
       overflow: hidden;
       padding: 0;  // zeroed so it collapses. see :hover rules for padding
+
+      line-height: 1.2em;
       background: $c-header-menu;
 
       li {
@@ -122,7 +140,7 @@
 
 section#home-video {
   margin-top: $height-stickyhead;
-  padding-top: $pad-v-big;
+  padding-top: $pad-v-big;  // bit extra for the shadow
 }
 
 .videos-slider {
@@ -222,10 +240,6 @@ footer {
 
 
 /* =========== Padding =========== */
-
-section {
-  padding: 1em;
-}
 
 
 .footer-blogs,
