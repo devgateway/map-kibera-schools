@@ -15,15 +15,16 @@
          template=<link rel="stylesheet" href="{path}" />
          -->
     <!-- endtag css -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,900" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
   </head>
   <body>
 
-    <header class="text-reset">
+    <header id="page-header" class="text-reset">
       <h1>
-        Feedback Labs
-        <a href="{{ url_for('home') }}"
-           title="Kibera School Project Home"><strong>Kibera School Project</strong></a>
+        <a href="{{ url_for('home') }}" title="Kibera School Project Home">
+          <small>Feedback Labs</small>
+          Kibera School Project
+        </a>
       </h1>
       <ul class="header-random-links">
         <li><a href="#">icon</a></li>
@@ -34,22 +35,9 @@
       </ul>
 
       <ul class="header-social-links">
-        <li>
-          <a href="#"
-             title="Facebook" target="_top">f</a>
-        </li>
-        <li>
-          <a href="#"
-             title="Twitter" target="_top">t</a>
-        </li>
-        <li>
-          <a href="#"
-             title="YouTube" target="_top">y</a>
-        </li>
-        <li>
-          <a href="#"
-             title="Google Plus" target="_top">g+</a>
-        </li>
+        {% for profile in content.social %}
+          <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+        {% endfor %}
       </ul>
     </header>
 
@@ -107,15 +95,13 @@
       <div class="footer-copyright">
 
         <div id="copyright">
-          &copy; Copyright 2014 Feedback Labs All Rights Reserved.
+          &copy; Copyright 2014 Feedback Labs. All Rights Reserved.
         </div>
 
         <ul class="footer-social-links">
-          <li><a href="#">t</a></li>
-          <li><a href="#">f</a></li>
-          <li><a href="#">d</a></li>
-          <li><a href="#">i</a></li>
-          <li><a href="#">r</a></li>
+          {% for profile in content.social %}
+            <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+          {% endfor %}
         </ul>
 
       </div>

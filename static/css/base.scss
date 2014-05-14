@@ -5,7 +5,7 @@
  */
 html {
   font-size: $t-base;
-  line-height: 1.4;
+  line-height: $line-base;
   font-family: 'Lato';
   color: $c-copy;
   background: $c-bg;
@@ -68,10 +68,8 @@ div {
  * Type
  */
 h2 {
-  font-size: $t-big;
   line-height: 1.1em;
-  font-weight: $t-heavy;
-  color: $c-heavy;
+  font-weight: $t-normal;
 }
 
 a {

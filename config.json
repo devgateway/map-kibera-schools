@@ -20,7 +20,6 @@
         "helpers.css",
         "base.scss",
 
-        "layout.scss",
         "style.scss",
         "print.css"
       ],

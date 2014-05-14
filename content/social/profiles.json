@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Facebook",
+    "icon": "f",
+    "href": "#"
+  },
+  {
+    "name": "Twitter",
+    "icon": "t",
+    "href": "#"
+  },
+  {
+    "name": "Google Plus",
+    "icon": "g",
+    "href": "#"
+  },
+  {
+    "name": "Vimeo",
+    "icon": "v",
+    "href": "#"
+  },
+  {
+    "name": "Flickr",
+    "icon": "f",
+    "href": "#"
+  }
+]

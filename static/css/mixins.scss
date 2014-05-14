@@ -7,6 +7,13 @@
           box-sizing: $mode;
 }
 
+@mixin border-radius($rad) {
+  -webkit-border-radius: $rad;
+     -moz-border-radius: $rad;
+       -o-border-radius: $rad;
+          border-radius: $rad;
+}
+
 @mixin list-reset {
   margin: 0;
   padding: 0;
@@ -32,19 +39,60 @@
   width: 1px;
 }
 
-@mixin border-radius($rad) {
-  -webkit-border-radius: $rad;
-     -moz-border-radius: $rad;
-       -o-border-radius: $rad;
-          border-radius: $rad;
+/*
+ * Stretch backgrounds outside of their containers
+ *
+ * WARNING:
+ *   * alters the element's positioning mode
+ *   * hijacks the element's :before pseudo-element
+ */
+@mixin bg-stretchwidth($colour) {
+  position: relative;
+  background: $colour;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -9999px;
+    right: 0;
+    border-left: 9999px solid $colour;
+    box-shadow: 9999px 0 0 $colour;
+  }
+}
+
+/*
+ * Justifies the last line of justified text
+ *
+ * http://stackoverflow.com/a/6637398
+ *
+ * WARNING:
+ *    * hijacks the :after pseudo-element
+ *    * will probably add space below
+ */
+@mixin line-justify {
+  text-align: justify;
+  text-align-last: justify;
+  &:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@mixin accent-box {
+  display: block;
+  width: 240px;
+  background: $c-accent;
+  color: $c-bright;
 }
 
 @mixin _form-common {
   @include box-sizing(border-box);
   @include border-radius($radius-rounded);
   display: inline-block;
-  height: $form-line;
-  line-height: $form-line;
+  height: $line-form;
+  line-height: $line-form;
   padding-top: 0;
   padding-bottom: 0;
 }

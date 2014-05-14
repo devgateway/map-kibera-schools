@@ -194,3 +194,11 @@ def load_stories(story_stuff):
 
     return stories
 
+
+@load('social')
+def load_social(social_stuff):
+    profiles = []
+    for social_file, _ in social_stuff:
+        social_data = json.load(social_file)
+        profiles.extend(social_data)
+    return profiles

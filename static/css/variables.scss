@@ -6,11 +6,15 @@ $t-base: 16px;
 $t-big: 32px;
 $t-mbig: 24px;
 $t-small: 13px;
+$t-light: 300;
+$t-normal: 400;
 $t-heavy: 900;
 
-$form-line: 2.4em;
-
-$footer-copyline: 3.6em;
+$line-base: 1.4em;
+$line-stickyhead: $t-small * 0.8;
+$line-form: 2.4em;
+$line-footer: 1.618em;
+$line-footer-copyright: $t-base;
 
 /////// LAYOUT ///////
 
@@ -23,19 +27,17 @@ $pad-v-thin: $pad-v / 1.618;
 $pad-v-big: $pad-v * 2;
 $pad-border: 8px;
 
-$lineheight-stickyhead: $t-small * 0.8;
-$height-stickyhead: $pad-v * 2 + $lineheight-stickyhead;
+$height-stickyhead: $pad-v * 2 + $line-stickyhead;
 
 $height-vid: 315px;
 $width-vid: 560px;
-
-$height-footercopy: $footer-copyline;
 
 
 /////// STACKING ///////
 
 $layer-top: 1000;  // basically just for the sticky header
 $layer-high: 100;
+$layer-norm: 0;
 $layer-low: -100;
 $layer-bottom: -1000;  // make things really go away
 
@@ -64,7 +66,7 @@ $c-header-menu: rgba(24, 24, 24, 0.85);
 
 $c-footer-light: #f8f8f8;
 $c-footer-med: #a0a0a0;
-$c-footer-dark: #212121;
+$c-footer-dark: #444;
 
 
 /////// BORDERs ///////

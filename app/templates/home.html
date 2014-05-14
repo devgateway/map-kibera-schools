@@ -26,22 +26,28 @@
   </section>
 
   <section id="home-map">
-    <div class="map-controls">
-      <header>
-        <h2>My School</h2>
-        <p>Kibera School Project</p>
-      </header>
-      <h3>Search By</h3>
-      <ul>
-        <li><a href="#">School Name</a></li>
-        <li><a href="#">Street</a></li>
-        <li><a href="#">Administrator</a></li>
-        <li><a href="#">Keyword</a></li>
+
+    <header class="map-controls">
+      <h2>Kibera School Map</h2>
+      <ul class="controls">
+        <li><a href="#">Schools</a></li>
+        <li><a href="#">Filters</a></li>
+        <li><a href="#">Data</a></li>
+        <li><a href="#">Search</a></li>
       </ul>
-      <h3>Share</h3>
-    </div>
+      <div class="social">
+        <h3>Share</h3>
+        <ul>
+          {% for profile in content.social %}
+            <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
+
     <div id="main-map" class="map">
     </div>
+
   </section>
 
   <section id="home-charts">
@@ -59,8 +65,9 @@
     <ul>
       {% for story in content.stories %}
         <li>
-          <h3>{{ story.title }}</h3>
+          <h3>{{ story.title }} / Gallery</h3>
           <p>{{ story.description }}</p>
+          <a href="stories/{{ story.slug }}" class="button">See More</a>
         </li>
       {% endfor %}
     </ul>

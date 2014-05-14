@@ -1,55 +1,213 @@
 /*! Kibera School Project Styles | BSD license */
 
+/*
+ * Header Element
+ *
+ * A sticky header at the top of every page
+ */
 
+#page-header {
+  @include bg-stretchwidth($c-header-bg);
+  position: fixed;
+  z-index: $layer-top;
+  top: 0;
+  left: 50%;
+  width: $width-full;
+  margin-left: -$width-full / 2;
+  height: $height-stickyhead;
+  padding: $pad-v $pad-h-thin;
 
-section#home-map .map-controls {
-  border-width: 0 1px 0 0;  /* right border only */
+  font-size: $t-small;
+  line-height: $line-stickyhead;
+  color: $c-header-med;
+
+  &.text-reset strong,
+  h3 {
+    font-weight: $t-heavy;
+    color: $c-header-bright;
+  }
+
+  h1 {
+    margin-right: $pad-h;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .header-social-links {
+    float: right;
+  }
+
 }
-section#home-map a {
-  border-width: 0 0 1px;  /* bottom only */
+
+
+/*
+ * Video slider
+ *
+ */
+
+section#home-video {
+  margin-top: $height-stickyhead;
+  padding-top: $pad-v-big;  // bit extra for the shadow
+  padding-bottom: 0;  // pager margin takes care of it
+}
+
+.videos-slider {
+  @include list-reset;
+
+  .video {
+    @include box-sizing(content-box);
+    display: block;
+    float: left;
+    margin-right: $pad-h;
+    padding: $pad-border;
+    border: $b-outline;
+
+    &,
+    & .video-screenshot {
+      height: $height-vid;
+      width: $width-vid;
+    }
+  }
+
+  .video-meta {
+    margin-top: -1px;  // respect contents' top margin
+    padding-top: 1px;
+  }
+}
+.videos-pager {
+  @include list-reset;
+  margin: $pad-v 0;
+  font-size: 0;  // hide text; TODO: make this more accessible
+  text-align: center;
+
+  li {
+    display: inline-block;
+    a {
+      @include box-sizing(border-box);
+      display: block;
+      margin: $pad-v-thin $pad-h-thin / 2;
+      height: $t-base;
+      width: $t-base;
+      border-radius: $t-base / 2;
+      background: $c-outline;
+      &:hover {
+        background: $c-bright;
+      }
+      &.selected {
+        background: $c-accent2;
+      }
+    }
+  }
 }
 
 /*
- * Map with controls
+ * Map
+ *
+ * blah blah bla
  */
-section#home-map .map-controls {
-  background: #ddd;
-  color: #555;
-  text-transform: uppercase;
+section#home-map {
+  border-top: $b-outline;
 }
-section#home-map .map-controls header {
-  padding: 1.5em 1.5em 1.5em 4em;
+.map-controls {
+  h2 {
+    @include accent-box;
+  }
+  .social {
+    ul {
+      @include list-reset;
+    }
+  }
 }
-section#home-map .map-controls header h2,
-section#home-map .map-controls header p {
-  margin: 0;
+.map {
+  height: 512px;
+  background: $c-footer-med;  // might flash while loading
 }
-section#home-map .map-controls header h2 {
-  font-size: 1.5em;
+
+
+
+section#stories {
+  ul {
+    @include list-reset;
+  }
 }
-section#home-map .map-controls header p {
-  font-size: 0.7em;
+
+
+/*
+ * Footer Element
+ *
+ * Big footer at the bottom of every page.
+ */
+
+.footer-meta,
+.footer-copyright {
+  width: $width-full;
+  margin: 0 auto;
 }
-section#home-map .map-controls h3,
-section#home-map .map-controls li a {
-  display: block;
-  margin: 0;
-  padding: 0.5em 0.5em 0.5em 4em;
-  font-size: 1em;
+
+.footer-meta {
+  @include bg-stretchwidth($c-footer-light);
+  padding: $pad-v-big 0;
+  font-size: 0;  // WATCH OUT (reset in next-leve divs)
+  color: $c-footer-med;
+
+  h2 {
+    margin-top: 0;
+    color: $c-footer-dark;
+  }
+  a {
+    color: $c-accent3;
+  }
+
+  & > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    font-size: $t-base;
+  }
+
+  #contact {
+    address {
+      font-style: normal;
+    }
+    dt {
+      font-weight: bold;
+    }
+  }
+
+  #newsletter {
+    label {
+      @include visually-hidden;
+    }
+    input {
+      @include text-input;
+    }
+    button {
+      @include button($c-accent3);
+      margin-left: -3px;
+    }
+  }
 }
-section#home-map .map-controls ul {
-  @include list-reset;
-}
-section#home-map .map-controls h3 {
-  background: #999;
-  color: white;
-}
-section#home-map .map-controls a {
-  color: inherit;
-  text-decoration: none;
-  background: url('../img/icon-circle.png') 2em 50% no-repeat;
-}
-section#home-map .map-controls a:hover {
-  color: #fff;
-  background-color: #777;
+
+.footer-copyright {
+  @include bg-stretchwidth($c-footer-med);
+  @include line-justify;
+  font-size: $t-base;
+  padding: $pad-v 0 ($pad-v - $line-footer-copyright);
+  line-height: $line-footer-copyright;
+  color: $c-footer-light;
+  a {
+    color: inherit;
+  }
+  #copyright {
+    display: inline-block;
+  }
+  ul {
+    @include list-reset;
+    display: inline-block;
+    li {
+      display: inline-block;
+    }
+  }
 }
