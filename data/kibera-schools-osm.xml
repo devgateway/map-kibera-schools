@@ -1,0 +1,4054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2014-05-14T11:57:02Z"/>
+
+  <node id="478551902" lat="-1.3104681" lon="36.7988296">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:estate" v="Golfcourse"/>
+    <tag k="is_in:ward" v="Woodley/Golfcourse/Kenyatta"/>
+    <tag k="name" v="Shadrack Kimalel Primary School"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="motor_bikes,small_cars,big_cars.tractors"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Mbagathi hospital"/>
+    <tag k="polling_station:nearest_police_station" v="Kenyatta police post"/>
+    <tag k="polling_station:registered_voters" v="3,815"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type_description" v="public_school"/>
+  </node>
+  <node id="612004414" lat="-1.3158710" lon="36.7821000">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="guum@yahoo.com"/>
+    <tag k="contact:phone" v="721940010"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="4-13yrs"/>
+    <tag k="education:students" v="128"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="kindergaten,nursery,primary"/>
+    <tag k="name" v="Guum Primary School"/>
+    <tag k="official_name" v="GUUM PRI SCH"/>
+    <tag k="opening_hours" v="07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612006960" lat="-1.3122250" lon="36.7802850">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="727760808"/>
+    <tag k="education:fees" v="supported individually"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="6"/>
+    <tag k="education:students" v="267"/>
+    <tag k="education:students_female" v="138"/>
+    <tag k="education:students_male" v="129"/>
+    <tag k="education:teachers" v="21"/>
+    <tag k="education:teachers_female" v="11"/>
+    <tag k="education:teachers_male" v="10"/>
+    <tag k="education:type" v="nursery,primary,secondary"/>
+    <tag k="media:camera_device_number" v="1"/>
+    <tag k="media:camera_number" v="19,20,21"/>
+    <tag k="name" v="Jeremic Adventist Academy"/>
+    <tag k="official_name" v="JEREMIC ADVENTIST SEC. SCH."/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612006977" lat="-1.3109696" lon="36.7723461">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="hushgo@yahoo.com"/>
+    <tag k="contact:phone" v="0722939737"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="4"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="4-18yrs"/>
+    <tag k="education:students" v="801"/>
+    <tag k="education:students_female" v="351"/>
+    <tag k="education:students_male" v="450"/>
+    <tag k="education:teachers" v="24"/>
+    <tag k="education:teachers_female" v="10"/>
+    <tag k="education:teachers_male" v="14"/>
+    <tag k="education:teachers_trained" v="8"/>
+    <tag k="education:teachers_tsc" v="2"/>
+    <tag k="education:teachers_untrained" v="16"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Michaels Holy Unity Academy"/>
+    <tag k="opening_hours" v="06:30-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612007000" lat="-1.3190154" lon="36.7945025">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="New Hope School"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612007003" lat="-1.3184050" lon="36.7938872">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Supiria Primary School"/>
+  </node>
+  <node id="612007006" lat="-1.3192283" lon="36.7948792">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="World Ecclesiastes Primary"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612007007" lat="-1.3188423" lon="36.7948218">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Nomiya School"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612007018" lat="-1.3133049" lon="36.8055166">
+    <tag k="amenity" v="school"/>
+    <tag k="description" v="Primary school"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Pag Academy"/>
+  </node>
+  <node id="612007021" lat="-1.3160953" lon="36.7755758">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="makabwabwire@yahoo.com"/>
+    <tag k="contact:phone" v="0721984541/0736674397"/>
+    <tag k="education:fees" v="Secondary 7000 KShs per term,Primary 500 KShs per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="7-17yrs"/>
+    <tag k="education:students" v="551"/>
+    <tag k="education:students_female" v="343"/>
+    <tag k="education:students_male" v="208"/>
+    <tag k="education:teachers" v="23"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="16"/>
+    <tag k="education:type" v="primary,secondary"/>
+    <tag k="name" v="Soweto Academy"/>
+    <tag k="opening_hours" v="06:00-21:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007086" lat="-1.3132070" lon="36.7932870">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="10"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="15"/>
+    <tag k="name" v="Drug Fighters Primary School"/>
+    <tag k="official_name" v="DRUG FIGHTERS PRI SCH"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007112" lat="-1.3127332" lon="36.7858825">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Kirega Primary School"/>
+  </node>
+  <node id="612007146" lat="-1.3129539" lon="36.7786455">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Esther Academy"/>
+    <tag k="opening_hours" v="07:00-16:00"/>
+    <tag k="operator:description" v="More infomation was not given due to abscence of the head in charge"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007152" lat="-1.3133253" lon="36.7804905">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="education:description" v="Funded. Has Nursery,Secondary"/>
+    <tag k="education:fees" v="none"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="3-24yrs"/>
+    <tag k="education:students" v="2851"/>
+    <tag k="education:students_female" v="1476"/>
+    <tag k="education:students_male" v="1375"/>
+    <tag k="education:teachers" v="31"/>
+    <tag k="education:teachers_female" v="22"/>
+    <tag k="education:teachers_male" v="9"/>
+    <tag k="education:type" v="nursery,primary,secondary"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:estate" v="Olympic"/>
+    <tag k="is_in:village" v="Olympic"/>
+    <tag k="is_in:ward" v="sarangombe"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="name" v="Olympic Primary School"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="Total no. exclude Secondary Students"/>
+    <tag k="polling_station:accessibility" v="motor_bikes,big cars,tractors"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="MSF belgium HIV Clinic,Huduma medical clinic"/>
+    <tag k="polling_station:nearest_police_station" v="olympic chief's camp"/>
+    <tag k="polling_station:registered_voters" v="6,152"/>
+    <tag k="polling_station:type" v="public_school"/>
+    <tag k="source" v="map_kibera_trust"/>
+  </node>
+  <node id="612007263" lat="-1.3111155" lon="36.7880010">
+    <tag k="amenity" v="school"/>
+    <tag k="education:description" v="Funded. Has Nursery,Secondary"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Kibera Academy"/>
+  </node>
+  <node id="612007264" lat="-1.3107635" lon="36.7886451">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Kambi Muru Nursery"/>
+  </node>
+  <node id="612007279" lat="-1.3124840" lon="36.7907060">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="contact:phone" v="716583975"/>
+    <tag k="education:fees" v="KShs 150-600 per year"/>
+    <tag k="education:program_counseling" v="no"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="8"/>
+    <tag k="education:student_age_range" v="5-14yrs"/>
+    <tag k="education:students" v="561"/>
+    <tag k="education:students_female" v="285"/>
+    <tag k="education:students_male" v="276"/>
+    <tag k="education:teachers" v="22"/>
+    <tag k="education:teachers_female" v="13"/>
+    <tag k="education:teachers_male" v="9"/>
+    <tag k="education:teachers_trained" v="21"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:village" v="Mashimon"/>
+    <tag k="is_in:ward" v="Lindi"/>
+    <tag k="media:video_device_number" v="3"/>
+    <tag k="media:video_number" v="16"/>
+    <tag k="name" v="Mashimoni Squatters Primary"/>
+    <tag k="official_name" v="MASHIMONI SQUATTERS PRI. SCH"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+    <tag k="polling_station:accessibility" v="small_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Msf belgium (kwa wanga)"/>
+    <tag k="polling_station:nearest_police_station" v="Kilimani police station,Administration police Do"/>
+    <tag k="polling_station:registered_voters" v="5979"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="private_school"/>
+    <tag k="polling_station:type_description" v="community based organisation"/>
+    <tag k="source" v="map_kibera_trust"/>
+  </node>
+  <node id="612007401" lat="-1.3150596" lon="36.7902852">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Lindi Ushirika Nursery School"/>
+  </node>
+  <node id="612007406" lat="-1.3155859" lon="36.7940253">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Saviour Kings Academy Primary"/>
+  </node>
+  <node id="612007412" lat="-1.3146274" lon="36.7950352">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Rudolf High School"/>
+  </node>
+  <node id="612007413" lat="-1.3138256" lon="36.7941680">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="p.o box, 7083-00200 nairobi"/>
+    <tag k="contact:phone" v="0710895928"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="270"/>
+    <tag k="education:students_female" v="200"/>
+    <tag k="education:students_male" v="70"/>
+    <tag k="education:teachers" v="7"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="11"/>
+    <tag k="name" v="Lindi Ushirika Nursery School,Primary"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612007436" lat="-1.3077913" lon="36.7860909">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Talent Private School"/>
+    <tag k="operator:type" v="private"/>
+    <tag k="type_of_institution" v="school_private"/>
+  </node>
+  <node id="612007444" lat="-1.3083927" lon="36.7897768">
+    <tag k="amenity" v="school"/>
+    <tag k="description" v="primary school"/>
+    <tag k="education:type" v="Private"/>
+    <tag k="name" v="Stara Rescue Centre"/>
+    <tag k="note" v="private"/>
+  </node>
+  <node id="612007446" lat="-1.3085984" lon="36.7899473">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Makina Baptist Primary School"/>
+  </node>
+  <node id="612007447" lat="-1.3083946" lon="36.7895166">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="New Adventist High School"/>
+  </node>
+  <node id="612007505" lat="-1.3190021" lon="36.7785492">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="42"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Monica Nursery School"/>
+    <tag k="opening_hours" v="08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007520" lat="-1.3188992" lon="36.7790073">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Imani Nursery School"/>
+  </node>
+  <node id="612007554" lat="-1.3138130" lon="36.7794245">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0721608794"/>
+    <tag k="education:description" v="Has Nursery"/>
+    <tag k="education:fees" v="KShs 3000 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="21/2-14yrs"/>
+    <tag k="education:students" v="377"/>
+    <tag k="education:students_female" v="190"/>
+    <tag k="education:students_male" v="187"/>
+    <tag k="education:teachers" v="14"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:teachers_trained" v="13"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="29"/>
+    <tag k="name" v="Palm Olive Academy"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007565" lat="-1.3137325" lon="36.7804906">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="kidszone2008@yahoo.com"/>
+    <tag k="contact:phone" v="0722945037"/>
+    <tag k="education:fees" v="KShs 2000 per term for primary"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="21/2-8yrs"/>
+    <tag k="education:students" v="55"/>
+    <tag k="education:students_female" v="30"/>
+    <tag k="education:students_male" v="25"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="24,25,26,27"/>
+    <tag k="name" v="Kids Zone"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="no funders"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612007585" lat="-1.3126169" lon="36.7773233">
+    <tag k="amenity" v="school"/>
+    <tag k="education:description" v="also has pre school"/>
+    <tag k="education:fees" v="fees not stated"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="21/2-9yrs"/>
+    <tag k="education:students" v="60"/>
+    <tag k="education:students_female" v="32"/>
+    <tag k="education:students_male" v="28"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="AMMSA Junior Academy"/>
+    <tag k="opening_hours" v="07:30-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="run by individual"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007631" lat="-1.3100353" lon="36.7901811">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:village" v="Mashimoni"/>
+    <tag k="is_in:ward" v="Laini saba ward"/>
+    <tag k="name" v="Mashimoni Primary"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="small_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Frepals"/>
+    <tag k="polling_station:nearest_police_station" v="D.O Administration police"/>
+    <tag k="polling_station:registered_voters" v="4619"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type_description" v="private_school"/>
+  </node>
+  <node id="612007635" lat="-1.3128994" lon="36.7946902">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Free Methodist Primary School"/>
+  </node>
+  <node id="612007672" lat="-1.3103386" lon="36.7941802">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="lasba@yahoo.com"/>
+    <tag k="contact:phone" v="0720200847"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="4"/>
+    <tag k="education:staff_male" v="6"/>
+    <tag k="education:student_age_range" v="6-14yrs"/>
+    <tag k="education:students" v="455"/>
+    <tag k="education:students_female" v="238"/>
+    <tag k="education:students_male" v="217"/>
+    <tag k="education:teachers" v="14"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Laini Saba Nursery and Primary School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:30-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612007678" lat="-1.3109420" lon="36.7951339">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Church of God nursery and primary school"/>
+  </node>
+  <node id="612007716" lat="-1.3098221" lon="36.7947541">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 500 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-15yrs"/>
+    <tag k="education:students" v="130"/>
+    <tag k="education:students_female" v="320"/>
+    <tag k="education:students_male" v="190"/>
+    <tag k="education:teachers" v="18"/>
+    <tag k="education:teachers_female" v="12"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Jakes Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612007820" lat="-1.3137940" lon="36.7889700">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0728697781/ box No.34700100"/>
+    <tag k="education:fees" v="KShs 1000 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-15yrs"/>
+    <tag k="education:students" v="420"/>
+    <tag k="education:students_female" v="220"/>
+    <tag k="education:students_male" v="200"/>
+    <tag k="education:teachers" v="14"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:teachers_male" v="9"/>
+    <tag k="education:teachers_trained" v="11"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="media:video_device_number" v="3"/>
+    <tag k="name" v="Kisumu Ndogo Primary School"/>
+    <tag k="official_name" v="KISUMU NDOGO PRI SCH"/>
+    <tag k="opening_hours" v="07:30-16:10"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="started by the community but not registered"/>
+    <tag k="operator:type" v="other- community school"/>
+  </node>
+  <node id="612007886" lat="-1.3151892" lon="36.7770696">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0726808699"/>
+    <tag k="education:fees" v="nursery 200KShs,primary 250KShs,food 200KShs"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-16yrs"/>
+    <tag k="education:students" v="91"/>
+    <tag k="education:students_female" v="54"/>
+    <tag k="education:students_male" v="37"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="1-2/2"/>
+    <tag k="name" v="Fair View School"/>
+    <tag k="opening_hours" v="08:15-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612007942" lat="-1.3149281" lon="36.7853204">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Cana Junior Academy"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008370" lat="-1.3172201" lon="36.7770397">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720212414"/>
+    <tag k="education:description" v="also nursery"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_description" v="care kenya partially supports sports"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="4-16yrs"/>
+    <tag k="education:students" v="415"/>
+    <tag k="education:students_female" v="205"/>
+    <tag k="education:students_male" v="210"/>
+    <tag k="education:teachers" v="14"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="12"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Christine Primary School"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008379" lat="-1.3146802" lon="36.7909977">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="p.o box,4669-00100 nairobi"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="6-14yrs"/>
+    <tag k="education:students" v="100"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Lindi Friends School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008385" lat="-1.3176267" lon="36.7940590">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Imani Jere Children Center"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008411" lat="-1.3098505" lon="36.7898568">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Huruma Primary"/>
+  </node>
+  <node id="612008414" lat="-1.3091770" lon="36.7904166">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Makina Baptist Primary"/>
+  </node>
+  <node id="612008438" lat="-1.3127441" lon="36.7792917">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="graebben.school@yahoo.com"/>
+    <tag k="education:student_age_range" v="adult"/>
+    <tag k="education:students" v="900"/>
+    <tag k="education:students_female" v="160"/>
+    <tag k="education:students_male" v="740"/>
+    <tag k="education:teachers" v="7"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:type" v="driving"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="16,17,18"/>
+    <tag k="name" v="Graebens Driving School"/>
+    <tag k="notes" v="school"/>
+    <tag k="opening_hours" v="07:30-18:30"/>
+    <tag k="operator:description" v="No funders"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008446" lat="-1.3121918" lon="36.7799887">
+    <tag k="amenity" v="school"/>
+    <tag k="education:description" v="film school"/>
+    <tag k="education:fees" v="none"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="Out of school drop outs and adult"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Hot Sun Foundation/Kibera Film School"/>
+    <tag k="notes" v="program is funded"/>
+    <tag k="opening_hours" v="07:00-17:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="612008500" lat="-1.3085809" lon="36.7762577">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="020-24693228"/>
+    <tag k="education:fees" v="KShs 6000 per term"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="4"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="2.5-6yrs"/>
+    <tag k="education:students" v="300"/>
+    <tag k="education:teachers" v="17"/>
+    <tag k="education:teachers_female" v="15"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="14"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Tenderlines Baby Care School Ayany"/>
+    <tag k="opening_hours" v="07:30-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008555" lat="-1.3153460" lon="36.7979823">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="dshimuli@yahoo.com"/>
+    <tag k="contact:phone" v="0721 32 90 10"/>
+    <tag k="education:description" v="day care"/>
+    <tag k="education:fees" v="KShs 400 per month, those below 3yrs pay KSsh 35 per day"/>
+    <tag k="education:student_age_range" v="10 months-6yrs"/>
+    <tag k="education:students" v="40"/>
+    <tag k="education:students_female" v="18"/>
+    <tag k="education:students_male" v="22"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Lahasa Day Care School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008568" lat="-1.3132458" lon="36.7978307">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300 per term"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="1-5years"/>
+    <tag k="education:students" v="32"/>
+    <tag k="education:students_female" v="17"/>
+    <tag k="education:students_male" v="15"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Gabriel Nursery School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008576" lat="-1.3157240" lon="36.8029848">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 450 per term"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-15yrs"/>
+    <tag k="education:students" v="168"/>
+    <tag k="education:students_female" v="96"/>
+    <tag k="education:students_male" v="72"/>
+    <tag k="education:teachers" v="26"/>
+    <tag k="education:teachers_female" v="16"/>
+    <tag k="education:teachers_male" v="10"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Victory Hope Children Centre"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008615" lat="-1.3096404" lon="36.7921397">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Mashimoni Ushirika Primary"/>
+  </node>
+  <node id="612008704" lat="-1.3133680" lon="36.8006386">
+    <tag k="amenity" v="school"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="52"/>
+    <tag k="education:students_female" v="29"/>
+    <tag k="education:students_male" v="23"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Good Hope Nursery School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008715" lat="-1.3114235" lon="36.7846634">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 250 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="58"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Charity Nursery School"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008764" lat="-1.3104398" lon="36.7728971">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0711134067"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="7-15yrs"/>
+    <tag k="education:students" v="156"/>
+    <tag k="education:teachers" v="11"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="11"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Brothers Missionery Primary School"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008786" lat="-1.3172236" lon="36.7984783">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="academyzelyn@yahoo.com"/>
+    <tag k="contact:phone" v="0721 44 85 28, 0727 969723, 0724 96 64 39"/>
+    <tag k="education:fees" v="KShs 1000 per term"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="4-12yrs"/>
+    <tag k="education:students" v="251"/>
+    <tag k="education:students_female" v="132"/>
+    <tag k="education:students_male" v="119"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="7"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Zelyn Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="Zelyn Community Based Organisation"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612008869" lat="-1.3146802" lon="36.7787834">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Jacobs Well School"/>
+    <tag k="operator:description" v="More infomation was not given due to abscence of the head in charge"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008903" lat="-1.3163609" lon="36.7924852">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="ujamaacounty@yahoo.com"/>
+    <tag k="contact:phone" v="0724385517"/>
+    <tag k="education:fees" v="KShs 300"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="40"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Ujamaa Community Primary School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612008908" lat="-1.3147838" lon="36.7906754">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="15-20yrs"/>
+    <tag k="education:students" v="60"/>
+    <tag k="education:students_female" v="40"/>
+    <tag k="education:students_male" v="20"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="St Augustus High School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612008910" lat="-1.3115360" lon="36.7822410">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="kibraacademy@yahoo.com"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="14-18yrs"/>
+    <tag k="education:students" v="150"/>
+    <tag k="education:students_female" v="70"/>
+    <tag k="education:students_male" v="80"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="9"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="10"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Kibra Academy"/>
+    <tag k="official_name" v="KIBRA ACADEMY SEC. SCH"/>
+    <tag k="opening_hours" v="07:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612008955" lat="-1.3122167" lon="36.7940269">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Elite Visionary High School"/>
+  </node>
+  <node id="612009018" lat="-1.3083732" lon="36.7895187">
+    <tag k="amenity" v="school"/>
+    <tag k="description" v="primary school"/>
+    <tag k="education:type" v="Private"/>
+    <tag k="name" v="Calvary Adventure School"/>
+  </node>
+  <node id="612009037" lat="-1.3183670" lon="36.7961302">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="josiahmunyutu@yahoo.com"/>
+    <tag k="contact:phone" v="0725 63 55 21"/>
+    <tag k="education:fees" v="KShs 100 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="no"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-16yrs"/>
+    <tag k="education:students" v="947"/>
+    <tag k="education:students_female" v="465"/>
+    <tag k="education:students_male" v="482"/>
+    <tag k="education:teachers" v="16"/>
+    <tag k="education:teachers_female" v="10"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="5"/>
+    <tag k="education:teachers_untrained" v="11"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="St John Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612009057" lat="-1.3168134" lon="36.8000633">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="sowetobaptisedhighsch@yahoo.com"/>
+    <tag k="contact:phone" v="0714  529 422"/>
+    <tag k="education:fees" v="KShs 4000 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="14-18yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:students_female" v="70"/>
+    <tag k="education:students_male" v="50"/>
+    <tag k="education:teachers" v="7"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="5"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Soweto Baptised High School"/>
+    <tag k="official_name" v="SOWETO BAPTIST HGH SCH"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="612009062" lat="-1.3106535" lon="36.7735151">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0712546723"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_specialneeds" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="2.5-6yrs"/>
+    <tag k="education:students" v="53"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Day Care Nursery"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="612009121" lat="-1.3150947" lon="36.8024215">
+    <tag k="amenity" v="school"/>
+    <tag k="description" v="Primary school"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Brimalisa School"/>
+  </node>
+  <node id="612009125" lat="-1.3144689" lon="36.8015813">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Wendy Day Care"/>
+  </node>
+  <node id="612009188" lat="-1.3151491" lon="36.7788314">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="kenya@carehighway.org"/>
+    <tag k="contact:phone" v="0724278129,0731090439"/>
+    <tag k="education:fees" v="none"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="4-6yrs"/>
+    <tag k="education:students" v="25"/>
+    <tag k="education:students_female" v="7"/>
+    <tag k="education:students_male" v="18"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="30,31.32,33,34"/>
+    <tag k="name" v="Care High Way Little School"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="funded"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="612009243" lat="-1.3079144" lon="36.7899024">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="education:type" v="other"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:village" v="Makina"/>
+    <tag k="is_in:ward" v="Makina"/>
+    <tag k="name" v="Makina Self Help School"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="D.O health center"/>
+    <tag k="polling_station:nearest_police_station" v="Administation police D.C camp"/>
+    <tag k="polling_station:registered_voters" v="2278"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type_description" v="private_school"/>
+    <tag k="source" v="map_kibera_trust"/>
+    <tag k="station:type_description" v="Self Help organisation"/>
+  </node>
+  <node id="612009363" lat="-1.3157161" lon="36.7860804">
+    <tag k="amenity" v="school"/>
+    <tag k="description" v="primary school"/>
+    <tag k="education:type" v="Private"/>
+    <tag k="name" v="Kibera School for Girls"/>
+  </node>
+  <node id="612009364" lat="-1.3153374" lon="36.7835223">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="St Stephen Children's Centre"/>
+  </node>
+  <node id="612009711" lat="-1.3063548" lon="36.7868303">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="driving"/>
+    <tag k="name" v="Wanderful Driving School"/>
+  </node>
+  <node id="612011358" lat="-1.3118843" lon="36.7957903">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="pastorboaz@yahoo.com"/>
+    <tag k="contact:phone" v="0727073298"/>
+    <tag k="education:fees" v="KShs 10900 per year"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="no"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="15-20yrs"/>
+    <tag k="education:students" v="280"/>
+    <tag k="education:students_female" v="170"/>
+    <tag k="education:students_male" v="110"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_tsc" v="8"/>
+    <tag k="education:teachers_untrained" v="6"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="8"/>
+    <tag k="name" v="Glory Secondary School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="662794312" lat="-1.3115065" lon="36.7927173">
+    <tag k="amenity" v="school"/>
+    <tag k="designation" v="NGO"/>
+    <tag k="name" v="Turning Point"/>
+  </node>
+  <node id="662800049" lat="-1.3125609" lon="36.7752020">
+    <tag k="amenity" v="school"/>
+    <tag k="designation" v="NGO"/>
+    <tag k="name" v="Turning Point"/>
+  </node>
+  <node id="701794738" lat="-1.3106448" lon="36.7848157">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="info@kcyp.net"/>
+    <tag k="contact:phone" v="0723232359"/>
+    <tag k="education:fees" v="KShs 1500 per package"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:students" v="35"/>
+    <tag k="education:students_female" v="10"/>
+    <tag k="education:students_male" v="25"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="health_facility:referals" v="KHN,Mbagathi,st mary's langata"/>
+    <tag k="medical_service:growth_and_nutritional_support" v="yes"/>
+    <tag k="medical_service:home_based_care" v="yes"/>
+    <tag k="medical_service:psychosocial_support_counselling" v="yes"/>
+    <tag k="medical_staff:counsellor" v="1"/>
+    <tag k="name" v="Kibera Community Youth Programme Computer School"/>
+    <tag k="opening_hours" v="09:00-17:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="712907767" lat="-1.3144970" lon="36.7902940">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="info@shapethe children foundation.org"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:teachers" v="13"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="10"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="13"/>
+    <tag k="name" v="Shape The Child Foundation"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="ngo_international"/>
+    <tag k="security:gbv_support" v="yes"/>
+  </node>
+  <node id="712999562" lat="-1.3142110" lon="36.7786910">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 350 per term"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="21/2-6yrs"/>
+    <tag k="education:students" v="12"/>
+    <tag k="education:students_female" v="6"/>
+    <tag k="education:students_male" v="6"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="35,36,37,38"/>
+    <tag k="name" v="Golden Heart Academy"/>
+    <tag k="opening_hours" v="08:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="funded"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748771051" lat="-1.3157602" lon="36.7782001">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="nazarneprimary@yahoo.com"/>
+    <tag k="contact:phone" v="0710805593"/>
+    <tag k="education:fees" v="nursery KShs 200,primary KShs 300"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-16yrs"/>
+    <tag k="education:students" v="440"/>
+    <tag k="education:students_female" v="231"/>
+    <tag k="education:students_male" v="209"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Nazarene Self-Help School"/>
+    <tag k="opening_hours" v="07:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748775203" lat="-1.3147759" lon="36.7764859">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0723842458"/>
+    <tag k="education:description" v="Has Baby Class and pre-unit Classes"/>
+    <tag k="education:fees" v="baby class,nursery,pre-unit KShs 250,orphans free"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="2-7yrs"/>
+    <tag k="education:students" v="108"/>
+    <tag k="education:students_female" v="54"/>
+    <tag k="education:students_male" v="54"/>
+    <tag k="education:teachers" v="7"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="3,4,5,6"/>
+    <tag k="name" v="Bidii Nursery School"/>
+    <tag k="opening_hours" v="06:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748777107" lat="-1.3106016" lon="36.7888637">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:student_age_range" v="4-7yrs"/>
+    <tag k="education:students" v="38"/>
+    <tag k="education:students_female" v="19"/>
+    <tag k="education:students_male" v="19"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="media:video_number" v="18"/>
+    <tag k="name" v="St James Academy"/>
+    <tag k="opening_hours" v="07:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748777109" lat="-1.3111710" lon="36.7880001">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 400 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:student_age_range" v="3-8yrs"/>
+    <tag k="education:students" v="80"/>
+    <tag k="education:students_female" v="48"/>
+    <tag k="education:students_male" v="32"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="media:video_number" v="15"/>
+    <tag k="name" v="Pracious Children Centre"/>
+    <tag k="opening_hours" v="07:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748779286" lat="-1.3149053" lon="36.7754013">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0722216546"/>
+    <tag k="education:description" v="Has Day Care and Pre-unit Classes"/>
+    <tag k="education:fees" v="3yrs KShs 500,nursery KShs 300,primary KShs 400"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="73"/>
+    <tag k="education:students_female" v="30"/>
+    <tag k="education:students_male" v="43"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="nursery,kindergarten,primary"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="10,11,12,13"/>
+    <tag k="name" v="Abib Kindergarten"/>
+    <tag k="opening_hours" v="07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748781666" lat="-1.3146608" lon="36.7754437">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0725407489"/>
+    <tag k="education:fees" v="KShs 100 per month"/>
+    <tag k="education:program_description" v="KShs 10 per day for food"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="4-6yrs"/>
+    <tag k="education:students" v="11"/>
+    <tag k="education:students_female" v="7"/>
+    <tag k="education:students_male" v="4"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="14"/>
+    <tag k="name" v="Happy Kids Childrens Center"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748782202" lat="-1.3104293" lon="36.7887272">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="5-18yrs"/>
+    <tag k="education:students" v="180"/>
+    <tag k="education:students_female" v="85"/>
+    <tag k="education:students_male" v="95"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="7"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="media:video_number" v="19"/>
+    <tag k="name" v="Akili Complex"/>
+    <tag k="opening_hours" v="07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748782275" lat="-1.3130274" lon="36.7842577">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0725-003164"/>
+    <tag k="education:fees" v="KShs 100 for food"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_specialneeds" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="2-7yrs"/>
+    <tag k="education:students" v="110"/>
+    <tag k="education:students_female" v="33"/>
+    <tag k="education:students_male" v="71"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="media:video_number" v="20"/>
+    <tag k="name" v="Miracle Children Centre"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748782276" lat="-1.3106663" lon="36.7886518">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0721-494154"/>
+    <tag k="education:fees" v="form 1/2 KShs 3200 per term,form 3/4 KShs 4000 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="15-17yrs"/>
+    <tag k="education:students" v="150"/>
+    <tag k="education:students_female" v="80"/>
+    <tag k="education:students_male" v="70"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="name" v="Kibera Academy Secondary School"/>
+    <tag k="opening_hours" v="08:00-17:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748782277" lat="-1.3128637" lon="36.7848457">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 400 per month"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="media:video_number" v="21"/>
+    <tag k="name" v="Tumaini Juniour Academy"/>
+    <tag k="opening_hours" v="07:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748783441" lat="-1.3153942" lon="36.7753093">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0713869156"/>
+    <tag k="education:fees" v="KShs 200"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="1-13yrs"/>
+    <tag k="education:students" v="158"/>
+    <tag k="education:students_female" v="90"/>
+    <tag k="education:students_male" v="68"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Catherine Home and Educational Centre"/>
+    <tag k="opening_hours" v="08:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748803831" lat="-1.3096066" lon="36.7939550">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="christinekimeu2006@yahoo.com"/>
+    <tag k="contact:phone" v="0720455264/0722655395"/>
+    <tag k="education:fees" v="KShs 400 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="9months-14yrs"/>
+    <tag k="education:students" v="180"/>
+    <tag k="education:students_female" v="108"/>
+    <tag k="education:students_male" v="72"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="1 and 2"/>
+    <tag k="name" v="Goodnews Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804441" lat="-1.3107265" lon="36.7943928">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="christkibera@yahoo.com"/>
+    <tag k="education:description" v="it offers training in masonry and carpentry"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="18yrs and above"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_male" v="20"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:type" v="technical"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="3"/>
+    <tag k="name" v="Christ The King Vocational Training Centre"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804545" lat="-1.3173312" lon="36.7947956">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="50"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Holiy Mountain School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804547" lat="-1.3096587" lon="36.7911143">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="p.o box, 21717-00505 nairobi"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="14-19yrs"/>
+    <tag k="education:students" v="80"/>
+    <tag k="education:students_female" v="50"/>
+    <tag k="education:students_male" v="30"/>
+    <tag k="education:teachers" v="11"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:teachers_trained" v="11"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Mashimoni High School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748804548" lat="-1.3096516" lon="36.7911137">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="p.o box, 21717-00505 nairobi"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="7-14yrs"/>
+    <tag k="education:students" v="160"/>
+    <tag k="education:students_female" v="60"/>
+    <tag k="education:students_male" v="100"/>
+    <tag k="education:teachers" v="16"/>
+    <tag k="education:teachers_female" v="8"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="16"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="7"/>
+    <tag k="name" v="Mashimoni Primary School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748804549" lat="-1.3107729" lon="36.7900814">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="patrickanidasa@yahoo.com"/>
+    <tag k="contact:phone" v="0724759396"/>
+    <tag k="education:fees" v="KShs 100-200"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-9yrs"/>
+    <tag k="education:students" v="70"/>
+    <tag k="education:students_female" v="38"/>
+    <tag k="education:students_male" v="32"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="1"/>
+    <tag k="name" v="Tranform F.H Children Center"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804550" lat="-1.3096173" lon="36.7919443">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 200"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="30"/>
+    <tag k="education:students_female" v="18"/>
+    <tag k="education:students_male" v="12"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="5"/>
+    <tag k="name" v="Jamhuri Assembly School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804553" lat="-1.3100061" lon="36.7901950">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 200"/>
+    <tag k="education:program_description" v="kids carry their own food from home"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="0"/>
+    <tag k="education:staff_male" v="0"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="12"/>
+    <tag k="education:students_male" v="8"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="0"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="8"/>
+    <tag k="name" v="A.D.C Elim Assembly Nuru Region"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804555" lat="-1.3109782" lon="36.7926827">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="p.o box, 21377-00505 nairobi"/>
+    <tag k="education:fees" v="KShs 200"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="18"/>
+    <tag k="education:students_male" v="12"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="4"/>
+    <tag k="name" v="Patmos Fellowship Church (school)"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748804556" lat="-1.3129495" lon="36.7935130">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0722404726-o734343491"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_description" v="carry food from home"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="25"/>
+    <tag k="education:students_female" v="15"/>
+    <tag k="education:students_male" v="10"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="14"/>
+    <tag k="name" v="Maranatha Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748805433" lat="-1.3105546" lon="36.7949336">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="P.O Box 21706 0100 Nairobi"/>
+    <tag k="education:description" v="The nursery and primary are located at the same compound but at different point of the compound."/>
+    <tag k="education:fees" v="nursery KShs 250,primary KShs 450"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_specialneeds" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="9 months-14yrs"/>
+    <tag k="education:students" v="220"/>
+    <tag k="education:students_female" v="120"/>
+    <tag k="education:students_male" v="100"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="name" v="Kibera Church of God Nursery and Primary School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748826131" lat="-1.3131996" lon="36.7946878">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="andrewsaval2yahoo.com"/>
+    <tag k="contact:phone" v="0722465092"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="4-16 years"/>
+    <tag k="education:students" v="250"/>
+    <tag k="education:students_female" v="139"/>
+    <tag k="education:students_male" v="113"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="11"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="6"/>
+    <tag k="name" v="Kibera Free Methodist Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748826132" lat="-1.3122955" lon="36.7940254">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0723411369/0722337987/0722446903"/>
+    <tag k="education:fees" v="form 1-3 kShs 11400 per year,form four KShs 14100"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="15-20yrs"/>
+    <tag k="education:students" v="157"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="5"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="5"/>
+    <tag k="name" v="Elite Visionary High School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748826133" lat="-1.3104484" lon="36.7932298">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0725712604"/>
+    <tag k="education:fees" v="total orphans KShs 50 for exams,partial orphans KShs 100,those with parents KShs 250"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_description" v="music and drama"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_other" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_specialneeds" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="2-15yrs"/>
+    <tag k="education:students" v="368"/>
+    <tag k="education:students_female" v="210"/>
+    <tag k="education:students_male" v="158"/>
+    <tag k="education:teachers" v="20"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="13"/>
+    <tag k="education:teachers_trained" v="14"/>
+    <tag k="education:teachers_untrained" v="6"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="4"/>
+    <tag k="name" v="Magoso Primary School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="local_ngo"/>
+  </node>
+  <node id="748833031" lat="-1.3144326" lon="36.7792242">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0722272968"/>
+    <tag k="education:fees" v="30% pays fees"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_specialneeds" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="11"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="1-6yrs"/>
+    <tag k="education:students" v="250"/>
+    <tag k="education:students_female" v="97"/>
+    <tag k="education:students_male" v="153"/>
+    <tag k="education:teachers" v="21"/>
+    <tag k="education:teachers_female" v="20"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Little Rock school"/>
+    <tag k="opening_hours" v="07:30-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="marketing one on one with well wishers"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748833032" lat="-1.3124483" lon="36.7769271">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="tunzachildrencentre@yahoo.com"/>
+    <tag k="education:fees" v="some pay for feeding program"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="31/2-16yrs"/>
+    <tag k="education:students" v="130"/>
+    <tag k="education:students_female" v="70"/>
+    <tag k="education:students_male" v="60"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_tsc" v="1"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Tunza Children Center"/>
+    <tag k="opening_hours" v="08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748833033" lat="-1.3128694" lon="36.7804170">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="kenya@deafaid.org"/>
+    <tag k="contact:phone" v="(245)0724519466"/>
+    <tag k="education:fees" v="none"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_specialneeds" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:student_age_range" v="3-11yrs"/>
+    <tag k="education:students" v="24"/>
+    <tag k="education:students_female" v="11"/>
+    <tag k="education:students_male" v="13"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="kindergarten,nursery"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="23"/>
+    <tag k="name" v="Green House Pre-unit School for Deaf"/>
+    <tag k="opening_hours" v="8hours"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="748833034" lat="-1.3138170" lon="36.7777621">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="4-10yrs"/>
+    <tag k="education:students" v="50"/>
+    <tag k="education:students_female" v="28"/>
+    <tag k="education:students_male" v="22"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="STAWI Junior Academy"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748833035" lat="-1.3143525" lon="36.7778436">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="10"/>
+    <tag k="education:students_male" v="10"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:type" v="kindergarten,primary"/>
+    <tag k="name" v="Valley of Hope"/>
+    <tag k="opening_hours" v="07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748833036" lat="-1.3128020" lon="36.7805711">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0725378240"/>
+    <tag k="education:fees" v="small contribution from parents to feed the children"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="21/2-12yrs"/>
+    <tag k="education:students" v="65"/>
+    <tag k="education:students_female" v="35"/>
+    <tag k="education:students_male" v="30"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Revival Fellowship Children Center"/>
+    <tag k="official_name" v="RFC CENTER PRI SCH"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="No funders"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748833040" lat="-1.3147043" lon="36.7778996">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="kag.olympic@gmail.com"/>
+    <tag k="education:description" v="has also tailoring, hairdressing, GYM"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="adult"/>
+    <tag k="education:students" v="22"/>
+    <tag k="education:students_female" v="22"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="computer"/>
+    <tag k="name" v="Vocational Tranning Center"/>
+    <tag k="opening_hours" v="08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="Total no. exclude GYM and computer students who alternate after two months"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748833041" lat="-1.3145080" lon="36.7769950">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="staraysope@yahoo.com"/>
+    <tag k="education:fees" v="half of school pay fees"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="Teenagers and young mothers"/>
+    <tag k="education:students" v="250"/>
+    <tag k="education:students_female" v="70"/>
+    <tag k="education:students_male" v="180"/>
+    <tag k="education:teachers" v="13"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="12"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Starays Hope Community Center"/>
+    <tag k="official_name" v="STARAYS HOPE COMM CENTER SEC SCH"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748833042" lat="-1.3136394" lon="36.7775941">
+    <tag k="amenity" v="school"/>
+    <tag k="education:description" v="Has pre school (day care, baby class, and pre unit)"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="0-61/2yrs"/>
+    <tag k="education:students" v="70"/>
+    <tag k="education:students_female" v="32"/>
+    <tag k="education:students_male" v="38"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Loam Education Center"/>
+    <tag k="opening_hours" v="07:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748833044" lat="-1.3147010" lon="36.7778397">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes for feeding and fees"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-15yrs"/>
+    <tag k="education:students" v="249"/>
+    <tag k="education:students_female" v="126"/>
+    <tag k="education:students_male" v="123"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="10"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Olympic Educational Center"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748845930" lat="-1.3183465" lon="36.7944435">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0725 488 163"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="6-17yrs"/>
+    <tag k="education:students" v="447"/>
+    <tag k="education:students_female" v="246"/>
+    <tag k="education:students_male" v="201"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="10"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Bible Baptised Primary"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="Bible Baptised Church"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748845933" lat="-1.3154960" lon="36.7990005">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="rachloms@yahoo.com"/>
+    <tag k="contact:phone" v="0727 654 161"/>
+    <tag k="education:fees" v="KShs 100 per month"/>
+    <tag k="education:program_description" v="feeding program is locally organised"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="4-15yrs"/>
+    <tag k="education:students" v="200"/>
+    <tag k="education:students_female" v="120"/>
+    <tag k="education:students_male" v="80"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="St Lazarus School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="St.Lazarus Ministries"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748845940" lat="-1.3185087" lon="36.7986811">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720 45 00 57"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-15yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:students_female" v="45"/>
+    <tag k="education:students_male" v="75"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="ACK St. Emmanuel School"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="ACK Church"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748845943" lat="-1.3174600" lon="36.7999040">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0710 383 782"/>
+    <tag k="education:fees" v="none"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="7-20yrs"/>
+    <tag k="education:students" v="200"/>
+    <tag k="education:students_female" v="80"/>
+    <tag k="education:students_male" v="120"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:teachers_tsc" v="4"/>
+    <tag k="education:type" v="post secondary non-formal"/>
+    <tag k="name" v="Undugu School Kibera"/>
+    <tag k="official_name" v="UNDUGU BASIC ED PROGRAMME KIBERA"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="local_ngo"/>
+  </node>
+  <node id="748858916" lat="-1.3145825" lon="36.7976833">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300 per term"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="1-4yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Shepherd Junior Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748858917" lat="-1.3130326" lon="36.7961257">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="tunzatoto@yahoo.com"/>
+    <tag k="contact:phone" v="P.O.BOX68990200NRB"/>
+    <tag k="education:fees" v="KShs 350 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="25"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="2"/>
+    <tag k="media:camera_number" v="7"/>
+    <tag k="name" v="Ushirika Children Centre"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748858919" lat="-1.3125641" lon="36.7963890">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 250 per term"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="3-5 years"/>
+    <tag k="education:students" v="30"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Little Angels Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748858922" lat="-1.3100345" lon="36.7939486">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="10 months-6yrs"/>
+    <tag k="education:students" v="40"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Supa toto Kindergarten"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748863823" lat="-1.3171852" lon="36.7976981">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="siloamministry@yahoo.com"/>
+    <tag k="contact:phone" v="0710 24 45 65"/>
+    <tag k="education:fees" v="KShs 900 per term"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:student_age_range" v="4-17yrs"/>
+    <tag k="education:students" v="468"/>
+    <tag k="education:students_female" v="230"/>
+    <tag k="education:students_male" v="238"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:teachers_trained" v="8"/>
+    <tag k="education:teachers_untrained" v="5"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Siloam Fellowship Ministry Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:10"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="Siloam Ministry"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748863824" lat="-1.3174306" lon="36.7984272">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Bakita Nursery School"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748863825" lat="-1.3171032" lon="36.7946042">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Holy Mountain Worship Center &amp; Children Centre Academy"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="type" v="private"/>
+  </node>
+  <node id="748863826" lat="-1.3158626" lon="36.7952003">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="MOC Primary"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operator:description" v="Mission Outreach Church"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748863827" lat="-1.3172693" lon="36.7960604">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="jaedwing@yahoo.com"/>
+    <tag k="contact:phone" v="0723 941 883"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="2-11yrs"/>
+    <tag k="education:students" v="89"/>
+    <tag k="education:students_female" v="63"/>
+    <tag k="education:students_male" v="26"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Wings of Life Children's Centre"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="Wings of Life"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748863829" lat="-1.3173358" lon="36.7971583">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Constituency_boundary" v="yes"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="contact:phone" v="0721 63 04 36"/>
+    <tag k="education:fees" v="KShs 900 per term nursery, 3500 per term secondary"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-22yrs"/>
+    <tag k="education:students" v="125"/>
+    <tag k="education:students_female" v="53"/>
+    <tag k="education:students_male" v="72"/>
+    <tag k="education:teachers" v="9"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:teachers_trained" v="5"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="nursery,secondary"/>
+    <tag k="is_in:constituency" v="Langatta"/>
+    <tag k="is_in:village" v="Silanga"/>
+    <tag k="is_in:ward" v="Nyayo highrise"/>
+    <tag k="name" v="PCEA High School"/>
+    <tag k="opening_hours" v="Mo-Fr 06:30-20:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:description" v="PCEA Church"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="polling_station:Election_year" v="2013"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
+    <tag k="polling_station:nearest_health_centre" v="Silanga Dispensary"/>
+    <tag k="polling_station:nearest_police_station" v="Chief camp, highrise"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="private_school"/>
+    <tag k="registered_voters" v="2331"/>
+  </node>
+  <node id="748863830" lat="-1.3153244" lon="36.7987457">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Jesus Winners Pre-School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-17:00"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748870478" lat="-1.3189650" lon="36.7791437">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="no"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="7-15yrs"/>
+    <tag k="education:students" v="416"/>
+    <tag k="education:teachers" v="21"/>
+    <tag k="education:teachers_female" v="14"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="20"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Anajali Community Centre"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748870479" lat="-1.3173868" lon="36.7776101">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="ngajosewa@hotmail.com"/>
+    <tag k="contact:phone" v="0720700795,0722893683"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-11yrs"/>
+    <tag k="education:students" v="118"/>
+    <tag k="education:students_female" v="68"/>
+    <tag k="education:students_male" v="50"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="5"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Church on The Rock Academy"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748870481" lat="-1.3178359" lon="36.7780367">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0724532076"/>
+    <tag k="education:fees" v="KShs 250"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="57"/>
+    <tag k="education:students_female" v="40"/>
+    <tag k="education:students_male" v="17"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Kids Star Academy"/>
+    <tag k="opening_hours" v="07:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="748870482" lat="-1.3174427" lon="36.7774512">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720918745"/>
+    <tag k="education:fees" v="KShs 250"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-8yrs"/>
+    <tag k="education:students" v="80"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="St Stephen Primary"/>
+    <tag k="opening_hours" v="07:40-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912629" lat="-1.3139266" lon="36.7840681">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0721683523"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="1-13yrs"/>
+    <tag k="education:students" v="180"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:teachers_trained" v="5"/>
+    <tag k="education:teachers_untrained" v="5"/>
+    <tag k="education:type" v="kindergarten,nursery,primary,secondary"/>
+    <tag k="name" v="Gifted Hands Educational Centre"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912656" lat="-1.3135945" lon="36.7822900">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0711354341"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="2-6yrs"/>
+    <tag k="education:students" v="45"/>
+    <tag k="education:students_female" v="12"/>
+    <tag k="education:students_male" v="33"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Mount Sinai Nursery School"/>
+    <tag k="opening_hours" v="07:30-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912704" lat="-1.3147900" lon="36.7824388">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0729464344-6003336"/>
+    <tag k="education:fees" v="they dont pay fees"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="6-12yrs"/>
+    <tag k="education:students" v="260"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Joseph Primary School"/>
+    <tag k="opening_hours" v="07:00-12:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="missionary of charity sister"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748912718" lat="-1.3149775" lon="36.7826575">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0712927263"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="40"/>
+    <tag k="education:students_female" v="15"/>
+    <tag k="education:students_male" v="25"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Shelter School"/>
+    <tag k="opening_hours" v="07:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912736" lat="-1.3162323" lon="36.7818385">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0752239982"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="no"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="4-5yrs"/>
+    <tag k="education:students" v="6"/>
+    <tag k="education:students_female" v="3"/>
+    <tag k="education:students_male" v="3"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Seed Juniour School"/>
+    <tag k="official_name" v="SEED JUNIOR ACADEMY PRI"/>
+    <tag k="opening_hours" v="08:00-12:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912754" lat="-1.3134999" lon="36.7823115">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720017244"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="30"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:type" v="nursery,kindergarten,primary"/>
+    <tag k="name" v="Avest Centre Academy"/>
+    <tag k="opening_hours" v="07:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912771" lat="-1.3144033" lon="36.7812568">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0712880711"/>
+    <tag k="education:fees" v="KShs 250 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="7"/>
+    <tag k="education:students_male" v="13"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:type" v="nursery,kindergarten"/>
+    <tag k="name" v="Hope Academy"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912790" lat="-1.3149302" lon="36.7855517">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="praisemirrowlib@yahoo.com"/>
+    <tag k="contact:phone" v="0728912143"/>
+    <tag k="education:fees" v="KShs 200 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="2-14yrs"/>
+    <tag k="education:students" v="80"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:type" v="kindergarten,nursery,primary"/>
+    <tag k="name" v="Canner Juniour Acdemy"/>
+    <tag k="opening_hours" v="07:00-16:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="748912808" lat="-1.3140789" lon="36.7823611">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="3-8yrs"/>
+    <tag k="education:students" v="40"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Kissckodep School"/>
+    <tag k="opening_hours" v="07:30-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912818" lat="-1.3149315" lon="36.7834331">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="ststephene2008@yahoo.com"/>
+    <tag k="contact:phone" v="0720141337"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="3-12yrs"/>
+    <tag k="education:students" v="424"/>
+    <tag k="education:students_female" v="205"/>
+    <tag k="education:students_male" v="219"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="5"/>
+    <tag k="education:type" v="kindergarten,nursery,primary"/>
+    <tag k="name" v="St Stiphine Children Centre"/>
+    <tag k="opening_hours" v="07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="748912871" lat="-1.3149067" lon="36.7864117">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0723642635"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="4-14yrs"/>
+    <tag k="education:students" v="350"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="9"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="10"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Polly Children Centre"/>
+    <tag k="opening_hours" v="08:30-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="752219201" lat="-1.3108517" lon="36.7955438">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0721423609"/>
+    <tag k="education:fees" v="KShs 400 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="15-21yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="18"/>
+    <tag k="education:students_male" v="2"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:type" v="tailoring"/>
+    <tag k="name" v="Y.M.C.A. Kibera"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="752221613" lat="-1.3155618" lon="36.8035428">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 400 per term"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:student_age_range" v="5-14yrs"/>
+    <tag k="education:students" v="152"/>
+    <tag k="education:students_female" v="72"/>
+    <tag k="education:students_male" v="80"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Kibera Soweto School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752221614" lat="-1.3141839" lon="36.8051787">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 400 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="3-9yrs"/>
+    <tag k="education:students" v="60"/>
+    <tag k="education:students_female" v="38"/>
+    <tag k="education:students_male" v="22"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Lazarus School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752223310" lat="-1.3155215" lon="36.8019153">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="patlumbus@yahoo.com"/>
+    <tag k="contact:phone" v="0721540869"/>
+    <tag k="education:fees" v="Free"/>
+    <tag k="education:program_description" v="Free education (donors from U.S.A(W.M.E))"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_other" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="6-14yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:students_female" v="255"/>
+    <tag k="education:students_male" v="135"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="8"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="fee" v="no"/>
+    <tag k="name" v="Kibera Blessed Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752254027" lat="-1.3137477" lon="36.7946888">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="30"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="PAG School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752254053" lat="-1.3143604" lon="36.7941986">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="30"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="0"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Veronica Nursery School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752254067" lat="-1.3135487" lon="36.7912343">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="p.o box 67611 Nairobi"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="15-20yrs"/>
+    <tag k="education:students" v="35"/>
+    <tag k="education:students_female" v="20"/>
+    <tag k="education:students_male" v="15"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="0"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Siloam Fellowship Ministry"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752262462" lat="-1.3109354" lon="36.7876430">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720063516"/>
+    <tag k="education:fees" v="KShs 150 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="72"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="49"/>
+    <tag k="name" v="Kambi Muru Ushirika"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="752262463" lat="-1.3099826" lon="36.7869060">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0723311277"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:students" v="11"/>
+    <tag k="education:students_female" v="11"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="tailoring"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="048"/>
+    <tag k="name" v="Chill and stay a life Tailoring"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="752276347" lat="-1.3115755" lon="36.7797252">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0723-754389"/>
+    <tag k="education:fees" v="KShs 1200 per month"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="no"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-9yrs"/>
+    <tag k="education:students" v="130"/>
+    <tag k="education:students_female" v="75"/>
+    <tag k="education:students_male" v="55"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Luther Academy"/>
+    <tag k="opening_hours" v="07:30-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:description" v="Congregations contribution"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752276359" lat="-1.3144824" lon="36.7802864">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0725473289"/>
+    <tag k="education:description" v="Has Nursery"/>
+    <tag k="education:fees" v="KShs 500 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-15yrs"/>
+    <tag k="education:students" v="420"/>
+    <tag k="education:students_female" v="197"/>
+    <tag k="education:students_male" v="223"/>
+    <tag k="education:teachers" v="14"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:teachers_male" v="9"/>
+    <tag k="education:teachers_trained" v="14"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="41,42"/>
+    <tag k="name" v="Spurgeons Academy"/>
+    <tag k="opening_hours" v="06:00-19:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:description" v="Funded by well wishers"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="752276386" lat="-1.3077569" lon="36.7822370">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="graebens.school@yahoo.com"/>
+    <tag k="education:fees" v="BCE8800.Class E7500"/>
+    <tag k="education:student_age_range" v="adult"/>
+    <tag k="education:students" v="900"/>
+    <tag k="education:students_female" v="160"/>
+    <tag k="education:students_male" v="740"/>
+    <tag k="education:teachers" v="7"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:type" v="driving"/>
+    <tag k="name" v="Graebens Driving Shool"/>
+    <tag k="opening_hours" v="07:30-18:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="No funders"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752276387" lat="-1.3112565" lon="36.7787496">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 800"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="3-5yrs"/>
+    <tag k="education:students" v="135"/>
+    <tag k="education:students_female" v="75"/>
+    <tag k="education:students_male" v="60"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="43"/>
+    <tag k="name" v="Three Bells Center"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="No funders"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752317805" lat="-1.3085970" lon="36.7846873">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="optimist educational center@hot mail"/>
+    <tag k="contact:phone" v="0722948228"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_description" v="funded by well wishers"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="2-14yrs"/>
+    <tag k="education:students" v="300"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_untrained" v="6"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:camera_device_number" v="1"/>
+    <tag k="media:camera_number" v="52,53,54"/>
+    <tag k="name" v="Optimist Educational Centre"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="752319660" lat="-1.3103307" lon="36.7816286">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="mchangawomen@yahoo.com"/>
+    <tag k="contact:phone" v="0710381176"/>
+    <tag k="education:fees" v="KShs 350 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="12"/>
+    <tag k="education:students_female" v="7"/>
+    <tag k="education:students_male" v="5"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Mchanganyioko ECD"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="752352033" lat="-1.3125717" lon="36.7835726">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="joanamunge@yahoo.com"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="14-19yrs"/>
+    <tag k="education:students" v="410"/>
+    <tag k="education:students_female" v="120"/>
+    <tag k="education:students_male" v="290"/>
+    <tag k="education:teachers" v="15"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="12"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Raila Educational Centre (Secondary)"/>
+    <tag k="opening_hours" v="06:30-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="government"/>
+  </node>
+  <node id="752362193" lat="-1.3111243" lon="36.7838911">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="6-16yrs"/>
+    <tag k="education:students" v="200"/>
+    <tag k="education:students_female" v="120"/>
+    <tag k="education:students_male" v="80"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Green Pastures Academy"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752388425" lat="-1.3068913" lon="36.7832084">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_feeding" v="no"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="256"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Holy Trinity Nursery School"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752388466" lat="-1.3068884" lon="36.7832059">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0723626177"/>
+    <tag k="education:fees" v="250"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="2-10yrs"/>
+    <tag k="education:students" v="55"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="St Bathlomia"/>
+    <tag k="opening_hours" v="07:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752394857" lat="-1.3086490" lon="36.7764780">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="020-24693228"/>
+    <tag k="education:fees" v="KShs 8000 per term"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="7-14yrs"/>
+    <tag k="education:students" v="200"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Tenderlings Primary School"/>
+    <tag k="official_name" v="TENDERLINGS PRI SCH"/>
+    <tag k="opening_hours" v="07:30-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752394881" lat="-1.3078040" lon="36.7768710">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="contact:email" v="ayanyprimaryschool@gmail.com"/>
+    <tag k="contact:phone" v="box00200-55768"/>
+    <tag k="contact:postal" v="box 00200-55768"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="4"/>
+    <tag k="education:staff_male" v="5"/>
+    <tag k="education:student_age_range" v="7-16yrs"/>
+    <tag k="education:students" v="1505"/>
+    <tag k="education:teachers" v="27"/>
+    <tag k="education:teachers_female" v="23"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="27"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="is_in:constituency" v="kibra"/>
+    <tag k="is_in:estate" v="ayany"/>
+    <tag k="is_in:ward" v="sarangombe"/>
+    <tag k="name" v="ayany Primary School"/>
+    <tag k="official_name" v="AYANI ESTATE PRI SCH"/>
+    <tag k="opening_hours" v="class 1-3: 07:30-16:00, class 4-8: 07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="government"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Ushirika health center"/>
+    <tag k="polling_station:nearest_police_station" v="Ayany police post,Jamuhuri police post"/>
+    <tag k="polling_station:registered_voters" v="3,962"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type_description" v="public_school"/>
+  </node>
+  <node id="752394892" lat="-1.3098770" lon="36.7838680">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="contact:email" v="oldkiberaprimary@gmail.com"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="7-17yrs"/>
+    <tag k="education:students" v="1400"/>
+    <tag k="education:teachers" v="25"/>
+    <tag k="education:teachers_female" v="15"/>
+    <tag k="education:teachers_male" v="10"/>
+    <tag k="education:teachers_trained" v="22"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:estate" v="Karanja"/>
+    <tag k="is_in:ward" v="Makina"/>
+    <tag k="name" v="Old Kibera Primary School"/>
+    <tag k="official_name" v="KIBERA PRI. SCH."/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="government"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="st mary's, vipawa"/>
+    <tag k="polling_station:nearest_police_station" v="Administation police D.C camp"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="public_school"/>
+    <tag k="registered_voters" v="5582"/>
+  </node>
+  <node id="752410539" lat="-1.3081546" lon="36.7753806">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0727842235"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="106"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="5"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Tapa Education Center"/>
+    <tag k="opening_hours" v="08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="752423585" lat="-1.3119416" lon="36.7764429">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="box 564891-00200"/>
+    <tag k="contact:phone" v="0720688452"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="5"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="64"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Andrews Educational Center"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752429630" lat="-1.3118380" lon="36.7764489">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720285362"/>
+    <tag k="education:fees" v="none"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="3.5-6yrs"/>
+    <tag k="education:students" v="55"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="MSK Tusaidie Watoo Project"/>
+    <tag k="opening_hours" v="08:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:description" v="Karibuni Trust"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="752496685" lat="-1.3118108" lon="36.7751638">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="Rosemarymusanga@gmail.com"/>
+    <tag k="contact:phone" v="0721868864"/>
+    <tag k="education:fees" v="KShs 450 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="3-9yrs"/>
+    <tag k="education:students" v="105"/>
+    <tag k="education:students_female" v="45"/>
+    <tag k="education:students_male" v="60"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_tsc" v="4"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Georges Orthodox Nursery School"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="Orthodox Church"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="752803404" lat="-1.3114453" lon="36.7738021">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="Box 21608-00505,Nairobi"/>
+    <tag k="contact:phone" v="0724201340"/>
+    <tag k="education:fees" v="KShs 500 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="80"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:teachers_untrained" v="1-undergoing Training"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Salvation Army Nursery School"/>
+    <tag k="opening_hours" v="07:30-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:description" v="Funder CARE-Kenya"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="761951369" lat="-1.3099529" lon="36.7718324">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0720032052"/>
+    <tag k="education:fees" v="KShs 2500 per training (computer packages), KShs 4500 for language courses per person"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="12"/>
+    <tag k="education:students_male" v="8"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:type" v="computer,language"/>
+    <tag k="name" v="Kuna Shule Centre"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="not operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="761952623" lat="-1.3104771" lon="36.7719921">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="seciliaacademy@yahoo.com.box50401 Nairobi"/>
+    <tag k="contact:phone" v="0720412568"/>
+    <tag k="education:fees" v="KShs 350 per month per student"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:students" v="231"/>
+    <tag k="education:students_female" v="113"/>
+    <tag k="education:students_male" v="118"/>
+    <tag k="education:teachers" v="13"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:teachers_tsc" v="3,1 is undergoing training"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="St Cecilia SH School"/>
+    <tag k="opening_hours" v="07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="761956459" lat="-1.3122330" lon="36.7749988">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="joysprings@yahoo.com"/>
+    <tag k="contact:phone" v="0721201173"/>
+    <tag k="education:fees" v="nursery KShs 450 per month,primary KShs 550 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="398"/>
+    <tag k="education:students_female" v="198"/>
+    <tag k="education:students_male" v="200"/>
+    <tag k="education:teachers" v="16"/>
+    <tag k="education:teachers_female" v="8"/>
+    <tag k="education:teachers_male" v="8"/>
+    <tag k="education:teachers_trained" v="14"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Joysprings Educational Centre"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="761957138" lat="-1.3139670" lon="36.7759705">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0724766913"/>
+    <tag k="education:fees" v="KShs 450 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="120"/>
+    <tag k="education:students_female" v="65"/>
+    <tag k="education:students_male" v="55"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Soweto West LLC Church Nusery School"/>
+    <tag k="opening_hours" v="09:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="761965627" lat="-1.3103256" lon="36.7729079">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="6"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="14-19yrs"/>
+    <tag k="education:students" v="280"/>
+    <tag k="education:teachers" v="13"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:teachers_trained" v="13"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="St Allocious Gonzaga Secondary School"/>
+    <tag k="opening_hours" v="08:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="761980443" lat="-1.3098228" lon="36.7726229">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0726724015"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:students" v="380"/>
+    <tag k="education:students_female" v="220"/>
+    <tag k="education:students_male" v="160"/>
+    <tag k="education:teachers" v="6"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="New Life MC School"/>
+    <tag k="opening_hours" v="08:00-17:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="761992157" lat="-1.3090137" lon="36.7729016">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="54"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="St Collins Nursery School"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="761993870" lat="-1.3119711" lon="36.7761372">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0727843560"/>
+    <tag k="education:fees" v="KShs 350 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="73"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Methodist Nursery School"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="761995282" lat="-1.3118119" lon="36.7762986">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="86"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:teachers_untrained" v="1"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Shammah Children School"/>
+    <tag k="opening_hours" v="08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="767095636" lat="-1.3186798" lon="36.7946294">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0714 97 94 92"/>
+    <tag k="education:fees" v="KShs 100 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="2-10yrs"/>
+    <tag k="education:students" v="70"/>
+    <tag k="education:students_female" v="20"/>
+    <tag k="education:students_male" v="50"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_trained" v="4"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Subra School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="767095637" lat="-1.3183179" lon="36.7940989">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="World Harvest Center &amp; Compassion Christian Academy"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="767108097" lat="-1.3166189" lon="36.8024389">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0724 057 580"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="2-10yrs"/>
+    <tag k="education:students" v="54"/>
+    <tag k="education:students_female" v="32"/>
+    <tag k="education:students_male" v="22"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Kibera Christian Primary School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="Gospel Believers Fellowship"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="769110769" lat="-1.3134763" lon="36.7759192">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:student_age_range" v="6-12yrs"/>
+    <tag k="education:students" v="83"/>
+    <tag k="education:students_female" v="43"/>
+    <tag k="education:students_male" v="40"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="all"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Beliavers Revival Sanctuary School"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="775527189" lat="-1.3112447" lon="36.7868772">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="0727842235"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:students" v="171"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:teachers_trained" v="6"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="Girls Soccer Secondary School"/>
+    <tag k="opening_hours" v="07:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="operator:type" v="ngo_international"/>
+  </node>
+  <node id="775535480" lat="-1.3116629" lon="36.7861834">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="2"/>
+    <tag k="education:students" v="182"/>
+    <tag k="education:teachers" v="9"/>
+    <tag k="education:teachers_female" v="6"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="5"/>
+    <tag k="education:teachers_untrained" v="4"/>
+    <tag k="education:type" v="primary,secondary"/>
+    <tag k="name" v="Stara Rescue Centre School"/>
+    <tag k="opening_hours" v="06:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="local_ngo"/>
+  </node>
+  <node id="890550409" lat="-1.3111486" lon="36.7914163">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 200"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="50"/>
+    <tag k="education:students_female" v="30"/>
+    <tag k="education:students_male" v="20"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="3"/>
+    <tag k="education:teachers_trained" v="7"/>
+    <tag k="education:teachers_untrained" v="3"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="9"/>
+    <tag k="name" v="Slum Out reach"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="890550456" lat="-1.3166437" lon="36.8003064">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="christinegakiu@yahoo.com"/>
+    <tag k="contact:phone" v="0721 34 50 95"/>
+    <tag k="education:fees" v="KShs 3000 per term"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_scouting" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="14-18yrs"/>
+    <tag k="education:students" v="87"/>
+    <tag k="education:students_female" v="35"/>
+    <tag k="education:students_male" v="52"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="7"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="5"/>
+    <tag k="education:type" v="secondary"/>
+    <tag k="name" v="St Gabriel Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="St Gabriel Self Help Group"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="890550499" lat="-1.3144191" lon="36.7934488">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="name" v="Anwar Junior Academy"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-15:00"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="890550513" lat="-1.3141267" lon="36.7774457">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="lucykayiwa@yahoo.com"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="87"/>
+    <tag k="education:students_female" v="39"/>
+    <tag k="education:students_male" v="48"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="health_facility:referals" v="Lea toto,PAG,KICOSHEP,Huduma"/>
+    <tag k="medical_service:psychosocial_support_counselling" v="yes"/>
+    <tag k="medical_staff:counsellor" v="1"/>
+    <tag k="medical_staff:description" v="Teachers 3."/>
+    <tag k="name" v="St Vincent De Paul Academy"/>
+    <tag k="note" v="SCHOOL/CBO"/>
+    <tag k="opening_hours" v="07:30-16:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="receive funds"/>
+    <tag k="operator:type" v="local_ngo"/>
+  </node>
+  <node id="890550597" lat="-1.3127531" lon="36.7919123">
+    <tag k="amenity" v="school"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="3"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="50"/>
+    <tag k="education:students_female" v="30"/>
+    <tag k="education:students_male" v="20"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="3"/>
+    <tag k="name" v="Better Life Center"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+  </node>
+  <node id="890550666" lat="-1.3124900" lon="36.7837545">
+    <tag k="amenity" v="school"/>
+    <tag k="contact:email" v="joanamunge@yahoo.com"/>
+    <tag k="contact:phone" v="0710606059"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="7-14yrs"/>
+    <tag k="education:students" v="305"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="10"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Raila Educational Centre (Primary)"/>
+    <tag k="opening_hours" v="08:00-17:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="polling_station:registered_voters" v="2877"/>
+    <tag k="polling_station:type_description" v="government"/>
+  </node>
+  <node id="890550720" lat="-1.3116971" lon="36.7911922">
+    <tag k="amenity" v="school"/>
+    <tag k="education:fees" v="KShs 100-200"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_female" v="0"/>
+    <tag k="education:staff_male" v="0"/>
+    <tag k="education:student_age_range" v="3-6yrs"/>
+    <tag k="education:students" v="20"/>
+    <tag k="education:students_female" v="10"/>
+    <tag k="education:students_male" v="10"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="2"/>
+    <tag k="name" v="Kenya Church of Christ"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="religion" v="christian"/>
+  </node>
+  <node id="1000521280" lat="-1.3138842" lon="36.7784578">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="SHOFCO Youth Centre"/>
+  </node>
+  <node id="1015581296" lat="-1.3166260" lon="36.7786972">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Angels of Hope Childrens Centre/Church"/>
+  </node>
+  <node id="1015581299" lat="-1.3155256" lon="36.7782599">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Marcy Junior academy"/>
+  </node>
+  <node id="1015625631" lat="-1.3131336" lon="36.7773980">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Inua Mimi Center"/>
+  </node>
+  <node id="1042356213" lat="-1.3122075" lon="36.7800351">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Kiberra Film School"/>
+  </node>
+  <node id="1712435882" lat="-1.3137374" lon="36.7804405">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Palm Olive Academy"/>
+  </node>
+  <node id="1722668360" lat="-1.3145568" lon="36.7788566">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Brown daisy children center"/>
+  </node>
+  <node id="1722668361" lat="-1.3139815" lon="36.7780441">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Golden heart academy"/>
+  </node>
+  <node id="1722668362" lat="-1.3118845" lon="36.7785514">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Kids zone school"/>
+  </node>
+  <node id="1727588864" lat="-1.3140183" lon="36.7822418">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="grace spring academy"/>
+  </node>
+  <node id="1763898746" lat="-1.3092843" lon="36.7893755">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Adventure pride primary school"/>
+  </node>
+  <node id="1763898747" lat="-1.3155724" lon="36.7861554">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Kibera school for girls"/>
+  </node>
+  <node id="1768443464" lat="-1.3122219" lon="36.7940254">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="New horizon high school"/>
+  </node>
+  <node id="1771323210" lat="-1.3113170" lon="36.7921726">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Akili Complex"/>
+  </node>
+  <node id="1771323212" lat="-1.3126323" lon="36.7925732">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Conesus Primary School"/>
+  </node>
+  <node id="1771323213" lat="-1.3128406" lon="36.7930032">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Elite Visionary High School"/>
+  </node>
+  <node id="1771323214" lat="-1.3123011" lon="36.7926279">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Kingulu Primary School"/>
+  </node>
+  <node id="1771323215" lat="-1.3111910" lon="36.7915537">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Love Africa somi school"/>
+  </node>
+  <node id="1801454706" lat="-1.3084052" lon="36.7718528">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Joowi Academy-Pre-Unit and Nursery"/>
+  </node>
+  <node id="1864056792" lat="-1.3080615" lon="36.7792695">
+    <tag k="addr:postcode" v="00618-759,Nairobi,Kenya."/>
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="+254721370167"/>
+    <tag k="name" v="Little Prince Primary School"/>
+  </node>
+  <node id="1875796680" lat="-1.3028935" lon="36.7847770">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="is_in:constituency" v="kibra"/>
+    <tag k="is_in:estate" v="Woodley"/>
+    <tag k="is_in:ward" v="Woodley/Kenyatta/Golfcourse"/>
+    <tag k="name" v="Joseph kangethe primary school"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Joseph kangethe health centre maternity and child welfare clinic"/>
+    <tag k="polling_station:nearest_police_station" v="Kilimani"/>
+    <tag k="polling_station:registered_voters" v="2,555"/>
+    <tag k="polling_station:type" v="school"/>
+    <tag k="polling_station:type_description" v="Its a public school"/>
+    <tag k="source" v="map_kibera_trust"/>
+  </node>
+  <node id="1875796681" lat="-1.3035970" lon="36.7841790">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Moi Girls School Nairobi"/>
+    <tag k="official_name" v="MOI GIRLS SCH - NAIROBI"/>
+  </node>
+  <node id="1875796685" lat="-1.3056330" lon="36.7801860">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="is_in:constituency" v="kibra"/>
+    <tag k="is_in:estate" v="Woodley"/>
+    <tag k="is_in:ward" v="Woodley"/>
+    <tag k="name" v="Toi primary school"/>
+    <tag k="official_name" v="TOI PRI SCH"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Joseph kang'ethe health centre"/>
+    <tag k="polling_station:nearest_police_station" v="Kilimani"/>
+    <tag k="polling_station:registered_voters" v="3,312"/>
+    <tag k="polling_station:type_description" v="public_school"/>
+    <tag k="source" v="map_kibera_trust"/>
+  </node>
+  <node id="2064571553" lat="-1.3130895" lon="36.7819697">
+    <tag k="amenity" v="school"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:estate" v="Olympic"/>
+    <tag k="is_in:village" v="Olympic"/>
+    <tag k="is_in:ward" v="Sarangombe"/>
+    <tag k="name" v="Olympic secondary"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Chief sarangombe"/>
+    <tag k="polling_station:nearest_police_station" v="Administation police olympic"/>
+    <tag k="polling_station:registered_voters" v="6,163"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type_description" v="public_school"/>
+  </node>
+  <node id="2064571555" lat="-1.3172780" lon="36.7771303">
+    <tag k="amenity" v="school"/>
+    <tag k="is_in:constituency" v="Lang'ata"/>
+    <tag k="is_in:estate" v="Raila"/>
+    <tag k="is_in:village" v="Raila"/>
+    <tag k="is_in:ward" v="Mugumoini"/>
+    <tag k="name" v="St charles lwanga school"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Lang'ata health centre"/>
+    <tag k="polling_station:nearest_police_station" v="Cheif Mugumoini"/>
+    <tag k="polling_station:registered_voters" v="2,422"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="school"/>
+    <tag k="polling_station:type_description" v="Its a private school"/>
+  </node>
+  <node id="2066040973" lat="-1.3045613" lon="36.7683647">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="is_in:constituency" v="kibra"/>
+    <tag k="is_in:estate" v="jamhuri"/>
+    <tag k="is_in:ward" v="woodley"/>
+    <tag k="name" v="jamhuri primary school"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="polling_station:accessibility" v="big_cars,tractors"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="nairobi women's hospita adamsl"/>
+    <tag k="polling_station:nearest_police_station" v="jamhuri police station"/>
+    <tag k="polling_station:registered_voters" v="3,800"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="school"/>
+    <tag k="polling_station:type_description" v="Its a public school"/>
+  </node>
+  <node id="2115330631" lat="-1.3087658" lon="36.8014763">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:estate" v="Golfcourse"/>
+    <tag k="is_in:ward" v="Woodley/Golfcourse/Kenyatta"/>
+    <tag k="name" v="Mbagathi Road Primary."/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="motor_bikes,small_cars,big_cars.tractors"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="Mbagathi hospital"/>
+    <tag k="polling_station:nearest_police_station" v="Kenyatta police post"/>
+    <tag k="polling_station:registered_voters" v="4,086"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="school"/>
+    <tag k="polling_station:type_description" v="Its a public school"/>
+  </node>
+  <node id="2115330632" lat="-1.3001215" lon="36.8057865">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="is_in:constituency" v="Kibra"/>
+    <tag k="is_in:estate" v="Kenyatta"/>
+    <tag k="is_in:ward" v="Woodley/Kenyatta/golfcourse"/>
+    <tag k="name" v="Kenya medical training school"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="motor_bikes,small_cars,big_cars.tractors"/>
+    <tag k="polling_station:nearest_health_centre" v="Kenyatta national hospital."/>
+    <tag k="polling_station:nearest_police_station" v="Kenyatta police post"/>
+    <tag k="polling_station:registered_voters" v="3,659"/>
+    <tag k="polling_station:source" v="map_kibera_trust"/>
+    <tag k="polling_station:type" v="college"/>
+    <tag k="station:type_description" v="Its a medical training school"/>
+  </node>
+  <node id="2135801268" lat="-1.3223770" lon="36.7802570">
+    <tag k="amenity" v="school"/>
+    <tag k="boundary_type:Constituency_boundary" v="yes"/>
+    <tag k="boundary_type:Ward_boundary" v="yes"/>
+    <tag k="is_in:constituency" v="Langatta"/>
+    <tag k="is_in:estate" v="otiende"/>
+    <tag k="is_in:ward" v="mugumoini"/>
+    <tag k="name" v="langata west primary school"/>
+    <tag k="operational_status:electricity" v="often"/>
+    <tag k="polling_station:accessibility" v="motor_bikes,big cars,tractors"/>
+    <tag k="polling_station:election_year" v="2013"/>
+    <tag k="polling_station:nearest_health_centre" v="otiende dispensary,langata  heath  cenre,st maris"/>
+    <tag k="polling_station:nearest_police_station" v="langata police station"/>
+    <tag k="polling_station:registered_voters" v="5648"/>
+    <tag k="polling_station:type" v="school"/>
+    <tag k="polling_station:type_description" v="Its a public school"/>
+    <tag k="source" v="map_kibera_trust"/>
+  </node>
+  <node id="2705522568" lat="-1.3099870" lon="36.7920918">
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Facing_the_Future_ primary_school"/>
+  </node>
+  <node id="2847951200" lat="-1.3113372" lon="36.7962811">
+    <tag k="amenity" v="school"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="official_name" v="GLORY PRI. SCH"/>
+    <tag k="operator" v="Glory Primary School"/>
+  </node>
+
+</osm>
