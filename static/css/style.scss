@@ -125,6 +125,17 @@ section#home-map {
   background: $c-footer-med;  // might flash while loading
 }
 
+/*
+ * Highlighted School
+ *
+ * Charts and stuff
+ */
+#home-charts {
+  width: $width-full;
+  margin: 0 auto;
+  padding: $pad-v 0;
+}
+
 
 /*
  * Story Tiles
