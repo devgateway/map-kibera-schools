@@ -8,6 +8,7 @@ $t-mbig: 24px;
 $t-small: 13px;
 $t-light: 300;
 $t-normal: 400;
+$t-mheavy: 700;
 $t-heavy: 900;
 
 $line-base: 1.4em;
@@ -17,6 +18,7 @@ $line-form: 2.4em;
 $line-footer: 1.618em;
 $line-footer-copyright: $t-base;
 
+
 /////// LAYOUT ///////
 
 $width-full: 1200px;
@@ -24,14 +26,19 @@ $width-full: 1200px;
 $pad-h: 32px;
 $pad-v: 30px;
 $pad-h-thin: $pad-h / 2;
-$pad-v-thin: $pad-v / 1.618;
+$pad-v-thin: $pad-v / 2;
 $pad-v-big: $pad-v * 2;
 $pad-border: 8px;
+
+$height-accent-box: 65px;
+$width-accent-box: 220px;
 
 $height-stickyhead: $pad-v * 2 + $line-stickyhead;
 
 $height-vid: 315px;
 $width-vid: 560px;
+
+$height-map-controls: 49px;
 
 
 /////// STACKING ///////

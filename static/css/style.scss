@@ -111,10 +111,40 @@ section#home-map {
   border-top: $b-outline;
 }
 .map-controls {
-  h2 {
+  width: $width-full;
+  height: $height-map-controls;
+  margin: 0 auto;
+
+  a {
+    color: $c-med;
+  }
+  .controls,
+  .social {
+    &,
+    ul,
+    li {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+  .accent {
     @include accent-box;
+    display: inline-block;
+    margin-top: -1px;
+  }
+  .controls {
+    @include list-reset;
+    a {
+      display: inline-block;
+      height: $height-map-controls;
+      width: 176px;
+      border-right: 1px solid $c-med;
+    }
   }
   .social {
+    h3 {
+      @include visually-hidden;
+    }
     ul {
       @include list-reset;
     }
@@ -159,7 +189,7 @@ section#home-map {
       margin: 0 0 $pad-v $pad-h;
       font-size: $t-small;  // END WARNING.
       text-align: center;
-      background: $c-accent;
+      background: $c-accent2;
       border: 1px solid $c-med;
 
       .smokeglass {

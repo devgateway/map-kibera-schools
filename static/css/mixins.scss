@@ -82,10 +82,24 @@
 }
 
 @mixin accent-box {
+  @include box-sizing(border-box);
   display: block;
-  width: 240px;
-  background: $c-accent;
+  width: $width-accent-box;
+  height: $height-accent-box;
+  padding: $pad-v-thin $pad-h-thin;
+  font-size: 18px;
   color: $c-bright;
+  background: $c-accent;
+  border-radius: 0 0 3px 3px;
+  h1,
+  h2 {
+    font-size: 19px;
+    font-weight: $t-mheavy;
+  }
+  h2 {
+    margin: 0;
+    line-height: ($height-accent-box - $pad-v-thin * 2 - 6px);
+  }
 }
 
 @mixin _form-common {
