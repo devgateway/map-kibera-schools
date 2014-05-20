@@ -88,7 +88,7 @@ def get_file_pairs(folder_path):
 
     This is a generator, you can iterate it.
     """
-    for filename in os.listdir(folder_path):
+    for filename in sorted(os.listdir(folder_path)):
         file_path = os.path.join(folder_path, filename)
         try:
             with codecs.open(file_path, 'r', encoding='utf-8') as file_object:

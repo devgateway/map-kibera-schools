@@ -11,6 +11,7 @@ $t-normal: 400;
 $t-heavy: 900;
 
 $line-base: 1.4em;
+$line-tight: 1.14em;
 $line-stickyhead: $t-small * 0.8;
 $line-form: 2.4em;
 $line-footer: 1.618em;
@@ -20,8 +21,8 @@ $line-footer-copyright: $t-base;
 
 $width-full: 1200px;
 
-$pad-h: 18px;
-$pad-v: 18px;
+$pad-h: 32px;
+$pad-v: 30px;
 $pad-h-thin: $pad-h / 2;
 $pad-v-thin: $pad-v / 1.618;
 $pad-v-big: $pad-v * 2;
@@ -63,6 +64,9 @@ $c-header-bg: $c-bg;
 $c-header-med: $c-med;
 $c-header-bright: $c-bright;
 $c-header-menu: rgba(24, 24, 24, 0.85);
+
+$c-smokeglass: rgba(0, 0, 0, 0.5);
+$c-brightglass: rgba(255, 255, 255, 0.75);
 
 $c-footer-light: #f8f8f8;
 $c-footer-med: #a0a0a0;

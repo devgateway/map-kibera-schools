@@ -1,2 +1,2 @@
 title: Story One
-description: Description for Parents
+description: Lorem ipsum sit amet, consectetur adipiscing elit. Cras pellentesque nunc at magna.

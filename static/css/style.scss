@@ -126,10 +126,53 @@ section#home-map {
 }
 
 
-
-section#stories {
-  ul {
+/*
+ * Story Tiles
+ *
+ * Big blocks on the home page
+ */
+#stories {
+  padding: $pad-v 0;
+  h2 {
+    @include visually-hidden;
+  }
+  & > ul {
     @include list-reset;
+    width: $width-full;
+    margin: 0 auto;
+    font-size: 0;  // WARNING! vv see li rule vv
+    & > li {
+      $box-width: ($width-full / 2) - ($pad-h * 2);
+      display: inline-block;
+      width: $box-width;
+      margin: 0 0 $pad-v $pad-h;
+      font-size: $t-small;  // END WARNING.
+      text-align: center;
+      background: $c-accent;
+      border: 1px solid $c-med;
+
+      .smokeglass {
+        margin: ($pad-v * 2) ($pad-h * 2);
+        padding: $pad-v-thin $pad-h;
+        background: $c-smokeglass;
+        border: 1px solid $c-brightglass;
+
+        h3 {
+          margin: 0;
+        }
+        p {
+          margin: 0 $pad-v-thin;
+          font-style: italic;
+          line-height: $line-tight;
+        }
+        .button {
+          margin: $pad-v-thin 0 0;
+          text-transform: uppercase;
+          border: 1px solid $c-bright;
+          border-radius: 0;
+        }
+      }
+    }
   }
 }
 

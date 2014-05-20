@@ -63,11 +63,13 @@
   <section id="stories">
     <h2>Stories</h2>
     <ul>
-      {% for story in content.stories %}
+      {% for story in content.stories[:4] %}
         <li>
-          <h3>{{ story.title }} / Gallery</h3>
-          <p>{{ story.description }}</p>
-          <a href="stories/{{ story.slug }}" class="button">See More</a>
+          <div class="smokeglass">
+            <h3>{{ story.title }} / Gallery</h3>
+            <p>{{ story.description }}</p>
+            <a href="stories/{{ story.slug }}" class="button">See More</a>
+          </div>
         </li>
       {% endfor %}
     </ul>
