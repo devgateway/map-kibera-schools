@@ -135,13 +135,15 @@ def validate_school_geo(school_geo, _seen=set()):
     assert school_geo['geometry']['type'] == 'MultiPoint'
     assert 'properties' in school_geo
     properties = school_geo['properties']
-    assert 'id' in properties
-    _id = properties['id'].rsplit('/', 1)[1]
+    assert 'osm:id' in properties
+    _id = properties['osm:id'].rsplit('/', 1)[1]
     assert _id not in _seen
     _seen.add(_id)
-    assert 'name' in properties
-    school_text_slug = slugify(properties['name'])
-    school_geo['slug'] = '{}/{}'.format(_id, school_text_slug)
+    if 'osm:name' in properties:
+        school_text_slug = slugify(properties['osm:name'])
+        school_geo['slug'] = '{}/{}'.format(_id, school_text_slug)
+    else:
+        school_geo['slug'] = str(_id)
 
 
 @load('schools')
