@@ -29,10 +29,12 @@
   "build": {
     "staging": {
       "cname": "kibera-schools.dgstg.org",
+      "root": "/",
       "robots": "static/root/robots-goaway.txt"
     },
     "production": {
       "cname": "mapkibera.github.io",
+      "root": "/",
       "robots": "static/root/robots-welcome.txt"
     }
   }
