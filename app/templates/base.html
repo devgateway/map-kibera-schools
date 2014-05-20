@@ -19,22 +19,19 @@
   </head>
   <body>
 
-    <header id="page-header" class="text-reset">
-      <h1>
-        <a href="{{ url_for('home') }}" title="Kibera School Project Home">
-          <small>Feedback Labs</small>
-          Kibera School Project
-        </a>
-      </h1>
-      <ul class="header-random-links">
-        <li><a href="#">icon</a></li>
-        <li><a href="#">icon</a></li>
-        <li><a href="#">icon</a></li>
-        <li><a href="#">icon</a></li>
-        <li><a href="#">icon</a></li>
+    <header id="page-header">
+      <a class="accent" href="{{ url_for('home') }}" title="Kibera School Project Home">
+        <small>Feedback Labs</small>
+        <h1>Kibera School Project</h1>
+      </a>
+      <ul class="page-nav-links">
+        {% for link in pagenav %}
+          <li><a {% if loop.first %}class="selected" {% endif %}href="{{ link.href }}" title="{{ link.title }}">icon</a></li>
+        {% endfor %}
+        <li><a href="#contact" title="Contact">icon</a></li>
       </ul>
 
-      <ul class="header-social-links">
+      <ul class="social">
         {% for profile in content.social %}
           <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
         {% endfor %}
@@ -46,7 +43,7 @@
     {% endblock %}
 
     <footer>
-      <div class="footer-meta">
+      <div id="contact" class="footer-meta">
 
         <div id="about">
           <h2>About</h2>

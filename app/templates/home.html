@@ -1,11 +1,19 @@
 {% extends 'base.html' %}
 
+{% set pagenav = [
+  {'href': '#videos', 'title': 'Videos'},
+  {'href': '#map', 'title': 'Kibera Schools Map'},
+  {'href': '#charts', 'title': 'Highlights'},
+  {'href': '#stories', 'title': 'Stories'},
+] %}
+
+
 {% block content %}
 
-  <section id="home-video">
+  <section id="videos">
     <ul class="videos-slider clear-fix">
       {% for video in content.videos %}
-        <li id="video-{{ loop.index }}">
+        <li id="video-{{ loop.index }}" class="{{ 'selected' if loop.first }}">
           <div class="video">
             <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
           </div>
@@ -25,7 +33,7 @@
     </nav>
   </section>
 
-  <section id="home-map">
+  <section id="map">
     <header class="map-controls">
       <div class="accent">
         <h2>Kibera School Map</h2>
@@ -50,7 +58,7 @@
     </div>
   </section>
 
-  <section id="home-charts">
+  <section id="charts">
     <h2>{{ content.schools[0].properties.name }}</h2>
     charts and stats n stuff
   </section>

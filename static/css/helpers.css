@@ -80,23 +80,6 @@
 
 /*! Kibera Schools helpers | BSD License, see LICENSE */
 
-/*
- * Text Reset: make all the things look normal.
- *
- * It's a bit heavy-handed. Recommended for specific small containers, not as
- * a general reset.
- */
-
-.text-reset * {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  font-size: 1em;
-  font-weight: normal;
-  color: inherit;
-  text-decoration: none;
-}
-
 .button {
   @include button;
 }

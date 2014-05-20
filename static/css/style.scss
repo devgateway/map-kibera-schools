@@ -7,35 +7,58 @@
  */
 
 #page-header {
-  @include bg-stretchwidth($c-header-bg);
   position: fixed;
   z-index: $layer-top;
   top: 0;
   left: 50%;
   width: $width-full;
   margin-left: -$width-full / 2;
-  height: $height-stickyhead;
-  padding: $pad-v $pad-h-thin;
-
   font-size: $t-small;
-  line-height: $line-stickyhead;
   color: $c-header-med;
 
-  &.text-reset strong,
-  h3 {
-    font-weight: $t-heavy;
-    color: $c-header-bright;
-  }
-
-  h1 {
-    margin-right: $pad-h;
+  a.accent {
+    @include accent-box;
+    display: inline-block;
+    small {
+      display: block;
+      margin: -0.4em 0;
+      font-size: $t-small;
+      font-weight: normal;
+      color: $c-copy;
+    }
+    h1 {
+      margin: 0;
+      font-weight: $t-mheavy;
+    }
   }
 
   a {
     color: inherit;
   }
 
-  .header-social-links {
+  .page-nav-links,
+  .social {
+    @include list-reset;
+    display: inline-block;
+    vertical-align: top;
+    li,
+    li > a {
+      display: inline-block;
+    }
+  }
+
+  .page-nav-links a {
+    margin: 0 0 0 3px;
+    padding: $pad-v-thin $pad-h-thin;
+    background: $c-smokeglass;
+    border: 1px solid $c-footer-dark;
+    border-top-width: 0;
+    &.selected {
+      color: $c-accent;
+    }
+  }
+
+  .social {
     float: right;
   }
 
@@ -47,38 +70,64 @@
  *
  */
 
-section#home-video {
+section#videos {
   margin-top: $height-stickyhead;
-  padding-top: $pad-v-big;  // bit extra for the shadow
   padding-bottom: 0;  // pager margin takes care of it
 }
 
 .videos-slider {
   @include list-reset;
 
+  li {
+    @include visually-hidden;
+    &.selected {
+      @include un-visually-hidden;
+      width: $width-full;
+      margin: 0 auto;
+    }
+  }
+
   .video {
     @include box-sizing(content-box);
+    position: relative; // positioning context for gradient overlay
     display: block;
     float: left;
-    margin-right: $pad-h;
-    padding: $pad-border;
-    border: $b-outline;
+    margin-right: $pad-h-thin;
 
     &,
     & .video-screenshot {
-      height: $height-vid;
-      width: $width-vid;
+      $width-v: $width-full / 2;
+      width: $width-v;
+      height: $width-v * 9 / 16;
+    }
+    &:before {
+      content: "";
+      display: block;
+      z-index: $layer-high;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 50%;
+      bottom: 0;
+      @include horizontal-gradient($c-bg, rgba(0, 0, 0, 0));
     }
   }
 
   .video-meta {
     margin-top: -1px;  // respect contents' top margin
     padding-top: 1px;
+
+    h2 {
+      margin: -0.15em 0 0 0; 
+      font-size: $t-big;
+      font-weight: $t-mheavy;
+      line-height: 1em;
+    }
   }
 }
 .videos-pager {
   @include list-reset;
-  margin: $pad-v 0;
+  margin: $pad-v-thin 0;
   font-size: 0;  // hide text; TODO: make this more accessible
   text-align: center;
 
@@ -87,7 +136,7 @@ section#home-video {
     a {
       @include box-sizing(border-box);
       display: block;
-      margin: $pad-v-thin $pad-h-thin / 2;
+      margin: $pad-v-thin $pad-h-thin / 5;
       height: $t-base;
       width: $t-base;
       border-radius: $t-base / 2;
@@ -107,7 +156,7 @@ section#home-video {
  *
  * blah blah bla
  */
-section#home-map {
+section#map {
   border-top: $b-outline;
 }
 .map-controls {
@@ -160,7 +209,7 @@ section#home-map {
  *
  * Charts and stuff
  */
-#home-charts {
+#charts {
   width: $width-full;
   margin: 0 auto;
   padding: $pad-v 0;
