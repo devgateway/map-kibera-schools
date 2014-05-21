@@ -44,7 +44,10 @@ err() {
 getcode() {
   # return 0 and print the acutal code
   $@ && rc=$? || rc=$?  # be safe; don't errexit
-  echo $?
+  echo $rc
+}
+lines() {
+  echo $($@ | sed 's/$/\\n/')
 }
 
 
@@ -76,7 +79,7 @@ if [[ $cleancode -ne 0 ]]; then
     err "Unexpected git error when checking for unstaged changes, code: $cleancode"
   fi
   err "Unstaged changes in the working directory. Please commit or stash first.\n"\
-  	  "$(git status)"
+  	  "$(lines git status)"
 fi
 untrackedcode=$(getcode git ls-files --other --error-unmatch . >/dev/null 2>&1)
 if [[ $untrackedcode -ne 0 ]]; then
