@@ -11,6 +11,11 @@
          path={{ request.path }}
          -->
     <!-- endtag canonical -->
+    <!-- tag root
+         template=<script>STATIC_ROOT = "{path}";</script>
+         -->
+         <script>STATIC_ROOT = "/";</script>
+    <!-- endtag root -->
     <!-- tag css
          template=<link rel="stylesheet" href="{path}" />
          -->
@@ -104,11 +109,6 @@
       </div>
     </footer>
 
-    <!-- tag root
-         template=<script>STATIC_ROOT = "{path}";</script>
-         -->
-         <script>STATIC_ROOT = "/";</script>
-    <!-- endtag root -->
     <!-- tag js
          template=<script src="{path}"></script>
          -->
