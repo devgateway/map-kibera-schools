@@ -167,12 +167,24 @@ def build_static_thing(type_name, conf):
     template_inject('/', type_name, filenames)
 
 
-def build_static(what, no_filter):
+def copy_rootstuff(conf):
+    cnamename = os.path.join('build', 'CNAME')
+    with open(cnamename, 'w') as cnamefile:
+        cnamefile.write(conf['cname'])
+    robotsname = os.path.join('build', 'robots.txt')
+    shutil.copyfile(conf['robots'], robotsname)
+
+
+def build_static(what, for_):
     conf = get_config()['static']
     if what in ('all', 'css'):
         build_static_thing('css', conf)
     if what in ('all', 'js'):
         build_static_thing('js', conf)
+    if what in ('all', 'root'):
+        build_conf = get_config()['build']
+        assert for_ in build_conf, 'Invalid build target: {}'.format(for_)
+        copy_rootstuff(build_conf[for_])
 
 
 @command
@@ -189,18 +201,14 @@ def build(what, *args):
 
     if what in ('all', 'static'):
         static_args = list(args)
-        no_filter = '--no-filters' in static_args
-        if no_filter:
-            static_args.remove('--no-filters')
         if len(static_args) == 0:
             static = 'all'
-        elif len(static_args) == 1:
+        else:
             static = static_args[0]
-            if static not in ('css', 'js'):
+            for_ = static_args[1] if len(static_args) > 1 else None
+            if static not in ('css', 'js', 'root'):
                 raise SystemExit('unrecognized argument: {}'.format(static))
-        elif len(static_args) > 1:
-            raise SystemExit('too many arguments to static: {}'.format(args))
-        build_static(static, no_filter)
+        build_static(static, for_)
 
     print('built {}.'.format(what))
 
