@@ -167,6 +167,12 @@ def build_static_thing(type_name, conf):
     template_inject('/', type_name, filenames)
 
 
+def copy_tiles():
+    src = os.path.join('static', 'tiles')
+    dest = os.path.join('build', 'static', 'tiles')
+    shutil.copytree(src, dest)
+
+
 def copy_rootstuff(conf):
     cnamename = os.path.join('build', 'CNAME')
     with open(cnamename, 'w') as cnamefile:
@@ -181,6 +187,8 @@ def build_static(what, for_):
         build_static_thing('css', conf)
     if what in ('all', 'js'):
         build_static_thing('js', conf)
+    if what in ('all', 'tiles'):
+        copy_tiles()
     if what in ('all', 'root'):
         build_conf = get_config()['build']
         assert for_ in build_conf, 'Invalid build target: {}'.format(for_)
@@ -206,7 +214,7 @@ def build(what, *args):
         else:
             static = static_args[0]
             for_ = static_args[1] if len(static_args) > 1 else None
-            if static not in ('css', 'js', 'root'):
+            if static not in ('css', 'js', 'tiles', 'root'):
                 raise SystemExit('unrecognized argument: {}'.format(static))
         build_static(static, for_)
 

@@ -1,7 +1,7 @@
 ;
 
 // global leaflet config
-L.Icon.Default.imagePath = STATIC_ROOT + '/img/leaflet';
+L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
 
 (function() {
 
@@ -39,7 +39,7 @@ L.Icon.Default.imagePath = STATIC_ROOT + '/img/leaflet';
       scrollWheelZoom: false
     };
     var map = L.map(mapEl, mapOptions);
-    L.tileLayer(STATIC_ROOT + '/tiles/{z}/{x}/{y}.png').addTo(map)
+    L.tileLayer(STATIC_ROOT + 'tiles/{z}/{x}/{y}.png').addTo(map)
     return map;
   }
 
@@ -49,7 +49,7 @@ L.Icon.Default.imagePath = STATIC_ROOT + '/img/leaflet';
                          feature.properties.name + '</a></h3>'
       layer.bindPopup(popupContent);
     }
-    var url = WEB_ROOT + '/schools.geojson'
+    var url = WEB_ROOT + 'schools.geojson'
     getJSON(url, function pinSchoolsFromData(data) {
       L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
     });
