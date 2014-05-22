@@ -10,11 +10,11 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
   if (mapEl = document.getElementById('main-map')) {
     map = drawMap(mapEl);
     pinAllSchools(map);
-  }
-
-  if (mapEl = document.getElementById('school-map')) {
+  } else if (mapEl = document.getElementById('school-map')) {
     map = drawMap(mapEl);
     pinSchool(map);
+  } else {
+    return;
   }
 
   function getJSON(url, callback) {
