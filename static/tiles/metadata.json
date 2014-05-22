@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "Nice tiles for the kibera school project.", 
+    "bounds": "36.7687,-1.3228,36.8044,-1.3033", 
+    "minzoom": "14", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "18", 
+    "legend": "", 
+    "name": "Kibera School Project"
+}
