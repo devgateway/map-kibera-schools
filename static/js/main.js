@@ -39,7 +39,8 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
       scrollWheelZoom: false
     };
     var map = L.map(mapEl, mapOptions);
-    L.tileLayer(STATIC_ROOT + 'tiles/{z}/{x}/{y}.png').addTo(map)
+    // todo: switch back to custom tile styles, but base them on HOT.
+    L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png').addTo(map)
     return map;
   }
 
