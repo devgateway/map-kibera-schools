@@ -92,10 +92,14 @@ section#videos {
 
   li {
     @include visually-hidden;
+    opacity: 0.2;
+
     &.selected {
       @include un-visually-hidden;
+      @include transition(opacity, 0.8s, ease);
       width: $width-full;
       margin: 0 auto;
+      opacity: 1;
     }
   }
 
