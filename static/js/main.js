@@ -46,8 +46,10 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
 
   function pinAllSchools(map) {
     function pinPopup(feature, layer) {
+      var name = feature.properties['osm:name'] ||
+                 feature.properties['kenyaopendata:official_name'];
       var popupContent = '<h3><a href="/schools/' + feature.slug + '">' +
-                         feature.properties.name + '</a></h3>'
+                         name + '</a></h3>';
       layer.bindPopup(popupContent);
     }
     var url = WEB_ROOT + 'schools.geojson'
