@@ -26,16 +26,18 @@
   <body>
 
     <header id="page-header">
-      <a class="accent" href="{{ url_for('home') }}" title="Kibera School Project Home">
-        <small>Feedback Labs</small>
-        <h1>Kibera School Project</h1>
-      </a>
-      <ul class="page-nav-links">
-        {% for link in pagenav %}
-          <li><a {% if loop.first %}class="selected" {% endif %}href="{{ link.href }}" title="{{ link.title }}">icon</a></li>
-        {% endfor %}
-        <li><a href="#contact" title="Contact">icon</a></li>
-      </ul>
+      <nav>
+        <a class="accent" href="{{ url_for('home') }}" title="Kibera School Project Home">
+          <small>Feedback Labs</small>
+          <h1>Kibera School Project</h1>
+        </a>
+        <ul class="page-nav-links">
+          {% for link in pagenav %}
+            <li><a {% if loop.first %}class="selected" {% endif %}href="{{ link.href }}" title="{{ link.title }}">icon</a></li>
+          {% endfor %}
+          <li><a href="#contact" title="Contact">icon</a></li>
+        </ul>
+      </nav>
 
       <ul class="social">
         {% for profile in content.social %}

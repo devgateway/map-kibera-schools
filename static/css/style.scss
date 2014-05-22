@@ -7,28 +7,34 @@
  */
 
 #page-header {
-  position: fixed;
-  z-index: $layer-top;
-  top: 0;
-  left: 50%;
-  width: $width-full;
-  margin-left: -$width-full / 2;
+  height: $height-stickyhead;
   font-size: $t-small;
   color: $c-header-med;
 
-  a.accent {
-    @include accent-box;
-    display: inline-block;
-    small {
-      display: block;
-      margin: -0.4em 0;
-      font-size: $t-small;
-      font-weight: normal;
-      color: $c-copy;
-    }
-    h1 {
-      margin: 0;
-      font-weight: $t-mheavy;
+  nav {
+    display: block;
+    position: fixed;
+    z-index: $layer-top;
+    top: 0;
+    left: 50%;
+    width: $width-full;
+    margin-left: -$width-full / 2;
+
+    a.accent {
+      @include accent-box;
+      display: inline-block;
+      margin-top: -3px;
+      small {
+        display: block;
+        margin: -0.4em 0;
+        font-size: $t-small;
+        font-weight: normal;
+        color: $c-copy;
+      }
+      h1 {
+        margin: 0;
+        font-weight: $t-mheavy;
+      }
     }
   }
 
@@ -49,7 +55,7 @@
 
   .page-nav-links a {
     margin: 0 0 0 3px;
-    padding: $pad-v-thin $pad-h-thin;
+    padding: $pad-v-thin $pad-h / 1.618;
     background: $c-smokeglass;
     border: 1px solid $c-footer-dark;
     border-top-width: 0;
@@ -59,7 +65,13 @@
   }
 
   .social {
-    float: right;
+    display: block;
+    width: $width-full;
+    margin: 0 auto;
+    text-align: right;
+    li {
+      margin: $pad-v-thin 3px;
+    }
   }
 
 }
@@ -71,7 +83,7 @@
  */
 
 section#videos {
-  margin-top: $height-stickyhead;
+  margin-top: $pad-v;
   padding-bottom: 0;  // pager margin takes care of it
 }
 
