@@ -179,9 +179,11 @@ section#map {
   border-top: $b-outline;
 }
 .map-controls {
+  z-index: $layer-high;
   width: $width-full;
   height: $height-map-controls;
   margin: 0 auto;
+  line-height: $height-map-controls - 1px;
 
   a {
     color: $c-med;
@@ -202,14 +204,26 @@ section#map {
   }
   .controls {
     @include list-reset;
+    font-size: 0;
     a {
+      @include box-sizing(border-box);
       display: inline-block;
       height: $height-map-controls;
       width: 176px;
-      border-right: 1px solid $c-med;
+      padding: 0 $pad-h-thin;
+      font-size: $t-base;
+      border-right: 1px solid $c-outline;
+      &:before {
+        content: "icon "
+      }
+      &:hover {
+        color: $c-bright;
+        background: lighten($c-bg, 20%);
+      }
     }
   }
   .social {
+    float: right;
     h3 {
       @include visually-hidden;
     }
@@ -219,6 +233,7 @@ section#map {
   }
 }
 .map {
+  z-index: $layer-low;
   height: 508px;
   background: $c-footer-med;  // might flash while loading
 }
