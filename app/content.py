@@ -140,10 +140,13 @@ def validate_school_geo(school_geo, _seen=set()):
     assert _id not in _seen
     _seen.add(_id)
     if 'osm:name' in properties:
-        school_text_slug = slugify(properties['osm:name'])
-        school_geo['slug'] = '{}/{}'.format(_id, school_text_slug)
+        school_geo['name'] = properties['osm:name']
+    elif 'kenyaopendata:official_name' in properties:
+        school_geo['name'] = properties['kenyaopendata:official_name']
     else:
-        school_geo['slug'] = str(_id)
+        raise Exception('Encountered a school with no names: {}'
+                        .format(school_geo))
+    school_geo['slug'] = '{}/{}'.format(_id, slugify(school_geo['name']))
 
 
 @load('schools')
@@ -156,7 +159,7 @@ def load_schools(school_stuff):
         for school_geojson in school_data['features']:
             validate_school_geo(school_geojson)
             schools.append(school_geojson)
-    return schools
+    return sorted(schools, key=lambda s: s['name'].lower())
 
 
 @load('videos')

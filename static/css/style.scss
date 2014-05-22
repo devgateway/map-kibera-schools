@@ -180,6 +180,7 @@ section#map {
 }
 .map-controls {
   z-index: $layer-high;
+  position: relative;  // for stacking
   width: $width-full;
   height: $height-map-controls;
   margin: 0 auto;
@@ -187,6 +188,9 @@ section#map {
 
   a {
     color: $c-med;
+    &:hover {
+      color: $c-bright;
+    }
   }
   .controls,
   .social {
@@ -205,20 +209,69 @@ section#map {
   .controls {
     @include list-reset;
     font-size: 0;
-    a {
-      @include box-sizing(border-box);
-      display: inline-block;
-      height: $height-map-controls;
-      width: 176px;
-      padding: 0 $pad-h-thin;
-      font-size: $t-base;
-      border-right: 1px solid $c-outline;
-      &:before {
-        content: "icon "
+
+    & > li {
+      position: relative;
+      & > a {  // should probably be a header
+        @include box-sizing(border-box);
+        z-index: $layer-high;
+        position: relative;
+        display: inline-block;
+        height: $height-map-controls;
+        width: $width-map-control;
+        padding: 0 $pad-h-thin;
+        font-size: $t-base;
+        border-right: 1px solid $c-outline;
+        &:before {
+          content: "icon "
+        }
+        &:hover {
+          color: $c-bright;
+          background: lighten($c-bg, 20%);
+        }
       }
-      &:hover {
-        color: $c-bright;
-        background: lighten($c-bg, 20%);
+      &.active > a {
+        color: $c-footer-dark;
+        background: $c-copy;
+      }
+      & > .school-list {
+        @include visually-hidden;
+      }
+      &.active > .school-list {
+        @include un-visually-hidden;
+        $w = $width-map-control * 1.618;
+        position: absolute;
+        top: $height-map-controls;
+        left: 0;
+        width: $w;
+        font-size: $t-small;
+        line-height: $line-tight;
+        background: $c-copy;
+        box-shadow: 0 4px $t-base $c-smokeglass;
+        ul {
+          @include list-reset;
+          max-height: 420px;
+          overflow-y: auto;
+          overflow-x: hidden;
+          li {
+            display: block;
+          }
+        }
+        input {
+          @include text-input;
+          display: block;
+          width: 100%;
+          font-size: $t-base;
+        }
+        a {
+          display: block;
+          padding: $pad-v-thin / 2 $pad-h-thin;
+          background: $c-bright;
+          &:hover {
+            color: $c-footer-dark;
+            background: $c-copy;
+          }
+        }
       }
     }
   }
@@ -233,7 +286,6 @@ section#map {
   }
 }
 .map {
-  z-index: $layer-low;
   height: 508px;
   background: $c-footer-med;  // might flash while loading
 }

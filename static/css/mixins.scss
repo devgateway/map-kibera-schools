@@ -71,7 +71,7 @@
 }
 
 @mixin un-visually-hidden {
-  clip: none;
+  clip: auto;
   height: auto;
   width: auto;
   margin: 0;

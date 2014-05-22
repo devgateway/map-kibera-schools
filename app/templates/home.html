@@ -39,10 +39,26 @@
         <h2>Kibera School Map</h2>
       </div>
       <ul class="controls">
-        <li><a href="#">Schools</a></li>
-        <li><a href="#">Filters</a></li>
-        <li><a href="#">Data</a></li>
-        <li><a href="#">Search</a></li>
+        <li id="schools" class="active">
+          <a href="#schools">Schools</a>
+          <div class="school-list">
+            <input type="text" placeholder="Quick Search" id="school-dir-search" name="school-dir-search" />
+            <ul>
+              {% for school in content.schools %}
+                <li><a href="/schools/{{ school.slug }}">{{ school.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">Filters</a>
+        </li>
+        <li>
+          <a href="#">Data</a>
+        </li>
+        <li>
+          <a href="#">Search</a>
+        </li>
       </ul>
       <div class="social">
         <h3>Share</h3>
