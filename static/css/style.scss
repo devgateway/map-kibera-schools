@@ -84,7 +84,7 @@
 
 section#videos {
   margin-top: $pad-v;
-  padding-bottom: 0;  // pager margin takes care of it
+  padding-bottom: 1px;  // pager margin takes care of it
 }
 
 .videos-slider {
@@ -128,18 +128,21 @@ section#videos {
   .video-meta {
     margin-top: -1px;  // respect contents' top margin
     padding-top: 1px;
+    font-size: $t-med;
+    color: $c-t-med;
 
     h2 {
       margin: -0.15em 0 0 0; 
       font-size: $t-big;
       font-weight: $t-mheavy;
       line-height: 1em;
+      color: $c-copy;
     }
   }
 }
 .videos-pager {
   @include list-reset;
-  margin: $pad-v-thin 0;
+  margin: $pad-v-thin / 1.4 0;
   font-size: 0;  // hide text; TODO: make this more accessible
   text-align: center;
 
@@ -149,8 +152,8 @@ section#videos {
       @include box-sizing(border-box);
       display: block;
       margin: $pad-v-thin $pad-h-thin / 5;
-      height: $t-base;
-      width: $t-base;
+      height: $t-base * 0.9;
+      width: $t-base * 0.9;
       border-radius: $t-base / 2;
       background: $c-outline;
       &:hover {

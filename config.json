@@ -4,7 +4,9 @@
       "prefix": "static/js",
       "files": [
         "plugins/log-safety.js",
+        "plugins/utils.js",
         "leaflet.js",
+        "slider.js",
         "main.js"
       ],
       "filters": ["concat", "closure"]

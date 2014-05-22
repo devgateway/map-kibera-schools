@@ -5,6 +5,7 @@
 $t-base: 16px;
 $t-big: 32px;
 $t-mbig: 24px;
+$t-med: 19px;
 $t-small: 13px;
 $t-light: 300;
 $t-normal: 400;
@@ -50,10 +51,11 @@ $layer-bottom: -1000;  // make things really go away
 
 $c-bg: #000;
 $c-copy: #ccc;
-$c-med: #999;
+$c-med: #777;
+$c-t-med: #999;
 $c-bright: #fff;
 
-$c-outline: #999;  // borders and such
+$c-outline: $c-med;  // borders and such
 
 $c-heavy: $c-bright;  // probably for big bold headers
 
