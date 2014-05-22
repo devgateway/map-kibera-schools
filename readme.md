@@ -12,18 +12,7 @@ Each has an orphaned `gh-pages` branch for hosting production and staging, respe
 Overview
 --------
 
-Map Kibera Schools consists of a python static site generating framework built partly on [Flask](http://flask.pocoo.org/), with a custom second-stage templating step for static assets and deploy-specific details.
-
-
-### Why not just data and front-end JavaScript?
-
-While updates to the content with a javascript-powered front-end could conceivably be as easy as merging a pull-request the main geojson file, that approach requires contendin with several issues:
-
- 1. Accessibility: it is more difficult to make javascript apps robustly accessible, and users choosing to browse the web with no javascript at all would not be able to access any content.
-
- 2. Search Visibility: Presenting indexble content to web crawlers for search engines is difficult without having script-less web pages available.
-
- 3. Speed: While a javascript app can be very fast, especially for page transitions, simple flat html pages linked together will almost always be fast.
+Map Kibera Schools consists of a python static site generating framework built partly on [Flask](http://flask.pocoo.org/), with a custom second-stage templating step for static assets and deploy-specific details like the `CNAME` file.
 
 
 ### Issue Tracking
@@ -51,7 +40,18 @@ $ pip install -r requirements.txt
 ```
 
 
-### For application development
+### For content and data updates (targeted at Ground Truth maintainers)
+
+ 1. Update the content
+ 2. Build the new site
+ 	 * currently requires `build html`; `build static css`; `build static js`; ...
+ 3. Test locally
+ 4. Commit the changes to the source files on the `master` branch
+ 5. Use the production deploy script to commit the updated site to the `gh-pages` branch.
+ 6. Push `gh-pages` to make it live.
+
+
+### For application development (targeted at DG developers)
 
 Set up a second remote for the DG staging repository:
 
@@ -61,21 +61,4 @@ $ git remote add staging git@github.com:devgateway/map-kibera-schools.git
 
 Pull the staging gh-pages branch to a local branch called gh-pages-staging
 
-
-Usage
------
-
-build html
-
-build css
-
-build js
-
-test
-
-build target
-
-commit to gh-pages branch
-
-push
 
