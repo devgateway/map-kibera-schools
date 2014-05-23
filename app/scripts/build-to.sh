@@ -135,6 +135,7 @@ git pull -q $REPO_LOCAL_REMOTE $REPO_BRANCH | mute
 
 step "cleaning temporary repo..."
 rm -fr $TMP_REPO_DIR
+git branch -D $REPO_LOCAL_REMOTE
 
 echo
 step "Ready to push."
