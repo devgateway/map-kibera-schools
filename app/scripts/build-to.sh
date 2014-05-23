@@ -10,6 +10,18 @@ set -o nounset
 set -o errexit
 set -o pipefail
 
+# set up some useful variables
+#
+# the script should work given:
+# * remote name (add it yourself)
+# * build name (probably staging or production)
+REMOTE_NAME=$1
+BUILD_NAME=$2
+
+TMP_REPO_DIR="local-${BUILD_NAME}"
+REPO_LOCAL_REMOTE="local${BUILD_NAME}"
+REPO_BRANCH="gh-pages-${BUILD_NAME}"
+
 
 # helper functions
 GO_COLOUR=$(echo -e '\e[1;32m')
@@ -51,13 +63,7 @@ lines() {
 }
 
 
-# set up some useful variables
-REPO_DIR="local-production-repo"
-REPO_REMOTE="localproduction"
-
-
 step "checking whether a site export is ready..."
-
 # ensure that the site has been built
 if [[ ! -d build ]]; then
   err "No compiled site found in build/\n"\
@@ -70,7 +76,7 @@ fi
 # make sure we are starting from a clean master branch
 currentbranch=$(git branch | grep -e '^* ' | sed 's/^* //')
 if [[ $currentbranch != "master" ]]; then
-  err "Production should be built from the master branch.\n"\
+  err "The build should be built from the master branch.\n"\
       "You are currently on branch: $currentbranch"
 fi
 cleancode=$(getcode git diff-index --quiet HEAD)
@@ -90,19 +96,23 @@ if [[ $untrackedcode -ne 0 ]]; then
           "...continuing anyway."
 fi
 
-# get into gh-pages to start off
-step "checking out and updating gh-pages..."
-git fetch -q | indent
-git checkout -q gh-pages | indent
-git pull -q | mute
+# get into gh-pages-whatev branch to start off
+step "checking out and updating ${REMOTE_NAME}/gh-pages -> ${REPO_BRANCH}..."
+git fetch --all -q | indent
+if [[ ! $(git branch | grep "$REPO_BRANCH\$") ]]; then
+  git checkout -b $REPO_BRANCH ${REMOTE_NAME}/gh-pages | indent
+else
+  git checkout $REPO_BRANCH | indent
+fi
+git pull $REMOTE_NAME $REPO_BRANCH -q | mute
 
 # try to set up a temporary local folder for a repo we can work in without risking screwing up our actual local repo
 step "creating local working repo..."
-if [[ ! -d $REPO_DIR ]]; then
-  mkdir $REPO_DIR && cd $REPO_DIR
+if [[ ! -d $TMP_REPO_DIR ]]; then
+  mkdir $TMP_REPO_DIR && cd $TMP_REPO_DIR
   git clone .. . | indent
 else
-  cd $REPO_DIR
+  cd $TMP_REPO_DIR
 fi
 git fetch | indent
 
@@ -117,18 +127,19 @@ git commit -m "auto-commit production branch" | modindent  # todo -- parse last 
 
 # add the tmp local to the real local
 cd ..
-if [[ ! "$(git remote | grep -e '^'${REPO_REMOTE}'$')" ]]; then
-  git remote add $REPO_REMOTE $REPO_DIR
+if [[ ! "$(git remote | grep -e '^'${REPO_LOCAL_REMOTE}'$')" ]]; then
+  git remote add $REPO_LOCAL_REMOTE $TMP_REPO_DIR
 fi
 step "pulling changes from temporary repo to your git repo..."
-git pull -q $REPO_REMOTE gh-pages | mute
+git pull -q $REPO_LOCAL_REMOTE $REPO_BRANCH | mute
 
 step "cleaning temporary repo..."
-rm -fr $REPO_DIR
+rm -fr $TMP_REPO_DIR
 
 echo
 step "Ready to push."
 echo -e "You might want to test it one last time (python2 -m SimpleHTTPServer).\n"\
-        "When ready, simply \`git push origin gh-pages\`.\n"\
-        "You are currently on the gh-pages branch.\n"\
+        "When ready, simply \`git push <remote> ${REPO_BRANCH}:gh-pages\`.\n"\
+        "... where <origin> is the name of the github repository to host the build. Probably \"origin\".\n"\
+        "You are currently on the $REPO_BRANCH branch.\n"\
         "\$ \`git checkout master\` will bring you back to the source files." | indent
