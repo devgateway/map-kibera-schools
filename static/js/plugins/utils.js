@@ -6,6 +6,14 @@
     var $this = Array.prototype.shift.call(arguments);
     return Array.prototype.forEach.apply($this, arguments);
   };
+  u.mapNodes = function mapNodes() {
+    var $this = Array.prototype.shift.call(arguments);
+    return Array.prototype.map.apply($this, arguments);
+  };
+
+  u.startsWith = function startsWith(str, startswith) {
+    return str.lastIndexOf(startswith, 0) === 0;
+  };
 
   u.stop = function stopEvent(e) {
     // just even.preventDefault, but works in IE8
