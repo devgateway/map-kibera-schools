@@ -168,6 +168,7 @@ def build_static_thing(type_name, conf):
 
 
 def copy_static(foldername):
+    print('copying static: {}'.format(foldername))
     src = os.path.join('static', foldername)
     dest = os.path.join('build', 'static', foldername)
     if os.path.exists(dest):
@@ -176,6 +177,7 @@ def copy_static(foldername):
 
 
 def copy_rootstuff(conf):
+    print('copying root stuff')
     cnamename = os.path.join('build', 'CNAME')
     with open(cnamename, 'w') as cnamefile:
         cnamefile.write(conf['cname'])
@@ -194,6 +196,9 @@ def build_static(what, for_):
     if what in ('all', 'tiles'):
         copy_static('tiles')
     if what in ('all', 'root'):
+        if for_ is None:
+            print('Skipping root files, no build target set')
+            return
         build_conf = get_config()['build']
         assert for_ in build_conf, 'Invalid build target: {}'.format(for_)
         copy_rootstuff(build_conf[for_])
@@ -213,12 +218,14 @@ def build(what, *args):
 
     if what in ('all', 'static'):
         static_args = list(args)
+        for_ = None
         if len(static_args) == 0:
             static = 'all'
         else:
             static = static_args[0]
-            for_ = static_args[1] if len(static_args) > 1 else None
-            if static not in ('css', 'js', 'img', 'tiles', 'root'):
+            if len(static_args) > 1:
+                for_ = static_args[1]
+            if static not in ('all', 'css', 'js', 'img', 'tiles', 'root'):
                 raise SystemExit('unrecognized argument: {}'.format(static))
         build_static(static, for_)
 
