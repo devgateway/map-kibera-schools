@@ -6,6 +6,7 @@ $t-base: 16px;
 $t-big: 32px;
 $t-mbig: 24px;
 $t-med: 19px;
+$t-msmall: 15px;
 $t-small: 13px;
 $t-light: 300;
 $t-normal: 400;
@@ -26,8 +27,9 @@ $width-full: 1200px;
 $pad-h: 32px;
 $pad-v: 30px;
 $pad-h-thin: $pad-h / 2;
+$pad-h-gap: 3px;
 $pad-v-thin: $pad-v / 2;
-$pad-v-big: $pad-v * 2;
+$pad-v-big: $pad-v * 1.40;
 $pad-border: 8px;
 
 $height-accent-box: 65px;

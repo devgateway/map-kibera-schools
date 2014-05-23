@@ -54,7 +54,7 @@
   }
 
   .page-nav-links a {
-    margin: 0 0 0 3px;
+    margin: 0 0 0 $pad-h-gap;
     padding: $pad-v-thin $pad-h / 1.618;
     background: $c-smokeglass;
     border: 1px solid $c-footer-dark;
@@ -70,7 +70,7 @@
     margin: 0 auto;
     text-align: right;
     li {
-      margin: $pad-v-thin 3px;
+      margin: $pad-v-thin $pad-h-gap;
     }
   }
 
@@ -367,12 +367,13 @@ section#map {
 
 .footer-meta {
   @include bg-stretchwidth($c-footer-light);
-  padding: $pad-v-big 0;
+  padding: $pad-v-big 0 ($pad-v-big - 3px);
   font-size: 0;  // WATCH OUT (reset in next-leve divs)
   color: $c-footer-med;
 
   h2 {
     margin-top: 0;
+    font-size: 1.4em;
     color: $c-footer-dark;
   }
   a {
@@ -382,29 +383,54 @@ section#map {
   & > div {
     display: inline-block;
     vertical-align: top;
-    width: 25%;
-    font-size: $t-base;
+    width: ($width-full / 4) - ($pad-h-thin * 3 / 4);
+    margin-right: $pad-h-thin;
+    font-size: $t-msmall;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   #contact {
     address {
       font-style: normal;
     }
+    dt,
+    dd {
+      margin-top: $pad-v-thin / 1.618;
+    }
+    dt:first-child,
+    dt:first-child + dd {
+      margin-top: 0;
+    }
     dt {
-      font-weight: bold;
+      float: left;
+      clear: left;
+      font-weight: $t-mheavy;
+      &:after {
+        content: ":";
+      }
+    }
+    dd {
+      margin-left: $pad-h-gap * 2;
+      display: inline-block;
     }
   }
 
   #newsletter {
+    $col = ($width-full / 4) - $pad-h-thin;
     label {
       @include visually-hidden;
     }
     input {
       @include text-input;
+      width: $col * 0.667;
     }
     button {
       @include button($c-accent3);
-      margin-left: -3px;
+      width: $col * 0.333 + $pad-h-gap;
+      margin-left: -$pad-h-gap;
+      text-align: center;
     }
   }
 }
@@ -412,8 +438,9 @@ section#map {
 .footer-copyright {
   @include bg-stretchwidth($c-footer-med);
   @include line-justify;
+  $fp: $pad-v * 0.76;
   font-size: $t-base;
-  padding: $pad-v 0 ($pad-v - $line-footer-copyright);
+  padding: $fp 0 ($fp - $line-footer-copyright);
   line-height: $line-footer-copyright;
   color: $c-footer-light;
   a {

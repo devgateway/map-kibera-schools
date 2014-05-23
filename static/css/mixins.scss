@@ -154,8 +154,8 @@
 
 @mixin text-input {
   @include _form-common;
-  padding-left: $pad-h-thin;
-  padding-right: $pad-h-thin;
+  padding-left: $pad-h-thin / 1.618;
+  padding-right: $pad-h-thin / 1.618;
   color: $c-med;
   background: $c-bright;
   border: 2px solid #ddd;
@@ -163,8 +163,8 @@
 
 @mixin button($bg) {
   @include _form-common;
-  padding-left: $pad-h;
-  padding-right: $pad-h;
+  padding-left: $pad-h-thin;
+  padding-right: $pad-h-thin;
   color: $c-bright;
   background: $bg;
   border: none;
