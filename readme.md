@@ -168,7 +168,7 @@ $ git reset --hard HEAD~1
 and then force-push to update the live site
 
 ```bash
-$ git push origin gh-pages-production:gh-pages
+$ git push origin gh-pages-production:gh-pages --force
 ```
 
 The previous version should now be live.
