@@ -98,7 +98,7 @@ fi
 
 # get into gh-pages-whatev branch to start off
 step "checking out and updating ${REMOTE_NAME}/gh-pages -> ${REPO_BRANCH}..."
-git fetch --all -q | indent
+git fetch $REMOTE_NAME -q | indent
 if [[ ! $(git branch | grep "$REPO_BRANCH\$") ]]; then
   git checkout -b $REPO_BRANCH ${REMOTE_NAME}/gh-pages | indent
 else
