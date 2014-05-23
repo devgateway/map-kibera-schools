@@ -123,7 +123,7 @@ cp -r ../build/* .  # again, this will miss .hidden files.
 
 step "committing the new version..."
 git add --all . | indent
-git commit -m "auto-commit production branch" | modindent  # todo -- parse last commit message from the master branch
+git commit -m "auto-commit $BUILD_NAME" | modindent  # todo -- parse last commit message from the master branch
 
 # add the tmp local to the real local
 cd ..
