@@ -104,7 +104,7 @@ if [[ ! $(git branch | grep "$REPO_BRANCH\$") ]]; then
 else
   git checkout $REPO_BRANCH | indent
 fi
-git pull $REMOTE_NAME $REPO_BRANCH -q | mute
+git pull $REMOTE_NAME gh-pages -q | mute
 
 # try to set up a temporary local folder for a repo we can work in without risking screwing up our actual local repo
 step "creating local working repo..."
