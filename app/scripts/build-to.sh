@@ -110,7 +110,7 @@ git pull $REMOTE_NAME gh-pages -q | mute
 step "creating local working repo..."
 if [[ ! -d $TMP_REPO_DIR ]]; then
   mkdir $TMP_REPO_DIR && cd $TMP_REPO_DIR
-  git clone .. . | indent
+  git clone -o "local" .. . | indent
 else
   cd $TMP_REPO_DIR
 fi
