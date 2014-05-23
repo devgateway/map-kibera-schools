@@ -139,7 +139,6 @@ rm -fr $TMP_REPO_DIR
 echo
 step "Ready to push."
 echo -e "You might want to test it one last time (python2 -m SimpleHTTPServer).\n"\
-        "When ready, simply \`git push <remote> ${REPO_BRANCH}:gh-pages\`.\n"\
-        "... where <origin> is the name of the github repository to host the build. Probably \"origin\".\n"\
+        "When ready, simply \`git push $REMOTE_NAME ${REPO_BRANCH}:gh-pages\`.\n"\
         "You are currently on the $REPO_BRANCH branch.\n"\
         "\$ \`git checkout master\` will bring you back to the source files." | indent
