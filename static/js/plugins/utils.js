@@ -36,6 +36,24 @@
                        className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
       }
   };
+  u.toggleClass = function toggleClass(node, name) {
+    if (hasClassList) {
+      node.classList.toggle(name);
+    } else {
+      var classes = node.className.split(' ');
+      var existingIndex = -1;
+      for (var i = classes.length; i--;) {
+        if (classes[i] === className)
+          existingIndex = i;
+      }
+      if (existingIndex >= 0) {
+        classes.splice(existingIndex, 1);
+      } else {
+        classes.push(className);
+      }
+      node.className = classes.join(' ');
+    }
+  };
   // eventListener also inspired by youmightnotneedjquery
   u.on = function on(node, eventName, handler) {
     if (hasAddEvent) {

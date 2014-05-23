@@ -7,6 +7,7 @@
         "plugins/utils.js",
         "leaflet.js",
         "slider.js",
+        "map-controls.js",
         "main.js"
       ],
       "filters": ["concat", "closure"]
