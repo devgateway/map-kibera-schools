@@ -52,7 +52,10 @@ def closure(sources):
         conn.request('POST', '/compile', params, headers)
         response = conn.getresponse()
         filtered_source_bytes = response.read()
-        filtered_source = str(filtered_source_bytes, 'utf-8')
+        try:
+            filtered_source = str(filtered_source_bytes, 'utf-8')
+        except TypeError:  # python2
+            filtered_source = filtered_source_bytes
         filtered.append(filtered_source)
     conn.close()
     return filtered
