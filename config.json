@@ -4,6 +4,7 @@
       "prefix": "static/js",
       "files": [
         "plugins/log-safety.js",
+        "plugins/smooth-scroll.js",
         "plugins/utils.js",
         "leaflet.js",
         "slider.js",
