@@ -64,7 +64,3 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
   }
 
 })();
-
-(function initSmoothScroll() {
-  smoothScroll('body > section');
-})();

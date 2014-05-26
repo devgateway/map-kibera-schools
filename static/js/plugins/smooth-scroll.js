@@ -6,7 +6,7 @@
  */
 (function initSmoothScroll(window, undefined) {
   'use strict';
-  var headerOffset = 0, // For layout with header with position:fixed. Write here the height of your header for your anchor don't be hiden behind
+  var headerOffset = 75, // For layout with header with position:fixed. Write here the height of your header for your anchor don't be hiden behind
       scrollDuration = 333,
       moveFrequency = 15; // Affects performance! High number makes scroll more smooth
 
@@ -37,6 +37,7 @@
         startY = getCurrentScroll(),
         targetY = getTargetOffsetFromTop(target);
 
+    window.isAutoScrolling = true;
     stepScroll(startY, targetY, moveFrequency);
     if(window.history && typeof window.history.pushState == 'function') {
       window.history.pushState({}, undefined, url+'#'+id);// Change URL for modern browser
@@ -47,6 +48,7 @@
   var stepScroll = function scrollStep(startY, targetY, t) {
     if (scrollDuration - t < moveFrequency) {
       window.setTimeout(window.scrollTo, scrollDuration - t, 0, targetY)
+      window.isAutoScrolling = false;
     } else {
       var normalized = t / scrollDuration;
       var eased = easingFunc(normalized);
@@ -91,5 +93,9 @@
 
   // export the function
   window.smoothScroll = registerTargets;
+  // for kibera: also export the scroll calculations because they are useful
+  window.targetFromTop = getTargetOffsetFromTop;
+  window.viewportFromTop = getCurrentScroll;
+  window.isAutoScrolling = false;
 
 })(window);
