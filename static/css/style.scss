@@ -56,11 +56,21 @@
   .page-nav-links a {
     margin: 0 0 0 $pad-h-gap;
     padding: $pad-v-thin $pad-h / 1.618;
-    background: $c-smokeglass;
+    background: $c-bg;
     border: 1px solid $c-footer-dark;
     border-top-width: 0;
+    &:before {
+      content: "ico "
+    }
     &.selected {
       color: $c-accent;
+    }
+
+    span {
+      @include visually-hidden;
+    }
+    &.selected span {
+      @include un-visually-hidden;
     }
   }
 
