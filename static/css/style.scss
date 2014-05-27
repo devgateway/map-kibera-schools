@@ -208,6 +208,23 @@ section#map {
   margin: 0 auto;
   line-height: $height-map-controls - 1px;
 
+  /*
+   * Scrollbars ... webkit only :(
+   */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    padding: 3px;
+    background: $c-smokeglass;
+  }
+  ::-webkit-scrollbar-thumb {
+    display: block;
+    width: 10px;
+    background: $c-footer-med;
+    border-radius: 10px;
+  }
+
   a {
     color: $c-med;
     &:hover {
@@ -253,29 +270,27 @@ section#map {
         }
       }
       &.active > a {
-        color: $c-footer-dark;
-        background: $c-copy;
+        color: $c-accent2;
       }
       & > .map-inputs {
         @include visually-hidden;
       }
       &.active > .map-inputs {
         @include un-visually-hidden;
-        font-size: $t-small;
+        font-size: $t-small - 1px;
         line-height: $line-tight;
-        background: $c-copy;
-        box-shadow: 0 4px $t-base $c-smokeglass;
+        background: $c-smokeglass;
       }
 
       &.active > .school-list {
-        $w = $width-map-control * 1.618;
+        $w = $width-map-control * 1.75;
         position: absolute;
         top: $height-map-controls;
         left: 0;
         width: $w;
         ul {
           @include list-reset;
-          max-height: 420px;
+          max-height: 432px;
           overflow-y: auto;
           overflow-x: hidden;
           li {
@@ -286,15 +301,23 @@ section#map {
           @include text-input;
           display: block;
           width: 100%;
-          font-size: $t-base;
+          font-size: $t-msmall;
+          color: $c-bright;
+          background: $c-smokeglass;
+          border: none;
+          border-bottom: 1px solid $c-outline;
+          &:hover {
+            background: lighten($c-smokeglass, 10%);
+          }
         }
         a {
           display: block;
-          padding: $pad-v-thin / 2 $pad-h-thin;
-          background: $c-bright;
+          padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
+          color: $c-copy;
+          background: $c-smokeglass;
           &:hover {
-            color: $c-footer-dark;
-            background: $c-copy;
+            color: $c-accent2;
+            background: darken($c-smokeglass, 10%);
           }
         }
       }
