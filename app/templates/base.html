@@ -40,6 +40,7 @@
       </nav>
 
       <ul class="social">
+        <li class="beta"><a>BETA</a></li>
         {% for profile in content.social %}
           <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
         {% endfor %}
