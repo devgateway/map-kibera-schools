@@ -45,7 +45,13 @@
             <input type="text" placeholder="Quick Search" id="school-dir-search" name="school-dir-search" />
             <ul>
               {% for school in content.schools %}
-                <li><a href="/schools/{{ school.slug }}">{{ school.name }}</a></li>
+                <li>
+                  <a href="/schools/{{ school.slug }}"
+                     data-lat="{{ school.geometry.coordinates[0][0] }}"
+                     data-lng="{{ school.geometry.coordinates[0][1] }}">
+                    {{ school.name }}
+                  </a>
+                </li>
               {% endfor %}
             </ul>
           </div>

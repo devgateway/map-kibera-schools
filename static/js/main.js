@@ -5,10 +5,12 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
 
 (function drawMaps() {
 
-  var mapEl;
+  var mapEl,
+      data = { 'features': [] };
 
   if (mapEl = document.getElementById('main-map')) {
     map = drawMap(mapEl);
+    domLoadSchoolDataAll();
     pinAllSchools(map);
   } else if (mapEl = document.getElementById('school-map')) {
     map = drawMap(mapEl);
@@ -44,17 +46,33 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
     return map;
   }
 
+  function domLoadSchoolDataAll() {
+    var geoSchool,
+        schoolEls = document.querySelectorAll('#schools .school-list > ul > li > a');
+    u.eachNode(schoolEls, function loadSchoolData(node) {
+      geoSchool = {
+        'type': 'Feature',
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [parseFloat(node.dataset.lat), parseFloat(node.dataset.lng)]
+        },
+        'properties': {
+          'href': node.getAttribute('href'),
+          'name': (node.textContent || el.innerText).trim()
+        }
+      };
+      data.features.push(geoSchool);
+    });
+  }
+
   function pinAllSchools(map) {
     function pinPopup(feature, layer) {
-      var name = feature.name;
-      var popupContent = '<h3><a href="/schools/' + feature.slug + '">' +
-                         name + '</a></h3>';
+      var href = feature.properties.href,
+          name = feature.properties.name;
+      var popupContent = '<h3><a href="' + href + '">' + name + '</a></h3>';
       layer.bindPopup(popupContent);
     }
-    var url = WEB_ROOT + 'schools.geojson'
-    getJSON(url, function pinSchoolsFromData(data) {
-      L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
-    });
+    L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
   }
 
   function pinSchool(map) {
@@ -62,5 +80,8 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
     map.setView([location[0] + 0.0003, location[1]], 18);
     L.marker(location).addTo(map);
   }
+
+  // exports
+  window.geoData = data;
 
 })();
