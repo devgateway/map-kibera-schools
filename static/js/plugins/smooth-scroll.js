@@ -83,10 +83,10 @@
 
   var getCurrentScroll = function getCurrentScroll() {
     var top;
-    if (document.documentElement.scrollTop !== undefined) {
-      top = document.documentElement.scrollTop;
+    if (window.pageYOffset !== undefined) {
+      top = window.pageYOffset;
     } else {
-      top = document.body.scrollTop;
+      top = (document.documentElement || document.body.parentNode || document.body).scrollTop;
     }
     return top;
   };

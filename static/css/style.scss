@@ -74,6 +74,15 @@
     }
   }
 
+  .beta a {
+    margin-right: $pad-v;
+    padding: 0 $pad-v-thin;
+    color: $c-bg;
+    background: $c-accent2;
+    border-width: 0;
+    border-radius: 3px;
+  }
+
   .social {
     display: block;
     width: $width-full;
@@ -137,6 +146,9 @@ section#videos {
       bottom: 0;
       @include horizontal-gradient($c-bg, rgba(0, 0, 0, 0));
     }
+  }
+  .activated .video:before {
+    display: none;
   }
 
   .video-meta {
