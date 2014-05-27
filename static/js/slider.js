@@ -24,4 +24,17 @@
       showSlide(targetSlideAnchor, evt.target);
     });
   });
+
+  var slides = sliderContainer.querySelectorAll('.videos-slider .slide');
+  u.eachNode(slides, function(node) {
+    var vidActivator = node.querySelector('.video a');
+    u.on(vidActivator, 'click', function(e) {
+      u.stop(e);
+      var videoID = this.dataset.youtubeid;
+      if (! videoID) { return; }
+      var vidMarkup = '<iframe width="600" height="338" src="//www.youtube-nocookie.com/embed/' + videoID + '?rel=0&wmode=opaque&autoplay=1" frameborder="0" allowfullscreen></iframe>'
+      vidActivator.innerHTML = vidMarkup;
+      u.addClass(node, 'activated');
+    });
+  });;
 })();

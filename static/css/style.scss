@@ -128,6 +128,9 @@ section#videos {
       @include horizontal-gradient($c-bg, rgba(0, 0, 0, 0));
     }
   }
+  .activated .video:before {
+    display: none;
+  }
 
   .video-meta {
     margin-top: -1px;  // respect contents' top margin
