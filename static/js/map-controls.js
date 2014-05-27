@@ -6,6 +6,9 @@
 
   var controlLinks = controlsContainer.querySelectorAll('.controls > li > a');
   u.eachNode(controlLinks, function bindControlClick(node) {
+    if (! u.startsWith(node.getAttribute('href'), '#')) {
+      return;
+    }
     u.on(node, 'click', function toggleControl(evt) {
       u.stop(evt);
       u.toggleClass(node.parentNode, 'active')
