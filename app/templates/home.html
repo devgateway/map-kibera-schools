@@ -47,8 +47,14 @@
               {% for school in content.schools %}
                 <li>
                   <a href="/schools/{{ school.slug }}"
+                     {# OSM is the first coordinates when multiple are available #}
                      data-lat="{{ school.geometry.coordinates[0][0] }}"
-                     data-lng="{{ school.geometry.coordinates[0][1] }}">
+                     data-lng="{{ school.geometry.coordinates[0][1] }}"
+                     {# filterable data #}
+                     data-level="{{ school.properties['osm:education:type'] or
+                                    school.properties['kenyaopendata:Level of Education'] }}"
+                     data-type="{{ school.properties[''] }}"
+                     data-constituency="{{ school.properties['kenyaopendata:Constituency'] }}">
                     {{ school.name }}
                   </a>
                 </li>
@@ -59,7 +65,19 @@
         <li id="filters">
           <a href="#filters">Filters</a>
           <div class="map-inputs map-filters">
-            map filters yo...
+            <label for="school-level">Level</label>
+            <select name="school-level" id="school-level">
+              {% for level in school_levels %}
+                <option value="{{ level.id }}">{{ level.name }}</option>
+              {% endfor %}
+            </select>
+            <label for="school-type">Type</label>
+            <select name="school-type" id="school-type">
+              {% for type in school_types %}
+                <option value="{{ type.id }}">{{ type.name }}</option>
+              {% endfor %}
+            </select>
+            <button type="submit">Filter</button>
           </div>
         </li>
         <li>

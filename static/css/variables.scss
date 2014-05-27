@@ -43,8 +43,9 @@ $width-map-control: 176px;
 
 /////// STACKING ///////
 
-$layer-top: 1000;  // basically just for the sticky header
-$layer-high: 100;
+$layer-top: 1800;  // basically just for the sticky header
+$layer-high: 1200;
+$layer-mhigh: 100;
 $layer-norm: 0;
 $layer-low: -100;
 $layer-bottom: -1000;  // make things really go away
@@ -73,7 +74,7 @@ $c-header-med: $c-med;
 $c-header-bright: $c-bright;
 $c-header-menu: rgba(24, 24, 24, 0.85);
 
-$c-smokeglass: rgba(56, 56, 56, 0.74);
+$c-smokeglass: rgba(56, 56, 56, 0.9);
 $c-brightglass: rgba(255, 255, 255, 0.75);
 
 $c-footer-light: #f8f8f8;

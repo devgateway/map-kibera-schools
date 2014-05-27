@@ -201,7 +201,7 @@ section#map {
   border-top: $b-outline;
 }
 .map-controls {
-  z-index: $layer-high;
+  z-index: $layer-mhigh;
   position: relative;  // for stacking
   width: $width-full;
   height: $height-map-controls;
@@ -315,12 +315,22 @@ section#map {
           display: block;
           padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
           color: $c-copy;
-          background: $c-smokeglass;
           &:hover {
             color: $c-accent2;
             background: darken($c-smokeglass, 10%);
           }
         }
+      }
+
+      &.active > .map-filters {
+        @include bg-stretchwidth($c-smokeglass);
+        $w = $width-map-control * 4;
+        z-index: $layer-mhigh;
+        position: absolute;
+        top: $height-map-controls;
+        left: -$width-map-control;
+        width: $w;
+        padding: $pad-v-thin $pad-h-thin;
       }
     }
   }

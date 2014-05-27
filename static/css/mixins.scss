@@ -123,6 +123,8 @@
 
 @mixin accent-box {
   @include box-sizing(border-box);
+  z-index: $layer-high;
+  position: relative;  // for z-index
   display: block;
   width: $width-accent-box;
   height: $height-accent-box;

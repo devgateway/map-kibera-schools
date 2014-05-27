@@ -12,7 +12,7 @@
         "map-controls.js",
         "main.js"
       ],
-      "filters": ["concat", "closure"]
+      "filters": []
     },
     "css": {
       "prefix": "static/css",

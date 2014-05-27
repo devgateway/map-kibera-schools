@@ -11,6 +11,11 @@
     return Array.prototype.map.apply($this, arguments);
   };
 
+  u.simplify = function simplify(str) {
+    lowered = str.toLowerCase();
+    return lowered.replace(/[^a-z]/g, '');
+  };
+
   u.startsWith = function startsWith(str, startswith) {
     return str.lastIndexOf(startswith, 0) === 0;
   };
