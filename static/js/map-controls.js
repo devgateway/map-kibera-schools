@@ -11,8 +11,20 @@
     }
     u.on(node, 'click', function toggleControl(evt) {
       u.stop(evt);
-      u.toggleClass(node.parentNode, 'active')
+      var currentlySelected = controlsContainer.querySelector('.active');
+      if (currentlySelected && currentlySelected !== node.parentNode) {
+        u.removeClass(currentlySelected, 'active');
+      }
+      u.toggleClass(node.parentNode, 'active');
     });
+  });
+  u.on(window, 'keypress', function(e) {
+    if (e.keyCode === 27) {  // ESC
+      var currentlySelected = controlsContainer.querySelector('.active');
+      if (currentlySelected) {
+        u.removeClass(currentlySelected, 'active');
+      }
+    }
   });
 
   // quick search functionality for schools browse
@@ -30,7 +42,6 @@
       return {'name': name,
               'node': node}
     });
-    console.log(namesMap);
     var searchInput = controlsContainer.querySelector('.school-list > input');
     u.on(searchInput, 'keyup', function liveFilterSchools(evt) {
       var startsWith = simplify(searchInput.value);

@@ -271,6 +271,7 @@ section#map {
       }
       &.active > a {
         color: $c-accent2;
+        background: lighten($c-bg, 20%);
       }
       & > .map-inputs {
         @include visually-hidden;
