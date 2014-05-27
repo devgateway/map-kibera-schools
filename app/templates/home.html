@@ -41,7 +41,7 @@
       <ul class="controls">
         <li id="schools">
           <a href="#schools">Schools</a>
-          <div class="school-list">
+          <div class="map-inputs school-list">
             <input type="text" placeholder="Quick Search" id="school-dir-search" name="school-dir-search" />
             <ul>
               {% for school in content.schools %}
@@ -56,8 +56,11 @@
             </ul>
           </div>
         </li>
-        <li>
-          <a href="#">Filters</a>
+        <li id="filters">
+          <a href="#filters">Filters</a>
+          <div class="map-inputs map-filters">
+            map filters yo...
+          </div>
         </li>
         <li>
           <a href="/schools.geojson">Data</a>

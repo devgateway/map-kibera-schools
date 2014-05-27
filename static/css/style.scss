@@ -256,20 +256,23 @@ section#map {
         color: $c-footer-dark;
         background: $c-copy;
       }
-      & > .school-list {
+      & > .map-inputs {
         @include visually-hidden;
       }
-      &.active > .school-list {
+      &.active > .map-inputs {
         @include un-visually-hidden;
+        font-size: $t-small;
+        line-height: $line-tight;
+        background: $c-copy;
+        box-shadow: 0 4px $t-base $c-smokeglass;
+      }
+
+      &.active > .school-list {
         $w = $width-map-control * 1.618;
         position: absolute;
         top: $height-map-controls;
         left: 0;
         width: $w;
-        font-size: $t-small;
-        line-height: $line-tight;
-        background: $c-copy;
-        box-shadow: 0 4px $t-base $c-smokeglass;
         ul {
           @include list-reset;
           max-height: 420px;
