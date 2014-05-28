@@ -381,18 +381,30 @@ section#map {
   }
 }
 
+#school-blurbs,
+#school-feedback {
+  padding: $pad-v 0;
+  color: $c-copy-dark;
+}
 
 #school-blurbs {
   @include bg-stretchwidth($c-bright);
   width: $width-full;
   margin: 0 auto;
-  padding: $pad-v 0;
-  color: $c-copy-dark;
 
   .source {
     color: $c-accent;
     text-transform: uppercase;
     font-weight: $t-mheavy;
+  }
+}
+
+#school-feedback {
+  background: $c-bright;
+  border-bottom: 1px solid darken($c-bright, 18%);
+  .comments {
+    width: $width-full;
+    margin: 0 auto;
   }
 }
 

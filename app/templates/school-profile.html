@@ -71,7 +71,20 @@
   </section>
 
   <section id="school-feedback">
-    columnar comments
+    <div class="comments">
+      <h2>Comments</h2>
+      <div class="fb-comments" data-href="http://kibera-schools.dgstg.org/schools/{{ school.slug }}" data-width="1200" data-numposts="7" data-colorscheme="light">Loading facebook comments... (requires javascript)</div>
+    </div>
   </section>
+
+  {# facebook comments #}
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=247929132034868&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 {% endblock %}
