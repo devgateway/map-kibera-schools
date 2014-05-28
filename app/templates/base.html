@@ -103,9 +103,9 @@
           &copy; Copyright 2014 Feedback Labs. All Rights Reserved.
         </div>
 
-        <ul class="footer-social-links">
+        <ul class="footer-social-links social">
           {% for profile in content.social %}
-            <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+            <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="{{ profile.name }}" target="_top">{{ profile.name }}</a></li>
           {% endfor %}
         </ul>
 

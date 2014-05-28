@@ -127,11 +127,13 @@
   @include icofont;
   display: inline-block;
   vertical-align: top;
+  font-size: 0;
   li,
   li > a {
     display: inline-block;
   }
   li {
+    font-size: $t-base;
     margin: $pad-v-thin $pad-h-gap / 2;
   }
   a {
@@ -140,7 +142,7 @@
     $size: $t-base;
     position: relative;
     vertical-align: baseline;
-    margin: auto;
+    margin: 0;  // override visually-hidden
     font-size: $size;
     height: $size;
     width: $size;
@@ -401,10 +403,6 @@ section#map {
     h3 {
       @include visually-hidden;
     }
-    li {
-      margin: 0;
-      line-height: $height-map-controls;
-    }
   }
 }
 #schools > a:before {
@@ -639,12 +637,5 @@ section#map {
   }
   #copyright {
     display: inline-block;
-  }
-  ul {
-    @include list-reset;
-    display: inline-block;
-    li {
-      display: inline-block;
-    }
   }
 }
