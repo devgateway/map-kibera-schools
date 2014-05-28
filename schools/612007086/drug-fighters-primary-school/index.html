@@ -20,7 +20,7 @@
     <!-- tag css
          template=<link rel="stylesheet" href="{path}" />
          -->
-<link rel="stylesheet" href="/static/css/cacfda546ab032aa3b5047e45c8d6e481d72fec2.css" />
+<link rel="stylesheet" href="/static/css/e896eb8dd9a79876bd2b844cc90e370026ebc3ab.css" />
 <!-- endtag css -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
   </head>
@@ -56,31 +56,79 @@
 
     
 
-  <section id="school-banner">
-    <div id="school-map" class="map"></div>
-    <div class='school-overlay'>
-      <h1></h1>
-    </div>
+  <section id="school-top">
+    <h1>Drug Fighters Primary School</h1>
+
+    
+  </section>
+
+  <section id="school-map">
+    <header class="map-controls">
+      <ul class="controls">
+        <li>
+          <a href="/#map">Back to Main Map</a>
+        </li>
+        <li>
+          <a href="/schools.geojson">Data</a>
+        </li>
+      </ul>
+      <div class="social">
+        <h3>Share</h3>
+        <ul>
+          
+            <li><a href="" title="Facebook" target="_top">f</a></li>
+          
+            <li><a href="" title="Twitter" target="_top">t</a></li>
+          
+            <li><a href="" title="Google Plus" target="_top">g</a></li>
+          
+            <li><a href="" title="Vimeo" target="_top">v</a></li>
+          
+            <li><a href="" title="Flickr" target="_top">f</a></li>
+          
+        </ul>
+      </div>
+    </header>
+    <div id="school-map-display" class="map"></div>
     <script>
       var school = {"geometry": {"coordinates": [[36.793287, -1.313207], [36.792426, -1.310584]], "type": "MultiPoint"}, "name": "Drug Fighters Primary School", "properties": {"kenyaopendata:Boys Toilets": "1", "kenyaopendata:Costituency": "LANGATA", "kenyaopendata:District": "NAIROBI", "kenyaopendata:Division": "KIBERA", "kenyaopendata:GOK TSC Female": "0", "kenyaopendata:GOK TSC Male": "0", "kenyaopendata:Girls Toilets": "1", "kenyaopendata:Level of Education": "PRIMARY SCHOOL", "kenyaopendata:Local Authority Female": "0", "kenyaopendata:Local Authority Male": "0", "kenyaopendata:Location": "LAINI SABA", "kenyaopendata:Non-Teaching Staff Female": "2", "kenyaopendata:Non-Teaching Staff Male": "5", "kenyaopendata:Others Female": "2", "kenyaopendata:Others Male": "2", "kenyaopendata:PTA BOG Female": "0", "kenyaopendata:PTA BOG Male": "0", "kenyaopendata:Province": "NAIROBI", "kenyaopendata:Pupil Classroom Ratio": "6.2", "kenyaopendata:Pupil Teacher Ratio": "9.3", "kenyaopendata:Pupil Toilet Ratio": "18.5", "kenyaopendata:School Institution Type_1": "MIXED", "kenyaopendata:School Institution Type_2": "DAY ONLY", "kenyaopendata:School Institution Type_3": "INTEGRATED", "kenyaopendata:Sponsor of School": "PRIVATE INDIVIDUAL", "kenyaopendata:Status of School": "PRIVATE", "kenyaopendata:Teachers Toilets": "0", "kenyaopendata:Total Boys": "22", "kenyaopendata:Total Enrolment": "37", "kenyaopendata:Total Girls": "15", "kenyaopendata:Total Number of Classrooms": "6", "kenyaopendata:Total Toilets": "0", "kenyaopendata:official_name": "DRUG FIGHTERS PRI SCH", "osm:amenity": "school", "osm:education:fees": "yes", "osm:education:program_counseling": "yes", "osm:education:program_feeding": "yes", "osm:education:program_orphans": "yes", "osm:education:program_sports": "yes", "osm:education:staff_female": "2", "osm:education:staff_male": "3", "osm:education:student_age_range": "3-14yrs", "osm:education:students": "120", "osm:education:teachers": "10", "osm:education:teachers_female": "7", "osm:education:teachers_male": "3", "osm:education:teachers_trained": "10", "osm:education:type": "nursery,primary", "osm:id": "node/612007086", "osm:media:video_device_number": "8", "osm:media:video_number": "15", "osm:name": "Drug Fighters Primary School", "osm:official_name": "DRUG FIGHTERS PRI SCH", "osm:opening_hours": "Mo-Fr 07:00-16:00", "osm:operational_status": "operational", "osm:operational_status:electricity": "sometimes", "osm:operator:type": "private"}, "slug": "612007086/drug-fighters-primary-school", "type": "Feature"};
     </script>
   </section>
 
   <section id="school-brief">
-    quick overview of this school
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque elit, eleifend eget, hendrerit quis.</p>
   </section>
 
   <section id="school-blurbs">
-    some words and small photos
+    <div class="school-stats osm">
+      <header>
+        <p class="source">OSM Data</p>
+        <h2>Drug Fighters Primary School</h2>
+        
+        
+        <p></p>
+      </header>
+    </div>
+    <div class="school-stats kenyaopendata">
+    </div>
   </section>
 
   <section id="school-feedback">
-    columnar comments
+    <div class="comments">
+      <h2>Comments</h2>
+      <div class="fb-comments" data-href="http://kibera-schools.dgstg.org/schools/612007086/drug-fighters-primary-school" data-width="1200" data-numposts="7" data-colorscheme="light">Loading facebook comments... (requires javascript)</div>
+    </div>
   </section>
 
-  <section id="school-charts">
-    some key graphs
-  </section>
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=247929132034868&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
 
@@ -157,7 +205,7 @@
     <!-- tag js
          template=<script src="{path}"></script>
          -->
-<script src="/static/js/d4ebc50e5ad2e0e18e471dfb1f7a356e1969f47b.js"></script>
+<script src="/static/js/595011d725ab0f40f6de441b52b08a51325f8796.js"></script>
 <!-- endtag js -->
   </body>
 </html>
