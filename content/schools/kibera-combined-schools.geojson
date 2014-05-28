@@ -511,7 +511,8 @@
         "osm:polling_station:nearest_police_station": "olympic chief's camp",
         "osm:polling_station:registered_voters": "6,152",
         "osm:polling_station:type": "public_school",
-        "osm:source": "map_kibera_trust"
+        "osm:source": "map_kibera_trust",
+	"osm:images": "https://farm3.staticflickr.com/2742/4089244916_b11b3c7a1f_o.jpg"
       },
       "type": "Feature"
     },
