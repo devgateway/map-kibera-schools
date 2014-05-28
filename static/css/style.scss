@@ -74,25 +74,47 @@
     }
   }
 
-  .beta a {
+  .social {
+    position: relative;
+    z-index: $layer-top + 1;
+    display: block;
+    width: $width-full;
+    margin: 0 auto;
+    text-align: right;
+    li {
+      margin: $pad-v-thin $pad-h-gap / 2;
+    }
+  }
+
+  li.beta {
+    position: relative;
+    top: -4px;
+    vertical-align: top;
     margin-right: $pad-v;
-    padding: 0 $pad-v-thin;
+    padding: 0 $pad-h-thin;
+    line-height: $t-mbig;
     color: $c-bg;
     background: $c-accent2;
     border-width: 0;
     border-radius: 3px;
   }
 
-  .social {
-    display: block;
-    width: $width-full;
-    margin: 0 auto;
-    text-align: right;
-    li {
-      margin: $pad-v-thin $pad-h-gap;
-    }
-  }
+}
 
+
+/*
+ * General Social Rules
+ */
+.social a {
+  // hide the actual text (it's replaced by the icon)
+  @include visually-hidden;
+  $size: $t-base;
+  position: relative;
+  vertical-align: baseline;
+  margin: auto;
+  font-size: $size;
+  height: $size;
+  width: $size;
 }
 
 

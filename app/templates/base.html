@@ -40,9 +40,9 @@
       </nav>
 
       <ul class="social">
-        <li class="beta"><a>BETA</a></li>
+        <li class="beta">BETA</li>
         {% for profile in content.social %}
-          <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+          <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="Map Kibera Schools on {{ profile.name }}" target="_top">{{ profile.name }}</a></li>
         {% endfor %}
       </ul>
     </header>

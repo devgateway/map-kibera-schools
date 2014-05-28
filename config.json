@@ -20,9 +20,10 @@
         "leaflet.css",
 
         "variables.scss",
+        "icon-font.css",
         "mixins.scss",
         "normalize.css",
-        "helpers.css",
+        "helpers.scss",
         "base.scss",
 
         "style.scss",

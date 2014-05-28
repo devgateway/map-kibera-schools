@@ -193,6 +193,8 @@ def build_static(what, for_):
         build_static_thing('js', conf)
     if what in ('all', 'img'):
         copy_static('img')
+    if what in ('all', 'fonts'):
+        copy_static('fonts')
     if what in ('all', 'tiles'):
         copy_static('tiles')
     if what in ('all', 'root'):
@@ -225,7 +227,7 @@ def build(what, *args):
             static = static_args[0]
             if len(static_args) > 1:
                 for_ = static_args[1]
-            if static not in ('all', 'css', 'js', 'img', 'tiles', 'root'):
+            if static not in ('all', 'css', 'js', 'img', 'files', 'tiles', 'root'):
                 raise SystemExit('unrecognized argument: {}'.format(static))
         build_static(static, for_)
 
