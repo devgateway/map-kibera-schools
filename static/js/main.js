@@ -77,7 +77,7 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
 
   function pinSchool(map) {
     var location = school.geometry.coordinates[0].reverse();
-    map.setView([location[0] + 0.0003, location[1]], 17);
+    map.setView([location[0] + 0.0003, location[1]], 18);
     L.marker(location).addTo(map);
   }
 

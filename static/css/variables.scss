@@ -54,6 +54,7 @@ $layer-bottom: -1000;  // make things really go away
 
 $c-bg: #000;
 $c-copy: #ccc;
+$c-copy-dark: #222;
 $c-med: #777;
 $c-t-med: #999;
 $c-bright: #fff;
@@ -74,6 +75,8 @@ $c-header-bright: $c-bright;
 $c-header-menu: rgba(24, 24, 24, 0.85);
 
 $c-control-bg: #1e1e1e;
+
+$c-brief-bg: #8b8b8b;
 
 $c-smokeglass: rgba(56, 56, 56, 0.74);
 $c-brightglass: rgba(255, 255, 255, 0.75);

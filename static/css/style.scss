@@ -273,7 +273,7 @@ section#map {
         position: relative;
         display: inline-block;
         height: $height-map-controls;
-        width: $width-map-control;
+        min-width: $width-map-control;
         padding: 0 $pad-h-thin;
         font-size: $t-base;
         border-right: 1px solid $c-outline;
@@ -363,6 +363,39 @@ section#map {
     height: 282px;
   }
 }
+
+
+/*
+ * School profile quick description below map
+ */
+#school-brief {
+  @include bg-stretchwidth($c-brief-bg);
+  width: $width-full;
+  margin: 0 auto;
+  padding: $pad-v-thin 0; 
+  p {
+    margin: 0;
+    line-height: $line-tight + 0.1em;  // match psd design...
+    color: $c-bright;
+    font-weight: $t-mheavy;
+  }
+}
+
+
+#school-blurbs {
+  @include bg-stretchwidth($c-bright);
+  width: $width-full;
+  margin: 0 auto;
+  padding: $pad-v 0;
+  color: $c-copy-dark;
+
+  .source {
+    color: $c-accent;
+    text-transform: uppercase;
+    font-weight: $t-mheavy;
+  }
+}
+
 
 /*
  * Highlighted School

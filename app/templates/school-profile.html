@@ -50,19 +50,28 @@
   </section>
 
   <section id="school-brief">
-    quick overview of this school
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque elit, eleifend eget, hendrerit quis.</p>
   </section>
 
   <section id="school-blurbs">
-    some words and small photos
+    <div class="school-stats osm">
+      <header>
+        <p class="source">OSM Data</p>
+        <h2>{{ school.name }}</h2>
+        {% set num_students = (school.properties['osm:education:students_male'] or 0)|int +
+                              (school.properties['osm:education:students_female'] or 0)|int %}
+        {% if num_students > 0 %}
+          <h3>{{ num_students }} Students</h3>
+        {% endif %}
+        <p></p>
+      </header>
+    </div>
+    <div class="school-stats kenyaopendata">
+    </div>
   </section>
 
   <section id="school-feedback">
     columnar comments
-  </section>
-
-  <section id="school-charts">
-    some key graphs
   </section>
 
 {% endblock %}
