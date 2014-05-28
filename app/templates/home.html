@@ -69,11 +69,11 @@
           <a href="#search">Search</a>
         </li>
       </ul>
-      <div class="social">
+      <div class="map-social">
         <h3>Share</h3>
-        <ul>
+        <ul class="social">
           {% for profile in content.social %}
-            <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+            <li><a class="icon-{{ profile.id }}" href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.name }}</a></li>
           {% endfor %}
         </ul>
       </div>

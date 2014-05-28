@@ -41,8 +41,7 @@
     color: inherit;
   }
 
-  .page-nav-links,
-  .social {
+  .page-nav-links {
     @include list-reset;
     display: inline-block;
     vertical-align: top;
@@ -102,9 +101,6 @@
     width: $width-full;
     margin: 0 auto;
     text-align: right;
-    li {
-      margin: $pad-v-thin $pad-h-gap / 2;
-    }
   }
 
   li.beta {
@@ -126,16 +122,29 @@
 /*
  * General Social Rules
  */
-.social a {
-  // hide the actual text (it's replaced by the icon)
-  @include visually-hidden;
-  $size: $t-base;
-  position: relative;
-  vertical-align: baseline;
-  margin: auto;
-  font-size: $size;
-  height: $size;
-  width: $size;
+.social {
+  @include list-reset;
+  @include icofont;
+  display: inline-block;
+  vertical-align: top;
+  li,
+  li > a {
+    display: inline-block;
+  }
+  li {
+    margin: $pad-v-thin $pad-h-gap / 2;
+  }
+  a {
+    // hide the actual text (it's replaced by the icon)
+    @include visually-hidden;
+    $size: $t-base;
+    position: relative;
+    vertical-align: baseline;
+    margin: auto;
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
 }
 
 
@@ -290,8 +299,7 @@ section#map {
       color: $c-bright;
     }
   }
-  .controls,
-  .social {
+  .controls {
     &,
     ul,
     li {
@@ -388,13 +396,14 @@ section#map {
       }
     }
   }
-  .social {
+  .map-social {
     float: right;
     h3 {
       @include visually-hidden;
     }
-    ul {
-      @include list-reset;
+    li {
+      margin: 0;
+      line-height: $height-map-controls;
     }
   }
 }
