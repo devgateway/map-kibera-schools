@@ -17,7 +17,6 @@
     z-index: $layer-top;
     top: 0;
     left: 50%;
-    width: $width-full;
     margin-left: -$width-full / 2;
 
     a.accent {
@@ -75,8 +74,6 @@
   }
 
   .social {
-    position: relative;
-    z-index: $layer-top + 1;
     display: block;
     width: $width-full;
     margin: 0 auto;
