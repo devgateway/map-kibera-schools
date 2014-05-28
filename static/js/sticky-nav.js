@@ -2,7 +2,16 @@
 (function initStickyNav() {
   var scrollTargetQuery = 'body > section';
   smoothScroll(scrollTargetQuery);
-  var targetEls = document.querySelectorAll(scrollTargetQuery);
+  var targetElsMaybe = document.querySelectorAll(scrollTargetQuery),
+      targetEls = [];
+  for (var i=0; i<targetElsMaybe.length; i++) {
+    // check to see if it's in the header or not
+    var id = targetElsMaybe[i].id;
+    var headerLinkQuery = '#page-header .page-nav-links [href="#' + id + '"]';
+    if (document.querySelector(headerLinkQuery)) {
+      targetEls.push(targetElsMaybe[i]);
+    }
+  }
   var stickyNavContainer = document.querySelector('body > header');
   var throttle = 150;  // ms
   var lastCheck;

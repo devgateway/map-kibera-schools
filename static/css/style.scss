@@ -59,17 +59,41 @@
     border: 1px solid $c-footer-dark;
     border-top-width: 0;
     &:before {
-      content: "ico "
+      @include icofont;
+      content: ",";  // default gear icon
+      display: inline-block;
+      margin-right: $pad-h-gap * 2;
+      font-size: $t-med;
+      vertical-align: middle;
     }
     &.selected {
-      color: $c-accent;
+      color: $c-copy;
+      &:before {
+        color: $c-accent;
+      }
     }
-
     span {
       @include visually-hidden;
     }
-    &.selected span {
-      @include un-visually-hidden;
+    &.selected {
+      background: $c-control-bg;
+      span {
+        @include un-visually-hidden;
+      }
+    }
+    &[href="#videos"]:before {
+      content: "p";
+    }
+    &[href="#map"]:before,
+    &[href="#school-map"]:before {
+      content: "w";
+    }
+    &[href="#charts"]:before,
+    &[href="#school-blurbs"]:before {
+      content: "O";
+    }
+    &[href="#stories"]:before {
+      content: "b";
     }
   }
 
@@ -300,7 +324,7 @@ section#map {
           @include icofont;
           content: ",";  // default gear icon
           display: inline-block;
-          margin-right: $pad-h-gap * 2;
+          margin-right: $pad-h-thin / 1.5;
           font-size: $t-mbig;
           vertical-align: middle;
         }
