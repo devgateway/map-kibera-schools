@@ -142,6 +142,20 @@
   }
 }
 
+@mixin icofont {
+  font-family: 'icokibera';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @mixin _form-common {
   @include box-sizing(border-box);
   @include border-radius($radius-rounded);

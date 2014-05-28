@@ -300,7 +300,12 @@ section#map {
         font-size: $t-base;
         border-right: 1px solid $c-outline;
         &:before {
-          content: "icon "
+          @include icofont;
+          content: ",";  // default gear icon
+          display: inline-block;
+          margin-right: $pad-h-gap * 2;
+          font-size: $t-mbig;
+          vertical-align: middle;
         }
         &:hover {
           color: $c-bright;
@@ -371,6 +376,21 @@ section#map {
       @include list-reset;
     }
   }
+}
+#schools > a:before {
+  content: "h";
+}
+#filters > a:before {
+  content: "=";
+}
+#data > a:before {
+  content: ",";
+}
+#search > a:before {
+  content: "S";
+}
+#map-main > a:before {
+  content: "R";
 }
 .map {
   height: 508px;
