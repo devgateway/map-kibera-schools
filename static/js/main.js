@@ -12,7 +12,7 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
     map = drawMap(mapEl);
     domLoadSchoolDataAll();
     pinAllSchools(map);
-  } else if (mapEl = document.getElementById('school-map')) {
+  } else if (mapEl = document.getElementById('school-map-display')) {
     map = drawMap(mapEl);
     pinSchool(map);
   } else {
@@ -77,7 +77,7 @@ L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
 
   function pinSchool(map) {
     var location = school.geometry.coordinates[0].reverse();
-    map.setView([location[0] + 0.0003, location[1]], 18);
+    map.setView([location[0] + 0.0003, location[1]], 17);
     L.marker(location).addTo(map);
   }
 

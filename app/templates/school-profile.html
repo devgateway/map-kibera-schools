@@ -2,11 +2,48 @@
 
 {% block content %}
 
-  <section id="school-banner">
-    <div id="school-map" class="map"></div>
-    <div class='school-overlay'>
-      <h1>{{ school.properties.name }}</h1>
-    </div>
+  <section id="school-top">
+    <h1>{{ school.name }}</h1>
+
+    {% if school.properties.photos %}
+      <div id="school-photos-frame">
+        <ul>
+          {% for photo in school.properties.photos %}
+            <li>
+              <a href="{{ photo }}">
+                <img src="{{ photo }}" alt="photo of {{ school.name }}" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        {% if school.properties.photos|count > 3 %}
+          <a id="school-photos-prev" href="#previous-photos">Previous Photos</a>
+          <a id="school-photos-next" href="#next-photos">Next Photos</a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </section>
+
+  <section id="school-map">
+    <header class="map-controls">
+      <ul class="controls">
+        <li>
+          <a href="/#map">Back to Main Map</a>
+        </li>
+        <li>
+          <a href="/schools.geojson">Data</a>
+        </li>
+      </ul>
+      <div class="social">
+        <h3>Share</h3>
+        <ul>
+          {% for profile in content.social %}
+            <li><a href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.icon }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
+    <div id="school-map-display" class="map"></div>
     <script>
       var school = {{ school | tojson }};
     </script>

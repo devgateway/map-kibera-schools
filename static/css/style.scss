@@ -192,6 +192,22 @@ section#videos {
   }
 }
 
+
+/*
+ * School Profile Title
+ *
+ * Name of school and any images available.
+ */
+section#school-top {
+  width: $width-full;
+  margin: $pad-v auto;
+  h1 {
+    font-size: $t-med;
+    color: $c-accent2;
+  }
+}
+
+
 /*
  * Map
  *
@@ -337,6 +353,15 @@ section#map {
 .map {
   height: 508px;
   background: $c-footer-med;  // might flash while loading
+}
+#school-map {
+  border-top: $b-outline;
+  .map-controls {
+    @include bg-stretchwidth($c-control-bg);
+  }
+  .map {
+    height: 282px;
+  }
 }
 
 /*
