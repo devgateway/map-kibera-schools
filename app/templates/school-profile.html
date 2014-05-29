@@ -17,15 +17,13 @@
           {% for photo in school.properties.photos %}
             <li>
               <a href="{{ photo }}">
-                <img src="{{ photo }}" alt="photo of {{ school.name }}" />
+                <img src="{{ photo }}" alt="photo {{ loop.index }} of {{ school.name }}" />
               </a>
             </li>
           {% endfor %}
         </ul>
-        {% if school.properties.photos|count > 3 %}
-          <a id="school-photos-prev" href="#previous-photos">Previous Photos</a>
-          <a id="school-photos-next" href="#next-photos">Next Photos</a>
-        {% endif %}
+        <a id="school-photos-prev" href="#previous-photos">Previous Photos</a>
+        <a id="school-photos-next" href="#next-photos">Next Photos</a>
       </div>
     {% endif %}
   </section>

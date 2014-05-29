@@ -259,6 +259,46 @@ section#school-top {
     font-size: $t-med;
     color: $c-accent2;
   }
+  #school-photos-frame {
+    position: relative;  // positioning context for prev/next controls
+    height: $height-school-photo;
+    width: $width-full;
+    ul {
+      @include list-reset;
+      height: $height-school-photo;
+      width: $width-full;
+      overflow: hidden;
+
+      li {
+        display: inline-block;
+      }
+      img {
+        height: $height-school-photo;
+      }
+    }
+    #school-photos-prev,
+    #school-photos-next {
+      display: block;
+      position: absolute;
+      top: 50%;
+      height: 0;
+      width: 0;
+      margin-top: -$height-frame-prevnext / 2;
+      font-size: 0;
+      border: 0 solid transparent;
+      border-width: $height-frame-prevnext/2 $width-frame-prevnext;
+    }
+    #school-photos-prev {
+      left: -($width-frame-prevnext + $pad-v-thin);
+      border-left-width: 0;
+      border-right-color: $c-outline;
+    }
+    #school-photos-next {
+      right: -($width-frame-prevnext + $pad-v-thin);
+      border-right-width: 0;
+      border-left-color: $c-outline;
+    }
+  }
 }
 
 

@@ -147,6 +147,8 @@ def validate_school_geo(school_geo, _seen=set()):
         raise Exception('Encountered a school with no names: {}'
                         .format(school_geo))
     school_geo['slug'] = '{}/{}'.format(_id, slugify(school_geo['name']))
+    if 'osm:images' in properties:
+        properties['photos'] = properties['osm:images'].split(',')
 
 
 @load('schools')
