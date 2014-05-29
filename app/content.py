@@ -129,7 +129,7 @@ def load(type_name):
     return loader_decorator
 
 
-def validate_school_geo(school_geo, _seen=set()):
+def clean_and_validate_school_geo(school_geo, _seen=set()):
     """Validate the geojson data as it comes in."""
     assert school_geo['type'] == 'Feature'
     assert school_geo['geometry']['type'] == 'MultiPoint'
@@ -150,6 +150,26 @@ def validate_school_geo(school_geo, _seen=set()):
     if 'osm:images' in properties:
         properties['photos'] = properties['osm:images'].split(',')
 
+    # selected properties
+    selection = (
+        'kenyaopendata:Sponsor of School',  # type of school
+        'osm:operator:type',
+        'kenyaopendata:Total Boys',         # male students
+        'osm:education:students_male',
+        'kenyaopendata:Total Girls',        # female students
+        'osm:education:students_female',
+        'osm:education:type',               # education level
+        'kenyaopendata:Level of Education',
+        'osm:education:teachers',           # teachers
+        'kenyaopendata:Total Teaching staff',
+    )
+    school_geo['selected_properties'] = {}
+    for sel in selection:
+        try:
+            school_geo['selected_properties'][sel] = properties[sel]
+        except KeyError:
+            pass
+
 
 @load('schools')
 def load_schools(school_stuff):
@@ -159,7 +179,7 @@ def load_schools(school_stuff):
     for school_file, filename in school_stuff:
         school_data = json.load(school_file)
         for school_geojson in school_data['features']:
-            validate_school_geo(school_geojson)
+            clean_and_validate_school_geo(school_geojson)
             schools.append(school_geojson)
     return sorted(schools, key=lambda s: s['name'].lower())
 

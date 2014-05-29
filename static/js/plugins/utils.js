@@ -1,7 +1,12 @@
 ;  // Map Kibera Schools | BSD License
 
 (function exportUtils(u) {
-  // easily iterate dom nodelists
+  // pretend we have functional tools
+  u.each = function each(arr, fn) {
+    for (var i=0; i<arr.length; i++) {
+      fn(arr[i]);
+    }
+  };
   u.eachNode = function eachNode() {
     var $this = Array.prototype.shift.call(arguments);
     return Array.prototype.forEach.apply($this, arguments);
@@ -22,6 +27,13 @@
     } else {
       event.returnValue = false;  // yeah the global event obj. ie8 is weird.
     }
+  }
+
+  u.extend = function extend(obj, withOther) {
+    for (key in withOther) {
+      obj[key] = withOther[key];
+    }
+    return obj;
   }
 
   // classList inspiration from http://youmightnotneedjquery.com/

@@ -6,7 +6,8 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 (function drawMaps() {
 
   var mapEl,
-      data = { 'features': [] };
+      data = { 'features': [] },
+      geoProperties = {};
 
   if (mapEl = document.getElementById('main-map')) {
     map = drawMap(mapEl);
@@ -46,23 +47,56 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
     return map;
   }
 
+  function addPropertiesAndValues(properties, countedProperties) {
+    // get all filters and possible values
+    u.each(Object.keys(properties), function saveProperty(propertyName) {
+      if (! (propertyName in countedProperties)) {
+        countedProperties[propertyName] = {};
+      }
+      var value = properties[propertyName];
+      if (! (value in countedProperties[propertyName])) {
+        countedProperties[propertyName][value] = 1;
+      } else {
+        countedProperties[propertyName][value] += 1;
+      }
+    });
+  }
+
+  function fixProperties(propertiesWithCounts) {
+    var properties = {};
+    u.each(Object.keys(propertiesWithCounts), function collapseObj(propKey) {
+      var propKeyArray = [];
+      for (key in propertiesWithCounts[propKey]) {
+        propKeyArray.push([key, propertiesWithCounts[propKey][key]]);
+      }
+      properties[propKey] = propKeyArray.sort(function sortProps(a, b) {
+        return b[1] - a[1];  // sort desc
+      });
+    });
+    return properties;
+  }
+
   function domLoadSchoolDataAll() {
     var geoSchool,
+        countedProperties = {},
         schoolEls = document.querySelectorAll('#schools .school-list > ul > li > a');
     u.eachNode(schoolEls, function loadSchoolData(node) {
+      var schoolProperties = JSON.parse(decodeURIComponent(node.dataset.properties));
+      addPropertiesAndValues(schoolProperties, countedProperties);
+      schoolProperties.name = (node.textContent || el.innerText).trim();
+      schoolProperties.href = node.getAttribute('href');
       geoSchool = {
         'type': 'Feature',
         'geometry': {
           'type': 'Point',
           'coordinates': [parseFloat(node.dataset.lat), parseFloat(node.dataset.lng)]
         },
-        'properties': {
-          'href': node.getAttribute('href'),
-          'name': (node.textContent || el.innerText).trim()
-        }
+        'properties': schoolProperties
       };
       data.features.push(geoSchool);
     });
+    var niceProperties = fixProperties(countedProperties);
+    u.extend(geoProperties, niceProperties);
   }
 
   function pinAllSchools(map) {
@@ -82,6 +116,7 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
   }
 
   // exports
-  window.geoData = data;
+  window.geoData = data,
+  window.geoProperties = geoProperties;
 
 })();

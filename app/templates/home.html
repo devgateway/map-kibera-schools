@@ -48,7 +48,8 @@
                 <li>
                   <a href="/schools/{{ school.slug }}"
                      data-lat="{{ school.geometry.coordinates[0][0] }}"
-                     data-lng="{{ school.geometry.coordinates[0][1] }}">
+                     data-lng="{{ school.geometry.coordinates[0][1] }}"
+                     data-properties='{{ school.selected_properties | tojson | urlencode }}'>
                     {{ school.name }}
                   </a>
                 </li>
