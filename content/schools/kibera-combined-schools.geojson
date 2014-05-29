@@ -101,7 +101,8 @@
         "osm:opening_hours": "07:00-16:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "never",
-        "osm:operator:type": "ngo_cbo"
+        "osm:operator:type": "ngo_cbo",
+	"osm:images": "http://placehold.it/800x600.png,http://placehold.it/1024x768.png,http://placehold.it/750x500.png"
       },
       "type": "Feature"
     },
@@ -171,7 +172,8 @@
         "osm:opening_hours": "07:00-17:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "never",
-        "osm:operator:type": "private"
+        "osm:operator:type": "private",
+	"osm:images": "http://placehold.it/800x600.png,http://placehold.it/1024x768.png,http://placehold.it/750x500.png"
       },
       "type": "Feature"
     },
@@ -421,7 +423,8 @@
         "osm:opening_hours": "Mo-Fr 07:00-16:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "sometimes",
-        "osm:operator:type": "private"
+        "osm:operator:type": "private",
+	"osm:images": "http://placehold.it/800x600.png,http://placehold.it/1024x768.png,http://placehold.it/750x500.png"
       },
       "type": "Feature"
     },
@@ -508,7 +511,8 @@
         "osm:polling_station:nearest_police_station": "olympic chief's camp",
         "osm:polling_station:registered_voters": "6,152",
         "osm:polling_station:type": "public_school",
-        "osm:source": "map_kibera_trust"
+        "osm:source": "map_kibera_trust",
+	"osm:images": "https://farm3.staticflickr.com/2742/4089244916_b11b3c7a1f_o.jpg"
       },
       "type": "Feature"
     },
@@ -638,7 +642,8 @@
         "osm:polling_station:source": "map_kibera_trust",
         "osm:polling_station:type": "private_school",
         "osm:polling_station:type_description": "community based organisation",
-        "osm:source": "map_kibera_trust"
+        "osm:source": "map_kibera_trust",
+	"osm:images": "http://placehold.it/800x600.png,http://placehold.it/1024x768.png,http://placehold.it/750x500.png"
       },
       "type": "Feature"
     },
