@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ lang or 'en' }}">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,13 +14,13 @@
     <!-- tag root
          template=<script>WEB_ROOT = "{path}";</script>
          -->
-         <script>WEB_ROOT = "/",
-                 STATIC_ROOT = "/static/";</script>
+         <script>WEB_ROOT = "/";</script>
     <!-- endtag root -->
     <!-- tag css
          template=<link rel="stylesheet" href="{path}" />
          -->
     <!-- endtag css -->
+    <script>(function(d){d.className=d.className.replace(/\bno-js\b/,'')+' js'})(document.documentElement);</script>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
   </head>
   <body>

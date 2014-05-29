@@ -1,7 +1,7 @@
 ;
 
 // global leaflet config
-L.Icon.Default.imagePath = STATIC_ROOT + 'img/leaflet';
+L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
 (function drawMaps() {
 
