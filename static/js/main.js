@@ -7,7 +7,8 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
   var mapEl,
       data = { 'features': [] },
-      geoProperties = {};
+      geoProperties = {},
+      listProperties = {'osm:education:type': true};  // object keys so we can test with 'in'
 
   if (mapEl = document.getElementById('main-map')) {
     map = drawMap(mapEl);
@@ -49,16 +50,19 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
   function addPropertiesAndValues(properties, countedProperties) {
     // get all filters and possible values
-    u.each(Object.keys(properties), function saveProperty(propertyName) {
-      if (! (propertyName in countedProperties)) {
-        countedProperties[propertyName] = {};
+    u.each(Object.keys(properties), function saveProperty(property) {
+      if (! (property in countedProperties)) {
+        countedProperties[property] = {};
       }
-      var value = properties[propertyName];
-      if (! (value in countedProperties[propertyName])) {
-        countedProperties[propertyName][value] = 1;
-      } else {
-        countedProperties[propertyName][value] += 1;
-      }
+      var rawValue = properties[property];
+      var values = property in listProperties ? rawValue.split(',') : [rawValue];
+      u.each(values, function countValues(value) {
+        if (! (value in countedProperties[property])) {
+          countedProperties[property][value] = 1;
+        } else {
+          countedProperties[property][value] += 1;
+        }
+      });
     });
   }
 
