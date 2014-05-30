@@ -562,6 +562,7 @@ section#map {
   border-top: $b-outline;
   .map-controls {
     @include bg-stretchwidth($c-control-bg);
+    padding-left: ($width-accent-box + 3px) / 2;
   }
   .map {
     height: 282px;
