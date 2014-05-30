@@ -564,21 +564,8 @@ section#map {
     &:last-child {
       margin-right: 0;
     }
-    small {
-      display: block;
-      margin-top: $pad-v / 1.618;
-      font-size: $t-vsmall;
-      color: $c-med;
-    }
   }
 
-  .source {
-    margin: $pad-v-thin / 2 0;
-    line-height: 1;
-    color: $c-accent;
-    text-transform: uppercase;
-    font-weight: $t-mheavy;
-  }
   h2 {
     margin: 0;
     font-size: $t-mbig;
@@ -589,6 +576,48 @@ section#map {
     font-size: $t-mbig - 1px;
     line-height: 1;
     font-weight: $t-mheavy;
+  }
+
+  .header-stats {
+    .source {
+      margin: $pad-v-thin / 2 0;
+      line-height: 1;
+      color: $c-accent;
+      text-transform: uppercase;
+      font-weight: $t-mheavy;
+    }
+    small {
+      display: block;
+      margin-top: $pad-v / 1.618;
+      font-size: $t-vsmall;
+      color: $c-med;
+    }
+  }
+
+  .stats-grid {
+    $b: 1px solid lighten($c-outline, 30%);
+    font-size: 0;
+    border: $b;
+    .cell {
+      display: inline-block;
+      width: 50%;
+      padding: $pad-v $pad-h-thin;
+      font-size: $t-base;
+      text-align: center;
+      border: $b;
+      &:nth-child(2n + 1) {
+        border-width: 0 1px 1px 0;
+        &:nth-last-child(2) {
+          border-bottom-width: 0;
+        }
+      }
+      &:nth-child(2n) {
+        border-width: 0 0 1px;
+      }
+      &:nth-last-child(1) {
+        border-bottom-width: 0;
+      }
+    }
   }
 }
 

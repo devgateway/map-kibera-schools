@@ -58,7 +58,7 @@
   </section>
 
   <section id="school-blurbs">
-    <div class="school-info-row">
+    <div class="school-info-row header-stats">
       <header class="school-stats">
         <p class="source">OSM Data</p>
         <h2>{{ school.name }}</h2>
@@ -82,7 +82,31 @@
         {% endif %}
       </header>
     </div>
-    <div class="school-stats kenyaopendata">
+
+    {% macro cell(name, val=none, key=none) %}
+      {% set cell_value = val or school.properties[key] %}
+      {% if cell_value %}
+        <div class="cell">
+          <h4>{{ name }}</h4>
+          <span class="value">{{ cell_value }}</span>
+        </div>
+      {% endif %}
+    {% endmacro %}
+    <div class="school-info-row">
+      <div class="school-stats stats-grid">
+        {{ cell('Type of School', key='osm:operator:type') }}
+        {{ cell('Education Level', key='osm:education:type') }}
+        {{ cell('Male Students', key='osm:eductaion:students_male') }}
+        {{ cell('Female Students', key='osm:education:students_female') }}
+        {{ cell('Teachers', key='osm:education:teachers') }}
+      </div>
+      <div class="school-stats stats-grid">
+        {{ cell('Type of School', key='kenyaopendata:Sponsor of School') }}
+        {{ cell('Education Level', key='kenyaopendata:Level of Education') }}
+        {{ cell('Male Students', key='kenyaopendata:Total Boys') }}
+        {{ cell('Female Students', key='kenyaopendata:Total Girls') }}
+        {{ cell('Teachers', key='kenyaopendata:Total Teaching staff') }}
+      </div>
     </div>
   </section>
 
