@@ -417,9 +417,6 @@ section#map {
   background: $c-smokeglass;
   border: 1px solid $c-outline;
   border-radius: 0;
-  &:hover {
-    background: lighten($c-smokeglass, 10%);
-  }
 }
 .map-controls .controls > li.active {
   // browse schools
@@ -445,6 +442,9 @@ section#map {
       padding-right: $pad-h-thin / 1.618;
       border: none;
       border-bottom: 1px solid $c-outline;
+      &:hover {
+        background: lighten($c-smokeglass, 10%);
+      }
     }
     a {
       display: block;
@@ -483,19 +483,32 @@ section#map {
       padding: $pad-v-thin 0;
       label {
         display: block;
-        padding-bottom: $pad-v-thin;
+        padding-bottom: $pad-v-thin / 1.618;
         font-size: $t-msmall;
         font-weight: $t-mheavy;
       }
       select {
         @include control-input;
         display: block;
+        min-width: 100%;
+      }
+      option {
+        color: $c-copy;
+        background: $c-smokeglass;
+        border: none;
+        &:hover {
+          color: $c-accent2;
+          background: darken($c-smokeglass, 10%);
+        }
+        &:first-child {
+          color: $c-med;
+        }
       }
     }
   }
   .input-group {
     display: inline-block;
-    margin: 0 $pad-h-thin / 2;
+    margin: 0 $pad-h / 2;
   }
 }
 #schools > a:before {
