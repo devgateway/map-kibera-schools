@@ -58,8 +58,8 @@
   </section>
 
   <section id="school-blurbs">
-    <div class="school-stats osm">
-      <header>
+    <div class="school-info-row">
+      <header class="school-stats">
         <p class="source">OSM Data</p>
         <h2>{{ school.name }}</h2>
         {% set num_students = (school.properties['osm:education:students_male'] or 0)|int +
@@ -67,7 +67,19 @@
         {% if num_students > 0 %}
           <h3>{{ num_students }} Students</h3>
         {% endif %}
-        <p></p>
+        <small>Location: {{ school.geometry.coordinates[0] | reverse | join(', ') }}</small>
+      </header>
+      <header class="school-stats">
+        <p class="source">Kenya Open Data</p>
+        <h2>{{ school.properties['kenyaopendata:official_name'] }}</h2>
+        {% set num_students = (school.properties['kenyaopendata:Total Boys'] or 0)|int +
+                              (school.properties['kenyaopendata:Total Girls'] or 0)|int %}
+        {% if num_students > 0 %}
+          <h3>{{ num_students }} Students</h3>
+        {% endif %}
+        {% if school.geometry.coordinates | length > 1 %}
+          <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
+        {% endif %}
       </header>
     </div>
     <div class="school-stats kenyaopendata">
@@ -77,7 +89,7 @@
   <section id="school-feedback">
     <div class="comments">
       <h2>Comments</h2>
-      <div class="fb-comments" data-href="http://kibera-schools.dgstg.org/schools/{{ school.slug }}" data-width="1200" data-numposts="7" data-colorscheme="light">Loading facebook comments... (requires javascript)</div>
+      <div class="fb-comments" data-href="http://schools.mapkibera.org/schools/{{ school.slug }}" data-width="1200" data-numposts="7" data-colorscheme="light">Loading facebook comments... (requires javascript)</div>
     </div>
   </section>
 

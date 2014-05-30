@@ -213,7 +213,7 @@ section#videos {
 
     h2 {
       margin: -0.15em 0 0 0; 
-      font-size: $t-big;
+      font-size: $t-vbig;
       font-weight: $t-mheavy;
       line-height: 1em;
       color: $c-copy;
@@ -471,6 +471,9 @@ section#map {
       h3 {
         font-size: $t-msmall;
       }
+      label {
+        font-size: $t-msmall;
+      }
     }
     #filter-wrap {
       display: inline-block;
@@ -549,9 +552,42 @@ section#map {
   width: $width-full;
   margin: 0 auto;
 
+  .school-info-row {
+    @include clearfix;
+  }
+
+  .school-stats {
+    $w: ($width-full - $pad-v-thin) / 2;
+    width: $w;
+    float: left;
+    margin-right: $pad-v-thin;
+    &:last-child {
+      margin-right: 0;
+    }
+    small {
+      display: block;
+      margin-top: $pad-v / 1.618;
+      font-size: $t-vsmall;
+      color: $c-med;
+    }
+  }
+
   .source {
+    margin: $pad-v-thin / 2 0;
+    line-height: 1;
     color: $c-accent;
     text-transform: uppercase;
+    font-weight: $t-mheavy;
+  }
+  h2 {
+    margin: 0;
+    font-size: $t-mbig;
+    line-height: 1;
+  }
+  h3 {
+    margin: $pad-v-thin / 2.5 0;
+    font-size: $t-mbig - 1px;
+    line-height: 1;
     font-weight: $t-mheavy;
   }
 }
