@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2014-05-14T11:57:02Z"/>
+<meta osm_base="2014-05-30T12:21:02Z"/>
 
-  <node id="478551902" lat="-1.3104681" lon="36.7988296">
+  <bounds minlat="-1.3232" minlon="36.7663" maxlat="-1.3" maxlon="36.8079"/>
+
+  <node id="478551902" lat="-1.3104681" lon="36.7988296" version="8" timestamp="2013-01-31T08:26:18Z" changeset="14856364" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="education:type" v="primary"/>
@@ -20,7 +22,7 @@
     <tag k="polling_station:source" v="map_kibera_trust"/>
     <tag k="polling_station:type_description" v="public_school"/>
   </node>
-  <node id="612004414" lat="-1.3158710" lon="36.7821000">
+  <node id="612004414" lat="-1.3158710" lon="36.7821000" version="8" timestamp="2014-05-14T11:18:14Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="guum@yahoo.com"/>
     <tag k="contact:phone" v="721940010"/>
@@ -45,7 +47,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612006960" lat="-1.3122250" lon="36.7802850">
+  <node id="612006960" lat="-1.3122250" lon="36.7802850" version="5" timestamp="2014-05-14T11:19:18Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="727760808"/>
     <tag k="education:fees" v="supported individually"/>
@@ -69,7 +71,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612006977" lat="-1.3109696" lon="36.7723461">
+  <node id="612006977" lat="-1.3109696" lon="36.7723461" version="7" timestamp="2012-06-21T09:04:37Z" changeset="11966527" uid="261003" user="omino">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="hushgo@yahoo.com"/>
     <tag k="contact:phone" v="0722939737"/>
@@ -97,37 +99,37 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612007000" lat="-1.3190154" lon="36.7945025">
+  <node id="612007000" lat="-1.3190154" lon="36.7945025" version="2" timestamp="2010-06-08T09:27:37Z" changeset="4935593" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="New Hope School"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612007003" lat="-1.3184050" lon="36.7938872">
+  <node id="612007003" lat="-1.3184050" lon="36.7938872" version="2" timestamp="2010-08-31T15:37:32Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Supiria Primary School"/>
   </node>
-  <node id="612007006" lat="-1.3192283" lon="36.7948792">
+  <node id="612007006" lat="-1.3192283" lon="36.7948792" version="2" timestamp="2010-06-08T09:27:37Z" changeset="4935593" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="World Ecclesiastes Primary"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612007007" lat="-1.3188423" lon="36.7948218">
+  <node id="612007007" lat="-1.3188423" lon="36.7948218" version="3" timestamp="2010-08-31T15:38:18Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Nomiya School"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612007018" lat="-1.3133049" lon="36.8055166">
+  <node id="612007018" lat="-1.3133049" lon="36.8055166" version="4" timestamp="2013-04-10T08:45:17Z" changeset="15674937" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="description" v="Primary school"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="Pag Academy"/>
   </node>
-  <node id="612007021" lat="-1.3160953" lon="36.7755758">
+  <node id="612007021" lat="-1.3160953" lon="36.7755758" version="3" timestamp="2010-08-31T15:36:21Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="makabwabwire@yahoo.com"/>
     <tag k="contact:phone" v="0721984541/0736674397"/>
@@ -153,7 +155,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007086" lat="-1.3132070" lon="36.7932870">
+  <node id="612007086" lat="-1.3132070" lon="36.7932870" version="8" timestamp="2014-05-10T12:26:35Z" changeset="22249140" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -178,12 +180,12 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007112" lat="-1.3127332" lon="36.7858825">
+  <node id="612007112" lat="-1.3127332" lon="36.7858825" version="4" timestamp="2010-08-31T15:37:39Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Kirega Primary School"/>
   </node>
-  <node id="612007146" lat="-1.3129539" lon="36.7786455">
+  <node id="612007146" lat="-1.3129539" lon="36.7786455" version="4" timestamp="2010-08-31T15:38:18Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery,primary"/>
     <tag k="name" v="St Esther Academy"/>
@@ -191,7 +193,7 @@
     <tag k="operator:description" v="More infomation was not given due to abscence of the head in charge"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007152" lat="-1.3133253" lon="36.7804905">
+  <node id="612007152" lat="-1.3133253" lon="36.7804905" version="14" timestamp="2014-05-28T21:49:42Z" changeset="22609014" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="education:description" v="Funded. Has Nursery,Secondary"/>
@@ -208,12 +210,14 @@
     <tag k="education:teachers_female" v="22"/>
     <tag k="education:teachers_male" v="9"/>
     <tag k="education:type" v="nursery,primary,secondary"/>
+    <tag k="images" v="https://farm3.staticflickr.com/2742/4089244916_b11b3c7a1f_o.jpg"/>
     <tag k="is_in:constituency" v="Kibra"/>
     <tag k="is_in:estate" v="Olympic"/>
     <tag k="is_in:village" v="Olympic"/>
     <tag k="is_in:ward" v="sarangombe"/>
     <tag k="media:camera_device_number" v="01"/>
     <tag k="name" v="Olympic Primary School"/>
+    <tag k="official_name" v="OLYMPIC ACADEMY- PRI SCH"/>
     <tag k="opening_hours" v="07:00-17:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="sometimes"/>
@@ -226,18 +230,18 @@
     <tag k="polling_station:type" v="public_school"/>
     <tag k="source" v="map_kibera_trust"/>
   </node>
-  <node id="612007263" lat="-1.3111155" lon="36.7880010">
+  <node id="612007263" lat="-1.3111155" lon="36.7880010" version="3" timestamp="2012-06-28T08:58:13Z" changeset="12044405" uid="261003" user="omino">
     <tag k="amenity" v="school"/>
     <tag k="education:description" v="Funded. Has Nursery,Secondary"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="Kibera Academy"/>
   </node>
-  <node id="612007264" lat="-1.3107635" lon="36.7886451">
+  <node id="612007264" lat="-1.3107635" lon="36.7886451" version="2" timestamp="2010-08-31T15:36:53Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Kambi Muru Nursery"/>
   </node>
-  <node id="612007279" lat="-1.3124840" lon="36.7907060">
+  <node id="612007279" lat="-1.3124840" lon="36.7907060" version="13" timestamp="2014-05-14T10:59:16Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="contact:phone" v="716583975"/>
@@ -280,22 +284,22 @@
     <tag k="polling_station:type_description" v="community based organisation"/>
     <tag k="source" v="map_kibera_trust"/>
   </node>
-  <node id="612007401" lat="-1.3150596" lon="36.7902852">
+  <node id="612007401" lat="-1.3150596" lon="36.7902852" version="2" timestamp="2010-08-31T15:37:50Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Lindi Ushirika Nursery School"/>
   </node>
-  <node id="612007406" lat="-1.3155859" lon="36.7940253">
+  <node id="612007406" lat="-1.3155859" lon="36.7940253" version="2" timestamp="2010-08-31T15:37:37Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Saviour Kings Academy Primary"/>
   </node>
-  <node id="612007412" lat="-1.3146274" lon="36.7950352">
+  <node id="612007412" lat="-1.3146274" lon="36.7950352" version="2" timestamp="2010-08-31T15:38:26Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="secondary"/>
     <tag k="name" v="Rudolf High School"/>
   </node>
-  <node id="612007413" lat="-1.3138256" lon="36.7941680">
+  <node id="612007413" lat="-1.3138256" lon="36.7941680" version="5" timestamp="2010-10-08T15:07:36Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="p.o box, 7083-00200 nairobi"/>
     <tag k="contact:phone" v="0710895928"/>
@@ -324,31 +328,31 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612007436" lat="-1.3077913" lon="36.7860909">
+  <node id="612007436" lat="-1.3077913" lon="36.7860909" version="3" timestamp="2012-12-18T10:04:25Z" changeset="14316452" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="Talent Private School"/>
     <tag k="operator:type" v="private"/>
     <tag k="type_of_institution" v="school_private"/>
   </node>
-  <node id="612007444" lat="-1.3083927" lon="36.7897768">
+  <node id="612007444" lat="-1.3083927" lon="36.7897768" version="6" timestamp="2013-02-01T08:27:00Z" changeset="14868071" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="description" v="primary school"/>
     <tag k="education:type" v="Private"/>
     <tag k="name" v="Stara Rescue Centre"/>
     <tag k="note" v="private"/>
   </node>
-  <node id="612007446" lat="-1.3085984" lon="36.7899473">
+  <node id="612007446" lat="-1.3085984" lon="36.7899473" version="3" timestamp="2010-08-31T15:36:40Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Makina Baptist Primary School"/>
   </node>
-  <node id="612007447" lat="-1.3083946" lon="36.7895166">
+  <node id="612007447" lat="-1.3083946" lon="36.7895166" version="3" timestamp="2010-08-31T15:38:31Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="secondary"/>
     <tag k="name" v="New Adventist High School"/>
   </node>
-  <node id="612007505" lat="-1.3190021" lon="36.7785492">
+  <node id="612007505" lat="-1.3190021" lon="36.7785492" version="4" timestamp="2010-08-31T15:38:30Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 200 per month"/>
     <tag k="education:program_orphans" v="yes"/>
@@ -365,12 +369,12 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007520" lat="-1.3188992" lon="36.7790073">
+  <node id="612007520" lat="-1.3188992" lon="36.7790073" version="2" timestamp="2010-08-31T15:38:32Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Imani Nursery School"/>
   </node>
-  <node id="612007554" lat="-1.3138130" lon="36.7794245">
+  <node id="612007554" lat="-1.3138130" lon="36.7794245" version="6" timestamp="2010-08-31T15:36:11Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0721608794"/>
     <tag k="education:description" v="Has Nursery"/>
@@ -395,7 +399,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007565" lat="-1.3137325" lon="36.7804906">
+  <node id="612007565" lat="-1.3137325" lon="36.7804906" version="9" timestamp="2010-10-11T15:25:15Z" changeset="6012696" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="kidszone2008@yahoo.com"/>
     <tag k="contact:phone" v="0722945037"/>
@@ -424,7 +428,7 @@
     <tag k="operator:description" v="no funders"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612007585" lat="-1.3126169" lon="36.7773233">
+  <node id="612007585" lat="-1.3126169" lon="36.7773233" version="5" timestamp="2010-08-31T15:36:39Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:description" v="also has pre school"/>
     <tag k="education:fees" v="fees not stated"/>
@@ -444,7 +448,7 @@
     <tag k="operator:description" v="run by individual"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007631" lat="-1.3100353" lon="36.7901811">
+  <node id="612007631" lat="-1.3100353" lon="36.7901811" version="6" timestamp="2013-01-31T08:26:16Z" changeset="14856364" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="education:type" v="primary"/>
@@ -461,15 +465,15 @@
     <tag k="polling_station:source" v="map_kibera_trust"/>
     <tag k="polling_station:type_description" v="private_school"/>
   </node>
-  <node id="612007635" lat="-1.3128994" lon="36.7946902">
+  <node id="612007635" lat="-1.3128994" lon="36.7946902" version="2" timestamp="2010-08-31T15:37:23Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Free Methodist Primary School"/>
   </node>
-  <node id="612007672" lat="-1.3103386" lon="36.7941802">
+  <node id="612007672" lat="-1.3103390" lon="36.7941800" version="4" timestamp="2014-05-17T13:34:45Z" changeset="22388884" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="lasba@yahoo.com"/>
-    <tag k="contact:phone" v="0720200847"/>
+    <tag k="contact:phone" v="720200847"/>
     <tag k="education:program_counseling" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
     <tag k="education:program_scouting" v="yes"/>
@@ -485,17 +489,18 @@
     <tag k="education:teachers_male" v="8"/>
     <tag k="education:type" v="nursery,primary"/>
     <tag k="name" v="Laini Saba Nursery and Primary School"/>
+    <tag k="official_name" v="LAINI SABA PRI. SCH"/>
     <tag k="opening_hours" v="Mo-Fr 07:30-17:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612007678" lat="-1.3109420" lon="36.7951339">
+  <node id="612007678" lat="-1.3109420" lon="36.7951339" version="3" timestamp="2010-08-31T15:36:49Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery,primary"/>
     <tag k="name" v="Church of God nursery and primary school"/>
   </node>
-  <node id="612007716" lat="-1.3098221" lon="36.7947541">
+  <node id="612007716" lat="-1.3098221" lon="36.7947541" version="3" timestamp="2010-08-31T15:36:14Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 500 per month"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -518,7 +523,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612007820" lat="-1.3137940" lon="36.7889700">
+  <node id="612007820" lat="-1.3137940" lon="36.7889700" version="6" timestamp="2014-05-14T11:22:07Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0728697781/ box No.34700100"/>
     <tag k="education:fees" v="KShs 1000 per term"/>
@@ -547,7 +552,7 @@
     <tag k="operator:description" v="started by the community but not registered"/>
     <tag k="operator:type" v="other- community school"/>
   </node>
-  <node id="612007886" lat="-1.3151892" lon="36.7770696">
+  <node id="612007886" lat="-1.3151892" lon="36.7770696" version="4" timestamp="2010-10-08T15:08:23Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0726808699"/>
     <tag k="education:fees" v="nursery 200KShs,primary 250KShs,food 200KShs"/>
@@ -573,13 +578,13 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612007942" lat="-1.3149281" lon="36.7853204">
+  <node id="612007942" lat="-1.3149281" lon="36.7853204" version="5" timestamp="2013-05-29T22:14:50Z" changeset="16344735" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="Cana Junior Academy"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008370" lat="-1.3172201" lon="36.7770397">
+  <node id="612008370" lat="-1.3172201" lon="36.7770397" version="3" timestamp="2010-08-31T15:37:03Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720212414"/>
     <tag k="education:description" v="also nursery"/>
@@ -606,7 +611,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008379" lat="-1.3146802" lon="36.7909977">
+  <node id="612008379" lat="-1.3146802" lon="36.7909977" version="3" timestamp="2010-08-31T15:37:26Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="p.o box,4669-00100 nairobi"/>
     <tag k="education:fees" v="yes"/>
@@ -630,24 +635,24 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008385" lat="-1.3176267" lon="36.7940590">
+  <node id="612008385" lat="-1.3176267" lon="36.7940590" version="4" timestamp="2010-06-08T09:27:38Z" changeset="4935593" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Imani Jere Children Center"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008411" lat="-1.3098505" lon="36.7898568">
+  <node id="612008411" lat="-1.3098505" lon="36.7898568" version="3" timestamp="2010-08-31T15:36:53Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Huruma Primary"/>
   </node>
-  <node id="612008414" lat="-1.3091770" lon="36.7904166">
+  <node id="612008414" lat="-1.3091770" lon="36.7904166" version="3" timestamp="2010-08-31T15:38:25Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Makina Baptist Primary"/>
   </node>
-  <node id="612008438" lat="-1.3127441" lon="36.7792917">
+  <node id="612008438" lat="-1.3127441" lon="36.7792917" version="5" timestamp="2010-10-11T15:27:19Z" changeset="6012696" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="graebben.school@yahoo.com"/>
     <tag k="education:student_age_range" v="adult"/>
@@ -665,7 +670,7 @@
     <tag k="operator:description" v="No funders"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008446" lat="-1.3121918" lon="36.7799887">
+  <node id="612008446" lat="-1.3121918" lon="36.7799887" version="7" timestamp="2013-12-15T03:08:17Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="education:description" v="film school"/>
     <tag k="education:fees" v="none"/>
@@ -682,7 +687,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="612008500" lat="-1.3085809" lon="36.7762577">
+  <node id="612008500" lat="-1.3085809" lon="36.7762577" version="5" timestamp="2012-06-21T09:04:38Z" changeset="11966527" uid="261003" user="omino">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="020-24693228"/>
     <tag k="education:fees" v="KShs 6000 per term"/>
@@ -704,7 +709,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008555" lat="-1.3153460" lon="36.7979823">
+  <node id="612008555" lat="-1.3153460" lon="36.7979823" version="3" timestamp="2010-08-31T15:37:08Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="dshimuli@yahoo.com"/>
     <tag k="contact:phone" v="0721 32 90 10"/>
@@ -724,7 +729,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008568" lat="-1.3132458" lon="36.7978307">
+  <node id="612008568" lat="-1.3132458" lon="36.7978307" version="3" timestamp="2010-08-31T15:37:11Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300 per term"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -743,7 +748,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008576" lat="-1.3157240" lon="36.8029848">
+  <node id="612008576" lat="-1.3157240" lon="36.8029848" version="3" timestamp="2010-08-31T15:37:46Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 450 per term"/>
     <tag k="education:program_scouting" v="yes"/>
@@ -764,12 +769,12 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008615" lat="-1.3096404" lon="36.7921397">
+  <node id="612008615" lat="-1.3096404" lon="36.7921397" version="2" timestamp="2010-08-31T15:38:09Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Mashimoni Ushirika Primary"/>
   </node>
-  <node id="612008704" lat="-1.3133680" lon="36.8006386">
+  <node id="612008704" lat="-1.3133680" lon="36.8006386" version="3" timestamp="2010-08-31T15:38:55Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:staff_female" v="1"/>
     <tag k="education:student_age_range" v="3-5yrs"/>
@@ -784,7 +789,7 @@
     <tag k="opening_hours" v="Mo-Fr 08:00-15:00"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008715" lat="-1.3114235" lon="36.7846634">
+  <node id="612008715" lat="-1.3114235" lon="36.7846634" version="4" timestamp="2010-08-31T15:37:27Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 250 per month"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -806,7 +811,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008764" lat="-1.3104398" lon="36.7728971">
+  <node id="612008764" lat="-1.3104398" lon="36.7728971" version="5" timestamp="2012-06-21T09:04:33Z" changeset="11966527" uid="261003" user="omino">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0711134067"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -829,7 +834,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008786" lat="-1.3172236" lon="36.7984783">
+  <node id="612008786" lat="-1.3172236" lon="36.7984783" version="4" timestamp="2010-10-08T15:07:38Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="academyzelyn@yahoo.com"/>
     <tag k="contact:phone" v="0721 44 85 28, 0727 969723, 0724 96 64 39"/>
@@ -855,14 +860,14 @@
     <tag k="operator:description" v="Zelyn Community Based Organisation"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612008869" lat="-1.3146802" lon="36.7787834">
+  <node id="612008869" lat="-1.3146802" lon="36.7787834" version="3" timestamp="2010-08-31T15:38:45Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Jacobs Well School"/>
     <tag k="operator:description" v="More infomation was not given due to abscence of the head in charge"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008903" lat="-1.3163609" lon="36.7924852">
+  <node id="612008903" lat="-1.3163609" lon="36.7924852" version="4" timestamp="2010-10-08T15:06:54Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="ujamaacounty@yahoo.com"/>
     <tag k="contact:phone" v="0724385517"/>
@@ -884,7 +889,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="612008908" lat="-1.3147838" lon="36.7906754">
+  <node id="612008908" lat="-1.3147838" lon="36.7906754" version="3" timestamp="2010-08-31T15:37:25Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -909,7 +914,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008910" lat="-1.3115360" lon="36.7822410">
+  <node id="612008910" lat="-1.3115360" lon="36.7822410" version="7" timestamp="2014-05-14T11:52:59Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="kibraacademy@yahoo.com"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -934,18 +939,18 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612008955" lat="-1.3122167" lon="36.7940269">
+  <node id="612008955" lat="-1.3122167" lon="36.7940269" version="3" timestamp="2012-05-28T09:25:55Z" changeset="11724471" uid="261050" user="muindre">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="secondary"/>
     <tag k="name" v="Elite Visionary High School"/>
   </node>
-  <node id="612009018" lat="-1.3083732" lon="36.7895187">
+  <node id="612009018" lat="-1.3083732" lon="36.7895187" version="4" timestamp="2013-01-25T10:12:08Z" changeset="14778824" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="description" v="primary school"/>
     <tag k="education:type" v="Private"/>
     <tag k="name" v="Calvary Adventure School"/>
   </node>
-  <node id="612009037" lat="-1.3183670" lon="36.7961302">
+  <node id="612009037" lat="-1.3183670" lon="36.7961302" version="3" timestamp="2010-08-31T15:38:50Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="josiahmunyutu@yahoo.com"/>
     <tag k="contact:phone" v="0725 63 55 21"/>
@@ -973,7 +978,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612009057" lat="-1.3168134" lon="36.8000633">
+  <node id="612009057" lat="-1.3168134" lon="36.8000633" version="4" timestamp="2014-05-14T11:17:22Z" changeset="22331225" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="sowetobaptisedhighsch@yahoo.com"/>
     <tag k="contact:phone" v="0714  529 422"/>
@@ -999,7 +1004,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="612009062" lat="-1.3106535" lon="36.7735151">
+  <node id="612009062" lat="-1.3106535" lon="36.7735151" version="6" timestamp="2010-10-11T15:30:34Z" changeset="6012696" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0712546723"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -1021,18 +1026,18 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612009121" lat="-1.3150947" lon="36.8024215">
+  <node id="612009121" lat="-1.3150947" lon="36.8024215" version="4" timestamp="2013-02-04T07:35:14Z" changeset="14906132" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="description" v="Primary school"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="Brimalisa School"/>
   </node>
-  <node id="612009125" lat="-1.3144689" lon="36.8015813">
+  <node id="612009125" lat="-1.3144689" lon="36.8015813" version="2" timestamp="2010-08-31T15:38:44Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Wendy Day Care"/>
   </node>
-  <node id="612009188" lat="-1.3151491" lon="36.7788314">
+  <node id="612009188" lat="-1.3151491" lon="36.7788314" version="5" timestamp="2013-12-15T03:08:15Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="kenya@carehighway.org"/>
     <tag k="contact:phone" v="0724278129,0731090439"/>
@@ -1059,7 +1064,7 @@
     <tag k="operator:description" v="funded"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="612009243" lat="-1.3079144" lon="36.7899024">
+  <node id="612009243" lat="-1.3079144" lon="36.7899024" version="9" timestamp="2013-05-29T22:14:52Z" changeset="16344735" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="education:type" v="other"/>
@@ -1079,23 +1084,23 @@
     <tag k="source" v="map_kibera_trust"/>
     <tag k="station:type_description" v="Self Help organisation"/>
   </node>
-  <node id="612009363" lat="-1.3157161" lon="36.7860804">
+  <node id="612009363" lat="-1.3157161" lon="36.7860804" version="7" timestamp="2013-02-04T07:27:13Z" changeset="14906097" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="description" v="primary school"/>
     <tag k="education:type" v="Private"/>
     <tag k="name" v="Kibera School for Girls"/>
   </node>
-  <node id="612009364" lat="-1.3153374" lon="36.7835223">
+  <node id="612009364" lat="-1.3153374" lon="36.7835223" version="3" timestamp="2012-12-18T09:56:40Z" changeset="14316417" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="St Stephen Children's Centre"/>
   </node>
-  <node id="612009711" lat="-1.3063548" lon="36.7868303">
+  <node id="612009711" lat="-1.3063548" lon="36.7868303" version="2" timestamp="2010-08-31T15:37:27Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="driving"/>
     <tag k="name" v="Wanderful Driving School"/>
   </node>
-  <node id="612011358" lat="-1.3118843" lon="36.7957903">
+  <node id="612011358" lat="-1.3118843" lon="36.7957903" version="3" timestamp="2010-08-31T15:38:03Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="pastorboaz@yahoo.com"/>
     <tag k="contact:phone" v="0727073298"/>
@@ -1126,17 +1131,17 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="662794312" lat="-1.3115065" lon="36.7927173">
+  <node id="662794312" lat="-1.3115065" lon="36.7927173" version="4" timestamp="2012-07-20T08:40:11Z" changeset="12368664" uid="722137" user="OSMF Redaction Account">
     <tag k="amenity" v="school"/>
     <tag k="designation" v="NGO"/>
     <tag k="name" v="Turning Point"/>
   </node>
-  <node id="662800049" lat="-1.3125609" lon="36.7752020">
+  <node id="662800049" lat="-1.3125609" lon="36.7752020" version="5" timestamp="2012-07-20T08:40:11Z" changeset="12368664" uid="722137" user="OSMF Redaction Account">
     <tag k="amenity" v="school"/>
     <tag k="designation" v="NGO"/>
     <tag k="name" v="Turning Point"/>
   </node>
-  <node id="701794738" lat="-1.3106448" lon="36.7848157">
+  <node id="701794738" lat="-1.3106448" lon="36.7848157" version="7" timestamp="2012-12-06T08:38:40Z" changeset="14172520" uid="261050" user="muindre">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="info@kcyp.net"/>
     <tag k="contact:phone" v="0723232359"/>
@@ -1163,7 +1168,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="712907767" lat="-1.3144970" lon="36.7902940">
+  <node id="712907767" lat="-1.3144970" lon="36.7902940" version="4" timestamp="2013-12-15T03:08:20Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="info@shapethe children foundation.org"/>
     <tag k="education:fees" v="yes"/>
@@ -1191,7 +1196,7 @@
     <tag k="operator:type" v="ngo_international"/>
     <tag k="security:gbv_support" v="yes"/>
   </node>
-  <node id="712999562" lat="-1.3142110" lon="36.7786910">
+  <node id="712999562" lat="-1.3142110" lon="36.7786910" version="5" timestamp="2010-10-14T16:41:37Z" changeset="6040740" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 350 per term"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -1213,7 +1218,7 @@
     <tag k="operator:description" v="funded"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748771051" lat="-1.3157602" lon="36.7782001">
+  <node id="748771051" lat="-1.3157602" lon="36.7782001" version="4" timestamp="2010-10-08T15:06:32Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="nazarneprimary@yahoo.com"/>
     <tag k="contact:phone" v="0710805593"/>
@@ -1240,7 +1245,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748775203" lat="-1.3147759" lon="36.7764859">
+  <node id="748775203" lat="-1.3147759" lon="36.7764859" version="7" timestamp="2010-10-08T15:07:25Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0723842458"/>
     <tag k="education:description" v="Has Baby Class and pre-unit Classes"/>
@@ -1266,7 +1271,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748777107" lat="-1.3106016" lon="36.7888637">
+  <node id="748777107" lat="-1.3106016" lon="36.7888637" version="3" timestamp="2010-08-31T15:39:03Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 200 per month"/>
     <tag k="education:student_age_range" v="4-7yrs"/>
@@ -1286,7 +1291,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748777109" lat="-1.3111710" lon="36.7880001">
+  <node id="748777109" lat="-1.3111710" lon="36.7880001" version="3" timestamp="2010-10-11T15:32:26Z" changeset="6012696" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 400 per month"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -1307,7 +1312,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748779286" lat="-1.3149053" lon="36.7754013">
+  <node id="748779286" lat="-1.3149053" lon="36.7754013" version="5" timestamp="2010-08-31T15:37:02Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0722216546"/>
     <tag k="education:description" v="Has Day Care and Pre-unit Classes"/>
@@ -1333,7 +1338,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748781666" lat="-1.3146608" lon="36.7754437">
+  <node id="748781666" lat="-1.3146608" lon="36.7754437" version="6" timestamp="2010-10-08T15:07:12Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0725407489"/>
     <tag k="education:fees" v="KShs 100 per month"/>
@@ -1358,7 +1363,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748782202" lat="-1.3104293" lon="36.7887272">
+  <node id="748782202" lat="-1.3104293" lon="36.7887272" version="3" timestamp="2010-08-31T15:38:14Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 200 per month"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -1384,7 +1389,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748782275" lat="-1.3130274" lon="36.7842577">
+  <node id="748782275" lat="-1.3130274" lon="36.7842577" version="3" timestamp="2010-08-31T15:36:56Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0725-003164"/>
     <tag k="education:fees" v="KShs 100 for food"/>
@@ -1411,7 +1416,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748782276" lat="-1.3106663" lon="36.7886518">
+  <node id="748782276" lat="-1.3106663" lon="36.7886518" version="2" timestamp="2010-08-31T15:37:22Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0721-494154"/>
     <tag k="education:fees" v="form 1/2 KShs 3200 per term,form 3/4 KShs 4000 per term"/>
@@ -1436,7 +1441,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748782277" lat="-1.3128637" lon="36.7848457">
+  <node id="748782277" lat="-1.3128637" lon="36.7848457" version="3" timestamp="2010-08-31T15:36:37Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 400 per month"/>
     <tag k="education:program_orphans" v="yes"/>
@@ -1456,7 +1461,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748783441" lat="-1.3153942" lon="36.7753093">
+  <node id="748783441" lat="-1.3153942" lon="36.7753093" version="4" timestamp="2010-08-31T15:36:18Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0713869156"/>
     <tag k="education:fees" v="KShs 200"/>
@@ -1482,7 +1487,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748803831" lat="-1.3096066" lon="36.7939550">
+  <node id="748803831" lat="-1.3096066" lon="36.7939550" version="3" timestamp="2010-08-31T15:36:44Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="christinekimeu2006@yahoo.com"/>
     <tag k="contact:phone" v="0720455264/0722655395"/>
@@ -1510,7 +1515,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804441" lat="-1.3107265" lon="36.7943928">
+  <node id="748804441" lat="-1.3107265" lon="36.7943928" version="4" timestamp="2010-08-31T15:36:38Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="christkibera@yahoo.com"/>
     <tag k="education:description" v="it offers training in masonry and carpentry"/>
@@ -1533,7 +1538,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804545" lat="-1.3173312" lon="36.7947956">
+  <node id="748804545" lat="-1.3173312" lon="36.7947956" version="2" timestamp="2010-08-31T15:38:25Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -1554,7 +1559,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804547" lat="-1.3096587" lon="36.7911143">
+  <node id="748804547" lat="-1.3096587" lon="36.7911143" version="2" timestamp="2010-08-31T15:36:45Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="p.o box, 21717-00505 nairobi"/>
     <tag k="education:fees" v="yes"/>
@@ -1578,7 +1583,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748804548" lat="-1.3096516" lon="36.7911137">
+  <node id="748804548" lat="-1.3096516" lon="36.7911137" version="3" timestamp="2010-08-31T15:37:07Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="p.o box, 21717-00505 nairobi"/>
     <tag k="education:fees" v="yes"/>
@@ -1604,7 +1609,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748804549" lat="-1.3107729" lon="36.7900814">
+  <node id="748804549" lat="-1.3107729" lon="36.7900814" version="3" timestamp="2010-08-31T15:36:08Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="patrickanidasa@yahoo.com"/>
     <tag k="contact:phone" v="0724759396"/>
@@ -1632,7 +1637,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804550" lat="-1.3096173" lon="36.7919443">
+  <node id="748804550" lat="-1.3096173" lon="36.7919443" version="3" timestamp="2010-08-31T15:38:10Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 200"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -1655,7 +1660,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804553" lat="-1.3100061" lon="36.7901950">
+  <node id="748804553" lat="-1.3100061" lon="36.7901950" version="2" timestamp="2010-08-31T15:36:52Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 200"/>
     <tag k="education:program_description" v="kids carry their own food from home"/>
@@ -1680,7 +1685,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804555" lat="-1.3109782" lon="36.7926827">
+  <node id="748804555" lat="-1.3109782" lon="36.7926827" version="3" timestamp="2010-08-31T15:37:51Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="p.o box, 21377-00505 nairobi"/>
     <tag k="education:fees" v="KShs 200"/>
@@ -1703,7 +1708,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748804556" lat="-1.3129495" lon="36.7935130">
+  <node id="748804556" lat="-1.3129495" lon="36.7935130" version="3" timestamp="2010-08-31T15:38:21Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0722404726-o734343491"/>
     <tag k="education:fees" v="yes"/>
@@ -1726,7 +1731,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748805433" lat="-1.3105546" lon="36.7949336">
+  <node id="748805433" lat="-1.3105546" lon="36.7949336" version="4" timestamp="2010-08-31T15:36:10Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="P.O Box 21706 0100 Nairobi"/>
     <tag k="education:description" v="The nursery and primary are located at the same compound but at different point of the compound."/>
@@ -1753,7 +1758,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748826131" lat="-1.3131996" lon="36.7946878">
+  <node id="748826131" lat="-1.3131996" lon="36.7946878" version="2" timestamp="2010-08-31T15:37:37Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="andrewsaval2yahoo.com"/>
     <tag k="contact:phone" v="0722465092"/>
@@ -1775,7 +1780,7 @@
     <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748826132" lat="-1.3122955" lon="36.7940254">
+  <node id="748826132" lat="-1.3122955" lon="36.7940254" version="2" timestamp="2010-08-31T15:38:04Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0723411369/0722337987/0722446903"/>
     <tag k="education:fees" v="form 1-3 kShs 11400 per year,form four KShs 14100"/>
@@ -1798,9 +1803,9 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748826133" lat="-1.3104484" lon="36.7932298">
+  <node id="748826133" lat="-1.3104480" lon="36.7932300" version="3" timestamp="2014-05-17T13:35:08Z" changeset="22388884" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
-    <tag k="contact:phone" v="0725712604"/>
+    <tag k="contact:phone" v="725712604"/>
     <tag k="education:fees" v="total orphans KShs 50 for exams,partial orphans KShs 100,those with parents KShs 250"/>
     <tag k="education:program_computers" v="yes"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -1825,12 +1830,13 @@
     <tag k="media:camera_device_number" v="2"/>
     <tag k="media:camera_number" v="4"/>
     <tag k="name" v="Magoso Primary School"/>
+    <tag k="official_name" v="MAGOSO PRIMARY"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-17:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="local_ngo"/>
   </node>
-  <node id="748833031" lat="-1.3144326" lon="36.7792242">
+  <node id="748833031" lat="-1.3144326" lon="36.7792242" version="5" timestamp="2013-02-18T08:44:21Z" changeset="15074428" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0722272968"/>
     <tag k="education:fees" v="30% pays fees"/>
@@ -1855,7 +1861,7 @@
     <tag k="operator:description" v="marketing one on one with well wishers"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748833032" lat="-1.3124483" lon="36.7769271">
+  <node id="748833032" lat="-1.3124480" lon="36.7769270" version="4" timestamp="2014-05-17T13:28:48Z" changeset="22388884" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="tunzachildrencentre@yahoo.com"/>
     <tag k="education:fees" v="some pay for feeding program"/>
@@ -1875,12 +1881,13 @@
     <tag k="education:teachers_tsc" v="1"/>
     <tag k="education:type" v="nursery,primary"/>
     <tag k="name" v="Tunza Children Center"/>
+    <tag k="official_name" v="TUNZA CHILDREN CENTRE-PRI SCH"/>
     <tag k="opening_hours" v="08:00-16:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748833033" lat="-1.3128694" lon="36.7804170">
+  <node id="748833033" lat="-1.3128694" lon="36.7804170" version="5" timestamp="2013-12-15T03:08:17Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="kenya@deafaid.org"/>
     <tag k="contact:phone" v="(245)0724519466"/>
@@ -1905,7 +1912,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="748833034" lat="-1.3138170" lon="36.7777621">
+  <node id="748833034" lat="-1.3138170" lon="36.7777621" version="3" timestamp="2010-08-31T15:38:28Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -1925,7 +1932,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748833035" lat="-1.3143525" lon="36.7778436">
+  <node id="748833035" lat="-1.3143525" lon="36.7778436" version="2" timestamp="2010-08-31T15:37:29Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -1943,7 +1950,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748833036" lat="-1.3128020" lon="36.7805711">
+  <node id="748833036" lat="-1.3128020" lon="36.7805711" version="4" timestamp="2014-05-14T11:55:42Z" changeset="22332038" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0725378240"/>
     <tag k="education:fees" v="small contribution from parents to feed the children"/>
@@ -1967,7 +1974,7 @@
     <tag k="operator:description" v="No funders"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748833040" lat="-1.3147043" lon="36.7778996">
+  <node id="748833040" lat="-1.3147043" lon="36.7778996" version="3" timestamp="2010-08-31T15:36:22Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="kag.olympic@gmail.com"/>
     <tag k="education:description" v="has also tailoring, hairdressing, GYM"/>
@@ -1987,7 +1994,7 @@
     <tag k="operator:description" v="Total no. exclude GYM and computer students who alternate after two months"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748833041" lat="-1.3145080" lon="36.7769950">
+  <node id="748833041" lat="-1.3145080" lon="36.7769950" version="5" timestamp="2014-05-14T01:18:20Z" changeset="22324185" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="staraysope@yahoo.com"/>
     <tag k="education:fees" v="half of school pay fees"/>
@@ -2013,7 +2020,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748833042" lat="-1.3136394" lon="36.7775941">
+  <node id="748833042" lat="-1.3136394" lon="36.7775941" version="2" timestamp="2010-08-31T15:37:24Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:description" v="Has pre school (day care, baby class, and pre unit)"/>
     <tag k="education:fees" v="yes"/>
@@ -2034,7 +2041,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748833044" lat="-1.3147010" lon="36.7778397">
+  <node id="748833044" lat="-1.3147010" lon="36.7778397" version="3" timestamp="2010-08-31T15:36:59Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes for feeding and fees"/>
     <tag k="education:program_computers" v="yes"/>
@@ -2058,7 +2065,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748845930" lat="-1.3183465" lon="36.7944435">
+  <node id="748845930" lat="-1.3183465" lon="36.7944435" version="2" timestamp="2010-08-31T15:37:38Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0725 488 163"/>
     <tag k="education:fees" v="KShs 200 per month"/>
@@ -2084,7 +2091,7 @@
     <tag k="operator:description" v="Bible Baptised Church"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748845933" lat="-1.3154960" lon="36.7990005">
+  <node id="748845933" lat="-1.3154960" lon="36.7990005" version="3" timestamp="2010-08-31T15:36:23Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="rachloms@yahoo.com"/>
     <tag k="contact:phone" v="0727 654 161"/>
@@ -2109,7 +2116,7 @@
     <tag k="operator:description" v="St.Lazarus Ministries"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748845940" lat="-1.3185087" lon="36.7986811">
+  <node id="748845940" lat="-1.3185087" lon="36.7986811" version="2" timestamp="2010-08-31T15:36:15Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720 45 00 57"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -2136,7 +2143,7 @@
     <tag k="operator:description" v="ACK Church"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748845943" lat="-1.3174600" lon="36.7999040">
+  <node id="748845943" lat="-1.3174600" lon="36.7999040" version="4" timestamp="2014-05-14T10:47:49Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0710 383 782"/>
     <tag k="education:fees" v="none"/>
@@ -2163,7 +2170,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="local_ngo"/>
   </node>
-  <node id="748858916" lat="-1.3145825" lon="36.7976833">
+  <node id="748858916" lat="-1.3145825" lon="36.7976833" version="3" timestamp="2010-08-31T15:38:46Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300 per term"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -2179,7 +2186,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748858917" lat="-1.3130326" lon="36.7961257">
+  <node id="748858917" lat="-1.3130326" lon="36.7961257" version="3" timestamp="2010-10-08T15:08:09Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="tunzatoto@yahoo.com"/>
     <tag k="contact:phone" v="P.O.BOX68990200NRB"/>
@@ -2201,7 +2208,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748858919" lat="-1.3125641" lon="36.7963890">
+  <node id="748858919" lat="-1.3125641" lon="36.7963890" version="2" timestamp="2010-08-31T15:38:59Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 250 per term"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -2219,7 +2226,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748858922" lat="-1.3100345" lon="36.7939486">
+  <node id="748858922" lat="-1.3100345" lon="36.7939486" version="2" timestamp="2010-08-31T15:37:30Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300 per term"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -2236,7 +2243,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748863823" lat="-1.3171852" lon="36.7976981">
+  <node id="748863823" lat="-1.3171852" lon="36.7976981" version="2" timestamp="2010-08-31T15:37:20Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="siloamministry@yahoo.com"/>
     <tag k="contact:phone" v="0710 24 45 65"/>
@@ -2262,14 +2269,14 @@
     <tag k="operator:description" v="Siloam Ministry"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748863824" lat="-1.3174306" lon="36.7984272">
+  <node id="748863824" lat="-1.3174306" lon="36.7984272" version="4" timestamp="2010-08-31T15:38:20Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="St Bakita Nursery School"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748863825" lat="-1.3171032" lon="36.7946042">
+  <node id="748863825" lat="-1.3171032" lon="36.7946042" version="5" timestamp="2013-05-29T22:14:51Z" changeset="16344735" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="other"/>
     <tag k="name" v="Holy Mountain Worship Center &amp; Children Centre Academy"/>
@@ -2277,15 +2284,16 @@
     <tag k="operator:type" v="religious"/>
     <tag k="type" v="private"/>
   </node>
-  <node id="748863826" lat="-1.3158626" lon="36.7952003">
+  <node id="748863826" lat="-1.3158630" lon="36.7952000" version="4" timestamp="2014-05-17T13:34:09Z" changeset="22388884" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="MOC Primary"/>
+    <tag k="official_name" v="MOC PRI SCH"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operator:description" v="Mission Outreach Church"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748863827" lat="-1.3172693" lon="36.7960604">
+  <node id="748863827" lat="-1.3172693" lon="36.7960604" version="2" timestamp="2010-08-31T15:38:36Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="jaedwing@yahoo.com"/>
     <tag k="contact:phone" v="0723 941 883"/>
@@ -2310,7 +2318,7 @@
     <tag k="operator:description" v="Wings of Life"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748863829" lat="-1.3173358" lon="36.7971583">
+  <node id="748863829" lat="-1.3173358" lon="36.7971583" version="4" timestamp="2013-01-31T08:25:57Z" changeset="14856369" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Constituency_boundary" v="yes"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -2349,14 +2357,14 @@
     <tag k="polling_station:type" v="private_school"/>
     <tag k="registered_voters" v="2331"/>
   </node>
-  <node id="748863830" lat="-1.3153244" lon="36.7987457">
+  <node id="748863830" lat="-1.3153244" lon="36.7987457" version="4" timestamp="2011-04-07T13:00:31Z" changeset="7794472" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery"/>
     <tag k="name" v="Jesus Winners Pre-School"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-17:00"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748870478" lat="-1.3189650" lon="36.7791437">
+  <node id="748870478" lat="-1.3189650" lon="36.7791437" version="2" timestamp="2010-08-31T15:36:28Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:program_counseling" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -2378,7 +2386,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748870479" lat="-1.3173868" lon="36.7776101">
+  <node id="748870479" lat="-1.3173868" lon="36.7776101" version="3" timestamp="2010-08-31T15:38:23Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="ngajosewa@hotmail.com"/>
     <tag k="contact:phone" v="0720700795,0722893683"/>
@@ -2404,7 +2412,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748870481" lat="-1.3178359" lon="36.7780367">
+  <node id="748870481" lat="-1.3178359" lon="36.7780367" version="5" timestamp="2010-10-11T15:29:24Z" changeset="6012696" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0724532076"/>
     <tag k="education:fees" v="KShs 250"/>
@@ -2422,7 +2430,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="748870482" lat="-1.3174427" lon="36.7774512">
+  <node id="748870482" lat="-1.3174427" lon="36.7774512" version="3" timestamp="2010-08-31T15:37:33Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720918745"/>
     <tag k="education:fees" v="KShs 250"/>
@@ -2443,7 +2451,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912629" lat="-1.3139266" lon="36.7840681">
+  <node id="748912629" lat="-1.3139266" lon="36.7840681" version="4" timestamp="2010-08-31T15:37:54Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0721683523"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -2467,7 +2475,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912656" lat="-1.3135945" lon="36.7822900">
+  <node id="748912656" lat="-1.3135945" lon="36.7822900" version="4" timestamp="2010-08-31T15:37:09Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0711354341"/>
     <tag k="education:fees" v="KShs 200 per month"/>
@@ -2488,7 +2496,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912704" lat="-1.3147900" lon="36.7824388">
+  <node id="748912704" lat="-1.3147900" lon="36.7824388" version="3" timestamp="2010-08-31T15:38:34Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0729464344-6003336"/>
     <tag k="education:fees" v="they dont pay fees"/>
@@ -2511,7 +2519,7 @@
     <tag k="operator:description" v="missionary of charity sister"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748912718" lat="-1.3149775" lon="36.7826575">
+  <node id="748912718" lat="-1.3149775" lon="36.7826575" version="2" timestamp="2010-08-31T15:38:49Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0712927263"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -2533,7 +2541,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912736" lat="-1.3162323" lon="36.7818385">
+  <node id="748912736" lat="-1.3162323" lon="36.7818385" version="3" timestamp="2014-05-14T11:13:06Z" changeset="22331143" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0752239982"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -2559,7 +2567,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912754" lat="-1.3134999" lon="36.7823115">
+  <node id="748912754" lat="-1.3134999" lon="36.7823115" version="3" timestamp="2010-08-31T15:36:38Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720017244"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -2578,7 +2586,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912771" lat="-1.3144033" lon="36.7812568">
+  <node id="748912771" lat="-1.3144033" lon="36.7812568" version="3" timestamp="2010-08-31T15:37:33Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0712880711"/>
     <tag k="education:fees" v="KShs 250 per month"/>
@@ -2600,7 +2608,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912790" lat="-1.3149302" lon="36.7855517">
+  <node id="748912790" lat="-1.3149302" lon="36.7855517" version="3" timestamp="2010-08-31T15:36:42Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="praisemirrowlib@yahoo.com"/>
     <tag k="contact:phone" v="0728912143"/>
@@ -2622,7 +2630,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="748912808" lat="-1.3140789" lon="36.7823611">
+  <node id="748912808" lat="-1.3140789" lon="36.7823611" version="3" timestamp="2010-08-31T15:38:07Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300 per month"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -2642,7 +2650,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912818" lat="-1.3149315" lon="36.7834331">
+  <node id="748912818" lat="-1.3149315" lon="36.7834331" version="3" timestamp="2010-08-31T15:38:16Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="ststephene2008@yahoo.com"/>
     <tag k="contact:phone" v="0720141337"/>
@@ -2668,7 +2676,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="748912871" lat="-1.3149067" lon="36.7864117">
+  <node id="748912871" lat="-1.3149067" lon="36.7864117" version="4" timestamp="2010-10-08T15:06:43Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0723642635"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -2692,7 +2700,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="752219201" lat="-1.3108517" lon="36.7955438">
+  <node id="752219201" lat="-1.3108517" lon="36.7955438" version="3" timestamp="2013-12-15T03:08:21Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0721423609"/>
     <tag k="education:fees" v="KShs 400 per term"/>
@@ -2711,7 +2719,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="752221613" lat="-1.3155618" lon="36.8035428">
+  <node id="752221613" lat="-1.3155618" lon="36.8035428" version="3" timestamp="2012-08-27T08:06:44Z" changeset="12875613" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 400 per term"/>
     <tag k="education:program_scouting" v="yes"/>
@@ -2730,7 +2738,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752221614" lat="-1.3141839" lon="36.8051787">
+  <node id="752221614" lat="-1.3141839" lon="36.8051787" version="2" timestamp="2010-08-31T15:37:23Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 400 per month"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -2749,7 +2757,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752223310" lat="-1.3155215" lon="36.8019153">
+  <node id="752223310" lat="-1.3155215" lon="36.8019153" version="4" timestamp="2014-04-28T09:12:40Z" changeset="21996870" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="patlumbus@yahoo.com"/>
     <tag k="contact:phone" v="0721540869"/>
@@ -2777,7 +2785,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752254027" lat="-1.3137477" lon="36.7946888">
+  <node id="752254027" lat="-1.3137477" lon="36.7946888" version="4" timestamp="2013-01-25T07:22:34Z" changeset="14777479" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -2799,7 +2807,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752254053" lat="-1.3143604" lon="36.7941986">
+  <node id="752254053" lat="-1.3143604" lon="36.7941986" version="2" timestamp="2010-08-31T15:37:48Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="yes"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -2821,7 +2829,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752254067" lat="-1.3135487" lon="36.7912343">
+  <node id="752254067" lat="-1.3135487" lon="36.7912343" version="2" timestamp="2010-08-31T15:38:42Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="p.o box 67611 Nairobi"/>
     <tag k="education:fees" v="yes"/>
@@ -2842,7 +2850,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752262462" lat="-1.3109354" lon="36.7876430">
+  <node id="752262462" lat="-1.3109354" lon="36.7876430" version="5" timestamp="2010-10-08T15:06:50Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720063516"/>
     <tag k="education:fees" v="KShs 150 per month"/>
@@ -2863,7 +2871,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="752262463" lat="-1.3099826" lon="36.7869060">
+  <node id="752262463" lat="-1.3099826" lon="36.7869060" version="5" timestamp="2010-10-08T15:07:24Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0723311277"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -2880,7 +2888,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="752276347" lat="-1.3115755" lon="36.7797252">
+  <node id="752276347" lat="-1.3115755" lon="36.7797252" version="4" timestamp="2010-08-31T15:36:20Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0723-754389"/>
     <tag k="education:fees" v="KShs 1200 per month"/>
@@ -2908,7 +2916,7 @@
     <tag k="operator:description" v="Congregations contribution"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752276359" lat="-1.3144824" lon="36.7802864">
+  <node id="752276359" lat="-1.3144824" lon="36.7802864" version="4" timestamp="2010-10-08T15:08:01Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0725473289"/>
     <tag k="education:description" v="Has Nursery"/>
@@ -2938,7 +2946,7 @@
     <tag k="operator:description" v="Funded by well wishers"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="752276386" lat="-1.3077569" lon="36.7822370">
+  <node id="752276386" lat="-1.3077569" lon="36.7822370" version="7" timestamp="2010-08-31T15:37:21Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="graebens.school@yahoo.com"/>
     <tag k="education:fees" v="BCE8800.Class E7500"/>
@@ -2956,7 +2964,7 @@
     <tag k="operator:description" v="No funders"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752276387" lat="-1.3112565" lon="36.7787496">
+  <node id="752276387" lat="-1.3112565" lon="36.7787496" version="4" timestamp="2010-08-31T15:36:36Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 800"/>
     <tag k="education:staff_male" v="3"/>
@@ -2977,7 +2985,7 @@
     <tag k="operator:description" v="No funders"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752317805" lat="-1.3085970" lon="36.7846873">
+  <node id="752317805" lat="-1.3085970" lon="36.7846873" version="5" timestamp="2012-06-04T08:20:15Z" changeset="11794000" uid="261043" user="regynnah">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="optimist educational center@hot mail"/>
     <tag k="contact:phone" v="0722948228"/>
@@ -3006,7 +3014,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="752319660" lat="-1.3103307" lon="36.7816286">
+  <node id="752319660" lat="-1.3103307" lon="36.7816286" version="3" timestamp="2010-10-08T15:08:13Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="mchangawomen@yahoo.com"/>
     <tag k="contact:phone" v="0710381176"/>
@@ -3030,7 +3038,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="752352033" lat="-1.3125717" lon="36.7835726">
+  <node id="752352033" lat="-1.3125717" lon="36.7835726" version="3" timestamp="2010-08-31T15:37:00Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="joanamunge@yahoo.com"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -3055,7 +3063,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="government"/>
   </node>
-  <node id="752362193" lat="-1.3111243" lon="36.7838911">
+  <node id="752362193" lat="-1.3111243" lon="36.7838911" version="4" timestamp="2010-08-31T15:38:41Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:program_counseling" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3078,7 +3086,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752388425" lat="-1.3068913" lon="36.7832084">
+  <node id="752388425" lat="-1.3068913" lon="36.7832084" version="3" timestamp="2010-08-31T15:38:57Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:program_feeding" v="no"/>
     <tag k="education:program_orphans" v="yes"/>
@@ -3098,7 +3106,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752388466" lat="-1.3068884" lon="36.7832059">
+  <node id="752388466" lat="-1.3068884" lon="36.7832059" version="3" timestamp="2010-08-31T15:36:33Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0723626177"/>
     <tag k="education:fees" v="250"/>
@@ -3120,7 +3128,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752394857" lat="-1.3086490" lon="36.7764780">
+  <node id="752394857" lat="-1.3086490" lon="36.7764780" version="5" timestamp="2014-04-06T15:08:58Z" changeset="21533865" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="020-24693228"/>
     <tag k="education:fees" v="KShs 8000 per term"/>
@@ -3146,7 +3154,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752394881" lat="-1.3078040" lon="36.7768710">
+  <node id="752394881" lat="-1.3078040" lon="36.7768710" version="11" timestamp="2014-04-06T15:13:59Z" changeset="21533865" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="contact:email" v="ayanyprimaryschool@gmail.com"/>
@@ -3183,7 +3191,7 @@
     <tag k="polling_station:source" v="map_kibera_trust"/>
     <tag k="polling_station:type_description" v="public_school"/>
   </node>
-  <node id="752394892" lat="-1.3098770" lon="36.7838680">
+  <node id="752394892" lat="-1.3098770" lon="36.7838680" version="10" timestamp="2014-05-14T11:21:05Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="contact:email" v="oldkiberaprimary@gmail.com"/>
@@ -3218,7 +3226,7 @@
     <tag k="polling_station:type" v="public_school"/>
     <tag k="registered_voters" v="5582"/>
   </node>
-  <node id="752410539" lat="-1.3081546" lon="36.7753806">
+  <node id="752410539" lat="-1.3081546" lon="36.7753806" version="3" timestamp="2010-08-31T15:38:00Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0727842235"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3238,7 +3246,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="752423585" lat="-1.3119416" lon="36.7764429">
+  <node id="752423585" lat="-1.3119416" lon="36.7764429" version="2" timestamp="2010-08-31T15:37:17Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="box 564891-00200"/>
     <tag k="contact:phone" v="0720688452"/>
@@ -3260,7 +3268,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752429630" lat="-1.3118380" lon="36.7764489">
+  <node id="752429630" lat="-1.3118380" lon="36.7764489" version="4" timestamp="2013-12-15T03:08:18Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720285362"/>
     <tag k="education:fees" v="none"/>
@@ -3282,7 +3290,7 @@
     <tag k="operator:description" v="Karibuni Trust"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="752496685" lat="-1.3118108" lon="36.7751638">
+  <node id="752496685" lat="-1.3118108" lon="36.7751638" version="3" timestamp="2010-08-31T15:36:27Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="Rosemarymusanga@gmail.com"/>
     <tag k="contact:phone" v="0721868864"/>
@@ -3309,7 +3317,7 @@
     <tag k="operator:description" v="Orthodox Church"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="752803404" lat="-1.3114453" lon="36.7738021">
+  <node id="752803404" lat="-1.3114453" lon="36.7738021" version="5" timestamp="2010-08-31T15:38:31Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="Box 21608-00505,Nairobi"/>
     <tag k="contact:phone" v="0724201340"/>
@@ -3334,7 +3342,7 @@
     <tag k="operator:description" v="Funder CARE-Kenya"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="761951369" lat="-1.3099529" lon="36.7718324">
+  <node id="761951369" lat="-1.3099529" lon="36.7718324" version="5" timestamp="2013-12-15T03:08:17Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0720032052"/>
     <tag k="education:fees" v="KShs 2500 per training (computer packages), KShs 4500 for language courses per person"/>
@@ -3354,7 +3362,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="761952623" lat="-1.3104771" lon="36.7719921">
+  <node id="761952623" lat="-1.3104771" lon="36.7719921" version="4" timestamp="2010-08-31T15:37:06Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="seciliaacademy@yahoo.com.box50401 Nairobi"/>
     <tag k="contact:phone" v="0720412568"/>
@@ -3381,7 +3389,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="761956459" lat="-1.3122330" lon="36.7749988">
+  <node id="761956459" lat="-1.3122330" lon="36.7749988" version="2" timestamp="2010-08-31T15:37:42Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="joysprings@yahoo.com"/>
     <tag k="contact:phone" v="0721201173"/>
@@ -3408,7 +3416,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="761957138" lat="-1.3139670" lon="36.7759705">
+  <node id="761957138" lat="-1.3139670" lon="36.7759705" version="2" timestamp="2010-08-31T15:38:39Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0724766913"/>
     <tag k="education:fees" v="KShs 450 per month"/>
@@ -3433,7 +3441,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="761965627" lat="-1.3103256" lon="36.7729079">
+  <node id="761965627" lat="-1.3103256" lon="36.7729079" version="3" timestamp="2013-12-15T03:08:21Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="education:program_computers" v="yes"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -3456,7 +3464,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="761980443" lat="-1.3098228" lon="36.7726229">
+  <node id="761980443" lat="-1.3098228" lon="36.7726229" version="2" timestamp="2010-08-31T15:37:10Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0726724015"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -3481,7 +3489,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="761992157" lat="-1.3090137" lon="36.7729016">
+  <node id="761992157" lat="-1.3090137" lon="36.7729016" version="2" timestamp="2010-08-31T15:37:39Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300 per month"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3501,7 +3509,7 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="761993870" lat="-1.3119711" lon="36.7761372">
+  <node id="761993870" lat="-1.3119711" lon="36.7761372" version="2" timestamp="2010-08-31T15:37:13Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0727843560"/>
     <tag k="education:fees" v="KShs 350 per month"/>
@@ -3522,7 +3530,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="761995282" lat="-1.3118119" lon="36.7762986">
+  <node id="761995282" lat="-1.3118119" lon="36.7762986" version="2" timestamp="2010-08-31T15:37:45Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 300 per month"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3543,7 +3551,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="767095636" lat="-1.3186798" lon="36.7946294">
+  <node id="767095636" lat="-1.3186798" lon="36.7946294" version="3" timestamp="2010-10-11T15:29:36Z" changeset="6012696" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0714 97 94 92"/>
     <tag k="education:fees" v="KShs 100 per month"/>
@@ -3566,14 +3574,14 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="767095637" lat="-1.3183179" lon="36.7940989">
+  <node id="767095637" lat="-1.3183179" lon="36.7940989" version="1" timestamp="2010-06-08T09:27:37Z" changeset="4935593" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="World Harvest Center &amp; Compassion Christian Academy"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="767108097" lat="-1.3166189" lon="36.8024389">
+  <node id="767108097" lat="-1.3166189" lon="36.8024389" version="4" timestamp="2013-11-22T09:23:28Z" changeset="19049584" uid="1213353" user="Ouma">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0724 057 580"/>
     <tag k="education:fees" v="KShs 300 per month"/>
@@ -3594,7 +3602,7 @@
     <tag k="operator:description" v="Gospel Believers Fellowship"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="769110769" lat="-1.3134763" lon="36.7759192">
+  <node id="769110769" lat="-1.3134763" lon="36.7759192" version="2" timestamp="2010-08-31T15:39:00Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:program_counseling" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3616,7 +3624,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="775527189" lat="-1.3112447" lon="36.7868772">
+  <node id="775527189" lat="-1.3112447" lon="36.7868772" version="4" timestamp="2013-12-15T03:08:16Z" changeset="19458424" uid="181135" user="Manu1400">
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="0727842235"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -3639,7 +3647,7 @@
     <tag k="operational_status:electricity" v="often"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="775535480" lat="-1.3116629" lon="36.7861834">
+  <node id="775535480" lat="-1.3116629" lon="36.7861834" version="3" timestamp="2010-08-31T15:37:30Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:program_counseling" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3661,7 +3669,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="local_ngo"/>
   </node>
-  <node id="890550409" lat="-1.3111486" lon="36.7914163">
+  <node id="890550409" lat="-1.3111486" lon="36.7914163" version="1" timestamp="2010-08-31T15:35:58Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 200"/>
     <tag k="education:program_counseling" v="yes"/>
@@ -3687,7 +3695,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="890550456" lat="-1.3166437" lon="36.8003064">
+  <node id="890550456" lat="-1.3166437" lon="36.8003064" version="2" timestamp="2010-10-08T15:06:53Z" changeset="5986772" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="christinegakiu@yahoo.com"/>
     <tag k="contact:phone" v="0721 34 50 95"/>
@@ -3714,14 +3722,14 @@
     <tag k="operator:description" v="St Gabriel Self Help Group"/>
     <tag k="operator:type" v="ngo_cbo"/>
   </node>
-  <node id="890550499" lat="-1.3144191" lon="36.7934488">
+  <node id="890550499" lat="-1.3144191" lon="36.7934488" version="1" timestamp="2010-08-31T15:36:00Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="nursery,primary"/>
     <tag k="name" v="Anwar Junior Academy"/>
     <tag k="opening_hours" v="Mo-Fr 07:00-15:00"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="890550513" lat="-1.3141267" lon="36.7774457">
+  <node id="890550513" lat="-1.3141267" lon="36.7774457" version="1" timestamp="2010-08-31T15:36:00Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="lucykayiwa@yahoo.com"/>
     <tag k="education:program_computers" v="yes"/>
@@ -3749,7 +3757,7 @@
     <tag k="operator:description" v="receive funds"/>
     <tag k="operator:type" v="local_ngo"/>
   </node>
-  <node id="890550597" lat="-1.3127531" lon="36.7919123">
+  <node id="890550597" lat="-1.3127531" lon="36.7919123" version="2" timestamp="2011-04-18T11:31:01Z" changeset="7896040" uid="261848" user="hassanow">
     <tag k="amenity" v="school"/>
     <tag k="education:program_feeding" v="yes"/>
     <tag k="education:program_orphans" v="yes"/>
@@ -3771,7 +3779,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:type" v="religious"/>
   </node>
-  <node id="890550666" lat="-1.3124900" lon="36.7837545">
+  <node id="890550666" lat="-1.3124900" lon="36.7837545" version="4" timestamp="2014-05-17T13:23:20Z" changeset="22388910" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="contact:email" v="joanamunge@yahoo.com"/>
     <tag k="contact:phone" v="0710606059"/>
@@ -3788,13 +3796,14 @@
     <tag k="education:teachers_trained" v="10"/>
     <tag k="education:type" v="primary"/>
     <tag k="name" v="Raila Educational Centre (Primary)"/>
+    <tag k="official_name" v="RAILA EDUCATIONAL CENTER-PRIMARY"/>
     <tag k="opening_hours" v="08:00-17:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="always"/>
     <tag k="polling_station:registered_voters" v="2877"/>
     <tag k="polling_station:type_description" v="government"/>
   </node>
-  <node id="890550720" lat="-1.3116971" lon="36.7911922">
+  <node id="890550720" lat="-1.3116971" lon="36.7911922" version="1" timestamp="2010-08-31T15:36:05Z" changeset="5646495" uid="19239" user="ebrelsford">
     <tag k="amenity" v="school"/>
     <tag k="education:fees" v="KShs 100-200"/>
     <tag k="education:program_feeding" v="yes"/>
@@ -3820,89 +3829,89 @@
     <tag k="operator:type" v="religious"/>
     <tag k="religion" v="christian"/>
   </node>
-  <node id="1000521280" lat="-1.3138842" lon="36.7784578">
+  <node id="1000521280" lat="-1.3138842" lon="36.7784578" version="3" timestamp="2010-11-23T20:12:10Z" changeset="6442101" uid="70696" user="xybot">
     <tag k="amenity" v="school"/>
     <tag k="name" v="SHOFCO Youth Centre"/>
   </node>
-  <node id="1015581296" lat="-1.3166260" lon="36.7786972">
+  <node id="1015581296" lat="-1.3166260" lon="36.7786972" version="1" timestamp="2010-12-02T08:39:19Z" changeset="6512206" uid="261848" user="hassanow">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Angels of Hope Childrens Centre/Church"/>
   </node>
-  <node id="1015581299" lat="-1.3155256" lon="36.7782599">
+  <node id="1015581299" lat="-1.3155256" lon="36.7782599" version="1" timestamp="2010-12-02T08:39:19Z" changeset="6512206" uid="261848" user="hassanow">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Marcy Junior academy"/>
   </node>
-  <node id="1015625631" lat="-1.3131336" lon="36.7773980">
+  <node id="1015625631" lat="-1.3131336" lon="36.7773980" version="1" timestamp="2010-12-02T09:31:31Z" changeset="6512585" uid="261848" user="hassanow">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Inua Mimi Center"/>
   </node>
-  <node id="1042356213" lat="-1.3122075" lon="36.7800351">
+  <node id="1042356213" lat="-1.3122075" lon="36.7800351" version="2" timestamp="2012-11-21T12:20:57Z" changeset="13957906" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Kiberra Film School"/>
   </node>
-  <node id="1712435882" lat="-1.3137374" lon="36.7804405">
+  <node id="1712435882" lat="-1.3137374" lon="36.7804405" version="1" timestamp="2012-04-12T08:17:44Z" changeset="11273601" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Palm Olive Academy"/>
   </node>
-  <node id="1722668360" lat="-1.3145568" lon="36.7788566">
+  <node id="1722668360" lat="-1.3145568" lon="36.7788566" version="1" timestamp="2012-04-19T09:29:29Z" changeset="11351993" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Brown daisy children center"/>
   </node>
-  <node id="1722668361" lat="-1.3139815" lon="36.7780441">
+  <node id="1722668361" lat="-1.3139815" lon="36.7780441" version="1" timestamp="2012-04-19T09:29:29Z" changeset="11351993" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Golden heart academy"/>
   </node>
-  <node id="1722668362" lat="-1.3118845" lon="36.7785514">
+  <node id="1722668362" lat="-1.3118845" lon="36.7785514" version="1" timestamp="2012-04-19T09:29:29Z" changeset="11351993" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Kids zone school"/>
   </node>
-  <node id="1727588864" lat="-1.3140183" lon="36.7822418">
+  <node id="1727588864" lat="-1.3140183" lon="36.7822418" version="1" timestamp="2012-04-23T10:20:30Z" changeset="11393396" uid="261018" user="kevole">
     <tag k="amenity" v="school"/>
     <tag k="name" v="grace spring academy"/>
   </node>
-  <node id="1763898746" lat="-1.3092843" lon="36.7893755">
+  <node id="1763898746" lat="-1.3092843" lon="36.7893755" version="1" timestamp="2012-05-24T08:00:54Z" changeset="11687341" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Adventure pride primary school"/>
   </node>
-  <node id="1763898747" lat="-1.3155724" lon="36.7861554">
+  <node id="1763898747" lat="-1.3155724" lon="36.7861554" version="1" timestamp="2012-05-24T08:00:54Z" changeset="11687341" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Kibera school for girls"/>
   </node>
-  <node id="1768443464" lat="-1.3122219" lon="36.7940254">
+  <node id="1768443464" lat="-1.3122219" lon="36.7940254" version="1" timestamp="2012-05-28T09:25:53Z" changeset="11724471" uid="261050" user="muindre">
     <tag k="amenity" v="school"/>
     <tag k="name" v="New horizon high school"/>
   </node>
-  <node id="1771323210" lat="-1.3113170" lon="36.7921726">
+  <node id="1771323210" lat="-1.3113170" lon="36.7921726" version="1" timestamp="2012-05-31T10:26:26Z" changeset="11756764" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Akili Complex"/>
   </node>
-  <node id="1771323212" lat="-1.3126323" lon="36.7925732">
+  <node id="1771323212" lat="-1.3126323" lon="36.7925732" version="1" timestamp="2012-05-31T10:26:26Z" changeset="11756764" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Conesus Primary School"/>
   </node>
-  <node id="1771323213" lat="-1.3128406" lon="36.7930032">
+  <node id="1771323213" lat="-1.3128406" lon="36.7930032" version="1" timestamp="2012-05-31T10:26:27Z" changeset="11756764" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Elite Visionary High School"/>
   </node>
-  <node id="1771323214" lat="-1.3123011" lon="36.7926279">
+  <node id="1771323214" lat="-1.3123011" lon="36.7926279" version="1" timestamp="2012-05-31T10:26:27Z" changeset="11756764" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Kingulu Primary School"/>
   </node>
-  <node id="1771323215" lat="-1.3111910" lon="36.7915537">
+  <node id="1771323215" lat="-1.3111910" lon="36.7915537" version="1" timestamp="2012-05-31T10:26:27Z" changeset="11756764" uid="261052" user="millicentoo">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Love Africa somi school"/>
   </node>
-  <node id="1801454706" lat="-1.3084052" lon="36.7718528">
+  <node id="1801454706" lat="-1.3084052" lon="36.7718528" version="1" timestamp="2012-06-25T08:43:02Z" changeset="12008568" uid="261003" user="omino">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Joowi Academy-Pre-Unit and Nursery"/>
   </node>
-  <node id="1864056792" lat="-1.3080615" lon="36.7792695">
+  <node id="1864056792" lat="-1.3080615" lon="36.7792695" version="1" timestamp="2012-08-13T09:38:47Z" changeset="12711389" uid="261003" user="omino">
     <tag k="addr:postcode" v="00618-759,Nairobi,Kenya."/>
     <tag k="amenity" v="school"/>
     <tag k="contact:phone" v="+254721370167"/>
     <tag k="name" v="Little Prince Primary School"/>
   </node>
-  <node id="1875796680" lat="-1.3028935" lon="36.7847770">
+  <node id="1875796680" lat="-1.3028935" lon="36.7847770" version="4" timestamp="2013-02-04T10:14:38Z" changeset="14907690" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="is_in:constituency" v="kibra"/>
@@ -3919,12 +3928,12 @@
     <tag k="polling_station:type_description" v="Its a public school"/>
     <tag k="source" v="map_kibera_trust"/>
   </node>
-  <node id="1875796681" lat="-1.3035970" lon="36.7841790">
+  <node id="1875796681" lat="-1.3035970" lon="36.7841790" version="2" timestamp="2014-05-14T11:57:17Z" changeset="22330664" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Moi Girls School Nairobi"/>
     <tag k="official_name" v="MOI GIRLS SCH - NAIROBI"/>
   </node>
-  <node id="1875796685" lat="-1.3056330" lon="36.7801860">
+  <node id="1875796685" lat="-1.3056330" lon="36.7801860" version="5" timestamp="2014-04-06T14:59:45Z" changeset="21533865" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="is_in:constituency" v="kibra"/>
@@ -3941,7 +3950,7 @@
     <tag k="polling_station:type_description" v="public_school"/>
     <tag k="source" v="map_kibera_trust"/>
   </node>
-  <node id="2064571553" lat="-1.3130895" lon="36.7819697">
+  <node id="2064571553" lat="-1.3130895" lon="36.7819697" version="7" timestamp="2014-03-18T10:03:29Z" changeset="21170649" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="is_in:constituency" v="Kibra"/>
     <tag k="is_in:estate" v="Olympic"/>
@@ -3956,13 +3965,14 @@
     <tag k="polling_station:source" v="map_kibera_trust"/>
     <tag k="polling_station:type_description" v="public_school"/>
   </node>
-  <node id="2064571555" lat="-1.3172780" lon="36.7771303">
+  <node id="2064571555" lat="-1.3172780" lon="36.7771300" version="5" timestamp="2014-05-17T13:27:29Z" changeset="22388884" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="is_in:constituency" v="Lang'ata"/>
     <tag k="is_in:estate" v="Raila"/>
     <tag k="is_in:village" v="Raila"/>
     <tag k="is_in:ward" v="Mugumoini"/>
     <tag k="name" v="St charles lwanga school"/>
+    <tag k="official_name" v="ST CHARLES LWANGA SEC SCH"/>
     <tag k="operational_status:electricity" v="always"/>
     <tag k="polling_station:election_year" v="2013"/>
     <tag k="polling_station:nearest_health_centre" v="Lang'ata health centre"/>
@@ -3972,7 +3982,7 @@
     <tag k="polling_station:type" v="school"/>
     <tag k="polling_station:type_description" v="Its a private school"/>
   </node>
-  <node id="2066040973" lat="-1.3045613" lon="36.7683647">
+  <node id="2066040973" lat="-1.3045613" lon="36.7683647" version="6" timestamp="2013-02-04T10:14:39Z" changeset="14907690" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="is_in:constituency" v="kibra"/>
@@ -3989,7 +3999,7 @@
     <tag k="polling_station:type" v="school"/>
     <tag k="polling_station:type_description" v="Its a public school"/>
   </node>
-  <node id="2115330631" lat="-1.3087658" lon="36.8014763">
+  <node id="2115330631" lat="-1.3087658" lon="36.8014763" version="6" timestamp="2013-02-04T10:14:39Z" changeset="14907690" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="is_in:constituency" v="Kibra"/>
@@ -4006,7 +4016,7 @@
     <tag k="polling_station:type" v="school"/>
     <tag k="polling_station:type_description" v="Its a public school"/>
   </node>
-  <node id="2115330632" lat="-1.3001215" lon="36.8057865">
+  <node id="2115330632" lat="-1.3001215" lon="36.8057865" version="5" timestamp="2013-02-04T10:14:38Z" changeset="14907690" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
     <tag k="is_in:constituency" v="Kibra"/>
@@ -4022,7 +4032,7 @@
     <tag k="polling_station:type" v="college"/>
     <tag k="station:type_description" v="Its a medical training school"/>
   </node>
-  <node id="2135801268" lat="-1.3223770" lon="36.7802570">
+  <node id="2135801268" lat="-1.3223770" lon="36.7802570" version="2" timestamp="2013-02-04T10:46:15Z" changeset="14908013" uid="261053" user="anekeya">
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Constituency_boundary" v="yes"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -4040,11 +4050,11 @@
     <tag k="polling_station:type_description" v="Its a public school"/>
     <tag k="source" v="map_kibera_trust"/>
   </node>
-  <node id="2705522568" lat="-1.3099870" lon="36.7920918">
+  <node id="2705522568" lat="-1.3099870" lon="36.7920918" version="1" timestamp="2014-03-07T13:44:21Z" changeset="20969558" uid="261009" user="Blasio">
     <tag k="amenity" v="school"/>
     <tag k="name" v="Facing_the_Future_ primary_school"/>
   </node>
-  <node id="2847951200" lat="-1.3113372" lon="36.7962811">
+  <node id="2847951200" lat="-1.3113372" lon="36.7962811" version="1" timestamp="2014-05-10T12:24:40Z" changeset="22249105" uid="999" user="mikelmaron">
     <tag k="amenity" v="school"/>
     <tag k="education:type" v="primary"/>
     <tag k="official_name" v="GLORY PRI. SCH"/>
