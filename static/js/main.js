@@ -7,6 +7,13 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
   var mapEl,
       data = { 'features': [] },
+      iconDefaults = {
+        iconUrl: '/static/img/icon-yellow.png',
+        shadowUrl: '/static/img/leaflet/marker-shadow.png',
+        iconSize: L.point(25, 39),
+        iconAnchor: L.point(13, 39),
+        popupAnchor: L.point(0, -24)
+      },
       geoProperties = {},
       listProperties = {  // object so we can test for keys with 'in'
         'osm:education:type': true
@@ -114,48 +121,6 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
     u.extend(geoProperties, niceProperties);
   }
 
-  function pinAllSchools(map) {
-    function pinPopup(feature, layer) {
-      var href = feature.properties.href,
-          name = feature.properties.name;
-
-      var edType = feature.properties['osm:education:type'],
-          opType = feature.properties['osm:operator:type'],
-          students = parseInt(feature.properties['osm:education:students_male'] || 0) +
-                     parseInt(feature.properties['osm:education:students_female'] || 0),
-          teachers = parseInt(feature.properties['osm:education:teachers'] || 0);
-
-      var popupContent = '<h3><a href="' + href + '">' + name + '</a></h3>';
-
-      if (edType || opType) {
-        popupContent += '<p>';
-        popupContent += edType || '';
-        popupContent += (edType && opType) ? ' / ' : '';
-        popupContent += opType || '';
-        popupContent += '</p>';
-      }
-
-      if (students || teachers) {
-        popupContent += '<p>';
-        popupContent += students ? students + ' students' : '';
-        popupContent += (students && teachers) ? ', ' : '';
-        popupContent += teachers ? teachers + ' teacher' + (teachers > 1 ? 's' : '') : '';
-        popupContent += '</p>';
-      }
-
-      layer.bindPopup(popupContent);
-      layer.setIcon(L.icon({
-        iconUrl: '/static/img/icon-yellow.png',
-        shadowUrl: '/static/img/leaflet/marker-shadow.png',
-        iconSize: L.point(25, 39),
-        iconAnchor: L.point(13, 39),
-        popupAnchor: L.point(0, -24)
-      }));
-      feature.properties.pin = layer;
-    }
-    L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
-  }
-
   function setupFilters() {
 
     var filterContainer = document.getElementById('filter-wrap');
@@ -233,10 +198,52 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
     });
   }
 
+  function schoolPopupContent(school) {
+    var href = school.properties.href || "",
+        name = school.properties.name;
+
+    var edType = school.properties['osm:education:type'],
+    opType = school.properties['osm:operator:type'],
+    students = parseInt(school.properties['osm:education:students_male'] || 0) +
+               parseInt(school.properties['osm:education:students_female'] || 0),
+    teachers = parseInt(school.properties['osm:education:teachers'] || 0);
+
+    var popupContent = '<h3><a href="' + href + '">' + name + '</a></h3>';
+
+    if (edType || opType) {
+      popupContent += '<p>';
+      popupContent += edType || '';
+      popupContent += (edType && opType) ? ' / ' : '';
+      popupContent += opType || '';
+      popupContent += '</p>';
+    }
+
+    if (students || teachers) {
+      popupContent += '<p>';
+      popupContent += students ? students + ' students' : '';
+      popupContent += (students && teachers) ? ', ' : '';
+      popupContent += teachers ? teachers + ' teacher' + (teachers > 1 ? 's' : '') : '';
+      popupContent += '</p>';
+    }
+    return popupContent;
+  }
+
+  function pinAllSchools(map) {
+    function pinPopup(school, marker) {
+      var content = schoolPopupContent(school);
+      marker.bindPopup(content);
+      marker.setIcon(L.icon(iconDefaults));
+      school.properties.pin = marker;
+    }
+    L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
+  }
+
   function pinSchool(map) {
     var location = school.geometry.coordinates[0].reverse();
     map.setView([location[0] + 0.0003, location[1]], 18);
-    L.marker(location).addTo(map);
+    var content = schoolPopupContent(school)
+    var marker = L.marker(location).setIcon(L.icon(iconDefaults)).addTo(map);
+    marker.bindPopup(content).openPopup();
   }
 
   // exports
