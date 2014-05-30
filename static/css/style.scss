@@ -514,7 +514,7 @@ section#map {
   content: "R";
 }
 .leaflet-container {
-  font-inherit;
+  font: inherit;
   .leaflet-popup-content-wrapper,
   .leaflet-popup-tip {
     background: $c-smokeglass
@@ -537,6 +537,7 @@ section#map {
     }
     p {
       margin: 0.333em 0;
+      font-size: $t-small;
     }
   }
 }
