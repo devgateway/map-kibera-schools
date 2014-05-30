@@ -39,6 +39,9 @@
 
   a {
     color: inherit;
+    &:hover {
+      color: $c-bright;
+    }
   }
 
   .page-nav-links {
@@ -826,8 +829,17 @@ section#map {
   color: $c-footer-light;
   a {
     color: inherit;
+    &:hover {
+      color: lighten($c-accent3, 10%);
+    }
   }
   #copyright {
     display: inline-block;
+  }
+  .social {
+    li {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
 }
