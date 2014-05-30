@@ -1,4 +1,4 @@
-;  // Map Kibera Schools | BSD License
+;  // Open Schools Kenya | BSD License
 
 (function exportUtils(u) {
   // pretend we have functional tools

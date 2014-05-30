@@ -3,5 +3,5 @@
     app
     ~~~
 
-    Static site generator for the Kibera School Project by Feedback Labs
+    Static site generator for Open Schools Kenya by Feedback Labs
 """

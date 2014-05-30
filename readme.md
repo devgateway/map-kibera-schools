@@ -1,7 +1,7 @@
-Kibera School Project
-=====================
+Open Schools Kenya
+==================
 
-The source files and compiled static site for Feedback Labs' [Map Kibera Schools](http://schools.mapkibera.org/) are hosted on github under two repositories:
+The source files and compiled static site for Feedback Labs' [Open Schools Kenya](http://schools.mapkibera.org/) are hosted on github under two repositories:
 
  * [Map Kibera production/content repo](https://github.com/mapkibera/map-kibera-schools)
  * [Development Gateway app staging repo](https://github.com/devgateway/map-kibera-schools)
@@ -12,7 +12,7 @@ Each has an orphaned `gh-pages` branch for hosting production and staging, respe
 Overview
 --------
 
-Map Kibera Schools consists of a python static site generating framework built partly on [Flask](http://flask.pocoo.org/), with a custom second-stage templating step for static assets and deploy-specific details like the `CNAME` file.
+Open Schools Kenya consists of a python static site generating framework built partly on [Flask](http://flask.pocoo.org/), with a custom second-stage templating step for static assets and deploy-specific details like the `CNAME` file.
 
 
 ### Issue Tracking

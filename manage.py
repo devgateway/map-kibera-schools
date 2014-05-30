@@ -4,7 +4,7 @@
     manage
     ~~~~~~
 
-    Map Kibera Schools management script
+    Open Schools Kenya management script
 
     Usage:
         build everything:       ./manage.py build all

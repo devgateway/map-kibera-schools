@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Map Kibera Schools</title>
+    <title>Open Schools Kenya</title>
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- tag canonical
@@ -27,9 +27,9 @@
 
     <header id="page-header">
       <nav>
-        <a class="accent" href="{{ url_for('home') }}" title="Kibera School Project Home">
+        <a class="accent" href="{{ url_for('home') }}" title="Open Schools Kenya Home">
           <small>Feedback Labs</small>
-          <h1>Map Kibera Schools</h1>
+          <h1>Open Schools Kenya</h1>
         </a>
         <ul class="page-nav-links">
           {% for link in pagenav %}
@@ -41,7 +41,7 @@
       <ul class="social">
         <li class="beta">BETA</li>
         {% for profile in content.social %}
-          <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="Map Kibera Schools on {{ profile.name }}" target="_top">{{ profile.name }}</a></li>
+          <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="Open Schools Kenya on {{ profile.name }}" target="_top">{{ profile.name }}</a></li>
         {% endfor %}
       </ul>
     </header>

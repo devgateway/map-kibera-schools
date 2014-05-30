@@ -1,4 +1,4 @@
-# Python dependencies for the Kibera School Project
+# Python dependencies for the Open Schools Kenya
 # See readme.md for setup details.
 
 # Requirements for building html
