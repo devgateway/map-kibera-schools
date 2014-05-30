@@ -47,8 +47,7 @@
               {% for school in content.schools %}
                 <li>
                   <a href="/schools/{{ school.slug }}"
-                     data-lat="{{ school.geometry.coordinates[0][0] }}"
-                     data-lng="{{ school.geometry.coordinates[0][1] }}"
+                     data-latlng='{{ school.geometry.coordinates[0] | tojson }}'
                      data-properties='{{ school.selected_properties | tojson | urlencode }}'>
                     {{ school.name }}
                   </a>
@@ -60,7 +59,20 @@
         <li id="filters">
           <a href="#filters">Filters</a>
           <div class="map-inputs map-filters">
-            map filters yo...
+            <div class="filter-source">
+              <h3>Data Source</h3>
+              <div class="input-group">
+                <input type="radio" name="source-select" id="source-osm" checked="checked" />
+                <label for="source-osm">Open Street Maps (OSM)</label>
+              </div>
+              <div class="input-group">
+                <input type="radio" name="source-select" id="source-kod" />
+                <label for="source-kod">Kenya Open Data</label>
+              </div>
+            </div>
+            <div id="filter-wrap">
+              {# filters are inserted here by js #}
+            </div>
           </div>
         </li>
         <li id="data">

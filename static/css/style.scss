@@ -311,7 +311,7 @@ section#map {
   border-top: $b-outline;
 }
 .map-controls {
-  z-index: $layer-high;
+  z-index: $layer-mhigh;
   position: relative;  // for stacking
   width: $width-full;
   height: $height-map-controls;
@@ -394,7 +394,6 @@ section#map {
         @include un-visually-hidden;
         font-size: $t-small - 1px;
         line-height: $line-tight;
-        background: $c-smokeglass;
       }
 
       &.active > .school-list {
@@ -434,6 +433,18 @@ section#map {
             color: $c-accent2;
             background: darken($c-smokeglass, 10%);
           }
+        }
+      }
+      &.active > .map-filters {
+        @include bg-stretchwidth($c-smokeglass);
+        $w: $width-map-control * 4;
+        position: absolute;
+        top: $height-map-controls;
+        left: -$width-map-control;
+        width: $w;
+        padding: $pad-v-thin $pad-h-thin;
+        select {
+          color: #333;
         }
       }
     }

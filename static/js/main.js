@@ -8,12 +8,23 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
   var mapEl,
       data = { 'features': [] },
       geoProperties = {},
-      listProperties = {'osm:education:type': true};  // object keys so we can test with 'in'
+      listProperties = {  // object so we can test for keys with 'in'
+        'osm:education:type': true
+      },
+      filters = {
+        'Type of School': ['osm:operator:type', 'kenyaopendata:Sponsor of School'],
+        'Male Students': ['osm:education:students_male', 'kenyaopendata:Total Boys'],
+        'Female Students': ['osm:education:students_female', 'kenyaopendata:Total Girls'],
+        'Education Level': ['osm:education:type', 'kenyaopendata:Level of Education'],
+        'Teachers': ['osm:education:teachers', 'kenyaopendata:Total Teaching staff']
+      },
+      activeFilters = {};
 
   if (mapEl = document.getElementById('main-map')) {
     map = drawMap(mapEl);
     domLoadSchoolDataAll();
     pinAllSchools(map);
+    setupFilters();
   } else if (mapEl = document.getElementById('school-map-display')) {
     map = drawMap(mapEl);
     pinSchool(map);
@@ -93,7 +104,7 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
         'type': 'Feature',
         'geometry': {
           'type': 'Point',
-          'coordinates': [parseFloat(node.dataset.lat), parseFloat(node.dataset.lng)]
+          'coordinates': JSON.parse(node.dataset.latlng)
         },
         'properties': schoolProperties
       };
@@ -109,8 +120,73 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
           name = feature.properties.name;
       var popupContent = '<h3><a href="' + href + '">' + name + '</a></h3>';
       layer.bindPopup(popupContent);
+      feature.properties.pin = layer;
     }
     L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
+  }
+
+  function setupFilters() {
+    var sourceSelectors = document.querySelectorAll('[name="source-select"]');
+    u.eachNode(sourceSelectors, function attachSourceHandlers(sourceSelector) {
+      u.on(sourceSelector, 'change', function changeSource() {
+        console.log('changed.');
+      });
+    });
+    var filterContainer = document.getElementById('filter-wrap');
+    html = '';
+    for (var filter in filters) {
+      var osm_key = filters[filter][0],
+          kod_key = filters[filter][1];
+      html += '<div class="input-group filter">';
+      html +=   '<label>' + filter + '</label>';
+      html +=   '<select class="filter-filter osm" data-key="' + osm_key + '">';
+      html +=     '<option value="" selected="selected"> - filter - </option>';
+      u.each(geoProperties[osm_key], function addFilterValue(value) {
+        html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+      });
+      html +=   '</select>';
+      html +=   '<select class="filter-filter kod" data-key="' + kod_key + '">';
+      html +=     '<option value="" selected="selected"> - filter - </option>';
+      u.each(geoProperties[kod_key], function addFilterValue(value) {
+        html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+      });
+      html +=   '</select>';
+      html += '</div>'
+
+    }
+    filterContainer.innerHTML = html;
+
+    var filterEls = document.querySelectorAll('.filter-filter');
+    u.eachNode(filterEls, function attachFilterHandler(filterEl) {
+      u.on(filterEl, 'change', function changeFilter() {
+        if (this.value !== '') {
+          activeFilters[this.dataset.key] = this.value;
+        } else if (this.dataset.key in activeFilters) {
+          delete activeFilters[this.dataset.key];
+        }
+        refreshFilters();
+      });
+    });
+  }
+
+  function refreshFilters() {
+    u.each(data.features, function filterFeature(feature) {
+      var showing = true;
+      for (filter in activeFilters) {
+        if (filter in feature.properties) {
+          if (feature.properties[filter] !== activeFilters[filter]) {
+            showing = false;
+          }
+        } else {
+          showing = false;
+        }
+      }
+      if (showing) {
+        feature.properties.pin.addTo(map);
+      } else {
+        map.removeLayer(feature.properties.pin);
+      }
+    });
   }
 
   function pinSchool(map) {
