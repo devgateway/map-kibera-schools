@@ -175,6 +175,10 @@
   border: 2px solid #ddd;
 }
 
+@mixin select {
+  @include _form-common;
+}
+
 @mixin button($bg) {
   @include _form-common;
   padding-left: $pad-h-thin;

@@ -351,6 +351,8 @@ section#map {
   }
   .accent {
     @include accent-box;
+    position: relative;
+    z-index: $layer-high;
     display: inline-block;
     margin-top: -1px;
   }
@@ -395,58 +397,6 @@ section#map {
         font-size: $t-small - 1px;
         line-height: $line-tight;
       }
-
-      &.active > .school-list {
-        $w = $width-map-control * 1.75;
-        position: absolute;
-        top: $height-map-controls;
-        left: 0;
-        width: $w;
-        ul {
-          @include list-reset;
-          max-height: 432px;
-          overflow-y: auto;
-          overflow-x: hidden;
-          li {
-            display: block;
-          }
-        }
-        input {
-          @include text-input;
-          display: block;
-          width: 100%;
-          font-size: $t-msmall;
-          color: $c-bright;
-          background: $c-smokeglass;
-          border: none;
-          border-bottom: 1px solid $c-outline;
-          &:hover {
-            background: lighten($c-smokeglass, 10%);
-          }
-        }
-        a {
-          display: block;
-          padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
-          color: $c-copy;
-          background: $c-smokeglass;
-          &:hover {
-            color: $c-accent2;
-            background: darken($c-smokeglass, 10%);
-          }
-        }
-      }
-      &.active > .map-filters {
-        @include bg-stretchwidth($c-smokeglass);
-        $w: $width-map-control * 4;
-        position: absolute;
-        top: $height-map-controls;
-        left: -$width-map-control;
-        width: $w;
-        padding: $pad-v-thin $pad-h-thin;
-        select {
-          color: #333;
-        }
-      }
     }
   }
   .map-social {
@@ -454,6 +404,92 @@ section#map {
     h3 {
       @include visually-hidden;
     }
+  }
+}
+@mixin control-input {
+  @include _form-common;
+  display: block;
+  font-size: $t-msmall;
+  color: $c-bright;
+  background: $c-smokeglass;
+  border: 1px solid $c-outline;
+  border-radius: 0;
+  &:hover {
+    background: lighten($c-smokeglass, 10%);
+  }
+}
+.map-controls .controls > li.active {
+  // browse schools
+  & > .school-list {
+    $w = $width-map-control * 1.75;
+    position: absolute;
+    top: $height-map-controls;
+    left: 0;
+    width: $w;
+    ul {
+      @include list-reset;
+      max-height: 432px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      li {
+        display: block;
+      }
+    }
+    input {
+      @include control-input;
+      width: 100%;
+      padding-left: $pad-h-thin / 1.618;
+      padding-right: $pad-h-thin / 1.618;
+      border: none;
+      border-bottom: 1px solid $c-outline;
+    }
+    a {
+      display: block;
+      padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
+      color: $c-copy;
+      background: $c-smokeglass;
+      &:hover {
+        color: $c-accent2;
+        background: darken($c-smokeglass, 10%);
+      }
+    }
+  }
+  // filters
+  & > .map-filters {
+    @include bg-stretchwidth($c-smokeglass);
+    $w: $width-full;
+    position: absolute;
+    top: $height-map-controls;
+    left: -($width-accent-box + $width-map-control + 3px);
+    width: $w;
+    padding: $pad-v-thin $pad-h-thin $pad-v-thin/2;
+
+    .filter-source {
+      @include box-sizing(border-box);
+      width: $width-accent-box;
+      vertical-align: top;
+      h3 {
+        font-size: $t-msmall;
+      }
+    }
+    #filter-wrap {
+      display: inline-block;
+      padding: $pad-v-thin 0;
+      label {
+        display: block;
+        padding-bottom: $pad-v-thin;
+        font-size: $t-msmall;
+        font-weight: $t-mheavy;
+      }
+      select {
+        @include control-input;
+        display: block;
+      }
+    }
+  }
+  .input-group {
+    display: inline-block;
+    margin: 0 $pad-h-thin / 2;
   }
 }
 #schools > a:before {
