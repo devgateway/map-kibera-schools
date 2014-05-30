@@ -144,6 +144,13 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       }
 
       layer.bindPopup(popupContent);
+      layer.setIcon(L.icon({
+        iconUrl: '/static/img/icon-yellow.png',
+        shadowUrl: '/static/img/leaflet/marker-shadow.png',
+        iconSize: L.point(25, 39),
+        iconAnchor: L.point(13, 39),
+        popupAnchor: L.point(0, -24)
+      }));
       feature.properties.pin = layer;
     }
     L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
