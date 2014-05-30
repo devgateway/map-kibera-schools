@@ -19,11 +19,26 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
         'osm:education:type': true
       },
       filters = {
-        'Type of School': ['osm:operator:type', 'kenyaopendata:Sponsor of School'],
-        'Male Students': ['osm:education:students_male', 'kenyaopendata:Total Boys'],
-        'Female Students': ['osm:education:students_female', 'kenyaopendata:Total Girls'],
-        'Education Level': ['osm:education:type', 'kenyaopendata:Level of Education'],
-        'Teachers': ['osm:education:teachers', 'kenyaopendata:Total Teaching staff']
+        'Type of School': {
+          type: 'select',
+          keys: ['osm:operator:type', 'kenyaopendata:Sponsor of School'],
+        },
+        'Education Level': {
+          type: 'select',
+          keys: ['osm:education:type', 'kenyaopendata:Level of Education'],
+        },
+        'Male Students': {
+          type: 'range',
+          keys: ['osm:education:students_male', 'kenyaopendata:Total Boys'],
+        },
+        'Female Students': {
+          type: 'range',
+          keys: ['osm:education:students_female', 'kenyaopendata:Total Girls'],
+        },
+        'Teachers': {
+          type: 'range',
+          keys: ['osm:education:teachers', 'kenyaopendata:Total Teaching staff']
+        }
       },
       activeFilters = {};
 
@@ -91,9 +106,24 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       for (key in propertiesWithCounts[propKey]) {
         propKeyArray.push([key, propertiesWithCounts[propKey][key]]);
       }
-      properties[propKey] = propKeyArray.sort(function sortProps(a, b) {
-        return b[1] - a[1];  // sort desc
-      });
+      // get the filter type
+      var filterType;
+      for (filter in filters) {
+        u.each(filters[filter].keys, function checkIfKeyFound(key) {
+          if (key === propKey) {
+            filterType = filters[filter].type;
+          };
+        })
+      }
+      if (filterType === 'select') {
+        properties[propKey] = propKeyArray.sort(function sortProps(a, b) {
+          return b[1] - a[1];  // sort by count desc
+        });
+      } else {
+        properties[propKey] = propKeyArray.sort(function sortProps(a, b) {
+          return a[0] - b[0];  // sort by val asc
+        });
+      }
     });
     return properties;
   }
@@ -126,31 +156,65 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
     var filterContainer = document.getElementById('filter-wrap');
     html = '';
     for (var filter in filters) {
-      var osm_key = filters[filter][0],
-          kod_key = filters[filter][1];
+      var osm_key = filters[filter].keys[0],
+          kod_key = filters[filter].keys[1];
       html += '<div class="input-group filter">';
       html +=   '<label>' + filter + '</label>';
-      html +=   '<select class="filter-filter source-osm" data-key="' + osm_key + '">';
-      html +=     '<option value="" selected="selected"> - filter - </option>';
-      u.each(geoProperties[osm_key], function addFilterValue(value) {
-        html += '<option value="' + value[0] + '">' + value[0] + '</option>';
-      });
-      html +=   '</select>';
-      html +=   '<select class="filter-filter source-kod hidden" data-key="' + kod_key + '">';
-      html +=     '<option value="" selected="selected"> - filter - </option>';
-      u.each(geoProperties[kod_key], function addFilterValue(value) {
-        html += '<option value="' + value[0] + '">' + value[0] + '</option>';
-      });
-      html +=   '</select>';
+
+      if (filters[filter].type === 'select') {
+
+        html +=   '<select class="filter-filter filter-select source-osm" data-key="' + osm_key + '">';
+        html +=     '<option value="" selected="selected"> - filter - </option>';
+        u.each(geoProperties[osm_key], function addFilterValue(value) {
+          html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+        });
+        html +=   '</select>';
+        html +=   '<select class="filter-filter filter-select source-kod hidden" data-key="' + kod_key + '">';
+        html +=     '<option value="" selected="selected"> - filter - </option>';
+        u.each(geoProperties[kod_key], function addFilterValue(value) {
+          html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+        });
+        html +=   '</select>';
+
+      } else if (filters[filter].type === 'range') {
+
+        html += '<select class="filter-filter filter-range filter-range-min source-osm" data-range="min" data-key="' + osm_key + '">';
+        html +=   '<option value="" selected="selected">min</option>';
+        u.each(geoProperties[osm_key], function addSortFilterValue(value) {
+          html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+        });
+        html += '</select>';
+        html += '<select class="filter-filter filter-range filter-range-max source-osm" data-range="max" data-key="' + osm_key + '">';
+        html +=   '<option value="" selected="selected">max</option>';
+        u.each(geoProperties[osm_key], function addSortFilterValue(value) {
+          html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+        });
+        html += '</select>';
+        html += '<select class="filter-filter filter-range filter-range-min source-kod hidden" data-range="min" data-key="' + kod_key + '">';
+        html +=   '<option value="" selected="selected">min</option>';
+        u.each(geoProperties[kod_key], function addSortFilterValue(value) {
+          html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+        });
+        html += '</select>';
+        html += '<select class="filter-filter filter-range filter-range-max source-kod hidden" data-range="max" data-key="' + kod_key + '">';
+        html +=   '<option value="" selected="selected">max</option>';
+        u.each(geoProperties[kod_key], function addSortFilterValue(value) {
+          html += '<option value="' + value[0] + '">' + value[0] + '</option>';
+        });
+        html += '</select>';
+
+      }
+
       html += '</div>'
     }
     filterContainer.innerHTML = html;
 
-    var filterEls = document.querySelectorAll('.filter-filter');
-    u.eachNode(filterEls, function attachFilterHandler(filterEl) {
+
+    var selectFilterEls = document.querySelectorAll('.filter-select');
+    u.eachNode(selectFilterEls, function attachFilterHandler(filterEl) {
       u.on(filterEl, 'change', function changeFilter() {
         if (this.value !== '') {
-          activeFilters[this.dataset.key] = this.value;
+          activeFilters[this.dataset.key] = ['select', this.value];
         } else if (this.dataset.key in activeFilters) {
           delete activeFilters[this.dataset.key];
         }
@@ -158,11 +222,29 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       });
     });
 
+    var rangeFilterEls = document.querySelectorAll('.filter-range');
+    u.eachNode(rangeFilterEls, function attachFilterHandler(filterEl) {
+      u.on(filterEl, 'change', function changeFilter() {
+        if (this.value !== '') {
+          if (! (this.dataset.key in activeFilters)) {
+            activeFilters[this.dataset.key] = ['range', {}]
+          }
+          activeFilters[this.dataset.key][1][this.dataset.range] = parseInt(this.value);
+        } else if (this.dataset.key in activeFilters &&
+                   this.dataset.range in activeFilters[this.dataset.key][1]) {
+          delete activeFilters[this.dataset.key][1][this.dataset.range];
+        }
+        console.log(activeFilters);
+        refreshFilters();
+      });
+    });
+
+    var allFilterEls = document.querySelectorAll('.filter-filter');
     var sourceSelectors = document.querySelectorAll('[name="source-select"]');
     u.eachNode(sourceSelectors, function attachSourceHandlers(sourceSelector) {
       u.on(sourceSelector, 'change', function changeSource() {
         var source = sourceSelector.id;
-        u.eachNode(filterEls, function showHideFilter(filterEl) {
+        u.eachNode(allFilterEls, function showHideFilter(filterEl) {
           if (u.hasClass(filterEl, source)) {
             u.removeClass(filterEl, 'hidden');
           } else {
@@ -183,8 +265,21 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       var showing = true;
       for (filter in activeFilters) {
         if (filter in feature.properties) {
-          if (feature.properties[filter] !== activeFilters[filter]) {
-            showing = false;
+          if (activeFilters[filter][0] === 'select') {
+            if (feature.properties[filter] !== activeFilters[filter][1]) {
+              showing = false;
+            }
+          } else if (activeFilters[filter][0] === 'range') {
+            if ('min' in activeFilters[filter][1]) {
+              if (parseInt(feature.properties[filter]) < activeFilters[filter][1].min) {
+                showing = false;
+              }
+            }
+            if ('max' in activeFilters[filter][1]) {
+              if (parseInt(feature.properties[filter]) > activeFilters[filter][1].max) {
+                showing = false;
+              }
+            }
           }
         } else {
           showing = false;

@@ -491,6 +491,9 @@ section#map {
         @include control-input;
         display: block;
         min-width: 100%;
+        &.filter-range {
+          height: 1.4em;
+        }
       }
       option {
         color: $c-copy;
@@ -508,6 +511,7 @@ section#map {
   }
   .input-group {
     display: inline-block;
+    vertical-align: top;
     margin: 0 $pad-h / 2;
   }
 }
