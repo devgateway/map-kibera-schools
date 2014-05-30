@@ -20,24 +20,24 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       },
       filters = {
         'Type of School': {
-          type: 'select',
-          keys: ['osm:operator:type', 'kenyaopendata:Sponsor of School'],
+          'type': 'select',
+          'keys': ['osm:operator:type', 'kenyaopendata:Sponsor of School']
         },
         'Education Level': {
-          type: 'select',
-          keys: ['osm:education:type', 'kenyaopendata:Level of Education'],
+          'type': 'select',
+          'keys': ['osm:education:type', 'kenyaopendata:Level of Education']
         },
         'Male Students': {
-          type: 'range',
-          keys: ['osm:education:students_male', 'kenyaopendata:Total Boys'],
+          'type': 'range',
+          'keys': ['osm:education:students_male', 'kenyaopendata:Total Boys']
         },
         'Female Students': {
-          type: 'range',
-          keys: ['osm:education:students_female', 'kenyaopendata:Total Girls'],
+          'type': 'range',
+          'keys': ['osm:education:students_female', 'kenyaopendata:Total Girls']
         },
         'Teachers': {
-          type: 'range',
-          keys: ['osm:education:teachers', 'kenyaopendata:Total Teaching staff']
+          'type': 'range',
+          'keys': ['osm:education:teachers', 'kenyaopendata:Total Teaching staff']
         }
       },
       activeFilters = {};
