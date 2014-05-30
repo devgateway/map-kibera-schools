@@ -510,8 +510,48 @@ section#map {
 #map-main > a:before {
   content: "R";
 }
+.leaflet-container {
+  font-inherit;
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: $c-smokeglass
+  }
+  .leaflet-popup {
+    color: $c-bright;
+    a {
+      color: $c-accent2;
+      &.leaflet-popup-close-button {
+        color: $c-med;
+        &:hover {
+          color: $c-accent;
+        }
+      }
+    }
+    h3 {
+      margin: 0;
+      font-size: $t-base;
+      font-weight: $t-mheavy;
+    }
+    p {
+      margin: 0.333em 0;
+    }
+  }
+}
+.leaflet-fade-anim .leaflet-popup {
+-webkit-transition: opacity 0.1s linear;
+   -moz-transition: opacity 0.1s linear;
+     -o-transition: opacity 0.1s linear;
+        transition: opacity 0.1s linear;
+}
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  -webkit-transition: -webkit-transform .25s cubic-bezier(0, 0, 0.33, 1);
+     -moz-transition:    -moz-transform .25s cubic-bezier(0, 0, 0.33, 1);
+       -o-transition:      -o-transform .25s cubic-bezier(0, 0, 0.33, 1);
+          transition:         transform .25s cubic-bezier(0, 0, 0.33, 1);
+}
 .map {
   height: 508px;
+  color: $c-med;
   background: $c-footer-med;  // might flash while loading
 }
 #school-map {

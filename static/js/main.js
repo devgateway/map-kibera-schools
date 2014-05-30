@@ -118,7 +118,31 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
     function pinPopup(feature, layer) {
       var href = feature.properties.href,
           name = feature.properties.name;
+
+      var edType = feature.properties['osm:education:type'],
+          opType = feature.properties['osm:operator:type'],
+          students = parseInt(feature.properties['osm:education:students_male'] || 0) +
+                     parseInt(feature.properties['osm:education:students_female'] || 0),
+          teachers = parseInt(feature.properties['osm:education:teachers'] || 0);
+
       var popupContent = '<h3><a href="' + href + '">' + name + '</a></h3>';
+
+      if (edType || opType) {
+        popupContent += '<p>';
+        popupContent += edType || '';
+        popupContent += (edType && opType) ? ' / ' : '';
+        popupContent += opType || '';
+        popupContent += '</p>';
+      }
+
+      if (students || teachers) {
+        popupContent += '<p>';
+        popupContent += students ? students + ' students' : '';
+        popupContent += (students && teachers) ? ', ' : '';
+        popupContent += teachers ? teachers + ' teacher' + (teachers > 1 ? 's' : '') : '';
+        popupContent += '</p>';
+      }
+
       layer.bindPopup(popupContent);
       feature.properties.pin = layer;
     }
