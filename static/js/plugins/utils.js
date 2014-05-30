@@ -74,6 +74,14 @@
       node.className = classes.join(' ');
     }
   };
+  u.hasClass = function hasClass(node, className) {
+    if (hasClassList) {
+      return node.classList.contains(className);
+    }
+    else {
+      return new RegExp('(^| )' + className + '( |$)', 'gi').test(node.className);
+    }
+  }
   // eventListener also inspired by youmightnotneedjquery
   u.on = function on(node, eventName, handler) {
     if (hasAddEvent) {

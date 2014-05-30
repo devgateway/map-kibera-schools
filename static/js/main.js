@@ -126,12 +126,7 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
   }
 
   function setupFilters() {
-    var sourceSelectors = document.querySelectorAll('[name="source-select"]');
-    u.eachNode(sourceSelectors, function attachSourceHandlers(sourceSelector) {
-      u.on(sourceSelector, 'change', function changeSource() {
-        console.log('changed.');
-      });
-    });
+
     var filterContainer = document.getElementById('filter-wrap');
     html = '';
     for (var filter in filters) {
@@ -139,20 +134,19 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
           kod_key = filters[filter][1];
       html += '<div class="input-group filter">';
       html +=   '<label>' + filter + '</label>';
-      html +=   '<select class="filter-filter osm" data-key="' + osm_key + '">';
+      html +=   '<select class="filter-filter source-osm" data-key="' + osm_key + '">';
       html +=     '<option value="" selected="selected"> - filter - </option>';
       u.each(geoProperties[osm_key], function addFilterValue(value) {
         html += '<option value="' + value[0] + '">' + value[0] + '</option>';
       });
       html +=   '</select>';
-      html +=   '<select class="filter-filter kod" data-key="' + kod_key + '">';
+      html +=   '<select class="filter-filter source-kod hidden" data-key="' + kod_key + '">';
       html +=     '<option value="" selected="selected"> - filter - </option>';
       u.each(geoProperties[kod_key], function addFilterValue(value) {
         html += '<option value="' + value[0] + '">' + value[0] + '</option>';
       });
       html +=   '</select>';
       html += '</div>'
-
     }
     filterContainer.innerHTML = html;
 
@@ -165,6 +159,25 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
           delete activeFilters[this.dataset.key];
         }
         refreshFilters();
+      });
+    });
+
+    var sourceSelectors = document.querySelectorAll('[name="source-select"]');
+    u.eachNode(sourceSelectors, function attachSourceHandlers(sourceSelector) {
+      u.on(sourceSelector, 'change', function changeSource() {
+        var source = sourceSelector.id;
+        u.eachNode(filterEls, function showHideFilter(filterEl) {
+          if (u.hasClass(filterEl, source)) {
+            u.removeClass(filterEl, 'hidden');
+          } else {
+            u.addClass(filterEl, 'hidden');
+            if (filterEl.value !== '') {
+              filterEl.value = '';
+              delete activeFilters[filterEl.dataset.key];
+              refreshFilters();
+            }
+          }
+        });
       });
     });
   }
