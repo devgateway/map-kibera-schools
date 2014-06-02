@@ -257,12 +257,14 @@ section#videos {
  */
 section#school-top {
   width: $width-full;
-  margin: $pad-v auto;
+  margin: $pad-v * 1.618 auto $pad-v-thin * 1.618;
   h1 {
     font-size: $t-med;
     color: $c-accent2;
   }
   #school-photos-frame {
+    $photo-space: $pad-h / 1.618;
+    $control-space: $pad-h-thin * 1.618;
     position: relative;  // positioning context for prev/next controls
     height: $height-school-photo;
     width: $width-full;
@@ -274,9 +276,12 @@ section#school-top {
 
       li {
         display: inline-block;
+        margin-right: $photo-space;
       }
       img {
+        @include box-sizing(border-box);
         height: $height-school-photo;
+        border: 3px solid $c-outline;
       }
     }
     #school-photos-prev,
@@ -292,12 +297,12 @@ section#school-top {
       border-width: $height-frame-prevnext/2 $width-frame-prevnext;
     }
     #school-photos-prev {
-      left: -($width-frame-prevnext + $pad-v-thin);
+      left: -($width-frame-prevnext + $control-space);
       border-left-width: 0;
       border-right-color: $c-outline;
     }
     #school-photos-next {
-      right: -($width-frame-prevnext + $pad-v-thin);
+      right: -($width-frame-prevnext + $control-space);
       border-right-width: 0;
       border-left-color: $c-outline;
     }
