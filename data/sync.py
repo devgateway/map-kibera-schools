@@ -30,11 +30,13 @@ def url2file(url,file_name):
   myFile.close()
 
 def sync_osm():
-  url = 'http://overpass-api.de/api/interpreter'
+  #url = 'http://overpass-api.de/api/interpreter'
   file_name = 'kibera-schools-osm.xml'
-  values = dict(data='<osm-script><osm-script output="json" timeout="25"><union><query type="node"><has-kv k="amenity" v="school"/><bbox-query e="36.8079" n="-1.3000" s="-1.3232" w="36.7663"/></query></union><print mode="body"/><recurse type="down"/><print mode="skeleton" order="quadtile"/></osm-script></osm-script>')  
-  data = urllib.urlencode(values)
-  req = urllib2.Request(url, data)
+  url = 'http://overpass-api.de/api/interpreter?data=[bbox];node[amenity=school];out%20meta;&bbox=36.7663,-1.3232,36.8079,-1.3000'
+  #values = dict(data='<osm-script><osm-script output="json" timeout="25"><union><query type="node"><has-kv k="amenity" v="school"/><bbox-query e="36.8079" n="-1.3000" s="-1.3232" w="36.7663"/></query></union><print mode="body"/><recurse type="down"/><print mode="meta"/></osm-script></osm-script>')  
+  #data = urllib.urlencode(values)
+  #req = urllib2.Request(url, data)
+  req = urllib2.Request(url)
   rsp = urllib2.urlopen(req)
   myFile = open(file_name, 'w')
   myFile.write(rsp.read())
@@ -88,7 +90,7 @@ def convert2geojson():
   kod_primary.features.extend(kod_secondary.features)
   dump = geojson.dumps(kod_primary, sort_keys=True, indent=2)
   writefile('kibera-primary-secondary-schools.geojson',dump)
-  os.system("osmtogeojson kibera-schools-osm.xml > kibera-schools-osm.geojson")
+  os.system("osmtogeojson -e kibera-schools-osm.xml > kibera-schools-osm.geojson")
 
 def compare_osm_kenyaopendata():
   osm = geojson.loads(readfile('kibera-schools-osm.geojson'))
@@ -102,12 +104,14 @@ def compare_osm_kenyaopendata():
     points = [(feature.geometry.coordinates[0], feature.geometry.coordinates[1])]
     properties = {}
     #properties = feature.properties
-    for osm_property in feature.properties.keys():
-      properties[ "osm:" + osm_property ] = feature.properties[ osm_property ]
+    for osm_property in feature.properties['tags'].keys():
+      properties[ "osm:" + osm_property ] = feature.properties['tags'][ osm_property ]
+    properties[ "osm:_user" ] = feature.properties['meta']['user']
+    properties[ "osm:_timestamp" ] = feature.properties['meta']['timestamp']
 
-    if 'official_name' in feature.properties:
+    if 'official_name' in feature.properties['tags']:
       for kod_feature in kod.features:
-        if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['official_name']:
+        if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['tags']['official_name']:
           #print feature.properties['official_name']
           points.append((kod_feature.geometry.coordinates[0],  kod_feature.geometry.coordinates[1]))
           for kod_property in kod_feature.properties.keys():
@@ -128,8 +132,8 @@ def deploy():
 #filter_kenyaopendata()
 #sync_osm()
 #convert2geojson()
-#compare_osm_kenyaopendata()
-deploy()
+compare_osm_kenyaopendata()
+#deploy()
 
 #TODO generate statistics on each run of comparison results
 #TODO generate list of ODK schools unmapped

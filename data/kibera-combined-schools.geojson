@@ -11,10 +11,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-01-31T08:26:18Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:education:type": "primary",
-        "osm:id": "node/478551902",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:estate": "Golfcourse",
         "osm:is_in:ward": "Woodley/Golfcourse/Kenyatta",
@@ -78,6 +79,8 @@
         "kenyaopendata:Total Number of Classrooms": "2",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "GUUM PRI SCH",
+        "osm:_timestamp": "2014-05-14T11:18:14Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "guum@yahoo.com",
         "osm:contact:phone": "721940010",
@@ -95,7 +98,6 @@
         "osm:education:teachers_trained": "4",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "kindergaten,nursery,primary",
-        "osm:id": "node/612004414",
         "osm:name": "Guum Primary School",
         "osm:official_name": "GUUM PRI SCH",
         "osm:opening_hours": "07:00-16:00",
@@ -149,6 +151,8 @@
         "kenyaopendata:Total Enrolment 2007": "24",
         "kenyaopendata:Total Teaching staff": "4",
         "kenyaopendata:official_name": "JEREMIC ADVENTIST SEC. SCH.",
+        "osm:_timestamp": "2014-05-14T11:19:18Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:phone": "727760808",
         "osm:education:fees": "supported individually",
@@ -163,7 +167,6 @@
         "osm:education:teachers_female": "11",
         "osm:education:teachers_male": "10",
         "osm:education:type": "nursery,primary,secondary",
-        "osm:id": "node/612006960",
         "osm:media:camera_device_number": "1",
         "osm:media:camera_number": "19,20,21",
         "osm:name": "Jeremic Adventist Academy",
@@ -186,6 +189,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-06-21T09:04:37Z",
+        "osm:_user": "omino",
         "osm:amenity": "school",
         "osm:contact:email": "hushgo@yahoo.com",
         "osm:contact:phone": "0722939737",
@@ -207,7 +212,6 @@
         "osm:education:teachers_tsc": "2",
         "osm:education:teachers_untrained": "16",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612006977",
         "osm:name": "St Michaels Holy Unity Academy",
         "osm:opening_hours": "06:30-18:00",
         "osm:operational_status": "operational",
@@ -227,9 +231,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-06-08T09:27:37Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007000",
         "osm:name": "New Hope School",
         "osm:operator:type": "religious"
       },
@@ -246,9 +251,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:32Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007003",
         "osm:name": "Supiria Primary School"
       },
       "type": "Feature"
@@ -264,9 +270,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-06-08T09:27:37Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007006",
         "osm:name": "World Ecclesiastes Primary",
         "osm:operational_status": "operational",
         "osm:operator:type": "religious"
@@ -284,9 +291,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:18Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/612007007",
         "osm:name": "Nomiya School",
         "osm:operator:type": "religious"
       },
@@ -303,10 +311,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-04-10T08:45:17Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:description": "Primary school",
         "osm:education:type": "other",
-        "osm:id": "node/612007018",
         "osm:name": "Pag Academy"
       },
       "type": "Feature"
@@ -322,6 +331,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:21Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "makabwabwire@yahoo.com",
         "osm:contact:phone": "0721984541/0736674397",
@@ -341,7 +352,6 @@
         "osm:education:teachers_female": "7",
         "osm:education:teachers_male": "16",
         "osm:education:type": "primary,secondary",
-        "osm:id": "node/612007021",
         "osm:name": "Soweto Academy",
         "osm:opening_hours": "06:00-21:00",
         "osm:operational_status": "operational",
@@ -398,6 +408,8 @@
         "kenyaopendata:Total Number of Classrooms": "6",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "DRUG FIGHTERS PRI SCH",
+        "osm:_timestamp": "2014-05-10T12:26:35Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:education:fees": "yes",
         "osm:education:program_counseling": "yes",
@@ -413,7 +425,6 @@
         "osm:education:teachers_male": "3",
         "osm:education:teachers_trained": "10",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007086",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "15",
         "osm:name": "Drug Fighters Primary School",
@@ -436,9 +447,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:39Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007112",
         "osm:name": "Kirega Primary School"
       },
       "type": "Feature"
@@ -454,9 +466,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:18Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007146",
         "osm:name": "St Esther Academy",
         "osm:opening_hours": "07:00-16:00",
         "osm:operator:description": "More infomation was not given due to abscence of the head in charge",
@@ -470,11 +483,50 @@
           [
             36.7804905,
             -1.3133253
+          ],
+          [
+            36.776944,
+            -1.312149
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Boys Toilets": "2",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:District": "NAIROBI",
+        "kenyaopendata:Division": "KIBERA",
+        "kenyaopendata:GOK TSC Female": "0",
+        "kenyaopendata:GOK TSC Male": "0",
+        "kenyaopendata:Girls Toilets": "2",
+        "kenyaopendata:Level of Education": "PRIMARY SCHOOL",
+        "kenyaopendata:Local Authority Female": "0",
+        "kenyaopendata:Local Authority Male": "0",
+        "kenyaopendata:Location": "SERA NGOMBE",
+        "kenyaopendata:Non-Teaching Staff Female": "0",
+        "kenyaopendata:Non-Teaching Staff Male": "1",
+        "kenyaopendata:Others Female": "3",
+        "kenyaopendata:Others Male": "0",
+        "kenyaopendata:PTA BOG Female": "0",
+        "kenyaopendata:PTA BOG Male": "0",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Pupil Classroom Ratio": "11.3",
+        "kenyaopendata:Pupil Teacher Ratio": "15",
+        "kenyaopendata:Pupil Toilet Ratio": "11.3",
+        "kenyaopendata:School Institution Type_1": "MIXED",
+        "kenyaopendata:School Institution Type_2": "DAY ONLY",
+        "kenyaopendata:School Institution Type_3": "ORDINARY",
+        "kenyaopendata:Sponsor of School": "RELIGIOUS ORGANIZATION",
+        "kenyaopendata:Status of School": "PRIVATE",
+        "kenyaopendata:Teachers Toilets": "2",
+        "kenyaopendata:Total Boys": "0",
+        "kenyaopendata:Total Enrolment": "45",
+        "kenyaopendata:Total Girls": "0",
+        "kenyaopendata:Total Number of Classrooms": "4",
+        "kenyaopendata:Total Toilets": "0",
+        "kenyaopendata:official_name": "OLYMPIC ACADEMY- PRI SCH",
+        "osm:_timestamp": "2014-05-28T21:49:42Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:education:description": "Funded. Has Nursery,Secondary",
@@ -491,13 +543,14 @@
         "osm:education:teachers_female": "22",
         "osm:education:teachers_male": "9",
         "osm:education:type": "nursery,primary,secondary",
-        "osm:id": "node/612007152",
+        "osm:images": "https://farm3.staticflickr.com/2742/4089244916_b11b3c7a1f_o.jpg",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:estate": "Olympic",
         "osm:is_in:village": "Olympic",
         "osm:is_in:ward": "sarangombe",
         "osm:media:camera_device_number": "01",
         "osm:name": "Olympic Primary School",
+        "osm:official_name": "OLYMPIC ACADEMY- PRI SCH",
         "osm:opening_hours": "07:00-17:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "sometimes",
@@ -523,10 +576,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-06-28T08:58:13Z",
+        "osm:_user": "omino",
         "osm:amenity": "school",
         "osm:education:description": "Funded. Has Nursery,Secondary",
         "osm:education:type": "other",
-        "osm:id": "node/612007263",
         "osm:name": "Kibera Academy"
       },
       "type": "Feature"
@@ -542,9 +596,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:53Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/612007264",
         "osm:name": "Kambi Muru Nursery"
       },
       "type": "Feature"
@@ -597,6 +652,8 @@
         "kenyaopendata:Total Number of Classrooms": "17",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "MASHIMONI SQUATTERS PRI. SCH",
+        "osm:_timestamp": "2014-05-14T10:59:16Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:contact:phone": "716583975",
@@ -618,7 +675,6 @@
         "osm:education:teachers_trained": "21",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "primary",
-        "osm:id": "node/612007279",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:village": "Mashimon",
         "osm:is_in:ward": "Lindi",
@@ -653,9 +709,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:50Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/612007401",
         "osm:name": "Lindi Ushirika Nursery School"
       },
       "type": "Feature"
@@ -671,9 +728,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:37Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007406",
         "osm:name": "Saviour Kings Academy Primary"
       },
       "type": "Feature"
@@ -689,9 +747,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:26Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "secondary",
-        "osm:id": "node/612007412",
         "osm:name": "Rudolf High School"
       },
       "type": "Feature"
@@ -707,6 +766,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:07:36Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "p.o box, 7083-00200 nairobi",
         "osm:contact:phone": "0710895928",
@@ -727,7 +788,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007413",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "11",
         "osm:name": "Lindi Ushirika Nursery School,Primary",
@@ -749,9 +809,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-12-18T10:04:25Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:education:type": "other",
-        "osm:id": "node/612007436",
         "osm:name": "Talent Private School",
         "osm:operator:type": "private",
         "osm:type_of_institution": "school_private"
@@ -769,10 +830,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-01T08:27:00Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
         "osm:description": "primary school",
         "osm:education:type": "Private",
-        "osm:id": "node/612007444",
         "osm:name": "Stara Rescue Centre",
         "osm:note": "private"
       },
@@ -789,9 +851,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:40Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007446",
         "osm:name": "Makina Baptist Primary School"
       },
       "type": "Feature"
@@ -807,9 +870,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:31Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "secondary",
-        "osm:id": "node/612007447",
         "osm:name": "New Adventist High School"
       },
       "type": "Feature"
@@ -825,6 +889,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:30Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 200 per month",
         "osm:education:program_orphans": "yes",
@@ -835,7 +901,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "nursery",
-        "osm:id": "node/612007505",
         "osm:name": "St Monica Nursery School",
         "osm:opening_hours": "08:00-16:00",
         "osm:operational_status": "operational",
@@ -855,9 +920,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:32Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/612007520",
         "osm:name": "Imani Nursery School"
       },
       "type": "Feature"
@@ -873,6 +939,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:11Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0721608794",
         "osm:education:description": "Has Nursery",
@@ -890,7 +958,6 @@
         "osm:education:teachers_trained": "13",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "primary",
-        "osm:id": "node/612007554",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "29",
         "osm:name": "Palm Olive Academy",
@@ -911,6 +978,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-11T15:25:15Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "kidszone2008@yahoo.com",
         "osm:contact:phone": "0722945037",
@@ -930,7 +999,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "1",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007565",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "24,25,26,27",
         "osm:name": "Kids Zone",
@@ -953,6 +1021,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:39Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:description": "also has pre school",
         "osm:education:fees": "fees not stated",
@@ -965,7 +1035,6 @@
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "5",
         "osm:education:type": "primary",
-        "osm:id": "node/612007585",
         "osm:name": "AMMSA Junior Academy",
         "osm:opening_hours": "07:30-17:00",
         "osm:operational_status": "operational",
@@ -986,10 +1055,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-01-31T08:26:16Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:education:type": "primary",
-        "osm:id": "node/612007631",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:village": "Mashimoni",
         "osm:is_in:ward": "Laini saba ward",
@@ -1016,9 +1086,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:23Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612007635",
         "osm:name": "Free Methodist Primary School"
       },
       "type": "Feature"
@@ -1027,16 +1098,55 @@
       "geometry": {
         "coordinates": [
           [
-            36.7941802,
-            -1.3103386
+            36.79418,
+            -1.310339
+          ],
+          [
+            36.793546,
+            -1.307685
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Boys Toilets": "5",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:District": "NAIROBI",
+        "kenyaopendata:Division": "KIBERA",
+        "kenyaopendata:GOK TSC Female": "0",
+        "kenyaopendata:GOK TSC Male": "0",
+        "kenyaopendata:Girls Toilets": "8",
+        "kenyaopendata:Level of Education": "PRIMARY SCHOOL",
+        "kenyaopendata:Local Authority Female": "0",
+        "kenyaopendata:Local Authority Male": "0",
+        "kenyaopendata:Location": "LAINI SABA",
+        "kenyaopendata:Non-Teaching Staff Female": "4",
+        "kenyaopendata:Non-Teaching Staff Male": "4",
+        "kenyaopendata:Others Female": "8",
+        "kenyaopendata:Others Male": "7",
+        "kenyaopendata:PTA BOG Female": "0",
+        "kenyaopendata:PTA BOG Male": "0",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Pupil Classroom Ratio": "41.4",
+        "kenyaopendata:Pupil Teacher Ratio": "24.9",
+        "kenyaopendata:Pupil Toilet Ratio": "28.7",
+        "kenyaopendata:School Institution Type_1": "MIXED",
+        "kenyaopendata:School Institution Type_2": "DAY ONLY",
+        "kenyaopendata:School Institution Type_3": "ORDINARY",
+        "kenyaopendata:Sponsor of School": "RELIGIOUS ORGANIZATION",
+        "kenyaopendata:Status of School": "PRIVATE",
+        "kenyaopendata:Teachers Toilets": "1",
+        "kenyaopendata:Total Boys": "170",
+        "kenyaopendata:Total Enrolment": "373",
+        "kenyaopendata:Total Girls": "203",
+        "kenyaopendata:Total Number of Classrooms": "9",
+        "kenyaopendata:Total Toilets": "0",
+        "kenyaopendata:official_name": "LAINI SABA PRI. SCH",
+        "osm:_timestamp": "2014-05-17T13:34:45Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "lasba@yahoo.com",
-        "osm:contact:phone": "0720200847",
+        "osm:contact:phone": "720200847",
         "osm:education:program_counseling": "yes",
         "osm:education:program_feeding": "yes",
         "osm:education:program_scouting": "yes",
@@ -1051,8 +1161,8 @@
         "osm:education:teachers_female": "6",
         "osm:education:teachers_male": "8",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007672",
         "osm:name": "Laini Saba Nursery and Primary School",
+        "osm:official_name": "LAINI SABA PRI. SCH",
         "osm:opening_hours": "Mo-Fr 07:30-17:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "always",
@@ -1071,9 +1181,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:49Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007678",
         "osm:name": "Church of God nursery and primary school"
       },
       "type": "Feature"
@@ -1089,6 +1200,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:14Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 500 per month",
         "osm:education:program_counseling": "yes",
@@ -1105,7 +1218,6 @@
         "osm:education:teachers_female": "12",
         "osm:education:teachers_male": "6",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007716",
         "osm:name": "Jakes Academy",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -1162,6 +1274,8 @@
         "kenyaopendata:Total Number of Classrooms": "4",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "KISUMU NDOGO PRI SCH",
+        "osm:_timestamp": "2014-05-14T11:22:07Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:phone": "0728697781/ box No.34700100",
         "osm:education:fees": "KShs 1000 per term",
@@ -1181,7 +1295,6 @@
         "osm:education:teachers_trained": "11",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "primary",
-        "osm:id": "node/612007820",
         "osm:media:video_device_number": "3",
         "osm:name": "Kisumu Ndogo Primary School",
         "osm:official_name": "KISUMU NDOGO PRI SCH",
@@ -1204,6 +1317,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:08:23Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0726808699",
         "osm:education:fees": "nursery 200KShs,primary 250KShs,food 200KShs",
@@ -1221,7 +1336,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612007886",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "1-2/2",
         "osm:name": "Fair View School",
@@ -1243,9 +1357,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-05-29T22:14:50Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:education:type": "other",
-        "osm:id": "node/612007942",
         "osm:name": "Cana Junior Academy",
         "osm:operator:type": "private"
       },
@@ -1262,6 +1377,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:03Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0720212414",
         "osm:education:description": "also nursery",
@@ -1282,7 +1399,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "12",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612008370",
         "osm:name": "St Christine Primary School",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "operational",
@@ -1302,6 +1418,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:26Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "p.o box,4669-00100 nairobi",
         "osm:education:fees": "yes",
@@ -1319,7 +1437,6 @@
         "osm:education:teachers_trained": "6",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612008379",
         "osm:name": "Lindi Friends School",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
         "osm:operational_status": "operational",
@@ -1339,9 +1456,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-06-08T09:27:38Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612008385",
         "osm:name": "Imani Jere Children Center",
         "osm:operational_status": "operational",
         "osm:operator:type": "religious"
@@ -1359,9 +1477,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:53Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612008411",
         "osm:name": "Huruma Primary"
       },
       "type": "Feature"
@@ -1377,9 +1496,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:25Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612008414",
         "osm:name": "Makina Baptist Primary"
       },
       "type": "Feature"
@@ -1395,6 +1515,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-11T15:27:19Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "graebben.school@yahoo.com",
         "osm:education:student_age_range": "adult",
@@ -1404,7 +1526,6 @@
         "osm:education:teachers": "7",
         "osm:education:teachers_male": "7",
         "osm:education:type": "driving",
-        "osm:id": "node/612008438",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "16,17,18",
         "osm:name": "Graebens Driving School",
@@ -1426,6 +1547,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:17Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:education:description": "film school",
         "osm:education:fees": "none",
@@ -1435,7 +1558,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "2",
         "osm:education:type": "other",
-        "osm:id": "node/612008446",
         "osm:name": "Hot Sun Foundation/Kibera Film School",
         "osm:notes": "program is funded",
         "osm:opening_hours": "07:00-17:30",
@@ -1456,6 +1578,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-06-21T09:04:38Z",
+        "osm:_user": "omino",
         "osm:amenity": "school",
         "osm:contact:phone": "020-24693228",
         "osm:education:fees": "KShs 6000 per term",
@@ -1471,7 +1595,6 @@
         "osm:education:teachers_male": "2",
         "osm:education:teachers_trained": "14",
         "osm:education:type": "nursery",
-        "osm:id": "node/612008500",
         "osm:name": "Tenderlines Baby Care School Ayany",
         "osm:opening_hours": "07:30-15:30",
         "osm:operational_status": "operational",
@@ -1491,6 +1614,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:08Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "dshimuli@yahoo.com",
         "osm:contact:phone": "0721 32 90 10",
@@ -1504,7 +1629,6 @@
         "osm:education:teachers_female": "1",
         "osm:education:teachers_trained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/612008555",
         "osm:name": "Lahasa Day Care School",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
         "osm:operational_status": "operational",
@@ -1524,6 +1648,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:11Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300 per term",
         "osm:education:program_feeding": "yes",
@@ -1536,7 +1662,6 @@
         "osm:education:teachers_female": "3",
         "osm:education:teachers_male": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/612008568",
         "osm:name": "St Gabriel Nursery School",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operational_status": "operational",
@@ -1556,6 +1681,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:46Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 450 per term",
         "osm:education:program_scouting": "yes",
@@ -1570,7 +1697,6 @@
         "osm:education:teachers_female": "16",
         "osm:education:teachers_male": "10",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612008576",
         "osm:name": "Victory Hope Children Centre",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -1590,9 +1716,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:09Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/612008615",
         "osm:name": "Mashimoni Ushirika Primary"
       },
       "type": "Feature"
@@ -1608,6 +1735,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:55Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:staff_female": "1",
         "osm:education:student_age_range": "3-5yrs",
@@ -1618,7 +1747,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/612008704",
         "osm:name": "Good Hope Nursery School",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operator:type": "religious"
@@ -1636,6 +1764,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:27Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 250 per month",
         "osm:education:program_counseling": "yes",
@@ -1651,7 +1781,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/612008715",
         "osm:name": "Charity Nursery School",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -1671,6 +1800,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-06-21T09:04:33Z",
+        "osm:_user": "omino",
         "osm:amenity": "school",
         "osm:contact:phone": "0711134067",
         "osm:education:program_counseling": "yes",
@@ -1687,7 +1818,6 @@
         "osm:education:teachers_male": "6",
         "osm:education:teachers_trained": "11",
         "osm:education:type": "primary",
-        "osm:id": "node/612008764",
         "osm:name": "Brothers Missionery Primary School",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "operational",
@@ -1707,6 +1837,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:07:38Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "academyzelyn@yahoo.com",
         "osm:contact:phone": "0721 44 85 28, 0727 969723, 0724 96 64 39",
@@ -1725,7 +1857,6 @@
         "osm:education:teachers_trained": "7",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "primary",
-        "osm:id": "node/612008786",
         "osm:name": "Zelyn Academy",
         "osm:opening_hours": "Mo-Fr 06:30-18:00",
         "osm:operational_status": "operational",
@@ -1746,9 +1877,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:45Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/612008869",
         "osm:name": "Jacobs Well School",
         "osm:operator:description": "More infomation was not given due to abscence of the head in charge",
         "osm:operator:type": "private"
@@ -1766,6 +1898,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:06:54Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "ujamaacounty@yahoo.com",
         "osm:contact:phone": "0724385517",
@@ -1781,7 +1915,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/612008903",
         "osm:name": "Ujamaa Community Primary School",
         "osm:opening_hours": "Mo-Fr 07:00-15:00",
         "osm:operational_status": "operational",
@@ -1801,6 +1934,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:25Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "yes",
         "osm:education:program_counseling": "yes",
@@ -1819,7 +1954,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "secondary",
-        "osm:id": "node/612008908",
         "osm:name": "St Augustus High School",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
         "osm:operational_status": "operational",
@@ -1872,6 +2006,8 @@
         "kenyaopendata:Total Enrolment 2007": "147",
         "kenyaopendata:Total Teaching staff": "8",
         "kenyaopendata:official_name": "KIBRA ACADEMY SEC. SCH",
+        "osm:_timestamp": "2014-05-14T11:52:59Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "kibraacademy@yahoo.com",
         "osm:education:program_counseling": "yes",
@@ -1889,7 +2025,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "10",
         "osm:education:type": "secondary",
-        "osm:id": "node/612008910",
         "osm:name": "Kibra Academy",
         "osm:official_name": "KIBRA ACADEMY SEC. SCH",
         "osm:opening_hours": "07:00-18:00",
@@ -1910,9 +2045,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-28T09:25:55Z",
+        "osm:_user": "muindre",
         "osm:amenity": "school",
         "osm:education:type": "secondary",
-        "osm:id": "node/612008955",
         "osm:name": "Elite Visionary High School"
       },
       "type": "Feature"
@@ -1928,10 +2064,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-01-25T10:12:08Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:description": "primary school",
         "osm:education:type": "Private",
-        "osm:id": "node/612009018",
         "osm:name": "Calvary Adventure School"
       },
       "type": "Feature"
@@ -1947,6 +2084,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:50Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "josiahmunyutu@yahoo.com",
         "osm:contact:phone": "0725 63 55 21",
@@ -1968,7 +2107,6 @@
         "osm:education:teachers_trained": "5",
         "osm:education:teachers_untrained": "11",
         "osm:education:type": "primary",
-        "osm:id": "node/612009037",
         "osm:name": "St John Academy",
         "osm:opening_hours": "Mo-Fr 08:30-16:00",
         "osm:operational_status": "operational",
@@ -2021,6 +2159,8 @@
         "kenyaopendata:Total Enrolment 2007": "189",
         "kenyaopendata:Total Teaching staff": "8",
         "kenyaopendata:official_name": "SOWETO BAPTIST HGH SCH",
+        "osm:_timestamp": "2014-05-14T11:17:22Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "sowetobaptisedhighsch@yahoo.com",
         "osm:contact:phone": "0714  529 422",
@@ -2039,7 +2179,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "5",
         "osm:education:type": "secondary",
-        "osm:id": "node/612009057",
         "osm:name": "Soweto Baptised High School",
         "osm:official_name": "SOWETO BAPTIST HGH SCH",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
@@ -2060,6 +2199,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-11T15:30:34Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0712546723",
         "osm:education:program_counseling": "yes",
@@ -2075,7 +2216,6 @@
         "osm:education:teachers_male": "2",
         "osm:education:teachers_trained": "6",
         "osm:education:type": "nursery",
-        "osm:id": "node/612009062",
         "osm:name": "Day Care Nursery",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -2095,10 +2235,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T07:35:14Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
         "osm:description": "Primary school",
         "osm:education:type": "other",
-        "osm:id": "node/612009121",
         "osm:name": "Brimalisa School"
       },
       "type": "Feature"
@@ -2114,9 +2255,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:44Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/612009125",
         "osm:name": "Wendy Day Care"
       },
       "type": "Feature"
@@ -2132,6 +2274,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:15Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:email": "kenya@carehighway.org",
         "osm:contact:phone": "0724278129,0731090439",
@@ -2149,7 +2293,6 @@
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/612009188",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "30,31.32,33,34",
         "osm:name": "Care High Way Little School",
@@ -2172,10 +2315,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-05-29T22:14:52Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:education:type": "other",
-        "osm:id": "node/612009243",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:village": "Makina",
         "osm:is_in:ward": "Makina",
@@ -2205,10 +2349,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T07:27:13Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
         "osm:description": "primary school",
         "osm:education:type": "Private",
-        "osm:id": "node/612009363",
         "osm:name": "Kibera School for Girls"
       },
       "type": "Feature"
@@ -2224,9 +2369,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-12-18T09:56:40Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
         "osm:education:type": "other",
-        "osm:id": "node/612009364",
         "osm:name": "St Stephen Children's Centre"
       },
       "type": "Feature"
@@ -2242,9 +2388,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:27Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "driving",
-        "osm:id": "node/612009711",
         "osm:name": "Wanderful Driving School"
       },
       "type": "Feature"
@@ -2260,6 +2407,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:03Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "pastorboaz@yahoo.com",
         "osm:contact:phone": "0727073298",
@@ -2282,7 +2431,6 @@
         "osm:education:teachers_tsc": "8",
         "osm:education:teachers_untrained": "6",
         "osm:education:type": "secondary",
-        "osm:id": "node/612011358",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "8",
         "osm:name": "Glory Secondary School",
@@ -2304,9 +2452,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-07-20T08:40:11Z",
+        "osm:_user": "OSMF Redaction Account",
         "osm:amenity": "school",
         "osm:designation": "NGO",
-        "osm:id": "node/662794312",
         "osm:name": "Turning Point"
       },
       "type": "Feature"
@@ -2322,9 +2471,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-07-20T08:40:11Z",
+        "osm:_user": "OSMF Redaction Account",
         "osm:amenity": "school",
         "osm:designation": "NGO",
-        "osm:id": "node/662800049",
         "osm:name": "Turning Point"
       },
       "type": "Feature"
@@ -2340,6 +2490,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-12-06T08:38:40Z",
+        "osm:_user": "muindre",
         "osm:amenity": "school",
         "osm:contact:email": "info@kcyp.net",
         "osm:contact:phone": "0723232359",
@@ -2356,7 +2508,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "2",
         "osm:health_facility:referals": "KHN,Mbagathi,st mary's langata",
-        "osm:id": "node/701794738",
         "osm:medical_service:growth_and_nutritional_support": "yes",
         "osm:medical_service:home_based_care": "yes",
         "osm:medical_service:psychosocial_support_counselling": "yes",
@@ -2380,6 +2531,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:20Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:email": "info@shapethe children foundation.org",
         "osm:education:fees": "yes",
@@ -2398,7 +2551,6 @@
         "osm:education:teachers_trained": "10",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/712907767",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "13",
         "osm:name": "Shape The Child Foundation",
@@ -2421,6 +2573,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-14T16:41:37Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 350 per term",
         "osm:education:program_feeding": "yes",
@@ -2433,7 +2587,6 @@
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/712999562",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "35,36,37,38",
         "osm:name": "Golden Heart Academy",
@@ -2456,6 +2609,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:06:32Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "nazarneprimary@yahoo.com",
         "osm:contact:phone": "0710805593",
@@ -2476,7 +2631,6 @@
         "osm:education:teachers_male": "5",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748771051",
         "osm:name": "Nazarene Self-Help School",
         "osm:opening_hours": "07:00-18:00",
         "osm:operational_status": "operational",
@@ -2496,6 +2650,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:07:25Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0723842458",
         "osm:education:description": "Has Baby Class and pre-unit Classes",
@@ -2513,7 +2669,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748775203",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "3,4,5,6",
         "osm:name": "Bidii Nursery School",
@@ -2535,6 +2690,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:39:03Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 200 per month",
         "osm:education:student_age_range": "4-7yrs",
@@ -2546,7 +2703,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748777107",
         "osm:media:video_device_number": "03",
         "osm:media:video_number": "18",
         "osm:name": "St James Academy",
@@ -2568,6 +2724,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-11T15:32:26Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 400 per month",
         "osm:education:program_counseling": "yes",
@@ -2580,7 +2738,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748777109",
         "osm:media:video_device_number": "03",
         "osm:media:video_number": "15",
         "osm:name": "Pracious Children Centre",
@@ -2602,6 +2759,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:02Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0722216546",
         "osm:education:description": "Has Day Care and Pre-unit Classes",
@@ -2619,7 +2778,6 @@
         "osm:education:teachers_female": "3",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "nursery,kindergarten,primary",
-        "osm:id": "node/748779286",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "10,11,12,13",
         "osm:name": "Abib Kindergarten",
@@ -2641,6 +2799,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:07:12Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0725407489",
         "osm:education:fees": "KShs 100 per month",
@@ -2657,7 +2817,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748781666",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "14",
         "osm:name": "Happy Kids Childrens Center",
@@ -2679,6 +2838,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:14Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 200 per month",
         "osm:education:program_counseling": "yes",
@@ -2696,7 +2857,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "7",
         "osm:education:type": "primary",
-        "osm:id": "node/748782202",
         "osm:media:video_device_number": "03",
         "osm:media:video_number": "19",
         "osm:name": "Akili Complex",
@@ -2718,6 +2878,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:56Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0725-003164",
         "osm:education:fees": "KShs 100 for food",
@@ -2736,7 +2898,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "nursery",
-        "osm:id": "node/748782275",
         "osm:media:video_device_number": "03",
         "osm:media:video_number": "20",
         "osm:name": "Miracle Children Centre",
@@ -2758,6 +2919,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:22Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0721-494154",
         "osm:education:fees": "form 1/2 KShs 3200 per term,form 3/4 KShs 4000 per term",
@@ -2775,7 +2938,6 @@
         "osm:education:teachers_trained": "4",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "secondary",
-        "osm:id": "node/748782276",
         "osm:media:video_device_number": "03",
         "osm:name": "Kibera Academy Secondary School",
         "osm:opening_hours": "08:00-17:30",
@@ -2796,6 +2958,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:37Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 400 per month",
         "osm:education:program_orphans": "yes",
@@ -2807,7 +2971,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:teachers_trained": "4",
         "osm:education:type": "nursery",
-        "osm:id": "node/748782277",
         "osm:media:video_device_number": "03",
         "osm:media:video_number": "21",
         "osm:name": "Tumaini Juniour Academy",
@@ -2829,6 +2992,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:18Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0713869156",
         "osm:education:fees": "KShs 200",
@@ -2848,7 +3013,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748783441",
         "osm:name": "St Catherine Home and Educational Centre",
         "osm:opening_hours": "08:00-18:00",
         "osm:operational_status": "operational",
@@ -2868,6 +3032,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:44Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "christinekimeu2006@yahoo.com",
         "osm:contact:phone": "0720455264/0722655395",
@@ -2887,7 +3053,6 @@
         "osm:education:teachers_trained": "4",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748803831",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "1 and 2",
         "osm:name": "Goodnews Academy",
@@ -2909,6 +3074,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:38Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "christkibera@yahoo.com",
         "osm:education:description": "it offers training in masonry and carpentry",
@@ -2923,7 +3090,6 @@
         "osm:education:teachers": "3",
         "osm:education:teachers_male": "3",
         "osm:education:type": "technical",
-        "osm:id": "node/748804441",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "3",
         "osm:name": "Christ The King Vocational Training Centre",
@@ -2945,6 +3111,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:25Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300",
         "osm:education:program_counseling": "yes",
@@ -2959,7 +3127,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748804545",
         "osm:name": "Holiy Mountain School",
         "osm:opening_hours": "Mo-Fr 07:30-15:00",
         "osm:operational_status": "operational",
@@ -2979,6 +3146,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:45Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "p.o box, 21717-00505 nairobi",
         "osm:education:fees": "yes",
@@ -2996,7 +3165,6 @@
         "osm:education:teachers_male": "5",
         "osm:education:teachers_trained": "11",
         "osm:education:type": "secondary",
-        "osm:id": "node/748804547",
         "osm:name": "Mashimoni High School",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
         "osm:operational_status": "operational",
@@ -3016,6 +3184,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:07Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "p.o box, 21717-00505 nairobi",
         "osm:education:fees": "yes",
@@ -3033,7 +3203,6 @@
         "osm:education:teachers_male": "8",
         "osm:education:teachers_trained": "16",
         "osm:education:type": "primary",
-        "osm:id": "node/748804548",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "7",
         "osm:name": "Mashimoni Primary School",
@@ -3055,6 +3224,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:08Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "patrickanidasa@yahoo.com",
         "osm:contact:phone": "0724759396",
@@ -3074,7 +3245,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748804549",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "1",
         "osm:name": "Tranform F.H Children Center",
@@ -3096,6 +3266,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:10Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 200",
         "osm:education:program_feeding": "yes",
@@ -3110,7 +3282,6 @@
         "osm:education:teachers_male": "0",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/748804550",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "5",
         "osm:name": "Jamhuri Assembly School",
@@ -3132,6 +3303,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:52Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 200",
         "osm:education:program_description": "kids carry their own food from home",
@@ -3148,7 +3321,6 @@
         "osm:education:teachers_trained": "0",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748804553",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "8",
         "osm:name": "A.D.C Elim Assembly Nuru Region",
@@ -3170,6 +3342,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:51Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "p.o box, 21377-00505 nairobi",
         "osm:education:fees": "KShs 200",
@@ -3184,7 +3358,6 @@
         "osm:education:teachers_male": "0",
         "osm:education:teachers_trained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748804555",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "4",
         "osm:name": "Patmos Fellowship Church (school)",
@@ -3206,6 +3379,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:21Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0722404726-o734343491",
         "osm:education:fees": "yes",
@@ -3220,7 +3395,6 @@
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748804556",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "14",
         "osm:name": "Maranatha Academy",
@@ -3242,6 +3416,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:10Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "P.O Box 21706 0100 Nairobi",
         "osm:education:description": "The nursery and primary are located at the same compound but at different point of the compound.",
@@ -3261,7 +3437,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748805433",
         "osm:media:camera_device_number": "2",
         "osm:name": "Kibera Church of God Nursery and Primary School",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
@@ -3282,6 +3457,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:37Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "andrewsaval2yahoo.com",
         "osm:contact:phone": "0722465092",
@@ -3297,7 +3474,6 @@
         "osm:education:teachers_trained": "11",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748826131",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "6",
         "osm:name": "Kibera Free Methodist Academy",
@@ -3317,6 +3493,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:04Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0723411369/0722337987/0722446903",
         "osm:education:fees": "form 1-3 kShs 11400 per year,form four KShs 14100",
@@ -3331,7 +3509,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "5",
         "osm:education:type": "secondary",
-        "osm:id": "node/748826132",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "5",
         "osm:name": "Elite Visionary High School",
@@ -3346,15 +3523,54 @@
       "geometry": {
         "coordinates": [
           [
-            36.7932298,
-            -1.3104484
+            36.79323,
+            -1.310448
+          ],
+          [
+            36.79242,
+            -1.30789
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Boys Toilets": "1",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:District": "NAIROBI",
+        "kenyaopendata:Division": "KIBERA",
+        "kenyaopendata:GOK TSC Female": "0",
+        "kenyaopendata:GOK TSC Male": "0",
+        "kenyaopendata:Girls Toilets": "1",
+        "kenyaopendata:Level of Education": "PRIMARY SCHOOL",
+        "kenyaopendata:Local Authority Female": "0",
+        "kenyaopendata:Local Authority Male": "0",
+        "kenyaopendata:Location": "LAINI SABA",
+        "kenyaopendata:Non-Teaching Staff Female": "2",
+        "kenyaopendata:Non-Teaching Staff Male": "1",
+        "kenyaopendata:Others Female": "3",
+        "kenyaopendata:Others Male": "6",
+        "kenyaopendata:PTA BOG Female": "0",
+        "kenyaopendata:PTA BOG Male": "0",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Pupil Classroom Ratio": "14.9",
+        "kenyaopendata:Pupil Teacher Ratio": "14.9",
+        "kenyaopendata:Pupil Toilet Ratio": "67",
+        "kenyaopendata:School Institution Type_1": "MIXED",
+        "kenyaopendata:School Institution Type_2": "DAY ONLY",
+        "kenyaopendata:School Institution Type_3": "ORDINARY",
+        "kenyaopendata:Sponsor of School": "PRIVATE INDIVIDUAL",
+        "kenyaopendata:Status of School": "PRIVATE",
+        "kenyaopendata:Teachers Toilets": "1",
+        "kenyaopendata:Total Boys": "",
+        "kenyaopendata:Total Enrolment": "134",
+        "kenyaopendata:Total Girls": "",
+        "kenyaopendata:Total Number of Classrooms": "9",
+        "kenyaopendata:Total Toilets": "",
+        "kenyaopendata:official_name": "MAGOSO PRIMARY",
+        "osm:_timestamp": "2014-05-17T13:35:08Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
-        "osm:contact:phone": "0725712604",
+        "osm:contact:phone": "725712604",
         "osm:education:fees": "total orphans KShs 50 for exams,partial orphans KShs 100,those with parents KShs 250",
         "osm:education:program_computers": "yes",
         "osm:education:program_counseling": "yes",
@@ -3376,10 +3592,10 @@
         "osm:education:teachers_trained": "14",
         "osm:education:teachers_untrained": "6",
         "osm:education:type": "primary",
-        "osm:id": "node/748826133",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "4",
         "osm:name": "Magoso Primary School",
+        "osm:official_name": "MAGOSO PRIMARY",
         "osm:opening_hours": "Mo-Fr 08:00-17:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "always",
@@ -3398,6 +3614,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-18T08:44:21Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:contact:phone": "0722272968",
         "osm:education:fees": "30% pays fees",
@@ -3415,7 +3633,6 @@
         "osm:education:teachers_female": "20",
         "osm:education:teachers_male": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748833031",
         "osm:name": "Little Rock school",
         "osm:opening_hours": "07:30-15:30",
         "osm:operational_status": "operational",
@@ -3429,13 +3646,52 @@
       "geometry": {
         "coordinates": [
           [
-            36.7769271,
-            -1.3124483
+            36.776927,
+            -1.312448
+          ],
+          [
+            36.776112,
+            -1.309925
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Boys Toilets": "1",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:District": "NAIROBI",
+        "kenyaopendata:Division": "KIBERA",
+        "kenyaopendata:GOK TSC Female": "0",
+        "kenyaopendata:GOK TSC Male": "0",
+        "kenyaopendata:Girls Toilets": "1",
+        "kenyaopendata:Level of Education": "PRIMARY SCHOOL",
+        "kenyaopendata:Local Authority Female": "0",
+        "kenyaopendata:Local Authority Male": "0",
+        "kenyaopendata:Location": "SERA NGOMBE",
+        "kenyaopendata:Non-Teaching Staff Female": "2",
+        "kenyaopendata:Non-Teaching Staff Male": "2",
+        "kenyaopendata:Others Female": "5",
+        "kenyaopendata:Others Male": "4",
+        "kenyaopendata:PTA BOG Female": "0",
+        "kenyaopendata:PTA BOG Male": "0",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Pupil Classroom Ratio": "14",
+        "kenyaopendata:Pupil Teacher Ratio": "10.9",
+        "kenyaopendata:Pupil Toilet Ratio": "49",
+        "kenyaopendata:School Institution Type_1": "MIXED",
+        "kenyaopendata:School Institution Type_2": "DAY ONLY",
+        "kenyaopendata:School Institution Type_3": "ORDINARY",
+        "kenyaopendata:Sponsor of School": "COMMUNITY",
+        "kenyaopendata:Status of School": "PRIVATE",
+        "kenyaopendata:Teachers Toilets": "1",
+        "kenyaopendata:Total Boys": "53",
+        "kenyaopendata:Total Enrolment": "98",
+        "kenyaopendata:Total Girls": "45",
+        "kenyaopendata:Total Number of Classrooms": "7",
+        "kenyaopendata:Total Toilets": "0",
+        "kenyaopendata:official_name": "TUNZA CHILDREN CENTRE-PRI SCH",
+        "osm:_timestamp": "2014-05-17T13:28:48Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "tunzachildrencentre@yahoo.com",
         "osm:education:fees": "some pay for feeding program",
@@ -3454,8 +3710,8 @@
         "osm:education:teachers_male": "4",
         "osm:education:teachers_tsc": "1",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748833032",
         "osm:name": "Tunza Children Center",
+        "osm:official_name": "TUNZA CHILDREN CENTRE-PRI SCH",
         "osm:opening_hours": "08:00-16:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "often",
@@ -3474,6 +3730,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:17Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:email": "kenya@deafaid.org",
         "osm:contact:phone": "(245)0724519466",
@@ -3490,7 +3748,6 @@
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "2",
         "osm:education:type": "kindergarten,nursery",
-        "osm:id": "node/748833033",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "23",
         "osm:name": "Green House Pre-unit School for Deaf",
@@ -3512,6 +3769,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:28Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "yes",
         "osm:education:program_feeding": "yes",
@@ -3525,7 +3784,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "1",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748833034",
         "osm:name": "STAWI Junior Academy",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -3545,6 +3803,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:29Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "yes",
         "osm:education:program_feeding": "yes",
@@ -3556,7 +3816,6 @@
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "3",
         "osm:education:type": "kindergarten,primary",
-        "osm:id": "node/748833035",
         "osm:name": "Valley of Hope",
         "osm:opening_hours": "07:00-16:00",
         "osm:operational_status": "operational",
@@ -3613,6 +3872,8 @@
         "kenyaopendata:Total Number of Classrooms": "3",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "RFC CENTER PRI SCH",
+        "osm:_timestamp": "2014-05-14T11:55:42Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:phone": "0725378240",
         "osm:education:fees": "small contribution from parents to feed the children",
@@ -3628,7 +3889,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748833036",
         "osm:name": "Revival Fellowship Children Center",
         "osm:official_name": "RFC CENTER PRI SCH",
         "osm:opening_hours": "08:00-15:00",
@@ -3650,6 +3910,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:22Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "kag.olympic@gmail.com",
         "osm:education:description": "has also tailoring, hairdressing, GYM",
@@ -3662,7 +3924,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "2",
         "osm:education:type": "computer",
-        "osm:id": "node/748833040",
         "osm:name": "Vocational Tranning Center",
         "osm:opening_hours": "08:00-16:00",
         "osm:operational_status": "operational",
@@ -3716,6 +3977,8 @@
         "kenyaopendata:Total Enrolment 2007": "250",
         "kenyaopendata:Total Teaching staff": "12",
         "kenyaopendata:official_name": "STARAYS HOPE COMM CENTER SEC SCH",
+        "osm:_timestamp": "2014-05-14T01:18:20Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "staraysope@yahoo.com",
         "osm:education:fees": "half of school pay fees",
@@ -3734,7 +3997,6 @@
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "12",
         "osm:education:type": "secondary",
-        "osm:id": "node/748833041",
         "osm:name": "Starays Hope Community Center",
         "osm:official_name": "STARAYS HOPE COMM CENTER SEC SCH",
         "osm:opening_hours": "07:00-17:00",
@@ -3755,6 +4017,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:24Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:description": "Has pre school (day care, baby class, and pre unit)",
         "osm:education:fees": "yes",
@@ -3769,7 +4033,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748833042",
         "osm:name": "Loam Education Center",
         "osm:opening_hours": "07:00-15:30",
         "osm:operational_status": "operational",
@@ -3789,6 +4052,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:59Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "yes for feeding and fees",
         "osm:education:program_computers": "yes",
@@ -3806,7 +4071,6 @@
         "osm:education:teachers_female": "10",
         "osm:education:teachers_male": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748833044",
         "osm:name": "Olympic Educational Center",
         "osm:opening_hours": "07:00-17:00",
         "osm:operational_status": "operational",
@@ -3826,6 +4090,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:38Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0725 488 163",
         "osm:education:fees": "KShs 200 per month",
@@ -3844,7 +4110,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "10",
         "osm:education:type": "primary",
-        "osm:id": "node/748845930",
         "osm:name": "Bible Baptised Primary",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -3865,6 +4130,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:23Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "rachloms@yahoo.com",
         "osm:contact:phone": "0727 654 161",
@@ -3882,7 +4149,6 @@
         "osm:education:teachers_female": "6",
         "osm:education:teachers_trained": "6",
         "osm:education:type": "primary",
-        "osm:id": "node/748845933",
         "osm:name": "St Lazarus School",
         "osm:opening_hours": "Mo-Fr 07:00-16:00",
         "osm:operational_status": "operational",
@@ -3903,6 +4169,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:15Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0720 45 00 57",
         "osm:education:fees": "KShs 300 per month",
@@ -3922,7 +4190,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "primary",
-        "osm:id": "node/748845940",
         "osm:name": "ACK St. Emmanuel School",
         "osm:opening_hours": "Mo-Fr 07:00-16:00",
         "osm:operational_status": "operational",
@@ -3980,6 +4247,8 @@
         "kenyaopendata:Total Number of Classrooms": "0",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "UNDUGU BASIC ED PROGRAMME KIBERA",
+        "osm:_timestamp": "2014-05-14T10:47:49Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:phone": "0710 383 782",
         "osm:education:fees": "none",
@@ -3999,7 +4268,6 @@
         "osm:education:teachers_trained": "6",
         "osm:education:teachers_tsc": "4",
         "osm:education:type": "post secondary non-formal",
-        "osm:id": "node/748845943",
         "osm:name": "Undugu School Kibera",
         "osm:official_name": "UNDUGU BASIC ED PROGRAMME KIBERA",
         "osm:opening_hours": "Mo-Fr 07:00-16:00",
@@ -4020,6 +4288,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:46Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300 per term",
         "osm:education:program_feeding": "yes",
@@ -4029,7 +4299,6 @@
         "osm:education:teachers": "3",
         "osm:education:teachers_male": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/748858916",
         "osm:name": "Shepherd Junior Academy",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operational_status": "operational",
@@ -4049,6 +4318,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:08:09Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "tunzatoto@yahoo.com",
         "osm:contact:phone": "P.O.BOX68990200NRB",
@@ -4062,7 +4333,6 @@
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748858917",
         "osm:media:camera_device_number": "2",
         "osm:media:camera_number": "7",
         "osm:name": "Ushirika Children Centre",
@@ -4084,6 +4354,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:59Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 250 per term",
         "osm:education:program_feeding": "yes",
@@ -4095,7 +4367,6 @@
         "osm:education:teachers_female": "3",
         "osm:education:teachers_male": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748858919",
         "osm:name": "Little Angels Academy",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operational_status": "operational",
@@ -4115,6 +4386,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:30Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300 per term",
         "osm:education:program_counseling": "yes",
@@ -4125,7 +4398,6 @@
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/748858922",
         "osm:name": "Supa toto Kindergarten",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operational_status": "operational",
@@ -4145,6 +4417,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:20Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "siloamministry@yahoo.com",
         "osm:contact:phone": "0710 24 45 65",
@@ -4163,7 +4437,6 @@
         "osm:education:teachers_trained": "8",
         "osm:education:teachers_untrained": "5",
         "osm:education:type": "primary",
-        "osm:id": "node/748863823",
         "osm:name": "Siloam Fellowship Ministry Academy",
         "osm:opening_hours": "Mo-Fr 08:00-16:10",
         "osm:operational_status": "operational",
@@ -4184,9 +4457,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:20Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/748863824",
         "osm:name": "St Bakita Nursery School",
         "osm:operational_status": "operational",
         "osm:operator:type": "religious"
@@ -4204,9 +4478,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-05-29T22:14:51Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:education:type": "other",
-        "osm:id": "node/748863825",
         "osm:name": "Holy Mountain Worship Center & Children Centre Academy",
         "osm:operational_status": "operational",
         "osm:operator:type": "religious",
@@ -4218,17 +4493,56 @@
       "geometry": {
         "coordinates": [
           [
-            36.7952003,
-            -1.3158626
+            36.7952,
+            -1.315863
+          ],
+          [
+            36.794365,
+            -1.313182
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Boys Toilets": "4",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:District": "NAIROBI",
+        "kenyaopendata:Division": "KIBERA",
+        "kenyaopendata:GOK TSC Female": "0",
+        "kenyaopendata:GOK TSC Male": "0",
+        "kenyaopendata:Girls Toilets": "4",
+        "kenyaopendata:Level of Education": "PRIMARY SCHOOL",
+        "kenyaopendata:Local Authority Female": "0",
+        "kenyaopendata:Local Authority Male": "0",
+        "kenyaopendata:Location": "KIBERA",
+        "kenyaopendata:Non-Teaching Staff Female": "4",
+        "kenyaopendata:Non-Teaching Staff Male": "0",
+        "kenyaopendata:Others Female": "0",
+        "kenyaopendata:Others Male": "0",
+        "kenyaopendata:PTA BOG Female": "3",
+        "kenyaopendata:PTA BOG Male": "7",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Pupil Classroom Ratio": "19.8",
+        "kenyaopendata:Pupil Teacher Ratio": "19.8",
+        "kenyaopendata:Pupil Toilet Ratio": "24.8",
+        "kenyaopendata:School Institution Type_1": "MIXED",
+        "kenyaopendata:School Institution Type_2": "DAY ONLY",
+        "kenyaopendata:School Institution Type_3": "ORDINARY",
+        "kenyaopendata:Sponsor of School": "RELIGIOUS ORGANIZATION",
+        "kenyaopendata:Status of School": "PRIVATE",
+        "kenyaopendata:Teachers Toilets": "2",
+        "kenyaopendata:Total Boys": "0",
+        "kenyaopendata:Total Enrolment": "198",
+        "kenyaopendata:Total Girls": "0",
+        "kenyaopendata:Total Number of Classrooms": "10",
+        "kenyaopendata:Total Toilets": "0",
+        "kenyaopendata:official_name": "MOC PRI SCH",
+        "osm:_timestamp": "2014-05-17T13:34:09Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/748863826",
         "osm:name": "MOC Primary",
+        "osm:official_name": "MOC PRI SCH",
         "osm:operational_status": "operational",
         "osm:operator:description": "Mission Outreach Church",
         "osm:operator:type": "religious"
@@ -4246,6 +4560,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:36Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "jaedwing@yahoo.com",
         "osm:contact:phone": "0723 941 883",
@@ -4263,7 +4579,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "primary",
-        "osm:id": "node/748863827",
         "osm:name": "Wings of Life Children's Centre",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -4284,6 +4599,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-01-31T08:25:57Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:boundary_type:Constituency_boundary": "yes",
         "osm:boundary_type:Ward_boundary": "yes",
@@ -4305,7 +4622,6 @@
         "osm:education:teachers_trained": "5",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "nursery,secondary",
-        "osm:id": "node/748863829",
         "osm:is_in:constituency": "Langatta",
         "osm:is_in:village": "Silanga",
         "osm:is_in:ward": "Nyayo highrise",
@@ -4336,9 +4652,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2011-04-07T13:00:31Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:type": "nursery",
-        "osm:id": "node/748863830",
         "osm:name": "Jesus Winners Pre-School",
         "osm:opening_hours": "Mo-Fr 08:00-17:00",
         "osm:operator:type": "religious"
@@ -4356,6 +4673,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:28Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:program_counseling": "yes",
         "osm:education:program_feeding": "yes",
@@ -4371,7 +4690,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "20",
         "osm:education:type": "primary",
-        "osm:id": "node/748870478",
         "osm:name": "Anajali Community Centre",
         "osm:opening_hours": "07:00-17:00",
         "osm:operational_status": "operational",
@@ -4391,6 +4709,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:23Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "ngajosewa@hotmail.com",
         "osm:contact:phone": "0720700795,0722893683",
@@ -4410,7 +4730,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "5",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748870479",
         "osm:name": "Church on The Rock Academy",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -4430,6 +4749,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-11T15:29:24Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0724532076",
         "osm:education:fees": "KShs 250",
@@ -4441,7 +4762,6 @@
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "4",
         "osm:education:type": "nursery",
-        "osm:id": "node/748870481",
         "osm:name": "Kids Star Academy",
         "osm:opening_hours": "07:30-15:00",
         "osm:operational_status": "operational",
@@ -4461,6 +4781,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:33Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0720918745",
         "osm:education:fees": "KShs 250",
@@ -4475,7 +4797,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "primary",
-        "osm:id": "node/748870482",
         "osm:name": "St Stephen Primary",
         "osm:opening_hours": "07:40-16:00",
         "osm:operational_status": "operational",
@@ -4495,6 +4816,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:54Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0721683523",
         "osm:education:fees": "KShs 300 per month",
@@ -4512,7 +4835,6 @@
         "osm:education:teachers_trained": "5",
         "osm:education:teachers_untrained": "5",
         "osm:education:type": "kindergarten,nursery,primary,secondary",
-        "osm:id": "node/748912629",
         "osm:name": "Gifted Hands Educational Centre",
         "osm:opening_hours": "07:00-17:00",
         "osm:operational_status": "operational",
@@ -4532,6 +4854,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:09Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0711354341",
         "osm:education:fees": "KShs 200 per month",
@@ -4546,7 +4870,6 @@
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748912656",
         "osm:name": "Mount Sinai Nursery School",
         "osm:opening_hours": "07:30-15:30",
         "osm:operational_status": "operational",
@@ -4566,6 +4889,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:34Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0729464344-6003336",
         "osm:education:fees": "they dont pay fees",
@@ -4581,7 +4906,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/748912704",
         "osm:name": "St Joseph Primary School",
         "osm:opening_hours": "07:00-12:30",
         "osm:operational_status": "operational",
@@ -4602,6 +4926,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:49Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0712927263",
         "osm:education:fees": "KShs 300 per month",
@@ -4617,7 +4943,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/748912718",
         "osm:name": "Shelter School",
         "osm:opening_hours": "07:30-15:00",
         "osm:operational_status": "operational",
@@ -4674,6 +4999,8 @@
         "kenyaopendata:Total Number of Classrooms": "1",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "SEED JUNIOR ACADEMY PRI",
+        "osm:_timestamp": "2014-05-14T11:13:06Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:phone": "0752239982",
         "osm:education:fees": "KShs 300 per month",
@@ -4692,7 +5019,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/748912736",
         "osm:name": "Seed Juniour School",
         "osm:official_name": "SEED JUNIOR ACADEMY PRI",
         "osm:opening_hours": "08:00-12:30",
@@ -4713,6 +5039,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:38Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0720017244",
         "osm:education:fees": "KShs 300 per month",
@@ -4725,7 +5053,6 @@
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:type": "nursery,kindergarten,primary",
-        "osm:id": "node/748912754",
         "osm:name": "Avest Centre Academy",
         "osm:opening_hours": "07:00-15:30",
         "osm:operational_status": "operational",
@@ -4745,6 +5072,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:33Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0712880711",
         "osm:education:fees": "KShs 250 per month",
@@ -4760,7 +5089,6 @@
         "osm:education:teachers_female": "1",
         "osm:education:teachers_trained": "1",
         "osm:education:type": "nursery,kindergarten",
-        "osm:id": "node/748912771",
         "osm:name": "Hope Academy",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -4780,6 +5108,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:42Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "praisemirrowlib@yahoo.com",
         "osm:contact:phone": "0728912143",
@@ -4795,7 +5125,6 @@
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "2",
         "osm:education:type": "kindergarten,nursery,primary",
-        "osm:id": "node/748912790",
         "osm:name": "Canner Juniour Acdemy",
         "osm:opening_hours": "07:00-16:30",
         "osm:operational_status": "operational",
@@ -4815,6 +5144,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:07Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300 per month",
         "osm:education:program_counseling": "yes",
@@ -4828,7 +5159,6 @@
         "osm:education:teachers_male": "3",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/748912808",
         "osm:name": "Kissckodep School",
         "osm:opening_hours": "07:30-15:30",
         "osm:operational_status": "operational",
@@ -4848,6 +5178,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:16Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "ststephene2008@yahoo.com",
         "osm:contact:phone": "0720141337",
@@ -4867,7 +5199,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "5",
         "osm:education:type": "kindergarten,nursery,primary",
-        "osm:id": "node/748912818",
         "osm:name": "St Stiphine Children Centre",
         "osm:opening_hours": "07:00-16:00",
         "osm:operational_status": "operational",
@@ -4887,6 +5218,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:06:43Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0723642635",
         "osm:education:program_counseling": "yes",
@@ -4904,7 +5237,6 @@
         "osm:education:teachers_trained": "10",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/748912871",
         "osm:name": "St Polly Children Centre",
         "osm:opening_hours": "08:30-15:30",
         "osm:operational_status": "operational",
@@ -4924,6 +5256,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:21Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:phone": "0721423609",
         "osm:education:fees": "KShs 400 per term",
@@ -4936,7 +5270,6 @@
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:type": "tailoring",
-        "osm:id": "node/752219201",
         "osm:name": "Y.M.C.A. Kibera",
         "osm:opening_hours": "Mo-Fr 08:00-16:30",
         "osm:operational_status": "operational",
@@ -4956,6 +5289,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-08-27T08:06:44Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 400 per term",
         "osm:education:program_scouting": "yes",
@@ -4968,7 +5303,6 @@
         "osm:education:teachers_female": "7",
         "osm:education:teachers_male": "5",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752221613",
         "osm:name": "Kibera Soweto School",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -4988,6 +5322,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:23Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 400 per month",
         "osm:education:program_feeding": "yes",
@@ -5000,7 +5336,6 @@
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "4",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752221614",
         "osm:name": "St Lazarus School",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -5020,6 +5355,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2014-04-28T09:12:40Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:contact:email": "patlumbus@yahoo.com",
         "osm:contact:phone": "0721540869",
@@ -5041,7 +5378,6 @@
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "nursery,primary",
         "osm:fee": "no",
-        "osm:id": "node/752223310",
         "osm:name": "Kibera Blessed Academy",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -5061,6 +5397,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-01-25T07:22:34Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:fees": "yes",
         "osm:education:program_feeding": "yes",
@@ -5076,7 +5414,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/752254027",
         "osm:name": "PAG School",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operational_status": "operational",
@@ -5096,6 +5433,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:48Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "yes",
         "osm:education:program_counseling": "yes",
@@ -5111,7 +5450,6 @@
         "osm:education:teachers_trained": "0",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/752254053",
         "osm:name": "St Veronica Nursery School",
         "osm:opening_hours": "Mo-Fr 08:00-15:00",
         "osm:operational_status": "operational",
@@ -5131,6 +5469,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:42Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "p.o box 67611 Nairobi",
         "osm:education:fees": "yes",
@@ -5145,7 +5485,6 @@
         "osm:education:teachers_male": "4",
         "osm:education:teachers_trained": "4",
         "osm:education:type": "secondary",
-        "osm:id": "node/752254067",
         "osm:name": "Siloam Fellowship Ministry",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
         "osm:operational_status": "operational",
@@ -5165,6 +5504,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:06:50Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0720063516",
         "osm:education:fees": "KShs 150 per month",
@@ -5177,7 +5518,6 @@
         "osm:education:teachers_female": "1",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/752262462",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "49",
         "osm:name": "Kambi Muru Ushirika",
@@ -5199,6 +5539,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:07:24Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0723311277",
         "osm:education:fees": "KShs 300 per month",
@@ -5208,7 +5550,6 @@
         "osm:education:teachers_female": "3",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "tailoring",
-        "osm:id": "node/752262463",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "048",
         "osm:name": "Chill and stay a life Tailoring",
@@ -5229,6 +5570,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:20Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0723-754389",
         "osm:education:fees": "KShs 1200 per month",
@@ -5249,7 +5592,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "6",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752276347",
         "osm:name": "Luther Academy",
         "osm:opening_hours": "07:30-16:00",
         "osm:operational_status": "operational",
@@ -5270,6 +5612,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:08:01Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0725473289",
         "osm:education:description": "Has Nursery",
@@ -5290,7 +5634,6 @@
         "osm:education:teachers_male": "9",
         "osm:education:teachers_trained": "14",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752276359",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "41,42",
         "osm:name": "Spurgeons Academy",
@@ -5313,6 +5656,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:21Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "graebens.school@yahoo.com",
         "osm:education:fees": "BCE8800.Class E7500",
@@ -5323,7 +5668,6 @@
         "osm:education:teachers": "7",
         "osm:education:teachers_male": "7",
         "osm:education:type": "driving",
-        "osm:id": "node/752276386",
         "osm:name": "Graebens Driving Shool",
         "osm:opening_hours": "07:30-18:30",
         "osm:operational_status": "operational",
@@ -5344,6 +5688,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:36Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 800",
         "osm:education:staff_male": "3",
@@ -5355,7 +5701,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752276387",
         "osm:media:camera_device_number": "01",
         "osm:media:camera_number": "43",
         "osm:name": "Three Bells Center",
@@ -5378,6 +5723,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-06-04T08:20:15Z",
+        "osm:_user": "regynnah",
         "osm:amenity": "school",
         "osm:contact:email": "optimist educational center@hot mail",
         "osm:contact:phone": "0722948228",
@@ -5398,7 +5745,6 @@
         "osm:education:teachers_trained": "4",
         "osm:education:teachers_untrained": "6",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752317805",
         "osm:media:camera_device_number": "1",
         "osm:media:camera_number": "52,53,54",
         "osm:name": "Optimist Educational Centre",
@@ -5420,6 +5766,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:08:13Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "mchangawomen@yahoo.com",
         "osm:contact:phone": "0710381176",
@@ -5437,7 +5785,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/752319660",
         "osm:name": "Mchanganyioko ECD",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -5457,6 +5804,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:00Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "joanamunge@yahoo.com",
         "osm:education:program_counseling": "yes",
@@ -5475,7 +5824,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "12",
         "osm:education:type": "secondary",
-        "osm:id": "node/752352033",
         "osm:name": "Raila Educational Centre (Secondary)",
         "osm:opening_hours": "06:30-18:00",
         "osm:operational_status": "operational",
@@ -5495,6 +5843,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:41Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:program_counseling": "yes",
         "osm:education:program_feeding": "yes",
@@ -5511,7 +5861,6 @@
         "osm:education:teachers_trained": "6",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "primary",
-        "osm:id": "node/752362193",
         "osm:name": "Green Pastures Academy",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "operational",
@@ -5531,6 +5880,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:57Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:program_feeding": "no",
         "osm:education:program_orphans": "yes",
@@ -5544,7 +5895,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752388425",
         "osm:name": "Holy Trinity Nursery School",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -5564,6 +5914,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:33Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0723626177",
         "osm:education:fees": "250",
@@ -5579,7 +5931,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/752388466",
         "osm:name": "St Bathlomia",
         "osm:opening_hours": "07:00-15:30",
         "osm:operational_status": "operational",
@@ -5636,6 +5987,8 @@
         "kenyaopendata:Total Number of Classrooms": "0",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "TENDERLINGS PRI SCH",
+        "osm:_timestamp": "2014-04-06T15:08:58Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:phone": "020-24693228",
         "osm:education:fees": "KShs 8000 per term",
@@ -5654,7 +6007,6 @@
         "osm:education:teachers_trained": "6",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "primary",
-        "osm:id": "node/752394857",
         "osm:name": "Tenderlings Primary School",
         "osm:official_name": "TENDERLINGS PRI SCH",
         "osm:opening_hours": "07:30-16:00",
@@ -5712,6 +6064,8 @@
         "kenyaopendata:Total Number of Classrooms": "27",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "AYANI ESTATE PRI SCH",
+        "osm:_timestamp": "2014-04-06T15:13:59Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:contact:email": "ayanyprimaryschool@gmail.com",
@@ -5731,7 +6085,6 @@
         "osm:education:teachers_male": "4",
         "osm:education:teachers_trained": "27",
         "osm:education:type": "primary",
-        "osm:id": "node/752394881",
         "osm:is_in:constituency": "kibra",
         "osm:is_in:estate": "ayany",
         "osm:is_in:ward": "sarangombe",
@@ -5799,6 +6152,8 @@
         "kenyaopendata:Total Number of Classrooms": "32",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "KIBERA PRI. SCH.",
+        "osm:_timestamp": "2014-05-14T11:21:05Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
         "osm:contact:email": "oldkiberaprimary@gmail.com",
@@ -5816,7 +6171,6 @@
         "osm:education:teachers_trained": "22",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "primary",
-        "osm:id": "node/752394892",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:estate": "Karanja",
         "osm:is_in:ward": "Makina",
@@ -5847,6 +6201,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:00Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0727842235",
         "osm:education:program_feeding": "yes",
@@ -5860,7 +6216,6 @@
         "osm:education:teachers_male": "3",
         "osm:education:teachers_trained": "5",
         "osm:education:type": "nursery",
-        "osm:id": "node/752410539",
         "osm:name": "Tapa Education Center",
         "osm:opening_hours": "08:00-16:00",
         "osm:operational_status": "operational",
@@ -5880,6 +6235,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:17Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "box 564891-00200",
         "osm:contact:phone": "0720688452",
@@ -5895,7 +6252,6 @@
         "osm:education:teachers_male": "1",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/752423585",
         "osm:name": "St Andrews Educational Center",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -5915,6 +6271,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:18Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:phone": "0720285362",
         "osm:education:fees": "none",
@@ -5929,7 +6287,6 @@
         "osm:education:teachers_male": "4",
         "osm:education:teachers_trained": "4",
         "osm:education:type": "nursery",
-        "osm:id": "node/752429630",
         "osm:name": "MSK Tusaidie Watoo Project",
         "osm:opening_hours": "08:00-15:30",
         "osm:operational_status": "operational",
@@ -5950,6 +6307,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:27Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "Rosemarymusanga@gmail.com",
         "osm:contact:phone": "0721868864",
@@ -5969,7 +6328,6 @@
         "osm:education:teachers_tsc": "4",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/752496685",
         "osm:name": "St Georges Orthodox Nursery School",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -5990,6 +6348,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:31Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "Box 21608-00505,Nairobi",
         "osm:contact:phone": "0724201340",
@@ -6007,7 +6367,6 @@
         "osm:education:teachers_trained": "2",
         "osm:education:teachers_untrained": "1-undergoing Training",
         "osm:education:type": "nursery",
-        "osm:id": "node/752803404",
         "osm:name": "Salvation Army Nursery School",
         "osm:opening_hours": "07:30-15:00",
         "osm:operational_status": "operational",
@@ -6028,6 +6387,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:17Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:phone": "0720032052",
         "osm:education:fees": "KShs 2500 per training (computer packages), KShs 4500 for language courses per person",
@@ -6041,7 +6402,6 @@
         "osm:education:teachers_male": "3",
         "osm:education:teachers_trained": "4",
         "osm:education:type": "computer,language",
-        "osm:id": "node/761951369",
         "osm:name": "Kuna Shule Centre",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "not operational",
@@ -6061,6 +6421,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:06Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "seciliaacademy@yahoo.com.box50401 Nairobi",
         "osm:contact:phone": "0720412568",
@@ -6081,7 +6443,6 @@
         "osm:education:teachers_tsc": "3,1 is undergoing training",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "primary",
-        "osm:id": "node/761952623",
         "osm:name": "St Cecilia SH School",
         "osm:opening_hours": "07:00-17:00",
         "osm:operational_status": "operational",
@@ -6101,6 +6462,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:42Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "joysprings@yahoo.com",
         "osm:contact:phone": "0721201173",
@@ -6121,7 +6484,6 @@
         "osm:education:teachers_trained": "14",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/761956459",
         "osm:name": "Joysprings Educational Centre",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "operational",
@@ -6141,6 +6503,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:38:39Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0724766913",
         "osm:education:fees": "KShs 450 per month",
@@ -6159,7 +6523,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/761957138",
         "osm:name": "Soweto West LLC Church Nusery School",
         "osm:opening_hours": "09:00-15:00",
         "osm:operational_status": "operational",
@@ -6179,6 +6542,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:21Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:education:program_computers": "yes",
         "osm:education:program_counseling": "yes",
@@ -6195,7 +6560,6 @@
         "osm:education:teachers_male": "7",
         "osm:education:teachers_trained": "13",
         "osm:education:type": "secondary",
-        "osm:id": "node/761965627",
         "osm:name": "St Allocious Gonzaga Secondary School",
         "osm:opening_hours": "08:00-18:00",
         "osm:operational_status": "operational",
@@ -6215,6 +6579,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:10Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0726724015",
         "osm:education:program_counseling": "yes",
@@ -6233,7 +6599,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "primary",
-        "osm:id": "node/761980443",
         "osm:name": "New Life MC School",
         "osm:opening_hours": "08:00-17:30",
         "osm:operational_status": "operational",
@@ -6253,6 +6618,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:39Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300 per month",
         "osm:education:program_feeding": "yes",
@@ -6266,7 +6633,6 @@
         "osm:education:teachers_male": "2",
         "osm:education:teachers_trained": "3",
         "osm:education:type": "nursery",
-        "osm:id": "node/761992157",
         "osm:name": "St Collins Nursery School",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -6286,6 +6652,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:13Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0727843560",
         "osm:education:fees": "KShs 350 per month",
@@ -6300,7 +6668,6 @@
         "osm:education:teachers_male": "2",
         "osm:education:teachers_trained": "4",
         "osm:education:type": "nursery",
-        "osm:id": "node/761993870",
         "osm:name": "Methodist Nursery School",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -6320,6 +6687,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:45Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 300 per month",
         "osm:education:program_feeding": "yes",
@@ -6334,7 +6703,6 @@
         "osm:education:teachers_trained": "4",
         "osm:education:teachers_untrained": "1",
         "osm:education:type": "nursery",
-        "osm:id": "node/761995282",
         "osm:name": "Shammah Children School",
         "osm:opening_hours": "08:00-15:00",
         "osm:operational_status": "operational",
@@ -6354,6 +6722,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-11T15:29:36Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:phone": "0714 97 94 92",
         "osm:education:fees": "KShs 100 per month",
@@ -6370,7 +6740,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:teachers_trained": "4",
         "osm:education:type": "primary",
-        "osm:id": "node/767095636",
         "osm:name": "Subra School",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -6390,9 +6759,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-06-08T09:27:37Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/767095637",
         "osm:name": "World Harvest Center & Compassion Christian Academy",
         "osm:operational_status": "operational",
         "osm:operator:type": "religious"
@@ -6410,6 +6780,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-11-22T09:23:28Z",
+        "osm:_user": "Ouma",
         "osm:amenity": "school",
         "osm:contact:phone": "0724 057 580",
         "osm:education:fees": "KShs 300 per month",
@@ -6423,7 +6795,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_trained": "2",
         "osm:education:type": "primary",
-        "osm:id": "node/767108097",
         "osm:name": "Kibera Christian Primary School",
         "osm:opening_hours": "Mo-Fr 08:00-16:00",
         "osm:operational_status": "operational",
@@ -6444,6 +6815,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:39:00Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:program_counseling": "yes",
         "osm:education:program_feeding": "yes",
@@ -6459,7 +6832,6 @@
         "osm:education:teachers_male": "4",
         "osm:education:teachers_trained": "all",
         "osm:education:type": "primary",
-        "osm:id": "node/769110769",
         "osm:name": "Beliavers Revival Sanctuary School",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "operational",
@@ -6479,6 +6851,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-12-15T03:08:16Z",
+        "osm:_user": "Manu1400",
         "osm:amenity": "school",
         "osm:contact:phone": "0727842235",
         "osm:education:program_counseling": "yes",
@@ -6495,7 +6869,6 @@
         "osm:education:teachers_trained": "6",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "secondary",
-        "osm:id": "node/775527189",
         "osm:name": "Girls Soccer Secondary School",
         "osm:opening_hours": "07:00-18:00",
         "osm:operational_status": "operational",
@@ -6515,6 +6888,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:37:30Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:program_counseling": "yes",
         "osm:education:program_feeding": "yes",
@@ -6530,7 +6905,6 @@
         "osm:education:teachers_trained": "5",
         "osm:education:teachers_untrained": "4",
         "osm:education:type": "primary,secondary",
-        "osm:id": "node/775535480",
         "osm:name": "Stara Rescue Centre School",
         "osm:opening_hours": "06:00-18:00",
         "osm:operational_status": "operational",
@@ -6550,6 +6924,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:35:58Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 200",
         "osm:education:program_counseling": "yes",
@@ -6567,7 +6943,6 @@
         "osm:education:teachers_trained": "7",
         "osm:education:teachers_untrained": "3",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/890550409",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "9",
         "osm:name": "Slum Out reach",
@@ -6589,6 +6964,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-10-08T15:06:53Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "christinegakiu@yahoo.com",
         "osm:contact:phone": "0721 34 50 95",
@@ -6608,7 +6985,6 @@
         "osm:education:teachers_trained": "3",
         "osm:education:teachers_untrained": "5",
         "osm:education:type": "secondary",
-        "osm:id": "node/890550456",
         "osm:name": "St Gabriel Academy",
         "osm:opening_hours": "Mo-Fr 07:00-17:00",
         "osm:operational_status": "operational",
@@ -6629,9 +7005,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:00Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:type": "nursery,primary",
-        "osm:id": "node/890550499",
         "osm:name": "Anwar Junior Academy",
         "osm:opening_hours": "Mo-Fr 07:00-15:00",
         "osm:operator:type": "religious"
@@ -6649,6 +7026,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:00Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:contact:email": "lucykayiwa@yahoo.com",
         "osm:education:program_computers": "yes",
@@ -6665,7 +7044,6 @@
         "osm:education:teachers_female": "4",
         "osm:education:type": "nursery",
         "osm:health_facility:referals": "Lea toto,PAG,KICOSHEP,Huduma",
-        "osm:id": "node/890550513",
         "osm:medical_service:psychosocial_support_counselling": "yes",
         "osm:medical_staff:counsellor": "1",
         "osm:medical_staff:description": "Teachers 3.",
@@ -6690,6 +7068,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2011-04-18T11:31:01Z",
+        "osm:_user": "hassanow",
         "osm:amenity": "school",
         "osm:education:program_feeding": "yes",
         "osm:education:program_orphans": "yes",
@@ -6703,7 +7083,6 @@
         "osm:education:teachers_female": "2",
         "osm:education:teachers_trained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/890550597",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "3",
         "osm:name": "Better Life Center",
@@ -6720,11 +7099,50 @@
           [
             36.7837545,
             -1.31249
+          ],
+          [
+            36.782858,
+            -1.30988
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Boys Toilets": "4",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:District": "NAIROBI",
+        "kenyaopendata:Division": "KIBERA",
+        "kenyaopendata:GOK TSC Female": "0",
+        "kenyaopendata:GOK TSC Male": "0",
+        "kenyaopendata:Girls Toilets": "4",
+        "kenyaopendata:Level of Education": "PRIMARY SCHOOL",
+        "kenyaopendata:Local Authority Female": "0",
+        "kenyaopendata:Local Authority Male": "0",
+        "kenyaopendata:Location": "KIBERA",
+        "kenyaopendata:Non-Teaching Staff Female": "0",
+        "kenyaopendata:Non-Teaching Staff Male": "3",
+        "kenyaopendata:Others Female": "6",
+        "kenyaopendata:Others Male": "9",
+        "kenyaopendata:PTA BOG Female": "0",
+        "kenyaopendata:PTA BOG Male": "0",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Pupil Classroom Ratio": "36.4",
+        "kenyaopendata:Pupil Teacher Ratio": "24.3",
+        "kenyaopendata:Pupil Toilet Ratio": "45.5",
+        "kenyaopendata:School Institution Type_1": "MIXED",
+        "kenyaopendata:School Institution Type_2": "DAY ONLY",
+        "kenyaopendata:School Institution Type_3": "ORDINARY",
+        "kenyaopendata:Sponsor of School": "NGO/CBO",
+        "kenyaopendata:Status of School": "PRIVATE",
+        "kenyaopendata:Teachers Toilets": "4",
+        "kenyaopendata:Total Boys": "181",
+        "kenyaopendata:Total Enrolment": "364",
+        "kenyaopendata:Total Girls": "183",
+        "kenyaopendata:Total Number of Classrooms": "10",
+        "kenyaopendata:Total Toilets": "0",
+        "kenyaopendata:official_name": "RAILA EDUCATIONAL CENTER-PRIMARY",
+        "osm:_timestamp": "2014-05-17T13:23:20Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:contact:email": "joanamunge@yahoo.com",
         "osm:contact:phone": "0710606059",
@@ -6740,8 +7158,8 @@
         "osm:education:teachers_male": "6",
         "osm:education:teachers_trained": "10",
         "osm:education:type": "primary",
-        "osm:id": "node/890550666",
         "osm:name": "Raila Educational Centre (Primary)",
+        "osm:official_name": "RAILA EDUCATIONAL CENTER-PRIMARY",
         "osm:opening_hours": "08:00-17:00",
         "osm:operational_status": "operational",
         "osm:operational_status:electricity": "always",
@@ -6761,6 +7179,8 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-08-31T15:36:05Z",
+        "osm:_user": "ebrelsford",
         "osm:amenity": "school",
         "osm:education:fees": "KShs 100-200",
         "osm:education:program_feeding": "yes",
@@ -6777,7 +7197,6 @@
         "osm:education:teachers_trained": "1",
         "osm:education:teachers_untrained": "2",
         "osm:education:type": "nursery",
-        "osm:id": "node/890550720",
         "osm:media:video_device_number": "8",
         "osm:media:video_number": "2",
         "osm:name": "Kenya Church of Christ",
@@ -6800,8 +7219,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-11-23T20:12:10Z",
+        "osm:_user": "xybot",
         "osm:amenity": "school",
-        "osm:id": "node/1000521280",
         "osm:name": "SHOFCO Youth Centre"
       },
       "type": "Feature"
@@ -6817,8 +7237,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-12-02T08:39:19Z",
+        "osm:_user": "hassanow",
         "osm:amenity": "school",
-        "osm:id": "node/1015581296",
         "osm:name": "Angels of Hope Childrens Centre/Church"
       },
       "type": "Feature"
@@ -6834,8 +7255,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-12-02T08:39:19Z",
+        "osm:_user": "hassanow",
         "osm:amenity": "school",
-        "osm:id": "node/1015581299",
         "osm:name": "Marcy Junior academy"
       },
       "type": "Feature"
@@ -6851,8 +7273,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2010-12-02T09:31:31Z",
+        "osm:_user": "hassanow",
         "osm:amenity": "school",
-        "osm:id": "node/1015625631",
         "osm:name": "Inua Mimi Center"
       },
       "type": "Feature"
@@ -6868,8 +7291,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-11-21T12:20:57Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
-        "osm:id": "node/1042356213",
         "osm:name": "Kiberra Film School"
       },
       "type": "Feature"
@@ -6885,8 +7309,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-04-12T08:17:44Z",
+        "osm:_user": "fondolucy",
         "osm:amenity": "school",
-        "osm:id": "node/1712435882",
         "osm:name": "Palm Olive Academy"
       },
       "type": "Feature"
@@ -6902,8 +7327,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-04-19T09:29:29Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1722668360",
         "osm:name": "Brown daisy children center"
       },
       "type": "Feature"
@@ -6919,8 +7345,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-04-19T09:29:29Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1722668361",
         "osm:name": "Golden heart academy"
       },
       "type": "Feature"
@@ -6936,8 +7363,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-04-19T09:29:29Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1722668362",
         "osm:name": "Kids zone school"
       },
       "type": "Feature"
@@ -6953,8 +7381,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-04-23T10:20:30Z",
+        "osm:_user": "kevole",
         "osm:amenity": "school",
-        "osm:id": "node/1727588864",
         "osm:name": "grace spring academy"
       },
       "type": "Feature"
@@ -6970,8 +7399,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-24T08:00:54Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1763898746",
         "osm:name": "Adventure pride primary school"
       },
       "type": "Feature"
@@ -6987,8 +7417,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-24T08:00:54Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1763898747",
         "osm:name": "Kibera school for girls"
       },
       "type": "Feature"
@@ -7004,8 +7435,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-28T09:25:53Z",
+        "osm:_user": "muindre",
         "osm:amenity": "school",
-        "osm:id": "node/1768443464",
         "osm:name": "New horizon high school"
       },
       "type": "Feature"
@@ -7021,8 +7453,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-31T10:26:26Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1771323210",
         "osm:name": "Akili Complex"
       },
       "type": "Feature"
@@ -7038,8 +7471,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-31T10:26:26Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1771323212",
         "osm:name": "Conesus Primary School"
       },
       "type": "Feature"
@@ -7055,8 +7489,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-31T10:26:27Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1771323213",
         "osm:name": "Elite Visionary High School"
       },
       "type": "Feature"
@@ -7072,8 +7507,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-31T10:26:27Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1771323214",
         "osm:name": "Kingulu Primary School"
       },
       "type": "Feature"
@@ -7089,8 +7525,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-05-31T10:26:27Z",
+        "osm:_user": "millicentoo",
         "osm:amenity": "school",
-        "osm:id": "node/1771323215",
         "osm:name": "Love Africa somi school"
       },
       "type": "Feature"
@@ -7106,8 +7543,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-06-25T08:43:02Z",
+        "osm:_user": "omino",
         "osm:amenity": "school",
-        "osm:id": "node/1801454706",
         "osm:name": "Joowi Academy-Pre-Unit and Nursery"
       },
       "type": "Feature"
@@ -7123,10 +7561,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2012-08-13T09:38:47Z",
+        "osm:_user": "omino",
         "osm:addr:postcode": "00618-759,Nairobi,Kenya.",
         "osm:amenity": "school",
         "osm:contact:phone": "+254721370167",
-        "osm:id": "node/1864056792",
         "osm:name": "Little Prince Primary School"
       },
       "type": "Feature"
@@ -7142,9 +7581,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T10:14:38Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
-        "osm:id": "node/1875796680",
         "osm:is_in:constituency": "kibra",
         "osm:is_in:estate": "Woodley",
         "osm:is_in:ward": "Woodley/Kenyatta/Golfcourse",
@@ -7205,8 +7645,9 @@
         "kenyaopendata:Total Enrolment 2007": "0",
         "kenyaopendata:Total Teaching staff": "54",
         "kenyaopendata:official_name": "MOI GIRLS SCH - NAIROBI",
+        "osm:_timestamp": "2014-05-14T11:57:17Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
-        "osm:id": "node/1875796681",
         "osm:name": "Moi Girls School Nairobi",
         "osm:official_name": "MOI GIRLS SCH - NAIROBI"
       },
@@ -7260,9 +7701,10 @@
         "kenyaopendata:Total Number of Classrooms": "30",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "TOI PRI SCH",
+        "osm:_timestamp": "2014-04-06T14:59:45Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
-        "osm:id": "node/1875796685",
         "osm:is_in:constituency": "kibra",
         "osm:is_in:estate": "Woodley",
         "osm:is_in:ward": "Woodley",
@@ -7290,8 +7732,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2014-03-18T10:03:29Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
-        "osm:id": "node/2064571553",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:estate": "Olympic",
         "osm:is_in:village": "Olympic",
@@ -7311,20 +7754,55 @@
       "geometry": {
         "coordinates": [
           [
-            36.7771303,
+            36.77713,
             -1.317278
+          ],
+          [
+            36.780411,
+            -1.31615
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
+        "kenyaopendata:Acreage": "5",
+        "kenyaopendata:Acreage per enrolment": "10.4",
+        "kenyaopendata:Code": "R1010431",
+        "kenyaopendata:Costituency": "LANGATA",
+        "kenyaopendata:Day or Boarding": "DAY ONLY",
+        "kenyaopendata:District": "KIBERA",
+        "kenyaopendata:Girls/Boys/Mixed": "MIXED",
+        "kenyaopendata:Local Authority Female Teachers": "0",
+        "kenyaopendata:Local Authority Male Teachers": "0",
+        "kenyaopendata:Location": "MUGUMOINI",
+        "kenyaopendata:Non Teaching Staff Female": "0",
+        "kenyaopendata:Non Teaching Staff Male": "0",
+        "kenyaopendata:Ordinary or Special": "ORDINARY",
+        "kenyaopendata:Other Female Teachers": "1",
+        "kenyaopendata:Other Male Teachers": "2",
+        "kenyaopendata:PTA Board of Governors Female Teacher": "0",
+        "kenyaopendata:PTA Board of Governors Male Teacher": "0",
+        "kenyaopendata:Province": "NAIROBI",
+        "kenyaopendata:Public or Private": "PRIVATE",
+        "kenyaopendata:Pupil Teacher Ratio": "17.3",
+        "kenyaopendata:School Address": "76510 00508 NRB",
+        "kenyaopendata:School Sponsor": "RELIGIOUS ORGANIZATION",
+        "kenyaopendata:School Zone": "KAREN",
+        "kenyaopendata:Sublocation": "BOMAS",
+        "kenyaopendata:TSC Female Teachers": "0",
+        "kenyaopendata:TSC Male Teachers": "0",
+        "kenyaopendata:Total Enrolment 2007": "52",
+        "kenyaopendata:Total Teaching staff": "3",
+        "kenyaopendata:official_name": "ST CHARLES LWANGA SEC SCH",
+        "osm:_timestamp": "2014-05-17T13:27:29Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
-        "osm:id": "node/2064571555",
         "osm:is_in:constituency": "Lang'ata",
         "osm:is_in:estate": "Raila",
         "osm:is_in:village": "Raila",
         "osm:is_in:ward": "Mugumoini",
         "osm:name": "St charles lwanga school",
+        "osm:official_name": "ST CHARLES LWANGA SEC SCH",
         "osm:operational_status:electricity": "always",
         "osm:polling_station:election_year": "2013",
         "osm:polling_station:nearest_health_centre": "Lang'ata health centre",
@@ -7347,9 +7825,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T10:14:39Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
-        "osm:id": "node/2066040973",
         "osm:is_in:constituency": "kibra",
         "osm:is_in:estate": "jamhuri",
         "osm:is_in:ward": "woodley",
@@ -7377,9 +7856,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T10:14:39Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
-        "osm:id": "node/2115330631",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:estate": "Golfcourse",
         "osm:is_in:ward": "Woodley/Golfcourse/Kenyatta",
@@ -7407,9 +7887,10 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T10:14:38Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:boundary_type:Ward_boundary": "yes",
-        "osm:id": "node/2115330632",
         "osm:is_in:constituency": "Kibra",
         "osm:is_in:estate": "Kenyatta",
         "osm:is_in:ward": "Woodley/Kenyatta/golfcourse",
@@ -7436,10 +7917,11 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2013-02-04T10:46:15Z",
+        "osm:_user": "anekeya",
         "osm:amenity": "school",
         "osm:boundary_type:Constituency_boundary": "yes",
         "osm:boundary_type:Ward_boundary": "yes",
-        "osm:id": "node/2135801268",
         "osm:is_in:constituency": "Langatta",
         "osm:is_in:estate": "otiende",
         "osm:is_in:ward": "mugumoini",
@@ -7467,8 +7949,9 @@
         "type": "MultiPoint"
       },
       "properties": {
+        "osm:_timestamp": "2014-03-07T13:44:21Z",
+        "osm:_user": "Blasio",
         "osm:amenity": "school",
-        "osm:id": "node/2705522568",
         "osm:name": "Facing_the_Future_ primary_school"
       },
       "type": "Feature"
@@ -7521,9 +8004,10 @@
         "kenyaopendata:Total Number of Classrooms": "8",
         "kenyaopendata:Total Toilets": "0",
         "kenyaopendata:official_name": "GLORY PRI. SCH",
+        "osm:_timestamp": "2014-05-10T12:24:40Z",
+        "osm:_user": "mikelmaron",
         "osm:amenity": "school",
         "osm:education:type": "primary",
-        "osm:id": "node/2847951200",
         "osm:official_name": "GLORY PRI. SCH",
         "osm:operator": "Glory Primary School"
       },
