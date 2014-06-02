@@ -80,6 +80,9 @@
         {% if school.geometry.coordinates | length > 1 %}
           <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
         {% endif %}
+        {% if not has_kod %}
+          <small>No data available</small>
+        {% endif %}
       </header>
     </div>
 
@@ -100,13 +103,15 @@
         {{ cell('Female Students', key='osm:education:students_female') }}
         {{ cell('Teachers', key='osm:education:teachers') }}
       </div>
-      <div class="school-stats stats-grid">
-        {{ cell('Type of School', key='kenyaopendata:Sponsor of School') }}
-        {{ cell('Education Level', key='kenyaopendata:Level of Education') }}
-        {{ cell('Male Students', key='kenyaopendata:Total Boys') }}
-        {{ cell('Female Students', key='kenyaopendata:Total Girls') }}
-        {{ cell('Teachers', key='kenyaopendata:Total Teaching staff') }}
-      </div>
+      {% if has_kod %}
+        <div class="school-stats stats-grid">
+          {{ cell('Type of School', key='kenyaopendata:Sponsor of School') }}
+          {{ cell('Education Level', key='kenyaopendata:Level of Education') }}
+          {{ cell('Male Students', key='kenyaopendata:Total Boys') }}
+          {{ cell('Female Students', key='kenyaopendata:Total Girls') }}
+          {{ cell('Teachers', key='kenyaopendata:Total Teaching staff') }}
+        </div>
+      {% endif %}
     </div>
   </section>
 

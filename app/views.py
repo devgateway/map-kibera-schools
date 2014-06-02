@@ -64,7 +64,10 @@ def schools_geojson():
 @app.route('/schools/<path:slug>/')
 def school(slug):
     this_school = indexed(content['schools'], 'slug').get(slug) or abort(404)
-    return render_template('school-profile.html', school=this_school)
+    has_kod = any(v.startswith('kenyaopendata:') for v in
+                  this_school['properties'].keys())
+    return render_template('school-profile.html',
+                           school=this_school, has_kod=has_kod)
 
 
 def school_url_generator():

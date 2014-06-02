@@ -658,14 +658,19 @@ section#map {
 
   .stats-grid {
     $b: 1px solid lighten($c-outline, 30%);
+    $vpos: 55%;
     font-size: 0;
     border: $b;
+    line-height: 1;  // cells are inline-block, so avoid vertical gaps.
     .cell {
       display: inline-block;
+      position: relative;  // establish positioning context
       width: 50%;
-      padding: $pad-v $pad-h-thin;
+      height: $height-cell;
+      padding: 0 $pad-h-thin;
       font-size: $t-base;
       text-align: center;
+      color: #4481af;
       border: $b;
       &:nth-child(2n + 1) {
         border-width: 0 1px 1px 0;
@@ -678,6 +683,27 @@ section#map {
       }
       &:nth-last-child(1) {
         border-bottom-width: 0;
+      }
+
+      h4,
+      .value {
+        position: absolute;
+        left: 0;
+        right: 0;
+        font-weight: normal;
+      }
+
+      h4 {
+        top: $vpos;
+        margin: 0;
+        padding-top: $pad-v-thin / 1.618;
+      }
+
+      .value {
+        bottom: 100% - $vpos;
+        font-size: $t-big;
+        font-weight: $t-heavy;
+        text-transform: uppercase;
       }
     }
   }
