@@ -64,7 +64,6 @@
       @include icofont;
       content: ",";  // default gear icon
       display: inline-block;
-      margin-right: $pad-h-gap * 2;
       font-size: $t-med;
       vertical-align: middle;
     }
@@ -79,6 +78,9 @@
     }
     &.selected {
       background: $c-control-bg;
+      &:before {
+        margin-right: $pad-h-gap;
+      }
       span {
         @include un-visually-hidden;
       }
@@ -190,7 +192,6 @@ section#videos {
     & .video-screenshot {
       $width-v: $width-full / 2;
       width: $width-v;
-      height: $width-v * 9 / 16;
     }
     &:before {
       content: "";

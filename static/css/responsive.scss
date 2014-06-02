@@ -1,0 +1,113 @@
+
+@media screen and (max-width: $width-full) {
+  #page-header {
+    nav {
+      left: 0;
+      margin-left: 0;
+      .page-nav-links {
+        font-size: 0;
+        li:last-child a {
+          border-width: 0;
+        }
+        a {
+          margin: 0;
+          font-size: $t-base;
+          border-width: 0 1px 0 0;
+          &.selected {
+            &:before {
+              margin: 0;
+            }
+            span {
+              @include visually-hidden;
+            }
+          }
+        }
+      }
+    }
+    .social {
+      width: 100%;
+      padding: $pad-h-gap;
+      li {
+        margin: 0 1px;
+        &.beta {
+          @include clearfix;
+          display: block;
+          float: right;
+        }
+      }
+    }
+  }
+  .videos-slider {
+    li.selected {
+      width: 100%;
+      max-width: $width-full / 2;
+    }
+    .video,
+    .video-screenshot {
+      min-width: 100%;
+    }
+    .video:before {
+      background: $c-smokeglass;
+      right: 0;
+      background: linear-gradient(#000, rgba(0, 0, 0, 0));
+    }
+    .video-meta h2 {
+      z-index: $layer-top - 1;
+      position: absolute;
+      padding: $pad-v-thin $pad-h-thin;
+    }
+  }
+
+  #map {
+    position: relative;  // establish positioning context
+  }
+  .map-controls {
+    width: 100%;
+    .controls > li {
+      $cw: 120px;
+      & > a {
+        min-width: $cw;
+        padding: 0 $pad-h / 1.618;
+        &:before {
+          display: none;
+        }
+      }
+
+      &.active > .map-filters {
+        left: -($width-accent-box + $cw + 3px);
+        width: auto;
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+  .map-social {
+    display: none;
+  }
+
+  #charts {
+    width: 100%;
+    text-align: center;
+  }
+
+  #stories > ul {
+    width: 100%;
+    & > li {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .footer-meta,
+  .footer-copyright {
+    width: 100%;
+  }
+  .footer-meta {
+    text-align: center;
+    & > div {
+      text-align: left;
+    }
+  }
+}
