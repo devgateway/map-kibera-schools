@@ -7,6 +7,7 @@
 
 """
 
+import re
 from flask import Flask, render_template, json, Response, abort
 from .content import content
 
@@ -18,6 +19,17 @@ app = Flask(__name__, static_folder='../static')
 def inject_content():
     """Inject content for templates"""
     return {'content': content}
+
+
+@app.template_filter('humandata')
+def humanize_data(data):
+    """Make data a little nicer"""
+    recomma = r'\s?,\s?', ', '
+    respace = r'_', ' '
+    humanized = str(data)
+    humanized = re.sub(*recomma, string=humanized)
+    humanized = re.sub(*respace, string=humanized)
+    return humanized
 
 
 def indexed(list_of_stuff, key):

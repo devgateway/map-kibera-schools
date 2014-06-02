@@ -88,7 +88,7 @@
       {% if cell_value %}
         <div class="cell">
           <h4>{{ name }}</h4>
-          <span class="value">{{ cell_value }}</span>
+          <span class="value">{{ cell_value | humandata }}</span>
         </div>
       {% endif %}
     {% endmacro %}
