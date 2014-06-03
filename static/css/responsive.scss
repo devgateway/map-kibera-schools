@@ -58,6 +58,10 @@
     }
   }
 
+  section#school-top {
+    width: 100%;
+  }
+
   #map {
     position: relative;  // establish positioning context
   }
@@ -84,6 +88,12 @@
   }
   .map-social {
     display: none;
+  }
+
+  #school-brief,
+  #school-feedback .comments,
+  #school-blurbs {
+    width: 100%;
   }
 
   #charts {
