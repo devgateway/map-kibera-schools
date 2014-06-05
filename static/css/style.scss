@@ -713,6 +713,20 @@ section#map {
       }
     }
   }
+
+  .school-more-stats {
+    h3 {
+      margin: 1.618em 0 0.618em;
+    }
+    table {
+      tr {
+        border-top: 1px dotted lighten($c-outline, 20%);
+      }
+      th {
+        text-align: left;
+      }
+    }
+  }
 }
 
 #school-feedback {
