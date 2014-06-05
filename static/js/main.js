@@ -44,6 +44,7 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
   if (mapEl = document.getElementById('main-map')) {
     map = drawMap(mapEl);
+    map.setView([-1.313, 36.788], 15);
     domLoadSchoolDataAll();
     pinAllSchools(map);
     setupFilters();
@@ -71,8 +72,6 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
   function drawMap(mapEl) {
     var mapOptions = {
-      center: [-1.313, 36.788],
-      zoom: 15,
       scrollWheelZoom: false
     };
     var map = L.map(mapEl, mapOptions);
@@ -333,12 +332,61 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
     L.geoJson(data, {onEachFeature: pinPopup}).addTo(map);
   }
 
+  function _pointsToBounds(points) {
+    var north = south = points[0][0],
+        east  = west  = points[0][1],
+        boundsPadding  = 0.001;
+        verticalOffset = 0.0005;
+    for (var i=1; i<points.length; i++) {
+      var p = points[i];
+      if (p[0] > north) {
+        north = p[0];
+      } else if (p[0] < south) {
+        south = p[0];
+      }
+      if (p[1] > east) {
+        east = p[1];
+      } else if (p[1] < west) {
+        west = p[1];
+      }
+    }
+    var bounds = L.latLngBounds(
+      L.latLng(south - boundsPadding + verticalOffset, west - boundsPadding),
+      L.latLng(north + boundsPadding + verticalOffset, east + boundsPadding)
+    );
+    return bounds;
+  }
+
   function pinSchool(map) {
-    var location = school.geometry.coordinates[0].reverse();
-    map.setView([location[0] + 0.0003, location[1]], 18);
-    var content = schoolPopupContent(school)
-    var marker = L.marker(location).setIcon(L.icon(iconDefaults)).addTo(map);
-    marker.bindPopup(content).openPopup();
+    var verticalOffset = 0.01;
+
+    var coords = school.geometry.coordinates;
+    var osmLocation = coords[0].reverse();
+
+    var kodLocation = coords.length > 1 ? coords[1].reverse() : null;
+
+    // set map view
+    var osmMarker = L.marker(osmLocation)
+                     .setIcon(L.icon(iconDefaults))
+                     .bindPopup('<p>Open Street Maps</p>')
+                     .addTo(map);
+    var osmPopup = osmMarker.getPopup().setLatLng(osmLocation);
+    map.addLayer(osmPopup);
+
+    if (kodLocation) {
+      var markerIcon = L.icon(u.extend({}, iconDefaults,
+                              {iconUrl: '/static/img/icon-red.png'}));
+      var kodMarker = L.marker(kodLocation)
+                       .setIcon(markerIcon)
+                       .bindPopup('<p>Kenya Open Data</p>')
+                       .addTo(map);
+      var kodPopup = kodMarker.getPopup().setLatLng(kodLocation);
+      map.addLayer(kodPopup);
+
+      map.fitBounds(_pointsToBounds([osmLocation, kodLocation]));
+    } else {
+      map.setView([osmLocation[0] + 0.0003, osmLocation[1]], 18);
+    }
   }
 
   // exports

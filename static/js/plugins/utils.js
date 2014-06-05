@@ -29,12 +29,19 @@
     }
   }
 
-  u.extend = function extend(obj, withOther) {
-    for (key in withOther) {
-      obj[key] = withOther[key];
+  u.extend = function extend(out) {
+    // youmightnotneedjquery implementation
+    out = out || {};
+    for (var i = 1; i < arguments.length; i++) {
+      if (!arguments[i])
+        continue;
+      for (var key in arguments[i]) {
+        if (arguments[i].hasOwnProperty(key))
+          out[key] = arguments[i][key];
+      }
     }
-    return obj;
-  }
+    return out;
+  };
 
   // classList inspiration from http://youmightnotneedjquery.com/
   // so, (c) HubSpot, Inc.
