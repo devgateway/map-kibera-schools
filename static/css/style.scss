@@ -7,22 +7,23 @@
  */
 
 #page-header {
+  @include bg-stretchwidth($c-bg);
+  z-index: $layer-top;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: $width-full;
+  margin-left: -$width-full / 2;
   height: $height-stickyhead;
   font-size: $t-small;
   color: $c-header-med;
 
   nav {
-    display: block;
-    position: fixed;
-    z-index: $layer-top;
-    top: 0;
-    left: 50%;
-    margin-left: -$width-full / 2;
-
     a.accent {
       @include accent-box;
       display: inline-block;
       margin-top: -3px;
+      box-shadow: 0 0 7px $c-smokeglass;
       small {
         display: block;
         margin: -0.4em 0;
@@ -57,13 +58,11 @@
   .page-nav-links a {
     margin: 0 0 0 $pad-h-gap;
     padding: $pad-v-thin $pad-h / 1.618;
-    background: $c-bg;
-    border: 1px solid $c-footer-dark;
-    border-top-width: 0;
     &:before {
       @include icofont;
       content: ",";  // default gear icon
       display: inline-block;
+      margin-right: $pad-h-gap * 3;
       font-size: $t-med;
       vertical-align: middle;
     }
@@ -73,17 +72,8 @@
         color: $c-accent;
       }
     }
-    span {
-      @include visually-hidden;
-    }
     &.selected {
       background: $c-control-bg;
-      &:before {
-        margin-right: $pad-h-gap;
-      }
-      span {
-        @include un-visually-hidden;
-      }
     }
     &[href="#videos"]:before {
       content: "p";
@@ -103,9 +93,9 @@
 
   .social {
     display: block;
-    width: $width-full;
-    margin: 0 auto;
-    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
   li.beta {
@@ -161,7 +151,7 @@
  */
 
 section#videos {
-  margin-top: $pad-v;
+  margin-top: $pad-v + $height-stickyhead;
   padding-bottom: 1px;  // pager margin takes care of it
 }
 
