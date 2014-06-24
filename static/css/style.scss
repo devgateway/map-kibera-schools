@@ -145,15 +145,15 @@
 }
 
 
+body > section:first-of-type {
+  margin: $pad-v + $height-stickyhead auto 1px;
+}
+
+
 /*
  * Video slider
  *
  */
-
-section#videos {
-  margin-top: $pad-v + $height-stickyhead;
-  padding-bottom: 1px;  // pager margin takes care of it
-}
 
 .videos-slider {
   @include list-reset;
@@ -248,7 +248,7 @@ section#videos {
  */
 section#school-top {
   width: $width-full;
-  margin: $pad-v * 1.618 auto $pad-v-thin * 1.618;
+  margin-bottom: $pad-v-thin;
   h1 {
     font-size: $t-med;
     color: $c-accent2;
@@ -888,4 +888,8 @@ section#map {
 #error-container {
   width: $width-full;
   margin: 7% auto 11%;
+}
+
+#data-overview {
+  width: $width-full;
 }

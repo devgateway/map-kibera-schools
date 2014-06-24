@@ -223,6 +223,14 @@ def load_stories(story_stuff):
     return stories
 
 
+@load('datapage')
+def load_data_overview(datapage_stuff):
+    markdowner = Markdown(output_format='html5')
+    datapage_mdfile, _ = next(datapage_stuff)  # there should only be one!
+    html = markdowner.convert(datapage_mdfile.read())  # also loads metadata
+    return Markup(html)
+
+
 @load('social')
 def load_social(social_stuff):
     profiles = []

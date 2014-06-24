@@ -52,6 +52,11 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/data/')
+def data_overview():
+    return render_template('data.html')
+
+
 @app.route('/schools.geojson')
 def schools_geojson():
     geojson = {
