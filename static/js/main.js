@@ -319,6 +319,9 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       popupContent += teachers ? teachers + ' teacher' + (teachers > 1 ? 's' : '') : '';
       popupContent += '</p>';
     }
+
+    popupContent += '<p><a href="' + href + '">Go to school profile &raquo;</a></p>';
+
     return popupContent;
   }
 
