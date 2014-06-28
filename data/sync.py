@@ -83,7 +83,9 @@ def filter_kenyaopendata():
   filter_data('kenya-secondary-schools.csv','kibera-secondary-schools.csv','Location','Location 1','Name of School', other_columns) #Code??
 
 def convert2geojson():
+  os.system("rm kibera-primary-schools.geojson")
   os.system("ogr2ogr -f GeoJSON kibera-primary-schools.geojson kibera-primary-schools.vrt")
+  os.system("rm kibera-secondary-schools.geojson")
   os.system("ogr2ogr -f GeoJSON kibera-secondary-schools.geojson kibera-secondary-schools.vrt")
   kod_primary = geojson.loads(readfile('kibera-primary-schools.geojson'))
   kod_secondary = geojson.loads(readfile('kibera-secondary-schools.geojson'))
@@ -130,8 +132,8 @@ def deploy():
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-#sync_osm()
-#convert2geojson()
+sync_osm()
+convert2geojson()
 compare_osm_kenyaopendata()
 #deploy()
 

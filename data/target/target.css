@@ -1,7 +1,8 @@
 #target {
   margin: 0 auto;
-  font-size: 1.2em;
+/*   font-size: 1.2em; */
   margin-bottom: 15px;
+  float: left;
 }
 
 
@@ -33,7 +34,7 @@
 
 
 #target tbody tr { 
-  color: #555;
+  color: #000;
 }
 #target tbody tr td {
   text-align: center;
@@ -44,8 +45,27 @@
 }
 
 #target tbody tr td.valid {
-  color: green;
+  background-color: #84e184;
 }
 #target tbody tr td.invalid {
-  color: red;
+  background-color: #ff9999;
+}
+
+#controls {
+  padding-bottom: 20px;
+}
+
+/* #target .headcol {
+  position:absolute;
+  width:10em;
+  left:0;
+}
+    .headcol:before {content: 'Row ';}
+
+.headcol-wrapper {
+  overflow-x: scroll;
+}
+*/
+.groupBtn {
+  cursor: pointer;
 }
