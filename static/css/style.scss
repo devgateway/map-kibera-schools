@@ -357,7 +357,7 @@ section#map {
   }
   .controls {
     @include list-reset;
-    font-size: 0;
+    // font-size: 0;
 
     & > li {
       position: relative;

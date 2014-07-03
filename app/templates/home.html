@@ -39,44 +39,8 @@
         <h2>Kibera School Map</h2>
       </div>
       <ul class="controls">
-        <li id="schools">
-          <a href="#schools">Schools</a>
-          <div class="map-inputs school-list">
-            <input type="text" placeholder="Quick Search" id="school-dir-search" name="school-dir-search" />
-            <ul>
-              {% for school in content.schools %}
-                <li>
-                  <a href="/schools/{{ school.slug }}"
-                     data-latlng='{{ school.geometry.coordinates[0] | tojson }}'
-                     data-properties='{{ school.selected_properties | tojson | urlencode }}'>
-                    {{ school.name }}
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </li>
-        <li id="filters">
-          <a href="#filters">Filters</a>
-          <div class="map-inputs map-filters">
-            <div class="input-group filter-source">
-              <h3>Data Source</h3>
-              <div>
-                <input type="radio" name="source-select" id="source-osm" checked="checked" />
-                <label for="source-osm">Open Street Maps (OSM)</label>
-              </div>
-              <div>
-                <input type="radio" name="source-select" id="source-kod" />
-                <label for="source-kod">Kenya Open Data</label>
-              </div>
-            </div>
-            <div id="filter-wrap">
-              {# filters are inserted here by js #}
-            </div>
-          </div>
-        </li>
         <li id="data">
-          <a href="/data/">Data</a>
+          <a href="/data/">Download Data</a>
         </li>
       </ul>
       <div class="map-social">

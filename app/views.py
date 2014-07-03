@@ -63,7 +63,48 @@ def schools_geojson():
         'type': 'FeatureCollection',
         'features': content['schools'],
     }
-    return Response(json.dumps(geojson), mimetype='application/octet-stream')
+    return Response(json.dumps(geojson), mimetype='application/json')
+
+
+@app.route('/_schools.json')
+def schools_appjson():
+    schools = [dict(locations=s['geometry']['coordinates'], slug=s['slug'],
+                    **s['properties']) for s in  content['schools']]
+    return Response(json.dumps(schools), mimetype='application/json')
+
+
+@app.route('/_filters.json')
+def school_filters():
+    filters = [
+        {
+            'id': 'name',
+            'name': 'Schools List',
+            'widget': 'fuzzy-search'
+        },
+        {
+            'id': 'type',
+            'name': 'Type of school',
+            'widget': 'select',
+            'options': [
+                {'id': 'government', 'name': 'Government'},
+                {'id': 'private', 'name': 'Private'},
+                {'id': 'religious', 'name': 'Religious'},
+                {'id': 'community', 'name': 'Community'},
+                {'id': 'ngo', 'name': 'NGO'},
+            ],
+        },
+        {
+            'id': 'level',
+            'name': 'Education Level',
+            'widget': 'select',
+            'options': [
+                {'id': 'nursery', 'name': 'Nursery'},
+                {'id': 'primary', 'name': 'Primary'},
+                {'id': 'secondary', 'name': 'Secondary'},
+            ],
+        },
+    ]
+    return Response(json.dumps(filters), mimetype='application/json')
 
 
 @app.route('/schools/<path:slug>/')
