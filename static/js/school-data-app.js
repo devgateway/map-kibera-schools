@@ -73,8 +73,7 @@ var QuickSearchWidget = Backbone.View.extend({
   events: {
     'click a': 'activate',
     'keyup input': 'fuzzySearch',
-    'change input': 'fuzzySearch',
-    // 'keyup .school-list': 'keyNav',
+    'change input': 'fuzzySearch'
   },
 
   initialize: function() {
@@ -285,6 +284,12 @@ var SchoolsMap = Backbone.View.extend({
     });
   }
 });
+
+
+
+//// init stuff
+
+L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
 
 
 var schools = new Schools();  // globally available
