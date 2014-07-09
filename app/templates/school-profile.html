@@ -113,6 +113,29 @@
         </div>
       {% endif %}
     </div>
+
+    {% macro dump_properties(obj, namespace) %}
+      <table>
+        {% for key in obj if key.startswith(namespace) %}
+          <tr>
+            <th>{{ key[(namespace|length):] }}</th>
+            <td>{{ obj[key] }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endmacro %}
+    <div class="school-info-row">
+      <div class="school-stats school-more-stats">
+        <h3>All Available OSM Data</h3>
+        {{ dump_properties(school.properties, 'osm:') }}
+      </div>
+      {% if has_kod %}
+        <div class="school-stats school-more-stats">
+          <h3>All Available Kenya Open Data</h3>
+          {{ dump_properties(school.properties, 'kenyaopendata:') }}
+        </div>
+      {% endif %}
+    </div>
   </section>
 
   <section id="school-feedback">

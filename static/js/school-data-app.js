@@ -1,5 +1,7 @@
 ;
 
+var HEAVY_TIMEOUT = 85; // ms, for debounce and throttle calls
+
 var School = Backbone.Model.extend({
     initialize: function() {
       this.set('fuzzyScore', 0);
@@ -15,7 +17,7 @@ var Schools = Backbone.Collection.extend({
   comparator: function(a, b) {
     var fa = a.get('fuzzyScore'),
         fb = b.get('fuzzyScore');
-    if (fa != fb) {
+    if (fa !== fb) {
       return fa < fb ? -1 : 1;
     } else {
       var na = a.get('name'),
@@ -34,8 +36,18 @@ var ListedSchool = Backbone.View.extend({
   tagName: 'li',
   template: _.template('<a href="/schools/<%= slug %>"><%= name %></a>'),
 
+  events: {
+    'mouseover >a': 'hover',
+    'mouseout >a': 'unhover'
+  },
+
   initialize: function() {
-    this.model.on('change:fuzzyScore', this.updatedScore, this);
+    this.listenTo(this.model, 'change:fuzzyScore', this.updatedScore);
+  },
+
+  render: function() {
+    this.$el.html(this.template(this.model.attributes));
+    return this;
   },
 
   updatedScore: function() {
@@ -48,10 +60,14 @@ var ListedSchool = Backbone.View.extend({
     }
   },
 
-  render: function() {
-    this.$el.html(this.template(this.model.toJSON()));
-    return this;
+  hover: function() {
+    console.log('over');
+  },
+
+  unhover: function() {
+    console.log('and out');
   }
+
 });
 
 
@@ -71,22 +87,17 @@ var QuickSearchWidget = Backbone.View.extend({
                        '</div>'),
 
   events: {
-    'click a': 'activate',
+    'click >a': 'activate',
     'keyup input': 'fuzzySearch',
     'change input': 'fuzzySearch'
   },
 
   initialize: function() {
     this.schoolNames = [];
-    this.collection.each(_.bind(this.schoolAdded, this));
-    this.collection.on('add', this.schoolAdded, this);
-    this.collection.on('sort', this.renderList, this);
-  },
-
-  schoolAdded: function(school) {
-    var schoolSimpleName = this._simplify(school.get('name'));
-    this.schoolNames.push({name: schoolSimpleName,
-                           school: school});
+    this.schoolItemEls = {};  // model.cid: ListedSchool(model).el
+    this.collection.each(this.schoolAdded, this);
+    this.listenTo(this.collection, 'add', this.schoolAdded);
+    this.listenTo(this.collection, 'sort', this.renderList);
   },
 
   render: function() {
@@ -96,13 +107,24 @@ var QuickSearchWidget = Backbone.View.extend({
   },
 
   renderList: _.throttle(function() {
-    var listContent = $('<ul>');
+    var schoolItemEls = this.schoolItemEls,
+        sortedSchools = [];
     this.collection.each(function(school) {
-      var schoolView = new ListedSchool({model: school});
-      listContent.append(schoolView.render().el);
+      var schoolListItemViewEl = schoolItemEls[school.cid];
+      sortedSchools.push(schoolListItemViewEl);
     });
-    this.$('ul').html(listContent.html());
-  }, 200),
+    this.$('ul').html(sortedSchools);
+  }, HEAVY_TIMEOUT),
+
+  schoolAdded: function(school) {
+    // map simplified names to models for quick fuzzy matching
+    var schoolSimpleName = this._simplify(school.get('name'));
+    this.schoolNames.push({name: schoolSimpleName,
+                           school: school});
+    // map model ids to view els for quick reordering
+    var schoolListItemViewEl = new ListedSchool({model: school}).render().el;
+    this.schoolItemEls[school.cid] = schoolListItemViewEl;
+  },
 
   _simplify: function(str) {
     lowered = str.toLowerCase();
@@ -131,7 +153,7 @@ var QuickSearchWidget = Backbone.View.extend({
 
     this.collection.sort();
 
-  }, 200),
+  }, HEAVY_TIMEOUT),
 
   activate: function(e) {
     e.preventDefault();
@@ -185,7 +207,7 @@ var SelectWidget = Backbone.View.extend({
   },
 
   render: function() {
-    this.$el.html(this.template(this.model.toJSON()));
+    this.$el.html(this.template(this.model.attributes));
     var optionSelect = this.$('select');
     this.model.get('options').each(function(option) {
       var optionView = new SelectOptionView({model: option});
@@ -238,14 +260,14 @@ var SchoolPin = Backbone.View.extend({
   initialize: function(opts) {
     this.map = opts.map;
     this.marker = this.createMarker();
-    this.model.on('change:excluded', _.bind(this.excluded, this));
+    this.listenTo(this.model, 'change:excluded', this.excluded);
     this.excluded();
     this.marker.addTo(this.map);
   },
 
   createMarker: function() {
     var marker = L.marker(this.model.get('locations')[0].reverse());
-    marker.bindPopup(this.template(this.model.toJSON()));
+    marker.bindPopup(this.template(this.model.attributes));
     return marker;
   },
 
@@ -266,7 +288,7 @@ var SchoolsMap = Backbone.View.extend({
     this.map = this.createMap();
     this.collection = schools;
     this.collection.each(_.bind(this.pinSchool, this));
-    this.collection.on('add', this.pinSchool, this);
+    this.listenTo(this.collection, 'add', this.pinSchool);
   },
 
   createMap: function() {
