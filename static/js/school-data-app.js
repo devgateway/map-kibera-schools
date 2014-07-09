@@ -1,6 +1,8 @@
 ;
 
 var HEAVY_TIMEOUT = 85; // ms, for debounce and throttle calls
+var KEY_UP = 38,
+    KEY_DOWN = 40;
 
 var School = Backbone.Model.extend({
     initialize: function() {
@@ -14,6 +16,16 @@ var Schools = Backbone.Collection.extend({
   url: '/_schools.json',  // app-optimized version of the standard
                          // `schools.geojson` so that we can do less work.
   model: School,
+
+  initialize: function() {
+    this.fetch();
+    this.on('change:selected', this.updateSelected);
+  },
+
+  updateSelected: function() {
+    console.log('selection updated.');
+  },
+
   comparator: function(a, b) {
     var fa = a.get('fuzzyScore'),
         fb = b.get('fuzzyScore');
@@ -24,10 +36,6 @@ var Schools = Backbone.Collection.extend({
           nb = b.get('name');
       return na === nb ? 0 : (na < nb ? -1 : 1);
     }
-  },
-
-  initialize: function() {
-    this.fetch();
   }
 });
 
@@ -37,8 +45,7 @@ var ListedSchool = Backbone.View.extend({
   template: _.template('<a href="/schools/<%= slug %>"><%= name %></a>'),
 
   events: {
-    'mouseover >a': 'hover',
-    'mouseout >a': 'unhover'
+    'mouseover >a': 'hover'
   },
 
   initialize: function() {
@@ -61,11 +68,7 @@ var ListedSchool = Backbone.View.extend({
   },
 
   hover: function() {
-    console.log('over');
-  },
-
-  unhover: function() {
-    console.log('and out');
+    this.model.set('selected', true);
   }
 
 });
@@ -90,12 +93,20 @@ var QuickSearchWidget = Backbone.View.extend({
     'click >a': 'activate',
     'keyup input': 'fuzzySearch',
     'change input': 'fuzzySearch',
-    // 'keyup .school-list': 'keyNav',
+    'keydown': 'keyNav',
   },
 
   initialize: function() {
     this.schoolNames = [];
     this.schoolItemEls = {};  // model.cid: ListedSchool(model).el
+
+    this.listSelect = new Backbone.Model({
+      index: 0,
+      listEl: undefined
+    });
+    this.listenTo(this.listSelect, 'change:index', this.changeIndex);
+    this.listenTo(this.listSelect, 'change:listEl', this.changeSelected);
+
     this.collection.each(this.schoolAdded, this);
     this.listenTo(this.collection, 'add', this.schoolAdded);
     this.listenTo(this.collection, 'sort', this.renderList);
@@ -135,25 +146,17 @@ var QuickSearchWidget = Backbone.View.extend({
 
   fuzzySearch: _.debounce(function() {
     var key = this._simplify(this.$('input').val());
-    var simplify = this._simplify;  // ref for the loop
-
     _.each(this.schoolNames, function(simpleName) {
-
       if (simpleName.name.length - key.length < 0) {
         key = key.slice(0, simpleName.name.length);
       }
       var nameSubstr = simpleName.name.slice(0, key.length);
-
       var score = Levenshtein.get(nameSubstr, key);
-
       // prefer names that start with the first letter of the key
-      var score = score - u.startsWith(simpleName.name, key.slice(0, 1));
-
+      var score = score - +u.startsWith(simpleName.name, key.slice(0, 1));
       simpleName.school.set('fuzzyScore', score);
     });
-
     this.collection.sort();
-
   }, HEAVY_TIMEOUT),
 
   activate: function(e) {
@@ -164,8 +167,17 @@ var QuickSearchWidget = Backbone.View.extend({
     };
   },
 
-  keyNav: function() {
-    console.log('nav nav nav');
+  keyNav: function(e) {
+    var pressed = e.keyCode;
+    if (pressed !== KEY_UP && pressed !== KEY_DOWN) {
+      return;
+    }
+    e.preventDefault();
+    if (pressed === KEY_UP) {
+
+    } else if (pressed === KEY_DOWN) {
+
+    }
   }
 });
 
@@ -195,6 +207,7 @@ var FilterOptions = Backbone.Collection.extend({
 var SelectWidget = Backbone.View.extend({
 
   tagName: 'li',
+  className: 'hidden',
 
   template: _.template('<label>' +
                        '  <span class="visually-hidden"><%= name %></span>' +
@@ -256,7 +269,8 @@ var MapControls = Backbone.View.extend({
 
 var SchoolPin = Backbone.View.extend({
 
-  template: _.template('<h3><a href="#"><%= name %></h3>'),
+  template: _.template('<h3><a href="/schools/<%= slug %>"><%= name %></a></h3>' +
+                       '<p><a href="/schools/<%= slug %>">Go to school profile →</a></p>'),
 
   initialize: function(opts) {
     this.map = opts.map;
