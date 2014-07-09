@@ -42,18 +42,18 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       },
       activeFilters = {};
 
-  if (mapEl = document.getElementById('main-map')) {
-    map = drawMap(mapEl);
-    map.setView([-1.313, 36.788], 15);
-    domLoadSchoolDataAll();
-    pinAllSchools(map);
-    setupFilters();
-  } else if (mapEl = document.getElementById('school-map-display')) {
-    map = drawMap(mapEl);
-    pinSchool(map);
-  } else {
-    return;
-  }
+  // if (mapEl = document.getElementById('main-map')) {
+  //   map = drawMap(mapEl);
+  //   map.setView([-1.313, 36.788], 15);
+  //   domLoadSchoolDataAll();
+  //   pinAllSchools(map);
+  //   setupFilters();
+  // } else if (mapEl = document.getElementById('school-map-display')) {
+  //   map = drawMap(mapEl);
+  //   pinSchool(map);
+  // } else {
+  //   return;
+  // }
 
   function getJSON(url, callback) {
     var request = new XMLHttpRequest();
@@ -319,6 +319,9 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
       popupContent += teachers ? teachers + ' teacher' + (teachers > 1 ? 's' : '') : '';
       popupContent += '</p>';
     }
+
+    popupContent += '<p><a href="' + href + '">Go to school profile &raquo;</a></p>';
+
     return popupContent;
   }
 
@@ -393,4 +396,6 @@ L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
   window.geoData = data,
   window.geoProperties = geoProperties;
 
-})();
+});
+
+

@@ -1,42 +1,13 @@
 
 @media screen and (max-width: $width-full) {
   #page-header {
-    nav {
-      left: 0;
-      margin-left: 0;
-      .page-nav-links {
-        font-size: 0;
-        li:last-child a {
-          border-width: 0;
-        }
-        a {
-          margin: 0;
-          font-size: $t-base;
-          border-width: 0 1px 0 0;
-          &.selected {
-            &:before {
-              margin: 0;
-            }
-            span {
-              @include visually-hidden;
-            }
-          }
-        }
-      }
-    }
+    left: 0;
+    margin-left: 0;
     .social {
-      width: 100%;
-      padding: $pad-h-gap;
-      li {
-        margin: 0 1px;
-        &.beta {
-          @include clearfix;
-          display: block;
-          float: right;
-        }
-      }
+      display: none;
     }
   }
+
   .videos-slider {
     li.selected {
       width: 100%;
