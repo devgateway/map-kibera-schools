@@ -1,4 +1,5 @@
-;
+new App;
+
 
 // global leaflet config
 L.Icon.Default.imagePath = WEB_ROOT + 'static/img/leaflet';
