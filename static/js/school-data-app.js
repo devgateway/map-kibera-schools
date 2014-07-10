@@ -309,6 +309,19 @@ var SchoolsMap = Backbone.View.extend({
 });
 
 
+//////// stats stuff
+
+var SchoolsStatsContainer = Backbone.View.extend({
+
+});
+
+var SchoolsStat = Backbone.View.extend({
+
+})
+
+
+//////////// init
+
 var schools = new Schools();  // globally available
 
 
@@ -321,3 +334,10 @@ mapControls.collection.fetch().then(function() {
 });
 
 var schoolsMap = new SchoolsMap({el: $('#main-map')});
+
+
+////// init stats stuff
+
+var studentsStat = new SchoolsStat({
+  key: 'total_students'
+});
