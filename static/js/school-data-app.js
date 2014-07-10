@@ -32,6 +32,18 @@ var Schools = Backbone.Collection.extend({
 });
 
 
+var FieldMetadata = Backbone.Model.extend({});
+
+
+var SchoolFields = Backbone.Collection.extend({
+  url: '/_fields.json',
+  model: FieldMetadata,
+  initialize: function() {
+    this.fetch();
+  }
+})
+
+
 var ListedSchool = Backbone.View.extend({
   tagName: 'li',
   template: _.template('<a href="/schools/<%= slug %>"><%= name %></a>'),
@@ -309,7 +321,11 @@ var SchoolsMap = Backbone.View.extend({
 });
 
 
+
+//////////// init
+
 var schools = new Schools();  // globally available
+var fields = new SchoolFields();
 
 
 var mapControls = new MapControls({

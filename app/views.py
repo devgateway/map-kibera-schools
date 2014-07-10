@@ -73,6 +73,11 @@ def schools_appjson():
     return Response(json.dumps(schools), mimetype='application/json')
 
 
+@app.route('/_fields.json')
+def fields_json():
+    return Response(json.dumps(content['fields']), mimetype='application/json')
+
+
 @app.route('/_filters.json')
 def school_filters():
     filters = [
