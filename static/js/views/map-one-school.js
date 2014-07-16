@@ -1,1 +1,1 @@
-App.views.MapOneSchool = Backbone.View.extend({});
+app.views.MapOneSchool = Backbone.View.extend({});

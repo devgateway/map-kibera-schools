@@ -1,14 +1,14 @@
-(function(App) {
+(function(app) {
 
   // module attachment points
-  App.models = {};
-  App.views = {};
-  App.filterWidgets = {};
+  app.models = {};
+  app.views = {};
+  app.filterWidgets = {};
 
   // app-wide constants
-  App.THROTTLE = 85;  // ms
+  app.THROTTLE = 85;  // ms
 
   // get serious
-  window.App = App;
+  window.app = app;
 
-})(function App() { this.autoInit() });
+})(new (function App() {}));

@@ -1,17 +1,33 @@
-App.views.MapFilters = Backbone.View.extend({
+app.views.MapFilters = Backbone.View.extend({
+
+  initialize: function(opts) {
+    _.extend(this, opts);
+  },
+
   render: function() {
-    var container = this.$el;
-    this.collection.each(function(filter) {
-      var widgetName = filter.get('widget');
-      if (widgetName === 'select') {
-        var filterView = new SelectWidget({model: filter});
-      } else if (widgetName === 'fuzzy-search') {
-        var filterView = new QuickSearchWidget({collection: schools});
-      } else {
-        throw 'Unknown filter widget: ' + filter.get('widget');
-      }
-      container.prepend(filterView.render().el);
-    });
+    var widgets = [],
+        widgetCommon = { tagName: 'li',
+                         schools: this.schools };
+
+    widgets.push(new app.filterWidgets.Select(_.extend({}, widgetCommon, {
+      name: "Education Level",
+      key: { osm: "osm:education:type",
+             kenyaopendata: "kenyaopendata:Level of Education" }
+    })));
+
+    widgets.push(new app.filterWidgets.Select(_.extend({}, widgetCommon, {
+      name: "Type of School",
+      key: { osm: "osm:operator:type",
+             kenyaopendata: "kenyaopendata:Sponsor of School" }
+    })));
+
+    widgets.push(new app.filterWidgets.QuickSearch(_.extend({}, widgetCommon, {
+      name: "Schools List",
+      key: { osm: "osm:name",
+             kenyaopendata: "kenyaopendata:official_name" }
+    })));
+
+    this.$el.prepend(widgets);
     return this;
   }
 });

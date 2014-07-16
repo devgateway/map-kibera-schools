@@ -1,4 +1,4 @@
-App.views.Map = Backbone.View.extend({
+app.views.Map = Backbone.View.extend({
   initialize: function() {
     this.map = this.createMap();
     this.collection = schools;

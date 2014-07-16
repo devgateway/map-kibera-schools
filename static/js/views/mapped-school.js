@@ -1,4 +1,4 @@
-App.views.MappedSchool = Backbone.View.extend({
+app.views.MappedSchool = Backbone.View.extend({
 
   template: _.template('<h3><a href="#"><%= name %></h3>'),
 

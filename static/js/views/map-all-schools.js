@@ -1,7 +1,6 @@
-App.views.MapManySchools = Backbone.View.extend({
+app.views.MapAllSchools = Backbone.View.extend({
   initialize: function() {
     this.map = this.createMap();
-    this.collection = schools;
     this.collection.each(_.bind(this.pinSchool, this));
     this.listenTo(this.collection, 'add', this.pinSchool);
   },
@@ -15,9 +14,9 @@ App.views.MapManySchools = Backbone.View.extend({
   },
 
   pinSchool: function(school) {
-    new SchoolPin({
-      model: school,
-      map: this.map
-    });
+    // new SchoolPin({
+    //   model: school,
+    //   map: this.map
+    // });
   }
 });

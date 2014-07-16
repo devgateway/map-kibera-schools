@@ -11,11 +11,22 @@
         "libs/backbone.js",
         "libs/leaflet.js",
         "libs/fast-levenshtein.js",
+
         "sticky-nav.js",
         "slider.js",
-        "models/school.js",
-        "views/filter-widgets.js",
-        "school-data-app.js",
+
+        "app.js",
+        "models/fields.js",
+        "models/filters.js",
+        "models/schools.js",
+        "views/map-all-schools.js",
+        "views/map-filters.js",
+        "views/map-one-school.js",
+        "views/map.js",
+        "views/mapped-school.js",
+        "views/schools-stats.js",
+        "views/widget-quicksearch.js",
+        "views/widget-select.js",
         "main.js"
       ],
       "filters": ["concat", "closure"]

@@ -1,10 +1,6 @@
 (function() {
 
-  App.filterWidgets.Select = Backbone.View.extend({
-
-    widgetName: 'select',
-
-    tagName: 'li',
+  app.filterWidgets.Select = Backbone.View.extend({
 
     template: _.template('<label>' +
                          '  <span class="visually-hidden"><%= name %></span>' +
@@ -17,6 +13,16 @@
       'change select': 'select'
     },
 
+    initialize: function(opts) {
+      _.extend(this, opts);
+      this.options = {
+        osm: [],
+        kenyaopendata: []
+      };
+      this.schools.each(this.updateOptions);
+      this.listenTo(this.schools, 'add', this.updateOptions);
+    },
+
     render: function() {
       this.$el.html(this.template(this.model.attributes));
       var optionSelect = this.$('select');
@@ -25,6 +31,10 @@
         optionSelect.append(optionView.render().el);
       });
       return this;
+    },
+
+    updateOptions: function(school) {
+
     },
 
     select: function() {

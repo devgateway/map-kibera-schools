@@ -1,10 +1,6 @@
 (function() {
 
-  App.filterWidgets.QuickSearch = Backbone.View.extend({
-
-    widgetName: 'quicksearch',
-
-    tagName: 'li',
+  app.filterWidgets.QuickSearch = Backbone.View.extend({
 
     comparator: 'fuzzyScore',
 
@@ -22,12 +18,13 @@
       // 'keyup .school-list': 'keyNav',
     },
 
-    initialize: function() {
-      this.schoolNames = [];
-      this.schoolItemEls = {};  // model.cid: ListedSchool(model).el
-      this.collection.each(this.schoolAdded, this);
-      this.listenTo(this.collection, 'add', this.schoolAdded);
-      this.listenTo(this.collection, 'sort', this.renderList);
+    initialize: function(opts) {
+      _.extend(this, opts);
+      // this.schoolNames = [];
+      // this.schoolItemEls = {};  // model.cid: ListedSchool(model).el
+      // this.collection.each(this.schoolAdded, this);
+      // this.listenTo(this.collection, 'add', this.schoolAdded);
+      // this.listenTo(this.collection, 'sort', this.renderList);
     },
 
     render: function() {
@@ -44,7 +41,7 @@
         sortedSchools.push(schoolListItemViewEl);
       });
       this.$('ul').html(sortedSchools);
-    }, HEAVY_TIMEOUT),
+    }, app.THROTTLE),
 
     schoolAdded: function(school) {
       // map simplified names to models for quick fuzzy matching
@@ -83,7 +80,7 @@
 
       this.collection.sort();
 
-    }, HEAVY_TIMEOUT),
+    }, app.THROTTLE),
 
     activate: function(e) {
       e.preventDefault();
