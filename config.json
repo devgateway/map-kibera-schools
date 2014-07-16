@@ -19,6 +19,7 @@
         "models/fields.js",
         "models/filters.js",
         "models/schools.js",
+        "views/map-school-pin.js",
         "views/map-all-schools.js",
         "views/map-filters.js",
         "views/map-one-school.js",

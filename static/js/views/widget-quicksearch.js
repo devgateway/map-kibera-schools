@@ -41,7 +41,7 @@
         sortedSchools.push(schoolListItemViewEl);
       });
       this.$('ul').html(sortedSchools);
-    }, app.THROTTLE),
+    }, app.throttle),
 
     schoolAdded: function(school) {
       // map simplified names to models for quick fuzzy matching
@@ -80,7 +80,7 @@
 
       this.collection.sort();
 
-    }, app.THROTTLE),
+    }, app.throttle),
 
     activate: function(e) {
       e.preventDefault();

@@ -16,10 +16,10 @@ var filterEntry = Backbone.Model.extend({
 
 
 var reverseMatch = Backbone.Model.extend({
-  entries: ['primary'];
+  entries: ['primary']
 });
 
 
 var filters = Backbone.Collection.extend({
-  comparator: 'cost';  // so we can run the cheap filters first
+  comparator: 'cost'  // so we can run the cheap filters first
 });
