@@ -2,31 +2,39 @@
 
   app.filterWidgets.Select = Backbone.View.extend({
 
-    template: _.template('<label>' +
-                         '  <span class="visually-hidden"><%= name %></span>' +
-                         '  <select>' +
-                         '    <option name="unset"><%= name %></option>' +
-                         '  </select>' +
-                         '</label>'),
+    // template: _.template('<label>' +
+    //                      '  <span class="visually-hidden"><%= name %></span>' +
+    //                      '  <select>' +
+    //                      '    <option name="unset"><%= name %></option>' +
+    //                      '  </select>' +
+    //                      '</label>'),
+
+    template: _.template('<a href="#schools"><%= name %></a>' +
+                         '<div class="map-control-dropdown">' +
+                         '  <ul></ul>' +
+                         '</div>'),
 
     events: {
       'change select': 'select'
     },
 
     initialize: function(opts) {
-      _.extend(this, opts);
-      this.options = {
+      this.name = opts.name;
+      this.things = opts.things;
+
+      this.filterOptions = {
         osm: [],
         kenyaopendata: []
       };
-      this.schools.each(this.updateOptions);
-      this.listenTo(this.schools, 'add', this.updateOptions);
+
+      this.things.each(this.updateOptions);
+      this.listenTo(this.things, 'add', this.updateOptions);
     },
 
     render: function() {
-      this.$el.html(this.template(this.model.attributes));
+      this.$el.html(this.template(this));
       var optionSelect = this.$('select');
-      this.model.get('options').each(function(option) {
+      _.each(this.filterOptions.osm, function(option) {
         var optionView = new SelectOptionView({model: option});
         optionSelect.append(optionView.render().el);
       });

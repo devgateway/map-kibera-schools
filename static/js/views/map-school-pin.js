@@ -4,7 +4,8 @@ app.views.SchoolPin = Backbone.View.extend({
     '<h3><a href="/schools/<%= slug %>/"><%= name %></a></h3>' +
     '<% if(edType || opType) { %>' +
     '  <p><%= edType %><%= (edType && opType) ? " / " : " " %><%= opType %></p>' +
-    '<% } %>'),
+    '<% } %>' +
+    '<p><a href="/schools/<%= slug %>/">Go to School Profile →</a></p>'),
 
   initialize: function(opts) {
     this.map = opts.map;
@@ -12,7 +13,8 @@ app.views.SchoolPin = Backbone.View.extend({
     this.locations = { osm: locations[0].reverse() };
     this.locations.kenyaopendata = locations[1] && locations[1].reverse();
 
-    this.marker = L.circleMarker(this.locations.osm, app.config.marker.radius);
+    this.marker = L.circleMarker(this.locations.osm, {
+      radius: app.config.marker.radius });
     this.marker.addTo(this.map);
 
     this.marker.bindPopup(this.popupTemplate(this.templatable()));

@@ -7,6 +7,7 @@
   app.models = {};
   app.views = {};
   app.filterWidgets = {};
+  app.mixins = {};
 
   // misc config and constants
   app.config = {
@@ -16,7 +17,7 @@
       zoom: 15
     },
     marker: {
-      radius: 18 // metres
+      radius: 8
     },
     throttle: 85  // ms
   }

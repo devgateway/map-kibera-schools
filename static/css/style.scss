@@ -388,10 +388,10 @@ section#map {
         color: $c-accent2;
         background: lighten($c-bg, 20%);
       }
-      & > .map-inputs {
+      & > .map-control-dropdown {
         @include visually-hidden;
       }
-      &.active > .map-inputs {
+      &.active > .map-control-dropdown {
         @include un-visually-hidden;
         font-size: $t-small - 1px;
         line-height: $line-tight;

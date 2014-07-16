@@ -2,8 +2,6 @@
 
   app.filterWidgets.QuickSearch = Backbone.View.extend({
 
-    comparator: 'fuzzyScore',
-
     template: _.template('<a href="#schools">Schools List</a>' +
                          '<div class="map-inputs school-list">' +
                          '  <input id="school-dir-search" type="text" ' +
