@@ -14,7 +14,12 @@ app.views.SchoolPin = Backbone.View.extend({
     this.locations.kenyaopendata = locations[1] && locations[1].reverse();
 
     this.marker = L.circleMarker(this.locations.osm, {
-      radius: app.config.marker.radius });
+      color: '#75b81b',
+      opacity: 0.9,
+      weight: 6,
+      fillOpacity: 0.667,
+      radius: app.config.marker.radius
+    });
     this.marker.addTo(this.map);
 
     this.marker.bindPopup(this.popupTemplate(this.templatable()));
@@ -35,9 +40,18 @@ app.views.SchoolPin = Backbone.View.extend({
 
   updateExcluded: function(thing, excluded) {
     if (excluded) {
-      this.map.removeLayer(this.marker);
+      this.marker.setStyle({
+        // color: '#222',
+        weight: 2,
+        opacity: 0.4,
+        fillOpacity: 0
+      });
     } else {
-      this.map.addLayer(this.marker);
+      this.marker.setStyle({
+        weight: 6,
+        opacity: 0.9,
+        fillOpacity: 0.667
+      });
     }
   }
 

@@ -17,7 +17,7 @@
       zoom: 15
     },
     marker: {
-      radius: 8
+      radius: 6
     },
     throttle: 85  // ms
   }
