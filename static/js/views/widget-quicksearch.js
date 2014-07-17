@@ -1,4 +1,4 @@
-app.filterWidgets.QuickSearch = app.filterWidgets.SelectUI.extend({
+app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
 
   dropDownTemplate: _.template('<input type="text" name="quicksearch" ' +
                                '       placeholder="Quick Search" />' +

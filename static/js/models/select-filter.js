@@ -20,7 +20,9 @@ app.models.SelectFilterOptions = Backbone.Collection.extend({
   currentOption: undefined,
 
   comparator: function(a, b) {
-    return app.models.Schools.prototype.comparator.call(this, a, b);
+    var countA = a.countNotExcluded(),
+        countB = b.countNotExcluded();
+    return countA === countB ? 0 : (countA < countB ? 1 : -1);
   },
 
   initialize: function() {
