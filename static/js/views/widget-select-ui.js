@@ -7,7 +7,7 @@ app.filterWidgets.OptionView = Backbone.View.extend({
                        '</a>'),
 
   events: {
-    'click a': 'select',
+    'click': 'select'
   },
 
   render: function() {
@@ -17,8 +17,8 @@ app.filterWidgets.OptionView = Backbone.View.extend({
   },
 
   select: function() {
-    // console.log('yo');
     console.log('selecting', this.model.get('optionValue'));
+    this.model.trigger('selectme', this.model);
   }
 
 });
@@ -36,9 +36,7 @@ app.filterWidgets.SelectUI = Backbone.View.extend({
 
   events: {
     'click >.activate': 'selectUIActivate',
-    'keyup input': 'selectUIKeyboard',
-    'change input': 'selectUINewInput',
-    'keyup .school-list': 'selectUIKeyNav'
+    'keyup': 'selectUIKeyNav'
   },
 
   initialize: function() {
@@ -73,36 +71,8 @@ app.filterWidgets.SelectUI = Backbone.View.extend({
     this.$el.toggleClass('active');
   },
 
-  selectUIKeyboard: function(e) {
-    console.log('selectUIKeyboard');
-  },
-
-  selectUINewInput: function(e) {
-    console.log('selectUINewInput');
-  },
-
   selectUIKeyNav: function(e) {
     console.log('selectUIKeyNav');
-  },
-
-
-  selectOptionView: Backbone.View.extend({
-
-    tagName: 'li',
-
-    events: {
-      'mouseover >a': 'optionHover',
-      'mouseout >a': 'optionUnHover'
-    },
-
-    optionHover: function() {
-      console.log('option over');
-    },
-
-    optionUnHover: function() {
-      console.log('and option out');
-    }
-
-  })
+  }
 
 });
