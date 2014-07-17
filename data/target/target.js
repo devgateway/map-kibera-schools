@@ -6,6 +6,9 @@
       this.groups = {};
     },
 
+    validate_none: function(key, value, options) {
+      return true;
+    },
     validate_present: function(key, value, options) {
       return (typeof value !== "undefined");
     },
@@ -18,8 +21,9 @@
         test = false;
       }
       var words = value.split(" ");
+      var lowers = ["and","of"];
       $.each( words , function( index, word ) {
-        if (word.charAt(0) != word.charAt(0).toUpperCase()) {
+        if (lowers.indexOf(word) == -1 && word.charAt(0) != word.charAt(0).toUpperCase()) {
           test = false;
         }
       });
@@ -35,9 +39,26 @@
     validate_allowed_list: function(key, value, options) {
       return $.inArray(value,options["allowed_list"]) != -1;
     },
+    validate_multi_allowed_list: function(key, value, options) {
+      var test = true;
+      if (typeof value == "undefined") {
+        return false;
+      }
+      var values = value.split(',');
+      $.each( values, function( index, v) {
+        if ($.inArray(value,options["allowed_list"]) == -1) {
+          test = false;
+        }
+      });
+      return true;
+    },
     validate_date_after: function(key, value, options) {
       return value > options['date_after'];
     },
+    validate_address: function(key, value, options) {
+      return false;
+    },
+  
     filter_date_year: function(key, value) {
       return value.substr(0,10);
     },
@@ -147,7 +168,7 @@ $( function() {
       },
       "osm:education:type" : {
         "validation" : ["validate_allowed_list"],
-        "options" : {"allowed_list" : ["pre_primary","primary","secondary"]},
+        "options" : {"allowed_list" : ["pre_primary","primary","secondary","vocational"]},
         "group" : "basic"
       },
       "osm:_user": {
@@ -156,6 +177,14 @@ $( function() {
       },
       "osm:operator:name": {
         "validation" : ["validate_present", "validate_capitalization"],
+        "group" : "basic"
+      },
+      "osm:operator:description" : {
+        "validation" : ["validate_present"],
+        "group" : "basic"
+      },
+      "osm:education:boarding" : {
+        "validation" : ["validate_check"],
         "group" : "basic"
       },
       "osm:place:village": {
@@ -174,17 +203,22 @@ $( function() {
         "group" : "infrastructure"
       },
       "osm:building:material" : {
-        "validation" : ["validate_allowed_list"],
-        "options" : {"allowed_list": ["mud","ironsheets","cement_block","wood"]},
+        "validation" : ["validate_multi_allowed_list"],
+        "options" : {"allowed_list": ["mud","ironsheets","cement_block","wood", "concrete"]},
         "group" : "infrastructure"
       },
       "osm:building:roof" : {
         "validation" : ["validate_allowed_list"],
-        "options" : {"allowed_list": ["ironsheets"]},
+        "options" : {"allowed_list": ["ironsheets", "asbestos", "wood", "concrete"]},
         "group" : "infrastructure"
       },
       "osm:toilet:present": {
-        "validation" : ["validate_check"],
+        "validation" : ["validate_allowed_list"],
+        "options" : {"allowed_list": ["yes","no","outside_public","arranged"]},
+        "group" : "infrastructure"
+      },
+      "osm:toilet:arranged_name": {
+        "validation" : ["validate_none"],
         "group" : "infrastructure"
       },
       "osm:electricity:operational_status": {
@@ -194,7 +228,7 @@ $( function() {
       },
 
       "osm:contact:address" : {
-        "validation" : ["validate_present"],
+        "validation" : ["validate_address"],
         "group" : "infrastructure"
       },
       "osm:contact:email" : {
@@ -218,6 +252,10 @@ $( function() {
         "validation" : ["validate_numeric"],
         "group" : "population"
       },
+      "osm:education:school_head" : {
+        "validation" : ["validate_present"],
+        "group" : "population"
+      },
       "osm:education:teachers" : {
         "validation" : ["validate_numeric"],
         "group" : "population"
@@ -234,7 +272,10 @@ $( function() {
         "validation" : ["validate_numeric"],
         "group" : "population"
       },
-
+      "osm:education:tsc_employed" : {
+        "validation" : ["validate_numeric"],
+        "group" : "population"
+      },
       "osm:operator:type" : {
         "validation" : ["validate_allowed_list"],
         "options" : {"allowed_list" : ["ngo","cbo","private","religious","government"]},
@@ -244,9 +285,45 @@ $( function() {
         "validation" : ["validate_check"],
         "group" : "operations"
       },
+      "osm:education:exam_affiliate" : {
+        "validation" : ["validate_none"],
+        "group" : "operations"
+      },
       "osm:education:fees" : {
         "validation" : ["validate_numeric"],
-        "group" : "operations"
+        "group" : "fees"
+      },
+      "osm:education:fees_sponsored" : {
+        "validation" : ["validate_check"],
+        "group" : "fees"
+      },
+      "osm:education:fees_level1" : {
+        "validation" : ["validate_numeric"],
+        "group" : "fees"
+      },
+      "osm:education:fees_level2" : {
+        "validation" : ["validate_numeric"],
+        "group" : "fees"
+      },
+      "osm:education:fees_level3" : {
+        "validation" : ["validate_numeric"],
+        "group" : "fees"
+      },
+      "osm:education:fees_level4" : {
+        "validation" : ["validate_numeric"],
+        "group" : "fees"
+      },
+      "osm:education:fees_level5" : {
+        "validation" : ["validate_numeric"],
+        "group" : "fees"
+      },
+      "osm:education:fees_level6" : {
+        "validation" : ["validate_numeric"],
+        "group" : "fees"
+      },
+      "osm:education:fees_optional" : {
+        "validation" : ["validate_none"],
+        "group" : "fees"
       },
       "osm:education:gender_type" : {
         "validation" : ["validate_allowed_list"],
@@ -254,7 +331,8 @@ $( function() {
         "group" : "operations"
       },
       "osm:education:government_registered" : {
-        "validation" : ["validate_check"],
+        "validation" : ["validate_allowed_list"],
+        "options" : {"allowed_list" : ["moe","mgcsd",""]},
         "group" : "operations"
       },
       "osm:education:management_committee" : {
