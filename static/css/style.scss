@@ -421,6 +421,10 @@ section#map {
     top: $height-map-controls;
     left: 0;
     width: $w;
+    li.selected a {
+      background: $c-accent2;
+      color: $c-copy-dark;
+    }
     ul {
       @include list-reset;
       max-height: 432px;

@@ -17,6 +17,10 @@ app.models.Filters = Backbone.Collection.extend({
       });
       school.set('_filterScore', score);
     }, this);
+    // let all the filters know that the filters have updated
+    this.each(function(filter) {
+      filter.trigger('filtersupdated');
+    });
   }
 
 });

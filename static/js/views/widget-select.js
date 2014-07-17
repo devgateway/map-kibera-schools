@@ -11,8 +11,13 @@ app.filterWidgets.OptionView = Backbone.View.extend({
   },
 
   render: function() {
-    var context = _.extend({count: this.model.countNotExcluded()}, this.model.attributes);
+    var context = _.extend({
+      count: this.model.countNotExcluded()
+    }, this.model.attributes);
     this.$el.html(this.template(context));
+    if (this.model.get('selected')) {
+      this.$el.addClass('selected');
+    }
     return this;
   },
 
@@ -45,6 +50,7 @@ app.filterWidgets.Select = Backbone.View.extend({
     this.listenTo(this.model, 'change:value', this.setSelect);
     this.listenTo(this.model.options, 'add', this.addOption);
     this.listenTo(this.model.options, 'sort', this.reorderOptions);
+    this.listenTo(this.model, 'filtersupdated', this.filtersUpdated);
   },
 
   render: function() {
@@ -74,6 +80,10 @@ app.filterWidgets.Select = Backbone.View.extend({
 
   setSelect: function(model, newValue) {
     this.$('> .activate').text(newValue || 'unknown');
+  },
+
+  filtersUpdated: function() {
+    this.model.options.sort();
   },
 
   selectUIActivate: function(e) {
