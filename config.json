@@ -26,6 +26,7 @@
         "views/map.js",
         "views/mapped-school.js",
         "views/schools-stats.js",
+        "views/widget-select-ui.js",
         "views/widget-quicksearch.js",
         "views/widget-select.js",
         "main.js"
