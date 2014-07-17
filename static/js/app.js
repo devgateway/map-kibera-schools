@@ -27,6 +27,7 @@
 
   app.pages.home = function home() {
     var schools = new app.models.Schools;
+
     new app.views.MapFilters({
       el: $('#map .controls'),
       schools: schools
