@@ -17,6 +17,7 @@ app.models.SelectFilterOption = Backbone.Model.extend({
 app.models.SelectFilterOptions = Backbone.Collection.extend({
 
   model: app.models.SelectFilterOption,
+  currentOption: undefined,
 
   comparator: function(a, b) {
     return app.models.Schools.prototype.comparator.call(this, a, b);
@@ -27,23 +28,27 @@ app.models.SelectFilterOptions = Backbone.Collection.extend({
   },
 
   updateSelected: function(newOption) {
-    var oldOption = this.find(function(o) { return o.get('selected'); });
-    oldOption && oldOption.set('selected', false);
+    this.currentOption && this.currentOption.set('selected', false);
+    this.currentOption = newOption;
     newOption.set('selected', true);
   }
 
 });
 
 
-app.models.SelectFilter = app.models.Filter.extend({
+app.models.SelectFilter = Backbone.Model.extend({
   workToCompute: 1,
+
+  defaults: {
+    value: undefined
+  },
 
   initialize: function(options) {
     this.key = options.key;
     var schools = options.schools;
 
     this.options = new app.models.SelectFilterOptions();
-    this.listenTo(this.options, 'change:selected', this.refilter);
+    this.listenTo(this.options, 'change:selected', this.changeSelect);
 
     schools.each(this.addSchool);
     this.listenTo(schools, 'add', this.addSchool);
@@ -70,13 +75,24 @@ app.models.SelectFilter = app.models.Filter.extend({
 
   },
 
-  refilter: function(option, selected) {
-    if (selected === false) {
-      // we just care about the new value
+  changeSelect: function(option, selected) {
+    if (selected === false) { // we just care about the new value
       return;
     }
-    this.set('value', option.optionValue);
-    // console.log('set filter value to ', option.get('optionValue'));
+    this.set('value', option.get('optionValue'));
+    this.trigger('filterchange');
+  },
+
+  scoreSchool: function(school) {
+    if (this.options.currentOption) {
+      if (this.options.currentOption.schools.contains(school)) {
+        return 0;
+      } else {
+        return 1;
+      }
+    } else {
+      return 0;
+    }
   }
 
 });

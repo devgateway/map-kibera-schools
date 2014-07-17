@@ -2,13 +2,26 @@ app.views.MapFilters = Backbone.View.extend({
 
   initialize: function(opts) {
 
-    this.edLevelWidget = new app.filterWidgets.Select({
-      model: new app.models.SelectFilter({
-        name: 'Education Level',
-        key: 'osm:education:type',
-        schools: opts.schools
-      })
+    var edLevelFilter = new app.models.SelectFilter({
+      name: 'Education Level',
+      key: 'osm:education:type',
+      schools: opts.schools
     });
+
+    var schoolTypeFilter = new app.models.SelectFilter({
+      name: 'School Type',
+      key: 'osm:operator:type',
+      schools: opts.schools
+    });
+
+    this.filters = new app.models.Filters([
+      edLevelFilter,
+      schoolTypeFilter,
+    ]);
+    this.filters.schools = opts.schools;
+
+    this.edLevelWidget = new app.filterWidgets.Select({ model: edLevelFilter });
+    this.schoolTypeWidget = new app.filterWidgets.Select({ model: schoolTypeFilter});
 
     // this.schoolTypeWidget = new app.filterWidgets.Select(_.extend({
     //   name: "School Type",
@@ -26,7 +39,7 @@ app.views.MapFilters = Backbone.View.extend({
   render: function() {
     var renderedWidgets = [
       this.edLevelWidget.render().el,
-      // this.schoolTypeWidget.render().el,
+      this.schoolTypeWidget.render().el,
       // this.quickSearchWidget.render().el
     ];
 

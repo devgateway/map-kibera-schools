@@ -37,10 +37,11 @@ app.models.Schools = Backbone.Collection.extend({
 
   _updateExcluded: function(school, newFilterScore) {
     if (newFilterScore > 0) {
-      school.set('excluded', false);
+      school.set({excluded: false});
     } else {
-      school.set('excluded', true);
+      school.set({excluded: true});
     }
+    // console.log(school);
   },
 
   notExcluded: function() {

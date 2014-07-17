@@ -17,7 +17,6 @@ app.filterWidgets.OptionView = Backbone.View.extend({
   },
 
   select: function() {
-    console.log('selecting', this.model.get('optionValue'));
     this.model.trigger('selectme', this.model);
   }
 
@@ -42,13 +41,12 @@ app.filterWidgets.SelectUI = Backbone.View.extend({
   initialize: function() {
     this.optionViews = {};  // {cid: el}
     this.model.options.each(this.addOption);
+    this.listenTo(this.model, 'change:value', this.setSelect);
     this.listenTo(this.model.options, 'add', this.addOption);
     this.listenTo(this.model.options, 'sort', this.reorderOptions);
-    this.rendered = false;
   },
 
   render: function() {
-    this.rendered = true;
     this.$el.html(this.template(this.model.attributes));
     this.$('.map-control-dropdown').html(this.dropDownTemplate());
     return this;
@@ -66,6 +64,10 @@ app.filterWidgets.SelectUI = Backbone.View.extend({
     }, this);
     this.$('.map-control-dropdown > ul').html(sortedEls);
   }, app.config.throttle),
+
+  setSelect: function(model, newValue) {
+    this.$('> .activate').text(newValue || 'unknown');
+  },
 
   selectUIActivate: function() {
     this.$el.toggleClass('active');

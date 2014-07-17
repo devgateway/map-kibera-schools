@@ -18,6 +18,8 @@ app.views.SchoolPin = Backbone.View.extend({
     this.marker.addTo(this.map);
 
     this.marker.bindPopup(this.popupTemplate(this.templatable()));
+
+    this.listenTo(this.model, 'change:excluded', this.updateExcluded);
   },
 
   templatable: function() {
@@ -29,6 +31,14 @@ app.views.SchoolPin = Backbone.View.extend({
       edType: attrs['osm:education:type'],
       opType: attrs['osm:operator:type']
     };
+  },
+
+  updateExcluded: function(thing, excluded) {
+    if (excluded) {
+      this.map.removeLayer(this.marker);
+    } else {
+      this.map.addLayer(this.marker);
+    }
   }
 
 });
