@@ -1,8 +1,5 @@
 app.filterWidgets.Select = app.filterWidgets.SelectUI.extend({
 
-  select: function() {
-    console.log('wooo selection ch-ch-changed', this);
-  }
 });
 
 

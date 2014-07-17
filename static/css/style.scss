@@ -416,7 +416,7 @@ section#map {
 }
 .map-controls .controls > li.active {
   & > .map-control-dropdown {
-    $w = $width-map-control * 1.75;
+    $w = $width-map-control * 1;
     position: absolute;
     top: $height-map-controls;
     left: 0;

@@ -12,5 +12,6 @@
   var view = _.find(routes, function(route) { return route.match.test(loc) });
   console.info('routing: ', view.page.name);
   view && view.page();
+  app.view = view;
 
 })(window.app);

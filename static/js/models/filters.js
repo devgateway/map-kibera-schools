@@ -28,11 +28,7 @@ app.models.Schools = Backbone.Collection.extend({
     }
   },
 
-  model: Backbone.Model.extend({
-    defaults: {
-      filterScore: 1
-    }
-  }),
+  model: app.models.School,
 
   initialize: function() {
     this.fetch();
@@ -49,7 +45,7 @@ app.models.Schools = Backbone.Collection.extend({
 
   notExcluded: function() {
     return this.filter(function(school) {
-      return school.get('filterScore') > 0;
+      return school.get('_filterScore') > 0;
     });
   }
 
@@ -61,7 +57,7 @@ var Filter = Backbone.Model.extend({
   //  -> creates an array of things to exclude
   //  -> matchCollection.remove that array
   defaults: {
-    value: null,
+    value: undefined,
   },
 
   setMatchables: function(matchCollection) {
@@ -69,7 +65,7 @@ var Filter = Backbone.Model.extend({
   },
 
   clear: function() {
-    this.set('value', null);
+    this.set('value', undefined);
   }
 });
 
@@ -95,7 +91,9 @@ var SelectFilterOption = Backbone.Model.extend({
 
 var SelectFilterOptions = Backbone.Collection.extend({
   model: SelectFilterOption,
-  comparator: 'optionValue'
+  comparator: function(a, b) {
+    return app.models.Schools.prototype.comparator.call(this, a, b);
+  }
 });
 
 

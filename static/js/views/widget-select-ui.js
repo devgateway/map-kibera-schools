@@ -1,3 +1,29 @@
+app.filterWidgets.OptionView = Backbone.View.extend({
+
+  tagName: 'li',
+
+  template: _.template('<a href="#">' +
+                       '  <%= optionValue || "unknown" %> (<%= count %>)' +
+                       '</a>'),
+
+  events: {
+    'click a': 'select',
+  },
+
+  render: function() {
+    var context = _.extend({count: this.model.countNotExcluded()}, this.model.attributes);
+    this.$el.html(this.template(context));
+    return this;
+  },
+
+  select: function() {
+    // console.log('yo');
+    console.log('selecting', this.model.get('optionValue'));
+  }
+
+});
+
+
 app.filterWidgets.SelectUI = Backbone.View.extend({
 
   tagName: 'li',
@@ -6,37 +32,42 @@ app.filterWidgets.SelectUI = Backbone.View.extend({
                        '<div class="map-control-dropdown">' +
                        '</div>'),
 
-  dropDownTemplate: _.template('<ul></ul>'),
-
-  optionTemplate: _.template('<li><a href="#">' +
-                             '  <%= optionValue || "unknown" %> (<%= count %>)' +
-                             '</a></li>'),
+  dropDownTemplate: _.template('<ul></ul>'),  // broken out to easily override
 
   events: {
-    'click .activate': 'selectUIActivate',
+    'click >.activate': 'selectUIActivate',
     'keyup input': 'selectUIKeyboard',
     'change input': 'selectUINewInput',
     'keyup .school-list': 'selectUIKeyNav'
   },
 
+  initialize: function() {
+    this.optionViews = {};  // {cid: el}
+    this.model.options.each(this.addOption);
+    this.listenTo(this.model.options, 'add', this.addOption);
+    this.listenTo(this.model.options, 'sort', this.reorderOptions);
+    this.rendered = false;
+  },
+
   render: function() {
+    this.rendered = true;
     this.$el.html(this.template(this.model.attributes));
     this.$('.map-control-dropdown').html(this.dropDownTemplate());
-    this.renderOptions();
-    this.listenTo(this.model.options, 'add remove reset', this.renderOptions);
     return this;
   },
 
-  renderOptions: _.debounce(function() {
-    this.model.options.each(function(option) {
-      var context = _.extend({count: option.countNotExcluded()}, option.attributes);
-      this.$('.map-control-dropdown > ul').append(this.optionTemplate(context));
-    }, this);
-  }, app.config.throttle),
-
-  updateOptions: function() {
-    // console.log('updating options...');
+  addOption: function(option) {
+    var view = new app.filterWidgets.OptionView({ model: option });
+    this.optionViews[option.cid] = view;
   },
+
+  reorderOptions: _.debounce(function() {
+    // WTF: this does not work at all without the debounce.
+    var sortedEls = this.model.options.map(function(option) {
+      return this.optionViews[option.cid].render().el;
+    }, this);
+    this.$('.map-control-dropdown > ul').html(sortedEls);
+  }, app.config.throttle),
 
   selectUIActivate: function() {
     this.$el.toggleClass('active');
