@@ -25,16 +25,18 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
   initialize: function() {
     this.rendered = false;
     this.listenTo(this.model.schools, 'add', this.reorderOptions);
+    this.listenTo(this.model, 'filtersupdated', this.reorderOptions);
   },
 
   reorderOptions: _.debounce(function() {
     if (! this.rendered) {
       return;
     }
-    console.log(this.model.schools);
-    this.$('.map-control-dropdown > ul').html(this.model.schools.map(function(school) {
-      return (new app.filterWidgets.SearchListingView({ model: school })).render().el;
-    }, this));
+    this.$('.map-control-dropdown > ul').html(
+      this.model.schools.notExcluded().map(function(school) {
+        return (new app.filterWidgets.SearchListingView({ model: school })).render().el;
+      }, this)
+    );
   }, app.config.throttle),
 
   changeInput: function(e) {
