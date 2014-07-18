@@ -51,10 +51,9 @@ app.filterWidgets.Select = Backbone.View.extend({
 
   initialize: function() {
     this.rendered = false;
-    // this.optionViews = {};  // {cid: el}
     this.model.options.each(this.addOption);
     this.listenTo(this.model, 'change:value', this.setSelect);
-    this.listenTo(this.model.options, 'add', this.addOption);
+    this.listenTo(this.model.options, 'add', this.reorderOptions);
     this.listenTo(this.model.options, 'sort', this.reorderOptions);
   },
 
@@ -66,12 +65,6 @@ app.filterWidgets.Select = Backbone.View.extend({
       this.rendered = true;
     }
     return this;
-  },
-
-  addOption: function(option) {
-    // var view = new app.filterWidgets.OptionView({ model: option });
-    // this.optionViews[option.cid] = view;
-    this.reorderOptions();
   },
 
   reorderOptions: function() {

@@ -4,6 +4,14 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
                                '       placeholder="Quick Search" />' +
                                '<ul></ul>'),
 
+  initialize: function() {
+
+  },
+
+  reorderOptions: function() {
+    
+  }
+
 
   // initialize: function(opts) {
   //   // this.schoolNames = [];
@@ -29,56 +37,56 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
   //   this.$('ul').html(sortedSchools);
   // }, app.throttle),
 
-  schoolAdded: function(school) {
-    // map simplified names to models for quick fuzzy matching
-    var schoolSimpleName = this._simplify(school.get('name'));
-    this.schoolNames.push({name: schoolSimpleName,
-                           school: school});
-    // map model ids to view els for quick reordering
-    var schoolListItemViewEl = new ListedSchool({model: school}).render().el;
-    this.schoolItemEls[school.cid] = schoolListItemViewEl;
-  },
+  // schoolAdded: function(school) {
+  //   // map simplified names to models for quick fuzzy matching
+  //   var schoolSimpleName = this._simplify(school.get('name'));
+  //   this.schoolNames.push({name: schoolSimpleName,
+  //                          school: school});
+  //   // map model ids to view els for quick reordering
+  //   var schoolListItemViewEl = new ListedSchool({model: school}).render().el;
+  //   this.schoolItemEls[school.cid] = schoolListItemViewEl;
+  // },
 
-  _simplify: function(str) {
-    lowered = str.toLowerCase();
-    unspecialed = lowered.replace(/[^a-z]/g, '');
-    return unspecialed;
-  },
+  // _simplify: function(str) {
+  //   lowered = str.toLowerCase();
+  //   unspecialed = lowered.replace(/[^a-z]/g, '');
+  //   return unspecialed;
+  // },
 
-  fuzzySearch: _.debounce(function() {
-    var key = this._simplify(this.$('input').val());
-    var simplify = this._simplify;  // ref for the loop
+  // fuzzySearch: _.debounce(function() {
+  //   var key = this._simplify(this.$('input').val());
+  //   var simplify = this._simplify;  // ref for the loop
 
-    _.each(this.schoolNames, function(simpleName) {
+  //   _.each(this.schoolNames, function(simpleName) {
 
-      if (simpleName.name.length - key.length < 0) {
-        key = key.slice(0, simpleName.name.length);
-      }
-      var nameSubstr = simpleName.name.slice(0, key.length);
+  //     if (simpleName.name.length - key.length < 0) {
+  //       key = key.slice(0, simpleName.name.length);
+  //     }
+  //     var nameSubstr = simpleName.name.slice(0, key.length);
 
-      var score = Levenshtein.get(nameSubstr, key);
+  //     var score = Levenshtein.get(nameSubstr, key);
 
-      // prefer names that start with the first letter of the key
-      var score = score - u.startsWith(simpleName.name, key.slice(0, 1));
+  //     // prefer names that start with the first letter of the key
+  //     var score = score - u.startsWith(simpleName.name, key.slice(0, 1));
 
-      simpleName.school.set('fuzzyScore', score);
-    });
+  //     simpleName.school.set('fuzzyScore', score);
+  //   });
 
-    this.collection.sort();
+  //   this.collection.sort();
 
-  }, app.throttle),
+  // }, app.throttle),
 
-  activate: function(e) {
-    e.preventDefault();
-    this.$el.toggleClass('active');
-    if (this.$el.hasClass('active')) {
-      this.$('input').focus();
-    };
-  },
+  // activate: function(e) {
+  //   e.preventDefault();
+  //   this.$el.toggleClass('active');
+  //   if (this.$el.hasClass('active')) {
+  //     this.$('input').focus();
+  //   };
+  // },
 
-  keyNav: function() {
-    console.log('nav nav nav');
-  }
+  // keyNav: function() {
+  //   console.log('nav nav nav');
+  // }
 });
 
 

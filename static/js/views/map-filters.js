@@ -14,35 +14,31 @@ app.views.MapFilters = Backbone.View.extend({
       schools: opts.schools
     });
 
+    var schoolQuickSearch = new app.models.QuickSearchFilter({
+      name: 'Schools List',
+      key: 'name',
+      schools: opts.schools
+    });
+
     this.filters = new app.models.Filters([
       schoolTypeFilter,
       edLevelFilter,
+      schoolQuickSearch
     ]);
     this.filters.schools = opts.schools;
 
     this.schoolTypeWidget = new app.filterWidgets.Select({ model: schoolTypeFilter});
     this.edLevelWidget = new app.filterWidgets.Select({ model: edLevelFilter });
+    this.quickSearchWidget = new app.filterWidgets.QuickSearch({ model: schoolQuickSearch });
 
-    // this.schoolTypeWidget = new app.filterWidgets.Select(_.extend({
-    //   name: "School Type",
-    //   key: { osm: "osm:operator:type",
-    //          kenyaopendata: "kenyaopendata:Sponsor of School" }
-    // }, widgetsCommon));
-
-    // this.quickSearchWidget = new app.filterWidgets.QuickSearch(_.extend({
-    //   name: "Schools List",
-    //   key: { osm: "osm:name",
-    //          kenyaopendata: "kenyaopendata:official_name" }
-    //   }, widgetsCommon));
   },
 
   render: function() {
     var renderedWidgets = [
       this.schoolTypeWidget.render().el,
       this.edLevelWidget.render().el,
-      // this.quickSearchWidget.render().el
+      this.quickSearchWidget.render().el
     ];
-
     this.$el.prepend(renderedWidgets);
     return this;
   }
