@@ -15,11 +15,13 @@ app.filterWidgets.OptionView = Backbone.View.extend({
   },
 
   render: function() {
-    var context = _.extend({
-      count: this.model.countNotExcluded()
-    }, this.model.attributes);
-    this.$el.html(this.template(context));
+    this.$el.html(this.template(this.getRenderContext()));
     return this;
+  },
+
+  getRenderContext: function() {
+    return _.extend({ count: this.model.countNotExcluded() },
+                    this.model.attributes);
   },
 
   select: function(e) {
