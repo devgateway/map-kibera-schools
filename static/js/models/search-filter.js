@@ -7,13 +7,13 @@ app.models.QuickSearchFilter = Backbone.Model.extend({
 
   initialize: function(options) {
     this.key = options.key;
-    var schools = options.schools;
+    this.schools = options.schools;
     this.normalizedKeyRefs = {};  // {cid, simplified}
 
     this.listenTo(this, 'change:rawValue', this.inputChanged);
 
-    schools.each(this.addSchool);
-    this.listenTo(schools, 'add', this.addSchool);
+    this.schools.each(this.addSchool);
+    this.listenTo(this.schools, 'add', this.addSchool);
   },
 
   addSchool: function(school) {
