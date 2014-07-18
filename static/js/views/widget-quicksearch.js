@@ -4,12 +4,21 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
                                '       placeholder="Quick Search" />' +
                                '<ul></ul>'),
 
-  initialize: function() {
+  events: _.extend(app.filterWidgets.Select.prototype.events, {
+    'keyup input': 'changeInput',
+    'change input': 'changeInput'
+  }),
 
+  initialize: function() {
+    // overriding Select's initialize
   },
 
   reorderOptions: function() {
-    
+    // overriding Select's reorderOptions
+  },
+
+  changeInput: function(e) {
+    this.model.set('rawValue', e.target.value);
   }
 
 
