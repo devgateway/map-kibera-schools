@@ -25,9 +25,13 @@ app.models.QuickSearchFilter = Backbone.Model.extend({
   },
 
   inputChanged: function(self, newInput) {
-    var simplified = this._simplify(newInput);
-    this.set('value', simplified);
-    this.trigger('filterchange');
+    if (! newInput) {
+      this.set('value', undefined);
+    } else {
+      var simplified = this._simplify(newInput);
+      this.set('value', simplified);
+      this.trigger('filterchange');
+    }
   },
 
   scoreSchool: function(school) {
@@ -35,6 +39,10 @@ app.models.QuickSearchFilter = Backbone.Model.extend({
         schoolKey = this.normalizedKeyRefs[school.cid],
         score,
         normalized;
+
+    if (! searchKey) {
+      return 0;
+    }
 
     schoolKey = schoolKey.slice(0, searchKey.length);
     score = Levenshtein.get(schoolKey, searchKey);
