@@ -185,6 +185,17 @@ def load_schools(school_stuff):
     return sorted(schools, key=lambda s: s['name'].lower())
 
 
+@load('fields')
+def load_fields(field_stuff):
+    """Load nice labels and metadata about the fields in the data"""
+    fields = []
+    for fields_file, _ in field_stuff:
+        fields_data = json.load(fields_file)
+        for f in fields_data:
+            fields.append(f)
+    return fields
+
+
 @load('videos')
 def load_videos(video_stuff):
     videos = []

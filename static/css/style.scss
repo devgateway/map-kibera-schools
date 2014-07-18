@@ -388,10 +388,10 @@ section#map {
         color: $c-accent2;
         background: lighten($c-bg, 20%);
       }
-      & > .map-inputs {
+      & > .map-control-dropdown {
         @include visually-hidden;
       }
-      &.active > .map-inputs {
+      &.active > .map-control-dropdown {
         @include un-visually-hidden;
         font-size: $t-small - 1px;
         line-height: $line-tight;
@@ -415,13 +415,16 @@ section#map {
   border-radius: 0;
 }
 .map-controls .controls > li.active {
-  // browse schools
-  & > .school-list {
-    $w = $width-map-control * 1.75;
+  & > .map-control-dropdown {
+    $w = $width-map-control * 1;
     position: absolute;
     top: $height-map-controls;
     left: 0;
     width: $w;
+    li.selected a {
+      background: $c-accent2;
+      color: $c-copy-dark;
+    }
     ul {
       @include list-reset;
       max-height: 432px;
@@ -452,63 +455,6 @@ section#map {
         background: darken($c-smokeglass, 10%);
       }
     }
-  }
-  // filters
-  & > .map-filters {
-    @include bg-stretchwidth($c-smokeglass);
-    $w: $width-full;
-    position: absolute;
-    top: $height-map-controls;
-    left: -($width-accent-box + $width-map-control + 3px);
-    width: $w;
-    padding: $pad-v-thin $pad-h-thin $pad-v-thin/2;
-
-    .filter-source {
-      @include box-sizing(border-box);
-      width: $width-accent-box;
-      vertical-align: top;
-      h3 {
-        font-size: $t-msmall;
-      }
-      label {
-        font-size: $t-msmall;
-      }
-    }
-    #filter-wrap {
-      display: inline-block;
-      padding: $pad-v-thin 0;
-      label {
-        display: block;
-        padding-bottom: $pad-v-thin / 1.618;
-        font-size: $t-msmall;
-        font-weight: $t-mheavy;
-      }
-      select {
-        @include control-input;
-        display: block;
-        min-width: 100%;
-        &.filter-range {
-          height: 1.4em;
-        }
-      }
-      option {
-        color: $c-copy;
-        background: $c-smokeglass;
-        border: none;
-        &:hover {
-          color: $c-accent2;
-          background: darken($c-smokeglass, 10%);
-        }
-        &:first-child {
-          color: $c-med;
-        }
-      }
-    }
-  }
-  .input-group {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 $pad-h / 2;
   }
 }
 #schools > a:before {
