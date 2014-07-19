@@ -3,7 +3,7 @@ app.filterWidgets.OptionView = Backbone.View.extend({
   tagName: 'li',
 
   template: _.template('<a href="#">' +
-                       '  <%= optionValue || "unknown" %> (<%= count %>)' +
+                       '  <%= optionValue || "unknown" %>' +
                        '</a>'),
 
   events: {
@@ -20,8 +20,7 @@ app.filterWidgets.OptionView = Backbone.View.extend({
   },
 
   getRenderContext: function() {
-    return _.extend({ count: this.model.countNotExcluded() },
-                    this.model.attributes);
+    return this.model.attributes;
   },
 
   select: function(e) {
