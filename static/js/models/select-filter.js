@@ -42,6 +42,7 @@ app.models.SelectFilter = Backbone.Model.extend({
   workToCompute: 1,
 
   defaults: {
+    expanded: false,
     value: undefined
   },
 

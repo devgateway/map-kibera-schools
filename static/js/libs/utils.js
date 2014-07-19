@@ -100,6 +100,11 @@
     }
   };
 
+  // for convenience
+  u.key = {
+    ESCAPE: 27
+  };
+
 })(window.u || (window.u = {}));
 
 

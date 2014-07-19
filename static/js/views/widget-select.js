@@ -53,6 +53,7 @@ app.filterWidgets.Select = Backbone.View.extend({
   initialize: function() {
     this.rendered = false;
     this.model.options.each(this.addOption);
+    this.listenTo(this.model, 'change:expanded', this.expandOptions);
     this.listenTo(this.model, 'change:value', this.setSelect);
     this.listenTo(this.model.options, 'add', this.reorderOptions);
     this.listenTo(this.model.options, 'sort', this.reorderOptions);
@@ -81,13 +82,21 @@ app.filterWidgets.Select = Backbone.View.extend({
     this.$('> .activate').text(newValue || 'unknown');
   },
 
+  expandOptions: function(myModel, expanded) {
+    this.$el[expanded ? 'addClass' : 'removeClass']('active');
+  },
+
   selectUIActivate: function(e) {
     e.preventDefault();
-    this.$el.toggleClass('active');
+    this.model.set('expanded', !this.model.get('expanded'));
   },
 
   selectUIKeyNav: function(e) {
-    console.log('selectUIKeyNav');
+    switch(e.keyCode) {
+      case u.key.ESCAPE:
+        this.model.set('expanded', false);
+        break;
+    };
   }
 
 });
