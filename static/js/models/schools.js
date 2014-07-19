@@ -2,7 +2,8 @@ app.models.School = Backbone.Model.extend({
 
   defaults: {
     _filterScore: 1,  // filters write to this
-    excluded: false  // other things watch/read this.
+    excluded: false,  // other things watch/read this.
+    selected: false  // only one should be selected at a time
   }
 
 });
@@ -12,21 +13,7 @@ app.models.Schools = Backbone.Collection.extend({
   url: '/_schools.json',  // app-optimized version of the standard
                           // `schools.geojson` so that we can do less work.
 
-  comparator: function(a, b) {
-    var scoreA = a.get('_filterScore'),
-        scoreB = b.get('_filterScore');
-    if (scoreA !== scoreB) {
-      return scoreA > scoreB ? 1 : -1;
-    } else {
-      var nameA = a.get('name'),
-          nameB = b.get('name');
-      if (nameA !== nameB) {
-        return nameA > nameB ? 1 : -1;
-      } else {
-        return 0;
-      }
-    }
-  },
+  comparator: 'name',
 
   model: app.models.School,
 
@@ -41,7 +28,6 @@ app.models.Schools = Backbone.Collection.extend({
     } else {
       school.set({excluded: true});
     }
-    // console.log(school);
   },
 
   notExcluded: function() {

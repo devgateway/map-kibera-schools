@@ -1,13 +1,7 @@
 app.filterWidgets.SearchListingView = app.filterWidgets.OptionView.extend({
-
   template: _.template('<a href="#">' +
                        '  <%= name %>' +
-                       '</a>'),
-
-  getRenderContext: function() {
-    return this.model.attributes;
-  }
-
+                       '</a>')
 });
 
 
@@ -33,7 +27,9 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
       return;
     }
     this.$('.map-control-dropdown > ul').html(
-      this.model.schools.notExcluded().map(function(school) {
+      _(this.model.schools.notExcluded()).sortBy(function(school) {
+        return -school.get('_filterScore');
+      }).map(function(school) {
         return (new app.filterWidgets.SearchListingView({ model: school })).render().el;
       }, this)
     );
