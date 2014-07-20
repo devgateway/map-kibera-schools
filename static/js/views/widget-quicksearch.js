@@ -19,7 +19,6 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
   initialize: function() {
     this.rendered = false;
     this.listenTo(this.model.schools, 'add', this.reorderOptions);
-    this.listenTo(this.model.schools, 'change:selected', this.setValue);
     this.listenTo(this.model, 'change:value', this.setUIValue);
     this.listenTo(this.model, 'change:expanded', this.expandOptions);
     this.listenTo(this.model, 'change:expanded', this.focusOnExpand);
@@ -39,6 +38,26 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
     );
   }, app.config.throttle),
 
+  moveCursor: function(changeIndex) {
+    // todo -- factor out common code with superclass
+    var notExcludedSchools = this.model.schools.notExcluded();
+    var oldCursored = notExcludedSchools.find(function(option) {
+      return option.get('cursored');
+    });
+    if (! oldCursored) {
+      oldCursored = notExcludedSchools[0];
+    }
+    var oldIndex = notExcludedSchools.indexOf(oldCursored);
+
+    var naiiveNextIndex = oldIndex + changeIndex;
+    var lastIndex = notExcludedSchools.length - 1;
+    var nextIndex = Math.max(0, Math.min(lastIndex, naiiveNextIndex));
+
+    var nextCursored = notExcludedSchools[nextIndex];
+
+    nextCursored.trigger('cursorme', nextCursored);
+  },
+
   changeInput: function(e) {
     this.model.set('rawValue', e.target.value);
   },
@@ -49,13 +68,6 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
 
   setUIValue: function(myModel, newValue) {
     this.$('>a').text(newValue || this.model.get('name'));
-  },
-
-  setValue: function(school, selected) {
-    if (selected === false) {
-      return;
-    }
-    this.model.set('value', school.get('name'));
   }
 
 });

@@ -29,8 +29,7 @@ app.filterWidgets.OptionView = Backbone.View.extend({
     this.model.trigger('cursorme', this.model);
   },
 
-  selectMePlease: function(e) {
-    e.preventDefault();
+  selectMePlease: function() {
     this.model.trigger('selectme', this.model);
     this.$('a').focus();  // damn chromium...
   },
@@ -58,7 +57,8 @@ app.filterWidgets.Select = Backbone.View.extend({
 
   events: {
     'click >.activate': 'selectUIActivate',
-    'keydown': 'selectUIKeyNav'
+    'keydown': 'selectUIKeyNav',
+    'click .map-control-dropdown': 'clickedToSelect'
   },
 
   initialize: function() {
@@ -154,6 +154,14 @@ app.filterWidgets.Select = Backbone.View.extend({
         this.selectCursored();
       }
     }
+  },
+
+  clickedToSelect: function(e) {
+    // selection handled in the option's view,
+    // we just need to prevent the page jumping to the top
+    // and close the menu
+    e.preventDefault();
+    this.model.set('expanded', false);
   }
 
 });
