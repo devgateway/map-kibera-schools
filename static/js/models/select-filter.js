@@ -15,7 +15,7 @@ app.models.SelectFilterOption = Backbone.Model.extend({
 });
 
 
-app.models.SelectFilterOptions = Backbone.Collection.extend({
+app.models.SelectFilterOptions = app.models.Schools.extend({
 
   model: app.models.SelectFilterOption,
   cursoredOption: undefined,
@@ -30,18 +30,6 @@ app.models.SelectFilterOptions = Backbone.Collection.extend({
   initialize: function() {
     this.listenTo(this, 'cursorme', this.updateCursored);
     this.listenTo(this, 'selectme', this.updateSelected);
-  },
-
-  updateSelected: function(newOption) {
-    this.selectedOption && this.selectedOption.set('selected', false);
-    this.selectedOption = newOption;
-    newOption.set('selected', true);
-  },
-
-  updateCursored: function(newOption) {
-    this.cursoredOption && this.cursoredOption.set('cursored', false);
-    this.cursoredOption = newOption;
-    newOption.set('cursored', true);
   }
 
 });
