@@ -102,7 +102,15 @@
 
   // for convenience
   u.key = {
-    ESCAPE: 27
+    13: 'ENTER',
+    27: 'ESCAPE',
+    32: 'SPACE',
+    33: 'PAGEUP',
+    34: 'PAGEDOWN',
+    35: 'END',
+    36: 'HOME',
+    38: 'UP',
+    40: 'DOWN'
   };
 
 })(window.u || (window.u = {}));

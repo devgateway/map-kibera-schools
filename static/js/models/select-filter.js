@@ -1,5 +1,6 @@
 app.models.SelectFilterOption = Backbone.Model.extend({
   defaults: {
+    cursored: false,
     selected: false
   },
 
@@ -17,7 +18,8 @@ app.models.SelectFilterOption = Backbone.Model.extend({
 app.models.SelectFilterOptions = Backbone.Collection.extend({
 
   model: app.models.SelectFilterOption,
-  currentOption: undefined,
+  cursoredOption: undefined,
+  selectedOption: undefined,
 
   comparator: function(a, b) {
     var countA = a.countNotExcluded(),
@@ -26,13 +28,20 @@ app.models.SelectFilterOptions = Backbone.Collection.extend({
   },
 
   initialize: function() {
+    this.listenTo(this, 'cursorme', this.updateCursored);
     this.listenTo(this, 'selectme', this.updateSelected);
   },
 
   updateSelected: function(newOption) {
-    this.currentOption && this.currentOption.set('selected', false);
-    this.currentOption = newOption;
+    this.selectedOption && this.selectedOption.set('selected', false);
+    this.selectedOption = newOption;
     newOption.set('selected', true);
+  },
+
+  updateCursored: function(newOption) {
+    this.cursoredOption && this.cursoredOption.set('cursored', false);
+    this.cursoredOption = newOption;
+    newOption.set('cursored', true);
   }
 
 });
@@ -79,7 +88,7 @@ app.models.SelectFilter = Backbone.Model.extend({
   },
 
   changeSelect: function(option, selected) {
-    if (selected === false) { // we just care about the new value
+    if (selected === false) {  // we just care about the new value
       return;
     }
     this.set('value', option.get('optionValue'));
@@ -87,8 +96,8 @@ app.models.SelectFilter = Backbone.Model.extend({
   },
 
   scoreSchool: function(school) {
-    if (this.options.currentOption) {
-      if (this.options.currentOption.schools.contains(school)) {
+    if (this.options.selectedOption) {
+      if (this.options.selectedOption.schools.contains(school)) {
         return 0;
       } else {
         return 1;

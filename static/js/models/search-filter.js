@@ -8,6 +8,7 @@ app.models.QuickSearchFilter = Backbone.Model.extend({
   initialize: function(options) {
     this.key = options.key;
     this.schools = options.schools;
+    this.options = this.schools;  // alias for some default UI stuff
     this.normalizedKeyRefs = {};  // {cid, simplified}
 
     this.listenTo(this, 'change:rawValue', this.inputChanged);

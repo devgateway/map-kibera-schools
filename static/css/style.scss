@@ -379,7 +379,9 @@ section#map {
           font-size: $t-mbig;
           vertical-align: middle;
         }
-        &:hover {
+        &:hover,
+        &:active,
+        &:focus {
           color: $c-bright;
           background: lighten($c-bg, 20%);
         }
@@ -421,9 +423,13 @@ section#map {
     top: $height-map-controls;
     left: 0;
     width: $w;
+    li.cursored a {
+      color: $c-accent2;
+      background: darken($c-smokeglass, 10%);
+    }
     li.selected a {
-      background: $c-accent2;
       color: $c-copy-dark;
+      background: $c-accent2;
     }
     ul {
       @include list-reset;
@@ -450,10 +456,6 @@ section#map {
       padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
       color: $c-copy;
       background: $c-smokeglass;
-      &:hover {
-        color: $c-accent2;
-        background: darken($c-smokeglass, 10%);
-      }
     }
   }
 }
