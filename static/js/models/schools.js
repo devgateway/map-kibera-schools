@@ -28,13 +28,13 @@ app.models.Schools = Backbone.Collection.extend({
   updateSelected: function(newOption) {
     this.selectedOption && this.selectedOption.set('selected', false);
     this.selectedOption = newOption;
-    newOption.set('selected', true);
+    newOption && newOption.set('selected', true);
   },
 
   updateCursored: function(newOption) {
     this.cursoredOption && this.cursoredOption.set('cursored', false);
     this.cursoredOption = newOption;
-    newOption.set('cursored', true);
+    newOption && newOption.set('cursored', true);
   },
 
   _updateExcluded: function(school, newFilterScore) {

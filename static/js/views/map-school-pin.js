@@ -22,8 +22,15 @@ app.views.SchoolPin = Backbone.View.extend({
     });
     this.marker.addTo(this.map);
 
-    this.marker.bindPopup(this.popupTemplate(this.templatable()));
+    this.listenTo(this.marker, 'mouseover', this.cursor);
+    this.listenTo(this.marker, 'click', this.select);
 
+    this.popup = L.popup()
+      .setLatLng(this.locations.osm)
+      .setContent(this.popupTemplate(this.templatable()));
+
+    this.listenTo(this.model, 'change:cursored', this.updateCursored);
+    this.listenTo(this.model, 'change:selected', this.updateSelected);
     this.listenTo(this.model, 'change:excluded', this.updateExcluded);
   },
 
@@ -38,6 +45,34 @@ app.views.SchoolPin = Backbone.View.extend({
     };
   },
 
+  cursor: function() {
+    this.model.collection.updateCursored(this.model);
+  },
+
+  updateCursored: function(myModel, cursored) {
+    if (cursored) {
+      this.marker.setStyle({
+        color: '#f8ad32'
+      }).bringToFront();
+    } else {
+      this.marker.setStyle({
+        color: '#75b81b'
+      });
+    }
+  },
+
+  select: function() {
+    this.model.collection.updateSelected(this.model);
+  },
+
+  updateSelected: function(myModel, selected) {
+    if (! selected) {
+      return;
+    }
+    this.map.openPopup(this.popup);
+    this.marker.bringToFront();
+  },
+
   updateExcluded: function(thing, excluded) {
     if (excluded) {
       this.marker.setStyle({
@@ -45,13 +80,13 @@ app.views.SchoolPin = Backbone.View.extend({
         weight: 2,
         opacity: 0.4,
         fillOpacity: 0
-      });
+      }).bringToBack();
     } else {
       this.marker.setStyle({
         weight: 6,
         opacity: 0.9,
         fillOpacity: 0.667
-      });
+      }).bringToFront();
     }
   }
 
