@@ -243,11 +243,6 @@ def clean():
     print('cleaned.')
 
 
-@command
-def build2(target):
-    print('buildit yo')
-
-
 if __name__ == '__main__':
     import sys
     # get the command or else help
