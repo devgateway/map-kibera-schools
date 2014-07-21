@@ -395,7 +395,7 @@ section#map {
       }
       &.active > .map-control-dropdown {
         @include un-visually-hidden;
-        font-size: $t-small - 1px;
+        font-size: $t-msmall;
         line-height: $line-tight;
       }
     }
