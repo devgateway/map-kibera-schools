@@ -424,7 +424,7 @@ section#map {
 
   &.filtering {
     & > .activate {
-      color: $c-accent;
+      color: $c-accent2;
     }
     .clear-filter {
       z-index: 600;
@@ -434,7 +434,7 @@ section#map {
       right: 0;
       height: $height-map-controls;
       width: $pad-h;
-      background: $c-accent;
+      background: $c-accent2;
       color: $c-bright;
       text-align: center;
     }
