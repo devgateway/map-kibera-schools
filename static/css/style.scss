@@ -368,7 +368,7 @@ section#map {
         display: inline-block;
         height: $height-map-controls;
         min-width: $width-map-control;
-        padding: 0 $pad-h-thin;
+        padding: 0 $pad-h 0 $pad-h-thin;
         font-size: $t-base;
         border-right: 1px solid $c-outline;
         &:before {

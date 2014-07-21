@@ -40,9 +40,9 @@
     width: 100%;
     .controls > li {
       $cw: 120px;
-      & > a {
+      & > .activate {
         min-width: $cw;
-        padding: 0 $pad-h / 1.618;
+        padding: 0 $pad-h 0 $pad-h / 1.618;
         &:before {
           display: none;
         }
