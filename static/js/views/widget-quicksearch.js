@@ -30,13 +30,18 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
     if (! this.rendered) {
       return;
     }
-    this.$('.map-control-dropdown > ul').html(
-      _(this.model.schools.notExcluded()).sortBy(function(school) {
+    var notExcludedSchools = this.model.schools.notExcluded(),
+        optionViews;
+    if (notExcludedSchools.length > 0) {
+      optionViews = _(notExcludedSchools).sortBy(function(school) {
         return -school.get('_filterScore');
       }).map(function(school) {
         return (new app.filterWidgets.SearchListingView({ model: school })).render().el;
-      }, this)
-    );
+      }, this);
+    } else {
+      optionViews = '<li><a href="#">No schools matched the filter criteria</a></li>';
+    }
+    this.$('.map-control-dropdown > ul').html(optionViews);
   }, app.config.throttle),
 
   clearFilter: function() {
