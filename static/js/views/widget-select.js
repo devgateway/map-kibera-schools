@@ -50,6 +50,7 @@ app.filterWidgets.Select = Backbone.View.extend({
   tagName: 'li',
 
   template: _.template('<a class="activate" href="#"><%= name %></a>' +
+                       '<a class="clear-filter" href="#">&times;</a>' +
                        '<div class="map-control-dropdown">' +
                        '</div>'),
 
@@ -57,6 +58,7 @@ app.filterWidgets.Select = Backbone.View.extend({
 
   events: {
     'click >.activate': 'selectUIActivate',
+    'click .clear-filter': 'clearFilter',
     'keydown': 'selectUIKeyNav',
     'click .map-control-dropdown': 'clickedToSelect'
   },
@@ -90,13 +92,21 @@ app.filterWidgets.Select = Backbone.View.extend({
     this.moveCursor(0);
   },
 
+  clearFilter: function(e) {
+    e.preventDefault();
+    this.model.options.updateSelected(undefined);
+    this.model.set('value', undefined);
+    this.model.trigger('filterchange');
+  },
+
   setSelect: function(model, newValue) {
-    this.$('> .activate').text(newValue || 'unknown');
+    this.$el[newValue ? 'addClass' : 'removeClass']('filtering');
+    this.$('>.activate').text(newValue || this.model.get('name'));
   },
 
   expandOptions: function(myModel, expanded) {
     this.$el[expanded ? 'addClass' : 'removeClass']('active');
-    this.$('> a').focus();  // chrome sucks
+    this.$('>.activate').focus();  // chrome sucks
   },
 
   selectUIActivate: function(e) {

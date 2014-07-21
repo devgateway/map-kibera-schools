@@ -13,7 +13,8 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
 
   events: _.extend(app.filterWidgets.Select.prototype.events, {
     'keyup input': 'changeInput',
-    'change input': 'changeInput'
+    'change input': 'changeInput',
+    'click input': 'noop'
   }),
 
   initialize: function() {
@@ -37,6 +38,14 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
       }, this)
     );
   }, app.config.throttle),
+
+  clearFilter: function() {
+    app.filterWidgets.Select.prototype.clearFilter.apply(this, arguments);
+    this.$('input').val('');
+    if (this.model.get('expanded')) {
+      this.$('input').focus();
+    }
+  },
 
   moveCursor: function(changeIndex) {
     // todo -- factor out common code with superclass
@@ -67,7 +76,12 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
   },
 
   setUIValue: function(myModel, newValue) {
-    this.$('>a').text(newValue || this.model.get('name'));
+    this.$el[newValue ? 'addClass' : 'removeClass']('filtering');
+    this.$('>.activate').text(newValue || this.model.get('name'));
+  },
+
+  noop: function(e) {
+    e.stopPropagation();
   }
 
 });

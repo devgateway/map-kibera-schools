@@ -58,7 +58,7 @@ app.models.SelectFilter = Backbone.Model.extend({
     var rawValue = school.get(this.key);
 
     // TODO: accept actual JSON instead of ad-hoc splitting here
-    var optionValues = (rawValue && rawValue.split(',') || [undefined]);
+    var optionValues = (rawValue && rawValue.split(',') || ['unknown']);
 
     _.each(optionValues, function(optionValue) {
       var selectOption = this.options.find(function(opt) {

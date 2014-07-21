@@ -361,7 +361,7 @@ section#map {
 
     & > li {
       position: relative;
-      & > a {  // should probably be a header
+      & > .activate {  // should probably be a header
         @include box-sizing(border-box);
         z-index: $layer-high;
         position: relative;
@@ -386,7 +386,7 @@ section#map {
           background: lighten($c-bg, 20%);
         }
       }
-      &.active > a {
+      &.active > .activate {
         color: $c-accent2;
         background: lighten($c-bg, 20%);
       }
@@ -415,6 +415,30 @@ section#map {
   background: $c-smokeglass;
   border: 1px solid $c-outline;
   border-radius: 0;
+}
+.map-controls .controls > li {
+
+  .clear-filter {
+    display: none;
+  }
+
+  &.filtering {
+    & > .activate {
+      color: $c-accent;
+    }
+    .clear-filter {
+      z-index: 600;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: $height-map-controls;
+      width: $pad-h;
+      background: $c-accent;
+      color: $c-bright;
+      text-align: center;
+    }
+  }
 }
 .map-controls .controls > li.active {
   & > .map-control-dropdown {
