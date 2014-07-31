@@ -249,7 +249,7 @@ def load_blog(blog_stuff):
         post = {}
         html = markdowner.convert(blog_file.read())  # also loads metadata
         post['content'] = Markup(html)
-        post['summary'] = Markup('\n'.join(html.split('\n', 2)[:-1]))
+        post['summary'] = Markup('\n'.join(html.split('\n', 1)[:-1]))
         post['slug'] = os.path.splitext(filename)[0]
 
         for field, (required, filters) in meta.items():

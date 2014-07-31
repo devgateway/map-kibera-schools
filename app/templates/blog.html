@@ -5,23 +5,25 @@
 
 {% block content %}
 
-  <header id="blog-header">
-    <h2>Stories from Kibera</h2>
+  <section id="blog-header">
+    <h1>Stories from Kibera</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </header>
+  </section>
 
   <section id="blog-posts">
     {% for post in content.blog %}
-      <article>
+      <article class="blog-post">
         {% if post.photo %}
           <img alt="{{ post.photo_caption }}" src="{{ post.photo }}" />
         {% endif %}
         <header>
-          <h1>{{ post.title }}</h1>
-          <p>By <strong>{{ post.author }}</strong> on <strong><time datetime="{{ post.date.isoformat() }}">{{ post.date.isoformat() }}</time></p>
+          <h1><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h1>
+          <p>By <strong>{{ post.author }}</strong> on <strong><time datetime="{{ post.date.isoformat() }}">{{ post.date.isoformat() }}</time></strong></p>
         </header>
 
-        {{ post.summary }}
+        <div class="post-content">
+          {{ post.summary }}
+        </div>
 
         <p><a href="/blog/{{ post.slug }}" title="{{ post.title }} (full post)">read more</a>
 

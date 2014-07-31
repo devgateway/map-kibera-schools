@@ -5,22 +5,40 @@
 
 {% block content %}
 
-  <article class="blog-post" id="blog-post">
-    <header>
-      <h1>{{ post.title }}</h1>
-      <p>By <strong>{{ post.author }}</strong> on <strong><time datetime="{{ post.date.isoformat() }}">{{ post.date.isoformat() }}</time></p>
-    </header>
+  <section id="one-blog-post">
+    <article class="blog-post">
+      <header>
+        <h1>{{ post.title }}</h1>
+        <p>By <strong>{{ post.author }}</strong> on <strong><time datetime="{{ post.date.isoformat() }}">{{ post.date.isoformat() }}</time></strong></p>
+      </header>
 
-    {% if post.photo %}
-      <img alt="{{ post.photo_caption }}" src="{{ post.photo }}" />
-    {% endif %}
+      {% if post.photo %}
+        <img alt="{{ post.photo_caption }}" src="{{ post.photo }}" />
+      {% endif %}
 
-    {{ post.content }}
+      <div class="post-content">
+        {{ post.content }}
+      </div>
 
-    <footer>
-      <h3>Share</h3>
-      social buttons
-    </footer>
-  </article>
+      <footer>
+        <h3>Share</h3>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://schools.mapkibera.org/blog/{{ post.slug }}">Tweet</a>
+        <div class="fb-like" data-href="http://schools.mapkibera.org/blog/{{ post.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+      </footer>
+    </article>
+
+    {# activate twitter share buttons #}
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    {# facebook... #}
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=737854286236575&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  </section>
+  </section>
 
 {% endblock %}
