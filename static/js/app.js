@@ -43,6 +43,10 @@
   };
 
   app.pages.schoolProfile = function schoolProfile() {
+    new app.views.MapOneSchool({
+      el: $('#school-map-display'),
+      model: new app.models.School(school)  // from global scope
+    }).render();
   };
 
 })(new (function App() {}));
