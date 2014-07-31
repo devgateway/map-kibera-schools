@@ -127,6 +127,23 @@ def school_url_generator():
         yield 'school', {'slug': school['slug']}
 
 
+@app.route('/blog/')
+def blog():
+    return render_template('blog.html')
+
+
+@app.route('/blog/<path:slug>/')
+def blog_post(slug):
+    this_post = indexed(content['blog'], 'slug').get(slug) or abort(404)
+    return render_template('blog-post.html', post=this_post)
+
+
+def blog_url_generator():
+    """Generate all the blog post urls for freezing"""
+    for post in content['blog']:
+        yield 'blog_post', {'slug': post['slug']}
+
+
 @app.route('/robots.txt')
 def robots():
     """Allow everything"""

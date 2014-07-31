@@ -209,7 +209,7 @@ def load_videos(video_stuff):
 def load_stories(story_stuff):
     meta = {
         'title':       (True, ('one',)),
-        'description': (True, ('one',))
+        'description': (True, ('one',)),
     }
     markdowner = Markdown(extensions=['meta'], output_format='html5')
     stories = []
@@ -232,6 +232,39 @@ def load_stories(story_stuff):
         markdowner.reset()
 
     return stories
+
+
+@load('blog')
+def load_blog(blog_stuff):
+    meta = {
+        'title':    (True, ('one',)),
+        'author':   (True, ('one',)),
+        'date':     (True, ('one', 'iso-date')),
+        'photo':    (False, ('one',)),
+        'photo_caption': (False, (''))
+    }
+    markdowner = Markdown(extensions=['meta'], output_format='html5')
+    posts = []
+    for blog_file, filename in blog_stuff:
+        post = {}
+        html = markdowner.convert(blog_file.read())  # also loads metadata
+        post['content'] = Markup(html)
+        post['summary'] = Markup('\n'.join(html.split('\n', 2)[:-1]))
+        post['slug'] = os.path.splitext(filename)[0]
+
+        for field, (required, filters) in meta.items():
+            field_val = markdowner.Meta.get(field)
+            try:
+                val = apply_field_constraints(field_val, required, filters)
+            except MetaError as e:
+                e.apply_context(filename, field)
+                raise e
+            post[field] = val
+
+        posts.append(post)
+        markdowner.reset()
+
+    return posts
 
 
 @load('datapage')

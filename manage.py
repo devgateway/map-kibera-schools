@@ -63,7 +63,7 @@ def command(func, _func_cache={}):
 def help():
     """Get usage information about this script"""
     print('\nUsage: {} [command]'.format(sys.argv[0]), end='\n\n')
-    print('Available commands:')    
+    print('Available commands:')
     for name, func in command.__defaults__[0].items():  # from _func_cache
         print(' * {:16s} {}'.format(name, func.__doc__ or ''))
     raise SystemExit()
@@ -76,6 +76,7 @@ def build_html():
     views.app.testing = True
     freezer = Freezer(views.app, with_static_files=False)
     freezer.register_generator(views.school_url_generator)
+    freezer.register_generator(views.blog_url_generator)
     freezer.freeze()
 
 

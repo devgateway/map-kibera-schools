@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% set pagenav = [] %}
+
+
+{% block content %}
+
+  <article class="blog-post" id="blog-post">
+    <header>
+      <h1>{{ post.title }}</h1>
+      <p>By <strong>{{ post.author }}</strong> on <strong><time datetime="{{ post.date.isoformat() }}">{{ post.date.isoformat() }}</time></p>
+    </header>
+
+    {% if post.photo %}
+      <img alt="{{ post.photo_caption }}" src="{{ post.photo }}" />
+    {% endif %}
+
+    {{ post.content }}
+
+    <footer>
+      <h3>Share</h3>
+      social buttons
+    </footer>
+  </article>
+
+{% endblock %}
