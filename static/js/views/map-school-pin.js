@@ -23,6 +23,7 @@ app.views.SchoolPin = Backbone.View.extend({
     this.marker.addTo(this.map);
 
     this.listenTo(this.marker, 'mouseover', this.cursor);
+    this.listenTo(this.marker, 'mouseout', this.uncursor);
     this.listenTo(this.marker, 'click', this.select);
 
     this.popup = L.popup()
@@ -47,6 +48,10 @@ app.views.SchoolPin = Backbone.View.extend({
 
   cursor: function() {
     this.model.collection.updateCursored(this.model);
+  },
+
+  uncursor: function() {
+    this.model.set('cursored', false);
   },
 
   updateCursored: function(myModel, cursored) {
