@@ -12,6 +12,7 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
                                '<ul></ul>'),
 
   events: _.extend(app.filterWidgets.Select.prototype.events, {
+    'keydown input': 'maybeBlockSpace',
     'keyup input': 'changeInput',
     'change input': 'changeInput',
     'click input': 'noop'
@@ -55,7 +56,7 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
   moveCursor: function(changeIndex) {
     // todo -- factor out common code with superclass
     var notExcludedSchools = this.model.schools.notExcluded();
-    var oldCursored = notExcludedSchools.find(function(option) {
+    var oldCursored = _(notExcludedSchools).find(function(option) {
       return option.get('cursored');
     });
     if (! oldCursored) {
@@ -70,6 +71,13 @@ app.filterWidgets.QuickSearch = app.filterWidgets.Select.extend({
     var nextCursored = notExcludedSchools[nextIndex];
 
     nextCursored.trigger('cursorme', nextCursored);
+  },
+
+  maybeBlockSpace: function(e) {
+    if (u.key[e.keyCode] === 'SPACE') {
+      console.log('spaaaaaaace');
+      e.stopPropagation();  // space bar selects from the list if it's let to
+    }
   },
 
   changeInput: function(e) {

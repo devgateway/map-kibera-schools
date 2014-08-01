@@ -321,17 +321,20 @@ section#map {
    * Scrollbars ... webkit only :(
    */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 18px;
   }
   ::-webkit-scrollbar-track {
     padding: 3px;
-    background: $c-smokeglass;
+    background: #222;
   }
   ::-webkit-scrollbar-thumb {
     display: block;
     width: 10px;
-    background: $c-footer-med;
-    border-radius: 10px;
+    background: $c-accent2;
+    border: 2px solid #222;
+    border-width: 4px 1px;
+    border-color: $c-accent2 #222;
+    border-radius: 3px;
   }
 
   a {
@@ -457,6 +460,7 @@ section#map {
     }
     ul {
       @include list-reset;
+      width: 100%;
       max-height: 432px;
       overflow-y: auto;
       overflow-x: hidden;
