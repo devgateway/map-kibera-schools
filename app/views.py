@@ -57,7 +57,7 @@ def data_overview():
     return render_template('data.html')
 
 
-@app.route('/schools.geojson')
+@app.route('/schools.json')
 def schools_geojson():
     geojson = {
         'type': 'FeatureCollection',
