@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 
-{% set pagenav = [] %}
+{% set pagenav = [
+  {'href': '/#map', 'title': 'Kibera Schools Map'},
+  {'href': '/blog/#blog-posts', 'title': 'Blog'},
+] %}
 
 
 {% block content %}

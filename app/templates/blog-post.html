@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 
-{% set pagenav = [] %}
+{% set pagenav = [
+  {'href': '/#videos', 'title': 'Videos'},
+  {'href': '/#map', 'title': 'Kibera Schools Map'},
+  {'href': '/#charts', 'title': 'Highlights'},
+  {'href': '/#stories', 'title': 'Stories'},
+  {'href': '/blog/#blog-posts', 'title': 'Blog'},
+] %}
 
 
 {% block content %}

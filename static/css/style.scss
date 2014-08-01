@@ -75,19 +75,22 @@
     &.selected {
       background: $c-control-bg;
     }
-    &[href="#videos"]:before {
+    &[href="/#videos"]:before {
       content: "p";
     }
-    &[href="#map"]:before,
-    &[href="#school-map"]:before {
+    &[href="/#map"]:before,
+    &[href="/#school-map"]:before {
       content: "w";
     }
-    &[href="#charts"]:before,
-    &[href="#school-blurbs"]:before {
+    &[href="/#charts"]:before,
+    &[href="/#school-blurbs"]:before {
       content: "O";
     }
-    &[href="#stories"]:before {
+    &[href="/#stories"]:before {
       content: "b";
+    }
+    &[href="/blog/#blog-posts"]:before {
+      content: "B";
     }
   }
 
@@ -99,6 +102,7 @@
   }
 
   li.beta {
+    font-family: 'Lato';
     position: relative;
     top: -4px;
     vertical-align: top;
