@@ -879,7 +879,7 @@ section#map {
 
 .footer-meta {
   @include bg-stretchwidth($c-footer-light);
-  padding: $pad-v-big 0 ($pad-v-big - 3px);
+  padding: $pad-v-big 0 $pad-v;
   font-size: 0;  // WATCH OUT (reset in next-leve divs)
   color: $c-footer-med;
 
@@ -901,6 +901,11 @@ section#map {
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  // twitter feed
+  .twitter-timeline {
+    margin-top: -12px;  // undo padding of first tweet
   }
 
   #get-in-touch {
