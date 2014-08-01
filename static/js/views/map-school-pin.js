@@ -47,7 +47,9 @@ app.views.SchoolPin = Backbone.View.extend({
   },
 
   cursor: function() {
-    this.model.collection.updateCursored(this.model);
+    if (this.model.collection) {
+      this.model.collection.updateCursored(this.model);
+    }
   },
 
   uncursor: function() {
@@ -67,7 +69,11 @@ app.views.SchoolPin = Backbone.View.extend({
   },
 
   select: function() {
-    this.model.collection.updateSelected(this.model);
+    if (this.model.collection) {
+      this.model.collection.updateSelected(this.model);
+    } else {
+      this.model.set('selected', true);
+    }
   },
 
   updateSelected: function(myModel, selected) {
