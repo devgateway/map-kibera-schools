@@ -82,7 +82,8 @@
           <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
         {% endif %}
         {% if not has_kod %}
-          <small>No data available</small>
+          <h2>&nbsp;</h2>
+          <h3>No data available</h3>
         {% endif %}
       </header>
     </div>
