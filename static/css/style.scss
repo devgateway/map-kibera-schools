@@ -728,9 +728,9 @@ section#map {
     width: $width-full;
     margin: 0 auto;
   }
-  h2 {
+  h2,
+  h3 {
     display: inline-block;
-    height: 1.25em;
     line-height: $height-map-controls;
     margin: 0 $pad-h 0 0;
   }
