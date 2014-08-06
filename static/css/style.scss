@@ -574,7 +574,7 @@ section#map {
   @include bg-stretchwidth($c-brief-bg);
   width: $width-full;
   margin: 0 auto;
-  padding: $pad-v-thin 0; 
+  padding: $pad-v-thin 0;
   p {
     margin: 0;
     line-height: $line-tight + 0.1em;  // match psd design...
@@ -718,10 +718,25 @@ section#map {
  *
  * Charts and stuff
  */
-#charts {
-  width: $width-full;
+#stats {
+  background: $c-control-bg;
+  height: $height-map-controls;
   margin: 0 auto;
-  padding: $pad-v 0;
+  padding: 0;
+  border-bottom: 1px solid $c-outline;
+  .content {
+    width: $width-full;
+    margin: 0 auto;
+  }
+  h2 {
+    display: inline-block;
+    height: 1.25em;
+    line-height: $height-map-controls;
+    margin: 0 $pad-h 0 0;
+  }
+  .stats-container {
+    display: inline-block;
+  }
 }
 
 
@@ -732,8 +747,12 @@ section#map {
  */
 #stories {
   padding: $pad-v 0;
+  // h2 {
+  //   @include visually-hidden;
+  // }
   h2 {
-    @include visually-hidden;
+    margin: $pad-v-big 0 $pad-v;
+    text-align: center;
   }
   & > ul {
     @include list-reset;
@@ -741,7 +760,7 @@ section#map {
     margin: 0 auto;
     font-size: 0;  // WARNING! vv see li rule vv
     & > li {
-      $box-width: ($width-full / 2) - ($pad-h * 2);
+      $box-width: ($width-full / 2) - ($pad-h * 3 / 2);
       display: inline-block;
       width: $box-width;
       margin: 0 0 $pad-v $pad-h;
