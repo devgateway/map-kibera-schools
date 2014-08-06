@@ -22,7 +22,7 @@
         throw "ScrollTo cannot scroll to targets without IDs.";
       }
 
-      linksToTarget = document.querySelectorAll('a[href="#' + targetID  + '"]');
+      linksToTarget = document.querySelectorAll('a[href="/#' + targetID  + '"]');
       for (var j=0; j<linksToTarget.length; j++) {
         linksToTarget[j].onclick = startScroll;
       }
