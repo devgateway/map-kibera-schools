@@ -207,6 +207,13 @@ def build_static(what, for_):
         copy_rootstuff(build_conf[for_])
 
 
+def build_images():
+    src = os.path.join('content/images')
+    dest = os.path.join('build', 'data/images')
+    if os.path.exists(dest):
+        shutil.rmtree(dest)
+    shutil.copytree(src, dest)
+
 @command
 def build(what, *args):
     # ensure the build folder exists
@@ -218,6 +225,7 @@ def build(what, *args):
 
     if what in ('all', 'html'):
         build_html()
+        build_images()
 
     if what in ('all', 'static'):
         static_args = list(args)

@@ -1,10 +1,11 @@
 #/usr/bin/python
 import urllib, urllib2
-import base64
 import csv
 import os
 import geojson
 from geojson import MultiPoint
+import string
+import Image
 
 north = -1.3000
 south = -1.3232
@@ -24,7 +25,11 @@ def writefile(file_name, buf):
 
 def url2file(url,file_name):
   req = urllib2.Request(url)
-  rsp = urllib2.urlopen(req)
+  try:
+    rsp = urllib2.urlopen(req)
+  except urllib2.HTTPError, err:
+    print str(err.code) + " " + url
+    return
   myFile = open(file_name, 'w')
   myFile.write(rsp.read())
   myFile.close()
@@ -110,6 +115,7 @@ def compare_osm_kenyaopendata():
       properties[ "osm:" + osm_property ] = feature.properties['tags'][ osm_property ]
     properties[ "osm:_user" ] = feature.properties['meta']['user']
     properties[ "osm:_timestamp" ] = feature.properties['meta']['timestamp']
+    properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
 
     if 'official_name' in feature.properties['tags']:
       for kod_feature in kod.features:
@@ -126,16 +132,66 @@ def compare_osm_kenyaopendata():
   dump = geojson.dumps(result, sort_keys=True, indent=2)
   writefile('kibera-combined-schools.geojson',dump)
 
+def slug_image(img_url):
+  valid_chars = "%s%s" % (string.ascii_letters, string.digits)
+  slug = ''.join(c for c in img_url if c in valid_chars)
+  return slug
+
+def cache_image(osm_id, img_type, img_url):
+  slug = slug_image(img_url)
+  cache_dir = "../content/images/cache/" + osm_id + '/' + slug + '/'
+  if not os.path.exists(cache_dir):
+    os.makedirs(cache_dir)
+
+  fileName, fileExtension = os.path.splitext(img_url)
+  if not os.path.exists(cache_dir + 'orig' + fileExtension):
+    url2file(img_url, cache_dir + 'orig' + fileExtension) 
+
+  if os.path.exists(cache_dir + 'orig' + fileExtension):
+    try:
+      im = Image.open(cache_dir + 'orig' + fileExtension)
+    except IOError:
+      print "orig image error " + cache_dir + 'orig' + fileExtension
+      return
+   
+    size = 300, 225
+    if not os.path.exists(cache_dir + 'med' + fileExtension):
+      im.thumbnail(size)
+      im.save(cache_dir + 'med' + fileExtension)
+  else:
+    print "orig image missing " + cache_dir + 'orig' + fileExtension
+
+def get_image_cache(osm_id, img_type, img_url, cache_size):
+  slug = slug_image(img_url)
+  cache_path = "/data/images/cache/" + osm_id + '/' + slug + '/'
+  fileName, fileExtension = os.path.splitext(img_url)
+  return cache_path + cache_size + fileExtension
+
+def cache_images():
+  combined = geojson.loads(readfile('kibera-combined-schools.geojson'))
+  for index, feature in enumerate(combined.features):
+    images = []
+    for prop in ["osm:image:classroom","osm:image:compound","osm:image:other", "osm:image:outside"]:
+      if prop in feature['properties']:
+        cache_image(feature['properties']['osm:id'], prop, feature['properties'][prop])
+        image = get_image_cache(feature['properties']['osm:id'], prop, feature['properties'][prop], 'med')
+        images.append(image)
+    if len(images) > 0:
+      combined.features[index]['properties']['osm:images'] = ','.join(images)
+  dump = geojson.dumps(combined, sort_keys=True, indent=2)
+  writefile('kibera-combined-schools.geojson',dump)
+
 def deploy():
   os.system("cp kibera-combined-schools.geojson ../content/schools/")
 
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-sync_osm()
-convert2geojson()
+#sync_osm()
+#convert2geojson()
 compare_osm_kenyaopendata()
-#deploy()
+cache_images()
+deploy()
 
 #TODO generate statistics on each run of comparison results
 #TODO generate list of ODK schools unmapped
