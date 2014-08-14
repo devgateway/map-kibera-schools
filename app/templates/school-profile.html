@@ -1,31 +1,159 @@
 {% extends 'base.html' %}
 
+{% set pagenav = [
+  {'href': '#school-map', 'title': 'School Map'},
+  {'href': '#school-blurbs', 'title': 'Highlights'},
+  {'href': '/blog/#blog-posts', 'title': 'Blog'},
+] %}
+
+
 {% block content %}
 
-  <section id="school-banner">
-    <div id="school-map" class="map"></div>
-    <div class='school-overlay'>
-      <h1>{{ school.properties.name }}</h1>
-    </div>
+  <section id="school-top">
+    <h1>{{ school.name }}</h1>
+
+    {% if school.properties.photos %}
+      <div id="school-photos-frame">
+        <ul>
+          {% for photo in school.properties.photos %}
+            <li>
+              <a href="{{ photo }}">
+                <img src="{{ photo }}" alt="photo {{ loop.index }} of {{ school.name }}" />
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        <a id="school-photos-prev" href="#previous-photos">Previous Photos</a>
+        <a id="school-photos-next" href="#next-photos">Next Photos</a>
+      </div>
+    {% endif %}
+  </section>
+
+  <section id="school-map">
+    <header class="map-controls">
+      <ul class="controls">
+        <li id="map-main">
+          <a class="activate" href="/#map">Back to Main Map</a>
+        </li>
+        <li id="data">
+          <a class="activate" href="/data/">Data</a>
+        </li>
+      </ul>
+      <div class="social">
+        <h3>Share</h3>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://schools.mapkibera.org/schools/{{ school.slug }}">Tweet</a>
+        <div class="fb-like" data-href="http://schools.mapkibera.org/schools/{{ school.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+      </div>
+    </header>
+    <div id="school-map-display" class="map"></div>
     <script>
       var school = {{ school | tojson }};
     </script>
   </section>
 
   <section id="school-brief">
-    quick overview of this school
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque elit, eleifend eget, hendrerit quis.</p>
   </section>
 
   <section id="school-blurbs">
-    some words and small photos
+    <div class="school-info-row header-stats">
+      <header class="school-stats">
+        <p class="source">OSM Data</p>
+        <h2>{{ school.name }}</h2>
+        {% set num_students = (school.properties['osm:education:students_male'] or 0)|int +
+                              (school.properties['osm:education:students_female'] or 0)|int %}
+        {% if num_students > 0 %}
+          <h3>{{ num_students }} Students</h3>
+        {% endif %}
+        <small>Location: {{ school.geometry.coordinates[0] | reverse | join(', ') }}</small>
+      </header>
+      <header class="school-stats">
+        <p class="source">Kenya Open Data</p>
+        <h2>{{ school.properties['kenyaopendata:official_name'] }}</h2>
+        {% set num_students = (school.properties['kenyaopendata:Total Boys'] or 0)|int +
+                              (school.properties['kenyaopendata:Total Girls'] or 0)|int %}
+        {% if num_students > 0 %}
+          <h3>{{ num_students }} Students</h3>
+        {% endif %}
+        {% if school.geometry.coordinates | length > 1 %}
+          <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
+        {% endif %}
+        {% if not has_kod %}
+          <h2>&nbsp;</h2>
+          <h3>No data available</h3>
+        {% endif %}
+      </header>
+    </div>
+
+    {% macro cell(name, val=none, key=none) %}
+      {% set cell_value = val or school.properties[key] %}
+      {% if cell_value %}
+        <div class="cell">
+          <h4>{{ name }}</h4>
+          <span class="value">{{ cell_value | humandata }}</span>
+        </div>
+      {% endif %}
+    {% endmacro %}
+    <div class="school-info-row">
+      <div class="school-stats stats-grid">
+        {{ cell('Type of School', key='osm:operator:type') }}
+        {{ cell('Education Level', key='osm:education:type') }}
+        {{ cell('Male Students', key='osm:education:students_male') }}
+        {{ cell('Female Students', key='osm:education:students_female') }}
+        {{ cell('Teachers', key='osm:education:teachers') }}
+      </div>
+      {% if has_kod %}
+        <div class="school-stats stats-grid">
+          {{ cell('Type of School', key='kenyaopendata:Sponsor of School') }}
+          {{ cell('Education Level', key='kenyaopendata:Level of Education') }}
+          {{ cell('Male Students', key='kenyaopendata:Total Boys') }}
+          {{ cell('Female Students', key='kenyaopendata:Total Girls') }}
+          {{ cell('Teachers', key='kenyaopendata:Total Teaching staff') }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% macro dump_properties(obj, namespace) %}
+      <table>
+        {% for key in obj if key.startswith(namespace) %}
+          <tr>
+            <th>{{ key[(namespace|length):] }}</th>
+            <td>{{ obj[key] }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endmacro %}
+    <div class="school-info-row">
+      <div class="school-stats school-more-stats">
+        <h3>All Available OSM Data</h3>
+        {{ dump_properties(school.properties, 'osm:') }}
+      </div>
+      {% if has_kod %}
+        <div class="school-stats school-more-stats">
+          <h3>All Available Kenya Open Data</h3>
+          {{ dump_properties(school.properties, 'kenyaopendata:') }}
+        </div>
+      {% endif %}
+    </div>
   </section>
 
   <section id="school-feedback">
-    columnar comments
+    <div class="comments">
+      <h2>Comments</h2>
+      <div class="fb-comments" data-href="http://schools.mapkibera.org/schools/{{ school.slug }}" data-numposts="5" data-width="100%" data-colorscheme="light">Loading facebook comments... (requires javascript)</div>
+    </div>
   </section>
 
-  <section id="school-charts">
-    some key graphs
-  </section>
+  {# activate twitter share buttons #}
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  {# facebook... #}
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=737854286236575&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 {% endblock %}

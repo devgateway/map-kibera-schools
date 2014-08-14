@@ -7,21 +7,29 @@
 
 """
 
-from flask import render_template, jsonify, abort
-from . import app
-from .static import static
+import re
+from flask import Flask, render_template, json, Response, abort
 from .content import content
 
 
-@app.context_processor
-def inject_static():
-    return {'static': static}
+app = Flask(__name__, static_folder='../static')
 
 
 @app.context_processor
 def inject_content():
     """Inject content for templates"""
     return {'content': content}
+
+
+@app.template_filter('humandata')
+def humanize_data(data):
+    """Make data a little nicer"""
+    recomma = r'\s?,\s?', ', '
+    respace = r'_', ' '
+    humanized = str(data)
+    humanized = re.sub(*recomma, string=humanized)
+    humanized = re.sub(*respace, string=humanized)
+    return humanized
 
 
 def indexed(list_of_stuff, key):
@@ -44,19 +52,74 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/schools.geojson')
+@app.route('/data/')
+def data_overview():
+    return render_template('data.html')
+
+
+@app.route('/schools.json')
 def schools_geojson():
     geojson = {
         'type': 'FeatureCollection',
         'features': content['schools'],
     }
-    return jsonify(geojson)
+    return Response(json.dumps(geojson), mimetype='application/json')
+
+
+@app.route('/_schools.json')
+def schools_appjson():
+    schools = [dict(locations=s['geometry']['coordinates'], slug=s['slug'],
+                    **s['properties']) for s in  content['schools']]
+    return Response(json.dumps(schools), mimetype='application/json')
+
+
+@app.route('/_fields.json')
+def fields_json():
+    return Response(json.dumps(content['fields']), mimetype='application/json')
+
+
+@app.route('/_filters.json')
+def school_filters():
+    filters = [
+        {
+            'id': 'name',
+            'name': 'Schools List',
+            'widget': 'fuzzy-search'
+        },
+        {
+            'id': 'type',
+            'name': 'Type of school',
+            'widget': 'select',
+            'options': [
+                {'id': 'government', 'name': 'Government'},
+                {'id': 'private', 'name': 'Private'},
+                {'id': 'religious', 'name': 'Religious'},
+                {'id': 'community', 'name': 'Community'},
+                {'id': 'ngo', 'name': 'NGO'},
+            ],
+        },
+        {
+            'id': 'level',
+            'name': 'Education Level',
+            'widget': 'select',
+            'options': [
+                {'id': 'nursery', 'name': 'Nursery'},
+                {'id': 'primary', 'name': 'Primary'},
+                {'id': 'secondary', 'name': 'Secondary'},
+            ],
+        },
+    ]
+    return Response(json.dumps(filters), mimetype='application/json')
 
 
 @app.route('/schools/<path:slug>/')
 def school(slug):
     this_school = indexed(content['schools'], 'slug').get(slug) or abort(404)
-    return render_template('school-profile.html', school=this_school)
+    has_kod = any(v.startswith('kenyaopendata:') for v in
+                  this_school['properties'].keys())
+    this_school['locations'] = this_school['geometry']['coordinates']
+    return render_template('school-profile.html',
+                           school=this_school, has_kod=has_kod)
 
 
 def school_url_generator():
@@ -65,16 +128,27 @@ def school_url_generator():
         yield 'school', {'slug': school['slug']}
 
 
-@app.route('/blog/<slug>/')
-def blog(slug):
-    post = indexed(content['blog'], 'slug').get(slug) or abort(404)
-    return render_template('blog-post.html', post=post)
+@app.route('/blog/')
+def blog():
+    return render_template('blog.html')
+
+
+@app.route('/blog/<path:slug>/')
+def blog_post(slug):
+    this_post = indexed(content['blog'], 'slug').get(slug) or abort(404)
+    return render_template('blog-post.html', post=this_post)
+
+
+def blog_url_generator():
+    """Generate all the blog post urls for freezing"""
+    for post in content['blog']:
+        yield 'blog_post', {'slug': post['slug']}
 
 
 @app.route('/robots.txt')
 def robots():
-    return ('Ueser-agent: *\n'
-            'Disallow:')
+    """Allow everything"""
+    return Response('User-agent: *\nDisallow:', mimetype='text/plain')
 
 
 @app.route('/404.html')

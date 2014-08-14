@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% set pagenav = [
+  {'href': '/#map', 'title': 'Kibera Schools Map'},
+  {'href': '/blog/#blog-posts', 'title': 'Blog'},
+] %}
+
+
+{% block content %}
+
+  <section id="data-overview">
+    {{ content.datapage }}
+  </section>
+
+{% endblock %}

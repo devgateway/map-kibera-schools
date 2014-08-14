@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Number of Students",
+    "osm": "osm:education:students",
+    "kenyaopendata": "kenyaopendata:Total Enrolment",
+    "feature": true
+  },
+  {
+    "name": "Education Level",
+    "osm": "osm:education:type",
+    "kenyaopendata": "kenyaopendata:Level of Education",
+    "feature": true
+  },
+  {
+    "name": "Type of School",
+    "osm": "osm:operator:type",
+    "kenyaopendata": "kenyaopendata:Sponsor of School",
+    "featured": true
+  },
+  {
+    "name": "Teachers",
+    "osm": "osm:education:teachers",
+    "kenyaopendata": "kenyaopendata:Total Teaching staff",
+    "featured": true
+  },
+  {
+    "name": "Name",
+    "osm": "osm:name",
+    "kenyaopendata": "kenyaopendata:official_name",
+    "featured": false
+  }
+]

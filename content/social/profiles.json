@@ -1,0 +1,27 @@
+[
+  {
+    "id": "facebook",
+    "name": "Facebook",
+    "href": "#"
+  },
+  {
+    "id": "twitter",
+    "name": "Twitter",
+    "href": "#"
+  },
+  {
+    "id": "googleplus",
+    "name": "Google Plus",
+    "href": "#"
+  },
+  {
+    "id": "vimeo",
+    "name": "Vimeo",
+    "href": "#"
+  },
+  {
+    "id": "flickr",
+    "name": "Flickr",
+    "href": "#"
+  }
+]

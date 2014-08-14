@@ -1,111 +1,115 @@
 <!doctype html>
-<html lang="{{ lang or 'en' }}">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Kibera Schools Project</title>
+    <title>Open Schools Kenya</title>
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="author" href="/humans.txt" />
-    {{ static('css', [
-        'leaflet.css',
-        'normalize.css',
-        'helpers.css',
-        'base.css',
-        'layout.css',
-        'style.css',
-        'print.css']) }}
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700" />
+    <script>(function(d){d.className=d.className.replace(/\bno-js\b/,'')+' js'})(document.documentElement);</script>
+    <!-- tag root
+         template=<script>WEB_ROOT = "{path}";</script>
+         -->
+         <script>WEB_ROOT = "/";</script>
+    <!-- endtag root -->
+    <!-- tag canonical
+         template=<link rel="canonical" href="{path}" />
+         path={{ request.path }}
+         -->
+    <!-- endtag canonical -->
+    <!-- tag css
+         template=<link rel="stylesheet" href="{path}" />
+         -->
+    <!-- endtag css -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
   </head>
   <body>
-    <div class="container">
 
-      <header class="text-reset">
-        <h1>
-          <a href="http://feedbacklabs.org" target="_blank"
-             title="Feedback Labs: Real Conversations, Real Action">Feedback Labs </a>
-          <a href="{{ url_for('home') }}"
-             title="Kibera School Project Home"><strong>Kibera School Project</strong></a>
-        </h1>
-        <ul class="header-random-links">
-          <li><a href="#">icon</a></li>
-          <li><a href="#">icon</a></li>
+    <header id="page-header">
+      <nav>
+        <a class="accent" href="{{ url_for('home') }}" title="Open Schools Kenya Home">
+          <small>Feedback Labs</small>
+          <h1>Open Schools Kenya</h1>
+        </a>
+        <ul class="page-nav-links">
+          {% for link in pagenav %}
+            <li><a href="{{ link.href }}" title="{{ link.title }}"><span>{{ link.title }}</span></a></li>
+          {% endfor %}
         </ul>
+      </nav>
 
-        <h2>Select Stories</h2>
-        <ol>
-          <li><strong>1</strong></li>
-          <li><strong>2</strong></li>
-          <li><strong>3</strong></li>
-        </ol>
+      <ul class="social">
+        <li class="beta">BETA</li>
+        {% for profile in content.social %}
+          <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="Open Schools Kenya on {{ profile.name }}" target="_top">{{ profile.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </header>
 
-        <ul class="header-social-links">
-          <li>
-            <a href="#" target="_top"
-               title="Facebook">f</a>
-          </li>
-          <li>
-            <a href="#" target="_top"
-               title="Twitter">t</a>
-          </li>
-          <li>
-            <a href="#" target="_top"
-               title="YouTube">y</a>
-          </li>
-        </ul>
-      </header>
+    {% block content %}
+      other pages override this block to provide content here
+    {% endblock %}
 
-      {% block content %}
-        {# other pages override this block to provide content here #}
-      {% endblock %}
+    <footer>
+      <div id="contact" class="footer-meta">
 
-      <footer>
-        <div class="footer-blogs">
-          <h2>Blog Feed</h2>
-          <ol>
-            {% for post in content.blog[:3] %}
-              <li>
-                <h3><a href="{{ url_for('blog', slug=post.slug) }}">{{ post.title }}</a></h3>
-                {{ post.body }}
-              </li>
-            {% else %}
-              <li>no posts :(</li>
-            {% endfor %}
-          </ol>
-          <h2 class="something">Lorem opsum dolor sit amet, consectetur elit.</h2>
+        <div id="about">
+          <h2>About</h2>
+          <p>Donec consectetur diam ac nibh auctor ultricies. IOnteger mauris lacus, consequat in luctus id, semper sed felis. Cum sociis natoque penatibus et magnis.</p>
         </div>
 
-        <div class="footer-contact">
-          <h2>Contact Us</h2>
+        <div id="tweets">
+          <h2>Latest Tweets</h2>
+          <a class="twitter-timeline" href="https://twitter.com/mapkibera" data-widget-id="495293141453242369" data-chrome="noheader nofooter noborders noscrollbar transparent" data-tweet-limit="2" width="250px">Tweets by @mapkibera</a>
+        </div>
+
+        <div id="get-in-touch">
+          <h2>Get In Touch</h2>
           <address>
-            <strong>Open Gov Hub</strong><br/>
-            1110 Vermont Av NW 5th floor,<br/>
-            Washington, DC 20006 USA<br/>
-            Tel: <a href="tel:+12025729200">+1.202.572.9200</a>
+            <dl>
+              <dt class="address-location">Address</dt>
+              <dd>1110 Vermont Av NW 5th floor,<br/>
+                  Washington, DC 20006 USA</dd>
+              <dt class="address-phone">Phone</dt>
+              <dd><a href="tel:+12025729200">+1.202.572.9200</a></dd>
+              <dt class="address-email">Email</dt>
+              <dd><a href="mailto:someone@example.com">someone@example.com</a></dd>
+            </dl>
           </address>
-
-          <h2>Share Your Story</h2>
-          <form>
-            <input/>
-            <button>&raquo;</button>
-          </form>
-
-          <h2>Follow Us</h2>
-          <ul class="footer-social-links">
-            <li><a href="#">f</a></li>
-            <li><a href="#">t</a></li>
-          </ul>
         </div>
-      </footer>
 
-    </div>
-    <script>{# these values should actually come from python #}
-      var WEB_ROOT = ''
-      var STATIC_ROOT = "/static";
-    </script>
-    {{ static('js', [
-        'leaflet.js',
-        'plugins/log-safety.js',
-        'main.js']) }}
+        <div id="newsletter">
+          <h2>Newsletter</h2>
+          <p>Stay informed on our latest news!</p>
+          <form method="post" action="mailchimp-maybe">
+            <label for="newsletter-email">Your Email address</label>
+            <input name="newsletter-email"
+                   id="newsletter-email"
+                   type="email"
+                   placeholder="Email *" {# end tag below to avoid space before button #}
+            /><button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="footer-copyright">
+
+        <div id="copyright">
+          &copy; Copyright 2014 Feedback Labs. All Rights Reserved.
+        </div>
+
+        <ul class="footer-social-links social">
+          {% for profile in content.social %}
+            <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="{{ profile.name }}" target="_top">{{ profile.name }}</a></li>
+          {% endfor %}
+        </ul>
+
+      </div>
+    </footer>
+    <!-- tag js
+         template=<script src="{path}"></script>
+         -->
+    <!-- endtag js -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>
 </html>

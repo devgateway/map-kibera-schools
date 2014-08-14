@@ -1,0 +1,1010 @@
+/*! Open Schools Kenya Styles | BSD license */
+
+/*
+ * Header Element
+ *
+ * A sticky header at the top of every page
+ */
+
+#page-header {
+  @include bg-stretchwidth($c-bg);
+  z-index: $layer-top;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: $width-full;
+  margin-left: -$width-full / 2;
+  height: $height-stickyhead;
+  font-size: $t-small;
+  color: $c-header-med;
+
+  nav {
+    a.accent {
+      @include accent-box;
+      display: inline-block;
+      margin-top: -3px;
+      box-shadow: 0 0 7px $c-smokeglass;
+      small {
+        display: block;
+        margin: -0.4em 0;
+        font-size: $t-small;
+        font-weight: normal;
+        color: $c-copy;
+      }
+      h1 {
+        margin: 0;
+        font-weight: $t-mheavy;
+      }
+    }
+  }
+
+  a {
+    color: inherit;
+    &:hover {
+      color: $c-bright;
+    }
+  }
+
+  .page-nav-links {
+    @include list-reset;
+    display: inline-block;
+    vertical-align: top;
+    li,
+    li > a {
+      display: inline-block;
+    }
+  }
+
+  .page-nav-links a {
+    margin: 0 0 0 $pad-h-gap;
+    padding: $pad-v-thin $pad-h / 1.618;
+    &:before {
+      @include icofont;
+      content: ",";  // default gear icon
+      display: inline-block;
+      margin-right: $pad-h-gap * 3;
+      font-size: $t-med;
+      vertical-align: middle;
+    }
+    &.selected {
+      color: $c-copy;
+      &:before {
+        color: $c-accent;
+      }
+    }
+    &.selected {
+      background: $c-control-bg;
+    }
+    &[href="/#videos"]:before {
+      content: "p";
+    }
+    &[href="/#map"]:before,
+    &[href="/#school-map"]:before {
+      content: "w";
+    }
+    &[href="/#charts"]:before,
+    &[href="/#school-blurbs"]:before {
+      content: "O";
+    }
+    &[href="/#stories"]:before {
+      content: "b";
+    }
+    &[href="/blog/#blog-posts"]:before {
+      content: "B";
+    }
+  }
+
+  .social {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  li.beta {
+    font-family: 'Lato';
+    position: relative;
+    top: -4px;
+    vertical-align: top;
+    margin-right: $pad-v;
+    padding: 0 $pad-h-thin;
+    line-height: $t-mbig;
+    color: $c-bg;
+    background: $c-accent2;
+    border-width: 0;
+    border-radius: 3px;
+  }
+
+}
+
+
+/*
+ * General Social Rules
+ */
+.social {
+  @include list-reset;
+  @include icofont;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  li,
+  li > a {
+    display: inline-block;
+  }
+  li {
+    font-size: $t-base;
+    margin: $pad-v-thin $pad-h-gap / 2;
+  }
+  a {
+    // hide the actual text (it's replaced by the icon)
+    @include visually-hidden;
+    $size: $t-base;
+    position: relative;
+    vertical-align: baseline;
+    margin: 0;  // override visually-hidden
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+}
+
+
+body > section:first-of-type {
+  margin: $pad-v + $height-stickyhead auto 1px;
+}
+
+
+/*
+ * Video slider
+ *
+ */
+
+.videos-slider {
+  @include list-reset;
+
+  li {
+    @include visually-hidden;
+    opacity: 0.2;
+
+    &.selected {
+      @include un-visually-hidden;
+      @include transition(opacity, 0.8s, ease);
+      width: $width-full;
+      margin: 0 auto;
+      opacity: 1;
+    }
+  }
+
+  .video {
+    @include box-sizing(content-box);
+    position: relative; // positioning context for gradient overlay
+    display: block;
+    float: left;
+    margin-right: $pad-h-thin;
+
+    &,
+    & .video-screenshot {
+      $width-v: $width-full / 2;
+      width: $width-v;
+    }
+    &:before {
+      content: "";
+      display: block;
+      z-index: $layer-high;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 50%;
+      bottom: 0;
+      @include horizontal-gradient($c-bg, rgba(0, 0, 0, 0));
+    }
+  }
+  .activated .video:before {
+    display: none;
+  }
+
+  .video-meta {
+    margin-top: -1px;  // respect contents' top margin
+    padding-top: 1px;
+    font-size: $t-med;
+    color: $c-t-med;
+
+    h2 {
+      margin: -0.15em 0 0 0; 
+      font-size: $t-vbig;
+      font-weight: $t-mheavy;
+      line-height: 1em;
+      color: $c-copy;
+    }
+  }
+}
+.videos-pager {
+  @include list-reset;
+  margin: $pad-v-thin / 1.4 0;
+  font-size: 0;  // hide text; TODO: make this more accessible
+  text-align: center;
+
+  li {
+    display: inline-block;
+    a {
+      @include box-sizing(border-box);
+      display: block;
+      margin: $pad-v-thin $pad-h-thin / 5;
+      height: $t-base * 0.9;
+      width: $t-base * 0.9;
+      border-radius: $t-base / 2;
+      background: $c-outline;
+      &:hover {
+        background: $c-bright;
+      }
+      &.selected {
+        background: $c-accent2;
+      }
+    }
+  }
+}
+
+
+/*
+ * School Profile Title
+ *
+ * Name of school and any images available.
+ */
+section#school-top {
+  width: $width-full;
+  margin-bottom: $pad-v-thin;
+  h1 {
+    font-size: $t-med;
+    color: $c-accent2;
+  }
+  #school-photos-frame {
+    $photo-space: $pad-h / 1.618;
+    $control-space: $pad-h-thin * 1.618;
+    position: relative;  // positioning context for prev/next controls
+    height: $height-school-photo;
+    width: $width-full;
+    ul {
+      @include list-reset;
+      height: $height-school-photo;
+      width: $width-full;
+      overflow: hidden;
+
+      li {
+        display: inline-block;
+        margin-right: $photo-space;
+      }
+      img {
+        @include box-sizing(border-box);
+        height: $height-school-photo;
+        border: 3px solid $c-outline;
+      }
+    }
+    #school-photos-prev,
+    #school-photos-next {
+      display: block;
+      position: absolute;
+      top: 50%;
+      height: 0;
+      width: 0;
+      margin-top: -$height-frame-prevnext / 2;
+      font-size: 0;
+      border: 0 solid transparent;
+      border-width: $height-frame-prevnext/2 $width-frame-prevnext;
+    }
+    #school-photos-prev {
+      left: -($width-frame-prevnext + $control-space);
+      border-left-width: 0;
+      border-right-color: $c-outline;
+    }
+    #school-photos-next {
+      right: -($width-frame-prevnext + $control-space);
+      border-right-width: 0;
+      border-left-color: $c-outline;
+    }
+  }
+}
+
+
+/*
+ * Map
+ *
+ * blah blah bla
+ */
+section#map {
+  border-top: $b-outline;
+}
+.map-controls {
+  z-index: $layer-mhigh;
+  position: relative;  // for stacking
+  width: $width-full;
+  height: $height-map-controls;
+  margin: 0 auto;
+  line-height: $height-map-controls - 1px;
+
+  /*
+   * Scrollbars ... webkit only :(
+   */
+  ::-webkit-scrollbar {
+    width: 18px;
+  }
+  ::-webkit-scrollbar-track {
+    padding: 3px;
+    background: #222;
+  }
+  ::-webkit-scrollbar-thumb {
+    display: block;
+    width: 10px;
+    background: $c-accent2;
+    border: 2px solid #222;
+    border-width: 4px 1px;
+    border-color: $c-accent2 #222;
+    border-radius: 3px;
+  }
+
+  a {
+    color: $c-med;
+    &:hover {
+      color: $c-bright;
+    }
+  }
+  .controls {
+    &,
+    ul,
+    li {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+  .accent {
+    @include accent-box;
+    position: relative;
+    z-index: $layer-high;
+    display: inline-block;
+    margin-top: -1px;
+  }
+  .controls {
+    @include list-reset;
+    // font-size: 0;
+
+    & > li {
+      position: relative;
+      & > .activate {  // should probably be a header
+        @include box-sizing(border-box);
+        z-index: $layer-high;
+        position: relative;
+        display: inline-block;
+        height: $height-map-controls;
+        min-width: $width-map-control;
+        padding: 0 $pad-h 0 $pad-h-thin;
+        font-size: $t-base;
+        border-right: 1px solid $c-outline;
+        &:before {
+          @include icofont;
+          content: ",";  // default gear icon
+          display: inline-block;
+          margin-right: $pad-h-thin / 1.5;
+          font-size: $t-mbig;
+          vertical-align: middle;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+          color: $c-bright;
+          background: lighten($c-bg, 20%);
+        }
+      }
+      &.active > .activate {
+        color: $c-accent2;
+        background: lighten($c-bg, 20%);
+      }
+      & > .map-control-dropdown {
+        @include visually-hidden;
+      }
+      &.active > .map-control-dropdown {
+        @include un-visually-hidden;
+        font-size: $t-msmall;
+        line-height: $line-tight;
+      }
+    }
+  }
+  .map-social {
+    float: right;
+    h3 {
+      @include visually-hidden;
+    }
+  }
+}
+@mixin control-input {
+  @include _form-common;
+  display: block;
+  font-size: $t-msmall;
+  color: $c-bright;
+  background: $c-smokeglass;
+  border: 1px solid $c-outline;
+  border-radius: 0;
+}
+.map-controls .controls > li {
+
+  .clear-filter {
+    display: none;
+  }
+
+  &.filtering {
+    & > .activate {
+      color: $c-accent2;
+    }
+    .clear-filter {
+      z-index: 600;
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: $height-map-controls;
+      width: $pad-h;
+      background: $c-accent2;
+      color: $c-bright;
+      text-align: center;
+    }
+  }
+}
+.map-controls .controls > li.active {
+  & > .map-control-dropdown {
+    $w = $width-map-control * 1;
+    position: absolute;
+    top: $height-map-controls;
+    left: 0;
+    width: $w;
+    li.cursored a {
+      color: $c-accent2;
+      background: darken($c-smokeglass, 10%);
+    }
+    li.selected a {
+      color: $c-copy-dark;
+      background: $c-accent2;
+    }
+    ul {
+      @include list-reset;
+      width: 100%;
+      max-height: 432px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      li {
+        display: block;
+      }
+    }
+    input {
+      @include control-input;
+      width: 100%;
+      padding-left: $pad-h-thin / 1.618;
+      padding-right: $pad-h-thin / 1.618;
+      border: none;
+      border-bottom: 1px solid $c-outline;
+      &:hover {
+        background: lighten($c-smokeglass, 10%);
+      }
+    }
+    a {
+      display: block;
+      padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
+      color: $c-copy;
+      background: $c-smokeglass;
+    }
+  }
+}
+#schools > a:before {
+  content: "h";
+}
+#filters > a:before {
+  content: "=";
+}
+#data > a:before {
+  content: ",";
+}
+#search > a:before {
+  content: "S";
+}
+#map-main > a:before {
+  content: "R";
+}
+.leaflet-container {
+  font: inherit;
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: $c-smokeglass
+  }
+  .leaflet-popup {
+    color: $c-bright;
+    a {
+      color: $c-accent2;
+      &.leaflet-popup-close-button {
+        color: $c-med;
+        &:hover {
+          color: $c-accent;
+        }
+      }
+    }
+    h3 {
+      margin: 0;
+      font-size: $t-base;
+      font-weight: $t-mheavy;
+    }
+    p {
+      margin: 0.333em 0;
+      font-size: $t-small;
+    }
+  }
+}
+.leaflet-fade-anim .leaflet-popup {
+-webkit-transition: opacity 0.1s linear;
+   -moz-transition: opacity 0.1s linear;
+     -o-transition: opacity 0.1s linear;
+        transition: opacity 0.1s linear;
+}
+.leaflet-zoom-anim .leaflet-zoom-animated {
+  -webkit-transition: -webkit-transform .25s cubic-bezier(0, 0, 0.33, 1);
+     -moz-transition:    -moz-transform .25s cubic-bezier(0, 0, 0.33, 1);
+       -o-transition:      -o-transform .25s cubic-bezier(0, 0, 0.33, 1);
+          transition:         transform .25s cubic-bezier(0, 0, 0.33, 1);
+}
+.map {
+  height: 508px;
+  color: $c-med;
+  background: $c-footer-med;  // might flash while loading
+}
+#school-map {
+  border-top: $b-outline;
+  .map-controls {
+    @include bg-stretchwidth($c-control-bg);
+    padding-left: ($width-accent-box + 3px) / 2;
+    .social {
+      float: right;
+      margin-top: 13px;
+    }
+  }
+  .map {
+    height: 282px;
+  }
+}
+
+
+/*
+ * School profile quick description below map
+ */
+#school-brief {
+  @include bg-stretchwidth($c-brief-bg);
+  width: $width-full;
+  margin: 0 auto;
+  padding: $pad-v-thin 0;
+  p {
+    margin: 0;
+    line-height: $line-tight + 0.1em;  // match psd design...
+    color: $c-bright;
+    font-weight: $t-mheavy;
+  }
+}
+
+#school-blurbs,
+#school-feedback {
+  padding: $pad-v 0;
+  color: $c-copy-dark;
+}
+
+#school-blurbs {
+  @include bg-stretchwidth($c-bright);
+  width: $width-full;
+  margin: 0 auto;
+
+  .school-info-row {
+    @include clearfix;
+  }
+
+  .school-stats {
+    $w: ($width-full - $pad-v-thin) / 2;
+    width: $w;
+    float: left;
+    margin-right: $pad-v-thin;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: $t-mbig;
+    line-height: 1;
+  }
+  h3 {
+    margin: $pad-v-thin / 2.5 0;
+    font-size: $t-mbig - 1px;
+    line-height: 1;
+    font-weight: $t-mheavy;
+  }
+
+  .header-stats {
+    .source {
+      margin: $pad-v-thin / 2 0;
+      line-height: 1;
+      color: $c-accent;
+      text-transform: uppercase;
+      font-weight: $t-mheavy;
+    }
+    small {
+      display: block;
+      margin-top: $pad-v / 1.618;
+      font-size: $t-vsmall;
+      color: $c-med;
+    }
+  }
+
+  .stats-grid {
+    $b: 1px solid lighten($c-outline, 30%);
+    $vpos: 55%;
+    font-size: 0;
+    border: $b;
+    line-height: 1;  // cells are inline-block, so avoid vertical gaps.
+    .cell {
+      display: inline-block;
+      position: relative;  // establish positioning context
+      width: 50%;
+      height: $height-cell;
+      padding: 0 $pad-h-thin;
+      font-size: $t-base;
+      text-align: center;
+      color: #4481af;
+      border: $b;
+      &:nth-child(2n + 1) {
+        border-width: 0 1px 1px 0;
+        &:nth-last-child(2) {
+          border-bottom-width: 0;
+        }
+      }
+      &:nth-child(2n) {
+        border-width: 0 0 1px;
+      }
+      &:nth-last-child(1) {
+        border-bottom-width: 0;
+      }
+
+      h4,
+      .value {
+        position: absolute;
+        left: 0;
+        right: 0;
+        font-weight: normal;
+      }
+
+      h4 {
+        top: $vpos;
+        margin: 0;
+        padding-top: $pad-v-thin / 1.618;
+      }
+
+      .value {
+        bottom: 100% - $vpos;
+        font-size: $t-big;
+        font-weight: $t-heavy;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .school-more-stats {
+    h3 {
+      margin: 1.618em 0 0.618em;
+    }
+    table {
+      tr {
+        border-top: 1px dotted lighten($c-outline, 20%);
+      }
+      th {
+        text-align: left;
+      }
+    }
+  }
+}
+
+#school-feedback {
+  background: $c-bright;
+  border-bottom: 1px solid darken($c-bright, 18%);
+  .comments {
+    width: $width-full;
+    margin: 0 auto;
+  }
+}
+
+
+/*
+ * Highlighted School
+ *
+ * Charts and stuff
+ */
+#stats {
+  background: $c-control-bg;
+  height: $height-map-controls;
+  margin: 0 auto;
+  padding: 0;
+  border-bottom: 1px solid $c-outline;
+  .content {
+    width: $width-full;
+    margin: 0 auto;
+  }
+  h2,
+  h3 {
+    display: inline-block;
+    line-height: $height-map-controls;
+    margin: 0 $pad-h 0 0;
+  }
+  .stats-container {
+    display: inline-block;
+  }
+}
+
+
+/*
+ * Story Tiles
+ *
+ * Big blocks on the home page
+ */
+#stories {
+  padding: $pad-v 0;
+  // h2 {
+  //   @include visually-hidden;
+  // }
+  h2 {
+    margin: $pad-v-big 0 $pad-v;
+    text-align: center;
+  }
+  & > ul {
+    @include list-reset;
+    width: $width-full;
+    margin: 0 auto;
+    font-size: 0;  // WARNING! vv see li rule vv
+    & > li {
+      $box-width: ($width-full / 2) - ($pad-h * 3 / 2);
+      display: inline-block;
+      width: $box-width;
+      margin: 0 0 $pad-v $pad-h;
+      font-size: $t-small;  // END WARNING.
+      text-align: center;
+      background: url('http://placehold.it/534x235.png');
+      border: 1px solid $c-med;
+
+      .smokeglass {
+        margin: ($pad-v * 2) ($pad-h * 2);
+        padding: $pad-v-thin $pad-h;
+        background: $c-smokeglass;
+        border: 1px solid $c-brightglass;
+
+        h3 {
+          margin: 0;
+        }
+        p {
+          margin: 0 $pad-v-thin;
+          font-style: italic;
+          line-height: $line-tight;
+        }
+        .button {
+          margin: $pad-v-thin 0 0;
+          text-transform: uppercase;
+          border: 1px solid $c-bright;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}
+
+
+#blog-header {
+  width: $width-full;
+  margin-left: auto;
+  margin-right: auto;  // don't change top margin
+  padding-bottom: 1em;
+  h1 {
+    margin: 0.25em 0;
+    font-size: $t-big;
+    font-weight: $t-light;
+    color: $c-accent2;
+  }
+  p {
+    margin: 0;
+    font-size: 1.2em;
+    color: $c-bright;
+  }
+}
+
+.blog-post {
+  width: $width-full;
+  margin: 1em auto;
+
+  a {
+    color: $c-accent2;
+  }
+  header {
+    h1 {
+      font-size: 1.25em;
+      margin: 0 0 0.25em;
+      p {
+        margin: 0;
+      }
+      a {
+        color: $c-bright;
+      }
+    }
+    p {
+      color: $c-brightglass;
+    }
+    strong: {
+      color: $c-bright;
+    }
+  }
+  footer {
+    margin-top: 1.5em;
+    padding: 0.667em 1em;
+    font-size: $t-msmall;
+    background: $c-dark;
+    h3 {
+      display: inline-block;
+      margin: 0 2em 0 0;
+      font-size: 1em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .twitter-share-button {
+      vertical-align: top;
+    }
+    .fb-like {
+      top: -2px;
+    }
+  }
+}
+#blog-posts .blog-post {
+  $w: 320px;
+  padding: 2em 1em;
+  border-top: 1px solid $c-smokeglass;
+  .post-content {
+    width: $width-full - $w;
+  }
+  & > img:first-child {
+    width: $w;
+    margin-right: -$w;
+    float: left;
+    & ~ * {  // duuuuuuuude
+      margin-left: $w + $pad-v-thin;
+    }
+  }
+}
+#one-blog-post .blog-post {
+  padding: 1em 0 3em;
+  header h1 {
+    margin: 0.25em 0;
+    font-size: $t-big;
+    font-weight: $t-light;
+    color: $c-accent2;
+  }
+  .post-content {
+    line-height: 1.618;
+    width: 720px;
+  }
+}
+
+/*
+ * Footer Element
+ *
+ * Big footer at the bottom of every page.
+ */
+
+.footer-meta,
+.footer-copyright {
+  width: $width-full;
+  margin: 0 auto;
+}
+
+.footer-meta {
+  @include bg-stretchwidth($c-footer-light);
+  padding: $pad-v-big 0 $pad-v;
+  font-size: 0;  // WATCH OUT (reset in next-leve divs)
+  color: $c-footer-med;
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+    color: $c-footer-dark;
+  }
+  a {
+    color: $c-accent3;
+  }
+
+  & > div {
+    display: inline-block;
+    vertical-align: top;
+    width: ($width-full / 4) - ($pad-h-thin * 3 / 4);
+    margin-right: $pad-h-thin;
+    font-size: $t-msmall;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  // twitter feed
+  .twitter-timeline {
+    margin-top: -12px;  // undo padding of first tweet
+  }
+
+  #get-in-touch {
+    address {
+      font-style: normal;
+    }
+    dt,
+    dd {
+      margin-top: $pad-v-thin / 1.618;
+    }
+    dt:first-child,
+    dt:first-child + dd {
+      margin-top: 0;
+    }
+    dt {
+      float: left;
+      clear: left;
+      font-weight: $t-mheavy;
+      &:after {
+        content: ":";
+      }
+    }
+    dd {
+      margin-left: $pad-h-gap * 2;
+      display: inline-block;
+    }
+  }
+
+  #newsletter {
+    $col = ($width-full / 4) - $pad-h-thin;
+    label {
+      @include visually-hidden;
+    }
+    input {
+      @include text-input;
+      width: $col * 0.667;
+    }
+    button {
+      @include button($c-accent3);
+      width: $col * 0.333 + $pad-h-gap;
+      margin-left: -$pad-h-gap;
+      text-align: center;
+    }
+  }
+}
+
+.footer-copyright {
+  @include bg-stretchwidth($c-footer-med);
+  @include line-justify;
+  $fp: $pad-v * 0.76;
+  font-size: $t-base;
+  padding: $fp 0 ($fp - $line-footer-copyright);
+  line-height: $line-footer-copyright;
+  color: $c-footer-light;
+  a {
+    color: inherit;
+    &:hover {
+      color: lighten($c-accent3, 10%);
+    }
+  }
+  #copyright {
+    display: inline-block;
+  }
+  .social {
+    li {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+#error-container {
+  width: $width-full;
+  margin: 7% auto 11%;
+}
+
+#data-overview {
+  width: $width-full;
+}

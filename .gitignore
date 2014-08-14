@@ -1,11 +1,11 @@
 # PROJECT-SPECIFIC
 
 ## temporary output folder
-output/
+build/
 
-## compiled static stuff
-compiled/
-
+## temporary folders for staging and production
+staging/
+production/
 
 # DEV STUFF
 

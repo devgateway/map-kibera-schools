@@ -1,0 +1,82 @@
+/*! Pieces of HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * hello
+ */
+html {
+  font-size: $t-base;
+  line-height: $line-base;
+  font-family: 'Lato';
+  color: $c-copy;
+  background: $c-bg;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: $c-accent;
+  color: $c-bright;
+  text-shadow: none;
+}
+
+::selection {
+  background: $c-accent;
+  color: $c-bright;
+  text-shadow: none;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/*
+ * Box-size everything
+ *
+ * for sanity's sake
+ */
+header,
+section,
+footer,
+ul,
+ol,
+li,
+div {
+  @include box-sizing(border-box);
+}
+
+
+/*
+ * Type
+ */
+h2 {
+  line-height: 1.1em;
+  font-weight: $t-normal;
+}
+
+a {
+  text-decoration: none;
+}
+#data-overview a {
+  color: $c-accent2;
+}

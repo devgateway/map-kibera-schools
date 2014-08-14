@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /
+
+User-Agent: facebookexternalhit
+Disallow: /well-actually-you-are-welcome-here-this-rule-must-exist-though

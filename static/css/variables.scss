@@ -1,0 +1,102 @@
+/*! Kibera Schools variables | BSD License, see LICENSE */
+
+/////// TEXT ///////
+
+$t-base: 16px;
+$t-vbig: 32px;
+$t-big: 26px;
+$t-mbig: 24px;
+$t-med: 19px;
+$t-msmall: 15px;
+$t-small: 13px;
+$t-vsmall: 11px;
+$t-light: 300;
+$t-normal: 400;
+$t-mheavy: 700;
+$t-heavy: 900;
+
+$line-base: 1.4em;
+$line-tight: 1.14em;
+$line-form: 2.4em;
+$line-footer: 1.618em;
+$line-footer-copyright: $t-base;
+
+
+/////// LAYOUT ///////
+
+$width-full: 1200px;
+
+$pad-h: 32px;
+$pad-v: 30px;
+$pad-h-thin: $pad-h / 2;
+$pad-h-gap: 3px;
+$pad-v-thin: $pad-v / 2;
+$pad-v-big: $pad-v * 1.40;
+$pad-border: 8px;
+
+$height-accent-box: 65px;
+$width-accent-box: 220px;
+
+$height-stickyhead: 56px;
+
+$height-map-controls: 49px;
+$width-map-control: 176px;
+
+$height-school-photo: 221px;
+$height-frame-prevnext: $height-school-photo / 3.6;
+$width-frame-prevnext: $pad-h;
+
+$height-cell: 160px;
+
+
+/////// STACKING ///////
+
+$layer-top: 5000;  // basically just for the sticky header
+$layer-high: 500;
+$layer-mhigh: 100;
+$layer-norm: 0;
+$layer-low: -100;
+$layer-bottom: -1000;  // make things really go away
+
+
+/////// COLOURS ///////
+
+$c-bg: #000;
+$c-copy: #ccc;
+$c-copy-dark: #222;
+$c-med: #777;
+$c-t-med: #999;
+$c-bright: #fff;
+$c-dark: #333;
+
+$c-outline: $c-med;  // borders and such
+
+$c-heavy: $c-bright;  // probably for big bold headers
+
+$c-accent: #c73639;   // red
+$c-accent2: #f8ad32;  // yellow
+$c-accent3: #75b81b;  // green
+$c-female: #fda1ca;   // pink
+$c-male: #92cef2;     // purple
+
+$c-header-bg: $c-bg;
+$c-header-med: $c-med;
+$c-header-bright: $c-bright;
+$c-header-menu: rgba(24, 24, 24, 0.85);
+
+$c-control-bg: #1e1e1e;
+
+$c-brief-bg: #8b8b8b;
+
+$c-smokeglass: rgba(56, 56, 56, 0.9);
+$c-brightglass: rgba(255, 255, 255, 0.75);
+
+$c-footer-light: #f8f8f8;
+$c-footer-med: #a0a0a0;
+$c-footer-dark: #444;
+
+
+/////// BORDERs ///////
+$b-outline: 1px solid $c-outline;
+
+$radius-rounded: 3px;

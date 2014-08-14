@@ -27,12 +27,10 @@ import codecs
 import unicodedata
 import datetime
 from markdown import markdown, Markdown  # quick-use, extensions-able
-from flask import Markup
-from app import app
 
 
 content = {}
-content_path = os.path.join(app.root_path, app.config['CONTENT_FOLDER'])
+content_path = 'content'
 
 
 meta_converters = {
@@ -42,6 +40,11 @@ meta_converters = {
     'slugify': lambda x: [s.lowercase().replace(' ', '-') for s in x],
     'one': lambda x: x[0],
 }
+
+
+class Markup(str):
+    def __html__(self):
+        return self
 
 
 def slugify(value):
@@ -85,7 +88,7 @@ def get_file_pairs(folder_path):
 
     This is a generator, you can iterate it.
     """
-    for filename in os.listdir(folder_path):
+    for filename in sorted(os.listdir(folder_path)):
         file_path = os.path.join(folder_path, filename)
         try:
             with codecs.open(file_path, 'r', encoding='utf-8') as file_object:
@@ -126,83 +129,47 @@ def load(type_name):
     return loader_decorator
 
 
-@load('blog')
-def load_blog(blogs):
-    """Load a blog post and its metadata for each file.
-
-    Blog posts are expected to be markdown files with metadata at the top. The
-    following metadata is required:
-
-      * Title
-      * Date -- use iso format: yyyy-mm-dd)
-      * Authors -- if more than one, add a line-break and indent for each. eg:
-            
-            Authors: Llanco Talamantes
-                     Mikel Maron
-
-    These metadata fields are optional:
-
-      * Modified -- iso format like Data
-
-    The filename is used as the URL slug, minus the extension.
-
-    Imported blog posts are thrown onto a big list in dictionaries that look
-    like this:
-
-        {
-            'body': <html string>,
-            'title': <string>,
-            'slug': <string>,
-            'authors': <list of strings>,
-            'date': <datetime.Date>,
-            'modified': <datetime.Date or None>,
-        }
-    """
-    meta = {
-        'title':    (True, ('one',)),
-        'authors':  (True, ('noop',)),
-        'date':     (True, ('one', 'iso-date')),
-        'modified': (False, ('one', 'iso-date')),
-    }
-    markdowner = Markdown(extensions=['meta'], output_format='html5')
-    posts = []
-
-    for blog_file, filename in blogs:
-        post = {}
-        html = markdowner.convert(blog_file.read())  # also loads metadata
-        post['body'] = Markup(html)
-        post['slug'] = os.path.splitext(filename)[0]
-
-        for field, (required, filters) in meta.items():
-            field_val = markdowner.Meta.get(field)
-            try:
-                val = apply_field_constraints(field_val, required, filters)
-            except MetaError as e:
-                e.apply_context(filename=filename, field=field)
-                raise e
-            post[field] = val
-
-        posts.append(post)
-        markdowner.reset()
-
-    posts.sort(key=lambda post: post['date'], reverse=True)
-
-    return posts
-
-
-def validate_school_geo(school_geo, _seen=set()):
+def clean_and_validate_school_geo(school_geo, _seen=set()):
     """Validate the geojson data as it comes in."""
     assert school_geo['type'] == 'Feature'
     assert school_geo['geometry']['type'] == 'MultiPoint'
     assert 'properties' in school_geo
     properties = school_geo['properties']
-    assert 'id' in properties
-    _id = properties['id'].rsplit('/', 1)[1]
+    assert 'osm:id' in properties
+    _id = properties['osm:id'].rsplit('/', 1)[1]
     assert _id not in _seen
     _seen.add(_id)
-    assert 'name' in properties
-    school_text_slug = slugify(properties['name'])
-    school_geo['slug'] = '{}/{}'.format(_id, school_text_slug)
+    if 'osm:name' in properties:
+        school_geo['name'] = properties['osm:name']
+    elif 'kenyaopendata:official_name' in properties:
+        school_geo['name'] = properties['kenyaopendata:official_name']
+    else:
+        raise Exception('Encountered a school with no names: {}'
+                        .format(school_geo))
+    properties['name'] = school_geo['name']  # probably should be there anyway..
+    school_geo['slug'] = '{}/{}'.format(_id, slugify(school_geo['name']))
+    if 'osm:images' in properties:
+        properties['photos'] = properties['osm:images'].split(',')
+
+    # selected properties
+    selection = (
+        'kenyaopendata:Sponsor of School',  # type of school
+        'osm:operator:type',
+        'kenyaopendata:Total Boys',         # male students
+        'osm:education:students_male',
+        'kenyaopendata:Total Girls',        # female students
+        'osm:education:students_female',
+        'osm:education:type',               # education level
+        'kenyaopendata:Level of Education',
+        'osm:education:teachers',           # teachers
+        'kenyaopendata:Total Teaching staff',
+    )
+    school_geo['selected_properties'] = {}
+    for sel in selection:
+        try:
+            school_geo['selected_properties'][sel] = properties[sel]
+        except KeyError:
+            pass
 
 
 @load('schools')
@@ -213,6 +180,105 @@ def load_schools(school_stuff):
     for school_file, filename in school_stuff:
         school_data = json.load(school_file)
         for school_geojson in school_data['features']:
-            validate_school_geo(school_geojson)
+            clean_and_validate_school_geo(school_geojson)
             schools.append(school_geojson)
-    return schools
+    return sorted(schools, key=lambda s: s['name'].lower())
+
+
+@load('fields')
+def load_fields(field_stuff):
+    """Load nice labels and metadata about the fields in the data"""
+    fields = []
+    for fields_file, _ in field_stuff:
+        fields_data = json.load(fields_file)
+        for f in fields_data:
+            fields.append(f)
+    return fields
+
+
+@load('videos')
+def load_videos(video_stuff):
+    videos = []
+    for vid_file, _ in video_stuff:
+        vid_data = json.load(vid_file)
+        videos.extend(vid_data)
+    return videos
+
+
+@load('stories')
+def load_stories(story_stuff):
+    meta = {
+        'title':       (True, ('one',)),
+        'description': (True, ('one',)),
+    }
+    markdowner = Markdown(extensions=['meta'], output_format='html5')
+    stories = []
+    for story_file, filename in story_stuff:
+        story = {}
+        html = markdowner.convert(story_file.read())  # also loads metadata
+        story['body'] = Markup(html)
+        story['slug'] = os.path.splitext(filename)[0]
+
+        for field, (required, filters) in meta.items():
+            field_val = markdowner.Meta.get(field)
+            try:
+                val = apply_field_constraints(field_val, required, filters)
+            except MetaError as e:
+                e.apply_context(filename, field)
+                raise e
+            story[field] = val
+
+        stories.append(story)
+        markdowner.reset()
+
+    return stories
+
+
+@load('blog')
+def load_blog(blog_stuff):
+    meta = {
+        'title':    (True, ('one',)),
+        'author':   (True, ('one',)),
+        'date':     (True, ('one', 'iso-date')),
+        'photo':    (False, ('one',)),
+        'photo_caption': (False, (''))
+    }
+    markdowner = Markdown(extensions=['meta'], output_format='html5')
+    posts = []
+    for blog_file, filename in blog_stuff:
+        post = {}
+        html = markdowner.convert(blog_file.read())  # also loads metadata
+        post['content'] = Markup(html)
+        post['summary'] = Markup('\n'.join(html.split('\n', 1)[:-1]))
+        post['slug'] = os.path.splitext(filename)[0]
+
+        for field, (required, filters) in meta.items():
+            field_val = markdowner.Meta.get(field)
+            try:
+                val = apply_field_constraints(field_val, required, filters)
+            except MetaError as e:
+                e.apply_context(filename, field)
+                raise e
+            post[field] = val
+
+        posts.append(post)
+        markdowner.reset()
+
+    return posts
+
+
+@load('datapage')
+def load_data_overview(datapage_stuff):
+    markdowner = Markdown(output_format='html5')
+    datapage_mdfile, _ = next(datapage_stuff)  # there should only be one!
+    html = markdowner.convert(datapage_mdfile.read())  # also loads metadata
+    return Markup(html)
+
+
+@load('social')
+def load_social(social_stuff):
+    profiles = []
+    for social_file, _ in social_stuff:
+        social_data = json.load(social_file)
+        profiles.extend(social_data)
+    return profiles
