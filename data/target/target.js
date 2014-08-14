@@ -350,7 +350,23 @@ $( function() {
       "osm:education:program_sanitary_towel" : {
         "validation" : ["validate_check"],
         "group" : "operations"
-      }
+      },
+      "osm:image:classroom" : {
+        "validation" : ["validate_present"],
+        "group" : "images"
+      },
+      "osm:image:compound" : {
+        "validation" : ["validate_present"],
+        "group" : "images"
+      },
+      "osm:image:other" : {
+        "validation" : ["validate_present"],
+        "group" : "images"
+      },
+      "osm:image:outside" : {
+        "validation" : ["validate_present"],
+        "group" : "images"
+      },
 
     }
   );
