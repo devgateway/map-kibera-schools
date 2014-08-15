@@ -7,6 +7,8 @@ build/
 staging/
 production/
 
+content/images/cache/*/*/*/orig.*
+
 # DEV STUFF
 
 ## python bytecode

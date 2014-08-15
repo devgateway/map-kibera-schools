@@ -73,6 +73,7 @@ def build_html():
     from flask_frozen import Freezer
     from app import views
     views.app.config['FREEZER_DESTINATION'] = '../build'
+    views.app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
     views.app.testing = True
     freezer = Freezer(views.app, with_static_files=False)
     freezer.register_generator(views.school_url_generator)

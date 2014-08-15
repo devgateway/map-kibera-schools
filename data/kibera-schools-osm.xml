@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2014-08-14T15:45:02Z"/>
+<meta osm_base="2014-08-15T11:59:02Z"/>
 
   <bounds minlat="-1.3232" minlon="36.7663" maxlat="-1.3" maxlon="36.8079"/>
 
@@ -928,12 +928,18 @@
     <tag k="operator:description" v="No funders"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="612008568" lat="-1.3132458" lon="36.7978307" version="5" timestamp="2014-08-12T13:00:12Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="612008568" lat="-1.3132458" lon="36.7978307" version="6" timestamp="2014-08-15T11:41:36Z" changeset="24765259" uid="261009" user="Blasio">
+    <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
+    <tag k="building:levels" v="0"/>
+    <tag k="building:material" v="ironsheets"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="education:curriculum" v="8_4_4"/>
     <tag k="education:exam_center" v="yes"/>
     <tag k="education:fees" v="5400"/>
     <tag k="education:gender_type" v="mixed"/>
     <tag k="education:government_registered" v="yes"/>
+    <tag k="education:management_committee" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
     <tag k="education:staff_female" v="2"/>
     <tag k="education:student_age_range" v="1-5years"/>
@@ -946,6 +952,7 @@
     <tag k="education:teachers_female" v="3"/>
     <tag k="education:teachers_trained" v="3"/>
     <tag k="education:type" v="pre_primary"/>
+    <tag k="electricity:operational_status" v="often"/>
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/St.%20Bakhita%20Laini%20Saba/class.JPG"/>
     <tag k="image:other" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/St.%20Bakhita%20Laini%20Saba/gate.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/St.%20Bakhita%20Laini%20Saba/building.JPG"/>
@@ -956,6 +963,7 @@
     <tag k="operator:name" v="Catholic Church Soweto East"/>
     <tag k="operator:type" v="religious"/>
     <tag k="place:village" v="Soweto East"/>
+    <tag k="toilet:present" v="yes"/>
   </node>
   <node id="612008576" lat="-1.3157240" lon="36.8029848" version="6" timestamp="2014-08-12T13:00:13Z" changeset="24701152" uid="261009" user="Blasio">
     <tag k="accessibility" v="big_vehicles"/>
@@ -1357,7 +1365,7 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:arranged_name" v="Public"/>
   </node>
-  <node id="612009191" lat="-1.3123809" lon="36.7772304" version="11" timestamp="2014-07-24T19:22:44Z" changeset="24336392" uid="265690" user="fondolucy">
+  <node id="612009191" lat="-1.3123809" lon="36.7772304" version="12" timestamp="2014-08-15T08:50:25Z" changeset="24762281" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:material" v="ironsheets"/>
@@ -1389,6 +1397,8 @@
     <tag k="education:teachers_trained" v="14"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="always"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/gate.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/gate.JPG"/>
     <tag k="name" v="Red Rose Children Center"/>
     <tag k="opening_hours" v="07:30-16:30"/>
     <tag k="operational_status" v="operational"/>
@@ -2723,10 +2733,10 @@
     <tag k="place:village" v="Silanga"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="748858916" lat="-1.3145825" lon="36.7976833" version="6" timestamp="2014-08-12T13:00:12Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="748858916" lat="-1.3145825" lon="36.7976833" version="7" timestamp="2014-08-15T11:41:36Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="small_cars"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="mud"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:phone" v="0726"/>
@@ -3461,10 +3471,10 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="752223310" lat="-1.3155215" lon="36.8019153" version="6" timestamp="2014-08-12T13:00:06Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="752223310" lat="-1.3155215" lon="36.8019153" version="7" timestamp="2014-08-15T11:41:34Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="concrete"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:email" v="amutabijulius@gmail.com"/>
@@ -4047,7 +4057,7 @@
     <tag k="operational_status:electricity" v="always"/>
     <tag k="operator:type" v="ngo_international"/>
   </node>
-  <node id="761956459" lat="-1.3121305" lon="36.7749040" version="6" timestamp="2014-07-19T17:35:17Z" changeset="24241922" uid="265690" user="fondolucy">
+  <node id="761956459" lat="-1.3121305" lon="36.7749040" version="7" timestamp="2014-08-15T08:50:23Z" changeset="24762281" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -4080,6 +4090,9 @@
     <tag k="education:teachers_trained" v="15"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
+    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Class.JPG"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Compound."/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post.JPG"/>
     <tag k="name" v="Joysprings Educational Centre"/>
     <tag k="operator:name" v="Joysprings Fellowship Centre"/>
     <tag k="operator:type" v="religious"/>
@@ -4156,10 +4169,10 @@
     <tag k="operational_status:electricity" v="never"/>
     <tag k="operator:type" v="private"/>
   </node>
-  <node id="767108097" lat="-1.3166189" lon="36.8024389" version="7" timestamp="2014-08-12T13:00:06Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="767108097" lat="-1.3166189" lon="36.8024389" version="8" timestamp="2014-08-15T11:41:34Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:phone" v="0724 057 580"/>
@@ -4805,7 +4818,7 @@
     <tag k="polling_station:type_description" v="public_school"/>
     <tag k="source" v="map_kibera_trust"/>
   </node>
-  <node id="2064571554" lat="-1.3147084" lon="36.7778488" version="12" timestamp="2014-07-21T12:39:50Z" changeset="24272265" uid="265690" user="fondolucy">
+  <node id="2064571554" lat="-1.3147084" lon="36.7778488" version="13" timestamp="2014-08-15T08:50:24Z" changeset="24762281" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -4835,6 +4848,8 @@
     <tag k="education:teachers_trained" v="10"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="always"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound."/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/sign%20po"/>
     <tag k="is_in:constituency" v="Kibra"/>
     <tag k="is_in:estate" v="Olympic"/>
     <tag k="is_in:village" v="Olympic"/>
@@ -4921,11 +4936,12 @@
     <tag k="polling_station:type" v="school"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2105331260" lat="-1.3155094" lon="36.8012513" version="2" timestamp="2014-07-16T12:15:44Z" changeset="24180264" uid="261009" user="Blasio">
+  <node id="2105331260" lat="-1.3155094" lon="36.8012513" version="3" timestamp="2014-08-15T11:41:35Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
+    <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:phone" v="0700 326 565"/>
     <tag k="education:curriculum" v="8_4_4"/>
     <tag k="education:fees" v="2700"/>
@@ -5894,7 +5910,7 @@
     <tag k="place:village" v="Soweto West"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815713" lat="-1.3106242" lon="36.7721528" version="4" timestamp="2014-07-21T14:40:32Z" changeset="24274293" uid="265690" user="fondolucy">
+  <node id="2923815713" lat="-1.3106242" lon="36.7721528" version="5" timestamp="2014-08-15T08:50:26Z" changeset="24762281" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="2"/>
@@ -5926,6 +5942,9 @@
     <tag k="education:teachers_trained" v="6"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
+    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/class.JPG"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound."/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po"/>
     <tag k="name" v="St.Michael Holy Unity Academy"/>
     <tag k="operator:name" v="St.Michael Holy Unity Cbo"/>
     <tag k="operator:type" v="cbo"/>
@@ -8515,10 +8534,10 @@
     <tag k="toilet:arranged_name" v="Public"/>
     <tag k="toilet:present" v="no"/>
   </node>
-  <node id="2962598201" lat="-1.3142344" lon="36.7988609" version="2" timestamp="2014-08-12T13:00:05Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="2962598201" lat="-1.3142344" lon="36.7988609" version="3" timestamp="2014-08-15T11:41:33Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:phone" v="0718862614"/>
@@ -8544,9 +8563,10 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2962598202" lat="-1.3151059" lon="36.7995685" version="3" timestamp="2014-08-12T13:00:12Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="2962598202" lat="-1.3151059" lon="36.7995685" version="4" timestamp="2014-08-15T11:41:36Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="cement_block"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:email" v="info@sibwor@yahoo.com"/>
@@ -8557,6 +8577,7 @@
     <tag k="education:fees" v="2500"/>
     <tag k="education:gender_type" v="mixed"/>
     <tag k="education:government_registered" v="mgcsd"/>
+    <tag k="education:management_committee" v="yes"/>
     <tag k="education:student_female" v="3"/>
     <tag k="education:student_male" v="27"/>
     <tag k="education:students" v="30"/>
@@ -8574,10 +8595,10 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2962598203" lat="-1.3132567" lon="36.7973587" version="2" timestamp="2014-08-12T13:00:13Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="2962598203" lat="-1.3132567" lon="36.7973587" version="3" timestamp="2014-08-15T11:41:37Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:phone" v="0726147035"/>
@@ -8735,10 +8756,10 @@
     <tag k="toilet:arranged_name" v="Public"/>
     <tag k="toilet:present" v="no"/>
   </node>
-  <node id="2964135582" lat="-1.3147957" lon="36.8046292" version="2" timestamp="2014-08-12T13:00:09Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="2964135582" lat="-1.3147957" lon="36.8046292" version="3" timestamp="2014-08-15T11:41:35Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:phone" v="0720086723"/>
@@ -8766,10 +8787,10 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2964135583" lat="-1.3154696" lon="36.8037898" version="2" timestamp="2014-08-12T13:00:10Z" changeset="24701152" uid="261009" user="Blasio">
+  <node id="2964135583" lat="-1.3154696" lon="36.8037898" version="3" timestamp="2014-08-15T11:41:35Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
-    <tag k="building:levels" v="ground"/>
+    <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:email" v="mboyaviola@gmail.com"/>
@@ -8824,7 +8845,7 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2964954567" lat="-1.3141714" lon="36.7756098" version="2" timestamp="2014-07-19T17:35:18Z" changeset="24241922" uid="265690" user="fondolucy">
+  <node id="2964954567" lat="-1.3141714" lon="36.7756098" version="3" timestamp="2014-08-15T08:50:25Z" changeset="24762281" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="Ground"/>
@@ -8851,6 +8872,9 @@
     <tag k="education:teachers_trained" v="3"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
+    <tag k="image:classroom" v="https://lh3.googleusercontent.com/-S_WkWWvpROo/U9EuU0mW9DI/AAAAAAAACn0/0eDrVea_V34/w769-h577-no/Class.JPG"/>
+    <tag k="image:compound" v="https://lh3.googleusercontent.com/-3JXAtSwZyH4/U9EuZtqtY-I/AAAAAAAACoQ/UQrqzZLGzSM/w769-h577-no/Compound."/>
+    <tag k="image:outside" v="https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395."/>
     <tag k="name" v="Nesco Centre"/>
     <tag k="operator:name" v="Doreen Adhiambo Odhiambo"/>
     <tag k="operator:type" v="private"/>

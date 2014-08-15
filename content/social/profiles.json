@@ -2,26 +2,11 @@
   {
     "id": "facebook",
     "name": "Facebook",
-    "href": "#"
+    "url": "https://www.facebook.com/groups/mapkibera/"
   },
   {
     "id": "twitter",
     "name": "Twitter",
-    "href": "#"
-  },
-  {
-    "id": "googleplus",
-    "name": "Google Plus",
-    "href": "#"
-  },
-  {
-    "id": "vimeo",
-    "name": "Vimeo",
-    "href": "#"
-  },
-  {
-    "id": "flickr",
-    "name": "Flickr",
-    "href": "#"
+    "url": "https://twitter.com/mapkibera"
   }
 ]

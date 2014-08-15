@@ -187,11 +187,11 @@ def deploy():
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-#sync_osm()
-#convert2geojson()
+sync_osm()
+convert2geojson()
 compare_osm_kenyaopendata()
-cache_images()
-deploy()
+#cache_images()
+#deploy()
 
 #TODO generate statistics on each run of comparison results
 #TODO generate list of ODK schools unmapped

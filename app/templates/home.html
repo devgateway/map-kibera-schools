@@ -1,11 +1,9 @@
 {% extends 'base.html' %}
 
 {% set pagenav = [
-  {'href': '/#videos', 'title': 'Videos'},
   {'href': '/#map', 'title': 'Kibera Schools Map'},
   {'href': '/#stats', 'title': 'Highlights'},
-  {'href': '/#stories', 'title': 'Stories'},
-  {'href': '/blog/#blog-posts', 'title': 'Blog'},
+  {'href': '/blog/#blog-posts', 'title': 'Blog'}
 ] %}
 
 
@@ -16,7 +14,19 @@
       {% for video in content.videos %}
         <li id="video-{{ loop.index }}" class="slide {{ 'selected' if loop.first }}">
           <div class="video">
-            <a href="https://www.youtube.com/watch?v={{ video.youtubeid }}" data-youtubeid="{{ video.youtubeid }}"><img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" /></a>
+            {% if video.youtubid %}
+              <a href="https://www.youtube.com/watch?v={{ video.youtubeid }}" data-youtubeid="{{ video.youtubeid }}">
+            {% elif video.url %}
+              <a href="{{ video.url }}">
+            {% else %}
+              <a>
+            {% endif %}
+            {% if video.image %}
+              <img class="video-screenshot" src="{{ video.image }}" />
+            {% else %}
+              <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
+            {% endif %}
+            </a>
           </div>
           <div class="video-meta">
             <h2>{{ video.title }}</h2>
@@ -36,14 +46,6 @@
 
   <section id="map">
     <header class="map-controls">
-      <div class="map-social">
-        <h3>Share</h3>
-        <ul class="social">
-          {% for profile in content.social %}
-            <li><a class="icon-{{ profile.id }}" href="{{ profile.url }}" title="{{ profile.name }}" target="_top">{{ profile.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
       <div class="accent">
         <h2>Kibera School Map</h2>
       </div>
@@ -65,6 +67,7 @@
     </div>
   </section>
 
+<!--
   <section id="stories">
     <h2>Stories</h2>
     <ul>
@@ -79,5 +82,5 @@
       {% endfor %}
     </ul>
   </section>
-
+-->
 {% endblock %}

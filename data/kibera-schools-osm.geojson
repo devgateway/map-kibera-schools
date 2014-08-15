@@ -1575,11 +1575,17 @@
         "type": "node",
         "id": "612008568",
         "tags": {
+            "accessibility": "foot",
             "amenity": "school",
+            "building:levels": "0",
+            "building:material": "ironsheets",
+            "building:roof": "ironsheets",
+            "education:curriculum": "8_4_4",
             "education:exam_center": "yes",
             "education:fees": "5400",
             "education:gender_type": "mixed",
             "education:government_registered": "yes",
+            "education:management_committee": "yes",
             "education:program_feeding": "yes",
             "education:staff_female": "2",
             "education:student_age_range": "1-5years",
@@ -1592,6 +1598,7 @@
             "education:teachers_female": "3",
             "education:teachers_trained": "3",
             "education:type": "pre_primary",
+            "electricity:operational_status": "often",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/St.%20Bakhita%20Laini%20Saba/class.JPG",
             "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/St.%20Bakhita%20Laini%20Saba/gate.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/St.%20Bakhita%20Laini%20Saba/building.JPG",
@@ -1601,13 +1608,14 @@
             "operational_status:electricity": "always",
             "operator:name": "Catholic Church Soweto East",
             "operator:type": "religious",
-            "place:village": "Soweto East"
+            "place:village": "Soweto East",
+            "toilet:present": "yes"
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:12Z",
-            "version": "5",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:36Z",
+            "version": "6",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -2311,6 +2319,8 @@
             "education:teachers_trained": "14",
             "education:type": "primary",
             "electricity:operational_status": "always",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/gate.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/gate.JPG",
             "name": "Red Rose Children Center",
             "opening_hours": "07:30-16:30",
             "operational_status": "operational",
@@ -2322,9 +2332,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-07-24T19:22:44Z",
-            "version": "11",
-            "changeset": "24336392",
+            "timestamp": "2014-08-15T08:50:25Z",
+            "version": "12",
+            "changeset": "24762281",
             "user": "fondolucy",
             "uid": "265690"
         }
@@ -4545,7 +4555,7 @@
         "tags": {
             "accessibility": "small_cars",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "mud",
             "building:roof": "ironsheets",
             "contact:phone": "0726",
@@ -4579,9 +4589,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:12Z",
-            "version": "6",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:36Z",
+            "version": "7",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -5812,7 +5822,7 @@
         "tags": {
             "accessibility": "big_vehicles",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "concrete",
             "building:roof": "ironsheets",
             "contact:email": "amutabijulius@gmail.com",
@@ -5857,9 +5867,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:06Z",
-            "version": "6",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:34Z",
+            "version": "7",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -6819,6 +6829,9 @@
             "education:teachers_trained": "15",
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Class.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Compound.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post.JPG",
             "name": "Joysprings Educational Centre",
             "operator:name": "Joysprings Fellowship Centre",
             "operator:type": "religious",
@@ -6827,9 +6840,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-07-19T17:35:17Z",
-            "version": "6",
-            "changeset": "24241922",
+            "timestamp": "2014-08-15T08:50:23Z",
+            "version": "7",
+            "changeset": "24762281",
             "user": "fondolucy",
             "uid": "265690"
         }
@@ -6990,7 +7003,7 @@
         "tags": {
             "accessibility": "foot",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "ironsheets",
             "building:roof": "ironsheets",
             "contact:phone": "0724 057 580",
@@ -7030,9 +7043,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:06Z",
-            "version": "7",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:34Z",
+            "version": "8",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -8241,6 +8254,8 @@
             "education:teachers_trained": "10",
             "education:type": "primary",
             "electricity:operational_status": "always",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/sign%20po",
             "is_in:constituency": "Kibra",
             "is_in:estate": "Olympic",
             "is_in:village": "Olympic",
@@ -8262,9 +8277,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-07-21T12:39:50Z",
-            "version": "12",
-            "changeset": "24272265",
+            "timestamp": "2014-08-15T08:50:24Z",
+            "version": "13",
+            "changeset": "24762281",
             "user": "fondolucy",
             "uid": "265690"
         }
@@ -8399,8 +8414,9 @@
         "tags": {
             "accessibility": "foot",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "ironsheets",
+            "building:roof": "ironsheets",
             "contact:phone": "0700 326 565",
             "education:curriculum": "8_4_4",
             "education:fees": "2700",
@@ -8430,9 +8446,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-07-16T12:15:44Z",
-            "version": "2",
-            "changeset": "24180264",
+            "timestamp": "2014-08-15T11:41:35Z",
+            "version": "3",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -10045,6 +10061,9 @@
             "education:teachers_trained": "6",
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/class.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po",
             "name": "St.Michael Holy Unity Academy",
             "operator:name": "St.Michael Holy Unity Cbo",
             "operator:type": "cbo",
@@ -10053,9 +10072,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-07-21T14:40:32Z",
-            "version": "4",
-            "changeset": "24274293",
+            "timestamp": "2014-08-15T08:50:26Z",
+            "version": "5",
+            "changeset": "24762281",
             "user": "fondolucy",
             "uid": "265690"
         }
@@ -14431,7 +14450,7 @@
         "tags": {
             "accessibility": "foot",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "ironsheets",
             "building:roof": "ironsheets",
             "contact:phone": "0718862614",
@@ -14459,9 +14478,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:05Z",
-            "version": "2",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:33Z",
+            "version": "3",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -14483,6 +14502,7 @@
         "tags": {
             "accessibility": "big_vehicles",
             "amenity": "school",
+            "building:levels": "0",
             "building:material": "cement_block",
             "building:roof": "ironsheets",
             "contact:email": "info@sibwor@yahoo.com",
@@ -14493,6 +14513,7 @@
             "education:fees": "2500",
             "education:gender_type": "mixed",
             "education:government_registered": "mgcsd",
+            "education:management_committee": "yes",
             "education:student_female": "3",
             "education:student_male": "27",
             "education:students": "30",
@@ -14512,9 +14533,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:12Z",
-            "version": "3",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:36Z",
+            "version": "4",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -14536,7 +14557,7 @@
         "tags": {
             "accessibility": "foot",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "ironsheets",
             "building:roof": "ironsheets",
             "contact:phone": "0726147035",
@@ -14566,9 +14587,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:13Z",
-            "version": "2",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:37Z",
+            "version": "3",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -14812,7 +14833,7 @@
         "tags": {
             "accessibility": "foot",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "ironsheets",
             "building:roof": "ironsheets",
             "contact:phone": "0720086723",
@@ -14842,9 +14863,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:09Z",
-            "version": "2",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:35Z",
+            "version": "3",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -14866,7 +14887,7 @@
         "tags": {
             "accessibility": "big_vehicles",
             "amenity": "school",
-            "building:levels": "ground",
+            "building:levels": "0",
             "building:material": "ironsheets",
             "building:roof": "ironsheets",
             "contact:email": "mboyaviola@gmail.com",
@@ -14895,9 +14916,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-12T13:00:10Z",
-            "version": "2",
-            "changeset": "24701152",
+            "timestamp": "2014-08-15T11:41:35Z",
+            "version": "3",
+            "changeset": "24765259",
             "user": "Blasio",
             "uid": "261009"
         }
@@ -14994,6 +15015,9 @@
             "education:teachers_trained": "3",
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
+            "image:classroom": "https://lh3.googleusercontent.com/-S_WkWWvpROo/U9EuU0mW9DI/AAAAAAAACn0/0eDrVea_V34/w769-h577-no/Class.JPG",
+            "image:compound": "https://lh3.googleusercontent.com/-3JXAtSwZyH4/U9EuZtqtY-I/AAAAAAAACoQ/UQrqzZLGzSM/w769-h577-no/Compound.",
+            "image:outside": "https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.",
             "name": "Nesco Centre",
             "operator:name": "Doreen Adhiambo Odhiambo",
             "operator:type": "private",
@@ -15002,9 +15026,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-07-19T17:35:18Z",
-            "version": "2",
-            "changeset": "24241922",
+            "timestamp": "2014-08-15T08:50:25Z",
+            "version": "3",
+            "changeset": "24762281",
             "user": "fondolucy",
             "uid": "265690"
         }
