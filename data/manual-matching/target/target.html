@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.tablesorter/jquery.tablesorter.js"></script>
+    <link rel="stylesheet" type="text/css" href="target.css" />
+    <link rel="stylesheet" type="text/css" href="buttons-min.css" />
+    <script src="target.js"></script>
+  </head>
+  <body>
+    <div id="controls"></div>
+    <div id="headcol-wrapper">
+    <table id="target" cellspacing="0" cellpadding="0">
+      <thead id='target-head'></thead>
+      <tbody id='table-listing'></tbody>
+    </table>
+    </div>
+    <div style="visibility:hidden">
+The tool consists of a table, where each row is a school in Kibera, in OpenStreetMap, and each column is a tag.
+At the start, only two columns are shown, osm:name and osm:_timestamp. You can click on the column header, and the results will be sorted (click twice reverse sort).
+There are four groups of tags, which can be shown/hidden by clicking the filter buttons at the top. 
+
+The number below the tag name, in the column, is the percentage of schools which validate correctly for each tag.
+For each school and each tag, a number of validation tests are run. 
+For instance, for osm:name, it checks that the first letter of each word is capitalized, and that no underscores are in the name.
+For education:type, it checks that the value is either pre_primary, primary, or secondary.
+
+Our goal is to get as close as possible to 100% for every tag for every school.
+
+This is a work in progress. There may need to be more validation tests implemented, if problems are discovered. Or certain tests may be failing, but they shouldn't be (for instance, if an option is missing from an allowed value list). There are usability improvements I have in mind also, to make it easier to use.
+
+Note, the data in the tool doesn't update automatically every time you edit; it requires that I run a process on my computer.
+     </div>
+  </body>
+</html>

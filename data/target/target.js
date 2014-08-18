@@ -26,6 +26,9 @@
         if (lowers.indexOf(word) == -1 && word.charAt(0) != word.charAt(0).toUpperCase()) {
           test = false;
         }
+        if (word.indexOf(".") != -1 && word.indexOf(".") != (word.length - 1)) {
+          test = false;
+        }
       });
 
       return test;
@@ -61,6 +64,9 @@
   
     filter_date_year: function(key, value) {
       return value.substr(0,10);
+    },
+    filter_id: function(key, value) {
+      return "<a href='http://www.openstreetmap.org/" + value + "'>" + value + "</a>";
     },
 
     toggle_group: function(e) {
@@ -171,6 +177,11 @@ $( function() {
         "options" : {"allowed_list" : ["pre_primary","primary","secondary","vocational"]},
         "group" : "basic"
       },
+      "osm:id": {
+        "validation" : ["validate_present"],
+        "group" : "basic",
+        "filter" : ["filter_id"]
+      },
       "osm:_user": {
         "validation" : ["validate_present"],
         "group" : "basic"
@@ -190,10 +201,6 @@ $( function() {
       "osm:place:village": {
         "validation" : ["validate_allowed_list"],
         "options" : {"allowed_list" : ["Lindi","Makina","Silanga","Karanja","Kisumu Ndogo","Kianda","Soweto West","Soweto East","Raila","Kambi Muru", "Gatwekera", "Olympic", "Mashimoni", "Ayany"]},
-        "group" : "basic"
-      },
-      "osm:_user": {
-        "validation" : ["validate_present"],
         "group" : "basic"
       },
 

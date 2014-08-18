@@ -1,0 +1,71 @@
+#target {
+  margin: 0 auto;
+/*   font-size: 1.2em; */
+  margin-bottom: 15px;
+  float: left;
+}
+
+
+#target thead {
+  cursor: pointer;
+  background: #c9dff0;
+}
+#target thead tr th { 
+  font-weight: bold;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+#target thead tr th span { 
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#target thead tr th.headerSortUp, #target thead tr th.headerSortDown {
+  background: #acc8dd;
+}
+
+#target thead tr th.headerSortUp span {
+  background-image: url('up-arrow.png');
+}
+#target thead tr th.headerSortDown span {
+  background-image: url('down-arrow.png');
+}
+
+
+#target tbody tr { 
+  color: #000;
+}
+#target tbody tr td {
+  text-align: center;
+  padding: 15px 10px;
+}
+#target tbody tr td.lalign {
+  text-align: left;
+}
+
+#target tbody tr td.valid {
+  background-color: #84e184;
+}
+#target tbody tr td.invalid {
+  background-color: #ff9999;
+}
+
+#controls {
+  padding-bottom: 20px;
+}
+
+/* #target .headcol {
+  position:absolute;
+  width:10em;
+  left:0;
+}
+    .headcol:before {content: 'Row ';}
+
+.headcol-wrapper {
+  overflow-x: scroll;
+}
+*/
+.groupBtn {
+  cursor: pointer;
+}
