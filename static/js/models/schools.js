@@ -11,7 +11,7 @@ app.models.School = Backbone.Model.extend({
 
 app.models.Schools = Backbone.Collection.extend({
 
-  url: '/_schools.json',  // app-optimized version of the standard
+  url: '/app/schools.json',  // app-optimized version of the standard
                           // `schools.geojson` so that we can do less work.
 
   comparator: 'name',
