@@ -24,10 +24,14 @@ app.views.SchoolsStats = Backbone.View.extend({
         totalStudents = 0;
     _.each(schools, function(school) {
       if (school.has('osm:education:teachers')) {
-        totalTeachers += +school.get('osm:education:teachers');
+        var teachers = +school.get('osm:education:teachers');
+        if (isNaN(teachers)) { teachers = 0; }
+        totalTeachers += teachers;
       }
       if (school.has('osm:education:students')) {
-        totalStudents += +school.get('osm:education:students');
+        var students = +school.get('osm:education:students');
+        if (isNaN(students)) { students = 0; }
+        totalStudents += students;
       }
     });
     return {
