@@ -221,7 +221,7 @@ def build(what, *args):
     if 'build' not in os.listdir('.'):
         os.makedirs('build')
 
-    if what not in ('html', 'static'):
+    if what not in ('all', 'html', 'static'):
         raise SystemExit('no such build: {}'.format(what))
 
     if what in ('all', 'html'):
