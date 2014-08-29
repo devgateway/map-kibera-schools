@@ -84,8 +84,18 @@ def school(slug):
     has_kod = any(v.startswith('kenyaopendata:') for v in
                   this_school['properties'].keys())
     this_school['locations'] = this_school['geometry']['coordinates']
+
+    ungrouped = {}
+    for key in this_school['properties']:
+      hide = False
+      for field in content['fields']:    
+        if ("osm" in field and field['osm'] == key) or ("kenyaopendata" in field and field['kenyaopendata'] == key) or key.startswith("osm:image"):
+          hide = True
+      if hide == False:
+        ungrouped[ key ] = this_school['properties'][ key ]
+
     return render_template('school-profile.html',
-                           school=this_school, has_kod=has_kod)
+                           school=this_school, has_kod=has_kod, ungrouped=ungrouped)
 
 
 def school_url_generator():

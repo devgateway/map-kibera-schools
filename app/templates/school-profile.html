@@ -147,34 +147,22 @@
     {% macro dump_properties(obj, namespace) %}
       <table>
         {% for key in obj if key.startswith(namespace) %}
-          {% set hide = "false" %}
-          {% for field in content.fields %}
-            {% set field_key = field[namespace] %}
-<!--{{ field_key }}
-{{ field['name'] }}
-{{ key }}-->
-            {% if field_key == key %}
-              {% set hide = "true" %}
-            {% endif %}
-          {% endfor %} 
-          {% if hide != "true" %}
           <tr>
             <th>{{ key[(namespace|length+1):] }}</th>
             <td>{{ obj[key] }}</td>
           </tr>
-          {% endif %}
         {% endfor %}
       </table>
     {% endmacro %}
     <div class="school-info-row">
       <div class="school-stats school-more-stats">
         <h3>All Available OSM Data</h3>
-        {{ dump_properties(school.properties, 'osm') }}
+        {{ dump_properties(ungrouped, 'osm') }}
       </div>
       {% if has_kod %}
         <div class="school-stats school-more-stats">
           <h3>All Available Kenya Open Data</h3>
-          {{ dump_properties(school.properties, 'kenyaopendata') }}
+          {{ dump_properties(ungrouped, 'kenyaopendata') }}
         </div>
       {% endif %}
     </div>
