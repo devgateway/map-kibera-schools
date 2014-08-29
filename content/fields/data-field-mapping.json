@@ -1,27 +1,55 @@
 [
   {
-    "name": "Number of Students",
-    "osm": "osm:education:students",
-    "kenyaopendata": "kenyaopendata:Total Enrolment",
-    "feature": true
-  },
-  {
     "name": "Education Level",
     "osm": "osm:education:type",
     "kenyaopendata": "kenyaopendata:Level of Education",
-    "feature": true
+    "group": "Basics"
+  },
+  {
+    "name": "Operator",
+    "osm": "osm:operator:name",
+    "kenyaopendata": "kenyaopendata:Sponsor of School",
+    "group": "Basics"
   },
   {
     "name": "Type of School",
     "osm": "osm:operator:type",
-    "kenyaopendata": "kenyaopendata:Sponsor of School",
-    "featured": true
+    "kenyaopendata": "kenyaopendata:Status of School",
+    "group": "Basics"
+  },
+  {
+    "name": "Operator Description",
+    "osm": "osm:operator:description",
+    "group": "Basics"
+  },
+  {
+    "name": "Boarding or not",
+    "osm": "osm:education:boarding",
+    "kenyaopendata": "kenyaopendata:School Institution Type_2",
+    "group": "Basics"
+  },
+  {
+    "name": "Village or ward",
+    "osm": "osm:place:village",
+    "kenyaopendata": "kenyaopendata:Location",
+    "group": "Basics"
+  },  
+  {
+    "name": "Accessibility",
+    "osm": "osm:accessibility",
+    "group": "Infrastructure"
+  },
+  {
+    "name": "Number of Students",
+    "osm": "osm:education:students",
+    "kenyaopendata": "kenyaopendata:Total Enrolment",
+    "group": "Population"
   },
   {
     "name": "Teachers",
     "osm": "osm:education:teachers",
     "kenyaopendata": "kenyaopendata:Total Teaching staff",
-    "featured": true
+    "group": "Population"
   },
   {
     "name": "Name",

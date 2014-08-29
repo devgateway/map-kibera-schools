@@ -60,21 +60,25 @@
       <header class="school-stats">
         <p class="source">OSM Data</p>
         <h2>{{ school.name }}</h2>
+<!--
         {% set num_students = (school.properties['osm:education:students_male'] or 0)|int +
                               (school.properties['osm:education:students_female'] or 0)|int %}
         {% if num_students > 0 %}
           <h3>{{ num_students }} Students</h3>
         {% endif %}
+-->
         <small>Location: {{ school.geometry.coordinates[0] | reverse | join(', ') }}</small>
       </header>
       <header class="school-stats">
         <p class="source">Kenya Open Data</p>
         <h2>{{ school.properties['kenyaopendata:official_name'] }}</h2>
+<!--
         {% set num_students = (school.properties['kenyaopendata:Total Boys'] or 0)|int +
                               (school.properties['kenyaopendata:Total Girls'] or 0)|int %}
         {% if num_students > 0 %}
           <h3>{{ num_students }} Students</h3>
         {% endif %}
+-->
         {% if school.geometry.coordinates | length > 1 %}
           <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
         {% endif %}
@@ -94,44 +98,83 @@
         </div>
       {% endif %}
     {% endmacro %}
+
+<!--
     <div class="school-info-row">
       <div class="school-stats stats-grid">
-        {{ cell('Type of School', key='osm:operator:type') }}
-        {{ cell('Education Level', key='osm:education:type') }}
-        {{ cell('Male Students', key='osm:education:students_male') }}
-        {{ cell('Female Students', key='osm:education:students_female') }}
-        {{ cell('Teachers', key='osm:education:teachers') }}
+        {% for field in content.fields %}
+          {{ cell( field.name, key=field.osm ) }}
+        {% endfor %}
       </div>
       {% if has_kod %}
         <div class="school-stats stats-grid">
-          {{ cell('Type of School', key='kenyaopendata:Sponsor of School') }}
-          {{ cell('Education Level', key='kenyaopendata:Level of Education') }}
-          {{ cell('Male Students', key='kenyaopendata:Total Boys') }}
-          {{ cell('Female Students', key='kenyaopendata:Total Girls') }}
-          {{ cell('Teachers', key='kenyaopendata:Total Teaching staff') }}
+        {% for field in content.fields %}
+          {{ cell( field.name, key=field.kenyaopendata ) }}
+        {% endfor %}
         </div>
       {% endif %}
+    </div>
+-->
+
+    {% macro dump_grouped_properties(obj, namespace) %}
+        {% set groups = ['Basics','Population','Infrastructure'] %}
+        {% for group in groups %}
+            <h3>{{group}}</h3>
+            <table>
+            {% for field in content.fields %}
+              {% if field.group == group %}
+              <tr>
+                <th>{{ field.name }}</th>
+                {% set key = field[namespace] %}
+                <td>{{ obj[ key ] }}</td>
+              </tr>
+              {% endif %}
+            {% endfor %}
+            </table>
+        {% endfor %}
+    {% endmacro %}
+    <div class="school-info-row">
+            <div class="school-stats school-more-stats">
+    {{ dump_grouped_properties(school.properties, 'osm') }}
+            </div>
+    {% if has_kod %}
+            <div class="school-stats school-more-stats">
+      {{ dump_grouped_properties(school.properties, 'kenyaopendata') }}
+            </div>
+    {% endif %}
     </div>
 
     {% macro dump_properties(obj, namespace) %}
       <table>
         {% for key in obj if key.startswith(namespace) %}
+          {% set hide = "false" %}
+          {% for field in content.fields %}
+            {% set field_key = field[namespace] %}
+<!--{{ field_key }}
+{{ field['name'] }}
+{{ key }}-->
+            {% if field_key == key %}
+              {% set hide = "true" %}
+            {% endif %}
+          {% endfor %} 
+          {% if hide != "true" %}
           <tr>
-            <th>{{ key[(namespace|length):] }}</th>
+            <th>{{ key[(namespace|length+1):] }}</th>
             <td>{{ obj[key] }}</td>
           </tr>
+          {% endif %}
         {% endfor %}
       </table>
     {% endmacro %}
     <div class="school-info-row">
       <div class="school-stats school-more-stats">
         <h3>All Available OSM Data</h3>
-        {{ dump_properties(school.properties, 'osm:') }}
+        {{ dump_properties(school.properties, 'osm') }}
       </div>
       {% if has_kod %}
         <div class="school-stats school-more-stats">
           <h3>All Available Kenya Open Data</h3>
-          {{ dump_properties(school.properties, 'kenyaopendata:') }}
+          {{ dump_properties(school.properties, 'kenyaopendata') }}
         </div>
       {% endif %}
     </div>
