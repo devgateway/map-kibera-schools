@@ -213,7 +213,7 @@ def build_images():
     dest = os.path.join('build', 'data/images')
     if os.path.exists(dest):
         shutil.rmtree(dest)
-    shutil.copytree(src, dest)
+    shutil.copytree(src, dest, ignore=shutil.ignore_patterns(('orig.*')))
 
 @command
 def build(what, *args):
