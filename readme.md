@@ -47,6 +47,15 @@ Building the static site
 
 Site builds are broken into two steps -- one for HTML, and one for the static assets, like javascript, css, and images. There is a script called [`manage.py`](manage.py) in the root of the project intended to streamline these steps. However, some tasks are not wrapped in that script yet and require other commands to be run.
 
+To rebuild evertyhing, simply
+
+```bash
+$ ./manage.py build all
+```
+
+To speed up rebuild during development, edit config.json to remove "closure" from the javascript filters. Afterward just remember to put it back on before deploying.
+
+For selective builds, as below ...
 
 ### Build HTML
 
