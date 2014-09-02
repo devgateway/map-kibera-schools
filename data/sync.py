@@ -156,8 +156,12 @@ def cache_image(osm_id, img_type, img_url):
    
     size = 300, 225
     if not os.path.exists(cache_dir + 'med' + fileExtension):
-      im.thumbnail(size)
-      im.save(cache_dir + 'med' + fileExtension)
+      try:
+        im.thumbnail(size)
+        im.save(cache_dir + 'med' + fileExtension)
+      except KeyError:
+        print "unknown extension error " + cache_dir + 'med' + fileExtension
+        return
   else:
     print "orig image missing " + cache_dir + 'orig' + fileExtension
 
@@ -190,7 +194,7 @@ def deploy():
 sync_osm()
 convert2geojson()
 compare_osm_kenyaopendata()
-#cache_images()
+cache_images()
 #deploy()
 
 #TODO generate statistics on each run of comparison results
