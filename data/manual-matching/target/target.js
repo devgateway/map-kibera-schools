@@ -62,7 +62,7 @@
       return false;
     },
     validate_marker_color: function(key, value, options) {
-      return value != "#f00";
+      return value == "#fff";
     },
   
     filter_date_year: function(key, value) {
@@ -74,7 +74,7 @@
     filter_marker_color: function(key, value) {
       if (value == "#f00") {
         return "unmatched";
-      } else if (value = "#fc0") {
+      } else if (value == "#fc0") {
         return "issue";
       } else {
         return "ok";
@@ -178,6 +178,10 @@ $( function() {
         "validation" : ["validate_marker_color"],
         "filter" : ["filter_marker_color"]
       },
+      "notes" : {
+        "validation" : ["validate_present"]
+      },
+
       "Constituency" : {
         "validation" : ["validate_none"]
       },

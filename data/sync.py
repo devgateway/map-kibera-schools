@@ -37,7 +37,8 @@ def url2file(url,file_name):
 def sync_osm():
   #url = 'http://overpass-api.de/api/interpreter'
   file_name = 'kibera-schools-osm.xml'
-  url = 'http://overpass-api.de/api/interpreter?data=[bbox];node[amenity=school];out%20meta;&bbox=36.7663,-1.3232,36.8079,-1.3000'
+  bbox = "36.7651,-1.3211,36.8178,-1.3009"
+  url = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox=" + bbox
   #values = dict(data='<osm-script><osm-script output="json" timeout="25"><union><query type="node"><has-kv k="amenity" v="school"/><bbox-query e="36.8079" n="-1.3000" s="-1.3232" w="36.7663"/></query></union><print mode="body"/><recurse type="down"/><print mode="meta"/></osm-script></osm-script>')  
   #data = urllib.urlencode(values)
   #req = urllib2.Request(url, data)
@@ -137,7 +138,7 @@ def slug_image(img_url):
   slug = ''.join(c for c in img_url if c in valid_chars)
   return slug
 
-def cache_image(osm_id, img_type, img_url):
+def cache_image(osm_id, osm_name, img_type, img_url):
   slug = slug_image(img_url)
   cache_dir = "../content/images/cache/" + osm_id + '/' + slug + '/'
   if not os.path.exists(cache_dir):
@@ -151,6 +152,7 @@ def cache_image(osm_id, img_type, img_url):
     try:
       im = Image.open(cache_dir + 'orig' + fileExtension)
     except IOError:
+      print "IMAGE ERROR," + osm_name + "," + osm_id + "," + img_type + "," + img_url
       print "orig image error " + cache_dir + 'orig' + fileExtension
       return
    
@@ -160,9 +162,11 @@ def cache_image(osm_id, img_type, img_url):
         im.thumbnail(size)
         im.save(cache_dir + 'med' + fileExtension)
       except KeyError:
+        print "IMAGE ERROR," + osm_name + "," + osm_id + "," + img_type + "," + img_url
         print "unknown extension error " + cache_dir + 'med' + fileExtension
         return
   else:
+    print "IMAGE ERROR," + osm_name + "," + osm_id + "," + img_type + "," + img_url
     print "orig image missing " + cache_dir + 'orig' + fileExtension
 
 def get_image_cache(osm_id, img_type, img_url, cache_size):
@@ -177,7 +181,7 @@ def cache_images():
     images = []
     for prop in ["osm:image:classroom","osm:image:compound","osm:image:other", "osm:image:outside"]:
       if prop in feature['properties']:
-        cache_image(feature['properties']['osm:id'], prop, feature['properties'][prop])
+        cache_image(feature['properties']['osm:id'], feature['properties']['osm:name'], prop, feature['properties'][prop])
         image = get_image_cache(feature['properties']['osm:id'], prop, feature['properties'][prop], 'med')
         images.append(image)
     if len(images) > 0:
@@ -194,7 +198,7 @@ def deploy():
 sync_osm()
 convert2geojson()
 compare_osm_kenyaopendata()
-cache_images()
+#cache_images()
 #deploy()
 
 #TODO generate statistics on each run of comparison results

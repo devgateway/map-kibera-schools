@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2014-09-02T18:50:02Z"/>
+<meta osm_base="2014-09-03T18:54:02Z"/>
 
-  <bounds minlat="-1.3232" minlon="36.7663" maxlat="-1.3" maxlon="36.8079"/>
+  <bounds minlat="-1.3211" minlon="36.7651" maxlat="-1.3009" maxlon="36.8178"/>
 
   <node id="478551902" lat="-1.3104681" lon="36.7988296" version="12" timestamp="2014-08-25T09:17:04Z" changeset="24998257" uid="261009" user="Blasio">
     <tag k="accessibility" v="big_vehicles"/>
@@ -263,7 +263,36 @@
     <tag k="place:village" v="Kambi Muru"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="612007279" lat="-1.3123932" lon="36.7908620" version="17" timestamp="2014-08-29T14:03:07Z" changeset="25097611" uid="261050" user="muindre">
+  <node id="612007272" lat="-1.3103201" lon="36.7894300" version="5" timestamp="2010-10-08T15:07:01Z" changeset="5986772" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="contact:phone" v="0721-962693"/>
+    <tag k="education:description" v="They keep children who don't have parents and home"/>
+    <tag k="education:fees" v="KShs 100 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="2"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="7mnth-15yrs"/>
+    <tag k="education:students" v="100"/>
+    <tag k="education:students_female" v="60"/>
+    <tag k="education:students_male" v="40"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="primary,childrens home"/>
+    <tag k="media:video_device_number" v="03"/>
+    <tag k="media:video_number" v="17of 18"/>
+    <tag k="name" v="Risa Children Center"/>
+    <tag k="opening_hours" v="08:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:type" v="ngo_cbo"/>
+  </node>
+  <node id="612007279" lat="-1.3123932" lon="36.7908620" version="18" timestamp="2014-09-03T17:22:18Z" changeset="25209762" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -303,6 +332,7 @@
     <tag k="media:video_device_number" v="3"/>
     <tag k="media:video_number" v="16"/>
     <tag k="name" v="Mashimoni Squatters Primary School"/>
+    <tag k="official_name" v="MASHIMONI SQUATTERS PRI. SCH"/>
     <tag k="opening_hours" v="08:00-17:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operator:description" v="The school is runned by AIC church in partnership with the foundation"/>
@@ -317,6 +347,33 @@
     <tag k="polling_station:source" v="map_kibera_trust"/>
     <tag k="source" v="map_kibera_trust"/>
     <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="612007398" lat="-1.3095937" lon="36.7915831" version="6" timestamp="2010-08-31T15:36:26Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="protestant"/>
+    <tag k="education:fees" v="KShs 200"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="1"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="30"/>
+    <tag k="education:students_female" v="10"/>
+    <tag k="education:students_male" v="20"/>
+    <tag k="education:teachers" v="5"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers_untrained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="6"/>
+    <tag k="name" v="Mashimoni Friends Church"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-16:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="religion" v="christian"/>
   </node>
   <node id="612007401" lat="-1.3150596" lon="36.7902852" version="5" timestamp="2014-08-25T08:33:44Z" changeset="24997455" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
@@ -555,6 +612,11 @@
     <tag k="place:village" v="Mashimoni"/>
     <tag k="toilet:present" v="yes"/>
   </node>
+  <node id="612007491" lat="-1.3108481" lon="36.7892935" version="2" timestamp="2010-08-31T15:36:36Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="education:type" v="kindergarten"/>
+    <tag k="name" v="Sunrose Baby Care/ Nursery"/>
+  </node>
   <node id="612007505" lat="-1.3191279" lon="36.7785812" version="6" timestamp="2014-08-21T08:47:21Z" changeset="24903806" uid="261050" user="muindre">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
@@ -578,6 +640,11 @@
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Raila"/>
     <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="612007506" lat="-1.3192191" lon="36.7784823" version="2" timestamp="2010-08-31T15:37:33Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="library"/>
+    <tag k="education:type" v="library"/>
+    <tag k="name" v="Kibera Library"/>
   </node>
   <node id="612007520" lat="-1.3189911" lon="36.7789714" version="6" timestamp="2014-08-29T12:54:02Z" changeset="25096005" uid="261050" user="muindre">
     <tag k="accessibility" v="foot"/>
@@ -711,6 +778,11 @@
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="source" v="Map Kibera Trust"/>
+  </node>
+  <node id="612007641" lat="-1.3144755" lon="36.7959890" version="3" timestamp="2014-07-08T12:48:51Z" changeset="24024385" uid="261009" user="Blasio">
+    <tag k="amenity" v="college"/>
+    <tag k="education:type" v="college"/>
+    <tag k="name" v="K.T.D.P."/>
   </node>
   <node id="612007672" lat="-1.3101007" lon="36.7941990" version="9" timestamp="2014-08-25T08:58:40Z" changeset="24997916" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
@@ -860,6 +932,11 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
+  <node id="612007816" lat="-1.3141701" lon="36.7868672" version="3" timestamp="2010-08-31T15:37:58Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="education:type" v="kindergarten"/>
+    <tag k="name" v="Linda Baby Care"/>
+  </node>
   <node id="612007820" lat="-1.3137782" lon="36.7888624" version="9" timestamp="2014-08-29T14:03:05Z" changeset="25097611" uid="261050" user="muindre">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
@@ -987,6 +1064,34 @@
     <tag k="place:village" v="Lindi"/>
     <tag k="toilet:present" v="yes"/>
   </node>
+  <node id="612008402" lat="-1.3107360" lon="36.7797742" version="6" timestamp="2011-05-03T07:34:50Z" changeset="8036864" uid="265690" user="fondolucy">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="contact:phone" v="0738299626"/>
+    <tag k="denomination" v="presbyterian"/>
+    <tag k="education:description" v="Has Tailoring, Hairdressing, Catering, Nursary school,Business, Electrical and Electronics"/>
+    <tag k="education:program_computers" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:staff_male" v="1"/>
+    <tag k="education:student_age_range" v="Form four leavers and majority are adult"/>
+    <tag k="education:students" v="57"/>
+    <tag k="education:teachers" v="8"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="5"/>
+    <tag k="education:type" v="computer,technical,tailoring"/>
+    <tag k="media:camera_device_number" v="01"/>
+    <tag k="media:camera_number" v="55,56"/>
+    <tag k="name" v="P.C.E.A  Emmanuel Centre Kibera  Parish"/>
+    <tag k="opening_hours" v="08:00-20:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="always"/>
+    <tag k="operator:description" v="funded by Church no. of students keeps on fluctuating"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="religion" v="christian"/>
+  </node>
+  <node id="612008411" lat="-1.3098234" lon="36.7898529" version="4" timestamp="2014-08-29T11:38:28Z" changeset="25094465" uid="261050" user="muindre">
+    <tag k="education:type" v="primary"/>
+  </node>
   <node id="612008438" lat="-1.3127441" lon="36.7792917" version="10" timestamp="2014-08-29T11:15:09Z" changeset="25094045" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
@@ -1010,6 +1115,29 @@
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="source" v="Map Kibera Trust"/>
+  </node>
+  <node id="612008445" lat="-1.3121811" lon="36.7797956" version="6" timestamp="2010-08-31T15:38:47Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="public_building"/>
+    <tag k="education:description" v="CBO"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:staff_female" v="6"/>
+    <tag k="education:staff_male" v="3"/>
+    <tag k="education:student_age_range" v="3-7yrs"/>
+    <tag k="education:students" v="40"/>
+    <tag k="education:students_female" v="15"/>
+    <tag k="education:students_male" v="25"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="nursery"/>
+    <tag k="name" v="Nyanya Toto Nursary School"/>
+    <tag k="notes" v="CBO"/>
+    <tag k="opening_hours" v="08:00-15:30"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:description" v="No funders"/>
+    <tag k="operator:type" v="private"/>
   </node>
   <node id="612008500" lat="-1.3085809" lon="36.7762577" version="12" timestamp="2014-08-25T19:45:28Z" changeset="25012853" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
@@ -1094,7 +1222,7 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="612008576" lat="-1.3157240" lon="36.8029848" version="8" timestamp="2014-08-27T12:47:30Z" changeset="25050996" uid="261009" user="Blasio">
+  <node id="612008576" lat="-1.3157240" lon="36.8029848" version="9" timestamp="2014-09-03T18:00:41Z" changeset="25210548" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -1138,6 +1266,7 @@
     <tag k="image:other" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Victory%20Hope%20Children%20Center/class.jpg"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Victory%20Hope%20Children%20Center/sign%20post.jpg"/>
     <tag k="name" v="Victory Hope Community Centre"/>
+    <tag k="official_name" v="VICTORIA HOPE CHILDREN CENTRE PRI SCH"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="sometimes"/>
@@ -1145,6 +1274,52 @@
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="612008612" lat="-1.3126535" lon="36.7926480" version="6" timestamp="2012-05-31T10:26:31Z" changeset="11756764" uid="261052" user="millicentoo">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="pentecostal"/>
+    <tag k="education:fees" v="yes"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:program_sports" v="yes"/>
+    <tag k="education:staff_female" v="4"/>
+    <tag k="education:staff_male" v="4"/>
+    <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:students" v="50"/>
+    <tag k="education:students_female" v="30"/>
+    <tag k="education:students_male" v="20"/>
+    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers_trained" v="10"/>
+    <tag k="education:type" v="nursery,primary"/>
+    <tag k="media:video_device_number" v="8"/>
+    <tag k="media:video_number" v="16"/>
+    <tag k="name" v="Changing Times Centre"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-15:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="sometimes"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="religion" v="christian"/>
+  </node>
+  <node id="612008628" lat="-1.3167038" lon="36.7952662" version="4" timestamp="2013-01-23T08:21:05Z" changeset="14754171" uid="261009" user="Blasio">
+    <tag k="amenity" v="college"/>
+    <tag k="contact:phone" v="0725 61 45 01"/>
+    <tag k="education:fees" v="KShs 700 per month"/>
+    <tag k="education:students" v="4"/>
+    <tag k="education:students_female" v="3"/>
+    <tag k="education:students_male" v="1"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="1"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="tailoring"/>
+    <tag k="name" v="Mama Knight Dress-making &amp; Tailoring School"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-18:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:type" v="private"/>
   </node>
   <node id="612008715" lat="-1.3114235" lon="36.7846634" version="7" timestamp="2014-08-29T09:06:43Z" changeset="25091421" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
@@ -1198,6 +1373,11 @@
     <tag k="operator:type" v="religious"/>
     <tag k="place:village" v="Kianda"/>
     <tag k="source" v="Map Kibera Trust"/>
+  </node>
+  <node id="612008779" lat="-1.3090593" lon="36.7725816" version="3" timestamp="2010-08-31T15:36:28Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="library"/>
+    <tag k="education:type" v="library"/>
+    <tag k="name" v="G.A.A. Kibera Community Library"/>
   </node>
   <node id="612008786" lat="-1.3172255" lon="36.7984839" version="9" timestamp="2014-08-22T09:39:08Z" changeset="24927908" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
@@ -1556,6 +1736,11 @@
     <tag k="place:village" v="Soweto East"/>
     <tag k="toilet:arranged_name" v="Public"/>
   </node>
+  <node id="612009172" lat="-1.3121532" lon="36.7920963" version="3" timestamp="2010-08-31T15:36:24Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="college"/>
+    <tag k="education:type" v="tailoring"/>
+    <tag k="name" v="Olkhalos Daughter Knitting Training"/>
+  </node>
   <node id="612009188" lat="-1.3151491" lon="36.7788314" version="14" timestamp="2014-08-25T19:52:19Z" changeset="25013029" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
@@ -1795,6 +1980,11 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
+  <node id="612011372" lat="-1.3107304" lon="36.7946037" version="2" timestamp="2010-08-31T15:39:03Z" changeset="5646495" uid="19239" user="ebrelsford">
+    <tag k="amenity" v="library"/>
+    <tag k="education:type" v="library"/>
+    <tag k="name" v="Christ the King Library"/>
+  </node>
   <node id="662794312" lat="-1.3114729" lon="36.7926348" version="12" timestamp="2014-08-25T08:58:34Z" changeset="24997916" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
@@ -1830,11 +2020,6 @@
     <tag k="operator:type" v="ngo_cbo"/>
     <tag k="place:village" v="Mashimoni"/>
     <tag k="toilet:present" v="yes"/>
-  </node>
-  <node id="662800049" lat="-1.3125609" lon="36.7752020" version="5" timestamp="2012-07-20T08:40:11Z" changeset="12368664" uid="722137" user="OSMF Redaction Account">
-    <tag k="amenity" v="school"/>
-    <tag k="designation" v="NGO"/>
-    <tag k="name" v="Turning Point"/>
   </node>
   <node id="712877069" lat="-1.3110029" lon="36.7933321" version="8" timestamp="2014-08-25T09:12:44Z" changeset="24998181" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
@@ -2239,7 +2424,7 @@
     <tag k="place:village" v="Mashimoni"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="748804548" lat="-1.3099585" lon="36.7910807" version="9" timestamp="2014-08-25T09:12:46Z" changeset="24998181" uid="261009" user="Blasio">
+  <node id="748804548" lat="-1.3099585" lon="36.7910807" version="10" timestamp="2014-09-03T17:23:59Z" changeset="25209793" uid="999" user="mikelmaron">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -2280,6 +2465,7 @@
     <tag k="media:video_device_number" v="8"/>
     <tag k="media:video_number" v="7"/>
     <tag k="name" v="Mashimoni Primary School"/>
+    <tag k="official_name" v="MASHIMONI PRI SCH."/>
     <tag k="opening_hours" v="Mo-Fr 07:00-17:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="sometimes"/>
@@ -3357,7 +3543,7 @@
     <tag k="toilet:arranged_name" v="Public"/>
     <tag k="toilet:present" v="no"/>
   </node>
-  <node id="748870478" lat="-1.3187878" lon="36.7792078" version="6" timestamp="2014-08-29T14:27:43Z" changeset="25098254" uid="261050" user="muindre">
+  <node id="748870478" lat="-1.3187878" lon="36.7792078" version="7" timestamp="2014-09-03T17:41:20Z" changeset="25210152" uid="999" user="mikelmaron">
     <tag k="accessibility" v="small_cars"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -3387,6 +3573,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Anajali/Compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Anajali/gate.JPG"/>
     <tag k="name" v="Anajali Primary"/>
+    <tag k="official_name" v="ANAJALI PRI SCH"/>
     <tag k="operator:name" v="The Ananijali Community Group Centre"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Raila"/>
@@ -3706,7 +3893,7 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="752221613" lat="-1.3155618" lon="36.8035428" version="7" timestamp="2014-08-22T11:24:08Z" changeset="24930001" uid="261009" user="Blasio">
+  <node id="752221613" lat="-1.3155618" lon="36.8035428" version="8" timestamp="2014-09-03T17:58:36Z" changeset="25210502" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -3747,6 +3934,7 @@
     <tag k="image:other" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kibera%20Soweto%20Baptist%20School/kids.jpg"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kibera%20Soweto%20Baptist%20School/building.jpg"/>
     <tag k="name" v="Kibera Soweto School"/>
+    <tag k="official_name" v="SOWETO BAPTIST PRI SCH"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-16:00"/>
     <tag k="operational_status" v="operational"/>
     <tag k="operational_status:electricity" v="often"/>
@@ -4533,6 +4721,29 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="source" v="Map Kibera Trust"/>
   </node>
+  <node id="767108095" lat="-1.3165730" lon="36.8024540" version="1" timestamp="2010-06-08T10:00:08Z" changeset="4935857" uid="261009" user="Blasio">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="contact:phone" v="0724 057 580"/>
+    <tag k="denomination" v="pentecostal"/>
+    <tag k="education:fees" v="KShs 300 per month"/>
+    <tag k="education:program_counseling" v="yes"/>
+    <tag k="education:program_orphans" v="yes"/>
+    <tag k="education:student_age_range" v="2-10yrs"/>
+    <tag k="education:students" v="55"/>
+    <tag k="education:students_female" v="32"/>
+    <tag k="education:students_male" v="22"/>
+    <tag k="education:teachers" v="2"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_trained" v="2"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="name" v="Gospel Believers Fellowship"/>
+    <tag k="opening_hours" v="Su 08:00-12:00"/>
+    <tag k="operational_status" v="operational"/>
+    <tag k="operational_status:electricity" v="never"/>
+    <tag k="operator:description" v="Gospel Believers Fellowship"/>
+    <tag k="operator:type" v="religious"/>
+    <tag k="religion" v="christian"/>
+  </node>
   <node id="767108097" lat="-1.3166189" lon="36.8024389" version="8" timestamp="2014-08-15T11:41:34Z" changeset="24765259" uid="261009" user="Blasio">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
@@ -4915,10 +5126,6 @@
     <tag k="polling_station:type_description" v="government"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="1000521280" lat="-1.3138842" lon="36.7784578" version="3" timestamp="2010-11-23T20:12:10Z" changeset="6442101" uid="70696" user="xybot">
-    <tag k="amenity" v="school"/>
-    <tag k="name" v="SHOFCO Youth Centre"/>
-  </node>
   <node id="1015625631" lat="-1.3131336" lon="36.7773980" version="2" timestamp="2014-08-26T18:31:52Z" changeset="25035440" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
     <tag k="education:gender_type" v="mixed"/>
@@ -4927,6 +5134,45 @@
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="source" v="Map Kibera Trust"/>
+  </node>
+  <node id="1249726679" lat="-1.3067801" lon="36.7896016" version="1" timestamp="2011-04-18T09:45:56Z" changeset="7895238" uid="261052" user="millicentoo">
+    <tag k="education:description" v="Daycare"/>
+    <tag k="education:type" v="other"/>
+    <tag k="name" v="Egesa Daycare Community School"/>
+    <tag k="operator:type" v="private"/>
+  </node>
+  <node id="1577711343" lat="-1.3087468" lon="36.8164006" version="4" timestamp="2014-08-25T09:17:03Z" changeset="24998257" uid="261009" user="Blasio">
+    <tag k="accessibility" v="big_vehicles"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="building:material" v="concrete"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:address" v="P O Box 49352 - 00100 Nairobi"/>
+    <tag k="contact:phone" v="0724437079"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:exam_center" v="yes"/>
+    <tag k="education:fees" v="0"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="moe"/>
+    <tag k="education:management_committee" v="yes"/>
+    <tag k="education:program_feeding" v="fees"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:student_female" v="171"/>
+    <tag k="education:student_male" v="178"/>
+    <tag k="education:students" v="349"/>
+    <tag k="education:teachers" v="15"/>
+    <tag k="education:teachers_female" v="15"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="15"/>
+    <tag k="education:tsc_employed" v="15"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="electricity:operational_status" v="often"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Madaraka%20School/sign%20post.JPG"/>
+    <tag k="name" v="Madaraka Primary School"/>
+    <tag k="operator:name" v="Government"/>
+    <tag k="operator:type" v="government"/>
+    <tag k="place:village" v="Madaraka Estate"/>
+    <tag k="toilet:present" v="yes"/>
   </node>
   <node id="1712435882" lat="-1.3137374" lon="36.7804405" version="2" timestamp="2014-08-26T17:24:50Z" changeset="25033688" uid="265690" user="fondolucy">
     <tag k="amenity" v="school"/>
@@ -5226,11 +5472,6 @@
     <tag k="source" v="map_kibera_trust"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="1875796681" lat="-1.3035970" lon="36.7841790" version="2" timestamp="2014-05-14T11:57:17Z" changeset="22330664" uid="999" user="mikelmaron">
-    <tag k="amenity" v="school"/>
-    <tag k="name" v="Moi Girls School Nairobi"/>
-    <tag k="official_name" v="MOI GIRLS SCH - NAIROBI"/>
-  </node>
   <node id="1875796685" lat="-1.3060364" lon="36.7811105" version="7" timestamp="2014-08-21T12:50:50Z" changeset="24908672" uid="261050" user="muindre">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
@@ -5332,23 +5573,6 @@
     <tag k="polling_station:type" v="church"/>
     <tag k="polling_station:type_description" v="social_ground/church/school"/>
     <tag k="toilet:present" v="yes"/>
-  </node>
-  <node id="2064571555" lat="-1.3177951" lon="36.7812866" version="7" timestamp="2014-08-29T11:38:27Z" changeset="25094465" uid="261050" user="muindre">
-    <tag k="amenity" v="school"/>
-    <tag k="is_in:constituency" v="Lang'ata"/>
-    <tag k="is_in:estate" v="Raila"/>
-    <tag k="is_in:village" v="Raila"/>
-    <tag k="is_in:ward" v="Mugumoini"/>
-    <tag k="name" v="St Charles Lwanga School"/>
-    <tag k="official_name" v="ST CHARLES LWANGA SEC SCH"/>
-    <tag k="operational_status:electricity" v="always"/>
-    <tag k="polling_station:election_year" v="2013"/>
-    <tag k="polling_station:nearest_health_centre" v="Lang'ata health centre"/>
-    <tag k="polling_station:nearest_police_station" v="Cheif Mugumoini"/>
-    <tag k="polling_station:registered_voters" v="2,422"/>
-    <tag k="polling_station:source" v="map_kibera_trust"/>
-    <tag k="polling_station:type" v="school"/>
-    <tag k="polling_station:type_description" v="Its a private school"/>
   </node>
   <node id="2066040973" lat="-1.3018566" lon="36.7663079" version="11" timestamp="2014-08-22T10:35:21Z" changeset="24929053" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
@@ -5489,39 +5713,61 @@
     <tag k="polling_station:type_description" v="Its a public school"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2115330632" lat="-1.3001215" lon="36.8057865" version="5" timestamp="2013-02-04T10:14:38Z" changeset="14907690" uid="261053" user="anekeya">
-    <tag k="amenity" v="school"/>
-    <tag k="boundary_type:Ward_boundary" v="yes"/>
-    <tag k="is_in:constituency" v="Kibra"/>
-    <tag k="is_in:estate" v="Kenyatta"/>
-    <tag k="is_in:ward" v="Woodley/Kenyatta/golfcourse"/>
-    <tag k="name" v="Kenya medical training school"/>
-    <tag k="operational_status:electricity" v="often"/>
-    <tag k="polling_station:accessibility" v="motor_bikes,small_cars,big_cars.tractors"/>
-    <tag k="polling_station:nearest_health_centre" v="Kenyatta national hospital."/>
-    <tag k="polling_station:nearest_police_station" v="Kenyatta police post"/>
-    <tag k="polling_station:registered_voters" v="3,659"/>
-    <tag k="polling_station:source" v="map_kibera_trust"/>
-    <tag k="polling_station:type" v="college"/>
-    <tag k="station:type_description" v="Its a medical training school"/>
-  </node>
-  <node id="2135801268" lat="-1.3223770" lon="36.7802570" version="2" timestamp="2013-02-04T10:46:15Z" changeset="14908013" uid="261053" user="anekeya">
+  <node id="2135718636" lat="-1.3168685" lon="36.8123308" version="7" timestamp="2014-08-25T09:17:02Z" changeset="24998257" uid="261009" user="Blasio">
+    <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Constituency_boundary" v="yes"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
-    <tag k="is_in:constituency" v="Langatta"/>
-    <tag k="is_in:estate" v="otiende"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="building:material" v="concrete"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:address" v="P O Box 72870 - 00100, Nairobi"/>
+    <tag k="contact:phone" v="0704282549"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:exam_center" v="yes"/>
+    <tag k="education:extra_drama" v="yes"/>
+    <tag k="education:extra_music" v="yes"/>
+    <tag k="education:extra_scouts" v="no"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="0"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="moe"/>
+    <tag k="education:management_committee" v="yes"/>
+    <tag k="education:program_counselling" v="yes"/>
+    <tag k="education:program_feeding" v="fees"/>
+    <tag k="education:program_sanitary_towel" v="no"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:student_female" v="273"/>
+    <tag k="education:student_male" v="256"/>
+    <tag k="education:students" v="529"/>
+    <tag k="education:teachers" v="19"/>
+    <tag k="education:teachers_female" v="18"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="19"/>
+    <tag k="education:tsc_employed" v="17"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="electricity:operational_status" v="often"/>
+    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/class.JPG"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/building.JPG"/>
+    <tag k="image:other" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/badge.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/sign%20post.JPG"/>
+    <tag k="is_in:constituency" v="langatta"/>
+    <tag k="is_in:estate" v="dam estate"/>
     <tag k="is_in:ward" v="mugumoini"/>
-    <tag k="name" v="langata west primary school"/>
+    <tag k="name" v="Langata Road Primary School"/>
+    <tag k="official_name" v="LANGATA ROAD PRI SCH"/>
     <tag k="operational_status:electricity" v="often"/>
-    <tag k="polling_station:accessibility" v="motor_bikes,big cars,tractors"/>
+    <tag k="operator:name" v="Government"/>
+    <tag k="operator:type" v="government"/>
+    <tag k="place:village" v="Dam Estate"/>
+    <tag k="polling_station:accessibility" v="big_cars"/>
     <tag k="polling_station:election_year" v="2013"/>
-    <tag k="polling_station:nearest_health_centre" v="otiende dispensary,langata  heath  cenre,st maris"/>
-    <tag k="polling_station:nearest_police_station" v="langata police station"/>
-    <tag k="polling_station:registered_voters" v="5648"/>
-    <tag k="polling_station:type" v="school"/>
-    <tag k="polling_station:type_description" v="Its a public school"/>
+    <tag k="polling_station:nearest_health_centre" v="langatta hospital"/>
+    <tag k="polling_station:nearest_police_station" v="langatta police station"/>
+    <tag k="polling_station:type" v="public_school"/>
+    <tag k="registered_voters" v="3182"/>
     <tag k="source" v="map_kibera_trust"/>
+    <tag k="toilet:present" v="yes"/>
   </node>
   <node id="2847951200" lat="-1.3113372" lon="36.7962811" version="6" timestamp="2014-08-25T08:58:35Z" changeset="24997916" uid="261009" user="Blasio">
     <tag k="accessibility" v="small_cars"/>
@@ -6912,7 +7158,7 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815704" lat="-1.3160355" lon="36.7757474" version="10" timestamp="2014-08-26T18:44:42Z" changeset="25035800" uid="265690" user="fondolucy">
+  <node id="2923815704" lat="-1.3160355" lon="36.7757474" version="11" timestamp="2014-09-03T17:31:31Z" changeset="25209938" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -6951,7 +7197,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Soweto%20Academy/IMG_0337.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Soweto%20Academy/IMG_0338.JPG"/>
     <tag k="name" v="Soweto Academy"/>
-    <tag k="official_name" v="SOWETO ACADEMY-SEC"/>
+    <tag k="official_name" v="SOWETO ACADEMY  - PRI"/>
     <tag k="operator:name" v="Makabwa Bwire"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Soweto West"/>
@@ -7108,7 +7354,7 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815713" lat="-1.3106242" lon="36.7721528" version="8" timestamp="2014-08-25T18:59:31Z" changeset="25011671" uid="265690" user="fondolucy">
+  <node id="2923815713" lat="-1.3106242" lon="36.7721528" version="9" timestamp="2014-09-03T17:27:43Z" changeset="25209859" uid="999" user="mikelmaron">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="2"/>
@@ -7146,6 +7392,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound."/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po"/>
     <tag k="name" v="St Michael Holy Unity Academy"/>
+    <tag k="official_name" v="ST MICHAELS HOLY UNITY  PRIMARY SCH"/>
     <tag k="operator:name" v="St Michael Holy Unity Cbo"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Kianda"/>
@@ -8518,7 +8765,7 @@
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2951976096" lat="-1.3120888" lon="36.7807961" version="8" timestamp="2014-08-25T19:21:13Z" changeset="25012257" uid="265690" user="fondolucy">
+  <node id="2951976096" lat="-1.3120888" lon="36.7807961" version="9" timestamp="2014-09-03T17:33:42Z" changeset="25209986" uid="999" user="mikelmaron">
     <tag k="accessibility" v="small_cars"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -8555,6 +8802,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jeremic%20Adventist%20Academy/IMG_0226.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jeremic%20Adventist%20Academy/IMG_0200.JPG"/>
     <tag k="name" v="Jeremic Adventist Academy"/>
+    <tag k="official_name" v="JEREMIC ADVENTIST PRI. SCH."/>
     <tag k="operator:name" v="Jeremic Adventist Church"/>
     <tag k="operator:type" v="religious"/>
     <tag k="place:village" v="Olympic"/>
@@ -9664,7 +9912,7 @@
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Laini Saba"/>
   </node>
-  <node id="2954819788" lat="-1.3111023" lon="36.7773888" version="8" timestamp="2014-08-22T11:36:33Z" changeset="24930295" uid="265690" user="fondolucy">
+  <node id="2954819788" lat="-1.3111023" lon="36.7773888" version="9" timestamp="2014-09-03T18:11:29Z" changeset="25210781" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -9700,6 +9948,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/sign%20post."/>
     <tag k="name" v="Olympic Educational Centre"/>
+    <tag k="official_name" v="NEW DIRECTION PRI SCH"/>
     <tag k="operator:name" v="Grace Muhia"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Olympic"/>
@@ -10011,7 +10260,7 @@
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2959968892" lat="-1.3160091" lon="36.7758679" version="7" timestamp="2014-08-22T11:10:51Z" changeset="24929732" uid="265690" user="fondolucy">
+  <node id="2959968892" lat="-1.3160091" lon="36.7758679" version="8" timestamp="2014-09-03T17:32:05Z" changeset="25209951" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -10044,6 +10293,7 @@
     <tag k="education:type" v="secondary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
     <tag k="name" v="Soweto Academy"/>
+    <tag k="official_name" v="SOWETO ACADEMY-SEC"/>
     <tag k="operator:name" v="Makabwa Bwire"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Soweto West"/>
@@ -11689,7 +11939,7 @@
     <tag k="place:village" v="Gatwekera"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="3032310419" lat="-1.3147377" lon="36.7831539" version="1" timestamp="2014-08-21T12:50:47Z" changeset="24908672" uid="261050" user="muindre">
+  <node id="3032310419" lat="-1.3147377" lon="36.7831539" version="2" timestamp="2014-09-03T17:38:19Z" changeset="25210093" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:material" v="ironsheets"/>
@@ -11718,6 +11968,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Baraka%20Za%20Ibrahim/Compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Baraka%20Za%20Ibrahim/Gate.JPG"/>
     <tag k="name" v="Baraka Za Ibrahim"/>
+    <tag k="offiicial_name" v="BARAKA ZA IBRAHIM CHLDREN CENTER-PRI SCH"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Gatwekera"/>
     <tag k="toilet:present" v="yes"/>

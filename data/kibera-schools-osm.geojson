@@ -422,6 +422,58 @@
 },
 {
     "type": "Feature",
+    "id": "node/612007272",
+    "properties": {
+        "type": "node",
+        "id": "612007272",
+        "tags": {
+            "amenity": "kindergarten",
+            "contact:phone": "0721-962693",
+            "education:description": "They keep children who don't have parents and home",
+            "education:fees": "KShs 100 per month",
+            "education:program_counseling": "yes",
+            "education:program_feeding": "yes",
+            "education:program_orphans": "yes",
+            "education:program_sports": "yes",
+            "education:staff_female": "2",
+            "education:staff_male": "1",
+            "education:student_age_range": "7mnth-15yrs",
+            "education:students": "100",
+            "education:students_female": "60",
+            "education:students_male": "40",
+            "education:teachers": "5",
+            "education:teachers_female": "4",
+            "education:teachers_male": "1",
+            "education:teachers_trained": "3",
+            "education:teachers_untrained": "2",
+            "education:type": "primary,childrens home",
+            "media:video_device_number": "03",
+            "media:video_number": "17of 18",
+            "name": "Risa Children Center",
+            "opening_hours": "08:00-16:00",
+            "operational_status": "operational",
+            "operational_status:electricity": "always",
+            "operator:type": "ngo_cbo"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-10-08T15:07:01Z",
+            "version": "5",
+            "changeset": "5986772",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.78943,
+            -1.3103201
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/612007279",
     "properties": {
         "type": "node",
@@ -466,6 +518,7 @@
             "media:video_device_number": "3",
             "media:video_number": "16",
             "name": "Mashimoni Squatters Primary School",
+            "official_name": "MASHIMONI SQUATTERS PRI. SCH",
             "opening_hours": "08:00-17:00",
             "operational_status": "operational",
             "operator:description": "The school is runned by AIC church in partnership with the foundation",
@@ -483,11 +536,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-29T14:03:07Z",
-            "version": "17",
-            "changeset": "25097611",
-            "user": "muindre",
-            "uid": "261050"
+            "timestamp": "2014-09-03T17:22:18Z",
+            "version": "18",
+            "changeset": "25209762",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -495,6 +548,56 @@
         "coordinates": [
             36.790862,
             -1.3123932
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612007398",
+    "properties": {
+        "type": "node",
+        "id": "612007398",
+        "tags": {
+            "amenity": "place_of_worship",
+            "denomination": "protestant",
+            "education:fees": "KShs 200",
+            "education:program_feeding": "yes",
+            "education:program_orphans": "yes",
+            "education:program_sports": "yes",
+            "education:staff_female": "1",
+            "education:student_age_range": "3-7yrs",
+            "education:students": "30",
+            "education:students_female": "10",
+            "education:students_male": "20",
+            "education:teachers": "5",
+            "education:teachers_female": "3",
+            "education:teachers_male": "2",
+            "education:teachers_trained": "3",
+            "education:teachers_untrained": "2",
+            "education:type": "nursery",
+            "media:video_device_number": "8",
+            "media:video_number": "6",
+            "name": "Mashimoni Friends Church",
+            "opening_hours": "Mo-Fr 07:00-16:00",
+            "operational_status": "operational",
+            "operational_status:electricity": "never",
+            "operator:type": "religious",
+            "religion": "christian"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:36:26Z",
+            "version": "6",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7915831,
+            -1.3095937
         ]
     }
 },
@@ -898,6 +1001,34 @@
 },
 {
     "type": "Feature",
+    "id": "node/612007491",
+    "properties": {
+        "type": "node",
+        "id": "612007491",
+        "tags": {
+            "amenity": "kindergarten",
+            "education:type": "kindergarten",
+            "name": "Sunrose Baby Care/ Nursery"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:36:36Z",
+            "version": "2",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7892935,
+            -1.3108481
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/612007505",
     "properties": {
         "type": "node",
@@ -940,6 +1071,34 @@
         "coordinates": [
             36.7785812,
             -1.3191279
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612007506",
+    "properties": {
+        "type": "node",
+        "id": "612007506",
+        "tags": {
+            "amenity": "library",
+            "education:type": "library",
+            "name": "Kibera Library"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:37:33Z",
+            "version": "2",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7784823,
+            -1.3192191
         ]
     }
 },
@@ -1170,6 +1329,34 @@
 },
 {
     "type": "Feature",
+    "id": "node/612007641",
+    "properties": {
+        "type": "node",
+        "id": "612007641",
+        "tags": {
+            "amenity": "college",
+            "education:type": "college",
+            "name": "K.T.D.P."
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2014-07-08T12:48:51Z",
+            "version": "3",
+            "changeset": "24024385",
+            "user": "Blasio",
+            "uid": "261009"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.795989,
+            -1.3144755
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/612007672",
     "properties": {
         "type": "node",
@@ -1387,6 +1574,34 @@
 },
 {
     "type": "Feature",
+    "id": "node/612007816",
+    "properties": {
+        "type": "node",
+        "id": "612007816",
+        "tags": {
+            "amenity": "kindergarten",
+            "education:type": "kindergarten",
+            "name": "Linda Baby Care"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:37:58Z",
+            "version": "3",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7868672,
+            -1.3141701
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/612007820",
     "properties": {
         "type": "node",
@@ -1583,6 +1798,80 @@
 },
 {
     "type": "Feature",
+    "id": "node/612008402",
+    "properties": {
+        "type": "node",
+        "id": "612008402",
+        "tags": {
+            "amenity": "place_of_worship",
+            "contact:phone": "0738299626",
+            "denomination": "presbyterian",
+            "education:description": "Has Tailoring, Hairdressing, Catering, Nursary school,Business, Electrical and Electronics",
+            "education:program_computers": "yes",
+            "education:program_counseling": "yes",
+            "education:program_orphans": "yes",
+            "education:staff_male": "1",
+            "education:student_age_range": "Form four leavers and majority are adult",
+            "education:students": "57",
+            "education:teachers": "8",
+            "education:teachers_female": "3",
+            "education:teachers_male": "5",
+            "education:type": "computer,technical,tailoring",
+            "media:camera_device_number": "01",
+            "media:camera_number": "55,56",
+            "name": "P.C.E.A  Emmanuel Centre Kibera  Parish",
+            "opening_hours": "08:00-20:00",
+            "operational_status": "operational",
+            "operational_status:electricity": "always",
+            "operator:description": "funded by Church no. of students keeps on fluctuating",
+            "operator:type": "religious",
+            "religion": "christian"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2011-05-03T07:34:50Z",
+            "version": "6",
+            "changeset": "8036864",
+            "user": "fondolucy",
+            "uid": "265690"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7797742,
+            -1.310736
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612008411",
+    "properties": {
+        "type": "node",
+        "id": "612008411",
+        "tags": {
+            "education:type": "primary"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2014-08-29T11:38:28Z",
+            "version": "4",
+            "changeset": "25094465",
+            "user": "muindre",
+            "uid": "261050"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7898529,
+            -1.3098234
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/612008438",
     "properties": {
         "type": "node",
@@ -1625,6 +1914,52 @@
         "coordinates": [
             36.7792917,
             -1.3127441
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612008445",
+    "properties": {
+        "type": "node",
+        "id": "612008445",
+        "tags": {
+            "amenity": "public_building",
+            "education:description": "CBO",
+            "education:fees": "KShs 300 per month",
+            "education:program_feeding": "yes",
+            "education:staff_female": "6",
+            "education:staff_male": "3",
+            "education:student_age_range": "3-7yrs",
+            "education:students": "40",
+            "education:students_female": "15",
+            "education:students_male": "25",
+            "education:teachers": "2",
+            "education:teachers_female": "2",
+            "education:teachers_trained": "2",
+            "education:type": "nursery",
+            "name": "Nyanya Toto Nursary School",
+            "notes": "CBO",
+            "opening_hours": "08:00-15:30",
+            "operational_status": "operational",
+            "operational_status:electricity": "sometimes",
+            "operator:description": "No funders",
+            "operator:type": "private"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:38:47Z",
+            "version": "6",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7797956,
+            -1.3121811
         ]
     }
 },
@@ -1807,6 +2142,7 @@
             "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Victory%20Hope%20Children%20Center/class.jpg",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Victory%20Hope%20Children%20Center/sign%20post.jpg",
             "name": "Victory Hope Community Centre",
+            "official_name": "VICTORIA HOPE CHILDREN CENTRE PRI SCH",
             "opening_hours": "Mo-Fr 08:00-16:00",
             "operational_status": "operational",
             "operational_status:electricity": "sometimes",
@@ -1817,11 +2153,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-27T12:47:30Z",
-            "version": "8",
-            "changeset": "25050996",
-            "user": "Blasio",
-            "uid": "261009"
+            "timestamp": "2014-09-03T18:00:41Z",
+            "version": "9",
+            "changeset": "25210548",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -1829,6 +2165,98 @@
         "coordinates": [
             36.8029848,
             -1.315724
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612008612",
+    "properties": {
+        "type": "node",
+        "id": "612008612",
+        "tags": {
+            "amenity": "place_of_worship",
+            "denomination": "pentecostal",
+            "education:fees": "yes",
+            "education:program_counseling": "yes",
+            "education:program_feeding": "yes",
+            "education:program_orphans": "yes",
+            "education:program_sports": "yes",
+            "education:staff_female": "4",
+            "education:staff_male": "4",
+            "education:student_age_range": "3-14yrs",
+            "education:students": "50",
+            "education:students_female": "30",
+            "education:students_male": "20",
+            "education:teachers": "10",
+            "education:teachers_female": "4",
+            "education:teachers_male": "6",
+            "education:teachers_trained": "10",
+            "education:type": "nursery,primary",
+            "media:video_device_number": "8",
+            "media:video_number": "16",
+            "name": "Changing Times Centre",
+            "opening_hours": "Mo-Fr 07:00-15:00",
+            "operational_status": "operational",
+            "operational_status:electricity": "sometimes",
+            "operator:type": "religious",
+            "religion": "christian"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2012-05-31T10:26:31Z",
+            "version": "6",
+            "changeset": "11756764",
+            "user": "millicentoo",
+            "uid": "261052"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.792648,
+            -1.3126535
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612008628",
+    "properties": {
+        "type": "node",
+        "id": "612008628",
+        "tags": {
+            "amenity": "college",
+            "contact:phone": "0725 61 45 01",
+            "education:fees": "KShs 700 per month",
+            "education:students": "4",
+            "education:students_female": "3",
+            "education:students_male": "1",
+            "education:teachers": "2",
+            "education:teachers_female": "1",
+            "education:teachers_male": "1",
+            "education:teachers_trained": "2",
+            "education:type": "tailoring",
+            "name": "Mama Knight Dress-making & Tailoring School",
+            "opening_hours": "Mo-Fr 08:00-18:00",
+            "operational_status": "operational",
+            "operational_status:electricity": "never",
+            "operator:type": "private"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2013-01-23T08:21:05Z",
+            "version": "4",
+            "changeset": "14754171",
+            "user": "Blasio",
+            "uid": "261009"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7952662,
+            -1.3167038
         ]
     }
 },
@@ -1928,6 +2356,34 @@
         "coordinates": [
             36.7728971,
             -1.3104398
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/612008779",
+    "properties": {
+        "type": "node",
+        "id": "612008779",
+        "tags": {
+            "amenity": "library",
+            "education:type": "library",
+            "name": "G.A.A. Kibera Community Library"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:36:28Z",
+            "version": "3",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7725816,
+            -1.3090593
         ]
     }
 },
@@ -2497,6 +2953,34 @@
 },
 {
     "type": "Feature",
+    "id": "node/612009172",
+    "properties": {
+        "type": "node",
+        "id": "612009172",
+        "tags": {
+            "amenity": "college",
+            "education:type": "tailoring",
+            "name": "Olkhalos Daughter Knitting Training"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:36:24Z",
+            "version": "3",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7920963,
+            -1.3121532
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/612009188",
     "properties": {
         "type": "node",
@@ -2897,6 +3381,34 @@
 },
 {
     "type": "Feature",
+    "id": "node/612011372",
+    "properties": {
+        "type": "node",
+        "id": "612011372",
+        "tags": {
+            "amenity": "library",
+            "education:type": "library",
+            "name": "Christ the King Library"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-08-31T15:39:03Z",
+            "version": "2",
+            "changeset": "5646495",
+            "user": "ebrelsford",
+            "uid": "19239"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7946037,
+            -1.3107304
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/662794312",
     "properties": {
         "type": "node",
@@ -2951,34 +3463,6 @@
         "coordinates": [
             36.7926348,
             -1.3114729
-        ]
-    }
-},
-{
-    "type": "Feature",
-    "id": "node/662800049",
-    "properties": {
-        "type": "node",
-        "id": "662800049",
-        "tags": {
-            "amenity": "school",
-            "designation": "NGO",
-            "name": "Turning Point"
-        },
-        "relations": [],
-        "meta": {
-            "timestamp": "2012-07-20T08:40:11Z",
-            "version": "5",
-            "changeset": "12368664",
-            "user": "OSMF Redaction Account",
-            "uid": "722137"
-        }
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            36.775202,
-            -1.3125609
         ]
     }
 },
@@ -3685,6 +4169,7 @@
             "media:video_device_number": "8",
             "media:video_number": "7",
             "name": "Mashimoni Primary School",
+            "official_name": "MASHIMONI PRI SCH.",
             "opening_hours": "Mo-Fr 07:00-17:00",
             "operational_status": "operational",
             "operational_status:electricity": "sometimes",
@@ -3695,11 +4180,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T09:12:46Z",
-            "version": "9",
-            "changeset": "24998181",
-            "user": "Blasio",
-            "uid": "261009"
+            "timestamp": "2014-09-03T17:23:59Z",
+            "version": "10",
+            "changeset": "25209793",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -5413,6 +5898,7 @@
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Anajali/Compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Anajali/gate.JPG",
             "name": "Anajali Primary",
+            "official_name": "ANAJALI PRI SCH",
             "operator:name": "The Ananijali Community Group Centre",
             "operator:type": "cbo",
             "place:village": "Raila",
@@ -5420,11 +5906,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-29T14:27:43Z",
-            "version": "6",
-            "changeset": "25098254",
-            "user": "muindre",
-            "uid": "261050"
+            "timestamp": "2014-09-03T17:41:20Z",
+            "version": "7",
+            "changeset": "25210152",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -6026,6 +6512,7 @@
             "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kibera%20Soweto%20Baptist%20School/kids.jpg",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kibera%20Soweto%20Baptist%20School/building.jpg",
             "name": "Kibera Soweto School",
+            "official_name": "SOWETO BAPTIST PRI SCH",
             "opening_hours": "Mo-Fr 08:00-16:00",
             "operational_status": "operational",
             "operational_status:electricity": "often",
@@ -6036,11 +6523,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:24:08Z",
-            "version": "7",
-            "changeset": "24930001",
-            "user": "Blasio",
-            "uid": "261009"
+            "timestamp": "2014-09-03T17:58:36Z",
+            "version": "8",
+            "changeset": "25210502",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -7314,6 +7801,52 @@
 },
 {
     "type": "Feature",
+    "id": "node/767108095",
+    "properties": {
+        "type": "node",
+        "id": "767108095",
+        "tags": {
+            "amenity": "place_of_worship",
+            "contact:phone": "0724 057 580",
+            "denomination": "pentecostal",
+            "education:fees": "KShs 300 per month",
+            "education:program_counseling": "yes",
+            "education:program_orphans": "yes",
+            "education:student_age_range": "2-10yrs",
+            "education:students": "55",
+            "education:students_female": "32",
+            "education:students_male": "22",
+            "education:teachers": "2",
+            "education:teachers_female": "2",
+            "education:teachers_trained": "2",
+            "education:type": "primary",
+            "name": "Gospel Believers Fellowship",
+            "opening_hours": "Su 08:00-12:00",
+            "operational_status": "operational",
+            "operational_status:electricity": "never",
+            "operator:description": "Gospel Believers Fellowship",
+            "operator:type": "religious",
+            "religion": "christian"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2010-06-08T10:00:08Z",
+            "version": "1",
+            "changeset": "4935857",
+            "user": "Blasio",
+            "uid": "261009"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.802454,
+            -1.316573
+        ]
+    }
+},
+{
+    "type": "Feature",
     "id": "node/767108097",
     "properties": {
         "type": "node",
@@ -7926,33 +8459,6 @@
 },
 {
     "type": "Feature",
-    "id": "node/1000521280",
-    "properties": {
-        "type": "node",
-        "id": "1000521280",
-        "tags": {
-            "amenity": "school",
-            "name": "SHOFCO Youth Centre"
-        },
-        "relations": [],
-        "meta": {
-            "timestamp": "2010-11-23T20:12:10Z",
-            "version": "3",
-            "changeset": "6442101",
-            "user": "xybot",
-            "uid": "70696"
-        }
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            36.7784578,
-            -1.3138842
-        ]
-    }
-},
-{
-    "type": "Feature",
     "id": "node/1015625631",
     "properties": {
         "type": "node",
@@ -7980,6 +8486,91 @@
         "coordinates": [
             36.777398,
             -1.3131336
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/1249726679",
+    "properties": {
+        "type": "node",
+        "id": "1249726679",
+        "tags": {
+            "education:description": "Daycare",
+            "education:type": "other",
+            "name": "Egesa Daycare Community School",
+            "operator:type": "private"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2011-04-18T09:45:56Z",
+            "version": "1",
+            "changeset": "7895238",
+            "user": "millicentoo",
+            "uid": "261052"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.7896016,
+            -1.3067801
+        ]
+    }
+},
+{
+    "type": "Feature",
+    "id": "node/1577711343",
+    "properties": {
+        "type": "node",
+        "id": "1577711343",
+        "tags": {
+            "accessibility": "big_vehicles",
+            "amenity": "school",
+            "building:levels": "2",
+            "building:material": "concrete",
+            "building:roof": "ironsheets",
+            "contact:address": "P O Box 49352 - 00100 Nairobi",
+            "contact:phone": "0724437079",
+            "education:curriculum": "8_4_4",
+            "education:exam_center": "yes",
+            "education:fees": "0",
+            "education:gender_type": "mixed",
+            "education:government_registered": "moe",
+            "education:management_committee": "yes",
+            "education:program_feeding": "fees",
+            "education:pta": "yes",
+            "education:student_female": "171",
+            "education:student_male": "178",
+            "education:students": "349",
+            "education:teachers": "15",
+            "education:teachers_female": "15",
+            "education:teachers_male": "0",
+            "education:teachers_trained": "15",
+            "education:tsc_employed": "15",
+            "education:type": "primary",
+            "electricity:operational_status": "often",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Madaraka%20School/sign%20post.JPG",
+            "name": "Madaraka Primary School",
+            "operator:name": "Government",
+            "operator:type": "government",
+            "place:village": "Madaraka Estate",
+            "toilet:present": "yes"
+        },
+        "relations": [],
+        "meta": {
+            "timestamp": "2014-08-25T09:17:03Z",
+            "version": "4",
+            "changeset": "24998257",
+            "user": "Blasio",
+            "uid": "261009"
+        }
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            36.8164006,
+            -1.3087468
         ]
     }
 },
@@ -8490,34 +9081,6 @@
 },
 {
     "type": "Feature",
-    "id": "node/1875796681",
-    "properties": {
-        "type": "node",
-        "id": "1875796681",
-        "tags": {
-            "amenity": "school",
-            "name": "Moi Girls School Nairobi",
-            "official_name": "MOI GIRLS SCH - NAIROBI"
-        },
-        "relations": [],
-        "meta": {
-            "timestamp": "2014-05-14T11:57:17Z",
-            "version": "2",
-            "changeset": "22330664",
-            "user": "mikelmaron",
-            "uid": "999"
-        }
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            36.784179,
-            -1.303597
-        ]
-    }
-},
-{
-    "type": "Feature",
     "id": "node/1875796685",
     "properties": {
         "type": "node",
@@ -8661,46 +9224,6 @@
         "coordinates": [
             36.7778488,
             -1.3147084
-        ]
-    }
-},
-{
-    "type": "Feature",
-    "id": "node/2064571555",
-    "properties": {
-        "type": "node",
-        "id": "2064571555",
-        "tags": {
-            "amenity": "school",
-            "is_in:constituency": "Lang'ata",
-            "is_in:estate": "Raila",
-            "is_in:village": "Raila",
-            "is_in:ward": "Mugumoini",
-            "name": "St Charles Lwanga School",
-            "official_name": "ST CHARLES LWANGA SEC SCH",
-            "operational_status:electricity": "always",
-            "polling_station:election_year": "2013",
-            "polling_station:nearest_health_centre": "Lang'ata health centre",
-            "polling_station:nearest_police_station": "Cheif Mugumoini",
-            "polling_station:registered_voters": "2,422",
-            "polling_station:source": "map_kibera_trust",
-            "polling_station:type": "school",
-            "polling_station:type_description": "Its a private school"
-        },
-        "relations": [],
-        "meta": {
-            "timestamp": "2014-08-29T11:38:27Z",
-            "version": "7",
-            "changeset": "25094465",
-            "user": "muindre",
-            "uid": "261050"
-        }
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            36.7812866,
-            -1.3177951
         ]
     }
 },
@@ -8914,81 +9437,80 @@
 },
 {
     "type": "Feature",
-    "id": "node/2115330632",
+    "id": "node/2135718636",
     "properties": {
         "type": "node",
-        "id": "2115330632",
+        "id": "2135718636",
         "tags": {
-            "amenity": "school",
-            "boundary_type:Ward_boundary": "yes",
-            "is_in:constituency": "Kibra",
-            "is_in:estate": "Kenyatta",
-            "is_in:ward": "Woodley/Kenyatta/golfcourse",
-            "name": "Kenya medical training school",
-            "operational_status:electricity": "often",
-            "polling_station:accessibility": "motor_bikes,small_cars,big_cars.tractors",
-            "polling_station:nearest_health_centre": "Kenyatta national hospital.",
-            "polling_station:nearest_police_station": "Kenyatta police post",
-            "polling_station:registered_voters": "3,659",
-            "polling_station:source": "map_kibera_trust",
-            "polling_station:type": "college",
-            "station:type_description": "Its a medical training school"
-        },
-        "relations": [],
-        "meta": {
-            "timestamp": "2013-02-04T10:14:38Z",
-            "version": "5",
-            "changeset": "14907690",
-            "user": "anekeya",
-            "uid": "261053"
-        }
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            36.8057865,
-            -1.3001215
-        ]
-    }
-},
-{
-    "type": "Feature",
-    "id": "node/2135801268",
-    "properties": {
-        "type": "node",
-        "id": "2135801268",
-        "tags": {
+            "accessibility": "big_vehicles",
             "amenity": "school",
             "boundary_type:Constituency_boundary": "yes",
             "boundary_type:Ward_boundary": "yes",
-            "is_in:constituency": "Langatta",
-            "is_in:estate": "otiende",
+            "building:levels": "1",
+            "building:material": "concrete",
+            "building:roof": "ironsheets",
+            "contact:address": "P O Box 72870 - 00100, Nairobi",
+            "contact:phone": "0704282549",
+            "education:curriculum": "8_4_4",
+            "education:exam_center": "yes",
+            "education:extra_drama": "yes",
+            "education:extra_music": "yes",
+            "education:extra_scouts": "no",
+            "education:extra_sports": "yes",
+            "education:fees": "0",
+            "education:gender_type": "mixed",
+            "education:government_registered": "moe",
+            "education:management_committee": "yes",
+            "education:program_counselling": "yes",
+            "education:program_feeding": "fees",
+            "education:program_sanitary_towel": "no",
+            "education:pta": "yes",
+            "education:student_female": "273",
+            "education:student_male": "256",
+            "education:students": "529",
+            "education:teachers": "19",
+            "education:teachers_female": "18",
+            "education:teachers_male": "1",
+            "education:teachers_trained": "19",
+            "education:tsc_employed": "17",
+            "education:type": "primary",
+            "electricity:operational_status": "often",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/class.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/building.JPG",
+            "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/badge.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Langata%20Road%20Primary%20School/sign%20post.JPG",
+            "is_in:constituency": "langatta",
+            "is_in:estate": "dam estate",
             "is_in:ward": "mugumoini",
-            "name": "langata west primary school",
+            "name": "Langata Road Primary School",
+            "official_name": "LANGATA ROAD PRI SCH",
             "operational_status:electricity": "often",
-            "polling_station:accessibility": "motor_bikes,big cars,tractors",
+            "operator:name": "Government",
+            "operator:type": "government",
+            "place:village": "Dam Estate",
+            "polling_station:accessibility": "big_cars",
             "polling_station:election_year": "2013",
-            "polling_station:nearest_health_centre": "otiende dispensary,langata  heath  cenre,st maris",
-            "polling_station:nearest_police_station": "langata police station",
-            "polling_station:registered_voters": "5648",
-            "polling_station:type": "school",
-            "polling_station:type_description": "Its a public school",
-            "source": "map_kibera_trust"
+            "polling_station:nearest_health_centre": "langatta hospital",
+            "polling_station:nearest_police_station": "langatta police station",
+            "polling_station:type": "public_school",
+            "registered_voters": "3182",
+            "source": "map_kibera_trust",
+            "toilet:present": "yes"
         },
         "relations": [],
         "meta": {
-            "timestamp": "2013-02-04T10:46:15Z",
-            "version": "2",
-            "changeset": "14908013",
-            "user": "anekeya",
-            "uid": "261053"
+            "timestamp": "2014-08-25T09:17:02Z",
+            "version": "7",
+            "changeset": "24998257",
+            "user": "Blasio",
+            "uid": "261009"
         }
     },
     "geometry": {
         "type": "Point",
         "coordinates": [
-            36.780257,
-            -1.322377
+            36.8123308,
+            -1.3168685
         ]
     }
 },
@@ -11323,7 +11845,7 @@
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Soweto%20Academy/IMG_0337.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Soweto%20Academy/IMG_0338.JPG",
             "name": "Soweto Academy",
-            "official_name": "SOWETO ACADEMY-SEC",
+            "official_name": "SOWETO ACADEMY  - PRI",
             "operator:name": "Makabwa Bwire",
             "operator:type": "private",
             "place:village": "Soweto West",
@@ -11331,11 +11853,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-26T18:44:42Z",
-            "version": "10",
-            "changeset": "25035800",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T17:31:31Z",
+            "version": "11",
+            "changeset": "25209938",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -11633,6 +12155,7 @@
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po",
             "name": "St Michael Holy Unity Academy",
+            "official_name": "ST MICHAELS HOLY UNITY  PRIMARY SCH",
             "operator:name": "St Michael Holy Unity Cbo",
             "operator:type": "cbo",
             "place:village": "Kianda",
@@ -11640,11 +12163,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:31Z",
-            "version": "8",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T17:27:43Z",
+            "version": "9",
+            "changeset": "25209859",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -13939,6 +14462,7 @@
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jeremic%20Adventist%20Academy/IMG_0226.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jeremic%20Adventist%20Academy/IMG_0200.JPG",
             "name": "Jeremic Adventist Academy",
+            "official_name": "JEREMIC ADVENTIST PRI. SCH.",
             "operator:name": "Jeremic Adventist Church",
             "operator:type": "religious",
             "place:village": "Olympic",
@@ -13946,11 +14470,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T19:21:13Z",
-            "version": "8",
-            "changeset": "25012257",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T17:33:42Z",
+            "version": "9",
+            "changeset": "25209986",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -15843,6 +16367,7 @@
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/sign%20post.",
             "name": "Olympic Educational Centre",
+            "official_name": "NEW DIRECTION PRI SCH",
             "operator:name": "Grace Muhia",
             "operator:type": "cbo",
             "place:village": "Olympic",
@@ -15850,11 +16375,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:33Z",
-            "version": "8",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T18:11:29Z",
+            "version": "9",
+            "changeset": "25210781",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -16417,6 +16942,7 @@
             "education:type": "secondary",
             "electricity:operational_status": "sometimes",
             "name": "Soweto Academy",
+            "official_name": "SOWETO ACADEMY-SEC",
             "operator:name": "Makabwa Bwire",
             "operator:type": "private",
             "place:village": "Soweto West",
@@ -16424,11 +16950,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:10:51Z",
-            "version": "7",
-            "changeset": "24929732",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T17:32:05Z",
+            "version": "8",
+            "changeset": "25209951",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -19218,17 +19744,18 @@
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Baraka%20Za%20Ibrahim/Compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Schools%20Steve/Baraka%20Za%20Ibrahim/Gate.JPG",
             "name": "Baraka Za Ibrahim",
+            "offiicial_name": "BARAKA ZA IBRAHIM CHLDREN CENTER-PRI SCH",
             "operator:type": "private",
             "place:village": "Gatwekera",
             "toilet:present": "yes"
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-21T12:50:47Z",
-            "version": "1",
-            "changeset": "24908672",
-            "user": "muindre",
-            "uid": "261050"
+            "timestamp": "2014-09-03T17:38:19Z",
+            "version": "2",
+            "changeset": "25210093",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
