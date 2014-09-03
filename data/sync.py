@@ -157,8 +157,8 @@ def cache_image(osm_id, osm_name, img_type, img_url):
     try:
       im = Image.open(cache_dir + 'orig' + fileExtension)
     except IOError:
-      print "IMAGE ERROR," + osm_name + "," + osm_id + "," + img_type + "," + img_url
-      print "orig image error " + cache_dir + 'orig' + fileExtension
+      print "IMAGE ERROR,can't open image," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
+      #print "orig image error " + cache_dir + 'orig' + fileExtension
       return
    
     size = 300, 225
@@ -167,12 +167,12 @@ def cache_image(osm_id, osm_name, img_type, img_url):
         im.thumbnail(size)
         im.save(cache_dir + 'med' + fileExtension)
       except KeyError:
-        print "IMAGE ERROR," + osm_name + "," + osm_id + "," + img_type + "," + img_url
-        print "unknown extension error " + cache_dir + 'med' + fileExtension
+        print "IMAGE ERROR,unknown extension," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
+        #print "unknown extension error " + cache_dir + 'med' + fileExtension
         return
   else:
-    print "IMAGE ERROR," + osm_name + "," + osm_id + "," + img_type + "," + img_url
-    print "orig image missing " + cache_dir + 'orig' + fileExtension
+    print "IMAGE ERROR,orig missing," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
+    #print "orig image missing " + cache_dir + 'orig' + fileExtension
 
 def get_image_cache(osm_id, img_type, img_url, cache_size):
   slug = slug_image(img_url)
@@ -200,10 +200,10 @@ def deploy():
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-#sync_osm()
-#convert2geojson()
+sync_osm()
+convert2geojson()
 compare_osm_kenyaopendata()
-#cache_images()
+cache_images()
 #deploy()
 
 #TODO generate statistics on each run of comparison results

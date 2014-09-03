@@ -5048,7 +5048,7 @@
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Childs%20life%20Olympic%20Vocational%20Centre/Class.JPG",
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Childs%20life%20Olympic%20Vocational%20Centre/Compound.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Childs%20life%20Olympic%20Vocational%20Centre/Sign%20Post.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Childs%20life%20Olympic%20Vocational%20Centre/Sign%20Post.JPG",
             "name": "Childlife Olympic Vocational Centre",
             "opening_hours": "08:00-16:00",
             "operational_status": "operational",
@@ -5059,11 +5059,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:28Z",
-            "version": "9",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T19:44:31Z",
+            "version": "10",
+            "changeset": "25213100",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -7461,7 +7461,7 @@
             "education:type": "primary",
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Ayany%20Primary%20School/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Ayany%20Primary%20School/compound.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Ayany%20Primary%20School/compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Ayany%20Primary%20School/gate.JPG",
             "is_in:constituency": "kibra",
             "is_in:estate": "ayany",
@@ -7485,11 +7485,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T19:57:30Z",
-            "version": "16",
-            "changeset": "25013158",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T19:52:45Z",
+            "version": "17",
+            "changeset": "25213296",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -7550,7 +7550,7 @@
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Old%20Kibera%20Primary%20School/class.JPG",
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Old%20Kibera%20Primary%20School/compound.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Old%20Kibera%20Primary%20School/sign%20post.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Old%20Kibera%20Primary%20School/sign%20post.JPG",
             "is_in:constituency": "Kibra",
             "is_in:estate": "Karanja",
             "is_in:ward": "Makina",
@@ -7574,11 +7574,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T19:57:31Z",
-            "version": "15",
-            "changeset": "25013158",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T19:54:39Z",
+            "version": "16",
+            "changeset": "25213335",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -7677,7 +7677,7 @@
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Compound.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post.JPG",
             "name": "Joysprings Educational Centre",
             "official_name": "JOYSPRING ED CENTER- PRI. SCH",
@@ -7688,11 +7688,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-27T14:04:27Z",
-            "version": "11",
-            "changeset": "25052648",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T19:56:13Z",
+            "version": "12",
+            "changeset": "25213378",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -9189,8 +9189,8 @@
             "education:tsc_employed": "0",
             "education:type": "primary",
             "electricity:operational_status": "always",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/sign%20po",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/sign%20post.JPG",
             "is_in:constituency": "Kibra",
             "is_in:estate": "Olympic",
             "is_in:village": "Olympic",
@@ -9212,11 +9212,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-27T14:06:04Z",
-            "version": "18",
-            "changeset": "25052685",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T19:58:26Z",
+            "version": "19",
+            "changeset": "25213426",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -9265,9 +9265,9 @@
             "education:type": "primary",
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jamhuri/Class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jamhuri/IMG_0599.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jamhuri/IMG_0599.JPG",
             "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jamhuri/IMG_0603.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jamhuri/Sign%20Po",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Jamhuri/Sign%20Post.JPG",
             "is_in:constituency": "kibra",
             "is_in:ward": "woodley",
             "name": "Jamuhuri Primary",
@@ -9286,11 +9286,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T10:35:21Z",
-            "version": "11",
-            "changeset": "24929053",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:01:15Z",
+            "version": "12",
+            "changeset": "25213500",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -9675,7 +9675,7 @@
             "education:type": "primary",
             "electricity:operational_status": "often",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kara%20Kibera%20KId%20Center/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kara%20Kibera%20KId%20Center",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kara%20Kibera%20KId%20Center/building.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Kara%20Kibera%20KId%20Center/sign%20post.JPG",
             "name": "Kara Kids Centtre",
             "operator:name": "Mary Indangiza",
@@ -9685,11 +9685,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T10:51:25Z",
-            "version": "5",
-            "changeset": "24929356",
-            "user": "Blasio",
-            "uid": "261009"
+            "timestamp": "2014-09-03T20:03:05Z",
+            "version": "6",
+            "changeset": "25213553",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -11284,7 +11284,7 @@
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/compound.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/gate.JPG",
             "name": "MSK Tusaidie Watoo School",
             "operator:name": "Karibuni Trust",
@@ -11294,11 +11294,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:29Z",
-            "version": "8",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:04:08Z",
+            "version": "9",
+            "changeset": "25213583",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -11535,8 +11535,8 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Salvation%20Army/class.JP",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Salvation%20Army/compound",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Salvation%20Army/class.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Salvation%20Army/compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Salvation%20Army/gate.JPG",
             "name": "Kibera Salvation Army School",
             "operator:name": "Salvation Army Church",
@@ -11546,11 +11546,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:28Z",
-            "version": "8",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:05:21Z",
+            "version": "9",
+            "changeset": "25213630",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12086,7 +12086,7 @@
             "education:type": "pre_primary",
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20George%20Nursery%20School/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20George%20Nursery%20School/building.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20George%20Nursery%20School/building.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20George%20Nursery%20School/sign%20post.JPG",
             "name": "St George Orthodox School",
             "operator:name": "St George Orthodox Church",
@@ -12096,11 +12096,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:30Z",
-            "version": "7",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:06:28Z",
+            "version": "8",
+            "changeset": "25213665",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12152,8 +12152,8 @@
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20post.JPG",
             "name": "St Michael Holy Unity Academy",
             "official_name": "ST MICHAELS HOLY UNITY  PRIMARY SCH",
             "operator:name": "St Michael Holy Unity Cbo",
@@ -12163,9 +12163,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-09-03T17:27:43Z",
-            "version": "9",
-            "changeset": "25209859",
+            "timestamp": "2014-09-03T20:07:54Z",
+            "version": "10",
+            "changeset": "25213691",
             "user": "mikelmaron",
             "uid": "999"
         }
@@ -14082,7 +14082,7 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "never",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Great%20Achievers%20Preparatory%20S",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Great%20Achievers%20Preparatory%20School/Class%202.JPG",
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Great%20Achievers%20Preparatory%20School/Compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Great%20Achievers%20Preparatory%20School/Gate.JPG",
             "name": "The Great Achievers Preparatory School",
@@ -14093,11 +14093,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-27T14:01:36Z",
-            "version": "7",
-            "changeset": "25052582",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:33:53Z",
+            "version": "8",
+            "changeset": "25214276",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -14523,9 +14523,9 @@
             "education:teachers_trained": "17",
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Three%20Bells%20Scho",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Three%20Bells%20School/Class.JPG",
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Three%20Bells%20School/Compound.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Three%20Bells%20School/Sign%20Post.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Three%20Bells%20School/Sign%20Post.JPG",
             "name": "Three Bells Primary",
             "offiical_name": "THREE BELLS ACADEMY",
             "operator:name": "Fred Aluoch",
@@ -14535,11 +14535,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:32Z",
-            "version": "6",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:32:30Z",
+            "version": "7",
+            "changeset": "25214250",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -16363,9 +16363,9 @@
             "education:teachers_trained": "5",
             "education:type": "primary",
             "electricity:operational_status": "never",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/class.JPG",
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/compound.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/sign%20post.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Educational%20Center/sign%20post.JPG",
             "name": "Olympic Educational Centre",
             "official_name": "NEW DIRECTION PRI SCH",
             "operator:name": "Grace Muhia",
@@ -16375,9 +16375,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-09-03T18:11:29Z",
-            "version": "9",
-            "changeset": "25210781",
+            "timestamp": "2014-09-03T20:25:32Z",
+            "version": "10",
+            "changeset": "25214103",
             "user": "mikelmaron",
             "uid": "999"
         }
@@ -16752,8 +16752,8 @@
             "education:type": "pre_primary",
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Grace%20springs%20Academy/Class.JPG",
-            "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Grace%20springs%20Academy/IMG_0305.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Grace%20springs%20Academy/Sign%20po",
+            "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Grace%20springs%20Academy/IMG_0305.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Grace%20springs%20Academy/Sign%20post.JPG",
             "name": "Grace Springs Academy",
             "operator:name": "Full Gospel Evangelistic Ministry",
             "operator:type": "religious",
@@ -16762,11 +16762,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:30Z",
-            "version": "8",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:30:09Z",
+            "version": "9",
+            "changeset": "25214204",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -16878,8 +16878,8 @@
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Wisdom%20Ashray%20Academy/Class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Wisdom%20Ashray%20Academy/Building.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Wisdom%20Ashray%20Academy/Sign%20Po",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Wisdom%20Ashray%20Academy/Building.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Wisdom%20Ashray%20Academy/Sign%20Post.JPG",
             "name": "Wisdom Ashrays Academy",
             "operator:name": "Hellen Ndunda",
             "operator:type": "cbo",
@@ -16888,11 +16888,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:37Z",
-            "version": "9",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:21:01Z",
+            "version": "10",
+            "changeset": "25213989",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -17715,8 +17715,8 @@
             "education:type": "primary",
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://lh3.googleusercontent.com/-S_WkWWvpROo/U9EuU0mW9DI/AAAAAAAACn0/0eDrVea_V34/w769-h577-no/Class.JPG",
-            "image:compound": "https://lh3.googleusercontent.com/-3JXAtSwZyH4/U9EuZtqtY-I/AAAAAAAACoQ/UQrqzZLGzSM/w769-h577-no/Compound.",
-            "image:outside": "https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.",
+            "image:compound": "https://lh3.googleusercontent.com/-3JXAtSwZyH4/U9EuZtqtY-I/AAAAAAAACoQ/UQrqzZLGzSM/w769-h577-no/Compound.JPG",
+            "image:outside": "https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.JPG",
             "name": "Nesco Centre",
             "operator:name": "Doreen Adhiambo Odhiambo",
             "operator:type": "private",
@@ -17725,11 +17725,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:10:51Z",
-            "version": "6",
-            "changeset": "24929732",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:19:48Z",
+            "version": "7",
+            "changeset": "25213962",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -17842,8 +17842,8 @@
             "education:type": "secondary",
             "electricity:operational_status": "often",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Starays%20High%20School/Class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Starays%20High%20School/Compound.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Starays%20High%20School/Sign%20Po",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Starays%20High%20School/Compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Starays%20High%20School/Sign%20Post.JPG",
             "name": "Starays Hope Community Center",
             "official_name": "STARAYS HOPE COMM CENTER SEC SCH",
             "operator:name": "Starays Hope Community Centre",
@@ -17853,11 +17853,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:36Z",
-            "version": "7",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:18:40Z",
+            "version": "8",
+            "changeset": "25213941",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -18923,7 +18923,7 @@
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Happy%20Kids%20Children%20Center/Class.JPG",
             "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Happy%20Kids%20Children%20Center/Compound.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Happy%20Kids%20Children%20Center/Sign%20Post.",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Happy%20Kids%20Children%20Center/Sign%20Post.JPG",
             "name": "Happy Kids Children Center",
             "operator:name": "Jane Mwikali",
             "operator:type": "cbo",
@@ -18932,11 +18932,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:42:24Z",
-            "version": "5",
-            "changeset": "25011244",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:17:15Z",
+            "version": "6",
+            "changeset": "25213897",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
