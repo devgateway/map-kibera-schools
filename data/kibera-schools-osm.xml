@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2014-09-03T20:35:01Z"/>
+<meta osm_base="2014-09-03T21:08:02Z"/>
 
   <bounds minlat="-1.3211" minlon="36.7651" maxlat="-1.3009" maxlon="36.8178"/>
 
@@ -168,7 +168,7 @@
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Olympic"/>
   </node>
-  <node id="612007152" lat="-1.3132322" lon="36.7805594" version="27" timestamp="2014-09-02T17:52:13Z" changeset="25187579" uid="999" user="mikelmaron">
+  <node id="612007152" lat="-1.3132322" lon="36.7805594" version="28" timestamp="2014-09-03T21:05:56Z" changeset="25215077" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -203,7 +203,7 @@
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="often"/>
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/class.JPG"/>
-    <tag k="image:compound" v="https://lh6.googleusercontent.com/lzTJq-vTQwGUijsBoG_lRKEcYuGC-TXyiLSOJ8kr6bR-wHxG5ZI8DutOmG6LoqPn-ADQBlMPoXM=w2504-h858"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/compound.JPG"/>
     <tag k="image:other" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/IMG_0192gate.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/sign%20post.JPG"/>
     <tag k="images" v="https://farm3.staticflickr.com/2742/4089244916_b11b3c7a1f_o.jpg"/>
@@ -7398,7 +7398,7 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815714" lat="-1.3106610" lon="36.7721463" version="7" timestamp="2014-08-25T18:59:31Z" changeset="25011671" uid="265690" user="fondolucy">
+  <node id="2923815714" lat="-1.3106610" lon="36.7721463" version="8" timestamp="2014-09-03T20:49:22Z" changeset="25214641" uid="999" user="mikelmaron">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -7430,15 +7430,15 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound."/>
-    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20post.JPG"/>
     <tag k="name" v="St Michael Holy Unity Academy"/>
     <tag k="operator:name" v="St Michael Holy Unity Cbo"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815715" lat="-1.3106979" lon="36.7721636" version="8" timestamp="2014-08-25T18:59:31Z" changeset="25011671" uid="265690" user="fondolucy">
+  <node id="2923815715" lat="-1.3106979" lon="36.7721636" version="9" timestamp="2014-09-03T20:50:08Z" changeset="25214660" uid="999" user="mikelmaron">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -7471,8 +7471,8 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="secondary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound."/>
-    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20post.JPG"/>
     <tag k="name" v="St Michael Holy Unity Academy"/>
     <tag k="official_name" v="ST MICHAELS HOLY UNITY SEC. SCH"/>
     <tag k="operator:name" v="St Michael Holy Unity Cbo"/>
@@ -7681,7 +7681,7 @@
     <tag k="place:village" v="Silanga"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2932284090" lat="-1.3143609" lon="36.7786498" version="8" timestamp="2014-08-22T11:36:30Z" changeset="24930295" uid="265690" user="fondolucy">
+  <node id="2932284090" lat="-1.3143609" lon="36.7786498" version="9" timestamp="2014-09-03T20:52:28Z" changeset="25214717" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -7709,16 +7709,16 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="never"/>
-    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%2"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%2"/>
-    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%2"/>
+    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%20Center/class.JPG"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%20Center/building.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%20Center/sign%20post.JPG"/>
     <tag k="name" v="High Flyer Children Centre"/>
     <tag k="operator:name" v="Florence Anyega"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2932284091" lat="-1.3146937" lon="36.7778431" version="12" timestamp="2014-08-22T11:36:32Z" changeset="24930295" uid="265690" user="fondolucy">
+  <node id="2932284091" lat="-1.3146937" lon="36.7778431" version="13" timestamp="2014-09-03T20:53:44Z" changeset="25214743" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -7750,15 +7750,15 @@
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="always"/>
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/class.JPG"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound."/>
-    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound."/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/sign%20post.JPG"/>
     <tag k="name" v="KAG Olympic Education Centre"/>
     <tag k="operator:name" v="Kenya Assemblies of God Church"/>
     <tag k="operator:type" v="religious"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2932284092" lat="-1.3147704" lon="36.7786354" version="10" timestamp="2014-08-26T18:44:40Z" changeset="25035800" uid="265690" user="fondolucy">
+  <node id="2932284092" lat="-1.3147704" lon="36.7786354" version="11" timestamp="2014-09-03T20:55:14Z" changeset="25214794" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -7789,16 +7789,16 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="secondary"/>
     <tag k="electricity:operational_status" v="always"/>
-    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/c"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/c"/>
-    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/s"/>
+    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/MOC%20School/class%201.JPG"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/compound.JPG"/>
+    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/sign%20post.JPG"/>
     <tag k="name" v="Nairobi Day High School"/>
     <tag k="operator:name" v="Nairobi Day"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2932284093" lat="-1.3141298" lon="36.7756240" version="10" timestamp="2014-08-22T11:10:50Z" changeset="24929732" uid="265690" user="fondolucy">
+  <node id="2932284093" lat="-1.3141298" lon="36.7756240" version="11" timestamp="2014-09-03T20:59:48Z" changeset="25214918" uid="999" user="mikelmaron">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -7830,15 +7830,14 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="always"/>
-    <tag k="image:compound" v="https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395."/>
-    <tag k="image:outside" v="https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395."/>
+    <tag k="image:outside" v="https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.JPG"/>
     <tag k="name" v="Nesco Centre"/>
     <tag k="operator:name" v="Doreen Adhiambo Odhiambo"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Soweto West"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2932284094" lat="-1.3123681" lon="36.7772552" version="14" timestamp="2014-08-26T18:44:41Z" changeset="25035800" uid="265690" user="fondolucy">
+  <node id="2932284094" lat="-1.3123681" lon="36.7772552" version="15" timestamp="2014-09-03T21:03:58Z" changeset="25215031" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -7870,8 +7869,8 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="always"/>
-    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post."/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post."/>
+    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/class.JPG"/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/gate.JPG"/>
     <tag k="name" v="Redrose Children Centre"/>
     <tag k="operator:description" v="Run by an individual"/>
@@ -8457,7 +8456,7 @@
     <tag k="toilet:arranged_name" v="Public"/>
     <tag k="toilet:present" v="no"/>
   </node>
-  <node id="2950176593" lat="-1.3146538" lon="36.7786981" version="10" timestamp="2014-08-22T11:36:32Z" changeset="24930295" uid="265690" user="fondolucy">
+  <node id="2950176593" lat="-1.3146538" lon="36.7786981" version="11" timestamp="2014-09-03T20:35:36Z" changeset="25214310" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -8490,7 +8489,7 @@
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="sometimes"/>
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/class.JPG"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/compound."/>
+    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/gate.JPG"/>
     <tag k="name" v="Kids Zone School"/>
     <tag k="operator:name" v="Naomi Owino"/>

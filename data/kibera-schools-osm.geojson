@@ -297,7 +297,7 @@
             "education:type": "primary",
             "electricity:operational_status": "often",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/class.JPG",
-            "image:compound": "https://lh6.googleusercontent.com/lzTJq-vTQwGUijsBoG_lRKEcYuGC-TXyiLSOJ8kr6bR-wHxG5ZI8DutOmG6LoqPn-ADQBlMPoXM=w2504-h858",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/compound.JPG",
             "image:other": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/IMG_0192gate.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Olympic%20Primary/sign%20post.JPG",
             "images": "https://farm3.staticflickr.com/2742/4089244916_b11b3c7a1f_o.jpg",
@@ -320,9 +320,9 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-09-02T17:52:13Z",
-            "version": "27",
-            "changeset": "25187579",
+            "timestamp": "2014-09-03T21:05:56Z",
+            "version": "28",
+            "changeset": "25215077",
             "user": "mikelmaron",
             "uid": "999"
         }
@@ -12216,8 +12216,8 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "sometimes",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20post.JPG",
             "name": "St Michael Holy Unity Academy",
             "operator:name": "St Michael Holy Unity Cbo",
             "operator:type": "cbo",
@@ -12226,11 +12226,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:31Z",
-            "version": "7",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:49:22Z",
+            "version": "8",
+            "changeset": "25214641",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12280,8 +12280,8 @@
             "education:tsc_employed": "0",
             "education:type": "secondary",
             "electricity:operational_status": "sometimes",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20po",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20post.JPG",
             "name": "St Michael Holy Unity Academy",
             "official_name": "ST MICHAELS HOLY UNITY SEC. SCH",
             "operator:name": "St Michael Holy Unity Cbo",
@@ -12291,11 +12291,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-25T18:59:31Z",
-            "version": "8",
-            "changeset": "25011671",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:50:08Z",
+            "version": "9",
+            "changeset": "25214660",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12679,9 +12679,9 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "never",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%2",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%2",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%2",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%20Center/class.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%20Center/building.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/High%20Flyer%20Children%20Center/sign%20post.JPG",
             "name": "High Flyer Children Centre",
             "operator:name": "Florence Anyega",
             "operator:type": "private",
@@ -12690,11 +12690,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:30Z",
-            "version": "8",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:52:28Z",
+            "version": "9",
+            "changeset": "25214717",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12743,8 +12743,8 @@
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/KAG%20Olympic%20Educational%20Center/sign%20post.JPG",
             "name": "KAG Olympic Education Centre",
             "operator:name": "Kenya Assemblies of God Church",
             "operator:type": "religious",
@@ -12753,11 +12753,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:32Z",
-            "version": "12",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:53:44Z",
+            "version": "13",
+            "changeset": "25214743",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12805,9 +12805,9 @@
             "education:tsc_employed": "0",
             "education:type": "secondary",
             "electricity:operational_status": "always",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/c",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/c",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/s",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/MOC%20School/class%201.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/compound.JPG",
+            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Nairobi%20Day%20High%20School/sign%20post.JPG",
             "name": "Nairobi Day High School",
             "operator:name": "Nairobi Day",
             "operator:type": "cbo",
@@ -12816,11 +12816,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-26T18:44:40Z",
-            "version": "10",
-            "changeset": "25035800",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:55:14Z",
+            "version": "11",
+            "changeset": "25214794",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12869,8 +12869,7 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
-            "image:compound": "https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.",
-            "image:outside": "https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.",
+            "image:outside": "https://lh4.googleusercontent.com/-A5WpB-fu1UY/U9EuteIfNwI/AAAAAAAACp8/zsj1o6SRHrQ/w769-h577-no/IMG_0395.JPG",
             "name": "Nesco Centre",
             "operator:name": "Doreen Adhiambo Odhiambo",
             "operator:type": "private",
@@ -12879,11 +12878,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:10:50Z",
-            "version": "10",
-            "changeset": "24929732",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:59:48Z",
+            "version": "11",
+            "changeset": "25214918",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -12932,8 +12931,8 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post.",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Joysprings%20Educational%20Center/Sign%20Post.",
+            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/class.JPG",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Red%20Rose%20Nursery%20School%20And%20Children%20Center/gate.JPG",
             "name": "Redrose Children Centre",
             "operator:description": "Run by an individual",
@@ -12944,11 +12943,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-26T18:44:41Z",
-            "version": "14",
-            "changeset": "25035800",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T21:03:58Z",
+            "version": "15",
+            "changeset": "25215031",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
@@ -13966,7 +13965,7 @@
             "education:type": "pre_primary",
             "electricity:operational_status": "sometimes",
             "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/compound.",
+            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/compound.JPG",
             "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Kids%20Zone%20School/gate.JPG",
             "name": "Kids Zone School",
             "operator:name": "Naomi Owino",
@@ -13976,11 +13975,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2014-08-22T11:36:32Z",
-            "version": "10",
-            "changeset": "24930295",
-            "user": "fondolucy",
-            "uid": "265690"
+            "timestamp": "2014-09-03T20:35:36Z",
+            "version": "11",
+            "changeset": "25214310",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {
