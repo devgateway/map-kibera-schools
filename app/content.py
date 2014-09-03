@@ -144,8 +144,9 @@ def clean_and_validate_school_geo(school_geo, _seen=set()):
     elif 'kenyaopendata:official_name' in properties:
         school_geo['name'] = properties['kenyaopendata:official_name']
     else:
-        raise Exception('Encountered a school with no names: {}'
-                        .format(school_geo))
+        #raise Exception('Encountered a school with no names: {}'
+        #                .format(school_geo))
+        return False
     properties['name'] = school_geo['name']  # probably should be there anyway..
     school_geo['slug'] = '{}/{}'.format(_id, slugify(school_geo['name']))
     if 'osm:images' in properties:
@@ -170,7 +171,7 @@ def clean_and_validate_school_geo(school_geo, _seen=set()):
             school_geo['selected_properties'][sel] = properties[sel]
         except KeyError:
             pass
-
+    return True
 
 @load('schools')
 def load_schools(school_stuff):
@@ -180,8 +181,8 @@ def load_schools(school_stuff):
     for school_file, filename in school_stuff:
         school_data = json.load(school_file)
         for school_geojson in school_data['features']:
-            clean_and_validate_school_geo(school_geojson)
-            schools.append(school_geojson)
+            if clean_and_validate_school_geo(school_geojson):
+              schools.append(school_geojson)
     return sorted(schools, key=lambda s: s['name'].lower())
 
 
