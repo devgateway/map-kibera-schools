@@ -119,13 +119,18 @@ def compare_osm_kenyaopendata():
     properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
 
     if 'official_name' in feature.properties['tags']:
+      found_match = False
       for kod_feature in kod.features:
         if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['tags']['official_name']:
           #print feature.properties['official_name']
+          found_match = True
           points.append((kod_feature.geometry.coordinates[0],  kod_feature.geometry.coordinates[1]))
           for kod_property in kod_feature.properties.keys():
             if kod_property != 'lat' and kod_property != 'lon':
               properties[ "kenyaopendata:" + kod_property] = kod_feature.properties[ kod_property ]
+
+      if found_match == False:
+        print "WARN: OSM official_name has no match: " + feature.properties['tags']['name'] + ", " + feature.properties['tags']['official_name'] + ", " + feature['id']
 
     geom = MultiPoint(points)
     result['features'].append( { "type": "Feature", "properties": properties, "geometry": geom })
@@ -195,8 +200,8 @@ def deploy():
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-sync_osm()
-convert2geojson()
+#sync_osm()
+#convert2geojson()
 compare_osm_kenyaopendata()
 #cache_images()
 #deploy()
