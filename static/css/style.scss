@@ -597,6 +597,9 @@ section#map {
   .school-info-row {
     @include clearfix;
   }
+  .school-info-row table {
+    width: 100%;
+  }
 
   .school-stats {
     $w: ($width-full - $pad-v-thin) / 2;

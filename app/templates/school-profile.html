@@ -52,7 +52,6 @@
   </section>
 
   <section id="school-brief">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque elit, eleifend eget, hendrerit quis.</p>
   </section>
 
   <section id="school-blurbs">
@@ -60,25 +59,25 @@
       <header class="school-stats">
         <p class="source">OSM Data</p>
         <h2>{{ school.name }}</h2>
-<!--
+
         {% set num_students = (school.properties['osm:education:students_male'] or 0)|int +
                               (school.properties['osm:education:students_female'] or 0)|int %}
         {% if num_students > 0 %}
           <h3>{{ num_students }} Students</h3>
         {% endif %}
--->
+
         <small>Location: {{ school.geometry.coordinates[0] | reverse | join(', ') }}</small>
       </header>
       <header class="school-stats">
         <p class="source">Kenya Open Data</p>
         <h2>{{ school.properties['kenyaopendata:official_name'] }}</h2>
-<!--
+
         {% set num_students = (school.properties['kenyaopendata:Total Boys'] or 0)|int +
                               (school.properties['kenyaopendata:Total Girls'] or 0)|int %}
         {% if num_students > 0 %}
           <h3>{{ num_students }} Students</h3>
         {% endif %}
--->
+
         {% if school.geometry.coordinates | length > 1 %}
           <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
         {% endif %}
@@ -123,11 +122,14 @@
             <table>
             {% for field in content.fields %}
               {% if field.group == group %}
-              <tr>
-                <th>{{ field.name }}</th>
                 {% set key = field[namespace] %}
-                <td>{{ obj[ key ] }}</td>
-              </tr>
+                {% if obj[key] is defined %}
+                <tr>
+                  <th>{{ field.name }}</th>
+                  {% set key = field[namespace] %}
+                  <td>{{ obj[ key ] }}</td>
+                </tr>
+                {% endif %}
               {% endif %}
             {% endfor %}
             </table>

@@ -23,9 +23,13 @@
     "group": "Basics"
   },
   {
-    "name": "Boarding or not",
-    "osm": "osm:education:boarding",
-    "kenyaopendata": "kenyaopendata:School Institution Type_2",
+    "name": "Government Registration",
+    "osm": "osm:education:government_registered",
+    "group": "Basics"
+  },
+  {
+    "name": "School Head",
+    "osm": "osm:education:school_head",
     "group": "Basics"
   },
   {
@@ -33,10 +37,51 @@
     "osm": "osm:place:village",
     "kenyaopendata": "kenyaopendata:Location",
     "group": "Basics"
-  },  
+  },
+  {
+    "name": "Phone",
+    "osm": "osm:contact:phone",
+    "group": "Basics"
+  },
+   {
+    "name": "Address",
+    "osm": "osm:contact:address",
+    "group": "Basics"
+  },
+  {
+    "name": "Email",
+    "osm": "osm:contact:email",
+    "group": "Basics"
+  }, 
   {
     "name": "Accessibility",
     "osm": "osm:accessibility",
+    "group": "Infrastructure"
+  },
+  {
+    "name": "Building Material",
+    "osm": "osm:building:material",
+    "group": "Infrastructure"
+  },
+  {
+    "name": "Roof Material",
+    "osm": "osm:building:roof",
+    "group": "Infrastructure"
+  },
+  {
+    "name": "Building Levels",
+    "osm": "osm:building:levels",
+    "group": "Infrastructure"
+  },
+  {
+    "name": "Boarding or not",
+    "osm": "osm:education:boarding",
+    "kenyaopendata": "kenyaopendata:School Institution Type_2",
+    "group": "Infrastructure"
+  },
+  {
+    "name": "Toilet",
+    "osm": "osm:toilet:present",
     "group": "Infrastructure"
   },
   {
@@ -45,11 +90,51 @@
     "kenyaopendata": "kenyaopendata:Total Enrolment",
     "group": "Population"
   },
+  { "name": "Number of Male Students",
+    "osm": "osm:education:student_male",
+    "kenyaopendata": "kenyaopendata:Total Boys",
+    "group": "Population"
+  },
+  { "name": "Number of Female Students",
+    "osm": "osm:education:student_female",
+    "kenyaopendata": "kenyaopendata:Total Girls",
+    "group": "Population"
+  },
   {
     "name": "Teachers",
     "osm": "osm:education:teachers",
     "kenyaopendata": "kenyaopendata:Total Teaching staff",
     "group": "Population"
+  },
+  {
+    "name": "Counseling Program",
+    "osm": "osm:education:program_counselling",
+    "group": "Programs"
+  },
+  {
+    "name": "Management Committee",
+    "osm": "osm:education:management_committee",
+    "group": "Programs"
+  },
+  {
+    "name": "Sanitary Towel Program",
+    "osm": "osm:education:program_sanitary_towel",
+    "group": "Programs"
+  },
+  {
+    "name": "Feeding Program",
+    "osm": "osm:education:program_feeding",
+    "group": "Programs"
+  },
+  {
+    "name": "Counseling Program",
+    "osm": "osm:education:program_counselling",
+    "group": "Programs"
+  },
+  {
+    "name": "Scouts Extra-Curricular",
+    "osm": "osm:education:extra_schouts",
+    "group": "Programs"
   },
   {
     "name": "Name",
