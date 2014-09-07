@@ -12,21 +12,20 @@
 
   <section id="one-blog-post">
     <article class="blog-post">
-      <header>
-        <h1>{{ post.title }}</h1>
-        <p>By <strong>{{ post.author }}</strong> on <strong><time datetime="{{ post.date.isoformat() }}">{{ post.date.isoformat() }}</time></strong></p>
-      </header>
 
       {% if post.photo %}
-        <img alt="{{ post.photo_caption }}" src="{{ post.photo }}" />
+        <div class='teaser' style='background-image:url({{ post.photo }})'></div>
       {% endif %}
 
       <div class="post-content">
+        <header>
+          <h2>{{ post.title }}</h2>
+          <p><strong>By {{ post.author }} <time datetime="{{ post.date.isoformat() }}"> on {{ post.date.isoformat() }}</time></strong></p>
+        </header>
         {{ post.content }}
       </div>
 
       <footer>
-        <h3>Share</h3>
         <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://schools.mapkibera.org/blog/{{ post.slug }}">Tweet</a>
         <div class="fb-like" data-href="http://schools.mapkibera.org/blog/{{ post.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
       </footer>
