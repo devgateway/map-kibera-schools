@@ -17,13 +17,13 @@
   height: $height-stickyhead;
   font-size: $t-small;
   color: $c-header-med;
+  border-bottom:$b-outline;
 
   nav {
     a.accent {
       @include accent-box;
       display: inline-block;
       margin-top: -3px;
-      box-shadow: 0 0 7px $c-smokeglass;
       small {
         display: block;
         margin: -0.4em 0;
@@ -41,7 +41,7 @@
   a {
     color: inherit;
     &:hover {
-      color: $c-bright;
+      color: $c-dark;
     }
   }
 
@@ -73,7 +73,7 @@
       }
     }
     &.selected {
-      background: $c-control-bg;
+      background: $c-bg;
     }
     &[href="/#videos"]:before {
       content: "p";
@@ -196,7 +196,6 @@ body > section:first-of-type {
       left: 0;
       right: 50%;
       bottom: 0;
-      @include horizontal-gradient($c-bg, rgba(0, 0, 0, 0));
     }
   }
   .activated .video:before {
@@ -207,14 +206,13 @@ body > section:first-of-type {
     margin-top: -1px;  // respect contents' top margin
     padding-top: 1px;
     font-size: $t-med;
-    color: $c-t-med;
+    color: $c-dark;
+    line-height:$line-base;
 
     h2 {
       margin: -0.15em 0 0 0; 
       font-size: $t-vbig;
-      font-weight: $t-mheavy;
-      line-height: 1em;
-      color: $c-copy;
+      color: $c-dark;
     }
   }
 }
@@ -308,11 +306,7 @@ section#school-top {
 /*
  * Map
  *
- * blah blah bla
  */
-section#map {
-  border-top: $b-outline;
-}
 .map-controls {
   z-index: $layer-mhigh;
   position: relative;  // for stacking
@@ -340,11 +334,15 @@ section#map {
     border-color: $c-accent2 #222;
     border-radius: 3px;
   }
-
+  p {
+    display:inline-block;
+    line-height: $height-map-controls;
+    margin: 0 $pad-h 0 0;
+  }
   a {
-    color: $c-med;
+    color: inherit;
     &:hover {
-      color: $c-bright;
+      color: $c-dark;
     }
   }
   .controls {
@@ -354,14 +352,7 @@ section#map {
       display: inline-block;
       vertical-align: top;
     }
-  }
-  .accent {
-    @include accent-box;
-    position: relative;
-    z-index: $layer-high;
-    display: inline-block;
-    margin-top: -1px;
-  }
+  } 
   .controls {
     @include list-reset;
     // font-size: 0;
@@ -377,20 +368,19 @@ section#map {
         min-width: $width-map-control;
         padding: 0 $pad-h 0 $pad-h-thin;
         font-size: $t-base;
-        border-right: 1px solid $c-outline;
         &:before {
           @include icofont;
           content: ",";  // default gear icon
           display: inline-block;
           margin-right: $pad-h-thin / 1.5;
-          font-size: $t-mbig;
+          font-size: $t-small;
           vertical-align: middle;
         }
         &:hover,
         &:active,
         &:focus {
-          color: $c-bright;
-          background: lighten($c-bg, 20%);
+          color: $c-dark;
+          background: $c-bg;
         }
       }
       &.active > .activate {
@@ -402,7 +392,7 @@ section#map {
       }
       &.active > .map-control-dropdown {
         @include un-visually-hidden;
-        font-size: $t-msmall;
+        font-size: $t-small;
         line-height: $line-tight;
       }
     }
@@ -486,7 +476,7 @@ section#map {
     a {
       display: block;
       padding: ($pad-v-thin / 2.5) ($pad-h / 1.618);
-      color: $c-copy;
+      color: $c-bright;
       background: $c-smokeglass;
     }
   }
@@ -552,7 +542,6 @@ section#map {
   background: $c-footer-med;  // might flash while loading
 }
 #school-map {
-  border-top: $b-outline;
   .map-controls {
     @include bg-stretchwidth($c-control-bg);
     padding-left: ($width-accent-box + 3px) / 2;
@@ -562,7 +551,7 @@ section#map {
     }
   }
   .map {
-    height: 282px;
+    height: $height-map;
   }
 }
 
@@ -614,19 +603,16 @@ section#map {
   h2 {
     margin: 0;
     font-size: $t-mbig;
-    line-height: 1;
   }
   h3 {
     margin: $pad-v-thin / 2.5 0;
     font-size: $t-mbig - 1px;
-    line-height: 1;
     font-weight: $t-mheavy;
   }
 
   .header-stats {
     .source {
       margin: $pad-v-thin / 2 0;
-      line-height: 1;
       color: $c-accent;
       text-transform: uppercase;
       font-weight: $t-mheavy;
@@ -644,7 +630,6 @@ section#map {
     $vpos: 55%;
     font-size: 0;
     border: $b;
-    line-height: 1;  // cells are inline-block, so avoid vertical gaps.
     .cell {
       display: inline-block;
       position: relative;  // establish positioning context
@@ -722,24 +707,11 @@ section#map {
  * Charts and stuff
  */
 #stats {
-  background: $c-control-bg;
-  height: $height-map-controls;
-  margin: 0 auto;
-  padding: 0;
-  border-bottom: 1px solid $c-outline;
-  .content {
-    width: $width-full;
-    margin: 0 auto;
-  }
-  h2,
-  h3 {
-    display: inline-block;
-    line-height: $height-map-controls;
-    margin: 0 $pad-h 0 0;
-  }
-  .stats-container {
-    display: inline-block;
-  }
+  z-index: $layer-mhigh;
+  position:absolute;
+  margin:-($height-map) $pad-h 0;
+  padding:$pad-v-thin;
+  background: $c-bg;
 }
 
 
@@ -823,28 +795,22 @@ section#map {
         margin: 0;
       }
       a {
-        color: $c-bright;
+        color: $c-dark;
       }
     }
     p {
-      color: $c-brightglass;
+      color: $c-dark;
     }
-    strong: {
-      color: $c-bright;
+    strong {
+      font-weight: $t-light;
+      color: $c-dark;
     }
   }
   footer {
     margin-top: 1.5em;
-    padding: 0.667em 1em;
-    font-size: $t-msmall;
-    background: $c-dark;
-    h3 {
-      display: inline-block;
-      margin: 0 2em 0 0;
-      font-size: 1em;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+    font-size: $t-small;
+    background: $c-bg;
+
     .twitter-share-button {
       vertical-align: top;
     }
@@ -856,13 +822,13 @@ section#map {
 #blog-posts .blog-post {
   $w: 320px;
   padding: 2em 1em;
-  border-top: 1px solid $c-smokeglass;
   .post-content {
     width: $width-full - $w;
+    margin-top:-20px;
   }
   & > img:first-child {
     width: $w;
-    margin-right: -$w;
+    margin-right: $pad-h;
     float: left;
     & ~ * {  // duuuuuuuude
       margin-left: $w + $pad-v-thin;
@@ -878,7 +844,6 @@ section#map {
     color: $c-accent2;
   }
   .post-content {
-    line-height: 1.618;
     width: 720px;
   }
 }
@@ -899,15 +864,16 @@ section#map {
   @include bg-stretchwidth($c-footer-light);
   padding: $pad-v-big 0 $pad-v;
   font-size: 0;  // WATCH OUT (reset in next-leve divs)
-  color: $c-footer-med;
+  font-weight: $t-light;
+  color: $c-dark;
 
   h2 {
     margin-top: 0;
     font-size: 1.4em;
-    color: $c-footer-dark;
+    color: $c-dark;
   }
   a {
-    color: $c-accent3;
+    color: $c-accent;
   }
 
   & > div {
@@ -941,7 +907,6 @@ section#map {
     dt {
       float: left;
       clear: left;
-      font-weight: $t-mheavy;
       &:after {
         content: ":";
       }
@@ -981,17 +946,15 @@ section#map {
   a {
     color: inherit;
     &:hover {
-      color: lighten($c-accent3, 10%);
+      color: $c-accent;
     }
-  }
-  #copyright {
-    display: inline-block;
+    img {
+      padding-right:10px;
+    }
   }
   .social {
-    li {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
+    position:absolute;
+    right:$pad-h;
   }
 }
 

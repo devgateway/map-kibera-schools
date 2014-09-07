@@ -68,7 +68,7 @@
           <address>
             <dl>
               <dt class="address-email">Email</dt>
-              <dd><img src="http://mapkibera.org/kibera-email.png"/></dd>
+              <dd><a href='mailto:contact@mapkibera.org'>contact@mapkibera.org</a></dd>
             </dl>
           </address>
         </div>
@@ -78,7 +78,7 @@
 <!-- Begin MailChimp Signup Form -->
 <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -97,17 +97,11 @@
       <div class="footer-copyright">
 
         <div id="copyright">
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+          <small>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /> This work is licensed under Creative Commons Attribution 4.0 International License</a>.
+          </small>
         </div>
-
-        <ul class="footer-social-links social">
-          {% for profile in content.social %}
-            <li><a href="{{ profile.url }}" class="icon-{{ profile.id }}" title="{{ profile.name }}" target="_top">{{ profile.name }}</a></li>
-          {% endfor %}
-        </ul>
-
       </div>
-    </footer>
     <!-- tag js
          template=<script src="{path}"></script>
          -->

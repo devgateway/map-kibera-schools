@@ -70,10 +70,12 @@ div {
  * Type
  */
 h2 {
-  line-height: 1.1em;
-  font-weight: $t-normal;
+  line-height: $line-base;
+  font-weight: $t-light;
 }
-
+small {
+  font-weight: $t-light;
+}
 a {
   text-decoration: none;
 }

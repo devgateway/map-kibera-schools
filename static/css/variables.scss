@@ -8,15 +8,15 @@ $t-big: 26px;
 $t-mbig: 24px;
 $t-med: 19px;
 $t-msmall: 15px;
-$t-small: 13px;
+$t-small: $t-msmall;
 $t-vsmall: 11px;
 $t-light: 300;
 $t-normal: 400;
 $t-mheavy: 700;
 $t-heavy: 900;
 
-$line-base: 1.4em;
-$line-tight: 1.14em;
+$line-base: 1.65em;
+$line-tight: 1.4em;
 $line-form: 2.4em;
 $line-footer: 1.618em;
 $line-footer-copyright: $t-base;
@@ -42,6 +42,8 @@ $height-stickyhead: 56px;
 $height-map-controls: 49px;
 $width-map-control: 176px;
 
+$height-map:282px;
+
 $height-school-photo: 221px;
 $height-frame-prevnext: $height-school-photo / 3.6;
 $width-frame-prevnext: $pad-h;
@@ -61,21 +63,21 @@ $layer-bottom: -1000;  // make things really go away
 
 /////// COLOURS ///////
 
-$c-bg: #000;
-$c-copy: #ccc;
-$c-copy-dark: #222;
-$c-med: #777;
-$c-t-med: #999;
-$c-bright: #fff;
+$c-bg: #f2f2f2;
+$c-med: #ccc;
 $c-dark: #333;
+$c-copy: $c-dark;
+$c-copy-dark: $c-dark;
+$c-bright: $c-bg;
+$c-t-med: #c-dark;
 
 $c-outline: $c-med;  // borders and such
 
 $c-heavy: $c-bright;  // probably for big bold headers
 
-$c-accent: #c73639;   // red
-$c-accent2: #f8ad32;  // yellow
-$c-accent3: #75b81b;  // green
+$c-accent: #75b81b;   // red
+$c-accent2: $c-accent;  // yellow
+$c-accent3: $c-accent;  // green
 $c-female: #fda1ca;   // pink
 $c-male: #92cef2;     // purple
 
