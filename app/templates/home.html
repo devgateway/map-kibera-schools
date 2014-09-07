@@ -61,26 +61,23 @@
 
   <section id="stats">
     <div class="content">
-      <h2>Summary Statistics</h2>
+      <h2>Summary</h2>
       <div class="stats-container">
       </div>
     </div>
   </section>
 
-<!--
   <section id="stories">
-    <h2>Stories</h2>
     <ul>
-      {% for story in content.stories[:4] %}
+      {% for story in content.stories[:3] %}
         <li>
-          <div class="smokeglass">
-            <h3>{{ story.title }} / Gallery</h3>
+            <h2>{{ story.title }}</h2>
+            <img src='{{ story.image }}'/>
             <p>{{ story.description }}</p>
-            <a href="stories/{{ story.slug }}" class="button">See More</a>
-          </div>
+            <p><a href='{{ story.link }}'>{{ story.button }}</a></p>
         </li>
       {% endfor %}
     </ul>
   </section>
--->
+
 {% endblock %}

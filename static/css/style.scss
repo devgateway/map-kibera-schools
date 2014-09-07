@@ -750,48 +750,40 @@ section#map {
  */
 #stories {
   padding: $pad-v 0;
-  // h2 {
-  //   @include visually-hidden;
-  // }
-  h2 {
-    margin: $pad-v-big 0 $pad-v;
-    text-align: center;
-  }
   & > ul {
     @include list-reset;
     width: $width-full;
     margin: 0 auto;
     font-size: 0;  // WARNING! vv see li rule vv
+    text-align: center;
+
     & > li {
-      $box-width: ($width-full / 2) - ($pad-h * 3 / 2);
+      $box-width: $width-full / 2;
       display: inline-block;
       width: $box-width;
-      margin: 0 0 $pad-v $pad-h;
-      font-size: $t-small;  // END WARNING.
-      text-align: center;
-      background: url('http://placehold.it/534x235.png');
-      border: 1px solid $c-med;
+      margin: $pad-v $pad-h;
+      font-size: $t-med;  // END WARNING.
 
-      .smokeglass {
-        margin: ($pad-v * 2) ($pad-h * 2);
-        padding: $pad-v-thin $pad-h;
-        background: $c-smokeglass;
-        border: 1px solid $c-brightglass;
-
-        h3 {
-          margin: 0;
-        }
-        p {
-          margin: 0 $pad-v-thin;
-          font-style: italic;
-          line-height: $line-tight;
-        }
-        .button {
-          margin: $pad-v-thin 0 0;
-          text-transform: uppercase;
-          border: 1px solid $c-bright;
-          border-radius: 0;
-        }
+      h1 {
+        margin: 0;
+        padding:$pad-v 0;
+      }
+      img {
+        padding:$pad-v 0;
+      }
+      p {
+        line-height: $line-base;
+        margin:$pad-v;
+      }
+      a {
+        padding:$pad-v-thin;
+        font-size:$t-small;
+        color:$c-accent;
+        border:1px solid $c-accent;
+      }
+      a:hover {
+        color:$c-bright;
+        background:$c-accent;
       }
     }
   }

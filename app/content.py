@@ -211,7 +211,10 @@ def load_stories(story_stuff):
     meta = {
         'title':       (True, ('one',)),
         'description': (True, ('one',)),
-    }
+        'image':       (True, ('one',)),
+        'button': (True, ('one',)),
+        'link':       (True, ('one',))
+        }
     markdowner = Markdown(extensions=['meta'], output_format='html5')
     stories = []
     for story_file, filename in story_stuff:
