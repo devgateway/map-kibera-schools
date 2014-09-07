@@ -72,9 +72,6 @@
         color: $c-accent;
       }
     }
-    &.selected {
-      background: $c-bg;
-    }
     &[href="/#videos"]:before {
       content: "p";
     }
@@ -180,7 +177,7 @@ body > section:first-of-type {
     position: relative; // positioning context for gradient overlay
     display: block;
     float: left;
-    margin-right: $pad-h-thin;
+    margin-right: $pad-v;
 
     &,
     & .video-screenshot {
@@ -208,6 +205,7 @@ body > section:first-of-type {
     font-size: $t-med;
     color: $c-dark;
     line-height:$line-base;
+    margin:0 $pad-v;
 
     h2 {
       margin: -0.15em 0 0 0; 
@@ -338,6 +336,7 @@ section#school-top {
     display:inline-block;
     line-height: $height-map-controls;
     margin: 0 $pad-h 0 0;
+    color:$c-med;
   }
   a {
     color: inherit;
@@ -394,6 +393,7 @@ section#school-top {
         @include un-visually-hidden;
         font-size: $t-small;
         line-height: $line-tight;
+        z-index:$layer-high;
       }
     }
   }
@@ -707,7 +707,7 @@ section#school-top {
  * Charts and stuff
  */
 #stats {
-  z-index: $layer-mhigh;
+  z-index: $layer-norm;
   position:absolute;
   margin:-($height-map) $pad-h 0;
   padding:$pad-v-thin;
@@ -807,10 +807,8 @@ section#school-top {
     }
   }
   footer {
-    margin-top: 1.5em;
     font-size: $t-small;
     background: $c-bg;
-
     .twitter-share-button {
       vertical-align: top;
     }
@@ -820,31 +818,54 @@ section#school-top {
   }
 }
 #blog-posts .blog-post {
-  $w: 320px;
+  $w: ($width-full - $pad-v-thin)/3;
   padding: 2em 1em;
   .post-content {
     width: $width-full - $w;
     margin-top:-20px;
+    header {
+      margin-top:-$pad-v;
+    }
   }
   & > img:first-child {
     width: $w;
-    margin-right: $pad-h;
     float: left;
     & ~ * {  // duuuuuuuude
-      margin-left: $w + $pad-v-thin;
+      margin-left: $w + $pad-v;
     }
+  }
+  footer {
+  padding-left: $pad-v;
   }
 }
 #one-blog-post .blog-post {
   padding: 1em 0 3em;
-  header h1 {
-    margin: 0.25em 0;
-    font-size: $t-big;
-    font-weight: $t-light;
-    color: $c-accent2;
+  .teaser {
+    height:$height-map/2;
+    opacity:0.2;
+  }
+  header {
+    height:$height-map/2;
+    margin-top:-$height-map/2;
+    padding:$pad-v-thin;
+    text-align: center;
+      h1 {
+        margin: 0.25em 0;
+        font-size: $t-big;
+        font-weight: $t-light;
+        color: $c-accent2;
+      }
+    }
   }
   .post-content {
-    width: 720px;
+    $w: ($width-full - $pad-v-thin)/2;
+    width: $w;
+    margin:0 $w/2;
+    padding:$pad-v;
+    img {
+      padding:$pad-v-thin 0;
+      width:100%;
+    }
   }
 }
 
@@ -952,9 +973,8 @@ section#school-top {
       padding-right:10px;
     }
   }
-  .social {
-    position:absolute;
-    right:$pad-h;
+  .credits {
+    color:$c-copy;
   }
 }
 
