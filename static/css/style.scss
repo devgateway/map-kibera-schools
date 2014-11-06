@@ -835,7 +835,7 @@ section#school-top {
     }
   }
   footer {
-  padding-left: $pad-v;
+    padding-left: $pad-v;
   }
 }
 #one-blog-post .blog-post {
@@ -849,12 +849,11 @@ section#school-top {
     margin-top:-$height-map/2;
     padding:$pad-v-thin;
     text-align: center;
-      h1 {
-        margin: 0.25em 0;
-        font-size: $t-big;
-        font-weight: $t-light;
-        color: $c-accent2;
-      }
+    h1 {
+      margin: 0.25em 0;
+      font-size: $t-big;
+      font-weight: $t-light;
+      color: $c-accent2;
     }
   }
   .post-content {
