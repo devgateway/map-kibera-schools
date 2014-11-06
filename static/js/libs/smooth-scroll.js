@@ -29,7 +29,7 @@
     }
   };
 
-  var startScroll = function startScroll(fromLink) {
+  var startScroll = function startScroll() {
     var href = this.attributes.href.nodeValue.toString(),
         url = href.substr(0, href.indexOf('#')),
         id = href.substr(href.indexOf('#')+1),
@@ -97,5 +97,10 @@
   window.targetFromTop = getTargetOffsetFromTop;
   window.viewportFromTop = getCurrentScroll;
   window.isAutoScrolling = false;
+
+  if (window.location.hash) {
+    var someHashLink = document.querySelector('a[href="/' + window.location.hash + '"]');
+    someHashLink && startScroll.call(someHashLink);
+  }
 
 })(window);

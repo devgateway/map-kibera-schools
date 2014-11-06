@@ -812,8 +812,8 @@ section#school-top {
     .twitter-share-button {
       vertical-align: top;
     }
-    .fb-like {
-      top: -2px;
+    .fb-like > span {
+      vertical-align: top !important;
     }
   }
 }
@@ -833,9 +833,6 @@ section#school-top {
     & ~ * {  // duuuuuuuude
       margin-left: $w + $pad-v;
     }
-  }
-  footer {
-    padding-left: $pad-v;
   }
 }
 #one-blog-post .blog-post {

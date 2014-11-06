@@ -28,7 +28,7 @@
   app.pages.home = function home() {
     var schools = new app.models.Schools;
 
-    this.mapfilters = (new app.views.MapFilters({
+    var mapfilters = this.mapfilters = (new app.views.MapFilters({
       el: $('#map .controls'),
       schools: schools
     })).render();
@@ -40,6 +40,12 @@
       el: $('#stats .stats-container'),
       collection: schools
     }).render();
+
+    u.eachNode(document.querySelectorAll('.action-school-search'), function(s) {
+      s.addEventListener('click', function() {
+        mapfilters.quickSearchWidget.model.set('expanded', true);
+      });
+    });
   };
 
   app.pages.schoolProfile = function schoolProfile() {

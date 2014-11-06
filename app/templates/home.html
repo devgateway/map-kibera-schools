@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 
 {% set pagenav = [
-  {'href': '/#videos', 'title': 'Videos'},
   {'href': '/#map', 'title': 'Kibera Schools Map'},
   {'href': '/#stories', 'title': 'Highlights'},
   {'href': '/blog/#blog-posts', 'title': 'Blog'}
@@ -73,7 +72,7 @@
             <h2>{{ story.title }}</h2>
             <img src='{{ story.image }}'/>
             <p>{{ story.description }}</p>
-            <p><a href='{{ story.link }}'>{{ story.button }}</a></p>
+            <p><a {% if story.action %}class="action-{{ story.action }}"{% endif %} href='{{ story.link }}'>{{ story.button }}</a></p>
         </li>
       {% endfor %}
     </ul>

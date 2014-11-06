@@ -212,8 +212,9 @@ def load_stories(story_stuff):
         'title':       (True, ('one',)),
         'description': (True, ('one',)),
         'image':       (True, ('one',)),
-        'button': (True, ('one',)),
-        'link':       (True, ('one',))
+        'button':      (True, ('one',)),
+        'link':        (True, ('one',)),
+        'action':      (False, ('one',))
         }
     markdowner = Markdown(extensions=['meta'], output_format='html5')
     stories = []
