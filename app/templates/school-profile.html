@@ -30,25 +30,10 @@
   </section>
 
   <section id="school-map">
-    <header class="map-controls">
-      <ul class="controls">
-        <li id="map-main">
-          <a class="activate" href="/#map">Back to Main Map</a>
-        </li>
-      </ul>
-      <div class="social">
-        <h3>Share</h3>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://schools.mapkibera.org/schools/{{ school.slug }}">Tweet</a>
-        <div class="fb-like" data-href="http://schools.mapkibera.org/schools/{{ school.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-      </div>
-    </header>
     <div id="school-map-display" class="map"></div>
     <script>
       var school = {{ school | tojson }};
     </script>
-  </section>
-
-  <section id="school-brief">
   </section>
 
   <section id="school-blurbs">

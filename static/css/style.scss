@@ -498,6 +498,13 @@ section#school-top {
 }
 .leaflet-container {
   font: inherit;
+  .leaflet-control-zoom {
+    margin-left: 0;
+  }
+  .leaflet-left {
+    left: 50%;
+    margin-left: -$width-full/2
+  }
   .leaflet-popup-content-wrapper,
   .leaflet-popup-tip {
     background: $c-smokeglass
@@ -825,14 +832,19 @@ section#school-top {
   footer {
     font-size: $t-small;
     background: $c-bg;
-    .twitter-share-button {
-      vertical-align: top;
-    }
-    .fb-like > span {
-      vertical-align: top !important;
-    }
   }
 }
+
+.share {
+  margin-top: 0.5em;
+  .twitter-share-button {
+    vertical-align: top;
+  }
+  .fb-like > span {
+    vertical-align: top !important;
+  }
+}
+
 #blog-posts .blog-post {
   $w: ($width-full - $pad-v-thin)/3;
   padding: 2em 1em;

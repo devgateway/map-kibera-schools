@@ -13,6 +13,10 @@ app.views.SchoolPin = Backbone.View.extend({
     this.locations = { osm: locations[0].reverse() };
     this.locations.kenyaopendata = locations[1] && locations[1].reverse();
 
+    if (opts.popupTemplate) {
+      this.popupTemplate = opts.popupTemplate;
+    }
+
     this.marker = L.circleMarker(this.locations.osm, {
       color: '#75b81b',
       opacity: 0.9,
