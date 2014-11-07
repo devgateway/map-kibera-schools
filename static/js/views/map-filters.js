@@ -2,9 +2,9 @@ app.views.MapFilters = Backbone.View.extend({
 
   initialize: function(opts) {
 
-    var schoolTypeFilter = new app.models.SelectFilter({
-      name: 'School Type',
-      key: 'osm:operator:type',
+    var schoolQuickSearch = new app.models.QuickSearchFilter({
+      name: 'School Name',
+      key: 'name',
       schools: opts.schools
     });
 
@@ -14,30 +14,30 @@ app.views.MapFilters = Backbone.View.extend({
       schools: opts.schools
     });
 
-    var schoolQuickSearch = new app.models.QuickSearchFilter({
-      name: 'Schools List',
-      key: 'name',
+    var schoolTypeFilter = new app.models.SelectFilter({
+      name: 'School Sponsor',
+      key: 'osm:operator:type',
       schools: opts.schools
     });
 
     this.filters = new app.models.Filters([
-      schoolTypeFilter,
+      schoolQuickSearch,
       edLevelFilter,
-      schoolQuickSearch
+      schoolTypeFilter
     ]);
     this.filters.schools = opts.schools;
 
-    this.schoolTypeWidget = new app.filterWidgets.Select({ model: schoolTypeFilter});
-    this.edLevelWidget = new app.filterWidgets.Select({ model: edLevelFilter });
     this.quickSearchWidget = new app.filterWidgets.QuickSearch({ model: schoolQuickSearch });
+    this.edLevelWidget = new app.filterWidgets.Select({ model: edLevelFilter });
+    this.schoolTypeWidget = new app.filterWidgets.Select({ model: schoolTypeFilter});
 
   },
 
   render: function() {
     var renderedWidgets = [
-      this.schoolTypeWidget.render().el,
+      this.quickSearchWidget.render().el,
       this.edLevelWidget.render().el,
-      this.quickSearchWidget.render().el
+      this.schoolTypeWidget.render().el
     ];
     this.$el.prepend(renderedWidgets);
     return this;
