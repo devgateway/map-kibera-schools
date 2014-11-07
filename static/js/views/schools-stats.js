@@ -1,8 +1,8 @@
 app.views.SchoolsStats = Backbone.View.extend({
 
-  template: _.template('<h3>Schools: <%= schools %></h3>' +
-                       '<h3>Teachers: <%= teachers %></h3>' +
-                       '<h3>Students: <%= students %></h3>'),
+  template: _.template('<h3><span class="bignum"><%= schools %></span> schools</h3>' +
+                       '<h3><span class="bignum"><%= teachers %></span> teachers</h3>' +
+                       '<h3><span class="bignum"><%= students %></span> students</h3>'),
 
   initialize: function() {
     this.listenTo(this.collection, 'add change:excluded', this.render);
