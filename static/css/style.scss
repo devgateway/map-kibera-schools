@@ -114,6 +114,27 @@
 
 }
 
+/*
+ * link back to the main map from the school profile
+ */
+.back-to-schools-map {
+  color: white;
+  background: $c-accent;
+  padding: 0 $pad-h-gap;
+  border-radius: 3px;
+  &:hover {
+    background: darken($c-accent, 10%);
+  }
+  &:before {
+    @include icofont;
+    content: "<";  // back icon
+    display: inline-block;
+  }
+  span {
+    @include visually-hidden;
+  }
+}
+
 
 /*
  * General Social Rules

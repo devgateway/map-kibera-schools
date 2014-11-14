@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icokibera';
-	src:url('../fonts/icokibera.eot?-8o3mgm');
-	src:url('../fonts/icokibera.eot?#iefix-8o3mgm') format('embedded-opentype'),
-		url('../fonts/icokibera.woff?-8o3mgm') format('woff'),
-		url('../fonts/icokibera.ttf?-8o3mgm') format('truetype'),
-		url('../fonts/icokibera.svg?-8o3mgm#icokibera') format('svg');
+	src:url('../fonts/icokibera.eot?-hc0yx7');
+	src:url('../fonts/icokibera.eot?#iefix-hc0yx7') format('embedded-opentype'),
+		url('../fonts/icokibera.woff?-hc0yx7') format('woff'),
+		url('../fonts/icokibera.ttf?-hc0yx7') format('truetype'),
+		url('../fonts/icokibera.svg?-hc0yx7#icokibera') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-back:before {
+	content: "\3c";
+}
 .icon-world:before {
 	content: "\77";
 }
