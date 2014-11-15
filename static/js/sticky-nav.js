@@ -20,7 +20,7 @@
   u.on(window, 'scroll', function() {
     if (window.isAutoScrolling) {
       return;
-    } else if (lastCheck && (new Date - lastCheck) < throttle) {
+    } else if (lastCheck && (new Date() - lastCheck) < throttle) {
       return;
     }
     var currentScroll = viewportFromTop(),
@@ -35,13 +35,13 @@
       }
     }
     var currentlySelected = stickyNavContainer.querySelector('.selected');
-    var targetID = closestTarget.id;
+    var targetID = closestTarget && closestTarget.id;
     var navLinkEl = stickyNavContainer.querySelector('a[href="' + rootPath + '#' + targetID + '"]');
     if (navLinkEl !== currentlySelected) {
       currentlySelected && u.removeClass(currentlySelected, 'selected');
       u.addClass(navLinkEl, 'selected');
     }
 
-    lastCheck = new Date;
+    lastCheck = new Date();
   });
 })();

@@ -73,9 +73,9 @@ def schools_appjson():
     return Response(json.dumps(schools), mimetype='application/json')
 
 
-@app.route('/app/fields.json')
-def fields_json():
-    return Response(json.dumps(content['fields']), mimetype='application/json')
+# @app.route('/app/fields.json')
+# def fields_json():
+#     return Response(json.dumps(content['fields']), mimetype='application/json')
 
 
 @app.route('/schools/<path:slug>/')
@@ -85,17 +85,19 @@ def school(slug):
                   this_school['properties'].keys())
     this_school['locations'] = this_school['geometry']['coordinates']
 
-    ungrouped = {}
-    for key in this_school['properties']:
-      hide = False
-      for field in content['fields']:    
-        if ("osm" in field and field['osm'] == key) or ("kenyaopendata" in field and field['kenyaopendata'] == key) or key.startswith("osm:image"):
-          hide = True
-      if hide == False:
-        ungrouped[ key ] = this_school['properties'][ key ]
+    groups = ('Basics', 'Population', 'Infrastructure')
+    grouped_properties = {field['group']: []
+        for field in content['mapping']['fields']}
 
-    return render_template('school-profile.html',
-                           school=this_school, has_kod=has_kod, ungrouped=ungrouped)
+    for field in content['mapping']['fields']:
+        grouped_properties[field['group']].append({
+            'name': field['name'],
+            'osm': this_school['properties'].get(field['osm']),
+            'kod': this_school['properties'].get(field['kenyaopendata']),
+        })
+
+    return render_template('school-profile.html', school=this_school,
+        has_kod=has_kod, groups=groups, grouped_properties=grouped_properties)
 
 
 def school_url_generator():

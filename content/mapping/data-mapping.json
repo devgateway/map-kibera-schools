@@ -1,0 +1,162 @@
+{
+  "name": {
+    "osm": "osm:name",
+    "kenyaopendata": "kenyaopendata:official_name"
+  },
+  "fields": [
+    {
+      "name": "Education Level",
+      "osm": "osm:education:type",
+      "kenyaopendata": "kenyaopendata:Level of Education",
+      "group": "Basics"
+    },
+    {
+      "name": "Operator",
+      "osm": "osm:operator:name",
+      "kenyaopendata": "kenyaopendata:Sponsor of School",
+      "group": "Basics"
+    },
+    {
+      "name": "Type of School",
+      "osm": "osm:operator:type",
+      "kenyaopendata": "kenyaopendata:Status of School",
+      "group": "Basics"
+    },
+    {
+      "name": "Operator Description",
+      "osm": "osm:operator:description",
+      "kenyaopendata": null,
+      "group": "Basics"
+    },
+    {
+      "name": "Government Registration",
+      "osm": "osm:education:government_registered",
+      "kenyaopendata": null,
+      "group": "Basics"
+    },
+    {
+      "name": "School Head",
+      "osm": "osm:education:school_head",
+      "kenyaopendata": null,
+      "group": "Basics"
+    },
+    {
+      "name": "Village or ward",
+      "osm": "osm:place:village",
+      "kenyaopendata": "kenyaopendata:Location",
+      "group": "Basics"
+    },
+    {
+      "name": "Phone",
+      "osm": "osm:contact:phone",
+      "kenyaopendata": null,
+      "group": "Basics"
+    },
+    {
+      "name": "Address",
+      "osm": "osm:contact:address",
+      "kenyaopendata": null,
+      "group": "Basics"
+    },
+    {
+      "name": "Email",
+      "osm": "osm:contact:email",
+      "kenyaopendata": null,
+      "group": "Basics"
+    }, 
+    {
+      "name": "Accessibility",
+      "osm": "osm:accessibility",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Building Material",
+      "osm": "osm:building:material",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Roof Material",
+      "osm": "osm:building:roof",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Building Levels",
+      "osm": "osm:building:levels",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Boarding or not",
+      "osm": "osm:education:boarding",
+      "kenyaopendata": "kenyaopendata:School Institution Type_2",
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Toilet",
+      "osm": "osm:toilet:present",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Students",
+      "osm": "osm:education:students",
+      "kenyaopendata": "kenyaopendata:Total Enrolment",
+      "group": "Population"
+    },
+    { "name": "Male Students",
+      "osm": "osm:education:student_male",
+      "kenyaopendata": "kenyaopendata:Total Boys",
+      "group": "Population"
+    },
+    { "name": "Female Students",
+      "osm": "osm:education:student_female",
+      "kenyaopendata": "kenyaopendata:Total Girls",
+      "group": "Population"
+    },
+    {
+      "name": "Teachers",
+      "osm": "osm:education:teachers",
+      "kenyaopendata": "kenyaopendata:Total Teaching staff",
+      "group": "Population"
+    },
+    {
+      "name": "Counseling Program",
+      "osm": "osm:education:program_counselling",
+      "kenyaopendata": null,
+      "group": "Programs"
+    },
+    {
+      "name": "Management Committee",
+      "osm": "osm:education:management_committee",
+      "kenyaopendata": null,
+      "group": "Programs"
+    },
+    {
+      "name": "Sanitary Towel Program",
+      "osm": "osm:education:program_sanitary_towel",
+      "kenyaopendata": null,
+      "group": "Programs"
+    },
+    {
+      "name": "Feeding Program",
+      "osm": "osm:education:program_feeding",
+      "kenyaopendata": null,
+      "group": "Programs"
+    },
+    {
+      "name": "Counseling Program",
+      "osm": "osm:education:program_counselling",
+      "kenyaopendata": null,
+      "group": "Programs"
+    },
+    {
+      "name": "Scouts Extra-Curricular",
+      "osm": "osm:education:extra_schouts",
+      "kenyaopendata": null,
+      "group": "Programs"
+    }
+  ]
+}

@@ -36,8 +36,69 @@
     </script>
   </section>
 
+
+  {% macro dump_grouped_properties(namespace) %}
+    {% for group_name in groups %}
+      <h3>{{ group_name }}</h3>
+      <div class="h-scroll-container">
+        <table>
+          <thead>
+            <tr>
+              {% for field in grouped_properties[group_name] %}
+                {% if field[namespace] %}
+                  <th>{{ field.name }}</th>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {% for field in grouped_properties[group_name] %}
+                {% if field[namespace] %}
+                  <td>{{ field[namespace] }}</td>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    {% endfor %}
+  {% endmacro %}
+
+
   <section id="school-blurbs">
-    <div class="school-info-row header-stats">
+
+    <div class="school-info-tabs">
+      <div class="data-source-tab">
+        <h2>
+          <a href="#data-source-osm" class="data-selectable data-osm selected">Open Street Maps Data</a>
+        </h2>
+      </div>
+      <div class="data-source-tab">
+        <h2>
+          <a href="#data-source-kod" class="data-selectable data-kod">Kenya Open Data</a>
+        </h2>
+      </div>
+    </div>
+
+    <div class="school-info-data">
+      <div id="data-source-osm" class="data-selectable data-source-data data-osm selected">
+        <div class="school-stats school-more-stats">
+          {{ dump_grouped_properties('osm') }}
+        </div>
+      </div>
+      <div id="data-source-kod" class="data-selectable data-source-data data-kod">
+        {% if has_kod %}
+          <div class="school-stats school-more-stats">
+            {{ dump_grouped_properties('osm') }}
+          </div>
+        {% else %}
+          <p>No data available</p>
+        {% endif %}
+      </div>
+    </div>
+
+    {#<div class="school-info-row header-stats">
       <header class="school-stats">
         <p class="source">OSM Data</p>
         <h2>{{ school.name }}</h2>
@@ -68,88 +129,8 @@
           <h3>No data available</h3>
         {% endif %}
       </header>
-    </div>
+    </div>#}
 
-    {% macro cell(name, val=none, key=none) %}
-      {% set cell_value = val or school.properties[key] %}
-      {% if cell_value %}
-        <div class="cell">
-          <h4>{{ name }}</h4>
-          <span class="value">{{ cell_value | humandata }}</span>
-        </div>
-      {% endif %}
-    {% endmacro %}
-
-<!--
-    <div class="school-info-row">
-      <div class="school-stats stats-grid">
-        {% for field in content.fields %}
-          {{ cell( field.name, key=field.osm ) }}
-        {% endfor %}
-      </div>
-      {% if has_kod %}
-        <div class="school-stats stats-grid">
-        {% for field in content.fields %}
-          {{ cell( field.name, key=field.kenyaopendata ) }}
-        {% endfor %}
-        </div>
-      {% endif %}
-    </div>
--->
-
-    {% macro dump_grouped_properties(obj, namespace) %}
-        {% set groups = ['Basics','Population','Infrastructure'] %}
-        {% for group in groups %}
-            <h3>{{group}}</h3>
-            <table>
-            {% for field in content.fields %}
-              {% if field.group == group %}
-                {% set key = field[namespace] %}
-                {% if obj[key] is defined %}
-                <tr>
-                  <th>{{ field.name }}</th>
-                  {% set key = field[namespace] %}
-                  <td>{{ obj[ key ] }}</td>
-                </tr>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            </table>
-        {% endfor %}
-    {% endmacro %}
-    <div class="school-info-row">
-            <div class="school-stats school-more-stats">
-    {{ dump_grouped_properties(school.properties, 'osm') }}
-            </div>
-    {% if has_kod %}
-            <div class="school-stats school-more-stats">
-      {{ dump_grouped_properties(school.properties, 'kenyaopendata') }}
-            </div>
-    {% endif %}
-    </div>
-
-    {% macro dump_properties(obj, namespace) %}
-      <table>
-        {% for key in obj if key.startswith(namespace) %}
-          <tr>
-            <th>{{ key[(namespace|length+1):] }}</th>
-            <td>{{ obj[key] }}</td>
-          </tr>
-        {% endfor %}
-      </table>
-    {% endmacro %}
-    <div class="school-info-row">
-      <div class="school-stats school-more-stats">
-        <h3>All Available OSM Data</h3>
-        {{ dump_properties(ungrouped, 'osm') }}
-      </div>
-      {% if has_kod %}
-        <div class="school-stats school-more-stats">
-          <h3>All Available Kenya Open Data</h3>
-          {{ dump_properties(ungrouped, 'kenyaopendata') }}
-        </div>
-      {% endif %}
-    </div>
   </section>
 
   <section id="school-feedback">

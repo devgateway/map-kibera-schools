@@ -47,7 +47,7 @@
 
   var stepScroll = function scrollStep(startY, targetY, t) {
     if (scrollDuration - t < moveFrequency) {
-      window.setTimeout(window.scrollTo, scrollDuration - t, 0, targetY)
+      window.setTimeout(window.scrollTo, scrollDuration - t, 0, targetY);
       window.isAutoScrolling = false;
     } else {
       var normalized = t / scrollDuration;
@@ -74,8 +74,8 @@
 
   var getTargetOffsetFromTop = function getTargetOffsetFromTop(e) {
     var top = headerOffset * -1;
-    while (e.offsetParent != undefined && e.offsetParent != null) {
-      top += e.offsetTop + (e.clientTop != null ? e.clientTop : 0);
+    while (e.offsetParent !== undefined && e.offsetParent !== null) {
+      top += e.offsetTop + (e.clientTop !== null ? e.clientTop : 0);
       e = e.offsetParent;
     }
     return top;

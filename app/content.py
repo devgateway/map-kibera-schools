@@ -186,15 +186,14 @@ def load_schools(school_stuff):
     return sorted(schools, key=lambda s: s['name'].lower())
 
 
-@load('fields')
-def load_fields(field_stuff):
+@load('mapping')
+def load_mapping(mapping):
     """Load nice labels and metadata about the fields in the data"""
-    fields = []
-    for fields_file, _ in field_stuff:
-        fields_data = json.load(fields_file)
-        for f in fields_data:
-            fields.append(f)
-    return fields
+    mapped = {}
+    for mapping_file, _ in mapping:
+        mapping_data = json.load(mapping_file)
+        mapped.update(mapping_data)
+    return mapped
 
 
 @load('videos')

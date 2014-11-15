@@ -30,6 +30,7 @@
         "views/schools-stats.js",
         "views/widget-select.js",
         "views/widget-quicksearch.js",
+        "views/profile-data.js",
         "main.js"
       ],
       "filters": ["concat", "closure"]
