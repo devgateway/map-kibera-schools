@@ -9,7 +9,7 @@ app.views.SchoolPin = Backbone.View.extend({
 
   initialize: function(opts) {
     this.map = opts.map;
-    var locations = this.model.get('locations')
+    var locations = this.model.get('locations');
     this.locations = { osm: locations[0].reverse() };
     this.locations.kenyaopendata = locations[1] && locations[1].reverse();
 
@@ -37,14 +37,15 @@ app.views.SchoolPin = Backbone.View.extend({
     this.listenTo(this.model, 'change:cursored', this.updateCursored);
     this.listenTo(this.model, 'change:selected', this.updateSelected);
     this.listenTo(this.model, 'change:excluded', this.updateExcluded);
+    this.listenTo(this.model, 'change:location', this.updateLocation);
   },
 
   templatable: function() {
     // TODO: use cleaned-up values from new mappings
     var attrs = this.model.attributes;
     return {
-      name: attrs['name'],
-      slug: attrs['slug'],
+      name: attrs['name'],  // jshint ignore:line
+      slug: attrs['slug'],  // jshint ignore:line
       edType: attrs['osm:education:type'],
       opType: attrs['osm:operator:type']
     };
@@ -77,10 +78,12 @@ app.views.SchoolPin = Backbone.View.extend({
       this.model.collection.updateSelected(this.model);
     } else {
       this.model.set('selected', true);
+      this.updateSelected();
     }
   },
 
   updateSelected: function(myModel, selected) {
+    if (selected === void 0) { selected = this.model.get('selected'); }
     if (! selected) {
       return;
     }
@@ -103,6 +106,15 @@ app.views.SchoolPin = Backbone.View.extend({
         fillOpacity: 0.667
       }).bringToFront();
     }
+  },
+
+  updateLocation: function() {
+    if (this.model.get('location') > this.model.get('locations').length - 1) {
+      return;  // we don't have a location for that data source
+    }
+    this.marker.setLatLng(this.model.get('locations')[this.model.get('location')]);
+    this.popup.setLatLng(this.model.get('locations')[this.model.get('location')]);
+    this.updateSelected();
   }
 
 });

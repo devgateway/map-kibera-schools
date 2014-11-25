@@ -8,6 +8,7 @@ app.views.ProfileData = Backbone.View.extend({
     $('.data-selectable').removeClass('selected');
     var source = e.currentTarget.getAttribute('href').split('-').slice(-1)[0];
     $('.data-' + source).addClass('selected');
+    this.model.set('location', {osm: 0, kod:1 }[source]);
     return false;
   }
 

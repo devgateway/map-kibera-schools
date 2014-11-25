@@ -4,7 +4,8 @@ app.models.School = Backbone.Model.extend({
     _filterScore: 1,  // filters write to this
     excluded: false,  // other things watch/read this.
     cursored: false,  // only one should be cursored at a time
-    selected: false  // only one should be selected at a time
+    selected: false,  // only one should be selected at a time
+    location: 0       // show OSM location by default
   }
 
 });
@@ -12,7 +13,7 @@ app.models.School = Backbone.Model.extend({
 app.models.Schools = Backbone.Collection.extend({
 
   url: '/app/schools.json',  // app-optimized version of the standard
-                          // `schools.geojson` so that we can do less work.
+                             // `schools.geojson` so that we can do less work.
 
   comparator: 'name',
 

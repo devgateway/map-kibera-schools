@@ -50,12 +50,14 @@
   };
 
   app.pages.schoolProfile = function schoolProfile() {
-    new app.views.MapOneSchool({
+    var schoolModel = new app.models.School(school); // from global scope
+    window.v = new app.views.MapOneSchool({
       el: $('#school-map-display'),
-      model: new app.models.School(school)  // from global scope
+      model: schoolModel
     }).render();
     new app.views.ProfileData({
-      el: $('#school-blurbs')
+      el: $('#school-blurbs'),
+      model: schoolModel
     });
   };
 

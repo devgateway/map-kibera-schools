@@ -24,7 +24,7 @@ app.views.Map = Backbone.View.extend({
           '<div class="fb-like" data-href="http://schools.mapkibera.org/schools/{{ school.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>' +
         '</div>');
     }
-    new app.views.SchoolPin(pinOptions);
+    return new app.views.SchoolPin(pinOptions);
   }
 
 });
