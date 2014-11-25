@@ -1,12 +1,6 @@
-Data data data data
-===================
+Download the Data
+=================
 
-Blah blah blah. The top heading comes from the title so don't add it here.
+Download the data to conduct your analysis, provide your own insights, and tell your story.
 
-## But this is markdown, so go nuts.
-
-For example, links: [raw schools data](/schools.json)
-
-  * always remember
-  * in every case a list is
-  * so professional
+[Open Schools Kenya Data](/schools.json)
