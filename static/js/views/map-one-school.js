@@ -7,6 +7,6 @@ app.views.MapOneSchool = Backbone.View.extend({
       this.model.get('locations')[this.model.get('location')],
       app.config.map.localZoom);
     this.model.set('selected', true);
-  },
+  }
 
 });
