@@ -14,18 +14,20 @@
       {% for video in content.videos %}
         <li id="video-{{ loop.index }}" class="slide {{ 'selected' if loop.first }}">
           <div class="video">
-            {% if video.youtubid %}
-              <a href="https://www.youtube.com/watch?v={{ video.youtubeid }}" data-youtubeid="{{ video.youtubeid }}">
-            {% elif video.url %}
-              <a href="{{ video.url }}">
-            {% else %}
-              <a>
-            {% endif %}
-            {% if video.image %}
-              <img class="video-screenshot" src="{{ video.image }}" />
-            {% else %}
-              <img class="video-screenshot" src="{{ url_for('static', filename='img/kibera-screenshot.jpg') }}" alt="screenshot of a video in kibera" />
-            {% endif %}
+            <a
+              {% if video.youtubeid %}
+                href="https://www.youtube.com/watch?v={{ video.youtubeid }}"
+                data-youtubeid="{{ video.youtubeid }}"
+              {% elif video.url %}
+                href="{{ video.url }}"
+              {% else %}
+                {# hacky way to indicate an error #}
+                {{ video_missing_youtubeid_or_url[''] }}
+              {% endif %} >
+              <img class="video-screenshot"
+                src="{{ video.image or url_for('static', filename='img/kibera-screenshot.jpg') }}"
+                alt="Kibera video thumbnail"
+                title="{{ video.title }}" />
             </a>
           </div>
           <div class="video-meta">

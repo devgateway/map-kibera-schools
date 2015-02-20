@@ -27,6 +27,9 @@
   u.eachNode(slides, function(node) {
     var vidActivator = node.querySelector('.video a');
     u.on(vidActivator, 'click', function(e) {
+      if (!this.dataset.youtubeid) {
+        return;  // not an embedded video, let what happens, happen.
+      }
       u.stop(e);
       var videoID = this.dataset.youtubeid;
       if (! videoID) { return; }
