@@ -5,6 +5,9 @@ app.views.Map = Backbone.View.extend({
     map.setView(app.config.map.centre, app.config.map.zoom);
     var tiles = L.tileLayer(app.config.map.tiles);
     tiles.addTo(map);
+    map.on('click', function() {
+      app.view.mapfilters && app.view.mapfilters.filters.collapseAll();
+    });
     this.map = map;
   },
 

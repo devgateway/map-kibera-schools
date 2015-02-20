@@ -111,7 +111,11 @@ app.filterWidgets.Select = Backbone.View.extend({
 
   selectUIActivate: function(e) {
     e.preventDefault();
-    this.model.set('expanded', !this.model.get('expanded'));
+    var wasExpanded = this.model.get('expanded');
+    this.model.collection.collapseAll();
+    if (!wasExpanded) {
+      this.model.set('expanded', true);
+    }
   },
 
   selectCursored: function() {

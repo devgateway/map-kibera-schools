@@ -21,6 +21,12 @@ app.models.Filters = Backbone.Collection.extend({
     this.each(function(filter) {
       filter.trigger('filtersupdated');
     });
+  },
+
+  collapseAll: function() {
+    _(this.models).each(function(filter) {
+      filter.set('expanded', false);
+    });
   }
 
 });
