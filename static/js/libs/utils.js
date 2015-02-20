@@ -1,4 +1,4 @@
-;  // Open Schools Kenya | BSD License
+// Open Schools Kenya | BSD License
 
 (function exportUtils(u) {
   // pretend we have functional tools
@@ -27,7 +27,7 @@
     } else {
       event.returnValue = false;  // yeah the global event obj. ie8 is weird.
     }
-  }
+  };
 
   u.extend = function extend(out) {
     // youmightnotneedjquery implementation
@@ -88,7 +88,7 @@
     else {
       return new RegExp('(^| )' + className + '( |$)', 'gi').test(node.className);
     }
-  }
+  };
   // eventListener also inspired by youmightnotneedjquery
   u.on = function on(node, eventName, handler) {
     if (hasAddEvent) {

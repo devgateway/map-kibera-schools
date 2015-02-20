@@ -1,4 +1,3 @@
-
 (function initStickyNav() {
   var rootPath = window.location.pathname;
   var scrollTargetQuery = 'body > section';
