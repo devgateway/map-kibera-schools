@@ -215,6 +215,11 @@ def build_images():
         shutil.rmtree(dest)
     shutil.copytree(src, dest, ignore=shutil.ignore_patterns(('orig.*')))
 
+def build_csv():
+    src = os.path.join('content/download/kibera-combined-schools.csv')
+    dest = os.path.join('build', 'data/schools.csv')
+    shutil.copy(src, dest)
+
 @command
 def build(what, *args):
     # ensure the build folder exists
@@ -227,6 +232,7 @@ def build(what, *args):
     if what in ('all', 'html'):
         build_html()
         build_images()
+        build_csv()
 
     if what in ('all', 'static'):
         static_args = list(args)

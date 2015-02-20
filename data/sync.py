@@ -195,16 +195,19 @@ def cache_images():
   writefile('kibera-combined-schools.geojson',dump)
 
 def deploy():
+  os.system("rm kibera-combined-schools.csv")
+  os.system("ogr2ogr -f CSV kibera-combined-schools.csv kibera-combined-schools.geojson -lco GEOMETRY=AS_WKT")
   os.system("cp kibera-combined-schools.geojson ../content/schools/")
+  os.system("cp kibera-combined-schools.csv ../content/download/")
 
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-sync_osm()
-convert2geojson()
-compare_osm_kenyaopendata()
-cache_images()
-#deploy()
+#sync_osm()
+#convert2geojson()
+#compare_osm_kenyaopendata()
+#cache_images()
+deploy()
 
 #TODO generate statistics on each run of comparison results
 #TODO generate list of ODK schools unmapped
