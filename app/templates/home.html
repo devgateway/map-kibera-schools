@@ -71,7 +71,10 @@
             <h2>{{ story.title }}</h2>
             <img src='{{ story.image }}'/>
             <p>{{ story.description }}</p>
-            <p><a {% if story.action %}class="action-{{ story.action }}"{% endif %} href='{{ story.link }}'>{{ story.button }}</a></p>
+            <p>
+              <a {% if story.action %}class="action-{{ story.action }}"{% endif %} href='{{ story.link }}'>{{ story.button }}</a>
+              {% if story.button2 %}<a {% if story.action %}class="action-{{ story.action }}"{% endif %} href='{{ story.link2 }}'>{{ story.button2 }}</a>{% endif %}
+            </p>
         </li>
       {% endfor %}
     </ul>
