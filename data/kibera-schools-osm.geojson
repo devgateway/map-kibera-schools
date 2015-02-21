@@ -13033,9 +13033,6 @@
             "education:tsc_employed": "0",
             "education:type": "pre_primary",
             "electricity:operational_status": "always",
-            "image:classroom": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Flames%20Of%20Hope%20Primary%20School/class.JPG",
-            "image:compound": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Flames%20Of%20Hope%20Primary%20School/compound.JPG",
-            "image:outside": "https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Flames%20Of%20Hope%20Primary%20School/sign%20post.JPG",
             "name": "Kings Kid Kindergarten",
             "operator:name": "Mercy",
             "operator:type": "private",
@@ -13044,11 +13041,11 @@
         },
         "relations": [],
         "meta": {
-            "timestamp": "2015-01-03T18:36:40Z",
-            "version": "13",
-            "changeset": "27893083",
-            "user": "JamesLC",
-            "uid": "555655"
+            "timestamp": "2015-02-21T20:14:13Z",
+            "version": "14",
+            "changeset": "29007448",
+            "user": "mikelmaron",
+            "uid": "999"
         }
     },
     "geometry": {

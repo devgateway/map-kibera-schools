@@ -151,6 +151,8 @@ def clean_and_validate_school_geo(school_geo, _seen=set()):
     school_geo['slug'] = '{}/{}'.format(_id, slugify(school_geo['name']))
     if 'osm:images' in properties:
         properties['photos'] = properties['osm:images'].split(',')
+    if 'osm:large_images' in properties:
+        properties['large_photos'] = properties['osm:large_images'].split(',')
 
     # selected properties
     selection = (

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2015-02-20T12:11:02Z"/>
+<meta osm_base="2015-02-21T20:22:01Z"/>
 
   <bounds minlat="-1.3211" minlon="36.7651" maxlat="-1.3009" maxlon="36.8178"/>
 
@@ -8062,7 +8062,7 @@
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2950176594" lat="-1.3152087" lon="36.7788686" version="13" timestamp="2015-01-03T18:36:40Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2950176594" lat="-1.3152087" lon="36.7788686" version="14" timestamp="2015-02-21T20:14:13Z" changeset="29007448" uid="999" user="mikelmaron">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -8086,9 +8086,6 @@
     <tag k="education:tsc_employed" v="0"/>
     <tag k="education:type" v="pre_primary"/>
     <tag k="electricity:operational_status" v="always"/>
-    <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Flames%20Of%20Hope%20Primary%20School/class.JPG"/>
-    <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Flames%20Of%20Hope%20Primary%20School/compound.JPG"/>
-    <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Flames%20Of%20Hope%20Primary%20School/sign%20post.JPG"/>
     <tag k="name" v="Kings Kid Kindergarten"/>
     <tag k="operator:name" v="Mercy"/>
     <tag k="operator:type" v="private"/>

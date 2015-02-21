@@ -5,7 +5,7 @@ import os
 import geojson
 from geojson import MultiPoint
 import string
-import Image
+from PIL import Image
 
 north = -1.3000
 south = -1.3232
@@ -170,6 +170,17 @@ def cache_image(osm_id, osm_name, img_type, img_url):
         print "IMAGE ERROR,unknown extension," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
         #print "unknown extension error " + cache_dir + 'med' + fileExtension
         return
+
+    size = 1200, 900
+    if not os.path.exists(cache_dir + 'large' + fileExtension):
+      try:
+        im.thumbnail(size)
+        im.save(cache_dir + 'large' + fileExtension)
+      except KeyError:
+        print "IMAGE ERROR,unknown extension," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
+        #print "unknown extension error " + cache_dir + 'med' + fileExtension
+        return
+
   else:
     print "IMAGE ERROR,orig missing," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
     #print "orig image missing " + cache_dir + 'orig' + fileExtension
@@ -184,13 +195,17 @@ def cache_images():
   combined = geojson.loads(readfile('kibera-combined-schools.geojson'))
   for index, feature in enumerate(combined.features):
     images = []
+    large_images = []
     for prop in ["osm:image:classroom","osm:image:compound","osm:image:other", "osm:image:outside"]:
       if prop in feature['properties']:
         cache_image(feature['properties']['osm:id'], feature['properties']['osm:name'], prop, feature['properties'][prop])
         image = get_image_cache(feature['properties']['osm:id'], prop, feature['properties'][prop], 'med')
         images.append(image)
+        image = get_image_cache(feature['properties']['osm:id'], prop, feature['properties'][prop], 'large')
+        large_images.append(image)
     if len(images) > 0:
       combined.features[index]['properties']['osm:images'] = ','.join(images)
+      combined.features[index]['properties']['osm:large_images'] = ','.join(large_images)
   dump = geojson.dumps(combined, sort_keys=True, indent=2)
   writefile('kibera-combined-schools.geojson',dump)
 
@@ -203,10 +218,10 @@ def deploy():
 #TODO make command line configurable .. Fabric?  
 #kenyaopendata()
 #filter_kenyaopendata()
-#sync_osm()
-#convert2geojson()
-#compare_osm_kenyaopendata()
-#cache_images()
+sync_osm()
+convert2geojson()
+compare_osm_kenyaopendata()
+cache_images()
 deploy()
 
 #TODO generate statistics on each run of comparison results
