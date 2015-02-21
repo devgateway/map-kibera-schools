@@ -37,50 +37,64 @@
   </section>
 
 
-  {% macro dump_grouped_properties(namespace=none) %}
-    <div class="h-scroll-container">
-      <table class="data-all">
+  {% macro dump_data_table(group_name, namespace) %}
+    <table class="data">
+      {% if namespace is none %}
         <thead>
           <tr>
-            {% for group_name in groups %}
-              <th><h3>{{ group_name }}</h3></th>
-            {% endfor %}
+            <td></td>
+            <th>Open Street Maps</th>
+            <th>Kenya Open Data</th>
           </tr>
         </thead>
-        <tbody>
+      {% endif %}
+      <tbody>
+        {% for field in grouped_properties[group_name] %}
           <tr>
-            {% for group_name in groups %}
-              <td>
-                <table class="data">
-                  {% if namespace is none %}
-                    <thead>
-                      <tr>
-                        <td></td>
-                        <th>Open Street Maps</th>
-                        <th>Kenya Open Data</th>
-                      </tr>
-                    </thead>
-                  {% endif %}
-                  <tbody>
-                    {% for field in grouped_properties[group_name] %}
-                      <tr>
-                        <th>{{ field.name }}</th>
-                        {% if namespace is none %}
-                          <td>{{ field['osm'] }}</td>
-                          <td>{{ field['kod'] }}</td>
-                        {% else %}
-                          <td>{{ field[namespace] }}</td>
-                        {% endif %}
-                      </tr>
-                    {% endfor %}
-                  </tbody>
-                </table>
-              </td>
-            {% endfor %}
+            <th>{{ field.name }}</th>
+            {% if namespace is none %}
+              <td>{{ field['osm'] }}</td>
+              <td>{{ field['kod'] }}</td>
+            {% else %}
+              <td>{{ field[namespace] }}</td>
+            {% endif %}
           </tr>
-        </tbody>
-      </table>
-    </div>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endmacro %}
+
+
+  {% macro dump_grouped_properties(namespace=none) %}
+    {% if namespace is none %}
+      {% for group_name in groups %}
+        <h3>{{ group_name }}</h3>
+        <div class="h-scroll-container">
+          {{ dump_data_table(group_name, namespace) }}
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="h-scroll-container">
+        <table class="data-all">
+          <thead>
+            <tr>
+              {% for group_name in groups %}
+                <th><h3>{{ group_name }}</h3></th>
+              {% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {% for group_name in groups %}
+                <td>
+                  {{ dump_data_table(group_name, namespace) }}
+                </td>
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
   {% endmacro %}
 
 

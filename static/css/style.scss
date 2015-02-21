@@ -993,13 +993,16 @@ section#school-top {
   td {
     vertical-align: top;
   }
+}
 
-  .data {
-    th {
-      text-align: right;
-    }
-    td {
-      vertical-align: middle;
-    }
+.data {
+  th {
+    text-align: right;
+  }
+  thead th {
+    text-align: left;
+  }
+  td {
+    vertical-align: middle;
   }
 }
