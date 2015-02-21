@@ -20,7 +20,7 @@
     <!-- tag css
          template=<link rel="stylesheet" href="{path}" />
          -->
-<link rel="stylesheet" href="/static/css/e491a8cfd126b56478e7dee525353586a8bb5a4b.css" />
+<link rel="stylesheet" href="/static/css/f7175834e7b97f18d74a7788827f28684125f9c5.css" />
 <!-- endtag css -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
   </head>
@@ -34,9 +34,9 @@
         </a>
         <ul class="page-nav-links">
           
-            <li><a href="/#map" title="Kibera Schools Map"><span>Kibera Schools Map</span></a></li>
+            <li><a href="#school-map" title="School Map"><span>School Map</span></a></li>
           
-            <li><a href="/#stories" title="Highlights"><span>Highlights</span></a></li>
+            <li><a href="#school-blurbs" title="Highlights"><span>Highlights</span></a></li>
           
             <li><a href="/blog/#blog-posts" title="Blog"><span>Blog</span></a></li>
           
@@ -56,194 +56,123 @@
     
 
   <section id="school-top">
-    <h1><a href="/#map" class="back-to-schools-map"><span>Back to schools map</span></a> Inua Mimi Center</h1>
+    <h1>Inua Mimi Center</h1>
 
     
   </section>
 
   <section id="school-map">
+    <header class="map-controls">
+      <ul class="controls">
+        <li id="map-main">
+          <a class="activate" href="/#map">Back to Main Map</a>
+        </li>
+        <li id="data">
+          <a class="activate" href="/data/">Data</a>
+        </li>
+      </ul>
+      <div class="social">
+        <h3>Share</h3>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://schools.mapkibera.org/schools/1015625631/inua-mimi-center">Tweet</a>
+        <div class="fb-like" data-href="http://schools.mapkibera.org/schools/1015625631/inua-mimi-center" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+      </div>
+    </header>
     <div id="school-map-display" class="map"></div>
     <script>
-      var school = {"geometry": {"coordinates": [[36.777398, -1.3131336]], "type": "MultiPoint"}, "id": null, "locations": [[36.777398, -1.3131336]], "name": "Inua Mimi Center", "properties": {"name": "Inua Mimi Center", "osm:_timestamp": "2014-08-26T18:31:52Z", "osm:_user": "fondolucy", "osm:amenity": "school", "osm:education:gender_type": "mixed", "osm:education:type": "pre_primary", "osm:id": "node/1015625631", "osm:name": "Inua Mimi Center", "osm:operator:type": "private", "osm:place:village": "Olympic", "osm:source": "Map Kibera Trust"}, "selected_properties": {"osm:education:type": "pre_primary", "osm:operator:type": "private"}, "slug": "1015625631/inua-mimi-center", "type": "Feature"};
+      var school = {"geometry": {"coordinates": [[36.777398, -1.3131336]], "type": "MultiPoint"}, "id": null, "locations": [[36.777398, -1.3131336]], "name": "Inua Mimi Center", "properties": {"name": "Inua Mimi Center", "osm:_timestamp": "2010-12-02T09:31:31Z", "osm:_user": "hassanow", "osm:amenity": "school", "osm:id": "node/1015625631", "osm:name": "Inua Mimi Center"}, "selected_properties": {}, "slug": "1015625631/inua-mimi-center", "type": "Feature"};
     </script>
   </section>
 
-
-  
-
+  <section id="school-brief">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce neque elit, eleifend eget, hendrerit quis.</p>
+  </section>
 
   <section id="school-blurbs">
-
-    <div class="school-info-tabs">
-      <div class="data-source-tab">
-        <h2>
-          <a href="#data-source-osm" class="data-selectable data-osm selected">Open Street Maps Data</a>
-        </h2>
-      </div>
-      <div class="data-source-tab">
-        <h2>
-          <a href="#data-source-kod" class="data-selectable data-kod">Kenya Open Data</a>
-        </h2>
-      </div>
-    </div>
-
-    <div class="school-info-data">
-      <div id="data-source-osm" class="data-selectable data-source-data data-osm selected">
-        <div class="school-stats school-more-stats">
-          
-    
-      <h3>Basics</h3>
-      <div class="h-scroll-container">
-        <table>
-          <thead>
-            <tr>
-              
-                
-                  <th>Education Level</th>
-                
-              
-                
-              
-                
-                  <th>Type of School</th>
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <th>Village or ward</th>
-                
-              
-                
-              
-                
-              
-                
-              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              
-                
-                  <td>pre_primary</td>
-                
-              
-                
-              
-                
-                  <td>private</td>
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <td>Olympic</td>
-                
-              
-                
-              
-                
-              
-                
-              
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    
-      <h3>Population</h3>
-      <div class="h-scroll-container">
-        <table>
-          <thead>
-            <tr>
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    
-      <h3>Infrastructure</h3>
-      <div class="h-scroll-container">
-        <table>
-          <thead>
-            <tr>
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    
-  
-        </div>
-      </div>
-      <div id="data-source-kod" class="data-selectable data-source-data data-kod">
+    <div class="school-info-row header-stats">
+      <header class="school-stats">
+        <p class="source">OSM Data</p>
+        <h2>Inua Mimi Center</h2>
         
-          <p>No data available</p>
         
-      </div>
+        <small>Location: -1.3131336, 36.777398</small>
+      </header>
+      <header class="school-stats">
+        <p class="source">Kenya Open Data</p>
+        <h2></h2>
+        
+        
+        
+        
+          <h2>&nbsp;</h2>
+          <h3>No data available</h3>
+        
+      </header>
     </div>
 
     
+    <div class="school-info-row">
+      <div class="school-stats stats-grid">
+        
+      
+      
+    
+        
+      
+      
+    
+        
+      
+      
+    
+        
+      
+      
+    
+        
+      
+      
+    
+      </div>
+      
+    </div>
 
+    
+    <div class="school-info-row">
+      <div class="school-stats school-more-stats">
+        <h3>All Available OSM Data</h3>
+        
+      <table>
+        
+          <tr>
+            <th>_user</th>
+            <td>hassanow</td>
+          </tr>
+        
+          <tr>
+            <th>_timestamp</th>
+            <td>2010-12-02T09:31:31Z</td>
+          </tr>
+        
+          <tr>
+            <th>amenity</th>
+            <td>school</td>
+          </tr>
+        
+          <tr>
+            <th>id</th>
+            <td>node/1015625631</td>
+          </tr>
+        
+          <tr>
+            <th>name</th>
+            <td>Inua Mimi Center</td>
+          </tr>
+        
+      </table>
+    
+      </div>
+      
+    </div>
   </section>
 
   <section id="school-feedback">
@@ -285,7 +214,7 @@
           <address>
             <dl>
               <dt class="address-email">Email</dt>
-              <dd><a href='mailto:contact@mapkibera.org'>contact@mapkibera.org</a></dd>
+              <dd><img src="http://mapkibera.org/kibera-email.png"/></dd>
             </dl>
           </address>
         </div>
@@ -295,7 +224,7 @@
 <!-- Begin MailChimp Signup Form -->
 <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -314,21 +243,23 @@
       <div class="footer-copyright">
 
         <div id="copyright">
-          <small>
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0;" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /> This work is licensed under Creative Commons Attribution 4.0 International License</a>.
-          </small>
-          <p>
-            <small class='credits'>
-              Icon Credits:
-              Teacher designed by <a href="http://www.thenounproject.com/pchuchla">Piotrek Chuchla</a>, Light Bulb designed by <a href="http://www.thenounproject.com/pascual.bilotta">Pascual Bilotta</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
-            </small>
-          </p>
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
         </div>
+
+        <ul class="footer-social-links social">
+          
+            <li><a href="https://www.facebook.com/groups/mapkibera/" class="icon-facebook" title="Facebook" target="_top">Facebook</a></li>
+          
+            <li><a href="https://twitter.com/mapkibera" class="icon-twitter" title="Twitter" target="_top">Twitter</a></li>
+          
+        </ul>
+
       </div>
+    </footer>
     <!-- tag js
          template=<script src="{path}"></script>
          -->
-<script src="/static/js/933ada8ddcfba848829676bfb2abede0484fc8db.js"></script>
+<script src="/static/js/d784f024a4bf2ff7a301667bc101e70ce7cba97e.js"></script>
 <!-- endtag js -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>

@@ -20,7 +20,7 @@
     <!-- tag css
          template=<link rel="stylesheet" href="{path}" />
          -->
-<link rel="stylesheet" href="/static/css/e491a8cfd126b56478e7dee525353586a8bb5a4b.css" />
+<link rel="stylesheet" href="/static/css/f7175834e7b97f18d74a7788827f28684125f9c5.css" />
 <!-- endtag css -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" />
   </head>
@@ -29,8 +29,7 @@
     <header id="page-header">
       <nav>
         <a class="accent" href="/" title="Open Schools Kenya Home">
-          <small>Feedback Labs</small>
-          <h1>Open Schools Kenya</h1>
+          <h1>Map Kibera</h1>
         </a>
         <ul class="page-nav-links">
           
@@ -64,9 +63,12 @@
   <section id="school-map">
     <div id="school-map-display" class="map"></div>
     <script>
-      var school = {"geometry": {"coordinates": [[36.7868288, -1.3117502]], "type": "MultiPoint"}, "id": null, "locations": [[36.7868288, -1.3117502]], "name": "God\u0027s Mercy Academy", "properties": {"name": "God\u0027s Mercy Academy", "osm:_timestamp": "2014-08-21T08:47:00Z", "osm:_user": "muindre", "osm:accessibility": "big_vehicles", "osm:amenity": "school", "osm:building:material": "ironsheets", "osm:building:roof": "ironsheets", "osm:contact:address": "P.O Box 244224-00100", "osm:contact:email": "godsmercyacademy2gmail.com", "osm:contact:phone": "0725296860", "osm:education:curriculum": "8_4_4", "osm:education:extra_drama": "yes", "osm:education:extra_music": "yes", "osm:education:extra_scouts": "yes", "osm:education:fees": "1,800", "osm:education:fees_level1": "1,800", "osm:education:fees_level2": "1,800", "osm:education:fees_level3": "1,800", "osm:education:gender_type": "mixed", "osm:education:government_registered": "yes", "osm:education:management_committee": "yes", "osm:education:program_counselling": "yes", "osm:education:program_feeding": "yes", "osm:education:student_female": "39", "osm:education:student_male": "41", "osm:education:students": "80", "osm:education:teachers": "3", "osm:education:teachers_female": "3", "osm:education:type": "pre_primary", "osm:electricity:operational_status": "often", "osm:id": "node/2923513487", "osm:name": "God\u0027s Mercy Academy", "osm:operator:name": "God\u0027s Mercy Centre", "osm:operator:type": "cbo", "osm:place:village": "Kisumu ndogo", "osm:toilet:arranged_name": "Darajani youth group", "osm:toilet:present": "arranged"}, "selected_properties": {"osm:education:teachers": "3", "osm:education:type": "pre_primary", "osm:operator:type": "cbo"}, "slug": "2923513487/gods-mercy-academy", "type": "Feature"};
+      var school = {"geometry": {"coordinates": [[36.7868288, -1.3117502]], "type": "MultiPoint"}, "id": null, "locations": [[36.7868288, -1.3117502]], "name": "God\u0027s Mercy Academy", "properties": {"name": "God\u0027s Mercy Academy", "osm:_timestamp": "2015-01-03T18:35:50Z", "osm:_user": "JamesLC", "osm:accessibility": "big_vehicles", "osm:amenity": "school", "osm:building:material": "ironsheets", "osm:building:roof": "ironsheets", "osm:contact:address": "P.O Box 244224-00100", "osm:contact:email": "godsmercyacademy2gmail.com", "osm:contact:phone": "0725296860", "osm:education:curriculum": "8_4_4", "osm:education:extra_drama": "yes", "osm:education:extra_music": "yes", "osm:education:extra_scouts": "yes", "osm:education:fees": "1,800", "osm:education:fees_level1": "1,800", "osm:education:fees_level2": "1,800", "osm:education:fees_level3": "1,800", "osm:education:gender_type": "mixed", "osm:education:government_registered": "yes", "osm:education:management_committee": "yes", "osm:education:program_counselling": "yes", "osm:education:program_feeding": "yes", "osm:education:students": "80", "osm:education:students_female": "39", "osm:education:students_male": "41", "osm:education:teachers": "3", "osm:education:teachers_female": "3", "osm:education:type": "pre_primary", "osm:electricity:operational_status": "often", "osm:id": "node/2923513487", "osm:name": "God\u0027s Mercy Academy", "osm:operator:name": "God\u0027s Mercy Centre", "osm:operator:type": "cbo", "osm:place:village": "Kisumu Ndogo", "osm:toilet:arranged_name": "Darajani youth group", "osm:toilet:present": "arranged"}, "selected_properties": {"osm:education:students_female": "39", "osm:education:students_male": "41", "osm:education:teachers": "3", "osm:education:type": "pre_primary", "osm:operator:type": "cbo"}, "slug": "2923513487/gods-mercy-academy", "type": "Feature"};
     </script>
   </section>
+
+
+  
 
 
   
@@ -80,9 +82,14 @@
           <a href="#data-source-osm" class="data-selectable data-osm selected">Open Street Maps Data</a>
         </h2>
       </div>
-      <div class="data-source-tab">
+      <div class="data-source-tab empty">
         <h2>
           <a href="#data-source-kod" class="data-selectable data-kod">Kenya Open Data</a>
+        </h2>
+      </div>
+      <div class="data-source-tab empty">
+        <h2>
+          <a href="#data-source-compare" class="data-selectable data-compare">Compare</a>
         </h2>
       </div>
     </div>
@@ -92,192 +99,194 @@
         <div class="school-stats school-more-stats">
           
     
-      <h3>Basics</h3>
       <div class="h-scroll-container">
-        <table>
+        <table class="data-all">
           <thead>
             <tr>
               
-                
-                  <th>Education Level</th>
-                
+                <th><h3>Basics</h3></th>
               
-                
-                  <th>Operator</th>
-                
+                <th><h3>Population</h3></th>
               
-                
-                  <th>Type of School</th>
-                
-              
-                
-              
-                
-                  <th>Government Registration</th>
-                
-              
-                
-              
-                
-                  <th>Village or ward</th>
-                
-              
-                
-                  <th>Phone</th>
-                
-              
-                
-                  <th>Address</th>
-                
-              
-                
-                  <th>Email</th>
-                
+                <th><h3>Infrastructure</h3></th>
               
             </tr>
           </thead>
           <tbody>
             <tr>
               
-                
-                  <td>pre_primary</td>
-                
+                <td>
+                  
+    <table class="data">
+      
+      <tbody>
+        
+          <tr>
+            <th>Education Level</th>
+            
+              <td>pre_primary</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Operator</th>
+            
+              <td>God&#39;s Mercy Centre</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Type of School</th>
+            
+              <td>cbo</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Operator Description</th>
+            
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Government Registration</th>
+            
+              <td>yes</td>
+            
+          </tr>
+        
+          <tr>
+            <th>School Head</th>
+            
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Village or ward</th>
+            
+              <td>Kisumu Ndogo</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Phone</th>
+            
+              <td>0725296860</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Address</th>
+            
+              <td>P.O Box 244224-00100</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Email</th>
+            
+              <td>godsmercyacademy2gmail.com</td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+  
+                </td>
               
-                
-                  <td>God&#39;s Mercy Centre</td>
-                
+                <td>
+                  
+    <table class="data">
+      
+      <tbody>
+        
+          <tr>
+            <th>Students</th>
+            
+              <td>80</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Male Students</th>
+            
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Female Students</th>
+            
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Teachers</th>
+            
+              <td>3</td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+  
+                </td>
               
-                
-                  <td>cbo</td>
-                
-              
-                
-              
-                
-                  <td>yes</td>
-                
-              
-                
-              
-                
-                  <td>Kisumu ndogo</td>
-                
-              
-                
-                  <td>0725296860</td>
-                
-              
-                
-                  <td>P.O Box 244224-00100</td>
-                
-              
-                
-                  <td>godsmercyacademy2gmail.com</td>
-                
-              
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    
-      <h3>Population</h3>
-      <div class="h-scroll-container">
-        <table>
-          <thead>
-            <tr>
-              
-                
-                  <th>Students</th>
-                
-              
-                
-                  <th>Male Students</th>
-                
-              
-                
-                  <th>Female Students</th>
-                
-              
-                
-                  <th>Teachers</th>
-                
-              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              
-                
-                  <td>80</td>
-                
-              
-                
-                  <td>41</td>
-                
-              
-                
-                  <td>39</td>
-                
-              
-                
-                  <td>3</td>
-                
-              
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    
-      <h3>Infrastructure</h3>
-      <div class="h-scroll-container">
-        <table>
-          <thead>
-            <tr>
-              
-                
-                  <th>Accessibility</th>
-                
-              
-                
-                  <th>Building Material</th>
-                
-              
-                
-                  <th>Roof Material</th>
-                
-              
-                
-              
-                
-              
-                
-                  <th>Toilet</th>
-                
-              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              
-                
-                  <td>big_vehicles</td>
-                
-              
-                
-                  <td>ironsheets</td>
-                
-              
-                
-                  <td>ironsheets</td>
-                
-              
-                
-              
-                
-              
-                
-                  <td>arranged</td>
-                
+                <td>
+                  
+    <table class="data">
+      
+      <tbody>
+        
+          <tr>
+            <th>Accessibility</th>
+            
+              <td>big_vehicles</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Building Material</th>
+            
+              <td>ironsheets</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Roof Material</th>
+            
+              <td>ironsheets</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Building Levels</th>
+            
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Boarding or not</th>
+            
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Toilet</th>
+            
+              <td>arranged</td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+  
+                </td>
               
             </tr>
           </tbody>
@@ -292,9 +301,236 @@
           <p>No data available</p>
         
       </div>
-    </div>
-
+      <div id="data-source-compare" class="data-selectable data-source-data data-compare">
+        <div class="school-stats school-more-stats">
+          
     
+      
+        <h3>Basics</h3>
+        <div class="h-scroll-container">
+          
+    <table class="data">
+      
+        <thead>
+          <tr>
+            <td></td>
+            <th>Open Street Maps</th>
+            <th>Kenya Open Data</th>
+          </tr>
+        </thead>
+      
+      <tbody>
+        
+          <tr>
+            <th>Education Level</th>
+            
+              <td>pre_primary</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Operator</th>
+            
+              <td>God&#39;s Mercy Centre</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Type of School</th>
+            
+              <td>cbo</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Operator Description</th>
+            
+              <td>None</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Government Registration</th>
+            
+              <td>yes</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>School Head</th>
+            
+              <td>None</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Village or ward</th>
+            
+              <td>Kisumu Ndogo</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Phone</th>
+            
+              <td>0725296860</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Address</th>
+            
+              <td>P.O Box 244224-00100</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Email</th>
+            
+              <td>godsmercyacademy2gmail.com</td>
+              <td>None</td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+  
+        </div>
+      
+        <h3>Population</h3>
+        <div class="h-scroll-container">
+          
+    <table class="data">
+      
+        <thead>
+          <tr>
+            <td></td>
+            <th>Open Street Maps</th>
+            <th>Kenya Open Data</th>
+          </tr>
+        </thead>
+      
+      <tbody>
+        
+          <tr>
+            <th>Students</th>
+            
+              <td>80</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Male Students</th>
+            
+              <td>None</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Female Students</th>
+            
+              <td>None</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Teachers</th>
+            
+              <td>3</td>
+              <td>None</td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+  
+        </div>
+      
+        <h3>Infrastructure</h3>
+        <div class="h-scroll-container">
+          
+    <table class="data">
+      
+        <thead>
+          <tr>
+            <td></td>
+            <th>Open Street Maps</th>
+            <th>Kenya Open Data</th>
+          </tr>
+        </thead>
+      
+      <tbody>
+        
+          <tr>
+            <th>Accessibility</th>
+            
+              <td>big_vehicles</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Building Material</th>
+            
+              <td>ironsheets</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Roof Material</th>
+            
+              <td>ironsheets</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Building Levels</th>
+            
+              <td>None</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Boarding or not</th>
+            
+              <td>None</td>
+              <td>None</td>
+            
+          </tr>
+        
+          <tr>
+            <th>Toilet</th>
+            
+              <td>arranged</td>
+              <td>None</td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+  
+        </div>
+      
+    
+  
+        </div>
+      </div>
+    </div>
 
   </section>
 
@@ -344,25 +580,43 @@
 
         <div id="newsletter">
           <h2>Newsletter</h2>
-<!-- Begin MailChimp Signup Form -->
-<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="http://mapkibera.us7.list-manage1.com/subscribe/post?u=d96a4d401d5545ac3b07d7da4&amp;id=97ff270c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<label for="mce-EMAIL">Subscribe to our mailing list</label>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</form>
-</div>
+          <!-- Begin MailChimp Signup Form -->
+          <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+          	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+          	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+          	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+          <form action="http://mapkibera.us7.list-manage1.com/subscribe/post?u=d96a4d401d5545ac3b07d7da4&amp;id=97ff270c9d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+          	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </form>
+          </div>
 
-<!--End mc_embed_signup-->
+          <!--End mc_embed_signup-->
         </div>
 
       </div>
+
+
+      <div class="org-credits">
+        <a class="org-link" href="http://www.gatesfoundation.org/">
+          <img src="/static/img/bmg.png" alt="Bill & Melinda Gates Foundation" title="Bill & Melinda Gates Foundation" />
+        </a>
+        <a class="org-link" href="http://feedbacklabs.org/">
+          <img src="/static/img/fl.png" alt="Feedback Labs" title="Feedback Labs" />
+        </a>
+        <a class="org-link" href="http://groundtruth.in/">
+          <img src="/static/img/gt.png" alt="Ground Truth" title="Ground Truth" />
+        </a>
+        <a class="org-link" href="http://www.developmentgateway.org/">
+          <img src="/static/img/dg.png" alt="Development Gateway" title="Development Gateway" />
+        </a>
+      </div>
+
+
       <div class="footer-copyright">
 
         <div id="copyright">
@@ -380,7 +634,7 @@
     <!-- tag js
          template=<script src="{path}"></script>
          -->
-<script src="/static/js/933ada8ddcfba848829676bfb2abede0484fc8db.js"></script>
+<script src="/static/js/d784f024a4bf2ff7a301667bc101e70ce7cba97e.js"></script>
 <!-- endtag js -->
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>
