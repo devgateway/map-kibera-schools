@@ -37,7 +37,7 @@
   </section>
 
 
-  {% macro dump_grouped_properties(namespace) %}
+  {% macro dump_grouped_properties(namespace=none) %}
     <div class="h-scroll-container">
       <table class="data-all">
         <thead>
@@ -52,11 +52,25 @@
             {% for group_name in groups %}
               <td>
                 <table class="data">
+                  {% if namespace is none %}
+                    <thead>
+                      <tr>
+                        <td></td>
+                        <th>Open Street Maps</th>
+                        <th>Kenya Open Data</th>
+                      </tr>
+                    </thead>
+                  {% endif %}
                   <tbody>
                     {% for field in grouped_properties[group_name] %}
                       <tr>
                         <th>{{ field.name }}</th>
-                        <td>{{ field[namespace] }}</td>
+                        {% if namespace is none %}
+                          <td>{{ field['osm'] }}</td>
+                          <td>{{ field['kod'] }}</td>
+                        {% else %}
+                          <td>{{ field[namespace] }}</td>
+                        {% endif %}
                       </tr>
                     {% endfor %}
                   </tbody>
@@ -78,9 +92,14 @@
           <a href="#data-source-osm" class="data-selectable data-osm selected">Open Street Maps Data</a>
         </h2>
       </div>
-      <div class="data-source-tab">
+      <div class="data-source-tab {{ 'empty' if not has_kod else '' }}">
         <h2>
           <a href="#data-source-kod" class="data-selectable data-kod">Kenya Open Data</a>
+        </h2>
+      </div>
+      <div class="data-source-tab {{ 'empty' if not has_kod else '' }}">
+        <h2>
+          <a href="#data-source-compare" class="data-selectable data-compare">Compare</a>
         </h2>
       </div>
     </div>
@@ -99,6 +118,11 @@
         {% else %}
           <p>No data available</p>
         {% endif %}
+      </div>
+      <div id="data-source-compare" class="data-selectable data-source-data data-compare">
+        <div class="school-stats school-more-stats">
+          {{ dump_grouped_properties() }}
+        </div>
       </div>
     </div>
 

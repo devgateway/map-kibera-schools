@@ -585,6 +585,10 @@ section#school-top {
 .school-info-tabs {
   .data-source-tab {
     display: inline-block;
+    &.empty a {
+      color: darken($c-med, 10%);
+      border-color: $c-med;
+    }
   }
   h2 {
     display: inline-block;
@@ -993,6 +997,9 @@ section#school-top {
   .data {
     th {
       text-align: right;
+    }
+    td {
+      vertical-align: middle;
     }
   }
 }
