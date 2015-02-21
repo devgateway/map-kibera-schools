@@ -199,6 +199,8 @@ def build_static(what, for_):
         copy_static('fonts')
     if what in ('all', 'tiles'):
         copy_static('tiles')
+    if what in ('all', 'blog-images'):
+        copy_static('blog-images')
     if what in ('all', 'root'):
         if for_ is None:
             print('Skipping root files, no build target set')

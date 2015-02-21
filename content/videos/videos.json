@@ -2,12 +2,13 @@
   {
     "title": "Education in Kibera - a video for the Open Schools Kenya project",
     "description": " ",
-    "youtubeid": "YL-L3pEf6Jg"
+    "youtubeid": "YL-L3pEf6Jg",
+    "image": "/static/blog-images/education-video.png"
   },
   {
     "title": "Making Education Information Available to All in Kibera",
     "description": "Many people collect information about education - and they sometimes make it open and free to use. So, why isn't it easy to find information about a particular school - for a parent, or for an education researcher? Much of the information that's out there isn't connected to the other data - and especially when it comes to informal schools, which provide a great deal of the education services in places like informal settlements.",
     "url": "/blog/making-education-information-available-to-all-in-kibera/",
-    "image": "http://www.mapkibera.org/blog/wp-content/uploads/2014/07/Douglas-at-Emuhaya-Rescue-center-1024x768.jpg"
+    "image": "/static/blog-images/Douglas-at-Emuhaya-Rescue-center.jpg"
   }
 ]
