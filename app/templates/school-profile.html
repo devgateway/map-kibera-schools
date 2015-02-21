@@ -38,33 +38,35 @@
 
 
   {% macro dump_grouped_properties(namespace) %}
-    <table class="data-all">
-      <thead>
-        <tr>
-          {% for group_name in groups %}
-            <th><h3>{{ group_name }}</h3></th>
-          {% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          {% for group_name in groups %}
-            <td>
-              <table class="data">
-                <tbody>
-                  {% for field in grouped_properties[group_name] %}
-                    <tr>
-                      <th>{{ field.name }}</th>
-                      <td>{{ field[namespace] }}</td>
-                    </tr>
-                  {% endfor %}
-                </tbody>
-              </table>
-            </td>
-          {% endfor %}
-        </tr>
-      </tbody>
-    </table>
+    <div class="h-scroll-container">
+      <table class="data-all">
+        <thead>
+          <tr>
+            {% for group_name in groups %}
+              <th><h3>{{ group_name }}</h3></th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for group_name in groups %}
+              <td>
+                <table class="data">
+                  <tbody>
+                    {% for field in grouped_properties[group_name] %}
+                      <tr>
+                        <th>{{ field.name }}</th>
+                        <td>{{ field[namespace] }}</td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </td>
+            {% endfor %}
+          </tr>
+        </tbody>
+      </table>
+    </div>
   {% endmacro %}
 
 
