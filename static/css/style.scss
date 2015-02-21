@@ -976,3 +976,23 @@ section#school-top {
     }
   }
 }
+
+
+
+.data-all {
+
+  margin: $pad-v;
+
+  h3 {
+    margin: 0 0 0.5em;
+  }
+  td {
+    vertical-align: top;
+  }
+
+  .data {
+    th {
+      text-align: right;
+    }
+  }
+}

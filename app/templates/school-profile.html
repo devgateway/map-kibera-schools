@@ -38,31 +38,33 @@
 
 
   {% macro dump_grouped_properties(namespace) %}
-    {% for group_name in groups %}
-      <h3>{{ group_name }}</h3>
-      <div class="h-scroll-container">
-        <table>
-          <thead>
-            <tr>
-              {% for field in grouped_properties[group_name] %}
-                {% if field[namespace] %}
-                  <th>{{ field.name }}</th>
-                {% endif %}
-              {% endfor %}
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              {% for field in grouped_properties[group_name] %}
-                {% if field[namespace] %}
-                  <td>{{ field[namespace] }}</td>
-                {% endif %}
-              {% endfor %}
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    {% endfor %}
+    <table class="data-all">
+      <thead>
+        <tr>
+          {% for group_name in groups %}
+            <th><h3>{{ group_name }}</h3></th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          {% for group_name in groups %}
+            <td>
+              <table class="data">
+                <tbody>
+                  {% for field in grouped_properties[group_name] %}
+                    <tr>
+                      <th>{{ field.name }}</th>
+                      <td>{{ field[namespace] }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </td>
+          {% endfor %}
+        </tr>
+      </tbody>
+    </table>
   {% endmacro %}
 
 
@@ -97,39 +99,6 @@
         {% endif %}
       </div>
     </div>
-
-    {#<div class="school-info-row header-stats">
-      <header class="school-stats">
-        <p class="source">OSM Data</p>
-        <h2>{{ school.name }}</h2>
-
-        {% set num_students = (school.properties['osm:education:students_male'] or 0)|int +
-                              (school.properties['osm:education:students_female'] or 0)|int %}
-        {% if num_students > 0 %}
-          <h3>{{ num_students }} Students</h3>
-        {% endif %}
-
-        <small>Location: {{ school.geometry.coordinates[0] | reverse | join(', ') }}</small>
-      </header>
-      <header class="school-stats">
-        <p class="source">Kenya Open Data</p>
-        <h2>{{ school.properties['kenyaopendata:official_name'] }}</h2>
-
-        {% set num_students = (school.properties['kenyaopendata:Total Boys'] or 0)|int +
-                              (school.properties['kenyaopendata:Total Girls'] or 0)|int %}
-        {% if num_students > 0 %}
-          <h3>{{ num_students }} Students</h3>
-        {% endif %}
-
-        {% if school.geometry.coordinates | length > 1 %}
-          <small>Location: {{ school.geometry.coordinates[1] | reverse | join(', ') }}</small>
-        {% endif %}
-        {% if not has_kod %}
-          <h2>&nbsp;</h2>
-          <h3>No data available</h3>
-        {% endif %}
-      </header>
-    </div>#}
 
   </section>
 
