@@ -28,8 +28,7 @@
     <header id="page-header">
       <nav>
         <a class="accent" href="{{ url_for('home') }}" title="Open Schools Kenya Home">
-          <small>Feedback Labs</small>
-          <h1>Open Schools Kenya</h1>
+          <h1>Map Kibera</h1>
         </a>
         <ul class="page-nav-links">
           {% for link in pagenav %}
@@ -94,6 +93,24 @@
         </div>
 
       </div>
+
+
+      <div class="org-credits">
+        <a class="org-link" href="http://www.gatesfoundation.org/">
+          <img src="{{ url_for('static', filename='img/bmg.png') }}" alt="Bill & Melinda Gates Foundation" title="Bill & Melinda Gates Foundation" />
+        </a>
+        <a class="org-link" href="http://feedbacklabs.org/">
+          <img src="{{ url_for('static', filename='img/fl.png') }}" alt="Feedback Labs" title="Feedback Labs" />
+        </a>
+        <a class="org-link" href="http://groundtruth.in/">
+          <img src="{{ url_for('static', filename='img/gt.png') }}" alt="Ground Truth" title="Ground Truth" />
+        </a>
+        <a class="org-link" href="http://www.developmentgateway.org/">
+          <img src="{{ url_for('static', filename='img/dg.png') }}" alt="Development Gateway" title="Development Gateway" />
+        </a>
+      </div>
+
+
       <div class="footer-copyright">
 
         <div id="copyright">

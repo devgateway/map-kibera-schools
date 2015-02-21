@@ -24,15 +24,9 @@
       @include accent-box;
       display: inline-block;
       margin-top: -3px;
-      small {
-        display: block;
-        margin: -0.4em 0;
-        font-size: $t-small;
-        font-weight: normal;
-        color: $c-copy;
-      }
       h1 {
-        margin: 0;
+        margin: 5px 0 0;
+        font-size: $t-mbig;
         font-weight: $t-mheavy;
       }
     }
@@ -966,4 +960,19 @@ section#school-top {
 
 #data-overview {
   width: $width-full;
+}
+
+
+
+.org-credits {
+  text-align: center;
+  img {
+    margin: 0 1em;
+    opacity: 0.333;
+    transition: opacity 0.667s ease;
+    &:hover {
+      opacity: 1;
+      transition: none;
+    }
+  }
 }
