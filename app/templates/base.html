@@ -29,6 +29,7 @@
       <nav>
         <a class="accent" href="{{ url_for('home') }}" title="Open Schools Kenya">
           <h2>Open Schools Kenya</h2>
+          <img src="{{ url_for('static', filename='img/mk.png') }}" height="30" alt="Map Kibera" title="Map Kibera" />
         </a>
         <ul class="page-nav-links">
           {% for link in pagenav %}
@@ -54,7 +55,8 @@
 
         <div id="about">
           <h2>About</h2>
-          <p>Citizen data - like mapping schools using OpenStreetMap - should also be easy to combine and compare with official education data. And finally, all this info could be accessible and useful to everyone from parents to policymakers.</p>
+          <p>Citizen data – like schools mapped in OpenStreetMap – should be easy to combine and compare with official sources. Information should be accessible and useful to everyone from parents to school directors to government. Feedback on schools will help policy decisions and parent school choices.</p>
+          <p>Open Schools Kenya seeks to make data mean better education for all – starting with the Kibera informal settlement in Nairobi. Our local team has covered every single school in Kibera, building relationships with schools to ensure the data stays up to date and meaningful to all.<p/>
         </div>
 
         <div id="tweets">
