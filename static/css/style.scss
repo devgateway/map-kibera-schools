@@ -29,6 +29,10 @@
         font-size: $t-mbig;
         font-weight: $t-mheavy;
       }
+      h2 {
+        position: relative;
+        top: 7px;
+      }
     }
   }
 
@@ -1012,4 +1016,10 @@ section#school-top {
     vertical-align: middle;
     width: 33%;
   }
+}
+
+#mk-logo-header {
+  top: -45px;
+  position: relative;
+  left: 65px;
 }
