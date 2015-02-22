@@ -7,6 +7,12 @@ Download the data to conduct your analysis, provide your own insights, and tell 
 * [JSON](/schools.json)
 * [CSV](/data/schools.csv)
 
+## Printed Map
+
+* [PDF](/static/blog-images/kibera_schools_a1_final.pdf)
+
+<img width="500" src="/static/blog-images/poster.png" />
+
 ## Directly from OpenStreetMap
 * [Overpass Turbo Query](http://overpass-turbo.eu/s/7LO)
 * [Kibera in OpenStreetMap](http://www.openstreetmap.org/#map=15/-1.3143/36.7910)
