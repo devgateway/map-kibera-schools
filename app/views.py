@@ -85,15 +85,26 @@ def school(slug):
                   this_school['properties'].keys())
     this_school['locations'] = this_school['geometry']['coordinates']
 
-    groups = ('Basics', 'Population', 'Infrastructure')
+    groups = ('Basics', 'Population', 'Infrastructure', 'Programs', 'Fees')
     grouped_properties = {field['group']: []
         for field in content['mapping']['fields']}
 
     for field in content['mapping']['fields']:
+        if this_school['properties'].get(field['osm']) is None:
+          osm_value = '-'
+        else :
+          osm_value = this_school['properties'].get(field['osm'])
+        
+        if this_school['properties'].get(field['kenyaopendata']) is not None:
+          odk_value =  this_school['properties'].get(field['kenyaopendata'])
+        elif field.get('kenyaopendata2') is not None and this_school['properties'].get(field['kenyaopendata2']) is not None:
+          odk_value =  this_school['properties'].get(field['kenyaopendata2'])
+        else :
+          odk_value = '-'
         grouped_properties[field['group']].append({
             'name': field['name'],
-            'osm': this_school['properties'].get(field['osm']),
-            'kod': this_school['properties'].get(field['kenyaopendata']),
+            'osm': osm_value,
+            'kod': odk_value,
         })
 
     return render_template('school-profile.html', school=this_school,

@@ -14,6 +14,7 @@
       "name": "Operator",
       "osm": "osm:operator:name",
       "kenyaopendata": "kenyaopendata:Sponsor of School",
+      "kenyaopendata2": "kenyaopendata:School Sponsor",
       "group": "Basics"
     },
     {
@@ -55,13 +56,19 @@
     {
       "name": "Address",
       "osm": "osm:contact:address",
-      "kenyaopendata": null,
+      "kenyaopendata": "kenyaopendata:School Address",
       "group": "Basics"
     },
     {
       "name": "Email",
       "osm": "osm:contact:email",
       "kenyaopendata": null,
+      "group": "Basics"
+    }, 
+    {
+      "name": "Gender",
+      "osm": "osm:education:gender_type",
+      "kenyaopendata": "kenyaopendata:School Institution Type_1",
       "group": "Basics"
     }, 
     {
@@ -101,18 +108,36 @@
       "group": "Infrastructure"
     },
     {
+      "name": "Arranged Toilet",
+      "osm": "osm:toilet:arranged_name",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Electricity",
+      "osm": "osm:electricity:operational_status",
+      "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "No. of Classrooms",
+      "osm": null,
+      "kenyaopendata": "kenyaopendata:Total Number of Classrooms",
+      "group": "Infrastructure"
+    },
+    {
       "name": "Students",
       "osm": "osm:education:students",
       "kenyaopendata": "kenyaopendata:Total Enrolment",
       "group": "Population"
     },
     { "name": "Male Students",
-      "osm": "osm:education:student_male",
+      "osm": "osm:education:students_male",
       "kenyaopendata": "kenyaopendata:Total Boys",
       "group": "Population"
     },
     { "name": "Female Students",
-      "osm": "osm:education:student_female",
+      "osm": "osm:education:students_female",
       "kenyaopendata": "kenyaopendata:Total Girls",
       "group": "Population"
     },
@@ -121,6 +146,42 @@
       "osm": "osm:education:teachers",
       "kenyaopendata": "kenyaopendata:Total Teaching staff",
       "group": "Population"
+    },
+    {
+      "name": "Teachers Male",
+      "osm": "osm:education:teachers_male",
+      "kenyaopendata": null,
+      "group": "Population"
+    },
+    {
+      "name": "Teachers Female",
+      "osm": "osm:education:teachers_female",
+      "kenyaopendata": null,
+      "group": "Population"
+    },
+    {
+      "name": "Teachers Trained",
+      "osm": "osm:education:teachers_trained",
+      "kenyaopendata": null,
+      "group": "Population"
+    },
+    {
+      "name": "TSC Employed",
+      "osm": "osm:education:tsc_employed",
+      "kenyaopendata": "kenyaopendata:Total Teaching staff",
+      "group": "Population"
+    },
+    {
+      "name": "Exam Center",
+      "osm": "osm:education:exam_center",
+      "kenyaopendata": null,
+      "group": "Programs"
+    },
+    {
+      "name": "Exam Affiliate",
+      "osm": "osm:education:exam_affiliate",
+      "kenyaopendata": null,
+      "group": "Programs"
     },
     {
       "name": "Counseling Program",
@@ -157,6 +218,60 @@
       "osm": "osm:education:extra_schouts",
       "kenyaopendata": null,
       "group": "Programs"
+    },
+    {
+      "name": "Fees (yearly)",
+      "osm": "osm:education:fees",
+      "kenyaopendata": null,
+      "group": "Fees"
+    },
+    {
+      "name": "Fees Sponsored (yearly)",
+      "osm": "osm:education:fees_sponsored",
+      "kenyaopendata": null,
+      "group": "Fees"
+    },
+    {
+      "name": "Fees Level 1 (yearly)",
+      "osm": "osm:education:fees_level1",
+      "kenyaopendata": null,
+      "group": "Fees"
+    },
+    {
+      "name": "Fees Level 2 (yearly)",
+      "osm": "osm:education:fees_level2",
+      "kenyaopendata": null,
+      "group": "Fees"
+    },
+    {
+      "name": "Fees Level 3 (yearly)",
+      "osm": "osm:education:fees_level3",
+      "kenyaopendata": null,
+      "group": "Fees"
+    },
+    {
+      "name": "Fees Level 4 (yearly)",
+      "osm": "osm:education:fees_level4",
+      "kenyaopendata": null,
+      "group": "Fees"
+    },
+    {
+      "name": "Fees Level 5 (yearly)",
+      "osm": "osm:education:fees_level5",
+      "kenyaopendata": null,
+      "group": "Fees"
+    }, 
+    {
+      "name": "Fees Level 6 (yearly)",
+      "osm": "osm:education:fees_level6",
+      "kenyaopendata": null,
+      "group": "Fees"
+    }, 
+    {
+      "name": "Fees Optional (yearly)",
+      "osm": "osm:education:fees_optional",
+      "kenyaopendata": null,
+      "group": "Fees"
     }
   ]
 }
