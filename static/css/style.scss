@@ -800,6 +800,10 @@ section#school-top {
   }
 }
 
+#blog-posts {
+  padding-top: 62px;
+  margin-top: 0px;
+}
 #blog-posts .blog-post {
   $w: ($width-full - $pad-v-thin)/3;
   padding: 2em 1em;
@@ -964,6 +968,8 @@ section#school-top {
 
 #data-overview {
   width: $width-full;
+  padding-top: 62px;
+  margin-top: 0px;
 }
 
 
@@ -972,8 +978,8 @@ section#school-top {
   text-align: center;
   img {
     margin: 0 1em;
-    opacity: 0.333;
-    transition: opacity 0.667s ease;
+    //opacity: 0.333;
+    //transition: opacity 0.667s ease;
     &:hover {
       opacity: 1;
       transition: none;

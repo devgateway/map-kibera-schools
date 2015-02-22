@@ -16,7 +16,10 @@
   var throttle = 150;  // ms
   var lastCheck;
 
-  u.on(window, 'scroll', function() {
+  u.on(window, 'scroll', checkNavOnScroll);
+  u.on(window, 'load', checkNavOnScroll);
+
+  function checkNavOnScroll() {
     if (window.isAutoScrolling) {
       return;
     } else if (lastCheck && (new Date() - lastCheck) < throttle) {
@@ -42,5 +45,5 @@
     }
 
     lastCheck = new Date();
-  });
+  }
 })();

@@ -3,7 +3,8 @@
 {% set pagenav = [
   {'href': '/#map', 'title': 'Kibera Schools Map'},
   {'href': '/#stories', 'title': 'Highlights'},
-  {'href': '/blog/#blog-posts', 'title': 'Blog'}
+  {'href': '/blog/#blog-posts', 'title': 'Blog'},
+  {'href': '/data/#data-overview', 'title': 'Data'}
 ] %}
 
 
@@ -137,7 +138,7 @@
       </div>
       <div id="data-source-compare" class="data-selectable data-source-data data-compare">
         <div class="school-stats school-more-stats">
-          <h3><i>OSM 2014, ODK 2007</i></h3>
+          <h3><i>OSM 2014, KOD 2007</i></h3>
           {{ dump_grouped_properties() }}
         </div>
       </div>
