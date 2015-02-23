@@ -96,6 +96,12 @@
     position: absolute;
     top: 8px;
     right: 0;
+    opacity: 0.333;
+    transition: opacity 0.667s ease;
+    &:hover {
+      opacity: 1;
+      transition: none;
+    }
   }
 
   li.beta {
