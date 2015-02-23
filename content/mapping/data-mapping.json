@@ -8,7 +8,6 @@
       "name": "Education Level",
       "osm": "osm:education:type",
       "kenyaopendata": "kenyaopendata:Level of Education",
-      "default": "SECONDARY",
       "group": "Basics"
     },
     {
