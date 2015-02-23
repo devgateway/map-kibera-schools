@@ -282,6 +282,12 @@ def load_data_overview(datapage_stuff):
     html = markdowner.convert(datapage_mdfile.read())  # also loads metadata
     return Markup(html)
 
+@load('about')
+def load_about(about_stuff):
+    markdowner = Markdown(output_format='html5')
+    about_mdfile, _ = next(about_stuff)  # there should only be one!
+    html = markdowner.convert(about_mdfile.read())  # also loads metadata
+    return Markup(html)
 
 @load('social')
 def load_social(social_stuff):

@@ -29,10 +29,6 @@
         font-size: $t-mbig;
         font-weight: $t-mheavy;
       }
-      h2 {
-        position: relative;
-        top: 7px;
-      }
     }
   }
 
@@ -970,7 +966,7 @@ section#school-top {
   margin: 7% auto 11%;
 }
 
-#data-overview {
+#data-overview, #about-overview {
   width: $width-full;
   padding-top: 62px;
   margin-top: 0px;
