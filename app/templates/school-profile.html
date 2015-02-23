@@ -39,8 +39,8 @@
 
 
   {% macro dump_data_table(group_name, namespace) %}
+    {% if namespace is none %}
     <table width="100%" class="data">
-      {% if namespace is none %}
         <thead>
           <tr>
             <td></td>
@@ -48,7 +48,9 @@
             <th>Kenya Open Data</th>
           </tr>
         </thead>
-      {% endif %}
+    {% else %}
+    <table width="50%" class="data">
+    {% endif %}
       <tbody>
         {% for field in grouped_properties[group_name] %}
           <tr>
@@ -67,35 +69,12 @@
 
 
   {% macro dump_grouped_properties(namespace=none) %}
-    {% if namespace is none %}
       {% for group_name in groups %}
         <h3>{{ group_name }}</h3>
         <div class="h-scroll-container">
           {{ dump_data_table(group_name, namespace) }}
         </div>
       {% endfor %}
-    {% else %}
-      <div class="h-scroll-container">
-        <table class="data-all">
-          <thead>
-            <tr>
-              {% for group_name in groups %}
-                <th><h3>{{ group_name }}</h3></th>
-              {% endfor %}
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              {% for group_name in groups %}
-                <td>
-                  {{ dump_data_table(group_name, namespace) }}
-                </td>
-              {% endfor %}
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    {% endif %}
   {% endmacro %}
 
 

@@ -8,6 +8,7 @@
       "name": "Education Level",
       "osm": "osm:education:type",
       "kenyaopendata": "kenyaopendata:Level of Education",
+      "default": "SECONDARY",
       "group": "Basics"
     },
     {
@@ -21,6 +22,7 @@
       "name": "Type of School",
       "osm": "osm:operator:type",
       "kenyaopendata": "kenyaopendata:Status of School",
+      "kenyaopendata2": "kenyaopendata:Public or Private",
       "group": "Basics"
     },
     {
@@ -69,6 +71,7 @@
       "name": "Gender",
       "osm": "osm:education:gender_type",
       "kenyaopendata": "kenyaopendata:School Institution Type_1",
+      "kenyaopendata2": "kenyaopendata:Girls/Boys/Mixed",
       "group": "Basics"
     }, 
     {
@@ -99,6 +102,7 @@
       "name": "Boarding or not",
       "osm": "osm:education:boarding",
       "kenyaopendata": "kenyaopendata:School Institution Type_2",
+      "kenyaopendata2": "kenyaopendata:Day or Boarding",
       "group": "Infrastructure"
     },
     {
@@ -111,6 +115,24 @@
       "name": "Arranged Toilet",
       "osm": "osm:toilet:arranged_name",
       "kenyaopendata": null,
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Boys Toilets",
+      "osm": null,
+      "kenyaopendata": "kenyaopendata:Boys Toilets",
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Girls Toilet",
+      "osm": null,
+      "kenyaopendata": "kenyaopendata:Girls Toilets",
+      "group": "Infrastructure"
+    },
+    {
+      "name": "Teachers Toilet",
+      "osm": null,
+      "kenyaopendata": "kenyaopendata:Teachers Toilets",
       "group": "Infrastructure"
     },
     {
@@ -129,6 +151,7 @@
       "name": "Students",
       "osm": "osm:education:students",
       "kenyaopendata": "kenyaopendata:Total Enrolment",
+      "kenyaopendata2": "kenyaopendata:Total Enrolment 2007",
       "group": "Population"
     },
     { "name": "Male Students",
@@ -168,8 +191,22 @@
     {
       "name": "TSC Employed",
       "osm": "osm:education:tsc_employed",
-      "kenyaopendata": "kenyaopendata:Total Teaching staff",
+      "kenyaopendata": null,
       "group": "Population"
+    },
+    {
+      "name": "TSC Employed Male",
+      "osm": null,
+      "kenyaopendata": "kenyaopendata:GOK TSC Male",
+      "kenyaopendata2": "kenyaopendata:TSC Male Teachers",
+      "group": "Extra"
+    },
+    {
+      "name": "TSC Employed Female",
+      "osm": null,
+      "kenyaopendata": "kenyaopendata:GOK TSC Female",
+      "kenyaopendata2": "kenyaopendata:TSC Female Teachers",
+      "group": "Extra"
     },
     {
       "name": "Exam Center",
@@ -184,9 +221,10 @@
       "group": "Programs"
     },
     {
-      "name": "Counseling Program",
-      "osm": "osm:education:program_counselling",
-      "kenyaopendata": null,
+      "name": "Special Educaiton Program",
+      "osm": "osm:education:program_special_needs",
+      "kenyaopendata": "kenyaopendata:School Institution Type_3",
+      "kenyaopendata2": "kenyaopendata:Ordinary or Special",
       "group": "Programs"
     },
     {
@@ -208,7 +246,7 @@
       "group": "Programs"
     },
     {
-      "name": "Counseling Program",
+      "name": "Counselling Program",
       "osm": "osm:education:program_counselling",
       "kenyaopendata": null,
       "group": "Programs"
@@ -223,7 +261,7 @@
       "name": "Fees (yearly)",
       "osm": "osm:education:fees",
       "kenyaopendata": null,
-      "group": "Fees"
+      "group": "Basics"
     },
     {
       "name": "Fees Sponsored (yearly)",
@@ -272,6 +310,20 @@
       "osm": "osm:education:fees_optional",
       "kenyaopendata": null,
       "group": "Fees"
+    },
+    {
+      "name": "Code",
+      "osm": null,
+      "kenyaopendata": null,
+      "kenyaopendata2": "kenyaopendata:Code",
+      "group": "Extra"
+    },
+    {
+      "name": "Acreage",
+      "osm": null,
+      "kenyaopendata": null,
+      "kenyaopendata2": "kenyaopendata:Acreage",
+      "group": "Basics"
     }
   ]
 }
