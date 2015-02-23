@@ -23,8 +23,8 @@ app.views.Map = Backbone.View.extend({
         '  <p><%= edType %><%= (edType && opType) ? " / " : " " %><%= opType %></p>' +
         '<% } %>' +
         '<div class="share">' +
-          '<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://schools.mapkibera.org/schools/{{ school.slug }}">Tweet</a>' +
-          '<div class="fb-like" data-href="http://schools.mapkibera.org/schools/{{ school.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>' +
+          '<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://openschoolskenya.org/schools/{{ school.slug }}">Tweet</a>' +
+          '<div class="fb-like" data-href="http://openschoolskenya.org/schools/{{ school.slug }}" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>' +
         '</div>');
     }
     return new app.views.SchoolPin(pinOptions);

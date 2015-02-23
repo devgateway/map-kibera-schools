@@ -1,7 +1,7 @@
 Open Schools Kenya
 ==================
 
-The source files and compiled static site for Feedback Labs' [Open Schools Kenya](http://schools.mapkibera.org/) are hosted on github under two repositories:
+The source files and compiled static site for Feedback Labs' [Open Schools Kenya](http://openschoolskenya.org/) are hosted on github under two repositories:
 
  * [Map Kibera production/content repo](https://github.com/mapkibera/map-kibera-schools)
  * [Development Gateway app staging repo](https://github.com/devgateway/map-kibera-schools)

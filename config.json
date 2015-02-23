@@ -61,7 +61,7 @@
       "robots": "static/root/robots-goaway.txt"
     },
     "production": {
-      "cname": "schools.mapkibera.org",
+      "cname": "openschoolskenya.org",
       "root": "/",
       "robots": "static/root/robots-welcome.txt"
     }
