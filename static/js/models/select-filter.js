@@ -50,6 +50,7 @@ app.models.SelectFilter = Backbone.Model.extend({
     this.options = new app.models.SelectFilterOptions();
     this.listenTo(this.options, 'change:selected', this.changeSelect);
 
+    this.capitalize = options.capitalize;
     schools.each(this.addSchool);
     this.listenTo(schools, 'add', this.addSchool);
   },
@@ -61,6 +62,7 @@ app.models.SelectFilter = Backbone.Model.extend({
     var optionValues = (rawValue && rawValue.split(',') || ['unknown']);
 
     _.each(optionValues, function(optionValue) {
+      optionValue = optionValue.capitaliseFirstLetter(this.capitalize);
       var selectOption = this.options.find(function(opt) {
         return opt.get('optionValue') === optionValue;
       });
@@ -96,3 +98,8 @@ app.models.SelectFilter = Backbone.Model.extend({
   }
 
 });
+String.prototype.capitaliseFirstLetter = function (cap_mode) {
+    var parts = this.split('_');
+    parts = parts.map(function(part) { if (part.length > 3 || cap_mode == "normal") { return part.charAt(0).toUpperCase() + part.slice(1); } else { return part.toUpperCase() } });
+    return parts.join(" ");
+}

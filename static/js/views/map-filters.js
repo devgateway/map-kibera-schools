@@ -11,13 +11,15 @@ app.views.MapFilters = Backbone.View.extend({
     var edLevelFilter = new app.models.SelectFilter({
       name: 'Education Level',
       key: 'osm:education:type',
-      schools: opts.schools
+      schools: opts.schools,
+      capitalize: 'normal'
     });
 
     var schoolTypeFilter = new app.models.SelectFilter({
       name: 'School Sponsor',
       key: 'osm:operator:type',
-      schools: opts.schools
+      schools: opts.schools,
+      capitalize: 'abbr'
     });
 
     this.filters = new app.models.Filters([
