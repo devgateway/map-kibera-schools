@@ -83,6 +83,9 @@
     &[href="/blog/#blog-posts"]:before {
       content: "B";
     }
+    &[href="/about/#about-overview"]:before {
+      content: "A";
+    }
   }
 
   .social {
@@ -191,7 +194,7 @@ body > section:first-of-type {
 
     &.selected {
       @include un-visually-hidden;
-      @include transition(opacity, 0.8s, ease);
+      @include transition(opacity, 1s, ease);
       width: $width-full;
       margin: 0 auto;
       opacity: 1;
