@@ -34,7 +34,8 @@
       "name": "Government Registration",
       "osm": "osm:education:government_registered",
       "kenyaopendata": null,
-      "group": "Basics"
+      "group": "Basics",
+      "value": {"moe": "Ministry of Education, Science and Technology", "mgcsd": "Ministry of Gender, Children, and Social Development"}
     },
     {
       "name": "School Head",

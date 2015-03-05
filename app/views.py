@@ -97,6 +97,9 @@ def school(slug):
           osm_value = '-'
         else :
           osm_value = this_school['properties'].get(field['osm'])
+
+        if field.get('value') is not None and field['value'].get(osm_value) is not None:
+          osm_value = field['value'][osm_value]
         
         if this_school['properties'].get(field['kenyaopendata']) is not None:
           odk_value =  this_school['properties'].get(field['kenyaopendata'])
@@ -106,6 +109,7 @@ def school(slug):
           odk_value = field.get('default')
         else :
           odk_value = '-'
+
         grouped_properties[field['group']].append({
             'name': field['name'],
             'osm': osm_value,
