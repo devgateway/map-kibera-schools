@@ -1,11 +1,11 @@
 title: Launch of Open Schools Kenya
 author: Paige Kirby
 date: 2015-03-11
-photo: /static/blog-images/kibera-launch.png
+photo: /static/blog-images/map-distribution.png
 
 Parents, teachers, governments, and social welfare organizations all want to provide children with the best education possible. In some places, these groups work together to allocate resources, build schools and improve the quality of education. But education officials, organizations and families need information to guide these efforts. Sometimes even the most basic school information -- like school location, fees, class size, or building types -- is unavailable, inaccessible, or out of date. This is especially true in many informal urban settlements, like the Kibera slum in Nairobi, Kenya, where demand for better education data is already well-established. 
 
-<img src="/static/blog-images/kibera-launch.png" alt="" width="470" height="328" /></a>
+<img src="/static/blog-images/map-distribution.png" alt="" width="470" height="328" /></a>
 
 That's where <a href="http://openschoolskenya.org/">Open Schools Kenya</a> comes in. 
 
