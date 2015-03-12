@@ -1,7 +1,7 @@
 title: Making Education Information Available to All in Kibera
 author: Erica Hagen
 date: 2014-07-03
-photo: http://www.mapkibera.org/blog/wp-content/uploads/2014/07/Douglas-at-Emuhaya-Rescue-center-1024x768.jpg
+photo: /static/blog-images/Douglas-at-Emuhaya-Rescue-center.jpg
 
 How can all the information about Kenyan schools, including data released by the Kenyan government, and citizen mapping, have a greater impact on education? We've been working for the past few months on a project to make information about schools much more available and useful in Kenya. It's a joint operation between <a href="http://groundtruth.in">GroundTruth Initiative</a>, <a href="http://mapkibera.org">Map Kibera</a>, <a href="http://www.developmentgateway.org/">Development Gateway</a>, <a href="http://feedbacklabs.org/">Feedback Labs</a>, and the <a href="http://www.gatesfoundation.org/">Gates Foundation</a> among others.
 
