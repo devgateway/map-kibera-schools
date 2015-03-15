@@ -13,14 +13,8 @@
   },
   {
     "title": "Launch of OpenSchoolsKenya",
-    "description": "",
+    "description": "The most basic school information -- like school location, fees, class size, or building types -- is unavailable, inaccessible, or out of date. This is especially true in many informal urban settlements, like the Kibera slum in Nairobi, Kenya, where demand for better education data is already well-established. That's where Open Schools Kenya comes in.",
     "url": "/blog/launch/",
     "image": "/static/blog-images/map-distribution.jpg"
-  },
-  {
-    "title": "Nairobi Launch Event is a Success!",
-    "description": "On Feb. 24, 2015 Map Kibera Trust and partners launched the first open platform featuring citizen data about all the schools in Kibera slum. Featured attendees included, alongside many parents, educators and community leaders from Kibera: Bitenge Ndemo, former Permanent Secretary of Communication and Information in Kenya, who himself initiatied Kenya Open Data in 2011; Minister of Parliament for Kibra Kenneth Okoth; and Christopher Khaemba, County Secretary for Education.",
-    "url": "https://storify.com/ricaji/kenya-open-schools-launch-nairobi",
-    "image": "/static/blog-images/kibera-launch.png"
   }
 ]
