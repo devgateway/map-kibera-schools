@@ -1,7 +1,7 @@
 title: Kibera Schools Demolished Along Railway Line
 author: Joshua Ogure
 date: 2015-05-21
-photo: /static/blog-images/schools-railway.png
+photo: /static/blog-images/schools-demolition.png
 
 
 When around 15 police trucks came to Kibera a few weeks ago to witness and protect the demolition of schools along the railway line, there was shock and tension as <a href="http://openschoolskenya.org/schools/3533006870/spurgeons-academy/">Spurgeons</a> school was targeted. But before the bulldozer could reach the permanent building, the community members turned up in large numbers to stop the demolition, saying that the school belonged to them. They claimed that the school has been helping their needy children and they could not sit back and watch it go down.
@@ -49,3 +49,4 @@ Meanwhile the schools already demolished are proceeding with learning as best th
 
 According to the Relocation Action Plan (RAP) Document the Schools along the railway should close down and send their students to the few public schools in Kibra, but the Schools wondered how they would do it since the RAP did not give a proper guideline on who is responsible for taking the students to those particular public schools, and were not sure whether they would be admitted.
 
+<i>This post, by Map Kibera Trust coordinator Joshua Ogure, originally appeared on <a href="http://www.mapkibera.org/blog/2015/05/21/kibera-schools-demolished-along-railway-line/">Map Kibera's blog May 21, 2015</a>.</i>

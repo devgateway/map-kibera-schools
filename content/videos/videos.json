@@ -6,10 +6,10 @@
     "image": "/static/blog-images/education-video.png"
   },
   {
-    "title": "OSK Makes Headlines",
-    "description": "Professor Bitange Ndemo, former Minister of Information and Communications, Kenya, who attended our Nairobi launch, wrote about the initiative's value for the Daily Nation: 'Data is the lifeblood of innovation. We curtail our own creativity and progress when we hide data. Data helps us shape policy to respond to human needs.' We are proud to have Professor Ndemo's endorsement of OSK!",
-    "url": "/blog/ndemo/",
-    "image": "/static/blog-images/Bitange-Ndemo.jpg"
+    "title": "Kibera Schools Demolished Along Railway Line",
+    "description": "Map Kibera’s Open Schools Kenya team investigates recent demolitions of schools along Kibera’s railway line. Check out their report and view their map of affected schools.",
+    "url": "/blog/demolition/",
+    "image": "/static/blog-images/schools-railway-banner.png"
   },
   {
     "title": "Launch of OpenSchoolsKenya",
