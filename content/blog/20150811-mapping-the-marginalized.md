@@ -1,7 +1,7 @@
 title: Mapping the marginalised: leaving no one behind in Kibera
 author: Erica Hagen & Elizabeth Stuart
 date: 2015-08-11
-photo: 
+photo: /static/blog-images/kibera-sdg.jpg
 
 Kibera, the most populous slum in Nairobi (and East Africa), once appeared as a blank space on most maps because it was considered an illegal settlement. Because of this perceived illegality, basic demographic statistics for the slum were not collected, meaning the government didn't provide basic services such as water, sewer, security, electricity and education. Thanks to <a href="http://mapkibera.org">Map Kibera</a>, this is now starting to change.
 
