@@ -39,7 +39,7 @@ def sync_osm():
   file_name = 'kibera-schools-osm.xml'
   bbox = "36.7651,-1.3211,36.8178,-1.3009"
   url = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox=" + bbox
-  #values = dict(data='<osm-script><osm-script output="json" timeout="25"><union><query type="node"><has-kv k="amenity" v="school"/><bbox-query e="36.8079" n="-1.3000" s="-1.3232" w="36.7663"/></query></union><print mode="body"/><recurse type="down"/><print mode="meta"/></osm-script></osm-script>')  
+  #values = dict(data='<osm-script><osm-script output="json" timeout="25"><union><query type="node"><has-kv k="amenity" v="school"/><bbox-query e="36.8079" n="-1.3000" s="-1.3232" w="36.7663"/></query></union><print mode="body"/><recurse type="down"/><print mode="meta"/></osm-script></osm-script>')
   #data = urllib.urlencode(values)
   #req = urllib2.Request(url, data)
   req = urllib2.Request(url)
@@ -150,8 +150,10 @@ def cache_image(osm_id, osm_name, img_type, img_url):
     os.makedirs(cache_dir)
 
   fileName, fileExtension = os.path.splitext(img_url)
+  if not fileExtension:
+      fileExtension = ".png"
   if not os.path.exists(cache_dir + 'orig' + fileExtension):
-    url2file(img_url, cache_dir + 'orig' + fileExtension) 
+    url2file(img_url, cache_dir + 'orig' + fileExtension)
 
   if os.path.exists(cache_dir + 'orig' + fileExtension):
     try:
@@ -160,7 +162,7 @@ def cache_image(osm_id, osm_name, img_type, img_url):
       print "IMAGE ERROR,can't open image," + osm_name + ",http://www.osm.org/" + osm_id + "," + img_type + "," + img_url
       #print "orig image error " + cache_dir + 'orig' + fileExtension
       return
-   
+
     size = 300, 225
     if not os.path.exists(cache_dir + 'med' + fileExtension):
       try:
@@ -215,7 +217,7 @@ def deploy():
   os.system("cp kibera-combined-schools.geojson ../content/schools/")
   os.system("cp kibera-combined-schools.csv ../content/download/")
 
-#TODO make command line configurable .. Fabric?  
+#TODO make command line configurable .. Fabric?
 #kenyaopendata()
 #filter_kenyaopendata()
 sync_osm()
