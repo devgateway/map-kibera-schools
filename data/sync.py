@@ -35,18 +35,11 @@ def url2file(url,file_name):
   myFile.close()
 
 def sync_osm():
-  #url = 'http://overpass-api.de/api/interpreter'
-  file_name = 'kibera-schools-osm.xml'
-  bbox = "36.7651,-1.3211,36.8178,-1.3009"
-  url = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox=" + bbox
-  #values = dict(data='<osm-script><osm-script output="json" timeout="25"><union><query type="node"><has-kv k="amenity" v="school"/><bbox-query e="36.8079" n="-1.3000" s="-1.3232" w="36.7663"/></query></union><print mode="body"/><recurse type="down"/><print mode="meta"/></osm-script></osm-script>')
-  #data = urllib.urlencode(values)
-  #req = urllib2.Request(url, data)
-  req = urllib2.Request(url)
-  rsp = urllib2.urlopen(req)
-  myFile = open(file_name, 'w')
-  myFile.write(rsp.read())
-  myFile.close()
+  kibera = "36.7651,-1.3211,36.8178,-1.3009"
+  mathare = "36.8430,-1.2679,36.8790,-1.2489"
+  url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox="
+  url2file(url_base + kibera,"kibera-schools-osm.xml")
+  url2file(url_base + mathare,"mathare-schools-osm.xml")
 
 def kenyaopendata():
   #https://www.opendata.go.ke/Education/Kenya-Secondary-Schools-2007/i6vz-a543
@@ -89,6 +82,7 @@ def filter_kenyaopendata():
   filter_data('kenya-secondary-schools.csv','kibera-secondary-schools.csv','Location','Location 1','Name of School', other_columns) #Code??
 
 def convert2geojson():
+  #KOD
   os.system("rm kibera-primary-schools.geojson")
   os.system("ogr2ogr -f GeoJSON kibera-primary-schools.geojson kibera-primary-schools.vrt")
   os.system("rm kibera-secondary-schools.geojson")
@@ -98,18 +92,22 @@ def convert2geojson():
   kod_primary.features.extend(kod_secondary.features)
   dump = geojson.dumps(kod_primary, sort_keys=True, indent=2)
   writefile('kibera-primary-secondary-schools.geojson',dump)
+
+  #OSM
   os.system("osmtogeojson -e kibera-schools-osm.xml > kibera-schools-osm.geojson")
+  os.system("osmtogeojson -e mathare-schools-osm.xml > mathare-schools-osm.geojson")
+  clean_osm('kibera-schools-osm.geojson')
+  clean_osm('mathare-schools-osm.geojson')
+  osm_kibera = geojson.loads(readfile('kibera-schools-osm.geojson'))
+  osm_mathare = geojson.loads(readfile('mathare-schools-osm.geojson'))
+  osm_kibera.features.extend(osm_mathare.features)
+  dump = geojson.dumps(osm_kibera, sort_keys=True, indent=2)
+  writefile('nairobi-schools-osm.geojson', dump)
 
-def compare_osm_kenyaopendata():
-  osm = geojson.loads(readfile('kibera-schools-osm.geojson'))
-  kod = geojson.loads(readfile('kibera-primary-secondary-schools.geojson'))
-  result = {}
-  result['type'] = 'FeatureCollection'
-  result['features'] = []
+def clean_osm(file):
+  osm = geojson.loads(readfile(file))
 
-  #TODO make sure all features in KOD are in OSM (through osmly)
   for feature in osm.features:
-    points = [(feature.geometry.coordinates[0], feature.geometry.coordinates[1])]
     properties = {}
     #properties = feature.properties
     for osm_property in feature.properties['tags'].keys():
@@ -118,25 +116,41 @@ def compare_osm_kenyaopendata():
     properties[ "osm:_timestamp" ] = feature.properties['meta']['timestamp']
     properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
 
-    if 'official_name' in feature.properties['tags']:
+    feature.properties = properties
+
+  dump = geojson.dumps(osm, sort_keys=True, indent=2)
+  writefile(file,dump)
+
+def compare_osm_kenyaopendata():
+  osm = geojson.loads(readfile('nairobi-schools-osm.geojson'))
+  kod = geojson.loads(readfile('kibera-primary-secondary-schools.geojson'))
+  result = {}
+  result['type'] = 'FeatureCollection'
+  result['features'] = []
+
+  #TODO make sure all features in KOD are in OSM (through osmly)
+  for feature in osm.features:
+    points = [(feature.geometry.coordinates[0], feature.geometry.coordinates[1])]
+
+    if 'osm:official_name' in feature.properties:
       found_match = False
       for kod_feature in kod.features:
-        if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['tags']['official_name']:
+        if 'official_name' in kod_feature.properties and kod_feature.properties['official_name'] == feature.properties['osm:official_name']:
           #print feature.properties['official_name']
           found_match = True
           points.append((kod_feature.geometry.coordinates[0],  kod_feature.geometry.coordinates[1]))
           for kod_property in kod_feature.properties.keys():
             if kod_property != 'lat' and kod_property != 'lon':
-              properties[ "kenyaopendata:" + kod_property] = kod_feature.properties[ kod_property ]
+              feature.properties[ "kenyaopendata:" + kod_property] = kod_feature.properties[ kod_property ]
 
       if found_match == False:
         print "WARN: OSM official_name has no match: " + feature.properties['tags']['name'] + ", " + feature.properties['tags']['official_name'] + ", " + feature['id']
 
     geom = MultiPoint(points)
-    result['features'].append( { "type": "Feature", "properties": properties, "geometry": geom })
+    result['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
 
   dump = geojson.dumps(result, sort_keys=True, indent=2)
-  writefile('kibera-combined-schools.geojson',dump)
+  writefile('nairobi-combined-schools.geojson',dump)
 
 def slug_image(img_url):
   valid_chars = "%s%s" % (string.ascii_letters, string.digits)
@@ -194,7 +208,7 @@ def get_image_cache(osm_id, img_type, img_url, cache_size):
   return cache_path + cache_size + fileExtension
 
 def cache_images():
-  combined = geojson.loads(readfile('kibera-combined-schools.geojson'))
+  combined = geojson.loads(readfile('nairobi-combined-schools.geojson'))
   for index, feature in enumerate(combined.features):
     images = []
     large_images = []
@@ -209,13 +223,13 @@ def cache_images():
       combined.features[index]['properties']['osm:images'] = ','.join(images)
       combined.features[index]['properties']['osm:large_images'] = ','.join(large_images)
   dump = geojson.dumps(combined, sort_keys=True, indent=2)
-  writefile('kibera-combined-schools.geojson',dump)
+  writefile('nairobi-combined-schools.geojson',dump)
 
 def deploy():
-  os.system("rm kibera-combined-schools.csv")
-  os.system("ogr2ogr -f CSV kibera-combined-schools.csv kibera-combined-schools.geojson -lco GEOMETRY=AS_WKT")
-  os.system("cp kibera-combined-schools.geojson ../content/schools/")
-  os.system("cp kibera-combined-schools.csv ../content/download/")
+  os.system("rm nairobi-combined-schools.csv")
+  os.system("ogr2ogr -f CSV nairobi-combined-schools.csv nairobi-combined-schools.geojson -lco GEOMETRY=AS_WKT")
+  os.system("cp nairobi-combined-schools.geojson ../content/schools/")
+  os.system("cp nairobi-combined-schools.csv ../content/download/")
 
 #TODO make command line configurable .. Fabric?
 #kenyaopendata()

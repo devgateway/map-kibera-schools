@@ -61,7 +61,7 @@
     validate_address: function(key, value, options) {
       return false;
     },
-  
+
     filter_date_year: function(key, value) {
       return value.substr(0,10);
     },
@@ -79,9 +79,9 @@
             $('td:nth-child(' + (index+1) + '),th:nth-child(' + (index+1) + ')').show();
           } else {
             $('td:nth-child(' + (index+1) + '),th:nth-child(' + (index+1) + ')').hide();
-          }        
+          }
         }
-      });    
+      });
     },
 
     set_validation: function(setting) {
@@ -92,14 +92,14 @@
         target.results[ key ] = { "valid" : 0, "invalid" : 0 };
       });
       header += "</tr>";
-      $( header ).appendTo("#target-head");   
+      $( header ).appendTo("#target-head");
 
       var group_control = "<div>Filters: ";
       $.each( target.validate, function (key, params) {
         if (params['group'] !== undefined) {
           if (target.groups[ params['group']] === undefined) {
             target.groups[ params['group'] ] = [];
-            group_control += "<span class='groupBtn pure-button pure-button-active'>" + params['group'] + "</span> "; 
+            group_control += "<span class='groupBtn pure-button pure-button-active'>" + params['group'] + "</span> ";
           }
           target.groups[ params['group'] ].push( key );
         }
@@ -123,7 +123,7 @@
       $.getJSON( url, function( data ) {
         var items = [];
         $.each( data['features'], function( i, feature ) {
-          var item = "<tr>";  
+          var item = "<tr>";
           $.each( target.validate , function (key, params) {
             //Validations
             var result = true;
@@ -147,7 +147,7 @@
         $( items.join( "" ) ).appendTo( "#table-listing" );
         target.add_results();
         $('#target').tablesorter( { debug: true } );
-        $(".groupBtn").trigger('click');   
+        $(".groupBtn").trigger('click');
       });
     }
   };
@@ -159,12 +159,12 @@ $( function() {
   target.global();
   target.set_validation(
     {
-      "osm:name" : { 
+      "osm:name" : {
         "validation" : ["validate_present", "validate_capitalization"]
       },
       "osm:_timestamp" : {
         "validation" : ["validate_date_after"],
-        "options" : {"date_after" : "2014-06-05T00:00:00Z"},
+        "options" : {"date_after" : "2016-10-01T00:00:00Z"},
         "filter" : ["filter_date_year"]
       },
 
@@ -200,7 +200,7 @@ $( function() {
       },
       "osm:place:village": {
         "validation" : ["validate_allowed_list"],
-        "options" : {"allowed_list" : ["Lindi","Makina","Silanga","Karanja","Kisumu Ndogo","Kianda","Soweto West","Soweto East","Raila","Kambi Muru", "Gatwekera", "Olympic", "Mashimoni", "Ayany"]},
+        "options" : {"allowed_list" : ["Mathare 3C","Gitathuru","Mathare No. 10","Mathare 4B","Kosovo","Mabatini","Mathare 3B",]},
         "group" : "basic"
       },
 
@@ -235,7 +235,7 @@ $( function() {
       },
 
       "osm:contact:address" : {
-        "validation" : ["validate_address"],
+        "validation" : ["validate_present"],
         "group" : "infrastructure"
       },
       "osm:contact:email" : {
@@ -353,7 +353,7 @@ $( function() {
       "osm:education:program_feeding" : {
         "validation" : ["validate_check"],
         "group" : "operations"
-      },  
+      },
       "osm:education:program_sanitary_towel" : {
         "validation" : ["validate_check"],
         "group" : "operations"
@@ -377,5 +377,5 @@ $( function() {
 
     }
   );
-  target.load_geojson("../kibera-combined-schools.geojson");
+  target.load_geojson("../mathare-schools-osm.geojson");
 });
