@@ -19,4 +19,4 @@ Nyamweya Ngare, a parent at Olympic Primary School in Kibera, said: "Open School
 
 Perhaps most importantly, through collecting and representing their own information, residents of Kibera have a sense of ownership of the problem and possibility for further action. This has effectively democratised information itself, making the residents of Kibera both the producers and users of data.
 
-*This blog was originally published on <a href="http://deliver2030.org/?p=6184">Post2015.org</a>.*
+*This blog was originally published on <a href="http://deliver2030.org/?p=6184">Deliver2030.org</a>.*
