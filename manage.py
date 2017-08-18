@@ -218,7 +218,7 @@ def build_images():
     shutil.copytree(src, dest, ignore=shutil.ignore_patterns(('orig.*')))
 
 def build_csv():
-    src = os.path.join('content/download/kibera-combined-schools.csv')
+    src = os.path.join('content/download/nairobi-combined-schools.csv')
     dest = os.path.join('build', 'data/schools.csv')
     shutil.copy(src, dest)
 
