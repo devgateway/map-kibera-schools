@@ -36,7 +36,7 @@ def url2file(url,file_name):
 
 def sync_osm():
   kibera = "36.7651,-1.3211,36.8178,-1.3009"
-  mathare = "36.8430,-1.2679,36.8790,-1.2489"
+  mathare = "36.8427,-1.2673,36.8792,-1.2479"
   url_base = "http://overpass-api.de/api/interpreter?data=[bbox];node['education:type'];out%20meta;&bbox="
   url2file(url_base + kibera,"kibera-schools-osm.xml")
   url2file(url_base + mathare,"mathare-schools-osm.xml")
@@ -115,6 +115,7 @@ def clean_osm(file):
     properties[ "osm:_user" ] = feature.properties['meta']['user']
     properties[ "osm:_timestamp" ] = feature.properties['meta']['timestamp']
     properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
+    properties[ "osm:slum" ] = os.path.splitext(os.path.basename(file))[0]
 
     feature.properties = properties
 
@@ -144,7 +145,7 @@ def compare_osm_kenyaopendata():
               feature.properties[ "kenyaopendata:" + kod_property] = kod_feature.properties[ kod_property ]
 
       if found_match == False:
-        print "WARN: OSM official_name has no match: " + feature.properties['tags']['name'] + ", " + feature.properties['tags']['official_name'] + ", " + feature['id']
+        print "WARN: OSM official_name has no match: " + feature.properties['osm:name'] + ", " + feature.properties['osm:official_name'] + ", " + feature['id']
 
     geom = MultiPoint(points)
     result['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
@@ -233,11 +234,11 @@ def deploy():
 
 #TODO make command line configurable .. Fabric?
 #kenyaopendata()
-#filter_kenyaopendata()
+filter_kenyaopendata()
 sync_osm()
 convert2geojson()
 compare_osm_kenyaopendata()
-cache_images()
+#cache_images()
 deploy()
 
 #TODO generate statistics on each run of comparison results
