@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2016-12-06T20:00:03Z"/>
+<meta osm_base="2017-08-18T18:51:02Z"/>
 
-  <bounds minlat="-1.3211" minlon="36.7651" maxlat="-1.3009" maxlon="36.8178"/>
+  <bounds minlat="-1.3211000" minlon="36.7651000" maxlat="-1.3009000" maxlon="36.8178000"/>
 
   <node id="478551902" lat="-1.3104681" lon="36.7988296" version="12" timestamp="2014-08-25T09:17:04Z" changeset="24998257" uid="261009" user="Blasio">
     <tag k="accessibility" v="big_vehicles"/>
@@ -157,7 +157,7 @@
     <tag k="place:village" v="Mashimoni"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="612007152" lat="-1.3132322" lon="36.7805594" version="33" timestamp="2015-04-13T07:26:12Z" changeset="30180444" uid="265690" user="fondolucy">
+  <node id="612007152" lat="-1.3132322" lon="36.7805594" version="34" timestamp="2017-07-25T09:17:54Z" changeset="50551095" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -184,7 +184,7 @@
     <tag k="education:school_head" v="Mr.Caleb Ochieng"/>
     <tag k="education:student_female" v="1787"/>
     <tag k="education:student_male" v="1780"/>
-    <tag k="education:students" v="3567"/>
+    <tag k="education:students" v="2240"/>
     <tag k="education:students_female" v="1787"/>
     <tag k="education:students_male" v="1780"/>
     <tag k="education:teachers" v="41"/>
@@ -1669,14 +1669,14 @@
     <tag k="education:type" v="library"/>
     <tag k="name" v="Christ the King Library"/>
   </node>
-  <node id="662794312" lat="-1.3114729" lon="36.7926348" version="14" timestamp="2015-01-03T18:35:32Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="662794312" lat="-1.3114729" lon="36.7926348" version="15" timestamp="2017-07-25T10:06:34Z" changeset="50552722" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
     <tag k="building:material" v="mud"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:address" v="P O Box 76392 -00508, Nairobi"/>
-    <tag k="contact:phone" v="0727802939"/>
+    <tag k="contact:phone" v="0713773278"/>
     <tag k="designation" v="NGO"/>
     <tag k="education:curriculum" v="8_4_4"/>
     <tag k="education:extra_sports" v="yes"/>
@@ -1742,7 +1742,7 @@
     <tag k="security:gbv_support" v="yes"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="712907767" lat="-1.3144970" lon="36.7902940" version="12" timestamp="2015-04-14T10:13:41Z" changeset="30207864" uid="261050" user="muindre">
+  <node id="712907767" lat="-1.3144970" lon="36.7902940" version="13" timestamp="2017-07-25T10:49:18Z" changeset="50554017" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -1770,6 +1770,8 @@
     <tag k="education:staff_female" v="3"/>
     <tag k="education:staff_male" v="2"/>
     <tag k="education:student_age_range" v="3-14yrs"/>
+    <tag k="education:student_female" v="180"/>
+    <tag k="education:student_male" v="166"/>
     <tag k="education:students" v="346"/>
     <tag k="education:students_female" v="180"/>
     <tag k="education:students_male" v="166"/>
@@ -2412,7 +2414,7 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="748826133" lat="-1.3104480" lon="36.7932300" version="8" timestamp="2015-01-03T18:36:53Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="748826133" lat="-1.3104480" lon="36.7932300" version="9" timestamp="2017-07-25T10:12:30Z" changeset="50552894" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -2441,10 +2443,10 @@
     <tag k="education:staff_female" v="3"/>
     <tag k="education:staff_male" v="4"/>
     <tag k="education:student_age_range" v="2-15yrs"/>
-    <tag k="education:students" v="468"/>
+    <tag k="education:students" v="581"/>
     <tag k="education:students_female" v="229"/>
     <tag k="education:students_male" v="239"/>
-    <tag k="education:teachers" v="10"/>
+    <tag k="education:teachers" v="16"/>
     <tag k="education:teachers_female" v="2"/>
     <tag k="education:teachers_male" v="8"/>
     <tag k="education:teachers_trained" v="7"/>
@@ -2959,7 +2961,7 @@
     <tag k="place:village" v="Mashimoni"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="748863823" lat="-1.3171852" lon="36.7976981" version="9" timestamp="2014-08-22T09:39:06Z" changeset="24927908" uid="261009" user="Blasio">
+  <node id="748863823" lat="-1.3171852" lon="36.7976981" version="10" timestamp="2017-05-22T00:01:54Z" changeset="48872829" uid="527721" user="ninjamask">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -2995,7 +2997,7 @@
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Siloam%20Fellowship%20Primary%20School/class%201.JPG"/>
     <tag k="image:other" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Siloam%20Fellowship%20Primary%20School/class.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Siloam%20Fellowship%20Primary%20School/sign%20post.JPG"/>
-    <tag k="name" v="Siloam  Primary Academy"/>
+    <tag k="name" v="Siloam Primary Academy"/>
     <tag k="official_name" v="SILOAM FRIENDS MINISTRIES ACADEMY- PRI"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-16:10"/>
     <tag k="operational_status" v="operational"/>
@@ -3476,15 +3478,15 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="752221613" lat="-1.3155371" lon="36.8036279" version="10" timestamp="2015-04-16T10:50:31Z" changeset="30260289" uid="261009" user="Blasio">
+  <node id="752221613" lat="-1.3155371" lon="36.8036279" version="11" timestamp="2017-07-25T09:49:08Z" changeset="50552172" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
     <tag k="building:material" v="ironsheets"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:address" v="P O Box 20831 -00202, Nairobi"/>
-    <tag k="contact:email" v="cleophassandukwa@yahoo.com"/>
-    <tag k="contact:phone" v="0722860133"/>
+    <tag k="contact:email" v="nncherogony@gmail.com"/>
+    <tag k="contact:phone" v="0715215522"/>
     <tag k="education:curriculum" v="8_4_4"/>
     <tag k="education:exam_center" v="yes"/>
     <tag k="education:extra_drama" v="yes"/>
@@ -3501,8 +3503,11 @@
     <tag k="education:program_scouting" v="yes"/>
     <tag k="education:program_sports" v="yes"/>
     <tag k="education:pta" v="yes"/>
+    <tag k="education:school_head" v="Nancy Cherogony"/>
     <tag k="education:student_age_range" v="5-14yrs"/>
-    <tag k="education:students" v="231"/>
+    <tag k="education:student_female" v="92"/>
+    <tag k="education:student_male" v="161"/>
+    <tag k="education:students" v="253"/>
     <tag k="education:students_female" v="111"/>
     <tag k="education:students_male" v="120"/>
     <tag k="education:teachers" v="11"/>
@@ -4648,7 +4653,7 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="1771323210" lat="-1.3113170" lon="36.7921726" version="8" timestamp="2015-01-03T18:35:08Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="1771323210" lat="-1.3113170" lon="36.7921726" version="10" timestamp="2017-07-25T10:21:40Z" changeset="50553142" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -4667,13 +4672,13 @@
     <tag k="education:program_counselling" v="yes"/>
     <tag k="education:program_feeding" v="fees"/>
     <tag k="education:pta" v="yes"/>
-    <tag k="education:students" v="173"/>
+    <tag k="education:students" v="235"/>
     <tag k="education:students_female" v="89"/>
     <tag k="education:students_male" v="84"/>
-    <tag k="education:teachers" v="10"/>
-    <tag k="education:teachers_female" v="7"/>
-    <tag k="education:teachers_male" v="3"/>
-    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:teachers" v="9"/>
+    <tag k="education:teachers_female" v="5"/>
+    <tag k="education:teachers_male" v="4"/>
+    <tag k="education:teachers_trained" v="2"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="often"/>
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Joshua/Schools/Akili%20Complex%20School/class.JPG"/>
@@ -5264,7 +5269,7 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923089741" lat="-1.3144999" lon="36.7909774" version="6" timestamp="2015-04-14T10:13:29Z" changeset="30207864" uid="261050" user="muindre">
+  <node id="2923089741" lat="-1.3144999" lon="36.7909774" version="7" timestamp="2017-07-25T10:44:33Z" changeset="50553859" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="1"/>
@@ -5290,9 +5295,9 @@
     <tag k="education:students" v="286"/>
     <tag k="education:students_female" v="157"/>
     <tag k="education:students_male" v="129"/>
-    <tag k="education:teachers" v="11"/>
-    <tag k="education:teachers_female" v="5"/>
-    <tag k="education:teachers_male" v="6"/>
+    <tag k="education:teachers" v="12"/>
+    <tag k="education:teachers_female" v="7"/>
+    <tag k="education:teachers_male" v="5"/>
     <tag k="education:teachers_trained" v="5"/>
     <tag k="education:type" v="primary"/>
     <tag k="electricity:operational_status" v="often"/>
@@ -6161,7 +6166,7 @@
     <tag k="place:village" v="Karanja"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923814192" lat="-1.3120156" lon="36.7761465" version="10" timestamp="2015-01-03T18:36:51Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2923814192" lat="-1.3120156" lon="36.7761465" version="11" timestamp="2017-07-25T10:26:45Z" changeset="50553308" uid="265690" user="fondolucy">
     <tag k="accessibility" v="small_cars"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -6193,7 +6198,7 @@
     <tag k="image:classroom" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/class.JPG"/>
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/MCK/gate.JPG"/>
-    <tag k="name" v="MSK Tusaidie Watoo School"/>
+    <tag k="name" v="MCK Tusaidie Watoto School"/>
     <tag k="operator:name" v="Karibuni Trust"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Kianda"/>
@@ -6277,7 +6282,7 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923814197" lat="-1.3114169" lon="36.7734576" version="10" timestamp="2015-01-03T18:36:32Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2923814197" lat="-1.3114169" lon="36.7734576" version="11" timestamp="2017-07-25T10:33:55Z" changeset="50553549" uid="265690" user="fondolucy">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -6293,7 +6298,7 @@
     <tag k="education:management_committee" v="yes"/>
     <tag k="education:program_feeding" v="fees"/>
     <tag k="education:pta" v="yes"/>
-    <tag k="education:school_head" v="N.Zisiga"/>
+    <tag k="education:school_head" v="Beatrice Muhonja"/>
     <tag k="education:students" v="85"/>
     <tag k="education:students_female" v="55"/>
     <tag k="education:students_male" v="30"/>
@@ -6506,7 +6511,7 @@
     <tag k="place:village" v="Soweto West"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815706" lat="-1.3119554" lon="36.7762934" version="8" timestamp="2015-01-03T18:37:45Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2923815706" lat="-1.3119420" lon="36.7762988" version="9" timestamp="2017-03-21T18:03:25Z" changeset="47047065" uid="647654" user="EmaMihut">
     <tag k="accessibility" v="small_cars"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -6662,7 +6667,7 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815713" lat="-1.3106242" lon="36.7721528" version="15" timestamp="2015-05-21T11:06:14Z" changeset="31339937" uid="999" user="mikelmaron">
+  <node id="2923815713" lat="-1.3106242" lon="36.7721528" version="16" timestamp="2017-05-20T05:19:46Z" changeset="48836048" uid="527721" user="ninjamask">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="2"/>
@@ -6700,7 +6705,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/compound.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/St.%20Michael's%20Holy%20Unity%20Academy/sign%20post.JPG"/>
     <tag k="name" v="St Michael Holy Unity Academy"/>
-    <tag k="official_name" v="ST MICHAELS HOLY UNITY  PRIMARY SCH"/>
+    <tag k="official_name" v="ST MICHAELS HOLY UNITY PRIMARY SCH"/>
     <tag k="operator:name" v="St Michael Holy Unity Cbo"/>
     <tag k="operator:type" v="cbo"/>
     <tag k="place:village" v="Kianda"/>
@@ -9119,7 +9124,7 @@
     <tag k="place:village" v="Laini Saba"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2954090747" lat="-1.3125731" lon="36.7962208" version="5" timestamp="2015-04-14T10:13:37Z" changeset="30207864" uid="261050" user="muindre">
+  <node id="2954090747" lat="-1.3125731" lon="36.7962208" version="6" timestamp="2017-07-25T10:14:38Z" changeset="50552953" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="ground"/>
@@ -9135,7 +9140,7 @@
     <tag k="education:government_registered" v="mgcsd"/>
     <tag k="education:management_committee" v="yes"/>
     <tag k="education:program_feeding" v="yes"/>
-    <tag k="education:students" v="187"/>
+    <tag k="education:students" v="216"/>
     <tag k="education:students_female" v="94"/>
     <tag k="education:students_male" v="93"/>
     <tag k="education:teachers" v="7"/>
@@ -9223,7 +9228,7 @@
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2958438664" lat="-1.3174128" lon="36.7775672" version="4" timestamp="2015-01-03T18:35:36Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2958438664" lat="-1.3174037" lon="36.7775662" version="5" timestamp="2017-03-15T20:39:27Z" changeset="46880699" uid="647654" user="EmaMihut">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:material" v="ironsheets"/>
@@ -10243,13 +10248,13 @@
     <tag k="place:village" v="Gatwekera"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2968578146" lat="-1.3180045" lon="36.7795884" version="3" timestamp="2015-01-03T18:38:01Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2968578146" lat="-1.3191024" lon="36.7801217" version="4" timestamp="2017-03-01T08:26:31Z" changeset="46487723" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
-    <tag k="amenity" v="school"/>
+    <tag k="amenity" v="kindergarten"/>
     <tag k="building:material" v="mud"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:address" v="P.O Box 3277/ P.O Box 41"/>
-    <tag k="contact:phone" v="0725555871"/>
+    <tag k="contact:phone" v="0725555871/ 0714378940"/>
     <tag k="education:curriculum" v="8_4_4"/>
     <tag k="education:extra_scouts" v="yes"/>
     <tag k="education:extra_sports" v="yes"/>
@@ -10276,13 +10281,13 @@
     <tag k="toilet:arranged_name" v="Public toilet"/>
     <tag k="toilet:present" v="arranged"/>
   </node>
-  <node id="2968578147" lat="-1.3180548" lon="36.7795898" version="4" timestamp="2015-01-03T18:38:02Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2968578147" lat="-1.3191396" lon="36.7800653" version="5" timestamp="2017-03-01T08:26:31Z" changeset="46487723" uid="265690" user="fondolucy">
     <tag k="accessibility" v="foot"/>
     <tag k="amenity" v="school"/>
     <tag k="building:material" v="mud"/>
     <tag k="building:roof" v="ironsheets"/>
     <tag k="contact:address" v="P.O Box 3277/P.O Box 41"/>
-    <tag k="contact:phone" v="0725555871"/>
+    <tag k="contact:phone" v="0725555871/ 0714378940"/>
     <tag k="education:curriculum" v="8_4_4"/>
     <tag k="education:extra_scouts" v="yes"/>
     <tag k="education:extra_sports" v="yes"/>
@@ -10338,7 +10343,7 @@
     <tag k="place:village" v="Gatwekera"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2973160735" lat="-1.3115207" lon="36.7820021" version="7" timestamp="2015-01-03T18:36:35Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2973160735" lat="-1.3112721" lon="36.7820423" version="8" timestamp="2017-07-13T07:50:48Z" changeset="50249804" uid="4570042" user="Peter Agenga">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -10891,14 +10896,32 @@
     <tag k="place:village" v="Lindi"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="3034459577" lat="-1.3086777" lon="36.7748694" version="1" timestamp="2014-08-22T10:57:47Z" changeset="24929474" uid="265690" user="fondolucy">
+  <node id="3034459577" lat="-1.3086777" lon="36.7748694" version="3" timestamp="2017-03-15T09:24:53Z" changeset="46863183" uid="261003" user="omino">
     <tag k="amenity" v="school"/>
+    <tag k="building:material" v="cement_block"/>
+    <tag k="building:roof" v="concreate"/>
+    <tag k="education:accessibility" v="big_vehicles"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:extra_drama" v="no"/>
+    <tag k="education:extra_music" v="yes"/>
+    <tag k="education:extra_sports" v="yes"/>
     <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:management_commitee" v="yes"/>
+    <tag k="education:program_WASH" v="yes"/>
+    <tag k="education:program_counselling" v="yes"/>
+    <tag k="education:program_feeding" v="yes"/>
+    <tag k="education:program_handwashing" v="yes"/>
+    <tag k="education:program_rain" v="yes"/>
+    <tag k="education:program_special_needs" v="yes"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:student_disable" v="92"/>
     <tag k="education:type" v="pre_primary"/>
+    <tag k="electricity:operational_status" v="always"/>
     <tag k="name" v="Little Rock ECD"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Ayany"/>
     <tag k="source" v="Map Kibera Trust"/>
+    <tag k="toilet:present" v="yes"/>
   </node>
   <node id="3070142761" lat="-1.3137408" lon="36.7776082" version="4" timestamp="2015-01-03T18:36:44Z" changeset="27893083" uid="555655" user="JamesLC">
     <tag k="accessibility" v="big_vehicles"/>
@@ -12069,6 +12092,183 @@
     <tag k="operator:name" v="Ghetto Light Youth"/>
     <tag k="operator:type" v="ngo"/>
     <tag k="place:village" v="Olympic"/>
+    <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="4711263743" lat="-1.3169844" lon="36.7834209" version="1" timestamp="2017-03-01T08:00:18Z" changeset="46487176" uid="265690" user="fondolucy">
+    <tag k="accessibility" v="foot"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building:levels" v="0"/>
+    <tag k="building:material" v="ironsheets"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:email" v="beckyschoolcentre@gmail.com"/>
+    <tag k="contact:phone" v="0710735236"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="Kshs 1650 per term"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="mgcsd"/>
+    <tag k="education:management_committee" v="yes"/>
+    <tag k="education:student_female" v="21"/>
+    <tag k="education:student_male" v="22"/>
+    <tag k="education:students" v="43"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="pre_primary"/>
+    <tag k="electricity:operational_status" v="often"/>
+    <tag k="name" v="Becky School Centre"/>
+    <tag k="operator:name" v="Becky School Centre"/>
+    <tag k="operator:type" v="cbo"/>
+    <tag k="place:village" v="Raila"/>
+    <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="4711263744" lat="-1.3170112" lon="36.7834319" version="1" timestamp="2017-03-01T08:00:18Z" changeset="46487176" uid="265690" user="fondolucy">
+    <tag k="accessibility" v="foot"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building:material" v="ironsheets"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:email" v="beckyschoolcentre@gmail.com"/>
+    <tag k="contact:phone" v="0710735236"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="Kshs 1650 per term"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="mgcsd"/>
+    <tag k="education:management_committee" v="yes"/>
+    <tag k="education:student_female" v="3"/>
+    <tag k="education:student_male" v="2"/>
+    <tag k="education:students" v="5"/>
+    <tag k="education:teachers" v="1"/>
+    <tag k="education:teachers_female" v="0"/>
+    <tag k="education:teachers_male" v="1"/>
+    <tag k="education:teachers_trained" v="1"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="electricity:operational_status" v="often"/>
+    <tag k="name" v="Becky School Centre"/>
+    <tag k="operator:name" v="Becky School Centre"/>
+    <tag k="operator:type" v="cbo"/>
+    <tag k="place:village" v="Raila"/>
+    <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="4711263745" lat="-1.3158424" lon="36.7841063" version="1" timestamp="2017-03-01T08:00:18Z" changeset="46487176" uid="265690" user="fondolucy">
+    <tag k="accessibility" v="foot"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building:levels" v="0"/>
+    <tag k="building:material" v="concrete"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:email" v="raycenter@yahoo.com"/>
+    <tag k="contact:phone" v="0721356718"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="Kshs 500 per term"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="APBET"/>
+    <tag k="education:program_counselling" v="yes"/>
+    <tag k="education:program_special_needs" v="yes"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:school_head" v="Reginah Bwari Boringa"/>
+    <tag k="education:student_female" v="25"/>
+    <tag k="education:student_male" v="45"/>
+    <tag k="education:students" v="70"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="2"/>
+    <tag k="education:teachers_male" v="2"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="electricity:operational_status" v="often"/>
+    <tag k="name" v="Rays Education Centre"/>
+    <tag k="operator:name" v="Rays Education Centre"/>
+    <tag k="operator:type" v="cbo"/>
+    <tag k="place:village" v="Gatwekera"/>
+    <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="4711263746" lat="-1.3158433" lon="36.7841024" version="1" timestamp="2017-03-01T08:00:19Z" changeset="46487176" uid="265690" user="fondolucy">
+    <tag k="accessibility" v="foot"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building:levels" v="0"/>
+    <tag k="building:material" v="concrete"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:email" v="raycenter@yahoo.com"/>
+    <tag k="contact:phone" v="0721356813"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="Kshs 500 per term"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:program_counselling" v="yes"/>
+    <tag k="education:program_special_needs" v="yes"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:school_head" v="Reginah Bwari Boringa"/>
+    <tag k="education:student_female" v="65"/>
+    <tag k="education:student_male" v="42"/>
+    <tag k="education:students" v="107"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="pre_primary"/>
+    <tag k="electricity:operational_status" v="often"/>
+    <tag k="name" v="Rays Education Centre"/>
+    <tag k="operator:name" v="Rays Education Centre"/>
+    <tag k="operator:type" v="cbo"/>
+    <tag k="place:village" v="Gatwekera"/>
+    <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="4711308866" lat="-1.3157570" lon="36.7829850" version="1" timestamp="2017-03-01T08:26:29Z" changeset="46487723" uid="265690" user="fondolucy">
+    <tag k="accessibility" v="foot"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building:levels" v="0"/>
+    <tag k="building:material" v="ironsheets"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:email" v="josephineawuor618@gmail.com"/>
+    <tag k="contact:phone" v="0723469046"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="Kshs 1800 per term"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="mgcsd"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:school_head" v="Josephine Awuor"/>
+    <tag k="education:student_female" v="48"/>
+    <tag k="education:student_male" v="36"/>
+    <tag k="education:students" v="84"/>
+    <tag k="education:teachers" v="3"/>
+    <tag k="education:teachers_female" v="3"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="primary"/>
+    <tag k="electricity:operational_status" v="never"/>
+    <tag k="name" v="Jitahidi ECD Centre"/>
+    <tag k="operator:type" v="private"/>
+    <tag k="place:village" v="Gatwekera"/>
+    <tag k="toilet:present" v="yes"/>
+  </node>
+  <node id="4711308867" lat="-1.3157990" lon="36.7826250" version="1" timestamp="2017-03-01T08:26:29Z" changeset="46487723" uid="265690" user="fondolucy">
+    <tag k="accessibility" v="foot"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building:levels" v="0"/>
+    <tag k="building:material" v="ironsheets"/>
+    <tag k="building:roof" v="ironsheets"/>
+    <tag k="contact:email" v="josephineawuor618@gmail.com"/>
+    <tag k="contact:phone" v="0723469046"/>
+    <tag k="education:curriculum" v="8_4_4"/>
+    <tag k="education:extra_sports" v="yes"/>
+    <tag k="education:fees" v="Kshs 1800 per term"/>
+    <tag k="education:gender_type" v="mixed"/>
+    <tag k="education:government_registered" v="mgcsd"/>
+    <tag k="education:pta" v="yes"/>
+    <tag k="education:school_head" v="Josephine Awuor"/>
+    <tag k="education:student_female" v="121"/>
+    <tag k="education:student_male" v="120"/>
+    <tag k="education:students" v="241"/>
+    <tag k="education:teachers" v="4"/>
+    <tag k="education:teachers_female" v="4"/>
+    <tag k="education:teachers_male" v="0"/>
+    <tag k="education:teachers_trained" v="3"/>
+    <tag k="education:type" v="pre_primary"/>
+    <tag k="electricity:operational_status" v="never"/>
+    <tag k="name" v="Jitahidi ECD Centre"/>
+    <tag k="operator:type" v="private"/>
+    <tag k="place:village" v="Gatwekera"/>
     <tag k="toilet:present" v="yes"/>
   </node>
 
