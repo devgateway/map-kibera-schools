@@ -29,18 +29,23 @@
   app.pages.home = function home() {
     var schools = new app.models.Schools();
 
-    var mapfilters = this.mapfilters = (new app.views.MapFilters({
-      el: $('#map .controls'),
-      schools: schools
-    })).render();
-    new app.views.MapAllSchools({
+    var mapAllSchools = new app.views.MapAllSchools({
       el: $('#map .map'),
       collection: schools
-    }).render();
-    new app.views.SchoolsStats({
+    });
+    var mapfilters = this.mapfilters = new app.views.MapFilters({
+      el: $('#map .controls'),
+      schools: schools,
+      map: mapAllSchools.map
+    });
+    var schoolsStats = new app.views.SchoolsStats({
       el: $('#stats .stats-container'),
       collection: schools
-    }).render();
+    });
+
+    mapfilters.render();
+    mapAllSchools.render();
+    schoolsStats.render();
 
     u.eachNode(document.querySelectorAll('.action-school-search'), function(s) {
       s.addEventListener('click', function() {

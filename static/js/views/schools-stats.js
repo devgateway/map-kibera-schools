@@ -5,7 +5,7 @@ app.views.SchoolsStats = Backbone.View.extend({
                        '<h3><span class="bignum"><%= students %></span> students</h3>'),
 
   initialize: function() {
-    this.listenTo(this.collection, 'add change:excluded', this.render);
+    this.listenTo(this.collection, 'add change:excluded change:mapScore', this.render);
   },
 
   render: function() {

@@ -28,6 +28,8 @@ app.views.MapFilters = Backbone.View.extend({
       schoolTypeFilter
     ]);
     this.filters.schools = opts.schools;
+    this.filters.map = opts.map;
+    this.filters.listenTo(this.filters.map.map, 'moveend', this.filters.updateScore);
 
     this.quickSearchWidget = new app.filterWidgets.QuickSearch({ model: schoolQuickSearch });
     this.edLevelWidget = new app.filterWidgets.Select({ model: edLevelFilter });

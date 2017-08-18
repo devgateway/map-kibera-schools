@@ -1,6 +1,7 @@
 app.models.School = Backbone.Model.extend({
 
   defaults: {
+    mapScore: 1,
     _filterScore: 1,  // filters write to this
     excluded: false,  // other things watch/read this.
     cursored: false,  // only one should be cursored at a time
@@ -48,7 +49,7 @@ app.models.Schools = Backbone.Collection.extend({
 
   notExcluded: function() {
     return this.filter(function(school) {
-      return school.get('_filterScore') > 0;
+      return (school.get('_filterScore') > 0 && school.get('mapScore') > 0);
     });
   }
 
