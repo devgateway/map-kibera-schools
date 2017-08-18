@@ -78,11 +78,15 @@ app.models.SelectFilter = Backbone.Model.extend({
   },
 
   changeSelect: function(option, selected) {
-    if (selected === false) {  // we just care about the new value
+    if (selected) { 
+        this.set('value', option.get('optionValue'));
+        this.trigger('filterchange');
+        if (this.key === "osm:slum") this.trigger('slumchange', option.get('optionValue'));
+    } else if (this.key === "osm:slum") {
+        this.trigger('slumchange', "deselected");
+    } else {
       return;
     }
-    this.set('value', option.get('optionValue'));
-    this.trigger('filterchange');
   },
 
   scoreSchool: function(school) {

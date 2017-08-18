@@ -6,6 +6,7 @@ app.models.Filters = Backbone.Collection.extend({
   initialize: function(opts) {
     // this.schools = opts.schools;
     this.listenTo(this, 'filterchange', this.filterChange);
+    this.listenTo(this, 'slumchange', this.slumChange);
   },
 
   filterChange: function() {
@@ -21,6 +22,16 @@ app.models.Filters = Backbone.Collection.extend({
     this.each(function(filter) {
       filter.trigger('filtersupdated');
     });
+  },
+
+  slumChange: function(slum) {
+    if (slum === "deselected") {
+        this.map.map.flyTo(app.config.map.centre, app.config.map.zoom);
+    } else if (slum === "Mathare-schools-osm") {
+        this.map.map.flyTo(app.config.map.mathare, 16, {animate: true});
+    } else {
+        this.map.map.flyTo(app.config.map.kibera, 15, {animate: true});
+    }
   },
 
   updateScore: function() {
