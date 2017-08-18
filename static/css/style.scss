@@ -454,7 +454,7 @@ section#school-top {
       color: $c-accent2;
     }
     .clear-filter {
-      z-index: 600;
+      z-index: $layer-top;
       display: block;
       position: absolute;
       top: 0;
@@ -684,7 +684,7 @@ section#school-top {
  * Charts and stuff
  */
 #stats {
-  z-index: $layer-norm;
+  z-index: $layer-mhigh;
   position: absolute;
   left: 50%;
   margin: -($height-map - $pad-v) ($width-full/2 - $width-accent-box) 0;
