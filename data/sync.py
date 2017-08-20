@@ -215,7 +215,7 @@ def cache_images():
     large_images = []
     for prop in ["osm:image:classroom","osm:image:compound","osm:image:other", "osm:image:outside"]:
       if prop in feature['properties']:
-        cache_image(feature['properties']['osm:id'], feature['properties']['osm:name'], prop, feature['properties'][prop])
+        #cache_image(feature['properties']['osm:id'], feature['properties']['osm:name'], prop, feature['properties'][prop])
         image = get_image_cache(feature['properties']['osm:id'], prop, feature['properties'][prop], 'med')
         images.append(image)
         image = get_image_cache(feature['properties']['osm:id'], prop, feature['properties'][prop], 'large')
@@ -238,7 +238,7 @@ filter_kenyaopendata()
 sync_osm()
 convert2geojson()
 compare_osm_kenyaopendata()
-#cache_images()
+cache_images()
 deploy()
 
 #TODO generate statistics on each run of comparison results

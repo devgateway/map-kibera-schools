@@ -19,7 +19,7 @@
         <ul>
           {% for photo in school.properties.photos %}
             <li>
-              <a href="{{ school.properties.photos[ loop.index - 1 ] }}" target="_TOP">
+              <a href="{{ school.properties.large_photos[ loop.index - 1 ] }}" target="_TOP">
                 <img src="{{ photo }}" alt="photo {{ loop.index }} of {{ school.name }}" />
               </a>
             </li>
