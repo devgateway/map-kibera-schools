@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2017-08-20T23:35:02Z"/>
+<meta osm_base="2017-08-23T13:10:03Z"/>
 
   <bounds minlat="-1.3211000" minlon="36.7651000" maxlat="-1.3009000" maxlon="36.8178000"/>
 
@@ -256,7 +256,7 @@
     <tag k="place:village" v="Kambi Muru"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="612007279" lat="-1.3123932" lon="36.7908620" version="20" timestamp="2015-01-03T18:37:02Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="612007279" lat="-1.3123932" lon="36.7908620" version="21" timestamp="2017-08-22T10:25:05Z" changeset="51335168" uid="261050" user="muindre">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="boundary_type:Ward_boundary" v="yes"/>
@@ -301,7 +301,7 @@
     <tag k="operational_status" v="operational"/>
     <tag k="operator:description" v="The school is runned by AIC church in partnership with the foundation"/>
     <tag k="operator:name" v="Balcraig Foundation"/>
-    <tag k="operator:type" v="ngo_cbo"/>
+    <tag k="operator:type" v="ngo"/>
     <tag k="place:village" v="Kambi Muru"/>
     <tag k="polling_station:accessibility" v="small_cars"/>
     <tag k="polling_station:election_year" v="2013"/>
@@ -2560,7 +2560,7 @@
     <tag k="place:village" v="Olympic"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="748833033" lat="-1.3128694" lon="36.7804170" version="14" timestamp="2014-09-11T07:04:09Z" changeset="25361510" uid="265690" user="fondolucy">
+  <node id="748833033" lat="-1.3128694" lon="36.7804170" version="15" timestamp="2017-08-22T10:25:06Z" changeset="51335168" uid="261050" user="muindre">
     <tag k="accessibility" v="small_cars"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -2598,7 +2598,7 @@
     <tag k="operational_status:electricity" v="sometimes"/>
     <tag k="operator:description" v="Dorcas Kathoni"/>
     <tag k="operator:name" v="Kenya Deaf Aid"/>
-    <tag k="operator:type" v="ngo_cbo"/>
+    <tag k="operator:type" v="ngo"/>
     <tag k="place:village" v="Olympic"/>
     <tag k="source" v="Map Kibera Trust"/>
     <tag k="toilet:present" v="yes"/>
@@ -6465,7 +6465,7 @@
     <tag k="place:village" v="Kianda"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2923815704" lat="-1.3160355" lon="36.7757474" version="14" timestamp="2015-01-16T19:40:03Z" changeset="28194570" uid="999" user="mikelmaron">
+  <node id="2923815704" lat="-1.3160355" lon="36.7757474" version="15" timestamp="2017-08-21T22:59:47Z" changeset="51321972" uid="186592" user="Johnwhelan">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:levels" v="0"/>
@@ -6505,7 +6505,7 @@
     <tag k="image:compound" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Soweto%20Academy/IMG_0337.JPG"/>
     <tag k="image:outside" v="https://0079f04f78208eb6dbf00f4be735c0a32d71c3ad.googledrive.com/host/0B8cIVKWxH2-6Ynk0MDZJUnNpdUU/Jacob/Soweto%20Academy/IMG_0338.JPG"/>
     <tag k="name" v="Soweto Academy"/>
-    <tag k="official_name" v="SOWETO ACADEMY  - PRI"/>
+    <tag k="official_name" v="SOWETO ACADEMY - PRI"/>
     <tag k="operator:name" v="Makabwa Bwire"/>
     <tag k="operator:type" v="private"/>
     <tag k="place:village" v="Soweto West"/>
@@ -8581,7 +8581,7 @@
     <tag k="place:village" v="Kambi Muru"/>
     <tag k="toilet:present" v="yes"/>
   </node>
-  <node id="2952187232" lat="-1.3123821" lon="36.7904486" version="6" timestamp="2015-01-03T18:37:03Z" changeset="27893083" uid="555655" user="JamesLC">
+  <node id="2952187232" lat="-1.3123821" lon="36.7904486" version="7" timestamp="2017-08-22T10:25:07Z" changeset="51335168" uid="261050" user="muindre">
     <tag k="accessibility" v="big_vehicles"/>
     <tag k="amenity" v="school"/>
     <tag k="building:material" v="cement_block"/>
@@ -8613,7 +8613,7 @@
     <tag k="name" v="Mashimoni Squatters Secondary School"/>
     <tag k="operator:description" v="The school is runned by AIC church in partnership with the foundation"/>
     <tag k="operator:name" v="Balcraig Foundation"/>
-    <tag k="operator:type" v="ngo_cbo"/>
+    <tag k="operator:type" v="ngo"/>
     <tag k="place:village" v="Kambi Muru"/>
     <tag k="toilet:present" v="yes"/>
   </node>

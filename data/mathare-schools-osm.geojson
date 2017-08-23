@@ -41,11 +41,11 @@
         "osm:education:type": "secondary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/1038064486",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Mcedo Secondary School",
         "osm:operator:name": "MCEDO",
         "osm:operator:type": "cbo",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -86,11 +86,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/1038103774",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Inspiration Baby College",
         "osm:operator:name": "Inspiration Centre",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -144,11 +144,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/1038103776",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Bridge International School",
         "osm:operator:name": "Bridge International Academy",
         "osm:operator:type": "ngo",
         "osm:place:village": "Gumba",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -197,10 +197,10 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/1038103794",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Abundant Life School",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -247,11 +247,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/1100019215",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Angel Girls Education Centre",
         "osm:operator:description": "Agella Adhiambo",
         "osm:operator:type": "private",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -298,11 +298,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/1103092195",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "ST. MichaelChildren Education Center",
         "osm:operator:name": "Community",
         "osm:operator:type": "Cbo",
         "osm:place:village": "Mathare Mashimoni",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "no"
       },
       "type": "Feature"
@@ -347,11 +347,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/1103092338",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "St. Ngota's Upendo Primary School",
         "osm:operator:name": "Jordan Friends Ministries",
         "osm:operator:type": "religious",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -399,12 +399,12 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/1103092451",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Why Not Academy",
         "osm:operator:description": "association",
         "osm:operator:name": "whynot",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare Mashimoni",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -452,11 +452,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/1109445798",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "MCEDO Primary School",
         "osm:operator:name": "MCEDO",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -500,11 +500,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/1110199069",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Roots Institute Center",
         "osm:operator:name": "Roots Institute Center",
         "osm:operator:type": "cbo",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -553,11 +553,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/1110227334",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Anaweza Education Centre",
         "osm:operator:description": "Vincent Okumu",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -598,11 +598,11 @@
         "osm:electricity:operational_status": "always",
         "osm:id": "node/1244198595",
         "osm:level": "0",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Maranatha Academy",
         "osm:operator:name": "Maranatha Pioneer",
         "osm:operator:type": "religious",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -651,11 +651,11 @@
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4454756893",
         "osm:level": "0",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Missions Of Hope International (bondeni)",
         "osm:operator:name": "Missions Of Hope International",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -704,11 +704,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4454756894",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Destiny Junior Educational Centre",
         "osm:operator:name": "Destiny Junior Education",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -757,12 +757,12 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4454756896",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Naioth Education Centre",
         "osm:operator:description": "Run by Church",
         "osm:operator:name": "Mathare Worship Centre",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 3B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -797,11 +797,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4456606596",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Maranatha Academy",
         "osm:operator:name": "Maranatha Faith Assembly",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare NO 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -845,11 +845,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4456606815",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Faith Celebration",
         "osm:operator:name": "Faith Celebration Church",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -894,11 +894,11 @@
         "osm:education:type": "secondary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4456611009",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "AIC Zion High School",
         "osm:operator:name": "AIC Zion Church",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -949,11 +949,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "often",
         "osm:id": "node/4457506593",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "AIC Zion Education Centre",
         "osm:operator:name": "AIC Zion Church",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1002,10 +1002,10 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "often",
         "osm:id": "node/4457507291",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Codman Academy",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1037,11 +1037,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4457550090",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Maranatha Academy",
         "osm:operator:name": "Maranatha Faith Assembly",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1083,10 +1083,10 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4457763959",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Abundant Life School",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1136,10 +1136,10 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4461370056",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "DayStar Education Center",
         "osm:operator:name": "community",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -1186,10 +1186,10 @@
         "osm:education:type": "secondary",
         "osm:electricity:operational_status": "often",
         "osm:id": "node/4461458485",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Codman Secondary School",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1238,11 +1238,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4461458486",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Neci Education Centre",
         "osm:operator:name": "Neci Education Centre",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare Village 2",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1290,11 +1290,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4461458487",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "St James Feeding and Learning Programme",
         "osm:operator:name": "St James Feeding and Learning Programme",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1346,11 +1346,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4461458488",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Community Care Educational Organization",
         "osm:operator:name": "Community Care Educational Organization",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1396,11 +1396,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "often",
         "osm:id": "node/4461494343",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Billgates Care Primary",
         "osm:operator:description": "Adanga Kayasi",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -1451,10 +1451,10 @@
         "osm:education:type": "secondary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4461496406",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Balozi High School",
         "osm:operator:type": "private",
         "osm:place:village": "Thayu",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1497,11 +1497,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4461510623",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Fountain Preparatory School",
         "osm:operator:description": "Carolyne .W. Murithi",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1541,11 +1541,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4461519044",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Jorum Education Center",
         "osm:operator:description": "Ruth Ndunge",
         "osm:operator:type": "private",
         "osm:place:village": "Mathare 3B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1595,11 +1595,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4462892677",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Maji Mazuri Headstart Academy",
         "osm:operator:description": "Edward Sila",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3c",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1647,11 +1647,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4462893659",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Patmos School.",
         "osm:operator:name": "Evangelical Gospel",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1695,10 +1695,10 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4462920821",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Recada School",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:arranged_name": "Community",
         "osm:toilet:present": "outside_public"
       },
@@ -1739,11 +1739,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4462937714",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Glorious Education Center",
         "osm:operator:name": "Glorious Celebration Center",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1788,11 +1788,11 @@
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4462967881",
         "osm:level": "0",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Christ Ambassadour Academy",
         "osm:operator:name": "Redemeed Gospel",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1844,11 +1844,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4463017734",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Gitathuru Mission Of Hope",
         "osm:operator:description": "Samuel Kilatya",
         "osm:operator:type": "religious",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1893,11 +1893,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4463082226",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Mathare Kosovo Salvation Army Community School",
         "osm:operator:description": "Zipporah Mutinda",
         "osm:operator:type": "religious",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -1941,11 +1941,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4464506027",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Anaweza Education Centre",
         "osm:operator:description": "Vincent Okumu",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -1991,11 +1991,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4464506028",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Gitathuru Mission Of Hope",
         "osm:operator:description": "Samuel Kilatya",
         "osm:operator:type": "religious",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2046,10 +2046,10 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4464546559",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "DayStar Education Center",
         "osm:operator:type": "community",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -2097,11 +2097,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4464546560",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "St. Ngota's Upendo Pre_Primary School",
         "osm:operator:name": "Jordan Friends Ministries",
         "osm:operator:type": "religious",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2146,11 +2146,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4464601890",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Maji Mazuri Headstart Academy",
         "osm:operator:description": "Edward Sila",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 3C",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2184,11 +2184,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4464622787",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Mcedo Primary School",
         "osm:operator:name": "MCEDO",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2236,11 +2236,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4464622788",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Patmos School",
         "osm:operator:name": "Evangelical Gospel",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2285,11 +2285,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4464655293",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Mathare Kosovo Salvation Army Community School",
         "osm:operator:description": "Zipporah Mutinda",
         "osm:operator:type": "religious",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2333,11 +2333,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "often",
         "osm:id": "node/4464689391",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Billgates Care Primary",
         "osm:operator:description": "Adanga Kayasi",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mabatini",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -2378,11 +2378,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "often",
         "osm:id": "node/4464711189",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Cross Plain School",
         "osm:operator:description": "Roseline Wawire",
         "osm:operator:type": "cbo",
         "osm:place:village": "Mathare 10",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2423,11 +2423,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4465955077",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Maana Academy",
         "osm:operator:name": "P D C C",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -2474,11 +2474,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4465996146",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Lea Learning Center",
         "osm:operator:name": "Lea Mathare CBO",
         "osm:operator:type": "cbo",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -2528,10 +2528,10 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4466007970",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Mabawa School",
         "osm:operator:type": "private",
         "osm:place:village": "Kosovo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:arranged_name": "2",
         "osm:toilet:present": "yes"
       },
@@ -2580,11 +2580,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4466069585",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Hope Baptist Children Center",
         "osm:operator:name": "Hope Baptist Church",
         "osm:operator:type": "religious",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2625,10 +2625,10 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4467530209",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Pillar Day Care",
         "osm:operator:type": "private",
         "osm:place:village": "Mathare 4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -2679,11 +2679,11 @@
         "osm:education:type": "secondary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4467561519",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Genesis Joy Secondary School",
         "osm:operator:description": "Beatrice M Mbugua",
         "osm:operator:type": "private",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2733,11 +2733,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4467561520",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Genesis Joy Primary School",
         "osm:operator:description": "Beatrice M Mbugua.",
         "osm:operator:type": "private",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2788,10 +2788,10 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4467561521",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Hope Compassion Center",
         "osm:operator:description": "Barack",
         "osm:operator:type": "cbo",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:arranged_name": "fresh",
         "osm:toilet:present": "outside_public"
       },
@@ -2842,11 +2842,11 @@
         "osm:education:type": "primary",
         "osm:electricity:operational_status": "never",
         "osm:id": "node/4467561522",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "MACCO ACADEMY",
         "osm:operator:description": "Calvonce Okello",
         "osm:operator:type": "religious",
         "osm:place:village": "Mathare4B",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "outside_public"
       },
       "type": "Feature"
@@ -2891,11 +2891,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "sometimes",
         "osm:id": "node/4467561523",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "ACK Gitathuru Academy",
         "osm:operator:description": "Jemimah Omusikoyo",
         "osm:operator:type": "private",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:arranged_name": "fresh life",
         "osm:toilet:present": "outside_public"
       },
@@ -2943,11 +2943,11 @@
         "osm:education:type": "pre_primary",
         "osm:electricity:operational_status": "always",
         "osm:id": "node/4472329843",
+        "osm:location": "mathare-schools-osm",
         "osm:name": "Genesis Joy Pre School",
         "osm:operator:description": "Beatrice M Mbugua.",
         "osm:operator:type": "private",
         "osm:place:village": "Gitathuru",
-        "osm:slum": "mathare-schools-osm",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
