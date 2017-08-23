@@ -81,9 +81,9 @@ app.models.SelectFilter = Backbone.Model.extend({
     if (selected) { 
         this.set('value', option.get('optionValue'));
         this.trigger('filterchange');
-        if (this.key === "osm:slum") this.trigger('slumchange', option.get('optionValue'));
-    } else if (this.key === "osm:slum") {
-        this.trigger('slumchange', "deselected");
+        if (this.key === "osm:location") this.trigger('locationchange', option.get('optionValue'));
+    } else if (this.key === "osm:location") {
+        this.trigger('locationchange', "deselected");
     } else {
       return;
     }
