@@ -25,12 +25,13 @@ app.models.Filters = Backbone.Collection.extend({
   },
 
   locationChange: function(location) {
-    if (location === "deselected") {
+    if (location === "deselected" || !app.config[location]) {
         this.map.map.flyTo(app.config.map.centre, app.config.map.zoom);
-    } else if (location === "Mathare-schools-osm") {
-        this.map.map.flyTo(app.config.map.mathare, 16, {animate: true});
     } else {
-        this.map.map.flyTo(app.config.map.kibera, 15, {animate: true});
+        this.map.map.flyTo(
+            app.config[location].centre, 
+            app.config[location].zoom, 
+            {animate: true});
     }
   },
 

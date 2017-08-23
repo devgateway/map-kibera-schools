@@ -14,10 +14,16 @@
     map: {
       tiles: 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
       centre: [-1.293, 36.817],
-      mathare: [-1.262, 36.858],
-      kibera: [-1.313, 36.788],
       zoom: 13,
       localZoom: 17
+    },
+    Mathare: {
+      centre: [-1.262, 36.858],
+      zoom: 16
+    },
+    Kibera: {
+      centre: [-1.313, 36.788],
+      zoom: 15
     },
     marker: {
       radius: 5
