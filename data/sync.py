@@ -115,7 +115,7 @@ def clean_osm(file):
     properties[ "osm:_user" ] = feature.properties['meta']['user']
     properties[ "osm:_timestamp" ] = feature.properties['meta']['timestamp']
     properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
-    properties[ "osm:location" ] = os.path.splitext(os.path.basename(file))[0]
+    properties[ "osm:location" ] = os.path.splitext(os.path.basename(file))[0].split('-')[0]
 
     feature.properties = properties
 
