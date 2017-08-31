@@ -102,14 +102,12 @@
     <div class="school-info-data">
       <div id="data-source-osm" class="data-selectable data-source-data data-osm selected">
         <div class="school-stats school-more-stats">
-          <h3><i>Collected 2014</i></h3>
           {{ dump_grouped_properties('osm') }}
         </div>
       </div>
       <div id="data-source-kod" class="data-selectable data-source-data data-kod">
         {% if has_kod %}
           <div class="school-stats school-more-stats">
-            <h3><i>Collected 2007</i></h3>
             {{ dump_grouped_properties('kod') }}
           </div>
         {% else %}
@@ -118,7 +116,6 @@
       </div>
       <div id="data-source-compare" class="data-selectable data-source-data data-compare">
         <div class="school-stats school-more-stats">
-          <h3><i>OSM 2014, KOD 2007</i></h3>
           {{ dump_grouped_properties() }}
         </div>
       </div>
