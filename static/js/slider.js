@@ -46,8 +46,11 @@
   var sliderInterval = setInterval(function(){ autoSlide() }, 4000);
 
   function autoSlide() {
-    currentSlide = (currentSlide + 1) % pagers.length;
-    showSlide(pagers[currentSlide].hash, pagers[currentSlide]);
+    var middle = (sliderContainer.getBoundingClientRect().bottom + sliderContainer.getBoundingClientRect().top)/2;
+    if (middle > 100) {
+        currentSlide = (currentSlide + 1) % pagers.length;
+        showSlide(pagers[currentSlide].hash, pagers[currentSlide]);
+    }
   }
 
   function stopAutoSlide() {
