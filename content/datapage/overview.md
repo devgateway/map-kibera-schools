@@ -4,8 +4,15 @@ Download the Data
 Download the data to conduct your analysis, provide your own insights, and tell your story. <a href="mailto:contact@mapkibera.org">Get in touch</a> if you have any questions.
 
 ## Open Schools Kenya Data
-* [JSON](/schools.json)
-* [CSV](/data/schools.csv)
+
+* JSON
+    * [ALL](/schools.json)
+    * [Kibera](/kibera.json)
+    * [Mathare](/mathare.json)
+* CSV
+    * [ALL](/data/schools.csv)
+    * [Kibera](/data/kibera.csv)
+    * [Mathare](/data/mathare.csv)
 
 ## Printed Map
 

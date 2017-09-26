@@ -6,6 +6,7 @@ import geojson
 from geojson import MultiPoint
 import string
 from PIL import Image
+from copy import deepcopy
 
 north = -1.3000
 south = -1.3232
@@ -128,6 +129,8 @@ def compare_osm_kenyaopendata():
   result = {}
   result['type'] = 'FeatureCollection'
   result['features'] = []
+  kibera = deepcopy(result)
+  mathare = deepcopy(result)
 
   #TODO make sure all features in KOD are in OSM (through osmly)
   for feature in osm.features:
@@ -149,9 +152,17 @@ def compare_osm_kenyaopendata():
 
     geom = MultiPoint(points)
     result['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
+    if feature.properties['osm:location'] == 'kibera':
+        kibera['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
+    else:
+        mathare['features'].append( { "type": "Feature", "properties": feature.properties, "geometry": geom })
 
   dump = geojson.dumps(result, sort_keys=True, indent=2)
   writefile('nairobi-combined-schools.geojson',dump)
+  dump = geojson.dumps(kibera, sort_keys=True, indent=2)
+  writefile('kibera-schools.geojson',dump)
+  dump = geojson.dumps(mathare, sort_keys=True, indent=2)
+  writefile('mathare-schools.geojson',dump)
 
 def slug_image(img_url):
   valid_chars = "%s%s" % (string.ascii_letters, string.digits)
@@ -231,6 +242,10 @@ def deploy():
   os.system("ogr2ogr -f CSV nairobi-combined-schools.csv nairobi-combined-schools.geojson -lco GEOMETRY=AS_WKT")
   os.system("cp nairobi-combined-schools.geojson ../content/schools/")
   os.system("cp nairobi-combined-schools.csv ../content/download/")
+  os.system("ogr2ogr -f CSV kibera-schools.csv kibera-schools.geojson -lco GEOMETRY=AS_WKT")
+  os.system("ogr2ogr -f CSV mathare-schools.csv mathare-schools.geojson -lco GEOMETRY=AS_WKT")
+  os.system("cp kibera-schools.csv ../content/download/")
+  os.system("cp mathare-schools.csv ../content/download/")
 
 #TODO make command line configurable .. Fabric?
 #kenyaopendata()

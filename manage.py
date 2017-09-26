@@ -221,6 +221,12 @@ def build_csv():
     src = os.path.join('content/download/nairobi-combined-schools.csv')
     dest = os.path.join('build', 'data/schools.csv')
     shutil.copy(src, dest)
+    src = os.path.join('content/download/kibera-schools.csv')
+    dest = os.path.join('build', 'data/kibera.csv')
+    shutil.copy(src, dest)
+    src = os.path.join('content/download/mathare-schools.csv')
+    dest = os.path.join('build', 'data/mathare.csv')
+    shutil.copy(src, dest)
 
 @command
 def build(what, *args):

@@ -68,6 +68,21 @@ def schools_geojson():
     }
     return Response(json.dumps(geojson), mimetype='application/json')
 
+@app.route('/kibera.json')
+def kibera_geojson():
+    kibera = {
+        'type': 'FeatureCollection',
+        'features': [d for d in content['schools'] if d['properties']['osm:location'] in ['kibera']],
+    }
+    return Response(json.dumps(kibera), mimetype='application/json')
+
+@app.route('/mathare.json')
+def mathare_geojson():
+    mathare = {
+        'type': 'FeatureCollection',
+        'features': [d for d in content['schools'] if d['properties']['osm:location'] in ['mathare']],
+    }
+    return Response(json.dumps(mathare), mimetype='application/json')
 
 @app.route('/app/schools.json')
 def schools_appjson():
