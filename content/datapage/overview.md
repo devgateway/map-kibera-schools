@@ -14,8 +14,10 @@ Download the data to conduct your analysis, provide your own insights, and tell 
 <img width="500" src="/static/blog-images/poster.png" />
 
 ## Directly from OpenStreetMap
-* [Overpass Turbo Query](http://overpass-turbo.eu/s/7LO)
+* [Kibera Overpass Turbo Query](http://overpass-turbo.eu/s/7LO)
+* [Mathare Overpass Turbo Query](http://overpass-turbo.eu/s/rMZ)
 * [Kibera in OpenStreetMap](http://www.openstreetmap.org/#map=15/-1.3143/36.7910)
+* [Mathare in OpenStreetMap](http://www.openstreetmap.org/#map=15/-1.2580/36.8600)
 
 ## Other Data Themes
 * [Map Kibera Download](http://mapkibera.org/theme/download/)
