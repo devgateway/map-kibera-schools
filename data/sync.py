@@ -120,6 +120,9 @@ def clean_osm(file):
     properties[ "osm:location" ] = os.path.splitext(os.path.basename(file))[0].split('-')[0]
 
     feature.properties = properties
+    for prop in feature.properties.keys():
+        if prop.startswith('osm:polling_station:'):
+            feature.properties.pop(prop, None)
 
   dump = geojson.dumps(osm, sort_keys=True, indent=2)
   writefile(file,dump)

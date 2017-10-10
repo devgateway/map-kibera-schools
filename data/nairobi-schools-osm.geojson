@@ -57,13 +57,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Golf Course",
-        "osm:polling_station:accessibility": "motor_bikes,small_cars,big_cars.tractors",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Mbagathi hospital",
-        "osm:polling_station:nearest_police_station": "Kenyatta police post",
-        "osm:polling_station:registered_voters": "3,815",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type_description": "public_school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -263,11 +256,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Olympic",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "MSF belgium HIV Clinic,Huduma medical clinic",
-        "osm:polling_station:nearest_police_station": "olympic chief's camp",
-        "osm:polling_station:registered_voters": "6,152",
-        "osm:polling_station:type": "public_school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -402,12 +390,6 @@
         "osm:operator:name": "Balcraig Foundation",
         "osm:operator:type": "ngo",
         "osm:place:village": "Kambi Muru",
-        "osm:polling_station:accessibility": "small_cars",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Msf belgium (kwa wanga)",
-        "osm:polling_station:nearest_police_station": "Kilimani police station,Administration police Do",
-        "osm:polling_station:registered_voters": "5979",
-        "osm:polling_station:source": "map_kibera_trust",
         "osm:source": "map_kibera_trust",
         "osm:toilet:present": "yes"
       },
@@ -1087,13 +1069,6 @@
         "osm:operator:name": "YMCA",
         "osm:operator:type": "ngo",
         "osm:place:village": "Laini Saba",
-        "osm:polling_station:accessibility": "small_cars",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Amref dispensary",
-        "osm:polling_station:nearest_police_station": "Kilimani/kenyatta",
-        "osm:polling_station:registered_voters": "10149",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type_description": "private_school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -2207,8 +2182,6 @@
         "osm:operator:name": "Makina Self Help Group",
         "osm:operator:type": "private",
         "osm:place:village": "Makina",
-        "osm:polling_station:accessibility": "big_cars",
-        "osm:polling_station:type_description": "private_school",
         "osm:source": "map_kibera_trust",
         "osm:station:type_description": "Self Help organisation",
         "osm:toilet:present": "yes"
@@ -4290,12 +4263,6 @@
         "osm:operator:name": "PCEA Church",
         "osm:operator:type": "religious",
         "osm:place:village": "Silanga",
-        "osm:polling_station:Election_year": "2013",
-        "osm:polling_station:accessibility": "big_cars",
-        "osm:polling_station:nearest_health_centre": "Silanga Dispensary",
-        "osm:polling_station:nearest_police_station": "Chief camp, highrise",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type": "private_school",
         "osm:registered_voters": "2331",
         "osm:toilet:present": "yes"
       },
@@ -5375,13 +5342,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Ayany",
-        "osm:polling_station:accessibility": "big_cars",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Ushirika health center",
-        "osm:polling_station:nearest_police_station": "Ayany police post,Jamuhuri police post",
-        "osm:polling_station:registered_voters": "3,962",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type_description": "public_school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -5456,12 +5416,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Karanja",
-        "osm:polling_station:accessibility": "big_cars",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "st mary's, vipawa",
-        "osm:polling_station:nearest_police_station": "Administation police D.C camp",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type": "public_school",
         "osm:registered_voters": "5582",
         "osm:toilet:present": "yes"
       },
@@ -6038,8 +5992,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Karanja",
-        "osm:polling_station:registered_voters": "2877",
-        "osm:polling_station:type_description": "government",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -6649,12 +6601,6 @@
         "osm:location": "kibera",
         "osm:name": "Joseph Kangethe Primary School",
         "osm:operator:type": "government",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Joseph kangethe health centre maternity and child welfare clinic",
-        "osm:polling_station:nearest_police_station": "Kilimani",
-        "osm:polling_station:registered_voters": "2,555",
-        "osm:polling_station:type": "school",
-        "osm:polling_station:type_description": "Its a public school",
         "osm:source": "map_kibera_trust",
         "osm:toilet:present": "yes"
       },
@@ -6740,11 +6686,6 @@
         "osm:location": "kibera",
         "osm:name": "Toi Primary School",
         "osm:operator:type": "government",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Joseph kang'ethe health centre",
-        "osm:polling_station:nearest_police_station": "Kilimani",
-        "osm:polling_station:registered_voters": "3,312",
-        "osm:polling_station:type_description": "public_school",
         "osm:source": "map_kibera_trust",
         "osm:toilet:present": "yes"
       },
@@ -6808,14 +6749,6 @@
         "osm:operator:name": "Kenya Assemblies of God Church",
         "osm:operator:type": "religious",
         "osm:place:village": "Olympic",
-        "osm:polling_station:accessibility": "big_cars",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Msf",
-        "osm:polling_station:nearest_police_station": "Administation police olympic",
-        "osm:polling_station:registered_voters": "3,292",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type": "church",
-        "osm:polling_station:type_description": "social_ground/church/school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -6842,14 +6775,7 @@
         "osm:location": "kibera",
         "osm:name": "St Charles Lwanga School",
         "osm:official_name": "ST CHARLES LWANGA SEC SCH",
-        "osm:operational_status:electricity": "always",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Lang'ata health centre",
-        "osm:polling_station:nearest_police_station": "Cheif Mugumoini",
-        "osm:polling_station:registered_voters": "2,422",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type": "school",
-        "osm:polling_station:type_description": "Its a private school"
+        "osm:operational_status:electricity": "always"
       },
       "type": "Feature"
     },
@@ -6909,12 +6835,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Jamhuri",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Nairobi womens Hospital",
-        "osm:polling_station:nearest_police_station": "Jamhuri Police Station",
-        "osm:polling_station:registered_voters": "3,800",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type": "school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -7027,14 +6947,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Ngumo",
-        "osm:polling_station:accessibility": "motor_bikes,small_cars,big_cars.tractors",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Mbagathi hospital",
-        "osm:polling_station:nearest_police_station": "Kenyatta police post",
-        "osm:polling_station:registered_voters": "4,086",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type": "school",
-        "osm:polling_station:type_description": "Its a public school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
@@ -7099,11 +7011,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Dam Estate",
-        "osm:polling_station:accessibility": "big_cars",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "langatta hospital",
-        "osm:polling_station:nearest_police_station": "langatta police station",
-        "osm:polling_station:type": "public_school",
         "osm:registered_voters": "3182",
         "osm:source": "map_kibera_trust",
         "osm:toilet:present": "yes"
@@ -14537,13 +14444,6 @@
         "osm:operator:name": "Government",
         "osm:operator:type": "government",
         "osm:place:village": "Golf Course",
-        "osm:polling_station:accessibility": "motor_bikes,small_cars,big_cars.tractors",
-        "osm:polling_station:election_year": "2013",
-        "osm:polling_station:nearest_health_centre": "Mbagathi hospital",
-        "osm:polling_station:nearest_police_station": "Kenyatta police post",
-        "osm:polling_station:registered_voters": "3,815",
-        "osm:polling_station:source": "map_kibera_trust",
-        "osm:polling_station:type_description": "public_school",
         "osm:toilet:present": "yes"
       },
       "type": "Feature"
