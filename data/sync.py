@@ -4,6 +4,7 @@ import csv
 import os
 import geojson
 from geojson import MultiPoint
+from datetime import datetime
 import string
 from PIL import Image
 from copy import deepcopy
@@ -114,7 +115,7 @@ def clean_osm(file):
     for osm_property in feature.properties['tags'].keys():
       properties[ "osm:" + osm_property ] = feature.properties['tags'][ osm_property ]
     properties[ "osm:_user" ] = feature.properties['meta']['user']
-    properties[ "osm:_timestamp" ] = feature.properties['meta']['timestamp']
+    properties[ "osm:_timestamp" ] = datetime.strptime(feature.properties['meta']['timestamp'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y-%m-%d')
     properties[ "osm:id" ] = feature['id'] #TODO change to "_id"?
     properties[ "osm:location" ] = os.path.splitext(os.path.basename(file))[0].split('-')[0]
 
