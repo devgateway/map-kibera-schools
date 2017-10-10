@@ -10,7 +10,7 @@
       },
       "id": "node/1038064486",
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -60,7 +60,7 @@
       },
       "id": "node/1038103774",
       "properties": {
-        "osm:_timestamp": "2016-10-21T11:11:17Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Tiany",
         "osm:accessibility": "foot",
         "osm:amenity": "kindergarten",
@@ -105,7 +105,7 @@
       },
       "id": "node/1038103776",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:31Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -163,7 +163,7 @@
       },
       "id": "node/1038103794",
       "properties": {
-        "osm:_timestamp": "2016-10-21T11:28:17Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Tiany",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -215,7 +215,7 @@
       },
       "id": "node/1100019215",
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:05Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -266,7 +266,7 @@
       },
       "id": "node/1103092195",
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -317,7 +317,7 @@
       },
       "id": "node/1103092338",
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -367,7 +367,7 @@
       "id": "node/1103092451",
       "properties": {
         "osm:UNESCO POI'S": "EDUCATION",
-        "osm:_timestamp": "2016-12-08T09:14:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -419,7 +419,7 @@
       },
       "id": "node/1109445798",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:14:33Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -471,7 +471,7 @@
       },
       "id": "node/1110199069",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:14:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -519,7 +519,7 @@
       },
       "id": "node/1110227334",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:58Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -572,7 +572,7 @@
       },
       "id": "node/1244198595",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:58Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -617,7 +617,7 @@
       },
       "id": "node/4454756893",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:59Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -670,7 +670,7 @@
       },
       "id": "node/4454756894",
       "properties": {
-        "osm:_timestamp": "2016-10-21T10:53:29Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Tiany",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -723,7 +723,7 @@
       },
       "id": "node/4454756896",
       "properties": {
-        "osm:_timestamp": "2016-12-07T09:34:12Z",
+        "osm:_timestamp": "2016-12-07",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -777,7 +777,7 @@
       },
       "id": "node/4456606596",
       "properties": {
-        "osm:_timestamp": "2016-10-21T08:11:06Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -816,7 +816,7 @@
       },
       "id": "node/4456606815",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:58Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -864,7 +864,7 @@
       },
       "id": "node/4456611009",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:03Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -913,7 +913,7 @@
       },
       "id": "node/4457506593",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:03Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -968,7 +968,7 @@
       },
       "id": "node/4457507291",
       "properties": {
-        "osm:_timestamp": "2016-10-26T09:51:36Z",
+        "osm:_timestamp": "2016-10-26",
         "osm:_user": "Richard Chapia",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1020,7 +1020,7 @@
       },
       "id": "node/4457550090",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:04Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "small_cars",
         "osm:amenity": "kindergarten",
@@ -1056,7 +1056,7 @@
       },
       "id": "node/4457763959",
       "properties": {
-        "osm:_timestamp": "2016-10-21T12:09:52Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Richard Chapia",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1101,7 +1101,7 @@
       },
       "id": "node/4461370056",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:50Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1154,7 +1154,7 @@
       },
       "id": "node/4461458485",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:04Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1204,7 +1204,7 @@
       },
       "id": "node/4461458486",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:21:16Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1257,7 +1257,7 @@
       },
       "id": "node/4461458487",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:21:16Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1309,7 +1309,7 @@
       },
       "id": "node/4461458488",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:21:15Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1365,7 +1365,7 @@
       },
       "id": "node/4461494343",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:27Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1415,7 +1415,7 @@
       },
       "id": "node/4461496406",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:27:13Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1469,7 +1469,7 @@
       },
       "id": "node/4461510623",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:27:13Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1516,7 +1516,7 @@
       },
       "id": "node/4461519044",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:41Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1560,7 +1560,7 @@
       },
       "id": "node/4462892677",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:46Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1614,7 +1614,7 @@
       },
       "id": "node/4462893659",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:17:01Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1666,7 +1666,7 @@
       },
       "id": "node/4462920821",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:17:07Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1714,7 +1714,7 @@
       },
       "id": "node/4462937714",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:37Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1758,7 +1758,7 @@
       },
       "id": "node/4462967881",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:40Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1807,7 +1807,7 @@
       },
       "id": "node/4463017734",
       "properties": {
-        "osm:_timestamp": "2016-12-06T09:32:29Z",
+        "osm:_timestamp": "2016-12-06",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1863,7 +1863,7 @@
       },
       "id": "node/4463082226",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:27Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1912,7 +1912,7 @@
       },
       "id": "node/4464506027",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:57Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1960,7 +1960,7 @@
       },
       "id": "node/4464506028",
       "properties": {
-        "osm:_timestamp": "2016-12-07T09:33:48Z",
+        "osm:_timestamp": "2016-12-07",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2010,7 +2010,7 @@
       },
       "id": "node/4464546559",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:56Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -2064,7 +2064,7 @@
       },
       "id": "node/4464546560",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:15:17Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "kindergarten",
@@ -2116,7 +2116,7 @@
       },
       "id": "node/4464601890",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:22Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2165,7 +2165,7 @@
       },
       "id": "node/4464622787",
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:14:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2203,7 +2203,7 @@
       },
       "id": "node/4464622788",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:37Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "kindergarten",
@@ -2255,7 +2255,7 @@
       },
       "id": "node/4464655293",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:32Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2304,7 +2304,7 @@
       },
       "id": "node/4464689391",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2352,7 +2352,7 @@
       },
       "id": "node/4464711189",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:45Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2397,7 +2397,7 @@
       },
       "id": "node/4465955077",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:12Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "kindergarten",
@@ -2442,7 +2442,7 @@
       },
       "id": "node/4465996146",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2493,7 +2493,7 @@
       },
       "id": "node/4466007970",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:17Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2547,7 +2547,7 @@
       },
       "id": "node/4466069585",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:01Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2599,7 +2599,7 @@
       },
       "id": "node/4467530209",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:42Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "kindergarten",
@@ -2643,7 +2643,7 @@
       },
       "id": "node/4467561519",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:59Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2698,7 +2698,7 @@
       },
       "id": "node/4467561520",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:53Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2752,7 +2752,7 @@
       },
       "id": "node/4467561521",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:15:04Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2807,7 +2807,7 @@
       },
       "id": "node/4467561522",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:15:10Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -2861,7 +2861,7 @@
       },
       "id": "node/4467561523",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:42Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2911,7 +2911,7 @@
       },
       "id": "node/4472329843",
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:48Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",

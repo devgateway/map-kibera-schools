@@ -11,7 +11,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -62,7 +62,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21T11:11:17Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Tiany",
         "osm:accessibility": "foot",
         "osm:amenity": "kindergarten",
@@ -108,7 +108,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:31Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -167,7 +167,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21T11:28:17Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Tiany",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -220,7 +220,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:05Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -272,7 +272,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -324,7 +324,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T08:42:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -375,7 +375,7 @@
       },
       "properties": {
         "osm:UNESCO POI'S": "EDUCATION",
-        "osm:_timestamp": "2016-12-08T09:14:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -428,7 +428,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:14:33Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -481,7 +481,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:14:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -530,7 +530,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:58Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -584,7 +584,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:58Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -630,7 +630,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:59Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -684,7 +684,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21T10:53:29Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Tiany",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -738,7 +738,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-07T09:34:12Z",
+        "osm:_timestamp": "2016-12-07",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -793,7 +793,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21T08:11:06Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -833,7 +833,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:58Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -882,7 +882,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:03Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -932,7 +932,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:03Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -988,7 +988,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-26T09:51:36Z",
+        "osm:_timestamp": "2016-10-26",
         "osm:_user": "Richard Chapia",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1041,7 +1041,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:04Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "small_cars",
         "osm:amenity": "kindergarten",
@@ -1078,7 +1078,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21T12:09:52Z",
+        "osm:_timestamp": "2016-10-21",
         "osm:_user": "Richard Chapia",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1124,7 +1124,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:50Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1178,7 +1178,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:07:04Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1229,7 +1229,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:21:16Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1283,7 +1283,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:21:16Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1336,7 +1336,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:21:15Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1393,7 +1393,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:27Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1444,7 +1444,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:27:13Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1499,7 +1499,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:27:13Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1547,7 +1547,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:41Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1592,7 +1592,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:46Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1647,7 +1647,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:17:01Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1700,7 +1700,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:17:07Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1749,7 +1749,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:16:37Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1794,7 +1794,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:40Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -1844,7 +1844,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-06T09:32:29Z",
+        "osm:_timestamp": "2016-12-06",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1901,7 +1901,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:27Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -1951,7 +1951,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:41:57Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2000,7 +2000,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-07T09:33:48Z",
+        "osm:_timestamp": "2016-12-07",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2051,7 +2051,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:56Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -2106,7 +2106,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:15:17Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "kindergarten",
@@ -2159,7 +2159,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:22Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2209,7 +2209,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T09:14:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "fondolucy",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2248,7 +2248,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:37Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "kindergarten",
@@ -2301,7 +2301,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:32Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2351,7 +2351,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:34Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2400,7 +2400,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:02:45Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2446,7 +2446,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:12Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "kindergarten",
@@ -2492,7 +2492,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:06Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2544,7 +2544,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:17Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2599,7 +2599,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:01Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2652,7 +2652,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:03:42Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "kindergarten",
@@ -2697,7 +2697,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:59Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2753,7 +2753,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:53Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2808,7 +2808,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:15:04Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -2864,7 +2864,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:15:10Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -2919,7 +2919,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:42Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
@@ -2970,7 +2970,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08T10:14:48Z",
+        "osm:_timestamp": "2016-12-08",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "kindergarten",
