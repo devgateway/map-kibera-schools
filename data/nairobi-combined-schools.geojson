@@ -21748,8 +21748,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "1",
@@ -21769,9 +21769,9 @@
         "osm:education:program_other": "enviromental and health club",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Jacob DE",
-        "osm:education:student_female": "74",
-        "osm:education:student_male": "46",
         "osm:education:students": "120",
+        "osm:education:students_female": "74",
+        "osm:education:students_male": "46",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "4",
@@ -21799,10 +21799,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21",
-        "osm:_user": "Tiany",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "cement_block",
         "osm:building:roof": "concrete",
@@ -21814,9 +21814,9 @@
         "osm:education:government_registered": "mgcsd",
         "osm:education:program_feeding": "no",
         "osm:education:school_head": "Ann Wambui",
-        "osm:education:student_female": "8",
-        "osm:education:student_male": "16",
         "osm:education:students": "24",
+        "osm:education:students_female": "8",
+        "osm:education:students_male": "16",
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "0",
@@ -21839,13 +21839,13 @@
         "coordinates": [
           [
             36.8599028,
-            -1.2625836
+            -1.2625634
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -21873,9 +21873,9 @@
         "osm:education:program_special_needs": "yes",
         "osm:education:pta": "no",
         "osm:education:school_head": "Alex Onyango",
-        "osm:education:student_female": "78",
-        "osm:education:student_male": "94",
         "osm:education:students": "172",
+        "osm:education:students_female": "78",
+        "osm:education:students_male": "94",
         "osm:education:teachers": "12",
         "osm:education:teachers_female": "8",
         "osm:education:teachers_male": "4",
@@ -21897,15 +21897,15 @@
       "geometry": {
         "coordinates": [
           [
-            36.8587784,
-            -1.2653975
+            36.8588695,
+            -1.2653874
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21",
-        "osm:_user": "Tiany",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -21927,9 +21927,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Evans Uhuru",
-        "osm:education:student_female": "103",
-        "osm:education:student_male": "70",
         "osm:education:students": "173",
+        "osm:education:students_female": "103",
+        "osm:education:students_male": "70",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "4",
@@ -21957,8 +21957,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
         "osm:building:levels": "1",
@@ -21980,8 +21980,8 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Mary Atieno",
-        "osm:education:student_female": "80",
         "osm:education:students": "80",
+        "osm:education:students_female": "80",
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_trained": "2",
@@ -22009,8 +22009,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "1",
@@ -22030,9 +22030,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:program_special_needs": "yes",
         "osm:education:school_head": "Kenneth Kiliima",
-        "osm:education:student_female": "124",
-        "osm:education:student_male": "100",
         "osm:education:students": "224",
+        "osm:education:students_female": "124",
+        "osm:education:students_male": "100",
         "osm:education:teachers": "11",
         "osm:education:teachers_female": "7",
         "osm:education:teachers_male": "4",
@@ -22042,7 +22042,7 @@
         "osm:electricity:operational_status": "always",
         "osm:id": "node/1103092195",
         "osm:location": "mathare",
-        "osm:name": "ST. MichaelChildren Education Center",
+        "osm:name": "ST. Michael Children Education Center",
         "osm:operator:name": "Community",
         "osm:operator:type": "Cbo",
         "osm:place:village": "Mathare Mashimoni",
@@ -22061,8 +22061,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
         "osm:building:levels": "1",
@@ -22080,9 +22080,9 @@
         "osm:education:management_committee": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Josephat Andula Okama",
-        "osm:education:student_female": "87",
-        "osm:education:student_male": "61",
         "osm:education:students": "148",
+        "osm:education:students_female": "87",
+        "osm:education:students_male": "61",
         "osm:education:teachers": "9",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "5",
@@ -22112,8 +22112,8 @@
       },
       "properties": {
         "osm:UNESCO POI'S": "EDUCATION",
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
         "osm:building:levels": "1",
@@ -22133,9 +22133,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:school_head": "Paul Opiyo",
-        "osm:education:student_female": "47",
-        "osm:education:student_male": "157",
         "osm:education:students": "204",
+        "osm:education:students_female": "47",
+        "osm:education:students_male": "157",
         "osm:education:teachers": "10",
         "osm:education:teachers_female": "6",
         "osm:education:teachers_male": "4",
@@ -22218,10 +22218,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "cement_block",
         "osm:building:roof": "ironsheets",
@@ -22236,9 +22236,9 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Mary Bakira",
-        "osm:education:student_female": "130",
-        "osm:education:student_male": "135",
         "osm:education:students": "265",
+        "osm:education:students_female": "130",
+        "osm:education:students_male": "135",
         "osm:education:teachers": "9",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "5",
@@ -22267,8 +22267,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22290,9 +22290,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Vincent Okumu",
-        "osm:education:student_female": "20",
-        "osm:education:student_male": "25",
         "osm:education:students": "45",
+        "osm:education:students_female": "20",
+        "osm:education:students_male": "25",
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "2",
@@ -22321,8 +22321,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22335,9 +22335,9 @@
         "osm:education:gender_type": "mixed",
         "osm:education:government_registered": "mgcsd",
         "osm:education:pta": "yes",
-        "osm:education:student_female": "0",
-        "osm:education:student_male": "0",
         "osm:education:students": "0",
+        "osm:education:students_female": "0",
+        "osm:education:students_male": "0",
         "osm:education:teachers": "0",
         "osm:education:teachers_female": "0",
         "osm:education:teachers_male": "0",
@@ -22367,8 +22367,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "2",
@@ -22389,9 +22389,9 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Kenneth Koskei",
-        "osm:education:student_female": "472",
-        "osm:education:student_male": "455",
         "osm:education:students": "977",
+        "osm:education:students_female": "472",
+        "osm:education:students_male": "455",
         "osm:education:teachers": "32",
         "osm:education:teachers_female": "27",
         "osm:education:teachers_male": "5",
@@ -22421,8 +22421,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21",
-        "osm:_user": "Tiany",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22444,9 +22444,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:program_sanitary_towel": "no",
         "osm:education:school_head": "Joyce Maina",
-        "osm:education:student_female": "153",
-        "osm:education:student_male": "148",
         "osm:education:students": "301",
+        "osm:education:students_female": "153",
+        "osm:education:students_male": "148",
         "osm:education:teachers": "12",
         "osm:education:teachers_female": "7",
         "osm:education:teachers_male": "5",
@@ -22475,7 +22475,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-07",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -22498,9 +22498,9 @@
         "osm:education:program_other": "computer",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Josephine Alingo",
-        "osm:education:student_female": "77",
-        "osm:education:student_male": "82",
         "osm:education:students": "159",
+        "osm:education:students_female": "77",
+        "osm:education:students_male": "82",
         "osm:education:teachers": "12",
         "osm:education:teachers_female": "10",
         "osm:education:teachers_male": "2",
@@ -22523,14 +22523,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8615394,
-            -1.2626041
+            36.8615596,
+            -1.2626345
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
@@ -22570,8 +22570,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22588,9 +22588,9 @@
         "osm:education:program_feeding": "no",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Caroline Ombewa",
-        "osm:education:student_female": "150",
-        "osm:education:student_male": "100",
         "osm:education:students": "250",
+        "osm:education:students_female": "150",
+        "osm:education:students_male": "100",
         "osm:education:teachers": "7",
         "osm:education:teachers_female": "5",
         "osm:education:teachers_male": "2",
@@ -22612,15 +22612,15 @@
       "geometry": {
         "coordinates": [
           [
-            36.8622071,
-            -1.2632193
+            36.8622982,
+            -1.2632395
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "1",
@@ -22639,9 +22639,9 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:program_other": "Sponsorship",
         "osm:education:program_special_needs": "yes",
-        "osm:education:student_female": "18",
-        "osm:education:student_male": "17",
         "osm:education:students": "35",
+        "osm:education:students_female": "18",
+        "osm:education:students_male": "17",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "2",
         "osm:education:teachers_trained": "3",
@@ -22669,8 +22669,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22694,9 +22694,9 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:program_special_needs": "yes",
-        "osm:education:student_female": "198",
-        "osm:education:student_male": "190",
         "osm:education:students": "388",
+        "osm:education:students_female": "198",
+        "osm:education:students_male": "190",
         "osm:education:teachers": "15",
         "osm:education:teachers_female": "8",
         "osm:education:teachers_male": "7",
@@ -22718,15 +22718,15 @@
       "geometry": {
         "coordinates": [
           [
-            36.8574039,
-            -1.265285
+            36.8574343,
+            -1.2652951
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-26",
-        "osm:_user": "Richard Chapia",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22749,9 +22749,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Benjamin M Lazaro",
-        "osm:education:student_female": "167",
-        "osm:education:student_male": "121",
         "osm:education:students": "288",
+        "osm:education:students_female": "167",
+        "osm:education:students_male": "121",
         "osm:education:teachers": "9",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "5",
@@ -22778,10 +22778,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "concrete",
         "osm:building:roof": "ironsheets",
@@ -22815,8 +22815,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-10-21",
-        "osm:_user": "Richard Chapia",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22831,9 +22831,9 @@
         "osm:education:management_committee": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Evans Uhuru",
-        "osm:education:student_female": "40",
-        "osm:education:student_male": "30",
         "osm:education:students": "70",
+        "osm:education:students_female": "40",
+        "osm:education:students_male": "30",
         "osm:education:teachers": "7",
         "osm:education:teachers_female": "7",
         "osm:education:teachers_male": "0",
@@ -22861,7 +22861,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -22885,9 +22885,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Patrick Buma",
-        "osm:education:student_female": "126",
-        "osm:education:student_male": "103",
         "osm:education:students": "229",
+        "osm:education:students_female": "126",
+        "osm:education:students_male": "103",
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "2",
@@ -22915,8 +22915,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:material": "ironsheets",
@@ -22938,9 +22938,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Benjamin M. Lazaro",
-        "osm:education:student_female": "69",
-        "osm:education:student_male": "51",
         "osm:education:students": "120",
+        "osm:education:students_female": "69",
+        "osm:education:students_male": "51",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "4",
@@ -22966,8 +22966,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -22989,9 +22989,9 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Douglas Lugadiri",
-        "osm:education:student_female": "177",
-        "osm:education:student_male": "266",
         "osm:education:students": "443",
+        "osm:education:students_female": "177",
+        "osm:education:students_male": "266",
         "osm:education:teachers": "14",
         "osm:education:teachers_female": "6",
         "osm:education:teachers_male": "8",
@@ -23013,15 +23013,15 @@
       "geometry": {
         "coordinates": [
           [
-            36.8561454,
-            -1.2652842
+            36.8560847,
+            -1.2653146
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "3",
@@ -23042,9 +23042,9 @@
         "osm:education:program_feeding": "Yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Peter Mutuku",
-        "osm:education:student_female": "112",
-        "osm:education:student_male": "100",
         "osm:education:students": "212",
+        "osm:education:students_female": "112",
+        "osm:education:students_male": "100",
         "osm:education:teachers": "11",
         "osm:education:teachers_female": "8",
         "osm:education:teachers_male": "3",
@@ -23073,8 +23073,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "3",
@@ -23099,9 +23099,9 @@
         "osm:education:program_special_needs": "no",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Henry L Karani",
-        "osm:education:student_female": "62",
-        "osm:education:student_male": "70",
         "osm:education:students": "132",
+        "osm:education:students_female": "62",
+        "osm:education:students_male": "70",
         "osm:education:teachers": "6",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "2",
@@ -23123,14 +23123,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8611965,
-            -1.261737
+            36.8612471,
+            -1.2617977
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -23150,9 +23150,9 @@
         "osm:education:program_feeding": "no",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Adanga Kayasi",
-        "osm:education:student_female": "80",
-        "osm:education:student_male": "110",
         "osm:education:students": "190",
+        "osm:education:students_female": "80",
+        "osm:education:students_male": "110",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "3",
@@ -23236,8 +23236,8 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -23253,9 +23253,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:program_special_needs": "yes",
         "osm:education:school_head": "Carolyne W.Muriithi",
-        "osm:education:student_female": "35",
-        "osm:education:student_male": "30",
         "osm:education:students": "65",
+        "osm:education:students_female": "35",
+        "osm:education:students_male": "30",
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "0",
@@ -23284,7 +23284,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -23298,9 +23298,9 @@
         "osm:education:management_committee": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Zenah Diana",
-        "osm:education:student_female": "92",
-        "osm:education:student_male": "48",
         "osm:education:students": "140",
+        "osm:education:students_female": "92",
+        "osm:education:students_male": "48",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "1",
@@ -23322,14 +23322,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8594435,
-            -1.2643508
+            36.8594739,
+            -1.2643407
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -23353,9 +23353,9 @@
         "osm:education:program_other": "Skill development program",
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:school_head": "Edward Sila",
-        "osm:education:student_female": "160",
-        "osm:education:student_male": "161",
         "osm:education:students": "321",
+        "osm:education:students_female": "160",
+        "osm:education:students_male": "161",
         "osm:education:teachers": "11",
         "osm:education:teachers_female": "7",
         "osm:education:teachers_male": "4",
@@ -23384,7 +23384,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -23407,9 +23407,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:program_feeding": "other",
         "osm:education:school_head": "Richard Wanjala",
-        "osm:education:student_female": "33",
-        "osm:education:student_male": "39",
         "osm:education:students": "72",
+        "osm:education:students_female": "33",
+        "osm:education:students_male": "39",
         "osm:education:teachers": "7",
         "osm:education:teachers_female": "6",
         "osm:education:teachers_male": "1",
@@ -23430,14 +23430,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8566262,
-            -1.2634078
+            36.8566363,
+            -1.2633977
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -23455,9 +23455,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:pta": "no",
         "osm:education:school_head": "Anne Okutah",
-        "osm:education:student_female": "40",
-        "osm:education:student_male": "30",
         "osm:education:students": "70",
+        "osm:education:students_female": "40",
+        "osm:education:students_male": "30",
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "0",
@@ -23479,14 +23479,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8560078,
-            -1.2635135
+            36.8559774,
+            -1.2635034
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -23574,14 +23574,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8553761,
-            -1.262641
+            36.8554267,
+            -1.2627017
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-06",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -23607,9 +23607,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Samuel Kilatya",
-        "osm:education:student_female": "120",
-        "osm:education:student_male": "130",
         "osm:education:students": "250",
+        "osm:education:students_female": "120",
+        "osm:education:students_male": "130",
         "osm:education:teachers": "9",
         "osm:education:teachers_female": "5",
         "osm:education:teachers_male": "4",
@@ -23638,7 +23638,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -23657,9 +23657,9 @@
         "osm:education:program_feeding": "no",
         "osm:education:program_other": "Provide porridge",
         "osm:education:school_head": "Zipporah Mutinda",
-        "osm:education:student_female": "12",
-        "osm:education:student_male": "8",
         "osm:education:students": "20",
+        "osm:education:students_female": "12",
+        "osm:education:students_male": "8",
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "1",
@@ -23681,15 +23681,15 @@
       "geometry": {
         "coordinates": [
           [
-            36.8561589,
-            -1.2628304
+            36.8562297,
+            -1.2629012
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
-        "osm:_user": "fondolucy",
+        "osm:_timestamp": "2017-10-12",
+        "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
         "osm:building:levels": "0",
@@ -23706,9 +23706,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Vincent Okumu",
-        "osm:education:student_female": "40",
-        "osm:education:student_male": "25",
         "osm:education:students": "65",
+        "osm:education:students_female": "40",
+        "osm:education:students_male": "25",
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "0",
@@ -23737,7 +23737,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-07",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -23757,9 +23757,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Samuel Kilatya",
-        "osm:education:student_female": "42",
-        "osm:education:student_male": "37",
         "osm:education:students": "79",
+        "osm:education:students_female": "42",
+        "osm:education:students_male": "37",
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "3",
         "osm:education:teachers_male": "0",
@@ -23788,7 +23788,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -23813,9 +23813,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Patrick Buma",
-        "osm:education:student_female": "81",
-        "osm:education:student_male": "75",
         "osm:education:students": "156",
+        "osm:education:students_female": "81",
+        "osm:education:students_male": "75",
         "osm:education:teachers": "4",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "0",
@@ -23843,10 +23843,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "1",
         "osm:building:material": "wood",
         "osm:building:roof": "ironsheets",
@@ -23865,9 +23865,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Josephat Andula Okama",
-        "osm:education:student_female": "42",
-        "osm:education:student_male": "38",
         "osm:education:students": "80",
+        "osm:education:students_female": "42",
+        "osm:education:students_male": "38",
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "0",
@@ -23896,10 +23896,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "1",
         "osm:building:material": "ironsheets",
         "osm:building:roof": "ironsheets",
@@ -23915,9 +23915,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:program_feeding": "yes",
         "osm:education:school_head": "Edward Sila",
-        "osm:education:student_female": "124",
-        "osm:education:student_male": "123",
         "osm:education:students": "247",
+        "osm:education:students_female": "124",
+        "osm:education:students_male": "123",
         "osm:education:teachers": "6",
         "osm:education:teachers_female": "6",
         "osm:education:teachers_male": "0",
@@ -23985,10 +23985,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "1",
         "osm:building:material": "ironsheets",
         "osm:building:roof": "ironsheets",
@@ -24007,9 +24007,9 @@
         "osm:education:program_counselling": "yes",
         "osm:education:program_feeding": "yes",
         "osm:education:school_head": "Richard Wanjala",
-        "osm:education:student_female": "17",
-        "osm:education:student_male": "15",
         "osm:education:students": "32",
+        "osm:education:students_female": "17",
+        "osm:education:students_male": "15",
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "0",
@@ -24038,10 +24038,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "1",
         "osm:building:material": "concrete",
         "osm:building:roof": "ironsheets",
@@ -24057,9 +24057,9 @@
         "osm:education:program_feeding": "no",
         "osm:education:program_other": "Provide porriadge",
         "osm:education:school_head": "Zipporah Mutinda",
-        "osm:education:student_female": "24",
-        "osm:education:student_male": "29",
         "osm:education:students": "53",
+        "osm:education:students_female": "24",
+        "osm:education:students_male": "29",
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "0",
@@ -24088,7 +24088,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -24106,9 +24106,9 @@
         "osm:education:program_feeding": "no",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Adanga Kayasi",
-        "osm:education:student_female": "30",
-        "osm:education:student_male": "20",
         "osm:education:students": "50",
+        "osm:education:students_female": "30",
+        "osm:education:students_male": "20",
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "3",
         "osm:education:teachers_male": "0",
@@ -24137,10 +24137,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "ironsheets",
         "osm:building:roof": "ironsheets",
@@ -24152,9 +24152,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:program_other": "Provide porriadge",
         "osm:education:school_head": "Roselyne Wawire",
-        "osm:education:student_female": "4",
-        "osm:education:student_male": "4",
         "osm:education:students": "8",
+        "osm:education:students_female": "4",
+        "osm:education:students_male": "4",
         "osm:education:teachers": "2",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "0",
@@ -24183,10 +24183,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "ironsheets",
         "osm:building:roof": "ironsheets",
@@ -24198,9 +24198,9 @@
         "osm:education:gender_type": "mixed",
         "osm:education:program_feeding": "no",
         "osm:education:school_head": "Beattrice Gamba",
-        "osm:education:student_female": "16",
-        "osm:education:student_male": "14",
         "osm:education:students": "30",
+        "osm:education:students_female": "16",
+        "osm:education:students_male": "14",
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "1",
@@ -24229,7 +24229,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -24250,9 +24250,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:pta": "no",
         "osm:education:school_head": "Reagan Waithaka",
-        "osm:education:student_female": "120",
-        "osm:education:student_male": "150",
         "osm:education:students": "270",
+        "osm:education:students_female": "120",
+        "osm:education:students_male": "150",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "4",
         "osm:education:teachers_male": "1",
@@ -24281,7 +24281,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -24305,9 +24305,9 @@
         "osm:education:management_committee": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Jecinter Ogola",
-        "osm:education:student_female": "53",
-        "osm:education:student_male": "35",
         "osm:education:students": "88",
+        "osm:education:students_female": "53",
+        "osm:education:students_male": "35",
         "osm:education:teachers": "7",
         "osm:education:teachers_female": "5",
         "osm:education:teachers_male": "2",
@@ -24389,10 +24389,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "small_cars",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "ironsheets",
         "osm:building:roof": "ironsheets",
@@ -24404,9 +24404,9 @@
         "osm:education:gender_type": "mixed",
         "osm:education:program_feeding": "yes",
         "osm:education:school_head": "Lilian Adhiambo Ngesi",
-        "osm:education:student_female": "13",
-        "osm:education:student_male": "7",
         "osm:education:students": "20",
+        "osm:education:students_female": "13",
+        "osm:education:students_male": "7",
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "0",
@@ -24434,7 +24434,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -24459,9 +24459,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Beatrice M. Mbugua",
-        "osm:education:student_female": "105",
-        "osm:education:student_male": "114",
         "osm:education:students": "219",
+        "osm:education:students_female": "105",
+        "osm:education:students_male": "114",
         "osm:education:teachers": "8",
         "osm:education:teachers_female": "0",
         "osm:education:teachers_male": "8",
@@ -24483,14 +24483,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8546737,
-            -1.2613638
+            36.8547243,
+            -1.2613739
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -24514,9 +24514,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Beatrice M. Mbugua",
-        "osm:education:student_female": "146",
-        "osm:education:student_male": "145",
         "osm:education:students": "291",
+        "osm:education:students_female": "146",
+        "osm:education:students_male": "145",
         "osm:education:teachers": "7",
         "osm:education:teachers_female": "2",
         "osm:education:teachers_male": "5",
@@ -24545,7 +24545,7 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
         "osm:amenity": "school",
@@ -24570,9 +24570,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "no",
         "osm:education:school_head": "Barack",
-        "osm:education:student_female": "149",
-        "osm:education:student_male": "143",
         "osm:education:students": "292",
+        "osm:education:students_female": "149",
+        "osm:education:students_male": "143",
         "osm:education:teachers": "5",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "4",
@@ -24594,14 +24594,14 @@
       "geometry": {
         "coordinates": [
           [
-            36.8569979,
-            -1.2628855
+            36.8569777,
+            -1.2629159
           ]
         ],
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "foot",
         "osm:amenity": "school",
@@ -24625,9 +24625,9 @@
         "osm:education:program_sanitary_towel": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Calvince Okello",
-        "osm:education:student_female": "76",
-        "osm:education:student_male": "50",
         "osm:education:students": "126",
+        "osm:education:students_female": "76",
+        "osm:education:students_male": "50",
         "osm:education:teachers": "6",
         "osm:education:teachers_female": "3",
         "osm:education:teachers_male": "3",
@@ -24656,10 +24656,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "0",
         "osm:building:material": "ironsheets",
         "osm:building:roof": "ironsheets",
@@ -24675,9 +24675,9 @@
         "osm:education:management_committee": "no",
         "osm:education:program_feeding": "yes",
         "osm:education:school_head": "Jemimah Omusikoyo",
-        "osm:education:student_female": "17",
-        "osm:education:student_male": "7",
         "osm:education:students": "24",
+        "osm:education:students_female": "17",
+        "osm:education:students_male": "7",
         "osm:education:teachers": "1",
         "osm:education:teachers_female": "1",
         "osm:education:teachers_male": "0",
@@ -24707,10 +24707,10 @@
         "type": "MultiPoint"
       },
       "properties": {
-        "osm:_timestamp": "2016-12-08",
+        "osm:_timestamp": "2017-10-12",
         "osm:_user": "muindre",
         "osm:accessibility": "big_vehicles",
-        "osm:amenity": "kindergarten",
+        "osm:amenity": "school",
         "osm:building:levels": "1",
         "osm:building:material": "concrete",
         "osm:building:roof": "ironsheets",
@@ -24728,9 +24728,9 @@
         "osm:education:program_feeding": "yes",
         "osm:education:pta": "yes",
         "osm:education:school_head": "Beatrice M. Mbugua",
-        "osm:education:student_female": "30",
-        "osm:education:student_male": "20",
         "osm:education:students": "50",
+        "osm:education:students_female": "30",
+        "osm:education:students_male": "20",
         "osm:education:teachers": "3",
         "osm:education:teachers_female": "3",
         "osm:education:teachers_male": "0",
